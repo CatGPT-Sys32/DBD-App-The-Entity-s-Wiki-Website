@@ -219,11 +219,6 @@ var WORLDLE_DATA = {
       "first",
       "henry",
       "henry creel"
-    ],
-    "The Slasher": [
-      "slasher",
-      "jason",
-      "jason voorhees"
     ]
   },
   "genders": {
@@ -268,8 +263,7 @@ var WORLDLE_DATA = {
     "The Ghoul": "Male",
     "The Animatronic": "Male",
     "The Krasue": "Female",
-    "The First": "Male",
-    "The Slasher": "Male"
+    "The First": "Male"
   },
   "emojiClues": {
     "The Trapper": [
@@ -1361,32 +1355,6 @@ var WORLDLE_DATA = {
           "🟥",
           "🌩️",
           "⏰"
-        ]
-      }
-    ],
-    "The Slasher": [
-      {
-        "id": "set-1",
-        "emojis": [
-          "🏒",
-          "🔪",
-          "🏕️"
-        ]
-      },
-      {
-        "id": "set-2",
-        "emojis": [
-          "🎭",
-          "🌲",
-          "🩸"
-        ]
-      },
-      {
-        "id": "set-3",
-        "emojis": [
-          "🌫️",
-          "🪝",
-          "⚰️"
         ]
       }
     ]

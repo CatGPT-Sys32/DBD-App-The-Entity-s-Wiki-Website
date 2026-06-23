@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-  <title>The Entity's Wiki</title>
+  <title>DBD Companion App</title>
   <script src="./vendor/react.production.min.js"></script>
   <script src="./vendor/react-dom.production.min.js"></script>
   <script src="./vendor/babel.min.js"></script>
@@ -18,20 +18,15 @@
       --chip: rgba(255, 255, 255, 0.06);
       --text: #e5e7eb;
       --muted: #94a3b8;
-      --text-soft: color-mix(in srgb, var(--text) 78%, var(--muted));
-      --text-faint: color-mix(in srgb, var(--muted) 74%, var(--bg-02));
       --nav-bg: rgba(12, 16, 26, 0.9);
       --glass-bg: #141a28;
       --ghost-surface: rgba(255, 255, 255, 0.05);
       --ghost-strong: rgba(255, 255, 255, 0.16);
-      --surface-subtle: color-mix(in srgb, var(--panel) 72%, var(--ghost-surface));
-      --surface-raised: color-mix(in srgb, var(--glass-bg) 82%, var(--panel));
-      --surface-hover: color-mix(in srgb, var(--ghost-surface) 72%, var(--accent-soft));
       --shadow-soft: 0 8px 30px rgba(0, 0, 0, 0.35);
       --shadow-strong: 0 16px 60px rgba(0, 0, 0, 0.45);
-      --accent: #ffffff;
-      --accent-soft: #1a1a1a;
-      --site-shell-bg: linear-gradient(180deg, var(--bg-01), var(--bg-02));
+      --accent: #38bdf8;
+      --accent-soft: #102033;
+      --app-shell-bg: linear-gradient(180deg, var(--bg-01), var(--bg-02));
       --ambient-glow: radial-gradient(120% 120% at 20% 20%, rgba(56, 189, 248, 0.08), transparent 55%);
       --ambient-opacity: 0.35;
       --selection-bg: rgba(56, 189, 248, 0.2);
@@ -47,6 +42,7 @@
       --full-select-text: var(--text);
       --full-select-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.03), 0 10px 28px rgba(0, 0, 0, 0.35);
       --full-select-focus-ring: rgba(56, 189, 248, 0.25);
+      --system-nav-button-offset: 0px;
     }
 
     body {
@@ -54,7 +50,7 @@
       color: var(--text);
       font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
       overflow: hidden;
-      letter-spacing: 0;
+      letter-spacing: 0.01em;
       position: relative;
     }
 
@@ -233,12 +229,12 @@
       }
     }
 
-    .site-shell {
-      background: var(--site-shell-bg);
+    .app-shell {
+      background: var(--app-shell-bg);
       border: 1px solid var(--stroke);
     }
 
-    .oled-mode .site-shell {
+    .oled-mode .app-shell {
       background: #000000;
     }
 
@@ -307,7 +303,7 @@
     }
 
     input::placeholder {
-      color: var(--text-faint);
+      color: #6b7280;
     }
 
     button:focus-visible,
@@ -331,14 +327,14 @@
     .glass-button {
       position: relative;
       border: 1px solid var(--stroke);
-      background: var(--surface-raised);
+      background: #0a0a0a;
       color: var(--muted);
     }
 
     .glass-button--active {
       color: var(--accent);
       border: 2px solid var(--accent);
-      background: var(--surface-hover);
+      background: #0a0a0a;
       box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
     }
 
@@ -372,345 +368,7 @@
     .nav-safe-area {
       padding-left: max(12px, env(safe-area-inset-left));
       padding-right: max(12px, env(safe-area-inset-right));
-      padding-bottom: max(12px, env(safe-area-inset-bottom));
-    }
-
-    .website-shell {
-      background: var(--site-shell-bg);
-    }
-
-    .website-shell::before {
-      content: none;
-    }
-
-    .website-topbar {
-      position: relative;
-      z-index: 20;
-      min-height: 68px;
-      background: #000000;
-      border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-      backdrop-filter: none;
-      box-shadow: none;
-    }
-
-    .website-topbar::after {
-      content: none;
-    }
-
-    .website-brand-mark {
-      color: var(--accent);
-      filter: none;
-    }
-
-    .website-status-pill {
-      min-height: 34px;
-      display: inline-flex;
-      align-items: center;
-      gap: 8px;
-      border: 1px solid rgba(255, 255, 255, 0.09);
-      background: rgba(255, 255, 255, 0.04);
-      padding: 0 12px;
-      color: var(--muted);
-      font-size: 11px;
-      font-weight: 800;
-      text-transform: uppercase;
-      letter-spacing: 0.12em;
-      white-space: nowrap;
-    }
-
-    .website-workspace {
-      min-height: 0;
-    }
-
-    .website-sidebar {
-      width: 286px;
-      border-right: 1px solid var(--stroke);
-      background:
-        linear-gradient(180deg, var(--ghost-surface), transparent),
-        var(--nav-bg);
-      backdrop-filter: blur(20px);
-      box-shadow: var(--shadow-soft);
-    }
-
-    .website-sidebar-scroll {
-      scrollbar-width: thin;
-      scrollbar-color: var(--ghost-strong) transparent;
-    }
-
-    .website-nav-section-title {
-      color: var(--muted);
-      font-size: 10px;
-      font-weight: 800;
-      text-transform: uppercase;
-      letter-spacing: 0.18em;
-    }
-
-    .website-nav-link {
-      position: relative;
-      color: var(--muted);
-      border: 1px solid transparent;
-      background: transparent;
-      min-height: 46px;
-    }
-
-    .website-nav-link:hover {
-      color: var(--text);
-      background: var(--ghost-surface);
-      border-color: transparent;
-    }
-
-    .website-nav-link--active {
-      color: var(--text);
-      background: var(--surface-hover);
-      border-color: var(--stroke);
-      box-shadow: inset 2px 0 0 var(--accent);
-    }
-
-    .website-sidebar-search {
-      background: var(--surface-raised);
-      backdrop-filter: blur(18px);
-      border: 1px solid var(--stroke);
-      box-shadow: var(--shadow-soft);
-    }
-
-    .website-sidebar-search:hover {
-      border-color: var(--ghost-strong);
-      background: var(--surface-hover);
-    }
-
-    .home-command {
-      width: min(1180px, 100%);
-      margin-inline: auto;
-      min-width: 0;
-    }
-
-    .home-command-hero {
-      position: relative;
-      overflow: hidden;
-      border-bottom: 1px solid var(--stroke);
-      background: var(--surface-subtle);
-    }
-
-    .home-command-hero * {
-      min-width: 0;
-    }
-
-    .home-command-search {
-      background:
-        linear-gradient(180deg, var(--ghost-surface), transparent),
-        var(--surface-raised);
-      border: 1px solid var(--stroke);
-      box-shadow: var(--shadow-soft);
-    }
-
-    .home-stat-grid {
-      display: grid;
-      grid-template-columns: repeat(2, minmax(0, 1fr));
-      gap: 8px;
-      width: 100%;
-      max-width: 28rem;
-    }
-
-    @media (min-width: 640px) {
-      .home-stat-grid {
-        grid-template-columns: repeat(4, minmax(0, 1fr));
-      }
-    }
-
-    .home-stat-card,
-    .home-tool-card,
-    .home-signal-card {
-      border: 1px solid var(--stroke);
-      background: var(--surface-subtle);
-      box-shadow: none;
-    }
-
-    .home-tool-card {
-      min-height: 92px;
-      transition: transform 160ms ease, border-color 160ms ease, background 160ms ease;
-    }
-
-    .home-tool-card:hover {
-      transform: translateY(-2px);
-      border-color: var(--ghost-strong);
-      background: var(--surface-hover);
-    }
-
-    .home-tool-icon {
-      border: 1px solid var(--stroke);
-      background: var(--ghost-surface);
-      color: var(--accent);
-    }
-
-    .home-portrait-strip {
-      min-height: 196px;
-      background:
-        linear-gradient(180deg, var(--ghost-surface), transparent),
-        var(--surface-subtle);
-    }
-
-    .home-portrait-card {
-      border: 1px solid var(--stroke);
-      background: var(--surface-raised);
-      box-shadow: none;
-    }
-
-    .home-filter-chip {
-      border: 1px solid var(--stroke);
-      background: var(--ghost-surface);
-      color: var(--text-soft);
-      transition: border-color 160ms ease, color 160ms ease, background 160ms ease;
-    }
-
-    .home-filter-chip:hover {
-      border-color: color-mix(in srgb, var(--accent) 52%, var(--stroke));
-      color: var(--text);
-      background: var(--surface-hover);
-    }
-
-    .home-index {
-      max-width: 1120px;
-      margin-inline: auto;
-      border-top: 1px solid var(--stroke);
-    }
-
-    .home-index-row {
-      width: 100%;
-      display: grid;
-      grid-template-columns: 44px minmax(0, 1fr) auto;
-      gap: 14px;
-      align-items: center;
-      padding: 17px 4px;
-      color: var(--text);
-      text-align: left;
-      border-bottom: 1px solid var(--stroke);
-      transition: background 160ms ease, padding 160ms ease;
-    }
-
-    .home-index-row:hover {
-      background: var(--ghost-surface);
-      padding-left: 12px;
-      padding-right: 12px;
-    }
-
-    .home-index-icon {
-      width: 36px;
-      height: 36px;
-      border-radius: 10px;
-      background: var(--ghost-surface);
-      border: 1px solid var(--stroke);
-      color: var(--accent);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
-
-    .home-index-action {
-      display: flex;
-      align-items: center;
-      gap: 8px;
-      color: var(--text-faint);
-      font-size: 11px;
-      font-weight: 900;
-      text-transform: uppercase;
-      letter-spacing: 0.16em;
-      white-space: nowrap;
-    }
-
-    .home-index-row:hover .home-index-action {
-      color: var(--accent);
-    }
-
-    .home-portrait-caption {
-      background: linear-gradient(to top, #000000, rgba(0, 0, 0, 0.75), transparent);
-    }
-
-    .play-store-footer {
-      border-top: 1px solid var(--stroke);
-      background: var(--surface-subtle);
-    }
-
-    .play-store-eyebrow {
-      color: var(--text-faint);
-      font-size: 10px;
-      font-weight: 900;
-      letter-spacing: 0.22em;
-      text-transform: uppercase;
-    }
-
-    .google-play-badge {
-      display: block;
-      width: 156px;
-      height: auto;
-    }
-
-    .play-store-footer--mobile {
-      border: 1px solid var(--stroke);
-      background: var(--nav-bg);
-      backdrop-filter: blur(18px);
-    }
-
-    .play-store-dismiss {
-      width: 26px;
-      height: 26px;
-      border: 1px solid var(--stroke);
-      background: var(--ghost-surface);
-      color: var(--muted);
-    }
-
-    .play-store-dismiss:hover {
-      color: var(--text);
-      background: var(--ghost-strong);
-    }
-
-    .play-store-footer--mobile .google-play-badge {
-      width: 126px;
-    }
-
-    @media (max-width: 640px) {
-      .home-index-row {
-        grid-template-columns: 34px minmax(0, 1fr);
-      }
-
-      .home-index-action {
-        display: none;
-      }
-    }
-
-    .website-main {
-      isolation: isolate;
-    }
-
-    @media (min-width: 768px) {
-      .website-main .h-full>.overflow-y-auto,
-      .website-main>div>.overflow-y-auto {
-        padding-bottom: 28px;
-      }
-    }
-
-    @media (max-width: 767px) {
-      .website-topbar {
-        min-height: 64px;
-      }
-
-      .website-status-pill {
-        display: none;
-      }
-
-      .home-portrait-strip {
-        min-height: 190px;
-      }
-
-      .mobile-app-cta-visible .website-main .h-full>.overflow-y-auto,
-      .mobile-app-cta-visible .website-main>div>.overflow-y-auto {
-        padding-bottom: calc(13rem + env(safe-area-inset-bottom)) !important;
-      }
-    }
-
-    @media (max-width: 360px), (max-height: 700px) {
-      .play-store-footer--mobile {
-        display: none;
-      }
+      padding-bottom: calc(max(12px, env(safe-area-inset-bottom, 0px)) + var(--system-nav-button-offset));
     }
 
     @media (max-width: 360px) {
@@ -729,111 +387,43 @@
       color-scheme: light;
     }
 
-    .light-mode .site-shell {
-      background: var(--site-shell-bg);
+    .light-mode .app-shell {
+      background: linear-gradient(180deg, rgba(255, 255, 255, 0.9), rgba(241, 245, 249, 0.95));
     }
 
     .light-mode .glass-button--active {
       color: var(--accent);
-      background: var(--surface-hover);
+      background: #f8fafc;
     }
 
     .light-mode .nav-item--active {
       box-shadow: var(--shadow-soft);
     }
 
-    .light-mode .website-topbar,
-    .light-mode .website-topbar .website-brand-mark,
-    .light-mode .website-topbar .text-white,
-    .light-mode .website-topbar .text-slate-100,
-    .light-mode .website-topbar .text-slate-200,
-    .light-mode .website-topbar .text-zinc-300,
-    .light-mode .website-topbar .hover\:text-white:hover {
-      color: #f8fafc !important;
+    .light-mode .text-white,
+    .light-mode .text-slate-100,
+    .light-mode .text-slate-200,
+    .light-mode .text-slate-300 {
+      color: #0f172a !important;
     }
 
-    .light-mode .website-topbar .text-zinc-400,
-    .light-mode .website-topbar .text-zinc-500 {
-      color: rgba(226, 232, 240, 0.78) !important;
+    .light-mode .text-zinc-300 {
+      color: #1f2937 !important;
     }
 
-    .light-mode .website-topbar .bg-white\/5,
-    .light-mode .website-topbar .bg-white\/\[0\.035\],
-    .light-mode .website-topbar .hover\:bg-white\/10:hover {
-      background: rgba(255, 255, 255, 0.055) !important;
+    .light-mode .text-zinc-400,
+    .light-mode .text-slate-400 {
+      color: #334155 !important;
     }
 
-    .light-mode .website-topbar .border-white\/10 {
-      border-color: rgba(255, 255, 255, 0.12) !important;
-    }
-
-    .light-mode .website-sidebar {
-      background:
-        linear-gradient(180deg, rgba(255, 255, 255, 0.76), rgba(248, 250, 252, 0.84)),
-        var(--nav-bg);
-    }
-
-    .light-mode .website-nav-link--active,
-    .light-mode .website-sidebar-search {
-      background: rgba(255, 255, 255, 0.72) !important;
-    }
-
-    .light-mode .website-nav-link--active {
-      box-shadow: inset 2px 0 0 #111827;
-    }
-
-    .light-mode .website-nav-link--active svg {
+    .light-mode .text-zinc-500,
+    .light-mode .text-slate-500 {
       color: #475569 !important;
-      stroke: currentColor !important;
     }
 
-    .light-mode .website-nav-link:hover,
-    .light-mode .website-sidebar-search:hover {
-      background: rgba(255, 255, 255, 0.86) !important;
-    }
-
-    .text-white,
-    .text-slate-100,
-    .text-slate-200,
-    .text-slate-300,
-    .hover\:text-white:hover,
-    .group:hover .group-hover\:text-white {
-      color: var(--text) !important;
-    }
-
-    .text-white\/80,
-    .text-white\/70,
-    .text-zinc-300 {
-      color: var(--text-soft) !important;
-    }
-
-    .text-white\/60,
-    .text-zinc-400,
-    .text-slate-400 {
-      color: var(--muted) !important;
-    }
-
-    .text-white\/40,
-    .text-zinc-500,
-    .text-slate-500 {
-      color: var(--text-faint) !important;
-    }
-
-    .text-white\/30,
-    .text-zinc-600,
-    .text-slate-600 {
-      color: color-mix(in srgb, var(--text-faint) 70%, var(--bg-02)) !important;
-    }
-
-    .bg-gradient-to-r.text-white,
-    .bg-red-600.text-white,
-    .bg-blue-600.text-white,
-    .bg-green-600.text-white,
-    .from-red-700.text-white,
-    .from-blue-700.text-white,
-    .from-red-800.text-white,
-    .from-blue-800.text-white {
-      color: #ffffff !important;
+    .light-mode .text-zinc-600,
+    .light-mode .text-slate-600 {
+      color: #6b7280 !important;
     }
 
     .chip {
@@ -870,13 +460,8 @@
     }
 
     .themed-select option {
-      background-color: #111827;
-      color: #e5e7eb;
-    }
-
-    .themed-select optgroup {
-      background-color: #111827;
-      color: #e5e7eb;
+      background-color: var(--panel);
+      color: var(--text);
     }
 
     .themed-select.compact {
@@ -886,242 +471,34 @@
     }
 
     .light-mode .themed-select {
-      background-color: #ffffff;
       color: #0f172a;
-      border-color: rgba(15, 23, 42, 0.14);
       box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.45), 0 10px 28px rgba(15, 23, 42, 0.16);
       background-image:
         linear-gradient(145deg, rgba(15, 23, 42, 0.04), rgba(15, 23, 42, 0)),
         url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='18' height='18' viewBox='0 0 24 24' fill='none' stroke='%230f172a' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'/%3E%3C/svg%3E");
     }
 
-    .light-mode .themed-select option,
-    .light-mode .themed-select optgroup {
-      background-color: #ffffff !important;
-      color: #111827 !important;
-    }
-
-    .light-mode .themed-select option:checked {
-      background-color: #e5e7eb !important;
-      color: #111827 !important;
-    }
-
-    .oled-mode .themed-select option,
-    .oled-mode .themed-select optgroup {
-      background-color: #000000 !important;
-      color: #e5e7eb !important;
-    }
-
-    .light-mode .bg-zinc-950\/70,
-    .light-mode .bg-zinc-950\/50,
-    .light-mode .bg-zinc-900\/95,
-    .light-mode .bg-zinc-900\/80,
-    .light-mode .bg-zinc-900\/70,
-    .light-mode .bg-zinc-900\/60,
-    .light-mode .bg-zinc-900\/50,
-    .light-mode .bg-zinc-900\/45,
-    .light-mode .bg-zinc-900\/40,
-    .light-mode .bg-zinc-900,
-    .light-mode .bg-zinc-800\/90,
-    .light-mode .bg-zinc-800\/80,
-    .light-mode .bg-zinc-800\/70,
-    .light-mode .bg-zinc-800\/60,
-    .light-mode .bg-zinc-800\/50,
-    .light-mode .bg-zinc-800\/40,
-    .light-mode .bg-zinc-800,
-    .light-mode .bg-zinc-700\/50,
-    .light-mode .bg-black\/20,
-    .light-mode .bg-black\/25,
-    .light-mode .bg-black\/30,
-    .light-mode .bg-black\/40 {
-      background: rgba(255, 255, 255, 0.78) !important;
-      border-color: rgba(15, 23, 42, 0.14) !important;
-      box-shadow: 0 10px 30px rgba(15, 23, 42, 0.08) !important;
-    }
-
-    .light-mode .bg-white\/5,
-    .light-mode .bg-white\/8,
-    .light-mode .bg-white\/10,
-    .light-mode .bg-white\/\[0\.02\],
-    .light-mode .bg-white\/\[0\.035\],
-    .light-mode .hover\:bg-white\/5:hover,
-    .light-mode .hover\:bg-white\/8:hover,
-    .light-mode .hover\:bg-white\/10:hover {
-      background: rgba(15, 23, 42, 0.045) !important;
-    }
-
-    .light-mode .home-stat-card,
-    .light-mode .home-tool-card,
-    .light-mode .home-signal-card,
-    .light-mode .home-command-search {
-      background: rgba(255, 255, 255, 0.78) !important;
-      border-color: rgba(15, 23, 42, 0.14) !important;
-    }
-
-    .light-mode .home-command-hero {
-      background: rgba(255, 255, 255, 0.42) !important;
-      border-color: rgba(15, 23, 42, 0.12) !important;
-    }
-
-    .light-mode .home-stat-card svg,
-    .light-mode .home-index-icon svg {
-      color: rgba(15, 23, 42, 0.34) !important;
-      stroke: currentColor;
-    }
-
-    .light-mode .home-portrait-caption {
-      background: linear-gradient(to top, rgba(255, 255, 255, 0.94), rgba(255, 255, 255, 0.74), transparent) !important;
-      border-top: 1px solid rgba(15, 23, 42, 0.08);
-    }
-
-    .light-mode .timeline-release-badge {
-      background: rgba(15, 23, 42, 0.08) !important;
-      color: #334155 !important;
-      border: 1px solid rgba(15, 23, 42, 0.12);
-    }
-
-    .light-mode .game-icon-tile,
-    .light-mode .game-icon-row {
-      background: rgba(255, 255, 255, 0.82) !important;
-      border-color: rgba(15, 23, 42, 0.14) !important;
-      box-shadow: 0 10px 26px rgba(15, 23, 42, 0.08) !important;
-    }
-
-    .light-mode .game-icon-tile:hover,
-    .light-mode .game-icon-row:hover {
-      background: rgba(255, 255, 255, 0.94) !important;
-      border-color: rgba(15, 23, 42, 0.22) !important;
-    }
-
-    .light-mode .game-icon-row [style*="background-color"],
-    .light-mode .game-icon-tile [style*="background-color"] {
-      background-color: rgba(15, 23, 42, 0.055) !important;
-    }
-
-    .light-mode .game-icon-category {
-      background: rgba(15, 23, 42, 0.07) !important;
-      color: #334155 !important;
-    }
-
-    .light-mode .perk-effect-text {
-      color: #334155 !important;
-    }
-
-    .light-mode .perk-effect-text .text-zinc-500,
-    .light-mode .perk-effect-label {
-      color: #64748b !important;
-    }
-
-    .mode-choice {
-      border: 1px solid var(--stroke);
-      background: var(--ghost-surface);
-      color: var(--muted);
-    }
-
-    .mode-choice--active {
-      border-color: var(--accent);
-      background: var(--surface-hover);
-      color: var(--text);
-      box-shadow: var(--shadow-soft);
-    }
-
-    .light-mode .mode-choice {
-      background: rgba(255, 255, 255, 0.68);
-      border-color: rgba(15, 23, 42, 0.14);
-      color: #64748b;
-    }
-
-    .light-mode .mode-choice--active {
-      background: rgba(15, 23, 42, 0.08);
-      border-color: rgba(15, 23, 42, 0.32);
-      color: #111827;
-    }
-
-    .light-mode [style*="rgba(255,255,255,0.03)"],
-    .light-mode [style*="rgba(255, 255, 255, 0.03)"] {
-      background-color: rgba(255, 255, 255, 0.58) !important;
-    }
-
-    .light-mode [style*="rgba(255,255,255,0.05)"],
-    .light-mode [style*="rgba(255, 255, 255, 0.05)"] {
-      border-color: rgba(15, 23, 42, 0.12) !important;
-    }
-
-    .light-mode [style*="#09090b"] {
-      background-color: #111827 !important;
-      border-color: rgba(15, 23, 42, 0.35) !important;
-    }
-
-    .light-mode [style*="#a1a1aa"] {
-      color: #64748b !important;
-    }
-
-    .light-mode .text-cyan-200,
-    .light-mode .text-cyan-300 {
-      color: #0e7490 !important;
-    }
-
-    .light-mode .text-emerald-200,
-    .light-mode .text-emerald-300 {
-      color: #047857 !important;
-    }
-
-    .light-mode .text-fuchsia-300 {
-      color: #a21caf !important;
-    }
-
-    .light-mode .text-red-200,
-    .light-mode .text-red-300 {
-      color: #b91c1c !important;
-    }
-
-    .light-mode .text-amber-200,
-    .light-mode .text-amber-300 {
-      color: #b45309 !important;
-    }
-
-    .light-mode .text-blue-200,
-    .light-mode .text-blue-300 {
-      color: #1d4ed8 !important;
-    }
-
     .bg-zinc-900\/40,
     .bg-zinc-900\/60,
     .bg-zinc-900\/80,
-    .bg-zinc-900,
     .bg-zinc-800\/60,
     .bg-zinc-800\/50,
-    .bg-zinc-800,
     .bg-zinc-700\/50,
-    .bg-zinc-950\/50,
-    .bg-black\/20,
-    .bg-black\/30,
-    .bg-black\/40 {
-      background: var(--surface-raised) !important;
+    .bg-zinc-950\/50 {
+      background: var(--panel) !important;
       border: 1px solid var(--stroke) !important;
       box-shadow: var(--shadow-soft);
     }
 
-    .bg-white\/5,
-    .bg-white\/\[0\.02\],
-    .bg-white\/\[0\.035\],
-    .bg-white\/10,
-    .hover\:bg-white\/5:hover,
-    .hover\:bg-white\/10:hover,
-    .group:hover .group-hover\:bg-white\/10 {
+    .bg-white\/5 {
       background: var(--ghost-surface) !important;
     }
 
-    .border-white\/5,
-    .border-white\/8,
-    .border-white\/10,
-    .border-white\/15 {
+    .border-white\/5 {
       border-color: var(--stroke) !important;
     }
 
-    .border-white\/20,
-    .border-white\/30,
-    .hover\:border-white\/20:hover {
+    .border-white\/10 {
       border-color: var(--ghost-strong) !important;
     }
 
@@ -1540,7 +917,7 @@
         }
 
         if (payload.v > 2) {
-          return { success: false, error: `This shared build came from a newer website version (v${payload.v}). Please refresh the wiki.` };
+          return { success: false, error: `This shared build came from a newer app version (v${payload.v}). Please update your app.` };
         }
 
         let character = null;
@@ -1577,7 +954,7 @@
           if (addonData.n) {
             const found = addons.find(a => a.name.toLowerCase() === addonData.n.toLowerCase());
             if (found) return found.name;
-            warnings.push(`Addon not found in wiki data: ${addonData.n}`);
+            warnings.push(`Addon not found in app data: ${addonData.n}`);
             return addonData.n;
           }
           return null;
@@ -1706,9 +1083,9 @@
       }
     };
     const META = {
-      siteVersion: "5.31.0",
-      gameVersion: "9.6.0",
-      lastSynced: "April 30, 2026",
+      appVersion: "5.33.0",
+      gameVersion: "10.0.0",
+      lastSynced: "June 18, 2026",
       contact: {
         email: "hexplosions.happen@gmail.com",
         discord: "hexplosions_happen"
@@ -1722,6 +1099,457 @@
         "DBD public sources - up-to-date game info"
       ]
     };
+    const CHANGELOG = [
+      {
+        version: "5.33.0",
+        date: "June 18, 2026",
+        changes: [
+          "UPDATE : Synced to Dead by Daylight 10.0.0 with The Slasher, Shane Wiigwaas, new perks, Slasher add-ons, portraits, perk icons, power icon, and latest cosmetics",
+          "UPDATE : Added catalog sync support for new characters, perks, powers, add-ons, and local wiki image assets",
+          "FIX : Added Worldle metadata coverage for The Slasher"
+        ]
+      },
+      {
+        version: "5.32.0",
+        date: "May 11, 2026",
+        changes: [
+          "UPDATE : Added missing Hell Priest cosmetics for The Cenobite",
+          "UPDATE : Added missing Escaped Patient store pieces for The Shape",
+          "FIX : Cosmetic sync now preserves these licensed store pieces during rebuilds"
+        ]
+      },
+      {
+        version: "5.31.0",
+        date: "May 1, 2026",
+        changes: [
+          "FIX : Community Tierlists links open the latest sources",
+          "UPDATE : Updated to game version 9.6.0 with the latest content and changes, including the mid-season patch adjustments"
+        ]
+      },
+      {
+        version: "5.30.0",
+        date: "April 30, 2026",
+        changes: [
+          "UPDATE : Edited scripts to manually read patch notes"
+        ]
+      },
+      {
+        version: "5.29.0",
+        date: "April 13, 2026",
+        changes: [
+          "NEW : Prestige Calculator now lists Character Badge reward tiers",
+          "NEW : Added Community tab with helpful links",
+          "UPDATE : Cosmetics coverage increased to all in-game cosmetics (around 4000 files)",
+          "FIX : New Trickster map now shows up properly in Realms"
+        ]
+      },
+      {
+        version: "5.28.0",
+        date: "April 12, 2026",
+        changes: [
+          "FIX : Submit button now works properly",
+          "FIX : Searching for addons now opens them properly",
+          "NEW : Backup and Restore the app",
+          "NEW : Legendary character browser"
+        ]
+      },
+      {
+        version: "5.27.0",
+        date: "April 10, 2026",
+        changes: [
+          "FIX : Wordle now accepts both legacy and current perk names for bloodweb perks",
+          "FIX : Typing perk categories like Hex, Boon, and Scourge Hook now shows the correct alphabetical suggestions",
+          "FIX : Settings toggles no longer black out part of the screen on mobile",
+          "UPDATE : Added new loading screen tips"
+        ]
+      },
+      {
+        version: "5.26.0",
+        date: "April 10, 2026",
+        changes: [
+          "NEW : Added the full official legendary portrait set for all characters",
+          "NEW : Added four new full-palette themes: Catppuccin Macchiato, Tokyo Night, Everforest, and Rose Pine Moon",
+          "UPDATE : Settings toggles now use better tick boxes and High Contrast mode was removed",
+          "FIX : Build Lab perks are now sorted alphabetically and show updated names"
+        ]
+      },
+      {
+        version: "5.25.0",
+        date: "April 8, 2026",
+        changes: [
+          "NEW : Added a launch screen while the app loads",
+          "UPDATE : Wordle has a better mobile layout, and added a practice mode for Classic and Emoji",
+          "UPDATE : Added more emojis and combinations for Wordle",
+          "FIX : Navigation bar being overloaded with all items at once",
+          "FIX : Removed the perk option from progression"
+        ]
+      },
+      {
+        version: "5.24.0",
+        date: "April 8, 2026",
+        changes: [
+          "NEW : Progression tab overhaul with detailed stats",
+          "NEW : Added Wordle modes for killers, perks, emoji, and teachable-perk guessing",
+          "NEW : Added notes for killers, maps, and perks",
+          "UPDATE : Match analytics now use stored states for characters, builds, perks, and maps instead of relying on live ones",
+          "FIX : Owned-content filtering now applies through the entire app, and offline behavior was improved on Android"
+        ]
+      },
+      {
+        version: "5.23.0",
+        date: "March 29, 2026",
+        changes: [
+          "UPDATE : Added the new All-Kill Comeback content",
+          "FIX : Unified image loading across the app",
+          "FIX : Added missing icons for the few remaining assets that were not included in the initial bundle",
+          "FIX : Removed unnecessary scripts that slowed app loading"
+        ]
+      },
+      {
+        version: "5.22.0",
+        date: "March 29, 2026",
+        changes: [
+          "UPDATE : Offline database refreshed to DBD 9.5.0 All-Kill: Comeback",
+          "NEW : Added Kwon Tae-Young, Sleepless District, and Trickster's Delusion",
+          "UPDATE : Refreshed Trickster, The First, and key perk descriptions to match the latest live text",
+          "UPDATE : Progression tracker and perk references synced with current live perk names"
+        ]
+      },
+      {
+        version: "5.21.0",
+        date: "March 3, 2026",
+        changes: [
+          "FIX : Status bar overlap on larger displays, so the app no longer interferes with the status bar"
+        ]
+      },
+      {
+        version: "5.20.0",
+        date: "March 3, 2026",
+        changes: [
+          "NEW : Full character profile pages — tap any killer or survivor to see their overview, power, perks, and lore in one place",
+          "NEW : Nord colour scheme added to themes",
+          "NEW : Chaos Shuffle locked pick — choose a specific character to play while still randomising perks",
+          "NEW : Sort characters by release date (oldest/newest)"
+        ]
+      },
+      {
+        version: "5.19.0",
+        date: "March 2, 2026",
+        changes: [
+          "FIX : Killer real names now displayed correctly throughout the app",
+          "FIX : Michael Myers rework — updated mechanics and description",
+          "FIX : Legion ability description corrected",
+          "FIX : Perk icons no longer appear tilted/rotated",
+          "NEW : Haptic feedback toggle in settings",
+          "FIX : Android back button now navigates properly instead of closing the app",
+          "NEW : View button on favorite characters links directly to their detail page",
+          "NEW : View button on favorite perks links directly to the perks section",
+          "NEW : Scroll-to-top button on long lists",
+          "FIX : Progression section now uses a distinct target icon instead of the favorites star"
+        ]
+      },
+      {
+        version: "5.18.0",
+        date: "February 22, 2026",
+        changes: [
+          "UPDATE : Synced achievements with Stranger Things 2 update",
+          "FIX : Filter/sort controls scrolling with the content",
+          "FIX : All search bars now match throughout the app",
+          "NEW : Tutorial buttons"
+        ]
+      },
+      {
+        version: "5.17.0",
+        date: "February 21, 2026",
+        changes: [
+          "FIX : Faster startup",
+          "FIX : No more white screens on crash launches",
+          "NEW : Favorites tab to store all types of items"
+        ]
+      },
+      {
+        version: "5.16.0",
+        date: "February 21, 2026",
+        changes: [
+          "NEW : Smart Search - describe what you're looking for like google",
+          "NEW : Search now understands killer names, rarity slang and description keywords",
+        ]
+      },
+      {
+        version: "5.15.0",
+        date: "February 20, 2026",
+        changes: [
+          "UPDATE : Game configuration for patch 9.4.2",
+          "UPDATE : Synced latest data from database",
+          "NEW : Status icons for the HUD",
+          "NEW : All Stranger Things content added",
+          "FIX : Addon images not loading properly"
+        ]
+      },
+      {
+        version: "5.14.0",
+        date: "January 4, 2026",
+        changes: [
+          "NEW : Quick Random command - type 'random:' in search bar for instant addon/offering rolls",
+          "FIX : Number inputs in Prestige Calculator"
+        ]
+      },
+      {
+        version: "5.13.0",
+        date: "January 3, 2026",
+        changes: [
+          "UPDATE : Timeline data updated with accurate chapters",
+          "FIX : Map layout labels",
+          "FIX : Map layouts now display correct labels per map type"
+        ]
+      },
+      {
+        version: "5.12.0",
+        date: "January 3, 2026",
+        changes: [
+          "NEW : Timeline view - scroll through chapters and events in a linear timeline",
+          "UI : Home search bar blur effect to match other views",
+          "FIX : Map layout close button being cut off",
+          "FIX : Character lore button scrolling issue"
+        ]
+      },
+      {
+        version: "5.11.0",
+        date: "January 1, 2026",
+        changes: [
+          "UI : Revamped Match Stats with new tiles",
+          "NEW : Customizable win threshold for killers",
+          "UI : Improvements to filter dropdowns"
+        ]
+      },
+      {
+        version: "5.10.0",
+        date: "December 31, 2025",
+        changes: [
+          "NEW : Perk effect filters - search by Aura, Stealth, Gen, Healing",
+          "NEW : Pull-to-refresh gesture on the home screen",
+          "NEW : Match stats dashboard - overall win rate cards with visual bar charts",
+          "UI : Enhanced character/build/map stats with sorted win rate display"
+        ]
+      },
+      {
+        version: "5.9.0",
+        date: "December 30, 2025",
+        changes: [
+          "FIX : Killer addon image mismatches",
+          "FIX : Retired offerings no longer appear in Chaos Shuffle or global search",
+          "FIX : Chaos Shuffle no longer rolls the same perk twice in a row",
+          "FIX : Prestige calculator now works",
+          "FIX : Perk icons not loading in perk slide-up panel",
+        ]
+      },
+      {
+        version: "5.8.0",
+        date: "December 29, 2025",
+        changes: [
+          "NEW : Entity's Offering - prestige bloodpoint calculator with animated UI",
+          "NEW : Glossary expanded with 18 new terms (techs, slang, perk acronyms)",
+          "FIX : Character selection grid on mobile/tablet",
+        ]
+      },
+      {
+        version: "5.7.0",
+        date: "December 28, 2025",
+        changes: [
+          "FIX : Build sharing",
+          "UI : Navbar now supports up to 6 items with icon-only mode on widescreen",
+          "NEW : Build sharing now supports notes, items and addons",
+          "FIX : Build import"
+        ]
+      },
+      {
+        version: "5.6.0",
+        date: "December 28, 2025",
+        changes: [
+          "NEW : Killer power icons in power description panel",
+          "FIX : Addon search - now correctly opens killer filter for killer addons",
+          "FIX : Lore close button being cut off on mobile",
+          "FIX : Killer stats now properly labeled (TR, Speed, Height)",
+          "FIX : Midwich map GIF not working",
+          "FIX : Removed broken map entry from Backwater Swamp"
+        ]
+      },
+      {
+        version: "5.5.0",
+        date: "December 27, 2025",
+        changes: [
+          "NEW : Killer stats - Terror Radius, Speed, Height",
+          "NEW : Perk synergy suggestions - see what works well with a perk when viewing perk details",
+          "UI : Glossary redesigned as dictionary-style with A-Z sidebar navigation",
+          "UI : Filter buttons restyled to fit app theme"
+        ]
+      },
+      {
+        version: "5.4.0",
+        date: "December 25, 2025",
+        changes: [
+          "NEW : Game Icons view - status icons for every action in game",
+          "NEW : Killer power tips",
+          "NEW : Killer stats - Terror Radius, Movement Speed, and Height for all killers",
+          "UI : Map layouts upgraded",
+          "UI : Perk comparison improved with clear button to exit comparison mode",
+          "FIX : Long press for compare not triggering perk modal"
+        ]
+      },
+      {
+        version: "5.3.0",
+        date: "December 23, 2025",
+        changes: [
+          "NEW : Map layouts - view overhead layouts from Realms (thanks to Hens333)",
+          "FIX : 120+ addon image mismatches or wrong images",
+          "UPDATE : Special Thanks section now credits Hens333 and Steam for map layouts"
+        ]
+      },
+      {
+        version: "5.2.0",
+        date: "December 22, 2025",
+        changes: [
+          "FIX : Various bug fixes"
+        ]
+      },
+      {
+        version: "5.1.0",
+        date: "December 21, 2025",
+        changes: [
+          "NEW : Global search on home screen - search everything at once",
+          "FIX : Offering images not showing up",
+          "FIX : Event item images not loading due to naming conflicts",
+          "FIX : Addon image sizing"
+        ]
+      },
+      {
+        version: "5.0.0",
+        date: "December 21, 2025",
+        changes: [
+          "FIX : Swipe navigation sensitivity",
+          "FIX : Addon cards clipping edges",
+          "UI : Renamed Signature Perks to Teachables",
+          "NEW : Double-tap to expand survivors and killers",
+          "NEW : Favorite perks to keep them at the top",
+          "NEW : Quick perk filters",
+          "NEW : Animated perk icons on hover (works best on PC)"
+        ]
+      },
+      {
+        version: "4.8.0",
+        date: "December 21, 2025",
+        changes: [
+          "Added perk comparison mode"
+        ]
+      },
+      {
+        version: "4.7.0",
+        date: "December 21, 2025",
+        changes: [
+          "Rarity glow effects on addon cards",
+          "Added a loading animation for non cached items",
+          "Animation for page change",
+          "Haptic feedback",
+          "Swipe left/right to navigate between tabs"
+        ]
+      },
+      {
+        version: "4.6.2",
+        date: "December 20, 2025",
+        changes: [
+          "Changelog now shows up properly"
+        ]
+      },
+      {
+        version: "4.6.1",
+        date: "December 20, 2025",
+        changes: [
+          "New app icon update"
+        ]
+      },
+      {
+        version: "4.6.0",
+        date: "December 20, 2025",
+        changes: [
+          "Fixed Chaos Shuffle not clearing items/addons when deselected",
+          "Added auto-deselect for addons when items are deselected (Survivor)",
+          "Fixed item images not loading in Chaos Shuffle results",
+          "Marked The Shape & The Cenobite perks as bloodweb available"
+        ]
+      },
+      {
+        version: "4.5.1",
+        date: "December 19, 2025",
+        changes: [
+          "Fixed character portrait loading in Chaos Shuffle",
+          "Fixed images not scaling depending on resolutions",
+          "Reworked Chaos Shuffle UI",
+          "Added Changelog section in Settings"
+        ]
+      },
+      {
+        version: "4.5.0",
+        date: "December 18, 2025",
+        changes: [
+          "Complete Chaos Shuffle UI overhaul",
+          "Added character, item, addon, and offering randomization",
+          "Collapsible owned characters section",
+          "New UI for the builds section"
+        ]
+      },
+      {
+        version: "4.4.0",
+        date: "December 15, 2025",
+        changes: [
+          "Added missing search bars in certain tiles",
+          "Fixed Secret offerings not refreshing list",
+          "Various UI improvements and bug fixes"
+        ]
+      },
+      {
+        version: "4.3.0",
+        date: "December 14, 2025",
+        changes: [
+          "Data refresh pipeline updated",
+          "Polished code for future updates"
+        ]
+      },
+      {
+        version: "4.2.0",
+        date: "December 13, 2025",
+        changes: [
+          "Added alphabetical sorting filter",
+          "Fixed image naming scheme",
+          "Various stability improvements"
+        ]
+      },
+      {
+        version: "4.1.0",
+        date: "December 12, 2025",
+        changes: [
+          "Implemented UI customization feature",
+          "Customizable navigation bar items",
+          "Rearrangeable home screen tiles"
+        ]
+      },
+      {
+        version: "4.0.0",
+        date: "December 11, 2025",
+        changes: [
+          "Major app overhaul with new design",
+          "Added OLED mode as default theme",
+          "Progression tracker implementation",
+          "Early build sharing system"
+        ]
+      },
+      {
+        version: "3.0.0",
+        date: "December 10, 2025",
+        changes: [
+          "First Android APK release"
+        ]
+      }
+    ];
     const THEMES = {
       blood: {
         name: "Blood Red",
@@ -1977,34 +1805,34 @@
     };
     const COLOR_MODES = {
       dark: {
-        bg01: '#07090f',
-        bg02: '#10141f',
-        panel: 'rgba(255, 255, 255, 0.045)',
-        stroke: 'rgba(255, 255, 255, 0.11)',
-        chip: 'rgba(255, 255, 255, 0.065)',
+        bg01: '#090b11',
+        bg02: '#0c111b',
+        panel: 'rgba(255, 255, 255, 0.04)',
+        stroke: '#1f2433',
+        chip: 'rgba(255, 255, 255, 0.06)',
         text: '#e5e7eb',
         muted: '#94a3b8',
-        nav: 'rgba(8, 10, 16, 0.92)',
-        glass: '#141821',
+        nav: 'rgba(12, 16, 26, 0.9)',
+        glass: '#141a28',
         ghost: 'rgba(255, 255, 255, 0.05)',
         ghostStrong: 'rgba(255, 255, 255, 0.16)',
         shadowSoft: '0 8px 30px rgba(0, 0, 0, 0.35)',
         shadowStrong: '0 16px 60px rgba(0, 0, 0, 0.45)'
       },
       light: {
-        bg01: '#f7f8fb',
-        bg02: '#e9edf4',
-        panel: 'rgba(255, 255, 255, 0.84)',
-        stroke: 'rgba(15, 23, 42, 0.14)',
-        chip: 'rgba(15, 23, 42, 0.06)',
-        text: '#111827',
-        muted: '#64748b',
-        nav: 'rgba(255, 255, 255, 0.88)',
-        glass: 'rgba(255, 255, 255, 0.72)',
-        ghost: 'rgba(15, 23, 42, 0.055)',
+        bg01: '#f8fafc',
+        bg02: '#e2e8f0',
+        panel: 'rgba(255, 255, 255, 0.92)',
+        stroke: '#cbd5e1',
+        chip: 'rgba(148, 163, 184, 0.18)',
+        text: '#0f172a',
+        muted: '#475569',
+        nav: 'rgba(255, 255, 255, 0.9)',
+        glass: '#e5e7eb',
+        ghost: 'rgba(15, 23, 42, 0.06)',
         ghostStrong: 'rgba(15, 23, 42, 0.18)',
-        shadowSoft: '0 10px 34px rgba(15, 23, 42, 0.10)',
-        shadowStrong: '0 20px 64px rgba(15, 23, 42, 0.16)'
+        shadowSoft: '0 10px 35px rgba(15, 23, 42, 0.12)',
+        shadowStrong: '0 22px 70px rgba(15, 23, 42, 0.18)'
       },
       oled: {
         bg01: '#000000',
@@ -2152,18 +1980,9 @@
       settings: 'dbd_settings_v1',
       notes: 'dbd_notes_v1',
       lastContext: 'dbd_last_context_v1',
-      worldle: 'dbd_worldle_v1',
-      uiState: 'dbd_ui_state_v1'
+      worldle: 'dbd_worldle_v1'
     };
     const STORAGE_KEY_ACHIEVEMENTS = 'dbd_achievements_progress';
-    const PLAY_STORE_LINKS = {
-      en: 'https://play.google.com/store/apps/details?id=com.theentity.wiki&hl=en',
-      fr: 'https://play.google.com/store/apps/details?id=com.theentity.wiki&hl=fr'
-    };
-    const GOOGLE_PLAY_BADGES = {
-      en: 'https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png',
-      fr: 'https://play.google.com/intl/fr_fr/badges/static/images/badges/fr_badge_web_generic.png'
-    };
     const ALL_NAV_OPTIONS = [
       { id: 'perks', label: 'Perks' },
       { id: 'buildLab', label: 'Builds' },
@@ -2225,27 +2044,6 @@
       settings: 'Gear',
       timeline: 'Clock',
     };
-    const WEBSITE_NAV_SECTIONS = [
-      { label: 'Archive', ids: ['home', 'killers', 'survivors', 'perks', 'realms', 'items', 'offerings', 'cosmetics'] },
-      { label: 'Tools', ids: ['buildLab', 'roulette', 'worldle', 'prestige', 'gameIcons'] },
-      { label: 'Tracking', ids: ['progression', 'matches', 'favorites'] },
-      { label: 'Community', ids: ['communityContent', 'timeline', 'glossary'] },
-      { label: 'Data', ids: ['settings'] }
-    ];
-    const getNavDisplayLabel = (id) => {
-      if (id === 'home') return 'Search';
-      if (id === 'settings') return 'Settings';
-      return (
-        ALL_HOME_TILES.find((tile) => tile.id === id)?.label ||
-        ALL_NAV_OPTIONS.find((option) => option.id === id)?.label ||
-        id
-      );
-    };
-    const getNavDescription = (id) => {
-      if (id === 'home') return 'Global lookup';
-      if (id === 'settings') return 'Preferences and backups';
-      return ALL_HOME_TILES.find((tile) => tile.id === id)?.desc || '';
-    };
     const RARITY_GLOWS = {
       common: 'rgba(81,63,49,0.5)',
       uncommon: 'rgba(27,140,34,0.45)',
@@ -2262,21 +2060,20 @@
       return `0 0 12px ${color}, 0 0 4px ${color}`;
     };
     const DEFAULT_SETTINGS = {
-      settingsVersion: 2,
       themePreference: 'manual',
-      manualTheme: 'ghost',
+      manualTheme: 'blood',
       colorMode: 'oled',
       fontSize: 'default',
-      perkDescriptionMode: 'post95',
+      perkDescriptionMode: 'legacy',
       showTemplates: true,
       rarityGlows: true,
       hapticEnabled: true,
+      systemNavButtonOffset: false,
       ownedOnlyGlobal: false,
-      googlePlayCtaHidden: false,
       progressionTabOrder: [...PROGRESSION_TABS],
       navItemsCustomized: false,
       navItems: ['perks', 'killers', 'survivors'],
-      homeTiles: ALL_HOME_TILES.map(tile => tile.id),
+      homeTiles: ['killers', 'survivors', 'perks', 'buildLab', 'favorites', 'progression', 'communityContent', 'cosmetics', 'worldle', 'matches', 'roulette', 'realms', 'glossary', 'import', 'timeline'],
       favoritePerks: [],
       favoriteKillers: [],
       favoriteSurvivors: [],
@@ -2284,7 +2081,6 @@
       favoriteAddons: [],
       favoriteOfferings: []
     };
-    const LEGACY_DEFAULT_HOME_TILES = ['killers', 'survivors', 'perks', 'buildLab', 'favorites', 'progression', 'communityContent', 'cosmetics', 'worldle', 'matches', 'roulette', 'realms', 'glossary', 'import', 'timeline'];
     const DEFAULT_PROGRESSION = {
       characters: {},
       perks: {},
@@ -2526,7 +2322,6 @@
     const readLaunchContext = () => {
       try {
         const params = new URLSearchParams(window.location.search || '');
-        const hasRoute = ['view', 'search', 'mode', 'tab', 'targetId', 'targetType', 'profileId', 'cosmeticId'].some((key) => params.has(key));
         const view = params.get('view') || 'home';
         const context = {};
         ['search', 'mode', 'tab', 'targetId', 'targetType'].forEach((key) => {
@@ -2537,11 +2332,10 @@
           view,
           context,
           profileId: params.get('profileId') || '',
-          cosmeticId: params.get('cosmeticId') || '',
-          hasRoute
+          cosmeticId: params.get('cosmeticId') || ''
         };
       } catch (error) {
-        return { view: 'home', context: {}, profileId: '', cosmeticId: '', hasRoute: false };
+        return { view: 'home', context: {}, profileId: '', cosmeticId: '' };
       }
     };
     const getNoteKey = (type, id) => `${type}:${id}`;
@@ -2554,21 +2348,13 @@
       const normalizedNavItems = rest.navItemsCustomized === true
         ? ensureOrderedSubset(rest.navItems, navOptionIds, DEFAULT_SETTINGS.navItems)
         : [...DEFAULT_SETTINGS.navItems];
-      const normalizedHomeTiles = ensureOrderedSubset(rest.homeTiles, homeTileIds, DEFAULT_SETTINGS.homeTiles);
-      const needsDefaultMigration = rest.settingsVersion !== DEFAULT_SETTINGS.settingsVersion;
-      const hadLegacyDefaultHomeTiles = Array.isArray(rest.homeTiles)
-        && rest.homeTiles.length === LEGACY_DEFAULT_HOME_TILES.length
-        && rest.homeTiles.every((id, index) => id === LEGACY_DEFAULT_HOME_TILES[index]);
       return {
         ...DEFAULT_SETTINGS,
         ...rest,
-        settingsVersion: DEFAULT_SETTINGS.settingsVersion,
-        manualTheme: needsDefaultMigration && (!rest.manualTheme || rest.manualTheme === 'blood') ? DEFAULT_SETTINGS.manualTheme : rest.manualTheme,
-        perkDescriptionMode: needsDefaultMigration && (!rest.perkDescriptionMode || rest.perkDescriptionMode === 'legacy') ? DEFAULT_SETTINGS.perkDescriptionMode : rest.perkDescriptionMode,
         ownedOnlyGlobal: Boolean(rest.ownedOnlyGlobal),
         navItemsCustomized: rest.navItemsCustomized === true,
         navItems: normalizedNavItems,
-        homeTiles: needsDefaultMigration && hadLegacyDefaultHomeTiles ? DEFAULT_SETTINGS.homeTiles : normalizedHomeTiles,
+        homeTiles: ensureOrderedSubset(rest.homeTiles, homeTileIds, DEFAULT_SETTINGS.homeTiles),
         progressionTabOrder: ensureOrderedFullSet(rest.progressionTabOrder, PROGRESSION_TABS, DEFAULT_SETTINGS.progressionTabOrder),
       };
     };
@@ -2582,21 +2368,6 @@
         lastCharacterId: next.lastCharacterId ? String(next.lastCharacterId) : null,
         lastBuildId: next.lastBuildId ? String(next.lastBuildId) : null,
         killerWinThreshold: Number.isFinite(threshold) && threshold >= 0 ? threshold : DEFAULT_MATCH_PREFS.killerWinThreshold
-      };
-    };
-    const normalizeUiState = (raw) => {
-      const next = raw && typeof raw === 'object' && !Array.isArray(raw) ? raw : {};
-      const allowedViews = new Set(['home', 'settings', ...ALL_NAV_OPTIONS.map(option => option.id)]);
-      const context = next.context && typeof next.context === 'object' && !Array.isArray(next.context) ? next.context : {};
-      const normalizedContext = {};
-      ['search', 'mode', 'tab', 'targetId', 'targetType'].forEach((key) => {
-        if (context[key]) normalizedContext[key] = String(context[key]);
-      });
-      return {
-        view: allowedViews.has(next.view) ? next.view : 'home',
-        context: normalizedContext,
-        perkFilter: String(next.perkFilter || 'All'),
-        perkSearch: String(next.perkSearch || '')
       };
     };
     const normalizePerkSnapshots = (snapshots = []) => {
@@ -2701,7 +2472,7 @@
       });
       return base;
     };
-    const createWebsiteBackupPayload = ({
+    const createAppBackupPayload = ({
       settings,
       builds,
       matches,
@@ -2709,14 +2480,14 @@
       notes,
       worldleState,
       matchPrefs,
-      siteVersion = '',
+      appVersion = '',
       gameVersion = '',
       lastSynced = ''
     }) => ({
       schemaVersion: APP_BACKUP_SCHEMA_VERSION,
       exportedAt: new Date().toISOString(),
       meta: {
-        siteVersion,
+        appVersion,
         gameVersion,
         lastSynced
       },
@@ -2730,7 +2501,7 @@
         lastContext: normalizeMatchPrefs(matchPrefs)
       }
     });
-    const summarizeWebsiteBackupPayload = (payload) => {
+    const summarizeAppBackupPayload = (payload) => {
       const data = payload?.data && typeof payload.data === 'object' ? payload.data : {};
       const progression = normalizeProgression(data.progression);
       const worldle = normalizeWorldleState(data.worldle);
@@ -2744,7 +2515,7 @@
       return {
         schemaVersion: Number(payload?.schemaVersion) || 0,
         exportedAt: payload?.exportedAt || '',
-        siteVersion: payload?.meta?.siteVersion || payload?.meta?.appVersion || '',
+        appVersion: payload?.meta?.appVersion || '',
         gameVersion: payload?.meta?.gameVersion || '',
         builds: Array.isArray(data.builds) ? data.builds.length : 0,
         matches: Array.isArray(data.matches) ? data.matches.length : 0,
@@ -2754,7 +2525,7 @@
         worldleGamesPlayed
       };
     };
-    const parseWebsiteBackupPayload = (rawText) => {
+    const parseAppBackupPayload = (rawText) => {
       const raw = typeof rawText === 'string' ? rawText.trim() : '';
       if (!raw) throw new Error('Paste a backup file before restoring.');
       let parsed;
@@ -2782,14 +2553,14 @@
       }
       return {
         payload,
-        summary: summarizeWebsiteBackupPayload(payload)
+        summary: summarizeAppBackupPayload(payload)
       };
     };
     const buildBackupFilename = (payload) => {
       const stamp = String(payload?.exportedAt || new Date().toISOString())
         .replace(/[:]/g, '-')
         .replace(/\..+$/, '');
-      const version = payload?.meta?.siteVersion || payload?.meta?.appVersion || 'backup';
+      const version = payload?.meta?.appVersion || 'backup';
       return `the-entity-wiki-${version}-${stamp}.json`;
     };
     const downloadTextFile = (filename, text, mime = 'application/json') => {
@@ -3724,7 +3495,19 @@
         </div>
       );
     };
-    const InfoCallout = () => null;
+    const InfoCallout = ({ title = 'How this tab works', lines = [] }) => (
+      <div className="mb-4 rounded-2xl bg-white/5 border border-white/10 p-3 flex items-start gap-3">
+        <div className="w-9 h-9 rounded-xl bg-white/10 border border-white/10 flex items-center justify-center text-white shrink-0">
+          <Icons.Info width={18} height={18} />
+        </div>
+        <div className="flex-1">
+          {title && <p className="text-[11px] uppercase tracking-[0.22em] text-zinc-500 font-bold mb-1">{title}</p>}
+          <ul className="text-sm text-zinc-300 leading-relaxed space-y-1 list-disc list-inside">
+            {lines.map((line, idx) => <li key={idx}>{line}</li>)}
+          </ul>
+        </div>
+      </div>
+    );
     const NotesEditor = ({ title = 'Personal Notes', value = '', onChange, placeholder = 'Write anything useful here...' }) => (
       <div className="mt-4 pt-4 border-t border-white/10">
         <div className="flex items-center gap-2 mb-2">
@@ -4192,8 +3975,8 @@
       },
       "The Blight": {
         powerName: "Blighted Corruption",
-        survivorTips: "He wants clean bounces into hits. Play around awkward shapes that do not give him good angles. Change direction late, and do not run into open space where he can chain rushes forever. If you hear him commit, cut corners and break line of sight.",
-        killerTips: "Learn which surfaces give reliable bounces and chain your rushes with a plan, not vibes. Use rushes to gain position first, then convert into a lethal hit when the survivor is committed. If a tile is bad for rushing, end it with M1 and move on. Blight wins by turning distance into instant pressure."
+        survivorTips: "He wants clean bounces into hits, but his 4.4 m/s base speed makes failed rushes more costly. Play around awkward shapes that do not give him good angles. Change direction late, and do not run into open space where he can chain rushes forever. If he breaks a dropped pallet, track the reset because his Rush tokens are cut down to 2 below maximum.",
+        killerTips: "Learn which surfaces give reliable bounces and chain your rushes with a plan, not vibes. Your 4.4 m/s base speed means you need power routing more than simple M1 walking. Breaking a dropped pallet now drops your Rush tokens to 2 below maximum and resets recharge, so break only when it creates real position or removes a key resource."
       },
       "The Twins": {
         powerName: "Blood Bond",
@@ -4299,6 +4082,11 @@
         powerName: "Test Subject #001",
         survivorTips: "He threatens space in layers: a direct strike, spreading vines, and fast traversal through the Upside Down. Break line of sight before he commits, avoid lingering in narrow choke points, and rotate early when he cuts off the obvious lane. If he disappears into the Upside Down, assume he is pathing to your generator or rescue and reposition before he reappears on top of you.",
         killerTips: "Use Test Subject #001 to make survivors choose between your attack and the map. Seed pressure with vines, then traverse through the Upside Down to arrive where survivors think they have time. Force movement first, then cash out on committed vaults, rescues, and generator greed. You win when survivors feel unsafe standing still anywhere."
+      },
+      "The Slasher": {
+        powerName: "Omnipresent Evil",
+        survivorTips: "When he vanishes, standing still is dangerous because Mist Clouds can reveal you, but obvious running paths leave Footprints. Break line of sight, vary your route, and be ready for Jump Scare pressure at pallets, windows, and breakable walls. If he picks up a Hook Spike, do not give him a straight lane into a wall or tight choke point.",
+        killerTips: "Use Omnipresent Evil to reposition and read survivor movement before committing. Jump Scare is strongest when it converts a tile interaction into immediate pressure, so aim for pallets, windows, and walls survivors are already planning around. Hook Spikes punish predictable lanes and can snowball when survivors are forced toward walls, hooks, or clutter."
       }
     };
     const KILLER_STATS = {
@@ -4322,7 +4110,7 @@
       "The Oni": { terrorRadius: "32m", speed: "4.6 m/s", height: "Tall" },
       "The Deathslinger": { terrorRadius: "32m", speed: "4.4 m/s", height: "Tall" },
       "The Executioner": { terrorRadius: "32m", speed: "4.6 m/s", height: "Tall" },
-      "The Blight": { terrorRadius: "32m", speed: "4.6 m/s", height: "Average" },
+      "The Blight": { terrorRadius: "32m", speed: "4.4 m/s", height: "Average" },
       "The Twins": { terrorRadius: "32m", speed: "4.6 m/s", height: "Tall" },
       "The Trickster": { terrorRadius: "24m", speed: "4.4 m/s", height: "Average" },
       "The Nemesis": { terrorRadius: "32m", speed: "4.6 m/s", height: "Tall" },
@@ -4343,7 +4131,8 @@
       "The Ghoul": { terrorRadius: "32m", speed: "4.6 m/s", height: "Average" },
       "The Animatronic": { terrorRadius: "32m", speed: "4.6 m/s", height: "Tall" },
       "The Krasue": { terrorRadius: "32m", speed: "4.6 m/s", height: "Average" },
-      "The First": { terrorRadius: "32m", speed: "4.6 m/s", height: "Average" }
+      "The First": { terrorRadius: "32m", speed: "4.6 m/s", height: "Average" },
+      "The Slasher": { terrorRadius: "32m", speed: "4.6 m/s", height: "Tall" }
     };
     const COSMETICS_FULL_SET_ASSET_PACK_NAME = 'cosmeticsfullsetpack';
     const isNativeAndroidPlatform = () => {
@@ -4447,19 +4236,6 @@
       if (value < 1024 * 1024 * 1024) return `${(value / (1024 * 1024)).toFixed(1)} MB`;
       return `${(value / (1024 * 1024 * 1024)).toFixed(2)} GB`;
     };
-    const getConfiguredDbdImageBaseUrl = () => {
-      const raw = typeof window.DBD_IMAGE_BASE_URL === 'string' ? window.DBD_IMAGE_BASE_URL.trim() : '';
-      return raw.replace(/\/+$/, '');
-    };
-    const toConfiguredDbdImageSource = (url) => {
-      if (!url) return null;
-      const baseUrl = getConfiguredDbdImageBaseUrl();
-      if (!baseUrl) return null;
-      const normalized = String(url).replace(/\\/g, '/').replace(/^\.\//, '');
-      if (!normalized.startsWith('dbd_images/')) return null;
-      const relativePath = normalized.slice('dbd_images/'.length).replace(/^\/+/, '');
-      return relativePath ? `${baseUrl}/${relativePath}` : baseUrl;
-    };
     const toLocalImageSource = (url) => {
       if (!url) return null;
       const normalized = url.replace(/\\/g, '/').replace(/^\.\//, '');
@@ -4468,17 +4244,9 @@
         if (packBaseUrl) {
           return `${packBaseUrl}/${normalized}`;
         }
-        const configuredSource = toConfiguredDbdImageSource(normalized);
-        if (configuredSource) {
-          return configuredSource;
-        }
         return isNativeAndroidPlatform() ? null : `./${normalized}`;
       }
       if (normalized.startsWith('dbd_images/') || normalized.startsWith('assets/')) {
-        const configuredSource = toConfiguredDbdImageSource(normalized);
-        if (configuredSource) {
-          return configuredSource;
-        }
         return `./${normalized}`;
       }
       return null;
@@ -4521,51 +4289,7 @@
       }
       return resolved;
     };
-    const getPreloadedImageCache = () => {
-      if (!(window.__entityPreloadedImages instanceof Set)) {
-        window.__entityPreloadedImages = new Set();
-      }
-      return window.__entityPreloadedImages;
-    };
-    const preloadResolvedImage = async (imageUrl, assetRevision = 0) => {
-      if (!imageUrl || navigator.connection?.saveData) return;
-      const cache = getPreloadedImageCache();
-      const cacheKey = `${assetRevision}:${String(imageUrl)}`;
-      if (cache.has(cacheKey)) return;
-      cache.add(cacheKey);
-      const source = await resolveAppImageSource(imageUrl);
-      if (!source) return;
-      await new Promise((resolve) => {
-        const img = new Image();
-        img.decoding = 'async';
-        img.onload = () => resolve();
-        img.onerror = () => resolve();
-        img.src = source;
-        if (typeof img.decode === 'function') {
-          img.decode().then(resolve).catch(resolve);
-        }
-      });
-    };
-    const preloadImageBatch = (imageUrls = [], assetRevision = 0, limit = 16) => {
-      const urls = [...new Set((imageUrls || []).filter(Boolean))].slice(0, limit);
-      if (urls.length === 0) return () => {};
-      let cancelled = false;
-      const run = async () => {
-        for (const url of urls) {
-          if (cancelled) return;
-          await preloadResolvedImage(url, assetRevision);
-        }
-      };
-      const idleId = typeof window.requestIdleCallback === 'function'
-        ? window.requestIdleCallback(run, { timeout: 1200 })
-        : window.setTimeout(run, 250);
-      return () => {
-        cancelled = true;
-        if (typeof window.cancelIdleCallback === 'function') window.cancelIdleCallback(idleId);
-        else window.clearTimeout(idleId);
-      };
-    };
-    const AssetFrame = ({ type, imageUrl, fallbackIcon, size = 'normal', assetRevision = 0, imageLoading = null }) => {
+    const AssetFrame = ({ type, imageUrl, fallbackIcon, size = 'normal', assetRevision = 0 }) => {
       const [primarySource, setPrimarySource] = useState(null);
       const [broken, setBroken] = useState(false);
       const [loaded, setLoaded] = useState(false);
@@ -4630,7 +4354,6 @@
             <img
               src={src}
               alt={type}
-              loading={imageLoading || undefined}
               className={`w-full h-full ${objectFit} ${imgClass} ${loaded ? 'opacity-100' : 'opacity-0'} transition-opacity duration-300`}
               onError={handleError}
               onLoad={handleLoad}
@@ -4644,68 +4367,7 @@
         </div>
       );
     };
-    const WebsiteHeader = ({ currentView, setView }) => {
-      const headerTitle = currentView === 'home' ? 'Home' : getNavDisplayLabel(currentView);
-      return (
-        <header className="website-topbar shrink-0 px-4 sm:px-6 lg:px-8 flex items-center justify-between gap-4">
-          <button onClick={() => setView('home')} className="group flex items-center gap-3 min-w-0 text-left" aria-label="Open search">
-            <div className="website-brand-mark w-10 h-10 shrink-0 flex items-center justify-center">
-              <Icons.DbdLogo width={40} height={40} />
-            </div>
-            <div className="min-w-0">
-              <p className="text-[10px] font-black uppercase tracking-[0.28em] text-zinc-500">The Entity's Wiki</p>
-              <h1 className="text-lg sm:text-xl font-black text-white truncate">{headerTitle}</h1>
-            </div>
-          </button>
-          <div className="flex items-center gap-2 sm:gap-3">
-            <button
-              onClick={() => setView('settings')}
-              className="shrink-0 w-10 h-10 border border-white/10 bg-white/[0.035] text-zinc-400 hover:text-white hover:bg-white/10 transition-colors flex items-center justify-center"
-              aria-label="Open settings"
-            >
-              <Icons.Gear width={18} height={18} />
-            </button>
-          </div>
-        </header>
-      );
-    };
-
-    const PlayStoreFooter = ({ compact = false, onDismiss = null, className = '' }) => {
-      const locale = typeof navigator !== 'undefined' && (navigator.language || '').toLowerCase().startsWith('fr') ? 'fr' : 'en';
-      const href = PLAY_STORE_LINKS[locale] || PLAY_STORE_LINKS.en;
-      const badge = GOOGLE_PLAY_BADGES[locale] || GOOGLE_PLAY_BADGES.en;
-      const label = locale === 'fr' ? 'Disponible sur Google Play' : 'Get it on Google Play';
-      if (compact) {
-        return (
-          <div className={`play-store-footer--mobile rounded-2xl px-3 py-2 flex items-center gap-3 ${className}`}>
-            <span className="play-store-eyebrow whitespace-nowrap">Get the app</span>
-            <a href={href} target="_blank" rel="noopener noreferrer" aria-label={label} className="shrink-0 transition-opacity hover:opacity-85">
-              <img src={badge} alt={label} className="google-play-badge" loading="lazy" />
-            </a>
-            {typeof onDismiss === 'function' && (
-              <button
-                type="button"
-                onClick={onDismiss}
-                className="play-store-dismiss shrink-0 rounded-full flex items-center justify-center transition-colors"
-                aria-label="Hide Google Play banner"
-              >
-                <Icons.X width={14} height={14} />
-              </button>
-            )}
-          </div>
-        );
-      }
-      return (
-        <div className={`play-store-footer px-5 py-4 ${className}`}>
-          <p className="play-store-eyebrow">Get the app</p>
-          <a href={href} target="_blank" rel="noopener noreferrer" aria-label={label} className="mt-2 inline-block transition-opacity hover:opacity-85">
-            <img src={badge} alt={label} className="google-play-badge" loading="lazy" />
-          </a>
-        </div>
-      );
-    };
-
-    const Navigation = ({ currentView, setView, theme, isMobile = false, onPerksReset, customNavItems = [], hideAppCta = false, onHideAppCta = null }) => {
+    const Navigation = ({ currentView, setView, theme, isMobile = false, onPerksReset, customNavItems = [] }) => {
       const navItems = useMemo(() => {
         const items = [{ id: 'home', label: 'Search' }];
         customNavItems.forEach(id => {
@@ -4722,53 +4384,8 @@
       const trackClasses = isMobile
         ? 'flex items-center gap-1 justify-center w-full overflow-x-auto nav-scroll px-1'
         : 'flex items-center gap-1 justify-center w-full';
-      if (!isMobile) {
-        return (
-          <aside className="website-sidebar relative z-10 hidden md:flex h-full shrink-0 flex-col">
-            <div className="px-5 py-4 border-b border-white/10">
-              <p className="text-[10px] font-black uppercase tracking-[0.28em] text-zinc-500">Navigation</p>
-              <button onClick={() => setView('home')} className="website-sidebar-search mt-3 w-full rounded-3xl p-2 text-left transition-colors flex items-center gap-3">
-                <span className="pl-2 text-zinc-400"><Icons.Search width={18} height={18} /></span>
-                <span className="min-w-0">
-                  <span className="block text-sm text-white font-bold truncate">Global search</span>
-                  <span className="block text-[11px] text-zinc-500 truncate">Everything in one query</span>
-                </span>
-              </button>
-            </div>
-            <nav className="website-sidebar-scroll flex-1 overflow-y-auto px-3 py-4 space-y-5">
-              {WEBSITE_NAV_SECTIONS.map((section) => (
-                <div key={section.label} className="space-y-2">
-                  <p className="website-nav-section-title px-3">{section.label}</p>
-                  <div className="space-y-1">
-                    {section.ids.map((id) => {
-                      const IconComponent = Icons[NAV_ICON_MAP[id]] || Icons.Zap;
-                      const isActive = currentView === id;
-                      return (
-                        <button
-                          key={id}
-                          onClick={() => setView(id)}
-                          onDoubleClick={() => id === 'perks' && onPerksReset?.()}
-                          className={`website-nav-link ${isActive ? 'website-nav-link--active' : ''} w-full rounded-xl px-3 py-2.5 text-left transition-all duration-200 flex items-center gap-3`}
-                        >
-                          <IconComponent width={18} height={18} strokeWidth={isActive ? 2.4 : 2} style={isActive ? { color: theme.accent } : {}} />
-                          <span className="min-w-0 flex-1">
-                            <span className="block text-sm font-bold truncate">{getNavDisplayLabel(id)}</span>
-                            <span className="block text-[11px] text-zinc-500 truncate">{getNavDescription(id)}</span>
-                          </span>
-                        </button>
-                      );
-                    })}
-                  </div>
-                </div>
-              ))}
-            </nav>
-            <PlayStoreFooter />
-          </aside>
-        );
-      }
       return (
-        <div className="fixed bottom-0 left-0 w-full z-50 px-2 sm:px-6 pb-2 sm:pb-5 flex flex-col items-center gap-2 nav-safe-area">
-          {!hideAppCta && <PlayStoreFooter compact onDismiss={onHideAppCta} />}
+        <div className="fixed bottom-0 left-0 w-full z-50 px-2 sm:px-6 pb-2 sm:pb-5 flex justify-center nav-safe-area">
           <div className={containerClasses}>
             <div className={trackClasses}>
               {navItems.map((item) => {
@@ -4794,8 +4411,182 @@
         </div>
       );
     };
-    const VIEW_TIPS = {};
-    const Header = ({ title, subtitle, onBack, onScrollTop }) => (
+    // ── View Info Modal & Button ──
+    const ViewInfoModal = ({ tips, onClose }) => (
+      <div className="fixed inset-0 z-[9999] flex items-center justify-center p-4" onClick={onClose}>
+        <div className="absolute inset-0 bg-black/70 backdrop-blur-sm"></div>
+        <div className="relative w-full max-w-sm rounded-2xl border border-white/10 bg-zinc-900/95 backdrop-blur-xl shadow-2xl overflow-hidden" onClick={e => e.stopPropagation()}>
+          <div className="px-5 pt-5 pb-3 border-b border-white/10 flex items-center justify-between">
+            <div className="flex items-center gap-2.5">
+              <div className="w-8 h-8 rounded-lg bg-sky-500/15 border border-sky-500/20 flex items-center justify-center"><Icons.Info width={16} height={16} className="text-sky-400" /></div>
+              <h3 className="text-base font-bold text-white">Controls & Tips</h3>
+            </div>
+            <button onClick={onClose} className="p-1.5 rounded-lg hover:bg-white/10 transition-colors text-zinc-400 hover:text-white"><Icons.X width={18} height={18} /></button>
+          </div>
+          <div className="px-5 py-4 max-h-[60vh] overflow-y-auto custom-scrollbar space-y-2.5">
+            {tips.map((tip, i) => (
+              <div key={i} className="flex items-start gap-3 py-2 px-3 rounded-xl bg-white/[0.03] border border-white/5">
+                <div className="mt-1.5 w-1.5 h-1.5 rounded-full bg-sky-400 flex-shrink-0"></div>
+                <div>
+                  <p className="text-[13px] font-semibold text-white leading-snug">{tip.action}</p>
+                  <p className="text-[11px] text-zinc-400 leading-relaxed mt-0.5">{tip.description}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+          <div className="px-5 py-3 border-t border-white/5">
+            <button onClick={onClose} className="w-full py-2.5 rounded-xl bg-white/5 border border-white/10 text-sm font-semibold text-zinc-300 hover:text-white hover:bg-white/10 transition-colors">Got it</button>
+          </div>
+        </div>
+      </div>
+    );
+    const ViewInfoButton = ({ tips }) => {
+      const [open, setOpen] = useState(false);
+      return (
+        <>
+          <button onClick={() => setOpen(true)} className="p-2 rounded-xl bg-white/5 border border-white/10 text-zinc-400 hover:text-sky-400 hover:bg-sky-500/10 hover:border-sky-500/20 transition-all" title="Controls & Tips">
+            <Icons.Info width={16} height={16} />
+          </button>
+          {open && <ViewInfoModal tips={tips} onClose={() => setOpen(false)} />}
+        </>
+      );
+    };
+
+    // ── Per-view tips data ──
+    const VIEW_TIPS = {
+      home: [
+        { action: 'Smart Search', description: 'Search across killers, survivors, perks, builds, maps, items, addons and more.' },
+        { action: 'Pull to Refresh', description: 'Pull down from the top to refresh the page.' },
+        { action: 'Import Build', description: 'Paste a shared build text to import it directly into your Build Lab.' },
+        { action: 'Random Commands', description: 'Type random:killer, random:trapper, or random:medkit for instant random loadout results.' },
+        { action: 'Swipe Navigation', description: 'Swipe left or right anywhere to switch between tabs.' },
+      ],
+      perks: [
+        { action: 'Tap a Perk', description: 'Opens a detailed perk view with full description.' },
+        { action: 'Long Press a Perk', description: 'Hold down on a perk card for 0.5s to add it to the comparison tray (up to 4 perks).' },
+        { action: 'Favorite', description: 'Tap the star icon on any perk to bookmark it. Use the Favorites filter to see only your picks.' },
+        { action: 'Quick Filters', description: 'Use the tag buttons (Exhaustion, Hex, Boon, etc.) to narrow the list. Tap an active filter again to clear it.' },
+        { action: 'Search', description: 'Type in the search bar to filter by perk name, owner, or description.' },
+      ],
+      killers: [
+        { action: 'Double Tap a Killer', description: 'Double-tap a killer card to expand it and see their teachable perks, lore, and power.' },
+        { action: 'View Lore', description: 'When a killer is expanded, tap "Lore" to read their full backstory.' },
+        { action: 'View Power', description: 'When a killer is expanded, tap "Power" to see their unique ability details.' },
+        { action: 'Create Build', description: 'When expanded, tap "Create Build" to jump to Build Lab pre-filled with this killer.' },
+        { action: 'Favorite', description: 'Tap the star icon to bookmark a killer.' },
+        { action: 'Search', description: 'Search by killer name or real name.' },
+      ],
+      survivors: [
+        { action: 'Double Tap a Survivor', description: 'Double-tap a survivor card to expand it and see their teachable perks and lore.' },
+        { action: 'View Lore', description: 'When a survivor is expanded, tap "Lore" to read their full backstory.' },
+        { action: 'Create Build', description: 'When expanded, tap "Create Build" to jump to Build Lab pre-filled with this survivor.' },
+        { action: 'Favorite', description: 'Tap the star icon to bookmark a survivor.' },
+        { action: 'Search', description: 'Search by survivor name or real name.' },
+      ],
+      chaoshuffle: [
+        { action: 'Randomize', description: 'Tap the Randomize button to generate a random loadout with a spin animation.' },
+        { action: 'Shake to Roll', description: 'Shake your device to trigger a random roll — no button needed!' },
+        { action: 'Toggle Options', description: 'Choose what gets randomized: character, perks, addons, item, and offering.' },
+        { action: 'Owned Characters', description: 'Toggle which characters you own so the randomizer only picks from your roster.' },
+        { action: 'Share Build', description: 'Tap Share to copy your generated build text.' },
+      ],
+      realms: [
+        { action: 'Search Maps', description: 'Filter maps by name or realm using the search bar.' },
+        { action: 'View Layout', description: 'Tap "View Layout" on a map to see its overhead layout image (available for most maps).' },
+      ],
+      buildlab: [
+        { action: 'New Build', description: 'Tap to open the build editor. Pick a role, character, perks, addons, items, offerings, and add notes.' },
+        { action: 'Filter Builds', description: 'Narrow your build list by role, character, tag, or specific perks (include/exclude).' },
+        { action: 'Duplicate', description: 'Clone an existing build to iterate on it without losing the original.' },
+        { action: 'Share', description: 'Copy a build share text to share with friends.' },
+        { action: 'Favorite', description: 'Star a build to mark it as a go-to loadout.' },
+        { action: 'Delete', description: 'Remove a build permanently (with confirmation).' },
+      ],
+      premadebuilds: [
+        { action: 'Clone into Build', description: 'Tap to copy a premade template into your personal Build Lab as a new build.' },
+        { action: 'Search', description: 'Filter premade builds by name or perk.' },
+      ],
+      matchlog: [
+        { action: 'Log a Match', description: 'Fill in role, character, build, map, outcome, and performance metrics to save a match entry.' },
+        { action: 'Edit / Delete', description: 'Tap Edit to modify a logged match, or Delete to remove it (with confirmation).' },
+        { action: 'Progression Analytics', description: 'Use the shortcut button to open the analytics tab in Progression for deeper breakdowns.' },
+        { action: 'Link Builds', description: 'Associate a saved build with each match to track its performance over time.' },
+      ],
+      progression: [
+        { action: 'Mark Owned', description: 'Toggle the checkbox to mark a character as owned and set their prestige level.' },
+        { action: 'Prestige Unlocks', description: 'Teachable perks are derived from roster prestige. Owned characters start contributing their personal perks at prestige 1.' },
+        { action: 'Challenges', description: 'Create custom challenges with tags, link a build, and move them between Planned → Active → Completed.' },
+      ],
+      worldle: [
+        { action: 'Daily Reset', description: 'Daily puzzles reset at midnight on your device.' },
+        { action: 'Practice Queue', description: 'Every mode includes practice. Practice queues avoid repeats until the pool is exhausted.' },
+        { action: 'Stats', description: 'Track histograms, streaks, averages, and recent results for each mode.' },
+      ],
+      achievements: [
+        { action: 'Toggle Completion', description: 'Tap an achievement row to mark it as completed or not completed.' },
+        { action: 'Search & Sort', description: 'Search by name/description. Sort A–Z or by completion status. Toggle "Hide completed" to focus on remaining.' },
+      ],
+      timeline: [
+        { action: 'Tap a Release', description: 'Tap any chapter/release card to expand it and see its killers, survivors, and maps.' },
+        { action: 'Character Lore', description: 'Tap a character within an expanded release to read their fog entry lore.' },
+        { action: 'View Full Profile', description: 'Tap "View Full Profile" inside the lore section to open the character\'s full detail modal.' },
+        { action: 'Year Filter', description: 'Use the year pills to filter the timeline to a specific year.' },
+      ],
+      glossary: [
+        { action: 'Search Terms', description: 'Type in the search bar to filter terms by name or definition.' },
+        { action: 'A–Z Index', description: 'Tap a letter on the sidebar to jump directly to that section.' },
+      ],
+      items: [
+        { action: 'Mode Toggle', description: 'Switch between Survivor Items and Killer Addons using the toggle at the top.' },
+        { action: 'Tap to Expand', description: 'Tap an item or killer card to expand it and see compatible addons.' },
+        { action: 'Favorite', description: 'Tap the star on any item or addon to bookmark it.' },
+        { action: 'Search & Filter', description: 'Search by name, filter by item type, and sort by rarity or alphabetically.' },
+      ],
+      offerings: [
+        { action: 'Tap to Expand', description: 'Tap an offering card to expand its full description.' },
+        { action: 'Favorite', description: 'Tap the star to bookmark an offering.' },
+        { action: 'Role Filter', description: 'Filter by All, Killer, Survivor, or Universal offerings.' },
+        { action: 'Search & Sort', description: 'Search by name/description. Sort by rarity or alphabetically.' },
+      ],
+      cosmetics: [
+        { action: 'Role Selector', description: 'Use the top selector to switch between Killer and Survivor cosmetics.' },
+        { action: 'Character Dropdown', description: 'Choose All characters in the selected role or focus on one base character.' },
+        { action: 'Rarity Order', description: 'Cosmetics are grouped and sorted by rarity so high-tier entries stay easy to spot.' },
+        { action: 'Android Full Sets', description: 'On Android, full-set cosmetics may take a moment to become available after install or update.' },
+        { action: 'Open Profile', description: 'Open any cosmetic card to jump to the base character profile and focus that cosmetic.' },
+      ],
+      communitycontent: [
+        { action: 'Works Offline', description: 'All community content is included in the app and can be explored without internet.' },
+        { action: 'Addon Tierlist', description: 'Browse ranked addons, killer-specific combos, and local addon art mappings.' },
+        { action: 'Build Deep Dive', description: 'Open any build and tap perks to read full descriptions and obtainment details.' },
+        { action: 'Academy + Tierlists', description: 'Use Beginner Academy and Tierlists tabs for onboarding and patch-aware ranking history.' },
+        { action: 'Guide Vault', description: 'Browse curated external resources grouped by source type and searchable context.' },
+      ],
+      prestige: [
+        { action: 'Input Levels', description: 'Enter your current prestige/level and target prestige to calculate the bloodpoints needed.' },
+        { action: 'Bloodweb Mode', description: 'Choose Efficient (~850k), Average (~1.05M), or Completionist (~1.5M) to adjust the calculation.' },
+        { action: 'Match Settings', description: 'Set your average BP per match and match length to see estimated matches and hours.' },
+      ],
+      gameicons: [
+        { action: 'Mode Toggle', description: 'Switch between Glossary (list view) and Trial Grid (icon tiles) at the top.' },
+        { action: 'Tap Icon (Glossary)', description: 'In Glossary mode, tap an icon row to expand its description.' },
+        { action: 'Tap Icon (Trial Grid)', description: 'In Trial Grid mode, tap an icon tile to open a flashcard with details and a quick tip.' },
+        { action: 'Category Filter', description: 'Filter by Health, Buff, Debuff, Killer, Proficiency, or Activity categories.' },
+      ],
+      favorites: [
+        { action: 'Category Tabs', description: 'Switch between All, Killers, Survivors, Perks, Items, Addons, and Offerings.' },
+        { action: 'Unfavorite', description: 'Tap the star on any item to remove it from your favorites.' },
+        { action: 'View', description: 'Tap "View" on a character to navigate to their full list.' },
+      ],
+      settings: [
+        { action: 'Appearance', description: 'Choose Dark, OLED Black, or Light theme. Pick a manual accent theme or one of the full-palette themes.' },
+        { action: 'Font Size', description: 'Set Small, Default, or Large text size.' },
+        { action: 'Nav Bar', description: 'Toggle which views appear in the bottom navigation bar (max 6). Tap Reset to restore defaults.' },
+        { action: 'Home Tiles', description: 'Show/hide and reorder home screen tiles using the arrow buttons. Tap Reset to restore defaults.' },
+        { action: 'Data Backup', description: 'Export your full app data or restore it later from a file or pasted backup text.' },
+      ],
+    };
+    const Header = ({ title, subtitle, onBack, onScrollTop, infoTips }) => (
       <div className="mb-6 sm:mb-8 px-2 flex items-center justify-between">
         <div className="flex items-center gap-3">
           {onBack && (
@@ -4811,6 +4602,7 @@
             <p className="text-sm text-slate-400 mt-1">{subtitle}</p>
           </div>
         </div>
+        {infoTips && <ViewInfoButton tips={infoTips} />}
       </div>
     );
     const GlassCard = ({ item, category, expanded = false, onToggle, perksForOwner = [], onPerkClick, buildsForOwner = [], onCreateBuild, isInCompare = false, onLongPress, isFavorite = false, onToggleFavorite, onPerkTap, onShowLore, onShowPower, onViewProfile, settings = {} }) => {
@@ -4925,8 +4717,8 @@
           {item.description && (
             <div className="mt-4 pt-3 border-t border-white/5">
               {isPerk ? (
-                <div className="perk-effect-text text-zinc-300/90 text-xs font-medium tracking-wide">
-                  <span className="perk-effect-label text-zinc-500 mr-2 uppercase text-[10px] font-bold">Effect</span>
+                <div className="text-zinc-300/90 text-xs font-medium tracking-wide">
+                  <span className="text-zinc-500 mr-2 uppercase text-[10px] font-bold">Effect</span>
                   <PerkDescriptionBlock
                     perk={item}
                     settings={settings}
@@ -4937,8 +4729,8 @@
                   />
                 </div>
               ) : (
-                <p className="perk-effect-text text-zinc-300/90 text-xs leading-relaxed font-medium tracking-wide">
-                  <span className="perk-effect-label text-zinc-500 mr-2 uppercase text-[10px] font-bold">Effect</span>
+                <p className="text-zinc-300/90 text-xs leading-relaxed font-medium tracking-wide">
+                  <span className="text-zinc-500 mr-2 uppercase text-[10px] font-bold">Effect</span>
                   {stripHtml(item.description)}
                 </p>
               )}
@@ -5237,7 +5029,7 @@
       );
       return (
         <div className="flex flex-col h-full pt-12 pb-32 px-6 overflow-y-auto custom-scrollbar space-y-4">
-          <Header title="Chaos Shuffle" subtitle="Randomize your fate" onBack={onBack} />
+          <Header title="Chaos Shuffle" subtitle="Randomize your fate" onBack={onBack} infoTips={VIEW_TIPS.chaoshuffle} />
           {/* Role Toggle */}
           <div className="flex gap-1 bg-zinc-900/40 p-0.5 rounded-xl border border-white/5 backdrop-blur-md shrink-0">
             <button
@@ -5453,7 +5245,7 @@
         </div>
       );
     };
-    const HomeView = ({ setView, data, theme, builds = [], maps = [], challenges = [], setBuildSeed, perks = [], setBuilds, customHomeTiles = [], items = [], addons = [], offerings = [], cosmeticsCatalog = { characterSwaps: [], fullSets: [] }, allCharacters = [], onOpenCharacterProfile, settings = {} }) => {
+    const HomeView = ({ setView, data, theme, builds = [], maps = [], challenges = [], setBuildSeed, perks = [], setBuilds, customHomeTiles = [], items = [], addons = [], offerings = [], cosmeticsCatalog = { characterSwaps: [], fullSets: [] }, allCharacters = [], onOpenCharacterProfile }) => {
       const { killers = [], survivors = [] } = data || {};
       const [searchTerm, setSearchTerm] = useState('');
       const [results, setResults] = useState([]);
@@ -5463,7 +5255,6 @@
       const [importError, setImportError] = useState('');
       const [importPreview, setImportPreview] = useState(null);
       const [importWarnings, setImportWarnings] = useState([]);
-      const [quickKiller, setQuickKiller] = useState(null);
       const allCharactersById = useMemo(() => {
         const map = {};
         (allCharacters || []).forEach((character) => {
@@ -5483,11 +5274,6 @@
           [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
         }
         return shuffled;
-      };
-
-      const rollQuickKiller = () => {
-        const killer = shuffleArray(killers)[0] || null;
-        setQuickKiller(killer);
       };
 
       const findKiller = (query) => {
@@ -5637,6 +5423,7 @@
           cosmeticFocusId: cosmetic.id
         });
       };
+
       const handleImportBuild = () => {
         if (!importCode.trim()) {
           setImportError('Please paste shared build text.');
@@ -6069,94 +5856,35 @@
 
         setResults(scored.slice(0, 50));
       }, [searchTerm, data, builds, maps, challenges, items, addons, offerings, searchableCosmetics]);
-      const visiblePerks = data?.perks || perks || [];
-      const readyCosmeticCount = searchableCosmetics.length;
-      const favoriteEntries = useMemo(() => {
-        const byId = (list = []) => {
-          const map = {};
-          list.forEach((entry) => {
-            if (entry?.id) map[entry.id] = entry;
-          });
-          return map;
-        };
-        const killerMap = byId(killers);
-        const survivorMap = byId(survivors);
-        const perkMap = byId(visiblePerks);
-        const itemMap = byId(items);
-        const addonMap = byId(addons);
-        const offeringMap = byId(offerings);
-        const collect = (ids = [], map, category, view) => (ids || [])
-          .map(id => map[id] ? { ...map[id], favoriteCategory: category, favoriteView: view } : null)
-          .filter(Boolean);
-        return [
-          ...collect(settings.favoriteKillers, killerMap, 'Killer', 'killers'),
-          ...collect(settings.favoriteSurvivors, survivorMap, 'Survivor', 'survivors'),
-          ...collect(settings.favoritePerks, perkMap, 'Perk', 'perks'),
-          ...collect(settings.favoriteItems, itemMap, 'Item', 'items'),
-          ...collect(settings.favoriteAddons, addonMap, 'Addon', 'items'),
-          ...collect(settings.favoriteOfferings, offeringMap, 'Offering', 'offerings'),
-        ];
-      }, [settings, killers, survivors, visiblePerks, items, addons, offerings]);
-      const favoriteCount = favoriteEntries.length;
-      const homeStats = [
-        { label: 'Killers', value: killers.length, icon: 'Sword', view: 'killers' },
-        { label: 'Survivors', value: survivors.length, icon: 'Heart', view: 'survivors' },
-        { label: 'Perks', value: visiblePerks.length, icon: 'BookOpen', view: 'perks' },
-        { label: 'Favorites', value: favoriteCount, icon: 'Star', view: 'favorites' },
-      ];
-      const orderedTiles = useMemo(() => {
-        const tileOrder = customHomeTiles.length > 0 ? customHomeTiles : ALL_HOME_TILES.map(t => t.id);
-        return tileOrder
-          .map(id => ALL_HOME_TILES.find(t => t.id === id))
-          .filter(Boolean);
-      }, [customHomeTiles]);
-      const primaryTiles = orderedTiles.slice(0, 6);
-      const secondaryTiles = orderedTiles.slice(6);
-      const heroCharacters = useMemo(() => {
-        const picks = [killers[0], survivors[0], killers[1], survivors[1]].filter(Boolean);
-        return picks.slice(0, 4);
-      }, [killers, survivors]);
       return (
-        <div ref={pullRef} {...pullHandlers} className="relative flex flex-col h-full px-4 sm:px-6 pt-6 sm:pt-8 pb-32 overflow-y-auto custom-scrollbar">
+        <div ref={pullRef} {...pullHandlers} className="relative flex flex-col h-full px-6 pt-10 pb-32 overflow-y-auto custom-scrollbar">
           <PullIndicator pullDistance={pullDistance} threshold={80} isRefreshing={isRefreshing} />
-          <div className={`home-command transition-opacity duration-300 ${searchTerm ? 'opacity-90' : 'opacity-100'}`}>
-            <div className="home-command-hero rounded-xl p-4 sm:p-5">
-              <div className="relative z-10 flex flex-col lg:flex-row lg:items-end justify-between gap-5">
-                <div className="min-w-0">
-                  <p className="text-[10px] font-black uppercase tracking-[0.28em] text-zinc-500">Home</p>
-                  <h1 className="mt-2 text-2xl sm:text-3xl font-black text-white tracking-tight">The Entity's Wiki</h1>
-                  <p className="mt-2 max-w-2xl text-sm leading-relaxed text-zinc-400">
-                    Your all in one place for Dead By Daylight.
-                  </p>
-                </div>
-                <div className="home-stat-grid min-w-0">
-                  {homeStats.map((stat) => {
-                    const StatIcon = Icons[stat.icon] || Icons.Zap;
-                    return (
-                      <button key={stat.label} onClick={() => setView(stat.view)} className="home-stat-card rounded-lg px-3 py-2.5 text-left hover:bg-white/[0.04] transition-colors">
-                        <div className="flex items-center justify-between gap-2">
-                          <span className="text-[8px] uppercase tracking-[0.12em] text-zinc-500 font-black">{stat.label}</span>
-                          <StatIcon width={12} height={12} style={{ color: theme.accent }} />
-                        </div>
-                        <span className="mt-1.5 block text-xl font-black text-white">{stat.value}</span>
-                      </button>
-                    );
-                  })}
-                </div>
+          <div className="absolute right-4 z-30" style={{ top: 'max(1rem, env(safe-area-inset-top, 1rem))' }}><ViewInfoButton tips={VIEW_TIPS.home} /></div>
+          <div className={`transition-all duration-500 ${searchTerm ? 'mt-0 opacity-85' : 'mt-2 sm:mt-6 opacity-100'}`}>
+            <div className="flex flex-col items-center text-center mb-6">
+              <div className="w-14 h-14 sm:w-16 sm:h-16 rounded-2xl flex items-center justify-center mb-3 bg-white/5 border border-white/10">
+                <Icons.DbdLogo width={36} height={36} className="text-white" />
               </div>
+              <h1 className="text-2xl sm:text-3xl font-bold text-white tracking-tight">DBD Companion</h1>
+              <p className="font-medium text-xs uppercase tracking-[0.22em] text-slate-400 mt-1">The Entity's Database</p>
             </div>
           </div>
-          <div className="px-0 sm:px-6 pb-4 pt-4 pointer-events-none">
-            <div className="relative max-w-3xl mx-auto pointer-events-auto">
-              <div className="absolute inset-0 bg-red-600 rounded-3xl blur-2xl opacity-0 transition-opacity duration-500"></div>
+          <div className="sticky top-0 z-20 -mx-6 px-6 pb-4 pt-1 pointer-events-none">
+            <div className="relative mb-3 max-w-3xl mx-auto pointer-events-auto">
               <div className="relative flex items-center bg-zinc-800/60 backdrop-blur-xl border border-white/10 rounded-3xl p-2 shadow-2xl">
                 <div className="pl-4 text-zinc-400"><Icons.Search width={18} height={18} /></div>
-                <input type="text" className="w-full bg-transparent text-white p-3 text-sm sm:text-base font-medium placeholder-zinc-600 focus:outline-none" placeholder="Search perks, killers, maps, builds..." value={searchTerm} onChange={(e) => setSearchTerm(e.target.value)} />
+                <input type="text" className="w-full bg-transparent text-white p-3 text-sm sm:text-base font-medium placeholder-zinc-600 focus:outline-none" placeholder="Search anything..." value={searchTerm} onChange={(e) => setSearchTerm(e.target.value)} />
                 {searchTerm && <button onClick={() => setSearchTerm('')} className="p-2 mr-1 rounded-xl bg-white/5 text-zinc-300 hover:text-white hover:bg-white/10 transition-colors"><Icons.X width={18} height={18} /></button>}
               </div>
+              {/* Filter hint */}
+              {!searchTerm && (
+                <p className="text-center text-[10px] text-zinc-600 mt-2">
+                  Smart search: describe what you're looking for, or use <span className="text-zinc-400">perks:</span> <span className="text-zinc-400">random:</span> filters
+                </p>
+              )}
             </div>
           </div>
-          <div className="home-command mt-2 pb-24">
+          <div className="mt-6 pb-24 -mx-6 px-6">
             {/* Random Result Display */}
             {randomResult && (
               <div className="space-y-4 animate-in fade-in slide-in-from-bottom-4 duration-500">
@@ -6478,156 +6206,57 @@
                 }) : <div className="text-center mt-12 text-zinc-600"><p className="font-medium text-sm">No results found.</p></div>}
               </div>
             ) : (
-              <div className="grid grid-cols-1 xl:grid-cols-[minmax(0,1fr)_360px] gap-5 lg:gap-6">
-                <div className="space-y-6">
-                  <section className="space-y-3">
-                    <div className="flex items-end justify-between gap-3">
-                      <div>
-                        <p className="text-[10px] uppercase tracking-[0.24em] text-zinc-500 font-black">Quick access</p>
-                        <h2 className="mt-1 text-xl font-black text-white">Core tools</h2>
-                      </div>
-                    </div>
-
-                    <div className="divide-y divide-white/[0.07] border-y border-white/[0.08]">
-                      {primaryTiles.map((tile) => {
-                        const TileIcon = Icons[tile.icon] || Icons.Zap;
-                        const openTile = () => {
-                          if (tile.id === 'import') {
-                            setShowImportModal(true);
-                            return;
-                          }
-                          setView(tile.id);
-                        };
-                        return (
-                          <button key={tile.id} onClick={openTile} className="group w-full py-3.5 text-left flex items-center gap-4 hover:bg-white/[0.025] transition-colors">
-                            <span className="home-tool-icon w-9 h-9 shrink-0 rounded-lg flex items-center justify-center"><TileIcon width={17} height={17} /></span>
-                            <span className="min-w-0 flex-1">
-                              <span className="block text-sm font-black text-white truncate">{tile.label}</span>
-                              <span className="mt-0.5 block text-xs text-zinc-500 truncate">{tile.desc}</span>
-                            </span>
-                            <Icons.ChevronRight width={17} height={17} className="shrink-0 text-zinc-700 group-hover:text-white transition-colors" />
-                          </button>
-                        );
-                      })}
-                    </div>
-                  </section>
-
-                  {secondaryTiles.length > 0 && (
-                    <section className="space-y-3">
-                      <div className="flex items-end justify-between gap-3">
-                        <div>
-                          <p className="text-[10px] uppercase tracking-[0.24em] text-zinc-500 font-black">Library</p>
-                          <h2 className="mt-1 text-xl font-black text-white">All modules</h2>
-                        </div>
-                      </div>
-                      <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-5 border-t border-white/[0.08]">
-                        {secondaryTiles.map((tile) => {
-                          const TileIcon = Icons[tile.icon] || Icons.Zap;
-                          const openTile = () => {
-                            if (tile.id === 'import') {
-                              setShowImportModal(true);
-                              return;
-                            }
-                            setView(tile.id);
-                          };
-                          return (
-                            <button
-                              key={tile.id}
-                              onClick={openTile}
-                              className="group py-3 border-b border-white/[0.07] text-left flex items-center gap-3 hover:bg-white/[0.025] transition-colors"
-                            >
-                              <span className="text-zinc-500 group-hover:text-white transition-colors"><TileIcon width={16} height={16} /></span>
-                              <span className="min-w-0 flex-1">
-                                <span className="block text-sm font-bold text-white truncate">{tile.label}</span>
-                                <span className="block text-[11px] text-zinc-600 truncate">{tile.desc}</span>
-                              </span>
-                            </button>
-                          );
-                        })}
-                      </div>
-                    </section>
-                  )}
-                </div>
-
-                <aside className="space-y-4">
-                  <section className="home-signal-card rounded-xl overflow-hidden">
-                    <div className="px-4 py-3 border-b border-white/[0.08] flex items-center justify-between gap-3">
-                      <div>
-                        <p className="text-[10px] uppercase tracking-[0.22em] text-zinc-500 font-black">Quick Chaos Shuffle</p>
-                        <h3 className="mt-1 text-base font-black text-white">Random killer</h3>
-                      </div>
-                      <button onClick={() => setView('roulette')} className="text-[11px] font-black uppercase tracking-widest text-zinc-500 hover:text-white">Open</button>
-                    </div>
-                    <div className="p-4">
-                      <button
-                        onClick={() => {
-                          if (quickKiller && onOpenCharacterProfile) {
-                            onOpenCharacterProfile(quickKiller);
-                          }
-                        }}
-                        className="home-portrait-card w-full rounded-lg overflow-hidden relative min-h-[190px]"
-                      >
-                        {quickKiller ? (
-                          <AssetFrame
-                            type="Killer"
-                            imageUrl={quickKiller.image}
-                            size="fill"
-                            fallbackIcon={<Icons.User width={24} height={24} className="text-zinc-600" />}
-                          />
-                        ) : (
-                          <div className="absolute inset-0 flex flex-col items-center justify-center gap-3 text-zinc-600">
-                            <Icons.Dices width={34} height={34} />
-                            <span className="text-xs font-black uppercase tracking-widest">No roll yet</span>
+              <div className="mt-8 grid grid-cols-2 sm:grid-cols-3 xl:grid-cols-4 grid-flow-dense auto-rows-fr gap-4">
+                {(() => {
+                  const tileOrder = customHomeTiles.length > 0 ? customHomeTiles : ALL_HOME_TILES.map(t => t.id);
+                  const orderedTiles = tileOrder
+                    .map(id => ALL_HOME_TILES.find(t => t.id === id))
+                    .filter(Boolean);
+                  return orderedTiles.map(tile => {
+                    if (tile.id === 'import') {
+                      return (
+                        <button
+                          key={tile.id}
+                          onClick={() => setShowImportModal(true)}
+                          className="group p-4 sm:p-5 rounded-2xl glass-panel border border-white/5 flex flex-col items-center sm:items-start justify-start text-center sm:text-left gap-3 transition-all hover:-translate-y-1 min-h-[120px]"
+                          style={{ boxShadow: 'none' }}
+                        >
+                          <div className="flex items-center gap-3 w-full">
+                            <div className="w-12 h-12 rounded-xl flex items-center justify-center group-hover:scale-110 transition-transform bg-white/5 border border-white/10 shrink-0" style={{ color: theme.accent }}>
+                              <Icons.Import width={24} height={24} />
+                            </div>
+                            <div className="text-left hidden sm:block">
+                              <p className="text-zinc-100 text-sm font-semibold">{tile.label}</p>
+                              <p className="text-[11px] text-zinc-500 mt-1 leading-snug">{tile.desc}</p>
+                            </div>
                           </div>
-                        )}
-                        <div className="home-portrait-caption absolute inset-x-0 bottom-0 p-3">
-                          <p className="text-[10px] text-zinc-500 font-black uppercase tracking-widest">Killer pick</p>
-                          <p className="text-sm text-white font-black truncate">{quickKiller?.name || 'Roll a killer'}</p>
+                          <span className="text-zinc-300 group-hover:text-white text-[11px] font-bold uppercase tracking-[0.24em] transition-colors sm:hidden">{tile.label}</span>
+                        </button>
+                      );
+                    }
+                    const TileIcon = Icons[tile.icon] || Icons.Zap;
+                    const span = (tile.id === 'perks' || tile.id === 'buildLab') ? 'md:col-span-2' : '';
+                    return (
+                      <button
+                        key={tile.id}
+                        onClick={() => setView(tile.id)}
+                        className={`group p-4 sm:p-5 rounded-2xl glass-panel border border-white/5 flex flex-col items-center sm:items-start justify-start text-center sm:text-left gap-3 transition-all hover:-translate-y-1 min-h-[120px] ${span}`}
+                        style={{ boxShadow: 'none' }}
+                      >
+                        <div className="flex items-center gap-3 w-full">
+                          <div className="w-12 h-12 rounded-xl flex items-center justify-center group-hover:scale-110 transition-transform bg-white/5 border border-white/10 shrink-0" style={{ color: theme.accent }}>
+                            <TileIcon width={24} height={24} />
+                          </div>
+                          <div className="text-left hidden sm:block">
+                            <p className="text-zinc-100 text-sm font-semibold">{tile.label}</p>
+                            <p className="text-[11px] text-zinc-500 mt-1 leading-snug">{tile.desc}</p>
+                          </div>
                         </div>
+                        <span className="text-zinc-300 group-hover:text-white text-[11px] font-bold uppercase tracking-[0.24em] transition-colors sm:hidden">{tile.label}</span>
                       </button>
-                      <div className="mt-3 grid grid-cols-2 gap-2">
-                        <button onClick={rollQuickKiller} className="px-3 py-2.5 rounded-lg border border-white/10 bg-white/[0.035] text-sm font-bold text-white hover:bg-white/[0.06] transition-colors flex items-center justify-center gap-2">
-                          <Icons.Dices width={16} height={16} /> Roll
-                        </button>
-                        <button onClick={() => setView('roulette')} className="px-3 py-2.5 rounded-lg border border-white/10 bg-white/[0.02] text-sm font-bold text-zinc-300 hover:text-white hover:bg-white/[0.05] transition-colors">
-                          Full shuffle
-                        </button>
-                      </div>
-                    </div>
-                  </section>
-
-                  <button onClick={() => setView('worldle')} className="home-signal-card rounded-xl p-4 w-full text-left hover:bg-white/[0.035] transition-colors">
-                    <div className="flex items-center justify-between gap-3">
-                      <div>
-                        <p className="text-[10px] uppercase tracking-[0.22em] text-zinc-500 font-black">Daily Worldle</p>
-                        <h3 className="mt-1 text-lg font-black text-white">Today&apos;s puzzle</h3>
-                        <p className="mt-1 text-xs text-zinc-500">Guess today&apos;s DBD Wordle.</p>
-                      </div>
-                      <Icons.Notepad width={22} height={22} style={{ color: theme.accent }} />
-                    </div>
-                  </button>
-
-                  <section className="home-signal-card rounded-xl p-4">
-                    <div className="flex items-center justify-between gap-3">
-                      <p className="text-[10px] uppercase tracking-[0.22em] text-zinc-500 font-black">Favorites</p>
-                      <button onClick={() => setView('favorites')} className="text-[11px] font-black uppercase tracking-widest text-zinc-500 hover:text-white">Open</button>
-                    </div>
-                    <div className="mt-3 divide-y divide-white/[0.07]">
-                      {favoriteEntries.slice(0, 4).map((entry) => (
-                        <button key={`${entry.favoriteCategory}-${entry.id}`} onClick={() => setView(entry.favoriteView)} className="w-full py-2.5 text-left hover:bg-white/[0.025] transition-colors">
-                          <span className="block text-sm text-white font-bold truncate">{entry.name}</span>
-                          <span className="block text-[11px] text-zinc-500 truncate">{entry.favoriteCategory}</span>
-                        </button>
-                      ))}
-                      {favoriteEntries.length === 0 && (
-                        <button onClick={() => setView('favorites')} className="w-full py-2.5 text-left hover:bg-white/[0.025] transition-colors">
-                          <span className="block text-sm text-white font-bold">No favorites yet</span>
-                          <span className="block text-[11px] text-zinc-500">Favorite perks, characters, items, addons, or offerings to show them here.</span>
-                        </button>
-                      )}
-                    </div>
-                  </section>
-                </aside>
+                    );
+                  });
+                })()}
               </div>
             )}
           </div>
@@ -6829,7 +6458,7 @@
       }, [data, localSearch, effectiveFilter, sortBy, isCharacterList, favoritePerks, isPerkList]);
       return (
         <div ref={scrollRef} className="flex flex-col h-full pt-12 pb-32 overflow-y-auto custom-scrollbar">
-          <div className="px-6"><Header title={type} subtitle="Database" onBack={onBack} onScrollTop={scrollToTop} /></div>
+          <div className="px-6"><Header title={type} subtitle="Database" onBack={onBack} onScrollTop={scrollToTop} infoTips={isPerkList ? VIEW_TIPS.perks : type === 'Killers' ? VIEW_TIPS.killers : VIEW_TIPS.survivors} /></div>
           <div className="sticky top-0 z-20 px-6 pb-4 pt-1 pointer-events-none">
             <div className="relative mb-3 max-w-3xl mx-auto pointer-events-auto">
               <div className="absolute inset-0 bg-red-600 rounded-3xl blur-2xl opacity-0 transition-opacity duration-500"></div>
@@ -6932,7 +6561,7 @@
       const realms = Object.entries(grouped);
       return (
         <div className="flex flex-col h-full pt-12 pb-32 px-6 overflow-y-auto custom-scrollbar">
-          <Header title="Realms" subtitle="Maps & Locations" onBack={onBack} />
+          <Header title="Realms" subtitle="Maps & Locations" onBack={onBack} infoTips={VIEW_TIPS.realms} />
           <div className="sticky top-0 z-20 -mx-6 px-6 pb-4 pointer-events-none">
             <div className="relative max-w-3xl mx-auto">
               <div className="absolute inset-0 bg-red-600 rounded-3xl blur-2xl opacity-0 transition-opacity duration-500"></div>
@@ -7457,7 +7086,7 @@
       };
       return (
         <div className="flex flex-col h-full pt-12 pb-32 px-6 overflow-y-auto custom-scrollbar">
-          <Header title="Build & Loadout Lab" subtitle="Create, filter, favorite and clone builds" onBack={onBack} />
+          <Header title="Build & Loadout Lab" subtitle="Create, filter, favorite and clone builds" onBack={onBack} infoTips={VIEW_TIPS.buildlab} />
           <InfoCallout lines={[
             'Use New Build to craft a loadout; role, character, perks, and notes live in the form.',
             'Filters trim the list by role, character, tags, and include/exclude perk text. Reset clears everything.',
@@ -8321,7 +7950,7 @@
       });
       return (
         <div className="flex flex-col h-full pt-12 pb-32 px-6 overflow-y-auto custom-scrollbar">
-          <Header title="Premade Builds" subtitle="Ready-to-run perk combos" onBack={onBack} />
+          <Header title="Premade Builds" subtitle="Ready-to-run perk combos" onBack={onBack} infoTips={VIEW_TIPS.premadebuilds} />
           <div className="sticky top-0 z-20 -mx-6 px-6 pb-4 pointer-events-none">
             <div className="relative max-w-3xl mx-auto">
               <div className="absolute inset-0 bg-red-600 rounded-3xl blur-2xl opacity-0 transition-opacity duration-500"></div>
@@ -8488,7 +8117,7 @@
       };
       return (
         <div className="flex flex-col h-full pt-12 pb-32 px-6 overflow-y-auto custom-scrollbar">
-          <Header title="Match Log" subtitle="Log games with saved build and map details" onBack={onBack} />
+          <Header title="Match Log" subtitle="Log games with saved build and map details" onBack={onBack} infoTips={VIEW_TIPS.matchlog} />
           <InfoCallout lines={[
             'Pick Survivor or Killer, link a saved build, and choose a map so your records stay clear over time.',
             'Match analytics now live in Progression > Analytics; this screen stays focused on logging, filtering, and editing history.',
@@ -9197,7 +8826,7 @@
       if (!target || activeCatalog.length === 0) {
         return (
           <div className="flex flex-col h-full pt-12 pb-32 px-6 overflow-y-auto custom-scrollbar">
-            <Header title="Wordle" subtitle="Test your DBD knowledge" onBack={onBack} />
+            <Header title="Wordle" subtitle="Test your DBD knowledge" onBack={onBack} infoTips={VIEW_TIPS.worldle} />
             <div className="p-6 rounded-3xl bg-zinc-900/60 border border-white/10 text-center text-zinc-400">
               Wordle data is unavailable right now.
             </div>
@@ -9206,7 +8835,7 @@
       }
       return (
         <div className="flex flex-col h-full pt-12 pb-32 px-6 overflow-y-auto custom-scrollbar">
-          <Header title="Wordle" subtitle="Test your DBD knowledge" onBack={onBack} />
+          <Header title="Wordle" subtitle="Test your DBD knowledge" onBack={onBack} infoTips={VIEW_TIPS.worldle} />
           <InfoCallout lines={[
             'Daily puzzles reset at midnight.',
             'Every game-mode also supports practice mode.',
@@ -9671,11 +9300,11 @@
       };
       return (
         <div className="flex flex-col h-full pt-12 pb-32 px-6 overflow-y-auto custom-scrollbar">
-          <Header title="Progression Hub" subtitle="Achievements, roster, challenges and analytics" onBack={onBack} />
+          <Header title="Progression Hub" subtitle="Achievements, roster, challenges and analytics" onBack={onBack} infoTips={VIEW_TIPS.progression} />
           <InfoCallout lines={[
             'Progression hub: achievements, roster ownership, custom challenges, and match analytics are all stored here.',
             'Use the tab order controls to rearrange the hub.',
-            'Choosing who you own here and then enabling "Owned Only global filter" in Settings will filter supported views across the website.'
+            'Choosing who you own here and then enabling "Owned Only global filter" in Settings will filter supported views across the app.'
           ]} />
           <div className="p-4 rounded-3xl bg-zinc-900/60 border border-white/10 mb-4 space-y-3">
             <div className="flex flex-wrap gap-2">
@@ -10431,6 +10060,7 @@
                   }
                 </p>
               </div>
+              <ViewInfoButton tips={VIEW_TIPS.timeline} />
             </div>
 
             {/* Search bar */}
@@ -10532,7 +10162,7 @@
                               <div className="flex-1 min-w-0">
                                 {/* Badge */}
                                 <span
-                                  className="timeline-release-badge inline-flex px-2 py-0.5 rounded text-[10px] font-bold uppercase tracking-wide mb-2"
+                                  className="inline-flex px-2 py-0.5 rounded text-[10px] font-bold uppercase tracking-wide mb-2"
                                   style={{ backgroundColor: `${accent}20`, color: accent }}
                                 >
                                   {badge.label}
@@ -10778,10 +10408,10 @@
       };
 
       return (
-        <div className="flex h-full pt-12">
+        <div className="flex h-full pt-12 pb-32">
           {/* Main content */}
-          <div ref={scrollRef} className="flex-1 overflow-y-auto custom-scrollbar px-6 pb-28 md:pb-8">
-            <Header title="Glossary" subtitle={`${allTerms.length} terms`} onBack={onBack} />
+          <div ref={scrollRef} className="flex-1 overflow-y-auto custom-scrollbar px-6">
+            <Header title="Glossary" subtitle={`${allTerms.length} terms`} onBack={onBack} infoTips={VIEW_TIPS.glossary} />
 
             {/* Search bar */}
             <div className="sticky top-0 z-20 -mx-6 px-6 pb-4 pointer-events-none">
@@ -10804,7 +10434,7 @@
             </div>
 
             {/* Dictionary entries */}
-            <div className="pb-8 pr-8">
+            <div className="pb-32 pr-8">
               {filteredTerms.length === 0 ? (
                 <div className="text-center text-zinc-500 mt-12">No terms found.</div>
               ) : (
@@ -10994,7 +10624,7 @@
       }, [initialTargetType, targetItem, targetAddon, targetKillerAddonHost, targetSurvivorAddonHostItem, mode, expandedId, filteredItems, filteredKillers]);
       return (
         <div className="flex flex-col h-full pt-12 pb-32 px-6 overflow-y-auto custom-scrollbar">
-          <Header title="Items & Addons" subtitle={mode === 'survivor' ? bloodwebItems.length + ' items' : killers.length + ' killers'} onBack={onBack} />
+          <Header title="Items & Addons" subtitle={mode === 'survivor' ? bloodwebItems.length + ' items' : killers.length + ' killers'} onBack={onBack} infoTips={VIEW_TIPS.items} />
           <div className="sticky top-0 z-20 -mx-6 px-6 pb-4 pointer-events-none">
             <div className="relative max-w-3xl mx-auto">
               <div className="relative flex items-center bg-zinc-800/60 backdrop-blur-xl border border-white/10 rounded-3xl p-2 shadow-2xl pointer-events-auto">
@@ -11267,7 +10897,7 @@
       }, [targetOffering, expandedId, filtered]);
       return (
         <div className="flex flex-col h-full pt-12 pb-32 px-6 overflow-y-auto custom-scrollbar">
-          <Header title="Offerings" subtitle={active.length + " offerings"} onBack={onBack} />
+          <Header title="Offerings" subtitle={active.length + " offerings"} onBack={onBack} infoTips={VIEW_TIPS.offerings} />
           <div className="sticky top-0 z-20 -mx-6 px-6 pb-4 pointer-events-none">
             <div className="relative max-w-3xl mx-auto">
               <div className="relative flex items-center bg-zinc-800/60 backdrop-blur-xl border border-white/10 rounded-3xl p-2 shadow-2xl pointer-events-auto">
@@ -11388,7 +11018,7 @@
           || compareUiText(left.baseCharacterName, right.baseCharacterName);
       });
     };
-    const CosmeticCard = ({ entry, accentColor = 'var(--accent)', focused = false, onOpen, assetRevision = 0, eagerImage = false }) => {
+    const CosmeticCard = ({ entry, accentColor = 'var(--accent)', focused = false, onOpen, assetRevision = 0 }) => {
       if (!entry) return null;
       const isCharacterSwap = entry.isCharacterSwap === true || String(entry.outfitLinkMode || '').toLowerCase() === 'character_swap';
       const outfitLinkMode = String(entry.outfitLinkMode || (isCharacterSwap ? 'character_swap' : 'unlinked')).toLowerCase();
@@ -11417,7 +11047,6 @@
               size="fill"
               imageUrl={entry.image}
               assetRevision={assetRevision}
-              imageLoading={eagerImage ? 'eager' : 'lazy'}
               fallbackIcon={
                 isCharacterSwap
                   ? <Icons.User width={24} height={24} className="text-zinc-500" />
@@ -11583,7 +11212,7 @@
 
       return (
         <div className="flex flex-col h-full pt-12 pb-32 px-6 overflow-y-auto custom-scrollbar" data-smoke-cosmetics="true">
-          <Header title="Cosmetics" subtitle={`${readyCosmetics.length} cosmetics • ${characterSwapCount} character swaps`} onBack={onBack} />
+          <Header title="Cosmetics" subtitle={`${readyCosmetics.length} cosmetics • ${characterSwapCount} character swaps`} onBack={onBack} infoTips={VIEW_TIPS.cosmetics} />
           {showFullSetPackBanner && (
             <div className="max-w-5xl mx-auto w-full mb-4">
               <div className="p-4 rounded-2xl bg-amber-500/10 border border-amber-500/20 space-y-3">
@@ -11651,9 +11280,7 @@
             </div>
           </div>
           <div className="max-w-5xl mx-auto pb-32 space-y-6">
-            {(() => {
-              let renderedCount = 0;
-              return groupedByRarity.map((group) => (
+            {groupedByRarity.map((group) => (
               <section key={group.label} className="space-y-3">
                 <div className="flex items-center justify-between gap-3">
                   <div>
@@ -11663,15 +11290,12 @@
                   <span className="px-2 py-1 rounded-lg bg-white/5 border border-white/10 text-[10px] uppercase tracking-wider text-zinc-400">{group.entries.length}</span>
                 </div>
                 <div className="grid grid-cols-2 sm:grid-cols-3 xl:grid-cols-4 gap-3">
-                  {group.entries.map((entry) => {
-                    const isEager = renderedCount < 16;
-                    renderedCount += 1;
-                    return <CosmeticCard key={entry.id} entry={entry} onOpen={onOpenCosmetic} assetRevision={cosmeticsAssetRevision} eagerImage={isEager} />;
-                  })}
+                  {group.entries.map((entry) => (
+                    <CosmeticCard key={entry.id} entry={entry} onOpen={onOpenCosmetic} assetRevision={cosmeticsAssetRevision} />
+                  ))}
                 </div>
               </section>
-              ));
-            })()}
+            ))}
 
             {groupedByRarity.length === 0 && (
               <div className="text-center py-12">
@@ -11958,9 +11582,32 @@
         return `${Math.floor(ageDays / 365)}y old`;
       };
 
+      const renderTierlistSummaryLink = (entry, emptyLabel) => {
+        if (!entry) return <span className="text-zinc-500">{emptyLabel}</span>;
+        const title = entry.title || emptyLabel;
+        const meta = [entry.patch, entry.sourceType].filter(Boolean).join(' / ');
+        if (!entry.url) {
+          return (
+            <span className="inline-flex flex-col gap-0.5">
+              <span className="text-white">{title}</span>
+              {meta && <span className="text-[10px] text-zinc-500">{meta}</span>}
+            </span>
+          );
+        }
+        return (
+          <a href={entry.url} target="_blank" rel="noreferrer" className="group inline-flex flex-col gap-0.5 rounded-lg -mx-1 px-1 py-0.5 text-white hover:text-red-300 focus:outline-none focus:ring-2 focus:ring-red-500/40">
+            <span className="inline-flex items-center gap-1">
+              <span className="underline decoration-white/20 underline-offset-4 group-hover:decoration-red-300/70">{title}</span>
+              <span aria-hidden="true" className="text-[10px] opacity-70">open</span>
+            </span>
+            {meta && <span className="text-[10px] text-zinc-500 group-hover:text-red-300/80">{meta}</span>}
+          </a>
+        );
+      };
+
       return (
         <div className="flex flex-col h-full pt-12 pb-32 px-6 overflow-y-auto custom-scrollbar">
-          <Header title="Community Content" subtitle="Guides, builds, and tierlists" onBack={onBack} />
+          <Header title="Community Content" subtitle="Guides, builds, and tierlists" onBack={onBack} infoTips={VIEW_TIPS.communitycontent} />
           <div className="max-w-5xl mx-auto w-full pb-32 space-y-4">
             <div className="flex flex-wrap items-center gap-2">
               {tabOptions.map((tab) => (
@@ -12197,8 +11844,12 @@
                   {tierlistComparisons.map((comparison) => (
                     <div key={comparison.categoryLabel} className="p-3 rounded-2xl bg-zinc-900/45 border border-white/10">
                       <p className="text-[10px] uppercase tracking-[0.16em] text-zinc-500 font-bold">{comparison.categoryLabel}</p>
-                      <p className="text-sm text-white mt-1">Latest: {comparison.latest?.title || 'n/a'}</p>
-                      <p className="text-[11px] text-zinc-500 mt-1">Previous: {comparison.previous?.title || 'none recorded'}</p>
+                      <div className="text-sm mt-1">
+                        <span className="text-zinc-400">Latest: </span>{renderTierlistSummaryLink(comparison.latest, 'n/a')}
+                      </div>
+                      <div className="text-[11px] mt-2">
+                        <span className="text-zinc-500">Previous: </span>{renderTierlistSummaryLink(comparison.previous, 'none recorded')}
+                      </div>
                     </div>
                   ))}
                 </div>
@@ -12374,7 +12025,7 @@
       const showSection = (tab) => activeTab === 'All' || activeTab === tab;
       return (
         <div className="flex flex-col h-full pt-12 pb-32 px-6 overflow-y-auto custom-scrollbar">
-          <Header title="My Favorites" subtitle={totalCount + ' bookmarked'} onBack={onBack} />
+          <Header title="My Favorites" subtitle={totalCount + ' bookmarked'} onBack={onBack} infoTips={VIEW_TIPS.favorites} />
           <div className="max-w-3xl mx-auto flex flex-wrap justify-center gap-2 mb-6">
             {tabs.map(tab => {
               const count = tab === 'All' ? totalCount : tab === 'Killers' ? favKillers.length : tab === 'Survivors' ? favSurvivors.length : tab === 'Perks' ? favPerks.length : tab === 'Items' ? favItems.length : tab === 'Addons' ? favAddons.length : favOfferings.length;
@@ -12436,31 +12087,14 @@
         </span>
       </button>
     );
-    const SettingsView = ({ onBack, settings, setSettings, backupSummary, onCopyBackup, onDownloadBackup, onRestoreBackup, isMobile = false }) => {
+    const SettingsView = ({ onBack, settings, setSettings, backupSummary, onCopyBackup, onDownloadBackup, onRestoreBackup }) => {
       const updateSetting = (field, value) => setSettings((prev) => {
         if (field === 'navItems') {
           return { ...prev, navItems: value, navItemsCustomized: true };
         }
         return { ...prev, [field]: value };
       });
-      const orderedNavItems = useMemo(
-        () => ensureOrderedSubset(settings.navItems, ALL_NAV_OPTIONS.map(option => option.id), DEFAULT_SETTINGS.navItems),
-        [settings.navItems]
-      );
-      const toggleNavItem = (id, checked) => {
-        const next = checked
-          ? ensureOrderedSubset([...orderedNavItems, id], ALL_NAV_OPTIONS.map(option => option.id), DEFAULT_SETTINGS.navItems)
-          : orderedNavItems.filter(itemId => itemId !== id);
-        updateSetting('navItems', next);
-      };
-      const moveNavItem = (id, direction) => {
-        const index = orderedNavItems.indexOf(id);
-        const target = index + direction;
-        if (index < 0 || target < 0 || target >= orderedNavItems.length) return;
-        const next = [...orderedNavItems];
-        [next[index], next[target]] = [next[target], next[index]];
-        updateSetting('navItems', next);
-      };
+      const [showChangelog, setShowChangelog] = useState(false);
       const [backupDraft, setBackupDraft] = useState('');
       const [backupPreview, setBackupPreview] = useState(null);
       const [backupError, setBackupError] = useState('');
@@ -12474,7 +12108,7 @@
           return;
         }
         try {
-          const parsed = parseWebsiteBackupPayload(nextValue);
+          const parsed = parseAppBackupPayload(nextValue);
           setBackupPreview(parsed);
           setBackupError('');
         } catch (error) {
@@ -12497,55 +12131,61 @@
       const restorePreview = backupPreview?.payload || null;
       return (
         <div className="flex flex-col h-full pt-12 pb-32 px-6 overflow-y-auto custom-scrollbar">
-          <Header title="Settings" subtitle="Website preferences" onBack={onBack} />
+          <Header title="Settings" subtitle="App preferences" onBack={onBack} infoTips={VIEW_TIPS.settings} />
           <div className="pb-32 -mx-6 px-6 space-y-4">
-            {isMobile && settings.googlePlayCtaHidden === true && (
-              <div className="p-4 rounded-3xl bg-zinc-900/40 border border-white/5 space-y-3">
-                <div className="flex items-center justify-between gap-3">
-                  <div>
-                    <h3 className="text-lg font-bold text-white">Get the app</h3>
-                  </div>
-                  <button
-                    type="button"
-                    onClick={() => updateSetting('googlePlayCtaHidden', false)}
-                    className="px-3 py-2 rounded-xl bg-white/5 border border-white/10 text-xs font-bold text-zinc-300 hover:text-white hover:bg-white/10 transition-colors"
-                  >
-                    Show Banner
-                  </button>
+            <div className="p-4 rounded-3xl bg-zinc-900/40 border border-white/5">
+              <h3 className="text-lg font-bold text-white mb-2">App Info</h3>
+              <p className="text-sm text-zinc-400">App Version: <span className="text-white font-semibold">{META.appVersion}</span></p>
+              <p className="text-sm text-zinc-400">Game Update / Data Updated: <span className="text-white font-semibold">{META.gameVersion} / {META.lastSynced}</span></p>
+              <button
+                onClick={() => setShowChangelog(!showChangelog)}
+                className="mt-3 flex items-center gap-2 px-4 py-2 rounded-xl bg-white/5 border border-white/10 text-zinc-300 hover:text-white hover:bg-white/10 transition-all"
+              >
+                <Icons.List width={16} height={16} />
+                <span className="text-sm font-semibold">{showChangelog ? 'Hide Changelog' : 'View Changelog'}</span>
+                <Icons.ChevronLeft width={14} height={14} className={`transition-transform ${showChangelog ? '-rotate-90' : 'rotate-90'}`} />
+              </button>
+            </div>
+            {/* Changelog Section */}
+            {showChangelog && (
+              <div className="p-4 rounded-3xl bg-zinc-900/40 border border-white/5 space-y-4">
+                <h3 className="text-lg font-bold text-white flex items-center gap-2">
+                  <Icons.Clock width={20} height={20} className="text-zinc-500" />
+                  Update History
+                </h3>
+                <div className="space-y-4 max-h-96 overflow-y-auto custom-scrollbar pr-2">
+                  {CHANGELOG.map((entry, idx) => (
+                    <div key={entry.version} className={`p-3 rounded-2xl border ${idx === 0 ? 'bg-white/5 border-white/20' : 'bg-white/[0.02] border-white/5'}`}>
+                      <div className="flex items-center justify-between mb-2">
+                        <div className="flex items-center gap-2">
+                          <span className={`text-sm font-bold ${idx === 0 ? 'text-white' : 'text-zinc-300'}`}>v{entry.version}</span>
+                          {idx === 0 && <span className="text-[9px] uppercase tracking-wider bg-green-500/20 text-green-400 px-1.5 py-0.5 rounded font-bold">Latest</span>}
+                        </div>
+                        <span className="text-xs text-zinc-500">{entry.date}</span>
+                      </div>
+                      <ul className="space-y-1">
+                        {entry.changes.map((change, i) => (
+                          <li key={i} className="text-sm text-zinc-400 flex items-start gap-2">
+                            <span className="text-zinc-600 mt-1">•</span>
+                            <span>{change}</span>
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                  ))}
                 </div>
-                <PlayStoreFooter compact className="w-fit" />
               </div>
             )}
-            <div className="p-4 rounded-3xl bg-zinc-900/40 border border-white/5">
-              <h3 className="text-lg font-bold text-white mb-2">Website Info</h3>
-              <p className="text-sm text-zinc-400">Website Version: <span className="text-white font-semibold">{META.siteVersion}</span></p>
-              <p className="text-sm text-zinc-400">Game Update / Data Updated: <span className="text-white font-semibold">{META.gameVersion} / {META.lastSynced}</span></p>
-            </div>
             <div className="p-4 rounded-3xl bg-zinc-900/40 border border-white/5 space-y-3">
               <h3 className="text-lg font-bold text-white">Theme</h3>
               <div className="grid grid-cols-1 sm:grid-cols-3 gap-2">
                 <div>
                   <p className="text-[11px] uppercase text-zinc-500 font-bold mb-1">Appearance</p>
-                  <div className="grid grid-cols-3 gap-1.5">
-                    {[
-                      { id: 'dark', label: 'Dark' },
-                      { id: 'oled', label: 'OLED' },
-                      { id: 'light', label: 'Light' }
-                    ].map((mode) => {
-                      const isActive = (settings.colorMode || 'dark') === mode.id;
-                      return (
-                        <button
-                          key={mode.id}
-                          type="button"
-                          onClick={() => updateSetting('colorMode', mode.id)}
-                          className={`mode-choice ${isActive ? 'mode-choice--active' : ''} rounded-xl px-2 py-2 text-xs font-bold transition-colors`}
-                          aria-pressed={isActive}
-                        >
-                          {mode.label}
-                        </button>
-                      );
-                    })}
-                  </div>
+                  <select value={settings.colorMode || 'dark'} onChange={e => updateSetting('colorMode', e.target.value)} className="themed-select w-full text-sm">
+                    <option value="dark">Dark</option>
+                    <option value="oled">OLED Black</option>
+                    <option value="light">Light</option>
+                  </select>
                 </div>
                 <div>
                   <p className="text-[11px] uppercase text-zinc-500 font-bold mb-1">Font Size</p>
@@ -12594,6 +12234,12 @@
                   description="Use short vibration feedback on supported mobile devices."
                 />
                 <SettingsToggleRow
+                  checked={settings.systemNavButtonOffset === true}
+                  onChange={(value) => updateSetting('systemNavButtonOffset', value)}
+                  label="Extra space for Android navigation buttons"
+                  description="Moves the bottom navigation bar up on phones using the 3-button system navigation bar."
+                />
+                <SettingsToggleRow
                   checked={settings.ownedOnlyGlobal === true}
                   onChange={(value) => updateSetting('ownedOnlyGlobal', value)}
                   label="Owned Only global filter"
@@ -12603,10 +12249,10 @@
             </div>
             <div className="p-4 rounded-3xl bg-zinc-900/40 border border-white/5 space-y-3">
               <h3 className="text-lg font-bold text-white">Perk Descriptions</h3>
-              <p className="text-sm text-zinc-400">Choose which perk wording the website should show when both legacy and post-9.5.0 text are available.</p>
+              <p className="text-sm text-zinc-400">Choose which perk wording the app should show when both legacy and post-9.5.0 text are available.</p>
               <div className="grid grid-cols-2 gap-2">
                 {[
-                  { id: 'legacy', label: 'Legacy', description: 'Keep the original one-block descriptions already stored in the wiki.' },
+                  { id: 'legacy', label: 'Legacy', description: 'Keep the original one-block descriptions already stored in the app.' },
                   { id: 'post95', label: 'Post-9.5.0', description: 'Use the newer multiline wording and highlight percentage values when available.' }
                 ].map(option => (
                   <button
@@ -12621,86 +12267,131 @@
                 ))}
               </div>
             </div>
-            {isMobile && (
-              <div className="p-4 rounded-3xl bg-zinc-900/40 border border-white/5 space-y-4">
-                <div className="flex items-start justify-between gap-3">
-                  <div>
-                    <h3 className="text-lg font-bold text-white">Mobile Navigation</h3>
-                    <p className="text-sm text-zinc-400 mt-1">Choose which shortcuts appear in the bottom bar. Search and Settings always stay available.</p>
+            { }
+            <div className="p-4 rounded-3xl bg-zinc-900/40 border border-white/5 space-y-4">
+              <h3 className="text-lg font-bold text-white">Customization</h3>
+              { }
+              <div>
+                <div className="flex items-center justify-between mb-2">
+                  <div className="flex items-center gap-2">
+                    <p className="text-[11px] uppercase text-zinc-500 font-bold">Navigation Bar Items</p>
+                    <span className="text-[10px] text-zinc-500">({(settings.navItems || []).length}/6)</span>
                   </div>
                   <button
-                    type="button"
                     onClick={() => updateSetting('navItems', DEFAULT_SETTINGS.navItems)}
-                    className="px-3 py-2 rounded-xl bg-white/5 border border-white/10 text-xs font-bold text-zinc-300 hover:text-white hover:bg-white/10 transition-colors"
+                    className="text-[10px] uppercase tracking-wider text-zinc-500 hover:text-white transition-colors"
                   >
                     Reset
                   </button>
                 </div>
-                <div className="grid grid-cols-1 gap-2">
-                  {ALL_NAV_OPTIONS.map((option) => {
-                    const enabled = orderedNavItems.includes(option.id);
-                    const IconComponent = Icons[option.icon] || Icons.Zap;
-                    const orderIndex = orderedNavItems.indexOf(option.id);
+                <p className="text-xs text-zinc-500 mb-2">Click to toggle (max 6). With 5+ items, labels appear only when selected.</p>
+                <div className="flex flex-wrap gap-2">
+                  {ALL_NAV_OPTIONS.map(opt => {
+                    const currentItems = settings.navItems || [];
+                    const isActive = currentItems.includes(opt.id);
+                    const isAtLimit = currentItems.length >= 6;
+                    const isDisabled = !isActive && isAtLimit;
                     return (
-                      <div key={option.id} className={`rounded-2xl border px-3 py-3 transition-colors ${enabled ? 'bg-white/10 border-white/20' : 'bg-white/5 border-white/10'}`}>
-                        <div className="flex items-center gap-3">
+                      <button
+                        key={opt.id}
+                        disabled={isDisabled}
+                        onClick={() => {
+                          if (isDisabled) return;
+                          if (isActive) {
+                            updateSetting('navItems', currentItems.filter(id => id !== opt.id));
+                          } else if (currentItems.length < 6) {
+                            updateSetting('navItems', [...currentItems, opt.id]);
+                          }
+                        }}
+                        className="px-3 py-2 rounded-xl text-xs font-bold uppercase tracking-wider transition-all"
+                        style={isActive ? { background: '#0a0a0a', border: '2px solid var(--accent)', color: 'var(--accent)' } : isDisabled ? { background: '#0a0a0a', border: '1px solid rgba(255,255,255,0.05)', color: '#52525b', opacity: 0.5, cursor: 'not-allowed' } : { background: '#0a0a0a', border: '1px solid rgba(255,255,255,0.1)', color: '#a1a1aa' }}
+                      >
+                        {opt.label}
+                      </button>
+                    );
+                  })}
+                </div>
+              </div>
+              { }
+              <div>
+                <div className="flex items-center justify-between mb-2">
+                  <p className="text-[11px] uppercase text-zinc-500 font-bold">Home Screen Tiles</p>
+                  <button
+                    onClick={() => updateSetting('homeTiles', DEFAULT_SETTINGS.homeTiles)}
+                    className="text-[10px] uppercase tracking-wider text-zinc-500 hover:text-white transition-colors"
+                  >
+                    Reset
+                  </button>
+                </div>
+                <p className="text-xs text-zinc-500 mb-2">Toggle visibility. Use arrows to reorder.</p>
+                <div className="space-y-1">
+                  {(() => {
+                    const currentTiles = settings.homeTiles || DEFAULT_SETTINGS.homeTiles;
+                    const allTileIds = ALL_HOME_TILES.map(t => t.id);
+                    const orderedList = [...currentTiles, ...allTileIds.filter(id => !currentTiles.includes(id))];
+                    return orderedList.map((tileId, idx) => {
+                      const tile = ALL_HOME_TILES.find(t => t.id === tileId);
+                      if (!tile) return null;
+                      const isVisible = currentTiles.includes(tileId);
+                      const posInVisible = currentTiles.indexOf(tileId);
+                      const moveUp = () => {
+                        if (posInVisible <= 0) return;
+                        const newOrder = [...currentTiles];
+                        [newOrder[posInVisible - 1], newOrder[posInVisible]] = [newOrder[posInVisible], newOrder[posInVisible - 1]];
+                        updateSetting('homeTiles', newOrder);
+                      };
+                      const moveDown = () => {
+                        if (posInVisible < 0 || posInVisible >= currentTiles.length - 1) return;
+                        const newOrder = [...currentTiles];
+                        [newOrder[posInVisible], newOrder[posInVisible + 1]] = [newOrder[posInVisible + 1], newOrder[posInVisible]];
+                        updateSetting('homeTiles', newOrder);
+                      };
+                      const toggleVisibility = () => {
+                        if (isVisible) {
+                          updateSetting('homeTiles', currentTiles.filter(id => id !== tileId));
+                        } else {
+                          updateSetting('homeTiles', [...currentTiles, tileId]);
+                        }
+                      };
+                      return (
+                        <div key={tileId} className={`flex items-center gap-2 p-2 rounded-xl ${isVisible ? 'bg-white/5 border border-white/10' : 'bg-transparent border border-transparent opacity-50'}`}>
                           <button
-                            type="button"
-                            onClick={() => toggleNavItem(option.id, !enabled)}
-                            className="flex min-w-0 flex-1 items-center gap-3 text-left"
+                            onClick={toggleVisibility}
+                            className={`w-6 h-6 rounded-lg flex items-center justify-center text-xs font-bold ${isVisible ? 'bg-green-600/30 text-green-300' : 'bg-zinc-700/50 text-zinc-500'}`}
                           >
-                            <span className="w-9 h-9 rounded-xl bg-white/5 border border-white/10 flex items-center justify-center text-zinc-400">
-                              <IconComponent width={17} height={17} />
-                            </span>
-                            <span className="min-w-0 flex-1">
-                              <span className="block text-sm font-bold text-white truncate">{option.label}</span>
-                              <span className="block text-[11px] text-zinc-500 truncate">{option.desc}</span>
-                            </span>
-                            <span
-                              className="w-5 h-5 rounded-md border flex items-center justify-center"
-                              style={{
-                                background: enabled ? 'var(--accent)' : 'transparent',
-                                borderColor: enabled ? 'var(--accent)' : 'var(--stroke)',
-                                color: enabled ? '#ffffff' : 'transparent'
-                              }}
-                            >
-                              <Icons.Check width={12} height={12} />
-                            </span>
+                            {isVisible ? '✓' : '–'}
                           </button>
-                          {enabled && (
-                            <div className="flex items-center gap-1">
+                          <span className="flex-1 text-sm text-white">{tile.label}</span>
+                          {isVisible && (
+                            <div className="flex gap-1">
                               <button
-                                type="button"
-                                onClick={() => moveNavItem(option.id, -1)}
-                                disabled={orderIndex <= 0}
-                                className="w-8 h-8 rounded-lg bg-white/5 border border-white/10 text-zinc-400 hover:text-white disabled:opacity-30 disabled:cursor-not-allowed"
-                                aria-label={`Move ${option.label} left`}
+                                onClick={moveUp}
+                                disabled={posInVisible <= 0}
+                                className="w-6 h-6 rounded-lg bg-white/5 text-zinc-400 hover:text-white disabled:opacity-30 disabled:cursor-not-allowed flex items-center justify-center text-xs"
                               >
                                 ↑
                               </button>
                               <button
-                                type="button"
-                                onClick={() => moveNavItem(option.id, 1)}
-                                disabled={orderIndex === orderedNavItems.length - 1}
-                                className="w-8 h-8 rounded-lg bg-white/5 border border-white/10 text-zinc-400 hover:text-white disabled:opacity-30 disabled:cursor-not-allowed"
-                                aria-label={`Move ${option.label} right`}
+                                onClick={moveDown}
+                                disabled={posInVisible >= currentTiles.length - 1}
+                                className="w-6 h-6 rounded-lg bg-white/5 text-zinc-400 hover:text-white disabled:opacity-30 disabled:cursor-not-allowed flex items-center justify-center text-xs"
                               >
                                 ↓
                               </button>
                             </div>
                           )}
                         </div>
-                      </div>
-                    );
-                  })}
+                      );
+                    });
+                  })()}
                 </div>
               </div>
-            )}
+            </div>
             <div className="p-4 rounded-3xl bg-zinc-900/40 border border-white/5 space-y-4">
               <div className="flex items-start justify-between gap-3">
                 <div>
                   <h3 className="text-lg font-bold text-white">Data Backup</h3>
-                  <p className="text-sm text-zinc-400 mt-1">Export the full local website state or restore it later. Restores replace your current local data.</p>
+                  <p className="text-sm text-zinc-400 mt-1">Export the full local app state or restore it later. Restores replace your current local data.</p>
                 </div>
                 <span className="px-2 py-1 rounded-lg bg-white/5 border border-white/10 text-[10px] uppercase tracking-wider text-zinc-400">
                   Backup
@@ -12754,9 +12445,9 @@
               <div className="space-y-2">
                 <div className="flex items-center justify-between gap-3">
                   <p className="text-[11px] uppercase tracking-[0.16em] text-zinc-500 font-bold">Restore from Backup</p>
-                  {(restorePreview?.meta?.siteVersion || restorePreview?.meta?.appVersion) && (
+                  {restorePreview?.meta?.appVersion && (
                     <span className="text-[10px] uppercase tracking-wider text-zinc-500">
-                      backup from v{restorePreview.meta.siteVersion || restorePreview.meta.appVersion}
+                      backup from v{restorePreview.meta.appVersion}
                     </span>
                   )}
                 </div>
@@ -12831,19 +12522,14 @@
             </div>
             <div className="p-4 rounded-3xl bg-zinc-900/40 border border-white/5">
               <h3 className="text-lg font-bold text-white mb-2">Disclaimer</h3>
-              <p className="text-sm text-zinc-400">This website is a work in progress. Core features are stable, but some rough edges may remain while it continues to improve. Not official; I do not own any of the logos or licences, just built with love for the game.</p>
+              <p className="text-sm text-zinc-400">This app is a work in progress! Core features are stable, but you might encounter some bugs or weird features as I continue developing it. Not official, I do not own any of the logos or liscences, just built with love for the game.</p>
             </div>
             <div className="p-4 rounded-3xl bg-zinc-900/40 border border-white/5">
               <h3 className="text-lg font-bold text-white mb-2">Contact</h3>
               <div className="space-y-1 text-sm text-zinc-300">
                 <div className="flex items-center gap-2">
                   <span className="text-zinc-500 uppercase text-[10px] font-bold tracking-wide">Email</span>
-                  <a
-                    href={`mailto:${META.contact?.email || ''}`}
-                    className="font-semibold text-white hover:underline"
-                  >
-                    {META.contact?.email}
-                  </a>
+                  <span className="font-semibold text-white">{META.contact?.email}</span>
                 </div>
                 <div className="flex items-center gap-2">
                   <span className="text-zinc-500 uppercase text-[10px] font-bold tracking-wide">Discord</span>
@@ -12915,7 +12601,7 @@
             }} />
 
             <div className="relative z-10">
-              <Header title="The Entity's Offering" subtitle="Prestige Calculator" onBack={onBack} />
+              <Header title="The Entity's Offering" subtitle="Prestige Calculator" onBack={onBack} infoTips={VIEW_TIPS.prestige} />
 
               {/* Entity Quote */}
               <div className="text-center mb-8">
@@ -13231,7 +12917,7 @@
 
       return (
         <div ref={scrollRef} className="flex flex-col h-full pt-12 pb-32 overflow-y-auto custom-scrollbar">
-          <div className="px-6"><Header title="Game Icons" subtitle={viewMode === 'glossary' ? 'Glossary' : 'Trial Grid'} onBack={onBack} onScrollTop={scrollToTop} /></div>
+          <div className="px-6"><Header title="Game Icons" subtitle={viewMode === 'glossary' ? 'Glossary' : 'Trial Grid'} onBack={onBack} onScrollTop={scrollToTop} infoTips={VIEW_TIPS.gameicons} /></div>
 
           {/* Mode Toggle */}
           <div className="px-6 mb-3">
@@ -13300,7 +12986,7 @@
                     <button
                       key={icon.id}
                       onClick={() => setFlashcardIcon(icon)}
-                      className="game-icon-tile relative aspect-square rounded-2xl flex flex-col items-center justify-center p-1.5 border transition-all duration-150 hover:scale-105 active:scale-95 group"
+                      className="relative aspect-square rounded-2xl flex flex-col items-center justify-center p-1.5 border transition-all duration-150 hover:scale-105 active:scale-95 group"
                       style={{
                         borderColor: `${ringColor}40`,
                         background: `linear-gradient(145deg, ${ringColor}10, #0a0a0a)`,
@@ -13351,7 +13037,7 @@
                   <div
                     key={icon.id}
                     onClick={() => setExpandedId(isExpanded ? null : icon.id)}
-                    className="game-icon-row mb-3 rounded-2xl backdrop-blur-md border border-white/10 cursor-pointer transition-all duration-200 hover:border-white/20 overflow-hidden"
+                    className="mb-3 rounded-2xl backdrop-blur-md border border-white/10 cursor-pointer transition-all duration-200 hover:border-white/20 overflow-hidden"
                     style={{
                       background: `linear-gradient(145deg, ${accentSoft}40, #09090b)`,
                       boxShadow: isExpanded ? `0 0 20px ${accentColor}30` : 'none'
@@ -13381,7 +13067,7 @@
                             {icon.name}
                           </h3>
                           <span
-                            className="game-icon-category text-[10px] font-bold uppercase tracking-wider px-2 py-0.5 rounded-full"
+                            className="text-[10px] font-bold uppercase tracking-wider px-2 py-0.5 rounded-full"
                             style={{
                               backgroundColor: `${accentColor}20`,
                               color: accentColor
@@ -14270,12 +13956,9 @@
         []
       );
       const launchContext = useMemo(() => readLaunchContext(), []);
-      const initialUiState = useMemo(() => normalizeUiState(loadFromStorage(STORAGE_KEYS.uiState, {})), []);
-      const initialView = launchContext.hasRoute ? (launchContext.view || 'home') : initialUiState.view;
-      const initialViewContext = launchContext.hasRoute ? (launchContext.context || {}) : (initialUiState.context || {});
-      const [currentView, setViewRaw] = useState(initialView || 'home');
-      const [viewContext, setViewContext] = useState(initialViewContext || {});
-      const viewHistoryRef = useRef([{ view: initialView || 'home', context: initialViewContext || {} }]);
+      const [currentView, setViewRaw] = useState(launchContext.view || 'home');
+      const [viewContext, setViewContext] = useState(launchContext.context || {});
+      const viewHistoryRef = useRef([{ view: launchContext.view || 'home', context: launchContext.context || {} }]);
       const mainRef = useRef(null);
       const setView = (view, context = {}) => {
         setViewContext(context);
@@ -14297,8 +13980,8 @@
           window.Capacitor.Plugins.App.exitApp();
         }
       };
-      const [perkFilter, setPerkFilter] = useState(initialUiState.perkFilter || 'All');
-      const [perkSearch, setPerkSearch] = useState(initialUiState.perkSearch || '');
+      const [perkFilter, setPerkFilter] = useState('All');
+      const [perkSearch, setPerkSearch] = useState('');
       const [buildSeed, setBuildSeed] = useState(null);
       const [comparePerks, setComparePerks] = useState([]);
       const [showCompareModal, setShowCompareModal] = useState(false);
@@ -14357,14 +14040,6 @@
       const readyCharacterSwaps = useMemo(() => cosmeticsCatalogForDisplay.characterSwaps.filter((entry) => entry.status === 'ready'), [cosmeticsCatalogForDisplay]);
       const readyFullSets = useMemo(() => cosmeticsCatalogForDisplay.fullSets.filter((entry) => entry.status === 'ready'), [cosmeticsCatalogForDisplay]);
       const readyCosmetics = useMemo(() => [...readyCharacterSwaps, ...readyFullSets], [readyCharacterSwaps, readyFullSets]);
-      useEffect(() => {
-        const firstVisibleCosmetics = sortCosmeticsByRarity(
-          readyCosmetics.filter((entry) => entry.baseCharacterType === 'Killer')
-        )
-          .slice(0, 16)
-          .map((entry) => entry.image);
-        return preloadImageBatch(firstVisibleCosmetics, cosmeticsAssetRevision, 16);
-      }, [readyCosmetics, cosmeticsAssetRevision]);
       const openCosmeticProfile = useCallback((cosmetic) => {
         if (!cosmetic) return;
         const baseCharacter = allCharactersById.get(cosmetic.baseCharacterId);
@@ -14483,14 +14158,6 @@
       useEffect(() => saveToStorage(STORAGE_KEYS.worldle, worldleState), [worldleState]);
       useEffect(() => saveToStorage(STORAGE_KEYS.lastContext, matchPrefs), [matchPrefs]);
       useEffect(() => {
-        saveToStorage(STORAGE_KEYS.uiState, {
-          view: currentView,
-          context: viewContext,
-          perkFilter,
-          perkSearch
-        });
-      }, [currentView, viewContext, perkFilter, perkSearch]);
-      useEffect(() => {
         try {
           localStorage.removeItem(STORAGE_KEY_ACHIEVEMENTS);
         } catch (err) {
@@ -14546,10 +14213,10 @@
         const selectionText = hasFullPalette ? (palette.selectionText || text) : '#ffffff';
         const fullPanelBg = hasFullPalette ? (palette.fullPanelBg || panel) : panel;
         const fullPanelBorder = hasFullPalette ? (palette.fullPanelBorder || stroke) : stroke;
-        const fullButtonBg = hasFullPalette ? (palette.fullButtonBg || glassBg) : glassBg;
+        const fullButtonBg = hasFullPalette ? (palette.fullButtonBg || glassBg) : '#0a0a0a';
         const fullButtonBorder = hasFullPalette ? (palette.fullButtonBorder || stroke) : stroke;
         const fullButtonText = hasFullPalette ? (palette.fullButtonText || muted) : muted;
-        const fullButtonActiveBg = hasFullPalette ? (palette.fullButtonActiveBg || glassBg) : (isLight ? 'rgba(15, 23, 42, 0.065)' : glassBg);
+        const fullButtonActiveBg = hasFullPalette ? (palette.fullButtonActiveBg || glassBg) : (isLight ? '#f8fafc' : '#0a0a0a');
         const fullSelectBg = hasFullPalette ? (palette.fullSelectBg || glassBg) : glassBg;
         const fullSelectBorder = hasFullPalette ? (palette.fullSelectBorder || stroke) : stroke;
         const fullSelectText = hasFullPalette ? (palette.fullSelectText || text) : text;
@@ -14572,7 +14239,7 @@
         rootEl.style.setProperty('--ghost-strong', ghostStrong);
         rootEl.style.setProperty('--shadow-soft', shadowSoft);
         rootEl.style.setProperty('--shadow-strong', shadowStrong);
-        rootEl.style.setProperty('--site-shell-bg', appShellBg);
+        rootEl.style.setProperty('--app-shell-bg', appShellBg);
         rootEl.style.setProperty('--ambient-glow', ambientGlow);
         rootEl.style.setProperty('--ambient-opacity', ambientOpacity);
         rootEl.style.setProperty('--selection-bg', selectionBg);
@@ -14595,12 +14262,13 @@
         rootEl.style.setProperty('--full-select-text', fullSelectText);
         rootEl.style.setProperty('--full-select-shadow', fullSelectShadow);
         rootEl.style.setProperty('--full-select-focus-ring', fullSelectFocusRing);
+        rootEl.style.setProperty('--system-nav-button-offset', settings.systemNavButtonOffset === true ? '34px' : '0px');
         const fontSize = settings.fontSize === 'small' ? '14px' : settings.fontSize === 'large' ? '18px' : '16px';
         rootEl.style.fontSize = fontSize;
         document.body.classList.toggle('light-mode', !hasFullPalette && settings.colorMode === 'light');
         document.body.classList.toggle('oled-mode', !hasFullPalette && settings.colorMode === 'oled');
         document.body.classList.toggle('full-palette-mode', hasFullPalette);
-      }, [theme, themeKey, settings.fontSize, settings.colorMode]);
+      }, [theme, themeKey, settings.fontSize, settings.colorMode, settings.systemNavButtonOffset]);
       const liveLookups = useMemo(() => buildDataLookups({ killers, survivors, perks, maps, builds }), [killers, survivors, perks, maps, builds]);
       const ownedState = useMemo(() => resolveOwnedState({ progression, killers, survivors, perks }), [progression, killers, survivors, perks]);
       const visibleKillers = useMemo(() => settings.ownedOnlyGlobal ? killers.filter(killer => ownedState.isCharacterOwned(killer.id)) : killers, [settings.ownedOnlyGlobal, killers, ownedState]);
@@ -14640,7 +14308,7 @@
         setMatches(prev => [record, ...prev]);
         if (record.buildId) markBuildUsed(record.buildId);
       };
-      const websiteBackupPayload = useMemo(() => createWebsiteBackupPayload({
+      const appBackupPayload = useMemo(() => createAppBackupPayload({
         settings,
         builds,
         matches,
@@ -14648,13 +14316,13 @@
         notes,
         worldleState,
         matchPrefs,
-        siteVersion: META.siteVersion,
+        appVersion: META.appVersion,
         gameVersion: META.gameVersion,
         lastSynced: META.lastSynced
       }), [settings, builds, matches, progression, notes, worldleState, matchPrefs]);
-      const websiteBackupSummary = useMemo(() => summarizeWebsiteBackupPayload(websiteBackupPayload), [websiteBackupPayload]);
-      const copyWebsiteBackup = useCallback(() => {
-        const text = JSON.stringify(websiteBackupPayload, null, 2);
+      const appBackupSummary = useMemo(() => summarizeAppBackupPayload(appBackupPayload), [appBackupPayload]);
+      const copyAppBackup = useCallback(() => {
+        const text = JSON.stringify(appBackupPayload, null, 2);
         if (!navigator.clipboard?.writeText) {
           alert('Copy is not available here. Use Download Backup File instead.');
           return;
@@ -14662,12 +14330,12 @@
         navigator.clipboard.writeText(text)
           .then(() => alert('Backup copied.'))
           .catch(() => alert('Could not copy the backup. Use Download Backup File instead.'));
-      }, [websiteBackupPayload]);
-      const downloadWebsiteBackup = useCallback(() => {
-        const text = JSON.stringify(websiteBackupPayload, null, 2);
-        downloadTextFile(buildBackupFilename(websiteBackupPayload), text);
-      }, [websiteBackupPayload]);
-      const restoreWebsiteBackup = useCallback((payload) => {
+      }, [appBackupPayload]);
+      const downloadAppBackup = useCallback(() => {
+        const text = JSON.stringify(appBackupPayload, null, 2);
+        downloadTextFile(buildBackupFilename(appBackupPayload), text);
+      }, [appBackupPayload]);
+      const restoreAppBackup = useCallback((payload) => {
         const backupData = payload?.data && typeof payload.data === 'object' ? payload.data : {};
         const restoredSettings = normalizeSettings(backupData.settings);
         const restoredBuilds = Array.isArray(backupData.builds) ? backupData.builds : [];
@@ -14694,11 +14362,7 @@
         setShowCompareModal(false);
       }, [killers, survivors, perks, maps]);
       const [touchStart, setTouchStart] = useState(null);
-      const activeMobileNavItems = useMemo(
-        () => ensureOrderedSubset(settings.navItems, ALL_NAV_OPTIONS.map(option => option.id), DEFAULT_SETTINGS.navItems),
-        [settings.navItems]
-      );
-      const navOrder = ['home', ...activeMobileNavItems, 'settings'];
+      const navOrder = ['home', ...(settings.navItems || DEFAULT_SETTINGS.navItems), 'settings'];
       const handleTouchStart = (e) => {
         setTouchStart({
           x: e.touches[0].clientX,
@@ -14730,7 +14394,7 @@
       };
       const renderContent = () => {
         switch (currentView) {
-          case 'home': return <HomeView setView={setView} data={{ killers: visibleKillers, survivors: visibleSurvivors, perks: visiblePerks }} theme={theme} builds={builds} maps={maps} challenges={progression?.challenges || []} setBuildSeed={setBuildSeed} perks={visiblePerks} customHomeTiles={DEFAULT_SETTINGS.homeTiles} items={items} addons={visibleAddons} offerings={offerings} cosmeticsCatalog={cosmeticsCatalogForDisplay} allCharacters={[...killers, ...survivors]} onOpenCharacterProfile={setProfileCharacter} settings={settings} />;
+          case 'home': return <HomeView setView={setView} data={{ killers: visibleKillers, survivors: visibleSurvivors, perks: visiblePerks }} theme={theme} builds={builds} maps={maps} challenges={progression?.challenges || []} setBuildSeed={setBuildSeed} perks={visiblePerks} customHomeTiles={settings.homeTiles || DEFAULT_SETTINGS.homeTiles} items={items} addons={visibleAddons} offerings={offerings} cosmeticsCatalog={cosmeticsCatalogForDisplay} allCharacters={[...killers, ...survivors]} onOpenCharacterProfile={setProfileCharacter} />;
           case 'progression':
             return (
               <ProgressionView
@@ -14789,37 +14453,23 @@
           case 'quotes':
             return <CommunityContentView onBack={() => setView('home')} communityContent={communityContent} />;
           case 'timeline': return <TimelineView onBack={() => setView('home')} setView={setView} killers={killers} survivors={survivors} theme={theme} />;
-          case 'settings': return <SettingsView onBack={() => setView('home')} settings={settings} setSettings={setSettings} backupSummary={websiteBackupSummary} onCopyBackup={copyWebsiteBackup} onDownloadBackup={downloadWebsiteBackup} onRestoreBackup={restoreWebsiteBackup} isMobile={device.isMobile} />;
+          case 'settings': return <SettingsView onBack={() => setView('home')} settings={settings} setSettings={setSettings} backupSummary={appBackupSummary} onCopyBackup={copyAppBackup} onDownloadBackup={downloadAppBackup} onRestoreBackup={restoreAppBackup} />;
           case 'favorites': return <FavoritesView onBack={() => setView('home')} settings={settings} killers={killers} survivors={survivors} perks={perks} items={items} addons={addons} offerings={offerings} toggleFavorite={toggleFavorite} setView={setView} onPerkTap={setSelectedPerk} />;
-          default: return <HomeView setView={setView} data={{ killers: visibleKillers, survivors: visibleSurvivors, perks: visiblePerks }} theme={theme} builds={builds} maps={maps} challenges={progression?.challenges || []} setBuildSeed={setBuildSeed} perks={visiblePerks} customHomeTiles={DEFAULT_SETTINGS.homeTiles} items={items} addons={visibleAddons} offerings={offerings} cosmeticsCatalog={cosmeticsCatalogForDisplay} allCharacters={[...killers, ...survivors]} onOpenCharacterProfile={setProfileCharacter} settings={settings} />;
+          default: return <HomeView setView={setView} data={{ killers: visibleKillers, survivors: visibleSurvivors, perks: visiblePerks }} theme={theme} builds={builds} maps={maps} challenges={progression?.challenges || []} setBuildSeed={setBuildSeed} perks={visiblePerks} customHomeTiles={settings.homeTiles || DEFAULT_SETTINGS.homeTiles} items={items} addons={visibleAddons} offerings={offerings} cosmeticsCatalog={cosmeticsCatalogForDisplay} allCharacters={[...killers, ...survivors]} onOpenCharacterProfile={setProfileCharacter} />;
         }
       };
       return (
         <div
           data-smoke-ready="true"
           data-smoke-view={currentView}
-          className={`site-shell website-shell flex flex-col h-screen w-full text-slate-100 overflow-hidden relative ${device.isMobile && settings.googlePlayCtaHidden !== true ? 'mobile-app-cta-visible' : ''}`}
+          className="app-shell flex flex-col h-screen w-full text-slate-100 overflow-hidden relative"
           onTouchStart={handleTouchStart}
           onTouchEnd={handleTouchEnd}
         >
-          <WebsiteHeader currentView={currentView} setView={setView} />
-          <div className="website-workspace relative z-10 flex-1 min-h-0 flex">
-            {!device.isMobile && <Navigation currentView={currentView} setView={setView} theme={theme} isMobile={false} onPerksReset={() => setPerkSearch('')} customNavItems={DEFAULT_SETTINGS.navItems} />}
-            <main ref={mainRef} className="website-main relative flex-1 min-w-0 overflow-hidden"><div key={currentView} className="view-transition h-full">{renderContent()}</div></main>
-          </div>
+          <div className="absolute inset-0 pointer-events-none" style={{ background: 'radial-gradient(140% 140% at 50% -20%, rgba(255,255,255,0.05), transparent 60%)' }}></div>
+          <main ref={mainRef} className="relative z-10 flex-1 overflow-hidden"><div key={currentView} className="view-transition h-full">{renderContent()}</div></main>
           <ScrollToTopFAB mainRef={mainRef} currentView={currentView} />
-          {device.isMobile && (
-            <Navigation
-              currentView={currentView}
-              setView={setView}
-              theme={theme}
-              isMobile={true}
-              onPerksReset={() => setPerkSearch('')}
-              customNavItems={activeMobileNavItems}
-              hideAppCta={settings.googlePlayCtaHidden === true}
-              onHideAppCta={() => setSettings(prev => ({ ...prev, googlePlayCtaHidden: true }))}
-            />
-          )}
+          <Navigation currentView={currentView} setView={setView} theme={theme} isMobile={device.isMobile} onPerksReset={() => setPerkSearch('')} customNavItems={settings.navItems || DEFAULT_SETTINGS.navItems} />
           {/* Perk Comparison UI */}
           <FloatingCompareBadge count={comparePerks.length} onClick={() => setShowCompareModal(true)} onClear={clearCompare} theme={theme} />
           {showCompareModal && (

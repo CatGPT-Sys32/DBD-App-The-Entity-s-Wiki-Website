@@ -1,5 +1,5 @@
 var COMMUNITY_CONTENT = {
-  "generatedAt": "2026-04-30T18:41:40.971Z",
+  "generatedAt": "2026-06-18T03:07:05.565Z",
   "metadata": {
     "scraperVersion": 2,
     "attribution": "Data sourced from Otzdarva web properties. Keep attribution when redistributing.",
@@ -7,47 +7,47 @@ var COMMUNITY_CONTENT = {
       {
         "id": "home",
         "url": "https://otzdarva.com/",
-        "fetchedAt": "2026-04-30T18:41:40.971Z"
+        "fetchedAt": "2026-06-18T03:07:05.565Z"
       },
       {
         "id": "addonTierlist",
         "url": "https://otz-addon-tierlist.pages.dev/",
-        "fetchedAt": "2026-04-30T18:41:40.971Z"
+        "fetchedAt": "2026-06-18T03:07:05.565Z"
       },
       {
         "id": "buildsHome",
         "url": "https://otzdarva-builds.com/",
-        "fetchedAt": "2026-04-30T18:41:40.971Z"
+        "fetchedAt": "2026-06-18T03:07:05.565Z"
       },
       {
         "id": "buildsPanels",
         "url": "https://otzdarva-builds.com/assets/modules/XMLHttpRequest/returnCharacterPanels.php",
-        "fetchedAt": "2026-04-30T18:41:40.971Z"
+        "fetchedAt": "2026-06-18T03:07:05.565Z"
       },
       {
         "id": "buildsPerkDetails",
         "url": "https://otzdarva-builds.com/assets/modules/XMLHttpRequest/showPerkDetails.php",
-        "fetchedAt": "2026-04-30T18:41:40.971Z"
+        "fetchedAt": "2026-06-18T03:07:05.565Z"
       },
       {
         "id": "characterInfo",
         "url": "https://otzdarva.com/dbd/character-info",
-        "fetchedAt": "2026-04-30T18:41:40.971Z"
+        "fetchedAt": "2026-06-18T03:07:05.565Z"
       },
       {
         "id": "beginnerGuides",
         "url": "https://otzdarva.com/dbd/beginner-guides",
-        "fetchedAt": "2026-04-30T18:41:40.971Z"
+        "fetchedAt": "2026-06-18T03:07:05.565Z"
       },
       {
         "id": "tierlists",
         "url": "https://otzdarva.com/dbd/tierlists",
-        "fetchedAt": "2026-04-30T18:41:40.971Z"
+        "fetchedAt": "2026-06-18T03:07:05.565Z"
       },
       {
         "id": "killerGuides",
         "url": "https://otzdarva.com/dbd/killer-guides",
-        "fetchedAt": "2026-04-30T18:41:40.971Z"
+        "fetchedAt": "2026-06-18T03:07:05.565Z"
       }
     ],
     "stats": {
@@ -60,14 +60,14 @@ var COMMUNITY_CONTENT = {
         "unmatchedAddonSample": []
       },
       "builds": {
-        "killerProfileCount": 43,
-        "survivorProfileCount": 3,
-        "totalBuildCount": 149,
-        "uniqueKillerPerksInBuilds": 83,
-        "uniqueSurvivorPerksInBuilds": 63,
-        "killerPerkDetailsResolved": 83,
-        "survivorPerkDetailsResolved": 63,
-        "perkDetailsResolvedTotal": 146,
+        "killerProfileCount": 0,
+        "survivorProfileCount": 0,
+        "totalBuildCount": 0,
+        "uniqueKillerPerksInBuilds": 0,
+        "uniqueSurvivorPerksInBuilds": 0,
+        "killerPerkDetailsResolved": 0,
+        "survivorPerkDetailsResolved": 0,
+        "perkDetailsResolvedTotal": 0,
         "perkDetailsMissingTotal": 0
       },
       "characterInfo": {
@@ -90,17 +90,17 @@ var COMMUNITY_CONTENT = {
       "tierlists": {
         "tierlistCount": 8,
         "categoryCounts": {
-          "Killer Focus": 3,
           "Survivor Focus": 3,
+          "Killer Focus": 3,
           "General": 2
         },
         "datedCount": 7
       },
       "guideVault": {
-        "linkCount": 55,
+        "linkCount": 57,
         "sourceTypeCounts": {
-          "video": 43,
-          "document": 8,
+          "video": 44,
+          "document": 9,
           "link": 1,
           "image": 1,
           "community": 2
@@ -1611,22 +1611,6 @@ var COMMUNITY_CONTENT = {
           {
             "rank": 2,
             "tierBucket": "strongest",
-            "name": "Heavy Panting",
-            "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/nurse/heavypanting.png",
-            "otzComment": "Heavy Panting : A ridiculously powerful add-on that increases the Nurse's lunge without any downside. Makes it even harder for Survivors to outplay you.",
-            "description": "This description is based on the changes announced for or featured in the upcoming Patch 9.6.0The slow and bulging breath stolen from Harvey Kavanagh, the asylum's \"Fat Orderly\".Dimly oscillates at The Nurse's touch. Extends the Lunge duration of Special Attacks to 110 %, which increases your Attack range by +10 %. This effect only applies after the second or third Blink.",
-            "localMatch": {
-              "addonId": "b18e555d-aa41-4b43-861b-554120a1d22b",
-              "internalId": "ADDON_Lastbreath_HeavyPanting",
-              "localName": "Heavy Panting",
-              "localImage": "dbd_images/addons/iconaddon_heavypanting.png",
-              "localRarity": "rare",
-              "method": "name"
-            }
-          },
-          {
-            "rank": 3,
-            "tierBucket": "strongest",
             "name": "Fragile Wheeze",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/nurse/fragilewheeze.png",
             "otzComment": "Fragile Wheeze : A very simple add-on that is almost always universally useful. Despite the 70 second timer, the Nurse's fast paced gameplay can absolutely make the Mangled effect worth applying, especially when you consider how dangerous it is to remain injured against her.",
@@ -1641,7 +1625,7 @@ var COMMUNITY_CONTENT = {
             }
           },
           {
-            "rank": 4,
+            "rank": 3,
             "tierBucket": "good",
             "name": "\"Bad Man's\" Last Breath",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/nurse/badmanslastbreath.png",
@@ -1653,6 +1637,22 @@ var COMMUNITY_CONTENT = {
               "localName": "\"Bad Man's\" Last Breath",
               "localImage": "dbd_images/addons/iconaddon_badmanslastbreath.png",
               "localRarity": "veryrare",
+              "method": "name"
+            }
+          },
+          {
+            "rank": 4,
+            "tierBucket": "good",
+            "name": "Heavy Panting",
+            "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/nurse/heavypanting.png",
+            "otzComment": "Heavy Panting : A simple but powerful add-on that increases the Nurse's lunge without any downside. Makes it even harder for Survivors to outplay you.",
+            "description": "This description is based on the changes announced for or featured in the upcoming Patch 9.6.0The slow and bulging breath stolen from Harvey Kavanagh, the asylum's \"Fat Orderly\".Dimly oscillates at The Nurse's touch. Extends the Lunge duration of Special Attacks to 110 %, which increases your Attack range by +10 %. This effect only applies after the second or third Blink.",
+            "localMatch": {
+              "addonId": "b18e555d-aa41-4b43-861b-554120a1d22b",
+              "internalId": "ADDON_Lastbreath_HeavyPanting",
+              "localName": "Heavy Panting",
+              "localImage": "dbd_images/addons/iconaddon_heavypanting.png",
+              "localRarity": "rare",
               "method": "name"
             }
           },
@@ -1885,7 +1885,7 @@ var COMMUNITY_CONTENT = {
             "tierBucket": "detrimental",
             "name": "White Nit Comb",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/nurse/whitenitcomb.png",
-            "otzComment": "White Nit Comb : Reduces the reach of your lung after a blink, forcing you to be much more precise with them. This is a massive downside that should typically be avoided at all costs, but it can be a decent training tool if you want to challenge yourself.",
+            "otzComment": "White Nit Comb : Reduces the reach of your lunge after a blink, forcing you to be much more precise with them. This is a massive downside that should typically be avoided at all costs, but it can be a decent training tool if you want to challenge yourself.",
             "description": "A parasitic nit comb taken from the clinic.Once the symbol of a deep connection between an anxious patient and her nurse. Grants +100 % bonus Bloodpoints for Blink Attack Score Events. Reduces the Lunge duration of Special Attacks by -0.15 seconds, which reduces your Attack range by -50 %.",
             "localMatch": {
               "addonId": "46864722-edcb-4bc3-bfa1-302a09b88dd1",
@@ -1924,19 +1924,6 @@ var COMMUNITY_CONTENT = {
             "addons": [
               {
                 "rank": 2,
-                "name": "Heavy Panting",
-                "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/nurse/heavypanting.png",
-                "localMatch": {
-                  "addonId": "b18e555d-aa41-4b43-861b-554120a1d22b",
-                  "internalId": "ADDON_Lastbreath_HeavyPanting",
-                  "localName": "Heavy Panting",
-                  "localImage": "dbd_images/addons/iconaddon_heavypanting.png",
-                  "localRarity": "rare",
-                  "method": "name"
-                }
-              },
-              {
-                "rank": 3,
                 "name": "Fragile Wheeze",
                 "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/nurse/fragilewheeze.png",
                 "localMatch": {
@@ -1947,6 +1934,19 @@ var COMMUNITY_CONTENT = {
                   "localRarity": "rare",
                   "method": "name"
                 }
+              },
+              {
+                "rank": 3,
+                "name": "\"Bad Man's\" Last Breath",
+                "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/nurse/badmanslastbreath.png",
+                "localMatch": {
+                  "addonId": "2bebeb54-adaa-47c2-a5bc-03c7c4b7ebab",
+                  "internalId": "ADDON_Lastbreath_BadManLastBreath",
+                  "localName": "\"Bad Man's\" Last Breath",
+                  "localImage": "dbd_images/addons/iconaddon_badmanslastbreath.png",
+                  "localRarity": "veryrare",
+                  "method": "name"
+                }
               }
             ]
           },
@@ -1955,7 +1955,7 @@ var COMMUNITY_CONTENT = {
             "label": "Solid Combo",
             "addonRanks": [
               1,
-              2
+              4
             ],
             "addons": [
               {
@@ -1972,7 +1972,7 @@ var COMMUNITY_CONTENT = {
                 }
               },
               {
-                "rank": 2,
+                "rank": 4,
                 "name": "Heavy Panting",
                 "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/nurse/heavypanting.png",
                 "localMatch": {
@@ -2026,12 +2026,12 @@ var COMMUNITY_CONTENT = {
             "tier": "fun",
             "label": "Fun Combo",
             "addonRanks": [
-              4,
+              3,
               18
             ],
             "addons": [
               {
-                "rank": 4,
+                "rank": 3,
                 "name": "\"Bad Man's\" Last Breath",
                 "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/nurse/badmanslastbreath.png",
                 "localMatch": {
@@ -10813,9 +10813,25 @@ var COMMUNITY_CONTENT = {
           {
             "rank": 9,
             "tierBucket": "good",
+            "name": "Killing Part Chords",
+            "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/trickster/killingpartchords.png",
+            "otzComment": "Killing Part Chords : Increases the time before rank decreases from D to A by 50%. Each rank has a unique timer that ranges from 30 to 20 seconds, so this add-on will give you an average of about 12 extra seconds before your rank is depleted. Keeping your rank for longer makes it easier to unlock Main Event and comes with other benefits such as higher throw rate. The effect of this add-on is decent for newer players that struggle to build up rank and is a safe choice for any build, especially considering its rarity.",
+            "description": "A set of chords that Ji-Woon never found a song for.Still, the sound is undeniably catchy. Increases the time before Style Ranks D to A decay by +50 %.",
+            "localMatch": {
+              "addonId": "90219073-6c81-437c-93c1-1ce6fd94054a",
+              "internalId": "Addon_Trickster_03",
+              "localName": "Killing Part Chords",
+              "localImage": "dbd_images/addons/iconaddon_killingpartchords.png",
+              "localRarity": "common",
+              "method": "name"
+            }
+          },
+          {
+            "rank": 10,
+            "tierBucket": "good",
             "name": "Lucky Blade",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/trickster/luckyblade.png",
-            "otzComment": "Lucky Blade : Triggers one of three randomized effects after each 8 blade hits.",
+            "otzComment": "Lucky Blade : Triggers one of three randomized effects after each 8 blade hits. You don't have a lot of control over exactly what effect is triggered and when but they are generally quite useful.",
             "description": "The first throwing knife Ji-Woon ever owned.Purchased by his father, he was expected to put on a show for those frequenting the family restaurant.On every eighth Blade hit, a bonus is assigned at random: Throw rate is increased by +5 % for 5 seconds. Gain +3 % Haste Status Effect for 6 seconds. Gain 1 additional Style Point.",
             "localMatch": {
               "addonId": "868e799a-37e5-4f3f-94a4-b762a786a890",
@@ -10827,7 +10843,7 @@ var COMMUNITY_CONTENT = {
             }
           },
           {
-            "rank": 10,
+            "rank": 11,
             "tierBucket": "good",
             "name": "Tequila Moonrock",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/trickster/tequilamoonrock.png",
@@ -10838,22 +10854,6 @@ var COMMUNITY_CONTENT = {
               "internalId": "Addon_Trickster_09",
               "localName": "Tequila Moonrock",
               "localImage": "dbd_images/addons/iconaddon_tequilamoonrock.png",
-              "localRarity": "uncommon",
-              "method": "name"
-            }
-          },
-          {
-            "rank": 11,
-            "tierBucket": "decent",
-            "name": "Caged Heart Shoes",
-            "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/trickster/cagedheartshoes.png",
-            "otzComment": "Caged Heart Shoes : Provides a one-time brief increase of movement speed when holding and throwing knives. This effect begins when you start aiming and reactivates each time you break a pallet or breakable wall. Not a terrible effect, especially if you prepare it between chases and get a map with tons of breakable objects.",
-            "description": "Shoes that Ji-Woon wore during the music video for One Caged Heart.Allows for smooth, graceful movements of the point dance. When you basic-break Pallets and Breakable Walls or damage Generators, the next time you enter Throw State, increase movement speed while in the Throw State by 5% for 10 seconds.",
-            "localMatch": {
-              "addonId": "5d24e286-354c-426d-bdd2-2526815bc7c1",
-              "internalId": "Addon_Trickster_08",
-              "localName": "Caged Heart Shoes",
-              "localImage": "dbd_images/addons/iconaddon_cagedheartshoes.png",
               "localRarity": "uncommon",
               "method": "name"
             }
@@ -10877,6 +10877,22 @@ var COMMUNITY_CONTENT = {
           {
             "rank": 13,
             "tierBucket": "decent",
+            "name": "Caged Heart Shoes",
+            "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/trickster/cagedheartshoes.png",
+            "otzComment": "Caged Heart Shoes : Provides a one-time brief increase of movement speed when holding and throwing knives. This effect begins when you start aiming and reactivates each time you break a pallet or breakable wall. Not a terrible effect, especially if you prepare it between chases and get a map with tons of breakable objects, but the trigger condition makes it somewhat situational.",
+            "description": "Shoes that Ji-Woon wore during the music video for One Caged Heart.Allows for smooth, graceful movements of the point dance. When you basic-break Pallets and Breakable Walls or damage Generators, the next time you enter Throw State, increase movement speed while in the Throw State by 5% for 10 seconds.",
+            "localMatch": {
+              "addonId": "5d24e286-354c-426d-bdd2-2526815bc7c1",
+              "internalId": "Addon_Trickster_08",
+              "localName": "Caged Heart Shoes",
+              "localImage": "dbd_images/addons/iconaddon_cagedheartshoes.png",
+              "localRarity": "uncommon",
+              "method": "name"
+            }
+          },
+          {
+            "rank": 14,
+            "tierBucket": "decent",
             "name": "Waiting For You Watch",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/trickster/waitingforyouwatch.png",
             "otzComment": "Waiting For You Watch : Reveals the aura of a Survivor for a very decent duration of 10 seconds when their laceration fully decays. Useful when you land a knife or two on a target that you lose sight of momentarily. It can also help you keep track of a group of Survivors that has scattered away after being interrupted by your blades. Do keep in mind that the laceration decay is 100% paused during S-rank, delaying the effects of this add-on.",
@@ -10891,7 +10907,7 @@ var COMMUNITY_CONTENT = {
             }
           },
           {
-            "rank": 14,
+            "rank": 15,
             "tierBucket": "decent",
             "name": "On Target Single",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/trickster/ontargetsingle.png",
@@ -10907,7 +10923,7 @@ var COMMUNITY_CONTENT = {
             }
           },
           {
-            "rank": 15,
+            "rank": 16,
             "tierBucket": "decent",
             "name": "Ji-Woon's Autograph",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/trickster/jiwoonsautograph.png",
@@ -10923,7 +10939,7 @@ var COMMUNITY_CONTENT = {
             }
           },
           {
-            "rank": 16,
+            "rank": 17,
             "tierBucket": "almost-no-effect",
             "name": "Bloody Boa",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/trickster/bloodyboa.png",
@@ -10939,23 +10955,23 @@ var COMMUNITY_CONTENT = {
             }
           },
           {
-            "rank": 17,
+            "rank": 18,
             "tierBucket": "almost-no-effect",
-            "name": "Killing Part Chords",
-            "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/trickster/killingpartchords.png",
-            "otzComment": "Killing Part Chords : Increases the time before S-rank decreases by about 12 seconds. However, the normal S-rank timer is already very generous and these extra few seconds rarely make a difference unless you really need to delay using Main Event for some reason. You might choose to run this add-on if you're trying to extend the S-rank duration to benefit from another add-on such as the blue Ripper Brace.",
-            "description": "A set of chords that Ji-Woon never found a song for.Still, the sound is undeniably catchy. Increases the time before Style Ranks D to A decay by +50 %.",
+            "name": "Inferno Wires",
+            "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/trickster/infernowires.png",
+            "otzComment": "Inferno Wires : Increases the time before S-rank decreases by about 12 seconds. However, the normal S-rank timer is already very generous and these extra few seconds rarely make a difference unless you really need to delay using Main Event for some reason. You might choose to run this add-on if you're trying to extend the S-rank duration to benefit from another add-on such as the blue Ripper Brace.",
+            "description": "Burnt wires form the studio fire that killed four of the five NO SPIN members.Their deaths gave rise to The Trickster. Increases the decay time of S-Rank by 20 %.",
             "localMatch": {
-              "addonId": "90219073-6c81-437c-93c1-1ce6fd94054a",
-              "internalId": "Addon_Trickster_03",
-              "localName": "Killing Part Chords",
-              "localImage": "dbd_images/addons/iconaddon_killingpartchords.png",
+              "addonId": "ad367ac7-69fe-482a-9b82-840de1b4c767",
+              "internalId": "Addon_Trickster_04",
+              "localName": "Inferno Wires",
+              "localImage": "dbd_images/addons/iconaddon_infernowires.png",
               "localRarity": "common",
               "method": "name"
             }
           },
           {
-            "rank": 18,
+            "rank": 19,
             "tierBucket": "almost-no-effect",
             "name": "Melodious Murder",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/trickster/melodiousmurder.png",
@@ -10967,22 +10983,6 @@ var COMMUNITY_CONTENT = {
               "localName": "Melodious Murder",
               "localImage": "dbd_images/addons/iconaddon_melodiousmurder.png",
               "localRarity": "rare",
-              "method": "name"
-            }
-          },
-          {
-            "rank": 19,
-            "tierBucket": "almost-no-effect",
-            "name": "Inferno Wires",
-            "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/trickster/infernowires.png",
-            "otzComment": "Inferno Wires : WARNING: Add-on is possible bugged currently. Increases the time before rank decreases from D to A. Each rank has a unique timer that ranges from 30 to 20 seconds, so this add-on will give you an average of about 12 extra seconds before your rank is depleted. This effect is decent for newer players that struggle to build up rank but largely unnecessary for experienced players that are already very good at building it quickly.",
-            "description": "Burnt wires form the studio fire that killed four of the five NO SPIN members.Their deaths gave rise to The Trickster. Increases the decay time of S-Rank by 20 %.",
-            "localMatch": {
-              "addonId": "ad367ac7-69fe-482a-9b82-840de1b4c767",
-              "internalId": "Addon_Trickster_04",
-              "localName": "Inferno Wires",
-              "localImage": "dbd_images/addons/iconaddon_infernowires.png",
-              "localRarity": "common",
               "method": "name"
             }
           },
@@ -11045,7 +11045,7 @@ var COMMUNITY_CONTENT = {
             "label": "Solid Combo",
             "addonRanks": [
               4,
-              2
+              6
             ],
             "addons": [
               {
@@ -11062,14 +11062,14 @@ var COMMUNITY_CONTENT = {
                 }
               },
               {
-                "rank": 2,
-                "name": "Cut Thru U Single",
-                "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/trickster/cutthruusingle.png",
+                "rank": 6,
+                "name": "Diamond Cufflinks",
+                "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/trickster/diamondcufflinks.png",
                 "localMatch": {
-                  "addonId": "02261a03-f8e7-464c-a5e8-175cfa074e4e",
-                  "internalId": "Addon_Trickster_18",
-                  "localName": "Cut Thru U Single",
-                  "localImage": "dbd_images/addons/iconaddon_cutthruusingle.png",
+                  "addonId": "98af2deb-40ee-482f-8370-9f986043f708",
+                  "internalId": "Addon_Trickster_15",
+                  "localName": "Diamond Cufflinks",
+                  "localImage": "dbd_images/addons/iconaddon_diamondcufflinks.png",
                   "localRarity": "veryrare",
                   "method": "name"
                 }
@@ -11081,7 +11081,7 @@ var COMMUNITY_CONTENT = {
             "label": "Good Combo",
             "addonRanks": [
               7,
-              10
+              9
             ],
             "addons": [
               {
@@ -11098,15 +11098,15 @@ var COMMUNITY_CONTENT = {
                 }
               },
               {
-                "rank": 10,
-                "name": "Tequila Moonrock",
-                "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/trickster/tequilamoonrock.png",
+                "rank": 9,
+                "name": "Killing Part Chords",
+                "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/trickster/killingpartchords.png",
                 "localMatch": {
-                  "addonId": "42dc359a-4fb3-4718-a615-43951c0f8e02",
-                  "internalId": "Addon_Trickster_09",
-                  "localName": "Tequila Moonrock",
-                  "localImage": "dbd_images/addons/iconaddon_tequilamoonrock.png",
-                  "localRarity": "uncommon",
+                  "addonId": "90219073-6c81-437c-93c1-1ce6fd94054a",
+                  "internalId": "Addon_Trickster_03",
+                  "localName": "Killing Part Chords",
+                  "localImage": "dbd_images/addons/iconaddon_killingpartchords.png",
+                  "localRarity": "common",
                   "method": "name"
                 }
               }
@@ -19508,7 +19508,7 @@ var COMMUNITY_CONTENT = {
             "tierBucket": "decent",
             "name": "Pig's Eye",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/krasue/pigseye.png",
-            "otzComment": "Pig's Eye : Shows the aura of any Survivor who begins cleansing their leech status with a mushroom from further than 40 meters away from you. When using this add-on, you'll want to keep an eye out for any leeched Survivor whose HUD icon turns green and you might be able to spot them across the map. This add-on used to be very strong when the leeched status effect remained after being unhooked, but right now this is no longer the case as unhooked Survivors don't have a need to use the mushrooms. It can still provide some value if you're planning to slug Survivors or bounce back and forth between different targets, although the Krasue's main strength typically comes from focusing on one target at a time. Definitely not worth using if you're planning on targetting a Survivor after the unhook right away anyway or if you don't want to pay much attention to the HUD during your gameplay.",
+            "otzComment": "Pig's Eye : Shows the aura of any Survivor who begins cleansing their leech status with a mushroom from further than 40 meters away from you. When using this add-on, you'll want to keep an eye out for any leeched Survivor whose HUD icon turns green and you might be able to spot them across the map. This add-on used to be very strong when the leeched status effect remained after being unhooked, but right now this is no longer the case as unhooked Survivors don't have a need to use the mushrooms. Currently best paired with the Iridescent Chicken Head if you want to find people early on. Otherwise, it can still provide some value if you're planning to slug Survivors or bounce back and forth between different targets, although the Krasue's main strength typically comes from focusing on one target at a time. Definitely not worth using if you're planning on targetting a Survivor after the unhook right away anyway or if you don't want to pay much attention to the HUD during your gameplay.",
             "description": "\"It still glistens with saliva.\" Modifies the Glowing Fungus with the following effect: Survivors eating it while at least 40 metres from your current location have their Auras revealed to you for 6 seconds.",
             "localMatch": {
               "addonId": "855c353f-1133-4ff3-9224-21211f8c85fe",
@@ -20050,7 +20050,7 @@ var COMMUNITY_CONTENT = {
             "tierBucket": "almost-no-effect",
             "name": "Clock Hands",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/first/clockhands.png",
-            "otzComment": "Clock Hands : Inflicts Oblivious on Survivors trying to shorten your Worldbreaker mode by interacting with the clocks around the map, which lingers for 12 seconds afterwards as well. Survivors will see a red debuff icon and immediately notice the effects of this add-on. Not extremely impactful but it can lead to some surprise hits if you pair it with other information add-ons or perks (such as the green Mid-century Radio). At the very least, it will make the Survivors want to play a bit more carefully and perhaps waste a few seconds. Needless to say, this add-on does nothing if Survivors ignore clocks, but that's a really good scenario for you anyway.",
+            "otzComment": "Clock Hands : Inflicts Oblivious on Survivors trying to shorten your Worldbreaker mode by interacting with the clocks around the map, which lingers for 12 seconds afterwards as well. Survivors will see a red debuff icon and immediately notice the effects of this add-on. Not extremely impactful but it can lead to some surprise hits if you pair it with other information add-ons or perks (such as the brown Mid-century Radio). At the very least, it will make the Survivors want to play a bit more carefully and perhaps waste a few seconds. Needless to say, this add-on does nothing if Survivors ignore clocks, but that's a really good scenario for you anyway.",
             "description": "\"Hands of the Creel family's grandfather clock, corrupted by Henry's dark power.\" Modifies the Grandfather Clocks with the following effect: Causes Survivors to gain the Oblivious Status Effect while interacting with the Grandfather Clocks and for 12 seconds after.",
             "localMatch": {
               "addonId": "4e4a38a7-b7e2-413f-96bc-3483b8e4f280",
@@ -20252,9666 +20252,25 @@ var COMMUNITY_CONTENT = {
     }
   },
   "builds": {
-    "lastUpdateLabel": "February 5th, 2026",
+    "lastUpdateLabel": null,
     "roles": {
-      "killers": [
-        {
-          "id": "universal-builds",
-          "role": "killer",
-          "panelId": "Universal Builds",
-          "name": "Universal Builds",
-          "imageUrl": "https://otzdarva-builds.com/assets/images/genericbuild1.png",
-          "featuredBuildName": "Beginner Build",
-          "buildCount": 8,
-          "builds": [
-            {
-              "name": "Beginner Build",
-              "perks": [
-                {
-                  "name": "Sloppy Butcher",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_sloppyButcher.png",
-                  "alternatives": [
-                    {
-                      "name": "Scourge Hook: Gift of Pain",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_scourgeHookGiftOfPain.png"
-                    },
-                    {
-                      "name": "Brutal Strength",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_brutalStrength.png"
-                    }
-                  ]
-                },
-                {
-                  "name": "No Holds Barred",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_NoHoldsBarred.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Hex: Plaything",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_hexPlaything.png",
-                  "alternatives": [
-                    {
-                      "name": "Tinkerer",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_tinkerer.png"
-                    },
-                    {
-                      "name": "A Nurse's Calling",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_aNursesCalling.png"
-                    }
-                  ]
-                },
-                {
-                  "name": "Hex: No One Escapes Death",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_hexNoOneEscapesDeath.png",
-                  "alternatives": [
-                    {
-                      "name": "Enduring",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_enduring.png"
-                    }
-                  ]
-                }
-              ],
-              "details": [
-                "Best used on \"M1\" Killers (who mostly down with their basic attack and move at the usual 4.6m/s speed), like Trapper or Wraith.",
-                "Uses only common perks available to all Killers (with some alternatives from the 5 free ones).",
-                "Use this as a starting point!"
-              ]
-            },
-            {
-              "name": "Beginner Build (M2 Killers)",
-              "perks": [
-                {
-                  "name": "Scourge Hook: Gift of Pain",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_scourgeHookGiftOfPain.png",
-                  "alternatives": [
-                    {
-                      "name": "Agitation",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_agitation.png"
-                    }
-                  ]
-                },
-                {
-                  "name": "No Holds Barred",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_NoHoldsBarred.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Spies from the Shadows",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_spiesFromTheShadows.png",
-                  "alternatives": [
-                    {
-                      "name": "Bitter Murmur",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_bitterMurmur.png"
-                    }
-                  ]
-                },
-                {
-                  "name": "Deerstalker",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_deerstalker.png",
-                  "alternatives": [
-                    {
-                      "name": "A Nurse's Calling",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_aNursesCalling.png"
-                    },
-                    {
-                      "name": "Tinkerer",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_tinkerer.png"
-                    }
-                  ]
-                }
-              ],
-              "details": [
-                "Best used on \"M2\" Killers who mostly rely on their special attack to down, like Nurse or Huntress.",
-                "Uses only common perks available to all Killers (with some alternatives from the 5 free ones).",
-                "Use this as a starting point!"
-              ]
-            },
-            {
-              "name": "All-Purpose Simple Build",
-              "perks": [
-                {
-                  "name": "Lethal Pursuer",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_lethalPursuer.png",
-                  "alternatives": [
-                    {
-                      "name": "Corrupt Intervention",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_corruptIntervention.png"
-                    },
-                    {
-                      "name": "Discordance",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_discordance.png"
-                    }
-                  ]
-                },
-                {
-                  "name": "Barbecue & Chilli",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_barbecueAndChilli.png",
-                  "alternatives": [
-                    {
-                      "name": "Thrilling Tremors",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_thrillingTremors.png"
-                    },
-                    {
-                      "name": "Tinkerer",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_tinkerer.png"
-                    }
-                  ]
-                },
-                {
-                  "name": "Surge",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_surge.png",
-                  "alternatives": [
-                    {
-                      "name": "No Holds Barred",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_NoHoldsBarred.png"
-                    }
-                  ]
-                },
-                {
-                  "name": "Grim Embrace",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_grimEmbrace.png",
-                  "alternatives": [
-                    {
-                      "name": "Hex: No One Escapes Death",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_hexNoOneEscapesDeath.png"
-                    },
-                    {
-                      "name": "No Way Out",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_noWayOut.png"
-                    }
-                  ]
-                }
-              ],
-              "details": [
-                "A well-balanced build suitable for any character.,",
-                "Lethal & BBQ will ensure you keep finding Survivors.",
-                "Surge is great for M1-type Killers. Switch to an alternative for M2 Killers!"
-              ]
-            },
-            {
-              "name": "Heavy Slowdown Build",
-              "perks": [
-                {
-                  "name": "Corrupt Intervention",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_corruptIntervention.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Scourge Hook: Pain Resonance",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_scourgeHookPainResonance.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Grim Embrace",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_grimEmbrace.png",
-                  "alternatives": [
-                    {
-                      "name": "Surge",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_surge.png"
-                    }
-                  ]
-                },
-                {
-                  "name": "Dead Man's Switch",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_deadMansSwitch.png",
-                  "alternatives": [
-                    {
-                      "name": "Eruption",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_eruption.png"
-                    }
-                  ]
-                }
-              ],
-              "details": [
-                "Focuses entirely on gen slowdown.",
-                "No info perks, so make sure your tracking is on point.",
-                "Ideal for Killers with built-in detection tools or high mobility."
-              ]
-            },
-            {
-              "name": "Stall & Stealth Build",
-              "perks": [
-                {
-                  "name": "Corrupt Intervention",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_corruptIntervention.png",
-                  "alternatives": [
-                    {
-                      "name": "No Holds Barred",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_NoHoldsBarred.png"
-                    }
-                  ]
-                },
-                {
-                  "name": "Thrilling Tremors",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_thrillingTremors.png",
-                  "alternatives": [
-                    {
-                      "name": "Grim Embrace",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_grimEmbrace.png"
-                    }
-                  ]
-                },
-                {
-                  "name": "Secret Project",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconsPerks_SecretProject.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Barbecue & Chilli",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_barbecueAndChilli.png",
-                  "alternatives": [
-                    {
-                      "name": "A Nurse's Calling",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_aNursesCalling.png"
-                    }
-                  ]
-                }
-              ],
-              "details": [
-                "Secret Project grants stealth at the start and throughout the match anytime a gen is blocked.",
-                "Perfect for Killers without built-in stealth abilities that can greatly benefit from ambushing Survivors off-guard."
-              ]
-            },
-            {
-              "name": "Gen-Tracking Build",
-              "perks": [
-                {
-                  "name": "Hex: Ruin",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_hexRuin.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Scourge Hook: Pain Resonance",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_scourgeHookPainResonance.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Turn Back the Clock",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconsPerks_TurnBackTheClock.png",
-                  "alternatives": [
-                    {
-                      "name": "Hex: Undying",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_hexUndying.png"
-                    },
-                    {
-                      "name": "Surge",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_surge.png"
-                    }
-                  ]
-                },
-                {
-                  "name": "Surveillance",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_surveillance.png",
-                  "alternatives": []
-                }
-              ],
-              "details": [
-                "Surveillance constantly turns gens white if they regress and yellow when worked on.",
-                "Your Killer uses only basic attacks? You can try to use Surge to replace one of the regression perks.",
-                "This build works great with Stealth Killers in general."
-              ]
-            },
-            {
-              "name": "Divide & Conquer Build",
-              "perks": [
-                {
-                  "name": "Discordance",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_discordance.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Tinkerer",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_tinkerer.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "No Holds Barred",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_NoHoldsBarred.png",
-                  "alternatives": [
-                    {
-                      "name": "Turn Back the Clock",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconsPerks_TurnBackTheClock.png"
-                    }
-                  ]
-                },
-                {
-                  "name": "Hex: No One Escapes Death",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_hexNoOneEscapesDeath.png",
-                  "alternatives": [
-                    {
-                      "name": "No Way Out",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_noWayOut.png"
-                    }
-                  ]
-                }
-              ],
-              "details": [
-                "Discordance makes it easier to split Survivors apart so that Tinkerer is easier to act on.",
-                "Even if they split up, they'll never pop too many gens at once due to No Holds Barred.",
-                "Pay attention to the last gen being done so that your endgame perk (NWO or NOED) has a huge impact.",
-                "The info from this build is great on Killers with timed powers like Plague or Oni."
-              ]
-            },
-            {
-              "name": "Big TR Hex Build",
-              "perks": [
-                {
-                  "name": "Hex: Ruin",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_hexRuin.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Hex: Thrill of the Hunt",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_hexThrillOfTheHunt.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Infectious Fright",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_infectiousFright.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Hex: Undying",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_hexUndying.png",
-                  "alternatives": [
-                    {
-                      "name": "Thanatophobia",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_thanatophobia.png"
-                    },
-                    {
-                      "name": "Hex: Devour Hope",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_hexDevourHope.png"
-                    },
-                    {
-                      "name": "Barbecue & Chilli",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_barbecueAndChilli.png"
-                    },
-                    {
-                      "name": "Lethal Pursuer",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_lethalPursuer.png"
-                    }
-                  ]
-                }
-              ],
-              "details": [
-                "Best suited for aggressive Killers with a large 40m TR such as Hillbilly, Ghoul or Blight.",
-                "Your perks slow down and even interrupt totem cleansing by making Survivors scream.",
-                "Pick a 4th perk that suits your Killer and playstyle the best. Hex: Undying is always a safe choice."
-              ]
-            }
-          ]
-        },
-        {
-          "id": "trapper",
-          "role": "killer",
-          "panelId": "Trapper",
-          "name": "The Trapper",
-          "imageUrl": "https://deadbydaylight.wiki.gg/images/K01_TheTrapper_Portrait.png?564c1d",
-          "featuredBuildName": "Generic Build",
-          "buildCount": 3,
-          "builds": [
-            {
-              "name": "Generic Build",
-              "perks": [
-                {
-                  "name": "Corrupt Intervention",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_corruptIntervention.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Scourge Hook: Pain Resonance",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_scourgeHookPainResonance.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Dead Man's Switch",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_deadMansSwitch.png",
-                  "alternatives": [
-                    {
-                      "name": "Hex: Ruin",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_hexRuin.png"
-                    },
-                    {
-                      "name": "Grim Embrace",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_grimEmbrace.png"
-                    }
-                  ]
-                },
-                {
-                  "name": "Agitation",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_agitation.png",
-                  "alternatives": [
-                    {
-                      "name": "Surge",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_surge.png"
-                    }
-                  ]
-                }
-              ],
-              "details": [
-                "Reliable and well-rounded build; a good starting point until you find the ideal build for your playstyle."
-              ]
-            },
-            {
-              "name": "Hex-Oriented Build",
-              "perks": [
-                {
-                  "name": "Hex: Ruin",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_hexRuin.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Hex: Blood Favour",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_hexBloodFavour.png",
-                  "alternatives": [
-                    {
-                      "name": "Hex: Devour Hope",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_hexDevourHope.png"
-                    }
-                  ]
-                },
-                {
-                  "name": "Hex: Undying",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_hexUndying.png",
-                  "alternatives": [
-                    {
-                      "name": "Hex: Haunted Ground",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_hexHauntedGround.png"
-                    },
-                    {
-                      "name": "Hex: Retribution",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_hexRetribution.png"
-                    }
-                  ]
-                },
-                {
-                  "name": "Hex: Thrill of the Hunt",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_hexThrillOfTheHunt.png",
-                  "alternatives": [
-                    {
-                      "name": "Dominance",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_Dominance.png"
-                    },
-                    {
-                      "name": "Surge",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_surge.png"
-                    }
-                  ]
-                }
-              ],
-              "details": [
-                "Very deadly if totems are ignored.",
-                "You can trap hexes (but don't overdo it).",
-                "Tracking is important since you have little info from perks."
-              ]
-            },
-            {
-              "name": "Late-Game Build",
-              "perks": [
-                {
-                  "name": "Corrupt Intervention",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_corruptIntervention.png",
-                  "alternatives": [
-                    {
-                      "name": "Hex: Ruin",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_hexRuin.png"
-                    },
-                    {
-                      "name": "No Way Out",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_noWayOut.png"
-                    },
-                    {
-                      "name": "Tinkerer",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_tinkerer.png"
-                    }
-                  ]
-                },
-                {
-                  "name": "No Holds Barred",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_NoHoldsBarred.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Coup de Grâce",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_coupDeGr%C3%A2ce.png",
-                  "alternatives": [
-                    {
-                      "name": "Fire Up",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_fireUp.png"
-                    }
-                  ]
-                },
-                {
-                  "name": "Hex: No One Escapes Death",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_hexNoOneEscapesDeath.png",
-                  "alternatives": [
-                    {
-                      "name": "Remember Me",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_rememberMe.png"
-                    }
-                  ]
-                }
-              ],
-              "details": [
-                "Build gets stronger as the match progresses.",
-                "NOED can be crippling if you prepare ahead; try to get rid of strong pallets early (especially near gates).",
-                "Reliable and well-rounded build, effective in most situations. Reliable and well-rounded build, effective in most situations."
-              ]
-            }
-          ]
-        },
-        {
-          "id": "wraith",
-          "role": "killer",
-          "panelId": "Wraith",
-          "name": "The Wraith",
-          "imageUrl": "https://deadbydaylight.wiki.gg/images/K02_TheWraith_Portrait.png?fbb21b",
-          "featuredBuildName": "Generic Build",
-          "buildCount": 3,
-          "builds": [
-            {
-              "name": "Generic Build",
-              "perks": [
-                {
-                  "name": "Barbecue & Chilli",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_barbecueAndChilli.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Scourge Hook: Pain Resonance",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_scourgeHookPainResonance.png",
-                  "alternatives": [
-                    {
-                      "name": "Surge",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_surge.png"
-                    }
-                  ]
-                },
-                {
-                  "name": "Turn Back the Clock",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconsPerks_TurnBackTheClock.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Sloppy Butcher",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_sloppyButcher.png",
-                  "alternatives": [
-                    {
-                      "name": "Bamboozle",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_bamboozle.png"
-                    }
-                  ]
-                }
-              ],
-              "details": [
-                "Reliable and well-rounded build; a good starting point until you find the ideal build for your playstyle.",
-                "Pain Res & TBTC help you slow down gens without much time wasted. Perks like Surge are good alternatives too.",
-                "Sloppy Butcher helps keep survivors injured, but can be swapped to Bamboozle if you struggle with windows."
-              ]
-            },
-            {
-              "name": "Gen-Kick Build",
-              "perks": [
-                {
-                  "name": "Corrupt Intervention",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_corruptIntervention.png",
-                  "alternatives": [
-                    {
-                      "name": "Mindbreaker",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_mindbreaker.png"
-                    }
-                  ]
-                },
-                {
-                  "name": "Dragon's Grip",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_dragonsGrip.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Pop Goes the Weasel",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_popGoesTheWeasel.png",
-                  "alternatives": [
-                    {
-                      "name": "Eruption",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_eruption.png"
-                    },
-                    {
-                      "name": "Call of Brine",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_callOfBrine.png"
-                    }
-                  ]
-                },
-                {
-                  "name": "Nowhere to Hide",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_nowhereToHide.png",
-                  "alternatives": [
-                    {
-                      "name": "Brutal Strength",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_brutalStrength.png"
-                    }
-                  ]
-                }
-              ],
-              "details": [
-                "Dragon's Grip makes it risky for Survivors to return to a generator that you kicked.",
-                "This build is even stronger if you run the iridescent \"All Seeing - Blood\" add-on to have perfect info on gen progress."
-              ]
-            },
-            {
-              "name": "Hex-Oriented Build",
-              "perks": [
-                {
-                  "name": "Hex: Ruin",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_hexRuin.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Hex: Blood Favour",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_hexBloodFavour.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Barbecue & Chilli",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_barbecueAndChilli.png",
-                  "alternatives": [
-                    {
-                      "name": "Hex: Hive Mind",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconsPerks_HexHiveMind.png"
-                    },
-                    {
-                      "name": "Friends 'til the End",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_friendsTilTheEnd.png"
-                    }
-                  ]
-                },
-                {
-                  "name": "Hex: Undying",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_hexUndying.png",
-                  "alternatives": [
-                    {
-                      "name": "Hex: Thrill of the Hunt",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_hexThrillOfTheHunt.png"
-                    }
-                  ]
-                }
-              ],
-              "details": []
-            }
-          ]
-        },
-        {
-          "id": "hillbilly",
-          "role": "killer",
-          "panelId": "Hillbilly",
-          "name": "The Hillbilly",
-          "imageUrl": "https://deadbydaylight.wiki.gg/images/K03_TheHillbilly_Portrait.png?b1fa3b",
-          "featuredBuildName": "Generic Build",
-          "buildCount": 3,
-          "builds": [
-            {
-              "name": "Generic Build",
-              "perks": [
-                {
-                  "name": "Corrupt Intervention",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_corruptIntervention.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Turn Back the Clock",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconsPerks_TurnBackTheClock.png",
-                  "alternatives": [
-                    {
-                      "name": "Scourge Hook: Pain Resonance",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_scourgeHookPainResonance.png"
-                    }
-                  ]
-                },
-                {
-                  "name": "Tinkerer",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_tinkerer.png",
-                  "alternatives": [
-                    {
-                      "name": "Barbecue & Chilli",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_barbecueAndChilli.png"
-                    }
-                  ]
-                },
-                {
-                  "name": "Bamboozle",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_bamboozle.png",
-                  "alternatives": []
-                }
-              ],
-              "details": [
-                "Reliable and well-rounded build; a good starting point until you find the ideal build for your playstyle.",
-                "Bamboozle helps you block strong windows in places like shack to force Survivors to drop pallets.",
-                "With Tinkerer (or similar), you keep an eye on the gens and use Turn Back The Clock to keep them damaged."
-              ]
-            },
-            {
-              "name": "Simple Info & Stall Build",
-              "perks": [
-                {
-                  "name": "Lethal Pursuer",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_lethalPursuer.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Barbecue & Chilli",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_barbecueAndChilli.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "No Holds Barred",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_NoHoldsBarred.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Grim Embrace",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_grimEmbrace.png",
-                  "alternatives": [
-                    {
-                      "name": "No Way Out",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_noWayOut.png"
-                    }
-                  ]
-                }
-              ],
-              "details": [
-                "Lethal & BBQ guide you throughout the match.",
-                "The other perks provide simple, passive slowdown."
-              ]
-            },
-            {
-              "name": "All-Hex Control Build",
-              "perks": [
-                {
-                  "name": "Hex: Ruin",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_hexRuin.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Hex: Hive Mind",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconsPerks_HexHiveMind.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Hex: Thrill of the Hunt",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_hexThrillOfTheHunt.png",
-                  "alternatives": [
-                    {
-                      "name": "Hex: Undying",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_hexUndying.png"
-                    }
-                  ]
-                },
-                {
-                  "name": "Hex: Crowd Control",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_hexCrowdControl.png",
-                  "alternatives": [
-                    {
-                      "name": "Bamboozle",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_bamboozle.png"
-                    }
-                  ]
-                }
-              ],
-              "details": [
-                "Ruin and Hive Mind allow to passively monitor & regress generators across the map.",
-                "Crowd Control and Thrill also help with windows and keeping Survivors busy. Swap to Bamboozle if you prefer it."
-              ]
-            }
-          ]
-        },
-        {
-          "id": "nurse",
-          "role": "killer",
-          "panelId": "Nurse",
-          "name": "The Nurse",
-          "imageUrl": "https://deadbydaylight.wiki.gg/images/K04_TheNurse_Portrait.png?f00131",
-          "featuredBuildName": "Generic Build",
-          "buildCount": 3,
-          "builds": [
-            {
-              "name": "Generic Build",
-              "perks": [
-                {
-                  "name": "Lethal Pursuer",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_lethalPursuer.png",
-                  "alternatives": [
-                    {
-                      "name": "Corrupt Intervention",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_corruptIntervention.png"
-                    },
-                    {
-                      "name": "Unforeseen",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_unforeseen.png"
-                    }
-                  ]
-                },
-                {
-                  "name": "Barbecue & Chilli",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_barbecueAndChilli.png",
-                  "alternatives": [
-                    {
-                      "name": "Alien Instinct",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_alienInstinct.png"
-                    },
-                    {
-                      "name": "Tinkerer",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_tinkerer.png"
-                    }
-                  ]
-                },
-                {
-                  "name": "Eruption",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_eruption.png",
-                  "alternatives": [
-                    {
-                      "name": "Pop Goes the Weasel",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_popGoesTheWeasel.png"
-                    }
-                  ]
-                },
-                {
-                  "name": "Nowhere to Hide",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_nowhereToHide.png",
-                  "alternatives": [
-                    {
-                      "name": "Predator",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_predator.png"
-                    }
-                  ]
-                }
-              ],
-              "details": [
-                "Reliable and well-rounded build; a good starting point until you find the ideal build for your playstyle.",
-                "Focuses on damaging generators and revealing anywhere near them with Nowhere to Hide.",
-                "Try the other builds if you want something more \"automatic\" with less gen kicking involved!"
-              ]
-            },
-            {
-              "name": "Scourge Build",
-              "perks": [
-                {
-                  "name": "Scourge Hook: Pain Resonance",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_scourgeHookPainResonance.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Scourge Hook: Floods of Rage",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_scourgeHookFloodsOfRage.png",
-                  "alternatives": [
-                    {
-                      "name": "Scourge Hook: Hangman's Trick",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_scourgeHookHangmansTrick.png"
-                    }
-                  ]
-                },
-                {
-                  "name": "Scourge Hook: Jagged Compass",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_scourgeHookJaggedCompass.png",
-                  "alternatives": [
-                    {
-                      "name": "Agitation",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_agitation.png"
-                    }
-                  ]
-                },
-                {
-                  "name": "Grim Embrace",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_grimEmbrace.png",
-                  "alternatives": [
-                    {
-                      "name": "Scourge Hook: Weeping Wounds",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_scourgeHookWeepingWounds.png"
-                    },
-                    {
-                      "name": "Dead Man's Switch",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_deadMansSwitch.png"
-                    },
-                    {
-                      "name": "Lethal Pursuer",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_lethalPursuer.png"
-                    }
-                  ]
-                }
-              ],
-              "details": [
-                "Trigger strong regression and powerful info when using Scourge Hooks.",
-                "Jagged Compass (or Agitation) can help make sure you always have a Scourge Hook available somewhere.",
-                "The final perk just helps slow things down further or to help you find people at the start (Lethal Pursuer)."
-              ]
-            },
-            {
-              "name": "Hex Control Build",
-              "perks": [
-                {
-                  "name": "Lethal Pursuer",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_lethalPursuer.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Hex: Hive Mind",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconsPerks_HexHiveMind.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Hex: Ruin",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_hexRuin.png",
-                  "alternatives": [
-                    {
-                      "name": "Thrilling Tremors",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_thrillingTremors.png"
-                    },
-                    {
-                      "name": "Discordance",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_discordance.png"
-                    }
-                  ]
-                },
-                {
-                  "name": "Hex: Thrill of the Hunt",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_hexThrillOfTheHunt.png",
-                  "alternatives": [
-                    {
-                      "name": "Hex: Undying",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_hexUndying.png"
-                    },
-                    {
-                      "name": "Hex: Retribution",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_hexRetribution.png"
-                    }
-                  ]
-                }
-              ],
-              "details": [
-                "Lethal guides you at the start and Hive Mind will keep you bothering the most progressed gens for a while.",
-                "Cleansing totems is time-consuming and dangerous but ignoring them can be deadly for Survivors."
-              ]
-            }
-          ]
-        },
-        {
-          "id": "shape",
-          "role": "killer",
-          "panelId": "Shape",
-          "name": "The Shape",
-          "imageUrl": "https://deadbydaylight.wiki.gg/images/K05_TheShape_Portrait.png?f9bf22",
-          "featuredBuildName": "Generic Build",
-          "buildCount": 3,
-          "builds": [
-            {
-              "name": "Generic Build",
-              "perks": [
-                {
-                  "name": "Hex: Ruin",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_hexRuin.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Hex: Hive Mind",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconsPerks_HexHiveMind.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Hex: Thrill of the Hunt",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_hexThrillOfTheHunt.png",
-                  "alternatives": [
-                    {
-                      "name": "Hex: Undying",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_hexUndying.png"
-                    },
-                    {
-                      "name": "Hex: Retribution",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_hexRetribution.png"
-                    }
-                  ]
-                },
-                {
-                  "name": "Bamboozle",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_bamboozle.png",
-                  "alternatives": [
-                    {
-                      "name": "Lethal Pursuer",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_lethalPursuer.png"
-                    }
-                  ]
-                }
-              ],
-              "details": [
-                "Reliable and well-rounded build; a good starting point until you find the ideal build for your playstyle.",
-                "Ruin and Hive Mind allow to passively monitor & regress generators across the map. Thrill slows totem cleansing.",
-                "Bamboozle can be used if you want to quickly deal with strong windows such as shack's and force pallet drops."
-              ]
-            },
-            {
-              "name": "Gen Info Build",
-              "perks": [
-                {
-                  "name": "Scourge Hook: Pain Resonance",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_scourgeHookPainResonance.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Turn Back the Clock",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconsPerks_TurnBackTheClock.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Surveillance",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_surveillance.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Agitation",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_agitation.png",
-                  "alternatives": [
-                    {
-                      "name": "Bamboozle",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_bamboozle.png"
-                    }
-                  ]
-                }
-              ],
-              "details": []
-            },
-            {
-              "name": "Obsession Roulette",
-              "perks": [
-                {
-                  "name": "Friends 'til the End",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_friendsTilTheEnd.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Furtive Chase",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_furtiveChase.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Nemesis",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_nemesis.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Spirit Fury",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_spiritFury.png",
-                  "alternatives": [
-                    {
-                      "name": "No Way Out",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_noWayOut.png"
-                    }
-                  ]
-                }
-              ],
-              "details": [
-                "Hooking a Survivor highlights the Obsession (or switches it), debuffs them, and gives you haste to possibly down them very fast.",
-                "Spirit Fury is easy to activate (since your EW attack breaks pallets) and works great with Myers' basekit shorter stun time (outside of Stalker mode).",
-                "This build is best used with the iridescent Judith's Tombstone to constantly reset the EW mode's timer."
-              ]
-            }
-          ]
-        },
-        {
-          "id": "hag",
-          "role": "killer",
-          "panelId": "Hag",
-          "name": "The Hag",
-          "imageUrl": "https://deadbydaylight.wiki.gg/images/K06_TheHag_Portrait.png?60f88f",
-          "featuredBuildName": "Generic Build",
-          "buildCount": 3,
-          "builds": [
-            {
-              "name": "Generic Build",
-              "perks": [
-                {
-                  "name": "Corrupt Intervention",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_corruptIntervention.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "No Holds Barred",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_NoHoldsBarred.png",
-                  "alternatives": [
-                    {
-                      "name": "Grim Embrace",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_grimEmbrace.png"
-                    }
-                  ]
-                },
-                {
-                  "name": "Sloppy Butcher",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_sloppyButcher.png",
-                  "alternatives": [
-                    {
-                      "name": "Friends 'til the End",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_friendsTilTheEnd.png"
-                    }
-                  ]
-                },
-                {
-                  "name": "Hex: No One Escapes Death",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_hexNoOneEscapesDeath.png",
-                  "alternatives": []
-                }
-              ],
-              "details": [
-                "Reliable and well-rounded build; a good starting point until you find the ideal build for your playstyle."
-              ]
-            },
-            {
-              "name": "Hex-Oriented Build",
-              "perks": [
-                {
-                  "name": "Hex: Ruin",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_hexRuin.png",
-                  "alternatives": [
-                    {
-                      "name": "Hex: Wretched Fate",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_HexWretchedFate.png"
-                    }
-                  ]
-                },
-                {
-                  "name": "Hex: Blood Favour",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_hexBloodFavour.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Hex: Undying",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_hexUndying.png",
-                  "alternatives": [
-                    {
-                      "name": "Hex: Haunted Ground",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_hexHauntedGround.png"
-                    }
-                  ]
-                },
-                {
-                  "name": "Sloppy Butcher",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_sloppyButcher.png",
-                  "alternatives": [
-                    {
-                      "name": "Surge",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_surge.png"
-                    }
-                  ]
-                }
-              ],
-              "details": []
-            },
-            {
-              "name": "Scourge Build",
-              "perks": [
-                {
-                  "name": "Agitation",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_agitation.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Scourge Hook: Pain Resonance",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_scourgeHookPainResonance.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Starstruck",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_starstruck.png",
-                  "alternatives": [
-                    {
-                      "name": "Scourge Hook: Jagged Compass",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_scourgeHookJaggedCompass.png"
-                    }
-                  ]
-                },
-                {
-                  "name": "Grim Embrace",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_grimEmbrace.png",
-                  "alternatives": [
-                    {
-                      "name": "Dead Man's Switch",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_deadMansSwitch.png"
-                    }
-                  ]
-                }
-              ],
-              "details": [
-                "Agitation allows you to reach critical hooks, basement or simply spread your bigger TR around the map with Starstruck."
-              ]
-            }
-          ]
-        },
-        {
-          "id": "doctor",
-          "role": "killer",
-          "panelId": "Doctor",
-          "name": "The Doctor",
-          "imageUrl": "https://deadbydaylight.wiki.gg/images/K07_TheDoctor_Portrait.png?9b025f",
-          "featuredBuildName": "Generic Build",
-          "buildCount": 3,
-          "builds": [
-            {
-              "name": "Generic Build",
-              "perks": [
-                {
-                  "name": "Corrupt Intervention",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_corruptIntervention.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Scourge Hook: Pain Resonance",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_scourgeHookPainResonance.png",
-                  "alternatives": [
-                    {
-                      "name": "Eruption",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_eruption.png"
-                    }
-                  ]
-                },
-                {
-                  "name": "Dead Man's Switch",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_deadMansSwitch.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Rapid Brutality",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_rapidBrutality.png",
-                  "alternatives": [
-                    {
-                      "name": "Sloppy Butcher",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_sloppyButcher.png"
-                    },
-                    {
-                      "name": "Hex: No One Escapes Death",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_hexNoOneEscapesDeath.png"
-                    }
-                  ]
-                }
-              ],
-              "details": [
-                "Reliable and well-rounded build; a good starting point until you find the ideal build for your playstyle.",
-                "Your slowdown perks work great in tandem with the interruptions and stall from your madness.",
-                "Rapid Brutality makes Doctor makes the second half of the chase much shorter, reducing the distance you normally lose when you need to use your shock.",
-                "Other perks can replace Rapid if you want something simpler!"
-              ]
-            },
-            {
-              "name": "Gen Damage Build",
-              "perks": [
-                {
-                  "name": "Surge",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_surge.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Thrilling Tremors",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_thrillingTremors.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Turn Back the Clock",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconsPerks_TurnBackTheClock.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Discordance",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_discordance.png",
-                  "alternatives": [
-                    {
-                      "name": "Sloppy Butcher",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_sloppyButcher.png"
-                    },
-                    {
-                      "name": "Rapid Brutality",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_rapidBrutality.png"
-                    }
-                  ]
-                }
-              ],
-              "details": [
-                "Surge damages nearby gens after a down, and Thrilling will point out the best being done when picking up.",
-                "After the hook, you can use TBTC to damage a generator as you transition into the next chase.",
-                "The final perk can be anything you want; extra info, anti-heal or chase tool."
-              ]
-            },
-            {
-              "name": "Hex Skillcheck Build",
-              "perks": [
-                {
-                  "name": "Hex: Huntress Lullaby",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_hexHuntressLullaby.png",
-                  "alternatives": [
-                    {
-                      "name": "Hex: Ruin",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_hexRuin.png"
-                    }
-                  ]
-                },
-                {
-                  "name": "Hex: Hive Mind",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconsPerks_HexHiveMind.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Hex: Thrill of the Hunt",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_hexThrillOfTheHunt.png",
-                  "alternatives": [
-                    {
-                      "name": "Hex: Undying",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_hexUndying.png"
-                    }
-                  ]
-                },
-                {
-                  "name": "Merciless Storm",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_mercilessStorm.png",
-                  "alternatives": []
-                }
-              ],
-              "details": [
-                "Your hexes provide info on gen progress and makes skill checks very punishing.",
-                "Remember, using your Blast interrupts and resets totem cleansing!"
-              ]
-            }
-          ]
-        },
-        {
-          "id": "huntress",
-          "role": "killer",
-          "panelId": "Huntress",
-          "name": "The Huntress",
-          "imageUrl": "https://deadbydaylight.wiki.gg/images/K08_TheHuntress_Portrait.png?194544",
-          "featuredBuildName": "Generic Build",
-          "buildCount": 3,
-          "builds": [
-            {
-              "name": "Generic Build",
-              "perks": [
-                {
-                  "name": "Hex: Blood Favour",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_hexBloodFavour.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Hex: Ruin",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_hexRuin.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Hex: Hive Mind",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconsPerks_HexHiveMind.png",
-                  "alternatives": [
-                    {
-                      "name": "Barbecue & Chilli",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_barbecueAndChilli.png"
-                    },
-                    {
-                      "name": "Thrilling Tremors",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_thrillingTremors.png"
-                    }
-                  ]
-                },
-                {
-                  "name": "Hex: Undying",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_hexUndying.png",
-                  "alternatives": [
-                    {
-                      "name": "Hex: Thrill of the Hunt",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_hexThrillOfTheHunt.png"
-                    },
-                    {
-                      "name": "Hex: Retribution",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_hexRetribution.png"
-                    },
-                    {
-                      "name": "Dominance",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_Dominance.png"
-                    }
-                  ]
-                }
-              ],
-              "details": [
-                "Reliable and well-rounded build; a good starting point until you find the ideal build for your playstyle.",
-                "Your hexes help disable pallets, regress gens and give reliable info on generator progress to ensure minimal downtime.",
-                "The final perk is there to further waste time and protect the other perks."
-              ]
-            },
-            {
-              "name": "Reliable Stall Build",
-              "perks": [
-                {
-                  "name": "Corrupt Intervention",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_corruptIntervention.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Thrilling Tremors",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_thrillingTremors.png",
-                  "alternatives": [
-                    {
-                      "name": "Barbecue & Chilli",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_barbecueAndChilli.png"
-                    }
-                  ]
-                },
-                {
-                  "name": "Turn Back the Clock",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconsPerks_TurnBackTheClock.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "A Nurse's Calling",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_aNursesCalling.png",
-                  "alternatives": [
-                    {
-                      "name": "Agitation",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_agitation.png"
-                    }
-                  ]
-                }
-              ],
-              "details": [
-                "Your perks block gens and point you in the right direction.",
-                "To avoid wasting Thrilling Tremors' info, make sure you reload at lockers BEFORE picking up and hooking, if possible."
-              ]
-            },
-            {
-              "name": "Aura Build",
-              "perks": [
-                {
-                  "name": "Lethal Pursuer",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_lethalPursuer.png",
-                  "alternatives": [
-                    {
-                      "name": "Corrupt Intervention",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_corruptIntervention.png"
-                    }
-                  ]
-                },
-                {
-                  "name": "Darkness Revealed",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_darknessRevealed.png",
-                  "alternatives": [
-                    {
-                      "name": "Barbecue & Chilli",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_barbecueAndChilli.png"
-                    }
-                  ]
-                },
-                {
-                  "name": "No Holds Barred",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_NoHoldsBarred.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Grim Embrace",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_grimEmbrace.png",
-                  "alternatives": [
-                    {
-                      "name": "No Way Out",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_noWayOut.png"
-                    }
-                  ]
-                }
-              ],
-              "details": [
-                "Your perks reveal Survivors passively at the start and after each reload (or hook with BBQ).",
-                "Your other perks are focused on slowing things down.",
-                "Darkness Revealed works very well with the purple Wooden Fox add-on!"
-              ]
-            }
-          ]
-        },
-        {
-          "id": "cannibal",
-          "role": "killer",
-          "panelId": "Cannibal",
-          "name": "The Cannibal",
-          "imageUrl": "https://deadbydaylight.wiki.gg/images/K09_TheCannibal_Portrait.png?2b9b38",
-          "featuredBuildName": "Generic Build",
-          "buildCount": 3,
-          "builds": [
-            {
-              "name": "Generic Build",
-              "perks": [
-                {
-                  "name": "Corrupt Intervention",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_corruptIntervention.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Turn Back the Clock",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconsPerks_TurnBackTheClock.png",
-                  "alternatives": [
-                    {
-                      "name": "No Holds Barred",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_NoHoldsBarred.png"
-                    },
-                    {
-                      "name": "No Way Out",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_noWayOut.png"
-                    }
-                  ]
-                },
-                {
-                  "name": "Barbecue & Chilli",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_barbecueAndChilli.png",
-                  "alternatives": [
-                    {
-                      "name": "Tinkerer",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_tinkerer.png"
-                    }
-                  ]
-                },
-                {
-                  "name": "Bamboozle",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_bamboozle.png",
-                  "alternatives": [
-                    {
-                      "name": "Hex: Crowd Control",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_hexCrowdControl.png"
-                    }
-                  ]
-                }
-              ],
-              "details": [
-                "Reliable and well-rounded build; a good starting point until you find the ideal build for your playstyle."
-              ]
-            },
-            {
-              "name": "Aggressive Build",
-              "perks": [
-                {
-                  "name": "Eruption",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_eruption.png",
-                  "alternatives": [
-                    {
-                      "name": "Lethal Pursuer",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_lethalPursuer.png"
-                    }
-                  ]
-                },
-                {
-                  "name": "Nowhere to Hide",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_nowhereToHide.png",
-                  "alternatives": [
-                    {
-                      "name": "Unforeseen",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_unforeseen.png"
-                    }
-                  ]
-                },
-                {
-                  "name": "Pop Goes the Weasel",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_popGoesTheWeasel.png",
-                  "alternatives": [
-                    {
-                      "name": "Call of Brine",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_callOfBrine.png"
-                    }
-                  ]
-                },
-                {
-                  "name": "Bamboozle",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_bamboozle.png",
-                  "alternatives": []
-                }
-              ],
-              "details": [
-                "Simple build that activates many powerful effects upon generator kicks."
-              ]
-            },
-            {
-              "name": "Heavy Stall Build",
-              "perks": [
-                {
-                  "name": "Scourge Hook: Pain Resonance",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_scourgeHookPainResonance.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Grim Embrace",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_grimEmbrace.png",
-                  "alternatives": [
-                    {
-                      "name": "Agitation",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_agitation.png"
-                    }
-                  ]
-                },
-                {
-                  "name": "Dead Man's Switch",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_deadMansSwitch.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Barbecue & Chilli",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_barbecueAndChilli.png",
-                  "alternatives": [
-                    {
-                      "name": "Friends 'til the End",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_friendsTilTheEnd.png"
-                    }
-                  ]
-                }
-              ],
-              "details": []
-            }
-          ]
-        },
-        {
-          "id": "nightmare",
-          "role": "killer",
-          "panelId": "Nightmare",
-          "name": "The Nightmare",
-          "imageUrl": "https://deadbydaylight.wiki.gg/images/K10_TheNightmare_Portrait.png?8dfa33",
-          "featuredBuildName": "Generic Build",
-          "buildCount": 3,
-          "builds": [
-            {
-              "name": "Generic Build",
-              "perks": [
-                {
-                  "name": "Scourge Hook: Pain Resonance",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_scourgeHookPainResonance.png",
-                  "alternatives": [
-                    {
-                      "name": "Hex: Ruin",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_hexRuin.png"
-                    }
-                  ]
-                },
-                {
-                  "name": "Dead Man's Switch",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_deadMansSwitch.png",
-                  "alternatives": [
-                    {
-                      "name": "Grim Embrace",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_grimEmbrace.png"
-                    }
-                  ]
-                },
-                {
-                  "name": "Friends 'til the End",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_friendsTilTheEnd.png",
-                  "alternatives": [
-                    {
-                      "name": "Agitation",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_agitation.png"
-                    }
-                  ]
-                },
-                {
-                  "name": "Leverage",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_leverage.png",
-                  "alternatives": [
-                    {
-                      "name": "Sloppy Butcher",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_sloppyButcher.png"
-                    },
-                    {
-                      "name": "Scourge Hook: Weeping Wounds",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_scourgeHookWeepingWounds.png"
-                    }
-                  ]
-                }
-              ],
-              "details": [
-                "Reliable and well-rounded build; a good starting point until you find the ideal build for your playstyle.",
-                "Leverage hurts a lot if Survivors don't have medkits, but can be swapped if you see several of them in the lobby."
-              ]
-            },
-            {
-              "name": "Gen Control Build",
-              "perks": [
-                {
-                  "name": "Thrilling Tremors",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_thrillingTremors.png",
-                  "alternatives": [
-                    {
-                      "name": "Scourge Hook: Jagged Compass",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_scourgeHookJaggedCompass.png"
-                    },
-                    {
-                      "name": "Tinkerer",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_tinkerer.png"
-                    }
-                  ]
-                },
-                {
-                  "name": "Brutal Strength",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_brutalStrength.png",
-                  "alternatives": [
-                    {
-                      "name": "Dragon's Grip",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_dragonsGrip.png"
-                    },
-                    {
-                      "name": "Oppression",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_oppression.png"
-                    }
-                  ]
-                },
-                {
-                  "name": "Eruption",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_eruption.png",
-                  "alternatives": [
-                    {
-                      "name": "Fire Up",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_fireUp.png"
-                    }
-                  ]
-                },
-                {
-                  "name": "Pop Goes the Weasel",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_popGoesTheWeasel.png",
-                  "alternatives": []
-                }
-              ],
-              "details": []
-            },
-            {
-              "name": "Anti-Pallet Build",
-              "perks": [
-                {
-                  "name": "Scourge Hook: Pain Resonance",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_scourgeHookPainResonance.png",
-                  "alternatives": [
-                    {
-                      "name": "Hex: Ruin",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_hexRuin.png"
-                    }
-                  ]
-                },
-                {
-                  "name": "Rapid Brutality",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_rapidBrutality.png",
-                  "alternatives": [
-                    {
-                      "name": "No Way Out",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_noWayOut.png"
-                    }
-                  ]
-                },
-                {
-                  "name": "Brutal Strength",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_brutalStrength.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Fire Up",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_fireUp.png",
-                  "alternatives": []
-                }
-              ],
-              "details": []
-            }
-          ]
-        },
-        {
-          "id": "pig",
-          "role": "killer",
-          "panelId": "Pig",
-          "name": "The Pig",
-          "imageUrl": "https://deadbydaylight.wiki.gg/images/K11_ThePig_Portrait.png?893de3",
-          "featuredBuildName": "Generic Build",
-          "buildCount": 3,
-          "builds": [
-            {
-              "name": "Generic Build",
-              "perks": [
-                {
-                  "name": "Corrupt Intervention",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_corruptIntervention.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Scourge Hook: Pain Resonance",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_scourgeHookPainResonance.png",
-                  "alternatives": [
-                    {
-                      "name": "No Holds Barred",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_NoHoldsBarred.png"
-                    }
-                  ]
-                },
-                {
-                  "name": "Hex: Fortune's Fool",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_hexPlaything.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Grim Embrace",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_grimEmbrace.png",
-                  "alternatives": [
-                    {
-                      "name": "Hex: Pentimento",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_hexPentimento.png"
-                    },
-                    {
-                      "name": "Barbecue & Chilli",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_barbecueAndChilli.png"
-                    }
-                  ]
-                }
-              ],
-              "details": [
-                "Reliable and well-rounded build; a good starting point until you find the ideal build for your playstyle."
-              ]
-            },
-            {
-              "name": "Chase & Slowdown Mix",
-              "perks": [
-                {
-                  "name": "Corrupt Intervention",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_corruptIntervention.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Scourge Hook: Pain Resonance",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_scourgeHookPainResonance.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Coup de Grâce",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_coupDeGr%C3%A2ce.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Bamboozle",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_bamboozle.png",
-                  "alternatives": []
-                }
-              ],
-              "details": []
-            },
-            {
-              "name": "Strong Hex Build",
-              "perks": [
-                {
-                  "name": "Hex: Ruin",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_hexRuin.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Hex: Undying",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_hexUndying.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Leverage",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_leverage.png",
-                  "alternatives": [
-                    {
-                      "name": "Barbecue & Chilli",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_barbecueAndChilli.png"
-                    }
-                  ]
-                },
-                {
-                  "name": "Hex: Pentimento",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_hexPentimento.png",
-                  "alternatives": []
-                }
-              ],
-              "details": []
-            }
-          ]
-        },
-        {
-          "id": "clown",
-          "role": "killer",
-          "panelId": "Clown",
-          "name": "The Clown",
-          "imageUrl": "https://deadbydaylight.wiki.gg/images/K12_TheClown_Portrait.png?26bd2a",
-          "featuredBuildName": "Generic Build",
-          "buildCount": 3,
-          "builds": [
-            {
-              "name": "Generic Build",
-              "perks": [
-                {
-                  "name": "Corrupt Intervention",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_corruptIntervention.png",
-                  "alternatives": [
-                    {
-                      "name": "Discordance",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_discordance.png"
-                    }
-                  ]
-                },
-                {
-                  "name": "Scourge Hook: Pain Resonance",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_scourgeHookPainResonance.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Coup de Grâce",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_coupDeGr%C3%A2ce.png",
-                  "alternatives": [
-                    {
-                      "name": "Rapid Brutality",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_rapidBrutality.png"
-                    }
-                  ]
-                },
-                {
-                  "name": "Zanshin Tactics",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_zanshinTactics.png",
-                  "alternatives": [
-                    {
-                      "name": "Surge",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_surge.png"
-                    }
-                  ]
-                }
-              ],
-              "details": [
-                "Reliable and well-rounded build; a good starting point until you find the ideal build for your playstyle."
-              ]
-            },
-            {
-              "name": "Hex Build",
-              "perks": [
-                {
-                  "name": "Hex: Ruin",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_hexRuin.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Hex: Blood Favour",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_hexBloodFavour.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Hex: Devour Hope",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_hexDevourHope.png",
-                  "alternatives": [
-                    {
-                      "name": "Hex: Wretched Fate",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_HexWretchedFate.png"
-                    }
-                  ]
-                },
-                {
-                  "name": "Hex: Thrill of the Hunt",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_hexThrillOfTheHunt.png",
-                  "alternatives": [
-                    {
-                      "name": "Hex: Haunted Ground",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_hexHauntedGround.png"
-                    },
-                    {
-                      "name": "Dominance",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_Dominance.png"
-                    }
-                  ]
-                }
-              ],
-              "details": []
-            },
-            {
-              "name": "Scourge Slowdown Build",
-              "perks": [
-                {
-                  "name": "Scourge Hook: Weeping Wounds",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_scourgeHookWeepingWounds.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Scourge Hook: Jagged Compass",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_scourgeHookJaggedCompass.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Scourge Hook: Pain Resonance",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_scourgeHookPainResonance.png",
-                  "alternatives": [
-                    {
-                      "name": "Dying Light",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_dyingLight.png"
-                    },
-                    {
-                      "name": "Discordance",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_discordance.png"
-                    }
-                  ]
-                },
-                {
-                  "name": "Surge",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_surge.png",
-                  "alternatives": [
-                    {
-                      "name": "No Holds Barred",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_NoHoldsBarred.png"
-                    },
-                    {
-                      "name": "Hex: Ruin",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_hexRuin.png"
-                    }
-                  ]
-                }
-              ],
-              "details": []
-            }
-          ]
-        },
-        {
-          "id": "spirit",
-          "role": "killer",
-          "panelId": "Spirit",
-          "name": "The Spirit",
-          "imageUrl": "https://deadbydaylight.wiki.gg/images/K13_TheSpirit_Portrait.png?c6efeb",
-          "featuredBuildName": "Generic Build",
-          "buildCount": 3,
-          "builds": [
-            {
-              "name": "Generic Build",
-              "perks": [
-                {
-                  "name": "Corrupt Intervention",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_corruptIntervention.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Friends 'til the End",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_friendsTilTheEnd.png",
-                  "alternatives": [
-                    {
-                      "name": "Agitation",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_agitation.png"
-                    },
-                    {
-                      "name": "Sloppy Butcher",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_sloppyButcher.png"
-                    }
-                  ]
-                },
-                {
-                  "name": "Scourge Hook: Pain Resonance",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_scourgeHookPainResonance.png",
-                  "alternatives": [
-                    {
-                      "name": "Turn Back the Clock",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconsPerks_TurnBackTheClock.png"
-                    }
-                  ]
-                },
-                {
-                  "name": "Pop Goes the Weasel",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_popGoesTheWeasel.png",
-                  "alternatives": [
-                    {
-                      "name": "Surge",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_surge.png"
-                    }
-                  ]
-                }
-              ],
-              "details": [
-                "Reliable and well-rounded build; a good starting point until you find the ideal build for your playstyle."
-              ]
-            },
-            {
-              "name": "Aggressive Instadown Build",
-              "perks": [
-                {
-                  "name": "Starstruck",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_starstruck.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Scourge Hook: Pain Resonance",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_scourgeHookPainResonance.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Agitation",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_agitation.png",
-                  "alternatives": [
-                    {
-                      "name": "Thrilling Tremors",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_thrillingTremors.png"
-                    },
-                    {
-                      "name": "Awakened Awareness",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_awakenedAwareness.png"
-                    }
-                  ]
-                },
-                {
-                  "name": "Surge",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_surge.png",
-                  "alternatives": [
-                    {
-                      "name": "Hex: Ruin",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_hexRuin.png"
-                    }
-                  ]
-                }
-              ],
-              "details": []
-            },
-            {
-              "name": "Anti-Pallet Build",
-              "perks": [
-                {
-                  "name": "Hex: Blood Favour",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_hexBloodFavour.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Hex: Undying",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_hexUndying.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Hex: Pentimento",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_hexPentimento.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "No Holds Barred",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_NoHoldsBarred.png",
-                  "alternatives": [
-                    {
-                      "name": "Surge",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_surge.png"
-                    },
-                    {
-                      "name": "Hex: Haunted Ground",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_hexHauntedGround.png"
-                    }
-                  ]
-                }
-              ],
-              "details": []
-            }
-          ]
-        },
-        {
-          "id": "legion",
-          "role": "killer",
-          "panelId": "Legion",
-          "name": "The Legion",
-          "imageUrl": "https://deadbydaylight.wiki.gg/images/K14_TheLegion_Portrait.png?f9a179",
-          "featuredBuildName": "Generic Build",
-          "buildCount": 3,
-          "builds": [
-            {
-              "name": "Generic Build",
-              "perks": [
-                {
-                  "name": "Surge",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_surge.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Hex: Ruin",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_hexRuin.png",
-                  "alternatives": [
-                    {
-                      "name": "Turn Back the Clock",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconsPerks_TurnBackTheClock.png"
-                    }
-                  ]
-                },
-                {
-                  "name": "Scourge Hook: Pain Resonance",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_scourgeHookPainResonance.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Surveillance",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_surveillance.png",
-                  "alternatives": [
-                    {
-                      "name": "Barbecue & Chilli",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_barbecueAndChilli.png"
-                    }
-                  ]
-                }
-              ],
-              "details": [
-                "Reliable and well-rounded build; a good starting point until you find the ideal build for your playstyle.",
-                "Having multiple regression perks ensures a constant stream of information with Surveillance.",
-                "If Hex: Ruin is still up, Survivors letting go of a gen for even a moment will give themselves away when the generator glows white.",
-                "Look for a generator changing color after each Pain Res hook to have a good idea of where to go next."
-              ]
-            },
-            {
-              "name": "All-Purpose Build",
-              "perks": [
-                {
-                  "name": "Lethal Pursuer",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_lethalPursuer.png",
-                  "alternatives": [
-                    {
-                      "name": "Discordance",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_discordance.png"
-                    }
-                  ]
-                },
-                {
-                  "name": "Play with Your Food",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_playWithYourFood.png",
-                  "alternatives": [
-                    {
-                      "name": "Coup de Grâce",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_coupDeGr%C3%A2ce.png"
-                    }
-                  ]
-                },
-                {
-                  "name": "Scourge Hook: Pain Resonance",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_scourgeHookPainResonance.png",
-                  "alternatives": [
-                    {
-                      "name": "Surge",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_surge.png"
-                    }
-                  ]
-                },
-                {
-                  "name": "No Way Out",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_noWayOut.png",
-                  "alternatives": []
-                }
-              ],
-              "details": []
-            },
-            {
-              "name": "Simple Chase Build",
-              "perks": [
-                {
-                  "name": "I'm All Ears",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_imAllEars.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Bamboozle",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_bamboozle.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "No Holds Barred",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_NoHoldsBarred.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Grim Embrace",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_grimEmbrace.png",
-                  "alternatives": [
-                    {
-                      "name": "Discordance",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_discordance.png"
-                    }
-                  ]
-                }
-              ],
-              "details": []
-            }
-          ]
-        },
-        {
-          "id": "plague",
-          "role": "killer",
-          "panelId": "Plague",
-          "name": "The Plague",
-          "imageUrl": "https://deadbydaylight.wiki.gg/images/K15_ThePlague_Portrait.png?e5926a",
-          "featuredBuildName": "Generic Build",
-          "buildCount": 3,
-          "builds": [
-            {
-              "name": "Generic Build",
-              "perks": [
-                {
-                  "name": "Lethal Pursuer",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_lethalPursuer.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Turn Back the Clock",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconsPerks_TurnBackTheClock.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Scourge Hook: Pain Resonance",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_scourgeHookPainResonance.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Barbecue & Chilli",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_barbecueAndChilli.png",
-                  "alternatives": [
-                    {
-                      "name": "Tinkerer",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_tinkerer.png"
-                    }
-                  ]
-                }
-              ],
-              "details": [
-                "Reliable and well-rounded build; a good starting point until you find the ideal build for your playstyle."
-              ]
-            },
-            {
-              "name": "Gen-Control Build",
-              "perks": [
-                {
-                  "name": "Discordance",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_discordance.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Tinkerer",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_tinkerer.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Turn Back the Clock",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconsPerks_TurnBackTheClock.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "No Way Out",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_noWayOut.png",
-                  "alternatives": []
-                }
-              ],
-              "details": []
-            },
-            {
-              "name": "Hex Build",
-              "perks": [
-                {
-                  "name": "Hex: Ruin",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_hexRuin.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Hex: Hive Mind",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconsPerks_HexHiveMind.png",
-                  "alternatives": [
-                    {
-                      "name": "Hex: Blood Favour",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_hexBloodFavour.png"
-                    }
-                  ]
-                },
-                {
-                  "name": "Hex: Undying",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_hexUndying.png",
-                  "alternatives": [
-                    {
-                      "name": "Hex: Devour Hope",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_hexDevourHope.png"
-                    }
-                  ]
-                },
-                {
-                  "name": "Hex: Retribution",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_hexRetribution.png",
-                  "alternatives": []
-                }
-              ],
-              "details": [
-                "Hexes provide strong effects and with Retribution, you'll see everyone's aura anytime one of them is cleansed.",
-                "You can then drink from a fountain and go into a massive damaging spree.",
-                "Remember, interacting with totems makes Survivors Oblivious (from Retribution), you can sometimes ambush them before or even after a totem cleanse!",
-                "Don't forget to puke on totems when possible!"
-              ]
-            }
-          ]
-        },
-        {
-          "id": "ghost-face",
-          "role": "killer",
-          "panelId": "Ghost Face",
-          "name": "The Ghost Face",
-          "imageUrl": "https://deadbydaylight.wiki.gg/images/K16_TheGhostFace_Portrait.png?5a4629",
-          "featuredBuildName": "Generic Build",
-          "buildCount": 3,
-          "builds": [
-            {
-              "name": "Generic Build",
-              "perks": [
-                {
-                  "name": "Corrupt Intervention",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_corruptIntervention.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Pop Goes the Weasel",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_popGoesTheWeasel.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Nowhere to Hide",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_nowhereToHide.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Eruption",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_eruption.png",
-                  "alternatives": [
-                    {
-                      "name": "Surge",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_surge.png"
-                    },
-                    {
-                      "name": "Sloppy Butcher",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_sloppyButcher.png"
-                    }
-                  ]
-                }
-              ],
-              "details": [
-                "Reliable and well-rounded build; a good starting point until you find the ideal build for your playstyle."
-              ]
-            },
-            {
-              "name": "Passive Slowdown & Haste",
-              "perks": [
-                {
-                  "name": "Lethal Pursuer",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_lethalPursuer.png",
-                  "alternatives": [
-                    {
-                      "name": "Discordance",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_discordance.png"
-                    }
-                  ]
-                },
-                {
-                  "name": "Play with Your Food",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_playWithYourFood.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "No Holds Barred",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_NoHoldsBarred.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "No Way Out",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_noWayOut.png",
-                  "alternatives": []
-                }
-              ],
-              "details": []
-            },
-            {
-              "name": "Gen-Info Build",
-              "perks": [
-                {
-                  "name": "Hex: Ruin",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_hexRuin.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Scourge Hook: Pain Resonance",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_scourgeHookPainResonance.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Surge",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_surge.png",
-                  "alternatives": [
-                    {
-                      "name": "Grim Embrace",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_grimEmbrace.png"
-                    }
-                  ]
-                },
-                {
-                  "name": "Surveillance",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_surveillance.png",
-                  "alternatives": [
-                    {
-                      "name": "Discordance",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_discordance.png"
-                    }
-                  ]
-                }
-              ],
-              "details": []
-            }
-          ]
-        },
-        {
-          "id": "demogorgon",
-          "role": "killer",
-          "panelId": "Demogorgon",
-          "name": "The Demogorgon",
-          "imageUrl": "https://deadbydaylight.wiki.gg/images/K17_TheDemogorgon_Portrait.png?20c7d0",
-          "featuredBuildName": "Generic Build",
-          "buildCount": 3,
-          "builds": [
-            {
-              "name": "Generic Build",
-              "perks": [
-                {
-                  "name": "Corrupt Intervention",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_corruptIntervention.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "No Holds Barred",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_NoHoldsBarred.png",
-                  "alternatives": [
-                    {
-                      "name": "Scourge Hook: Pain Resonance",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_scourgeHookPainResonance.png"
-                    }
-                  ]
-                },
-                {
-                  "name": "Dead Man's Switch",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_deadMansSwitch.png",
-                  "alternatives": [
-                    {
-                      "name": "Grim Embrace",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_grimEmbrace.png"
-                    }
-                  ]
-                },
-                {
-                  "name": "Coup de Grâce",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_coupDeGr%C3%A2ce.png",
-                  "alternatives": [
-                    {
-                      "name": "Agitation",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_agitation.png"
-                    }
-                  ]
-                }
-              ],
-              "details": [
-                "Reliable and well-rounded build; a good starting point until you find the ideal build for your playstyle."
-              ]
-            },
-            {
-              "name": "Simple Anti-pallet Build",
-              "perks": [
-                {
-                  "name": "Lethal Pursuer",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_lethalPursuer.png",
-                  "alternatives": [
-                    {
-                      "name": "Corrupt Intervention",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_corruptIntervention.png"
-                    }
-                  ]
-                },
-                {
-                  "name": "Barbecue & Chilli",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_barbecueAndChilli.png",
-                  "alternatives": [
-                    {
-                      "name": "Thrilling Tremors",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_thrillingTremors.png"
-                    },
-                    {
-                      "name": "Grim Embrace",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_grimEmbrace.png"
-                    }
-                  ]
-                },
-                {
-                  "name": "Enduring",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_enduring.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Spirit Fury",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_spiritFury.png",
-                  "alternatives": []
-                }
-              ],
-              "details": []
-            },
-            {
-              "name": "Hex Build",
-              "perks": [
-                {
-                  "name": "Hex: Ruin",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_hexRuin.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Hex: Undying",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_hexUndying.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Hex: Devour Hope",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_hexDevourHope.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Hex: Blood Favour",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_hexBloodFavour.png",
-                  "alternatives": [
-                    {
-                      "name": "Hex: Thrill of the Hunt",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_hexThrillOfTheHunt.png"
-                    }
-                  ]
-                }
-              ],
-              "details": []
-            }
-          ]
-        },
-        {
-          "id": "oni",
-          "role": "killer",
-          "panelId": "Oni",
-          "name": "The Oni",
-          "imageUrl": "https://deadbydaylight.wiki.gg/images/K18_TheOni_Portrait.png?22e37f",
-          "featuredBuildName": "Generic Build",
-          "buildCount": 3,
-          "builds": [
-            {
-              "name": "Generic Build",
-              "perks": [
-                {
-                  "name": "Corrupt Intervention",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_corruptIntervention.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Tinkerer",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_tinkerer.png",
-                  "alternatives": [
-                    {
-                      "name": "Play with Your Food",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_playWithYourFood.png"
-                    }
-                  ]
-                },
-                {
-                  "name": "No Holds Barred",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_NoHoldsBarred.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "No Way Out",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_noWayOut.png",
-                  "alternatives": []
-                }
-              ],
-              "details": [
-                "Reliable and well-rounded build; a good starting point until you find the ideal build for your playstyle.",
-                "With Tinkerer, you'll always have a plan B if you need to drop chase to ambush a generator before it's done.",
-                "Even if multiple Tinkerer procs happen at once, No Holds Barred will hold things steady for a bit. No Way Out also buys time for endgame comebacks."
-              ]
-            },
-            {
-              "name": "Scourge Hook Build",
-              "perks": [
-                {
-                  "name": "Lethal Pursuer",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_lethalPursuer.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Scourge Hook: Pain Resonance",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_scourgeHookPainResonance.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Barbecue & Chilli",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_barbecueAndChilli.png",
-                  "alternatives": [
-                    {
-                      "name": "Scourge Hook: Jagged Compass",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_scourgeHookJaggedCompass.png"
-                    }
-                  ]
-                },
-                {
-                  "name": "Grim Embrace",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_grimEmbrace.png",
-                  "alternatives": [
-                    {
-                      "name": "Pop Goes the Weasel",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_popGoesTheWeasel.png"
-                    }
-                  ]
-                }
-              ],
-              "details": []
-            },
-            {
-              "name": "Chaotic Gen Build",
-              "perks": [
-                {
-                  "name": "Pop Goes the Weasel",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_popGoesTheWeasel.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Trail of Torment",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_trailOfTorment.png",
-                  "alternatives": [
-                    {
-                      "name": "Oppression",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_oppression.png"
-                    }
-                  ]
-                },
-                {
-                  "name": "Eruption",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_eruption.png",
-                  "alternatives": [
-                    {
-                      "name": "Lethal Pursuer",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_lethalPursuer.png"
-                    }
-                  ]
-                },
-                {
-                  "name": "Nowhere to Hide",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_nowhereToHide.png",
-                  "alternatives": []
-                }
-              ],
-              "details": []
-            }
-          ]
-        },
-        {
-          "id": "deathslinger",
-          "role": "killer",
-          "panelId": "Deathslinger",
-          "name": "The Deathslinger",
-          "imageUrl": "https://deadbydaylight.wiki.gg/images/K19_TheDeathslinger_Portrait.png?52fc47",
-          "featuredBuildName": "Generic Build",
-          "buildCount": 3,
-          "builds": [
-            {
-              "name": "Generic Build",
-              "perks": [
-                {
-                  "name": "Corrupt Intervention",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_corruptIntervention.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Scourge Hook: Pain Resonance",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_scourgeHookPainResonance.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Surge",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_surge.png",
-                  "alternatives": [
-                    {
-                      "name": "Grim Embrace",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_grimEmbrace.png"
-                    }
-                  ]
-                },
-                {
-                  "name": "No Way Out",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_noWayOut.png",
-                  "alternatives": [
-                    {
-                      "name": "Hex: No One Escapes Death",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_hexNoOneEscapesDeath.png"
-                    }
-                  ]
-                }
-              ],
-              "details": [
-                "Reliable and well-rounded build; a good starting point until you find the ideal build for your playstyle."
-              ]
-            },
-            {
-              "name": "Aggressive Build",
-              "perks": [
-                {
-                  "name": "Friends 'til the End",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_friendsTilTheEnd.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Dead Man's Switch",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_deadMansSwitch.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "No Way Out",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_noWayOut.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Leverage",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_leverage.png",
-                  "alternatives": [
-                    {
-                      "name": "Surge",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_surge.png"
-                    }
-                  ]
-                }
-              ],
-              "details": []
-            },
-            {
-              "name": "Starstruck Build",
-              "perks": [
-                {
-                  "name": "Agitation",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_agitation.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Starstruck",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_starstruck.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Surge",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_surge.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Scourge Hook: Pain Resonance",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_scourgeHookPainResonance.png",
-                  "alternatives": []
-                }
-              ],
-              "details": []
-            }
-          ]
-        },
-        {
-          "id": "executioner",
-          "role": "killer",
-          "panelId": "Executioner",
-          "name": "The Executioner",
-          "imageUrl": "https://deadbydaylight.wiki.gg/images/K20_TheExecutioner_Portrait.png?286cd2",
-          "featuredBuildName": "Generic Build",
-          "buildCount": 3,
-          "builds": [
-            {
-              "name": "Generic Build",
-              "perks": [
-                {
-                  "name": "Corrupt Intervention",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_corruptIntervention.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Dead Man's Switch",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_deadMansSwitch.png",
-                  "alternatives": [
-                    {
-                      "name": "No Holds Barred",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_NoHoldsBarred.png"
-                    }
-                  ]
-                },
-                {
-                  "name": "Nowhere to Hide",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_nowhereToHide.png",
-                  "alternatives": [
-                    {
-                      "name": "Zanshin Tactics",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_zanshinTactics.png"
-                    },
-                    {
-                      "name": "I'm All Ears",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_imAllEars.png"
-                    }
-                  ]
-                },
-                {
-                  "name": "No Way Out",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_noWayOut.png",
-                  "alternatives": [
-                    {
-                      "name": "Hex: Wretched Fate",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_HexWretchedFate.png"
-                    }
-                  ]
-                }
-              ],
-              "details": [
-                "Reliable and well-rounded build; a good starting point until you find the ideal build for your playstyle."
-              ]
-            },
-            {
-              "name": "Gen Info Build",
-              "perks": [
-                {
-                  "name": "Discordance",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_discordance.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Tinkerer",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_tinkerer.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "No Holds Barred",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_NoHoldsBarred.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "No Way Out",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_noWayOut.png",
-                  "alternatives": [
-                    {
-                      "name": "Hex: No One Escapes Death",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_hexNoOneEscapesDeath.png"
-                    }
-                  ]
-                }
-              ],
-              "details": []
-            },
-            {
-              "name": "Aggressive Aura Build",
-              "perks": [
-                {
-                  "name": "Lethal Pursuer",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_lethalPursuer.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Zanshin Tactics",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_zanshinTactics.png",
-                  "alternatives": [
-                    {
-                      "name": "I'm All Ears",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_imAllEars.png"
-                    }
-                  ]
-                },
-                {
-                  "name": "Scourge Hook: Pain Resonance",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_scourgeHookPainResonance.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Scourge Hook: Floods of Rage",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_scourgeHookFloodsOfRage.png",
-                  "alternatives": []
-                }
-              ],
-              "details": []
-            }
-          ]
-        },
-        {
-          "id": "blight",
-          "role": "killer",
-          "panelId": "Blight",
-          "name": "The Blight",
-          "imageUrl": "https://deadbydaylight.wiki.gg/images/K21_TheBlight_Portrait.png?bb5b92",
-          "featuredBuildName": "Generic Build",
-          "buildCount": 3,
-          "builds": [
-            {
-              "name": "Generic Build",
-              "perks": [
-                {
-                  "name": "Scourge Hook: Pain Resonance",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_scourgeHookPainResonance.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Lethal Pursuer",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_lethalPursuer.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Turn Back the Clock",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconsPerks_TurnBackTheClock.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Barbecue & Chilli",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_barbecueAndChilli.png",
-                  "alternatives": [
-                    {
-                      "name": "Agitation",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_agitation.png"
-                    },
-                    {
-                      "name": "Tinkerer",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_tinkerer.png"
-                    }
-                  ]
-                }
-              ],
-              "details": [
-                "Reliable and well-rounded build; a good starting point until you find the ideal build for your playstyle.",
-                "Great info from BBQ and Lethal throughout the match.",
-                "Pain Res and TBTC will keep gens damaged with minimal downtime for you."
-              ]
-            },
-            {
-              "name": "Aggressive Aura Build",
-              "perks": [
-                {
-                  "name": "Lethal Pursuer",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_lethalPursuer.png",
-                  "alternatives": [
-                    {
-                      "name": "Eruption",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_eruption.png"
-                    }
-                  ]
-                },
-                {
-                  "name": "Barbecue & Chilli",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_barbecueAndChilli.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Pop Goes the Weasel",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_popGoesTheWeasel.png",
-                  "alternatives": [
-                    {
-                      "name": "Leverage",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_leverage.png"
-                    }
-                  ]
-                },
-                {
-                  "name": "Nowhere to Hide",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_nowhereToHide.png",
-                  "alternatives": [
-                    {
-                      "name": "Predator",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_predator.png"
-                    },
-                    {
-                      "name": "Brutal Strength",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_brutalStrength.png"
-                    }
-                  ]
-                }
-              ],
-              "details": []
-            },
-            {
-              "name": "Heavy Slowdown Build",
-              "perks": [
-                {
-                  "name": "Corrupt Intervention",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_corruptIntervention.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Scourge Hook: Pain Resonance",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_scourgeHookPainResonance.png",
-                  "alternatives": [
-                    {
-                      "name": "Nowhere to Hide",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_nowhereToHide.png"
-                    }
-                  ]
-                },
-                {
-                  "name": "Eruption",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_eruption.png",
-                  "alternatives": [
-                    {
-                      "name": "Tinkerer",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_tinkerer.png"
-                    }
-                  ]
-                },
-                {
-                  "name": "Pop Goes the Weasel",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_popGoesTheWeasel.png",
-                  "alternatives": []
-                }
-              ],
-              "details": [
-                "A build popularized by Momo and other Blight players going for consistent win streaks.",
-                "It stacks massive amounts of slowdown. Even if not all of it gets perfect value, it will buy you a ton of time if your chases are on point.",
-                "Check out alternative perks if you want a more balanced build with more information perks intead."
-              ]
-            }
-          ]
-        },
-        {
-          "id": "twins",
-          "role": "killer",
-          "panelId": "Twins",
-          "name": "The Twins",
-          "imageUrl": "https://deadbydaylight.wiki.gg/images/K22_TheTwins_Portrait.png?71ef1c",
-          "featuredBuildName": "Generic Build",
-          "buildCount": 3,
-          "builds": [
-            {
-              "name": "Generic Build",
-              "perks": [
-                {
-                  "name": "Corrupt Intervention",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_corruptIntervention.png",
-                  "alternatives": [
-                    {
-                      "name": "Discordance",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_discordance.png"
-                    },
-                    {
-                      "name": "Lethal Pursuer",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_lethalPursuer.png"
-                    }
-                  ]
-                },
-                {
-                  "name": "Turn Back the Clock",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconsPerks_TurnBackTheClock.png",
-                  "alternatives": [
-                    {
-                      "name": "Grim Embrace",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_grimEmbrace.png"
-                    }
-                  ]
-                },
-                {
-                  "name": "Leverage",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_leverage.png",
-                  "alternatives": [
-                    {
-                      "name": "Sloppy Butcher",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_sloppyButcher.png"
-                    }
-                  ]
-                },
-                {
-                  "name": "Barbecue & Chilli",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_barbecueAndChilli.png",
-                  "alternatives": [
-                    {
-                      "name": "Thrilling Tremors",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_thrillingTremors.png"
-                    }
-                  ]
-                }
-              ],
-              "details": [
-                "Reliable and well-rounded build; a good starting point until you find the ideal build for your playstyle.",
-                "Leverage is most useful if you notice Survivors don't have many medkits in the lobby!"
-              ]
-            },
-            {
-              "name": "Antiheal Build",
-              "perks": [
-                {
-                  "name": "Scourge Hook: Pain Resonance",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_scourgeHookPainResonance.png",
-                  "alternatives": [
-                    {
-                      "name": "No Holds Barred",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_NoHoldsBarred.png"
-                    }
-                  ]
-                },
-                {
-                  "name": "Scourge Hook: Weeping Wounds",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_scourgeHookWeepingWounds.png",
-                  "alternatives": [
-                    {
-                      "name": "Sloppy Butcher",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_sloppyButcher.png"
-                    }
-                  ]
-                },
-                {
-                  "name": "Leverage",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_leverage.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Grim Embrace",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_grimEmbrace.png",
-                  "alternatives": [
-                    {
-                      "name": "Agitation",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_agitation.png"
-                    }
-                  ]
-                }
-              ],
-              "details": []
-            },
-            {
-              "name": "Hex Build",
-              "perks": [
-                {
-                  "name": "Discordance",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_discordance.png",
-                  "alternatives": [
-                    {
-                      "name": "Lethal Pursuer",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_lethalPursuer.png"
-                    }
-                  ]
-                },
-                {
-                  "name": "Hex: Blood Favour",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_hexBloodFavour.png",
-                  "alternatives": [
-                    {
-                      "name": "Hex: Ruin",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_hexRuin.png"
-                    }
-                  ]
-                },
-                {
-                  "name": "Hex: Wretched Fate",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_HexWretchedFate.png",
-                  "alternatives": [
-                    {
-                      "name": "Hex: Devour Hope",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_hexDevourHope.png"
-                    }
-                  ]
-                },
-                {
-                  "name": "Hex: Undying",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_hexUndying.png",
-                  "alternatives": [
-                    {
-                      "name": "Hex: Pentimento",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_hexPentimento.png"
-                    }
-                  ]
-                }
-              ],
-              "details": []
-            }
-          ]
-        },
-        {
-          "id": "trickster",
-          "role": "killer",
-          "panelId": "Trickster",
-          "name": "The Trickster",
-          "imageUrl": "https://deadbydaylight.wiki.gg/images/K23_TheTrickster_Portrait.png?e4204c",
-          "featuredBuildName": "Generic Build",
-          "buildCount": 3,
-          "builds": [
-            {
-              "name": "Generic Build",
-              "perks": [
-                {
-                  "name": "Hex: Ruin",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_hexRuin.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Hex: Blood Favour",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_hexBloodFavour.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Hex: Undying",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_hexUndying.png",
-                  "alternatives": [
-                    {
-                      "name": "Hex: Thrill of the Hunt",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_hexThrillOfTheHunt.png"
-                    }
-                  ]
-                },
-                {
-                  "name": "Hex: Hive Mind",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconsPerks_HexHiveMind.png",
-                  "alternatives": [
-                    {
-                      "name": "THWACK!",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_thwack.png"
-                    },
-                    {
-                      "name": "Darkness Revealed",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_darknessRevealed.png"
-                    }
-                  ]
-                }
-              ],
-              "details": [
-                "Reliable and well-rounded build; a good starting point until you find the ideal build for your playstyle.",
-                "Ruin & Hive Mind help regress and monitor gens.",
-                "Blood Favor is a brutal effect if left unchecked, as it blocks pallets and makes your power very deadly.",
-                "Undying (or alternative) helps keep the totems going!"
-              ]
-            },
-            {
-              "name": "Scourge Build",
-              "perks": [
-                {
-                  "name": "Scourge Hook: Pain Resonance",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_scourgeHookPainResonance.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Scourge Hook: Jagged Compass",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_scourgeHookJaggedCompass.png",
-                  "alternatives": [
-                    {
-                      "name": "Agitation",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_agitation.png"
-                    }
-                  ]
-                },
-                {
-                  "name": "Scourge Hook: Floods of Rage",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_scourgeHookFloodsOfRage.png",
-                  "alternatives": [
-                    {
-                      "name": "Agitation",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_agitation.png"
-                    }
-                  ]
-                },
-                {
-                  "name": "Dead Man's Switch",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_deadMansSwitch.png",
-                  "alternatives": [
-                    {
-                      "name": "Grim Embrace",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_grimEmbrace.png"
-                    },
-                    {
-                      "name": "Lethal Pursuer",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_lethalPursuer.png"
-                    }
-                  ]
-                }
-              ],
-              "details": []
-            },
-            {
-              "name": "Gen Damage Build",
-              "perks": [
-                {
-                  "name": "Thrilling Tremors",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_thrillingTremors.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Turn Back the Clock",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconsPerks_TurnBackTheClock.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Secret Project",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconsPerks_SecretProject.png",
-                  "alternatives": [
-                    {
-                      "name": "Agitation",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_agitation.png"
-                    }
-                  ]
-                },
-                {
-                  "name": "No Holds Barred",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_NoHoldsBarred.png",
-                  "alternatives": [
-                    {
-                      "name": "Corrupt Intervention",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_corruptIntervention.png"
-                    }
-                  ]
-                }
-              ],
-              "details": [
-                "A build to help keep gens monitored and damaged but minimize the timne spent doing so.",
-                "Secret Project makes you stealthy every now and then when picking up and any other time a gen is blocked.",
-                "To ensure maximum value, try to reload BEFORE you pick up and hook if you need to (as long as it's reasonable to do so)."
-              ]
-            }
-          ]
-        },
-        {
-          "id": "nemesis",
-          "role": "killer",
-          "panelId": "Nemesis",
-          "name": "The Nemesis",
-          "imageUrl": "https://deadbydaylight.wiki.gg/images/K24_TheNemesis_Portrait.png?891941",
-          "featuredBuildName": "Generic Build",
-          "buildCount": 3,
-          "builds": [
-            {
-              "name": "Generic Build",
-              "perks": [
-                {
-                  "name": "Corrupt Intervention",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_corruptIntervention.png",
-                  "alternatives": [
-                    {
-                      "name": "Discordance",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_discordance.png"
-                    }
-                  ]
-                },
-                {
-                  "name": "Scourge Hook: Pain Resonance",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_scourgeHookPainResonance.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Grim Embrace",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_grimEmbrace.png",
-                  "alternatives": [
-                    {
-                      "name": "Dead Man's Switch",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_deadMansSwitch.png"
-                    },
-                    {
-                      "name": "Scourge Hook: Jagged Compass",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_scourgeHookJaggedCompass.png"
-                    }
-                  ]
-                },
-                {
-                  "name": "No Way Out",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_noWayOut.png",
-                  "alternatives": [
-                    {
-                      "name": "Hex: No One Escapes Death",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_hexNoOneEscapesDeath.png"
-                    }
-                  ]
-                }
-              ],
-              "details": [
-                "Reliable and well-rounded build; a good starting point until you find the ideal build for your playstyle."
-              ]
-            },
-            {
-              "name": "Hex Build",
-              "perks": [
-                {
-                  "name": "Hex: Blood Favour",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_hexBloodFavour.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Hex: Ruin",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_hexRuin.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Hex: Thrill of the Hunt",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_hexThrillOfTheHunt.png",
-                  "alternatives": [
-                    {
-                      "name": "Hex: Pentimento",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_hexPentimento.png"
-                    }
-                  ]
-                },
-                {
-                  "name": "Hex: Undying",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_hexUndying.png",
-                  "alternatives": [
-                    {
-                      "name": "Dominance",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_Dominance.png"
-                    },
-                    {
-                      "name": "Hex: Devour Hope",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_hexDevourHope.png"
-                    }
-                  ]
-                }
-              ],
-              "details": []
-            },
-            {
-              "name": "Multipurpose Build",
-              "perks": [
-                {
-                  "name": "THWACK!",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_thwack.png",
-                  "alternatives": [
-                    {
-                      "name": "Discordance",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_discordance.png"
-                    }
-                  ]
-                },
-                {
-                  "name": "Scourge Hook: Pain Resonance",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_scourgeHookPainResonance.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Dead Man's Switch",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_deadMansSwitch.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Agitation",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_agitation.png",
-                  "alternatives": [
-                    {
-                      "name": "Mindbreaker",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_mindbreaker.png"
-                    }
-                  ]
-                }
-              ],
-              "details": []
-            }
-          ]
-        },
-        {
-          "id": "cenobite",
-          "role": "killer",
-          "panelId": "Cenobite",
-          "name": "The Cenobite",
-          "imageUrl": "https://deadbydaylight.wiki.gg/images/K25_TheCenobite_Portrait.png?6b9046",
-          "featuredBuildName": "Generic Build",
-          "buildCount": 3,
-          "builds": [
-            {
-              "name": "Generic Build",
-              "perks": [
-                {
-                  "name": "Scourge Hook: Pain Resonance",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_scourgeHookPainResonance.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Dead Man's Switch",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_deadMansSwitch.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Hex: Ruin",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_hexRuin.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Bamboozle",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_bamboozle.png",
-                  "alternatives": [
-                    {
-                      "name": "Hex: Undying",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_hexUndying.png"
-                    }
-                  ]
-                }
-              ],
-              "details": [
-                "Reliable and well-rounded build; a good starting point until you find the ideal build for your playstyle."
-              ]
-            },
-            {
-              "name": "Simple Info & Regression Build",
-              "perks": [
-                {
-                  "name": "Lethal Pursuer",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_lethalPursuer.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Surge",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_surge.png",
-                  "alternatives": [
-                    {
-                      "name": "Sloppy Butcher",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_sloppyButcher.png"
-                    },
-                    {
-                      "name": "Rapid Brutality",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_rapidBrutality.png"
-                    }
-                  ]
-                },
-                {
-                  "name": "Scourge Hook: Pain Resonance",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_scourgeHookPainResonance.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Barbecue & Chilli",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_barbecueAndChilli.png",
-                  "alternatives": [
-                    {
-                      "name": "Grim Embrace",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_grimEmbrace.png"
-                    }
-                  ]
-                }
-              ],
-              "details": []
-            },
-            {
-              "name": "Hex Build",
-              "perks": [
-                {
-                  "name": "Hex: Ruin",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_hexRuin.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Hex: Crowd Control",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_hexCrowdControl.png",
-                  "alternatives": [
-                    {
-                      "name": "Hex: Blood Favour",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_hexBloodFavour.png"
-                    }
-                  ]
-                },
-                {
-                  "name": "Hex: Thrill of the Hunt",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_hexThrillOfTheHunt.png",
-                  "alternatives": [
-                    {
-                      "name": "Hex: Fortune's Fool",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_hexPlaything.png"
-                    }
-                  ]
-                },
-                {
-                  "name": "Hex: Pentimento",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_hexPentimento.png",
-                  "alternatives": [
-                    {
-                      "name": "Hex: Undying",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_hexUndying.png"
-                    }
-                  ]
-                }
-              ],
-              "details": []
-            }
-          ]
-        },
-        {
-          "id": "artist",
-          "role": "killer",
-          "panelId": "Artist",
-          "name": "The Artist",
-          "imageUrl": "https://deadbydaylight.wiki.gg/images/K26_TheArtist_Portrait.png?594628",
-          "featuredBuildName": "Generic Build",
-          "buildCount": 3,
-          "builds": [
-            {
-              "name": "Generic Build",
-              "perks": [
-                {
-                  "name": "Lethal Pursuer",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_lethalPursuer.png",
-                  "alternatives": [
-                    {
-                      "name": "Corrupt Intervention",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_corruptIntervention.png"
-                    }
-                  ]
-                },
-                {
-                  "name": "Scourge Hook: Pain Resonance",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_scourgeHookPainResonance.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Dead Man's Switch",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_deadMansSwitch.png",
-                  "alternatives": [
-                    {
-                      "name": "Scourge Hook: Floods of Rage",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_scourgeHookFloodsOfRage.png"
-                    }
-                  ]
-                },
-                {
-                  "name": "Barbecue & Chilli",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_barbecueAndChilli.png",
-                  "alternatives": [
-                    {
-                      "name": "Gearhead",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_gearhead.png"
-                    }
-                  ]
-                }
-              ],
-              "details": [
-                "Reliable and well-rounded build; a good starting point until you find the ideal build for your playstyle."
-              ]
-            },
-            {
-              "name": "Scourge Build",
-              "perks": [
-                {
-                  "name": "Scourge Hook: Pain Resonance",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_scourgeHookPainResonance.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Scourge Hook: Jagged Compass",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_scourgeHookJaggedCompass.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Scourge Hook: Floods of Rage",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_scourgeHookFloodsOfRage.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Dead Man's Switch",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_deadMansSwitch.png",
-                  "alternatives": [
-                    {
-                      "name": "Grim Embrace",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_grimEmbrace.png"
-                    }
-                  ]
-                }
-              ],
-              "details": []
-            },
-            {
-              "name": "Defensive Hex Build",
-              "perks": [
-                {
-                  "name": "Hex: Ruin",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_hexRuin.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Hex: Thrill of the Hunt",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_hexThrillOfTheHunt.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Barbecue & Chilli",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_barbecueAndChilli.png",
-                  "alternatives": [
-                    {
-                      "name": "Hex: Retribution",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_hexRetribution.png"
-                    },
-                    {
-                      "name": "Hex: Undying",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_hexUndying.png"
-                    }
-                  ]
-                },
-                {
-                  "name": "Hex: Wretched Fate",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_HexWretchedFate.png",
-                  "alternatives": [
-                    {
-                      "name": "Hex: Pentimento",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_hexPentimento.png"
-                    }
-                  ]
-                }
-              ],
-              "details": []
-            }
-          ]
-        },
-        {
-          "id": "onryo",
-          "role": "killer",
-          "panelId": "Onryō",
-          "name": "The Onryō",
-          "imageUrl": "https://deadbydaylight.wiki.gg/images/K27_TheOnryo_Portrait.png?50d2b8",
-          "featuredBuildName": "Generic Build",
-          "buildCount": 3,
-          "builds": [
-            {
-              "name": "Generic Build",
-              "perks": [
-                {
-                  "name": "Corrupt Intervention",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_corruptIntervention.png",
-                  "alternatives": [
-                    {
-                      "name": "Lethal Pursuer",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_lethalPursuer.png"
-                    }
-                  ]
-                },
-                {
-                  "name": "No Holds Barred",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_NoHoldsBarred.png",
-                  "alternatives": [
-                    {
-                      "name": "Surge",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_surge.png"
-                    }
-                  ]
-                },
-                {
-                  "name": "Hex: Ruin",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_hexRuin.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Barbecue & Chilli",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_barbecueAndChilli.png",
-                  "alternatives": [
-                    {
-                      "name": "Sloppy Butcher",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_sloppyButcher.png"
-                    },
-                    {
-                      "name": "Hex: Undying",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_hexUndying.png"
-                    }
-                  ]
-                }
-              ],
-              "details": [
-                "Reliable and well-rounded build; a good starting point until you find the ideal build for your playstyle."
-              ]
-            },
-            {
-              "name": "Gen-Kick Build",
-              "perks": [
-                {
-                  "name": "Eruption",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_eruption.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "No Holds Barred",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_NoHoldsBarred.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Oppression",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_oppression.png",
-                  "alternatives": [
-                    {
-                      "name": "Nowhere to Hide",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_nowhereToHide.png"
-                    }
-                  ]
-                },
-                {
-                  "name": "Discordance",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_discordance.png",
-                  "alternatives": [
-                    {
-                      "name": "Brutal Strength",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_brutalStrength.png"
-                    }
-                  ]
-                }
-              ],
-              "details": []
-            },
-            {
-              "name": "Hex: Everything Build",
-              "perks": [
-                {
-                  "name": "Hex: Ruin",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_hexRuin.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Hex: Face the Darkness",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_hexFaceTheDarkness.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Hex: Crowd Control",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_hexCrowdControl.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Hex: Thrill of the Hunt",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_hexThrillOfTheHunt.png",
-                  "alternatives": [
-                    {
-                      "name": "Hex: Undying",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_hexUndying.png"
-                    }
-                  ]
-                }
-              ],
-              "details": []
-            }
-          ]
-        },
-        {
-          "id": "dredge",
-          "role": "killer",
-          "panelId": "Dredge",
-          "name": "The Dredge",
-          "imageUrl": "https://deadbydaylight.wiki.gg/images/K28_TheDredge_Portrait.png?66319e",
-          "featuredBuildName": "Generic Build",
-          "buildCount": 3,
-          "builds": [
-            {
-              "name": "Generic Build",
-              "perks": [
-                {
-                  "name": "Corrupt Intervention",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_corruptIntervention.png",
-                  "alternatives": [
-                    {
-                      "name": "No Holds Barred",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_NoHoldsBarred.png"
-                    }
-                  ]
-                },
-                {
-                  "name": "Barbecue & Chilli",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_barbecueAndChilli.png",
-                  "alternatives": [
-                    {
-                      "name": "Tinkerer",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_tinkerer.png"
-                    }
-                  ]
-                },
-                {
-                  "name": "Sloppy Butcher",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_sloppyButcher.png",
-                  "alternatives": [
-                    {
-                      "name": "Coup de Grâce",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_coupDeGr%C3%A2ce.png"
-                    }
-                  ]
-                },
-                {
-                  "name": "Surge",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_surge.png",
-                  "alternatives": [
-                    {
-                      "name": "Turn Back the Clock",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconsPerks_TurnBackTheClock.png"
-                    },
-                    {
-                      "name": "Pop Goes the Weasel",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_popGoesTheWeasel.png"
-                    }
-                  ]
-                }
-              ],
-              "details": [
-                "Reliable and well-rounded build; a good starting point until you find the ideal build for your playstyle.",
-                "Sloppy makes healing harder, so look out for isolated Survivors that might be trying to heal with BBQ.",
-                "Your last perk is meant to slow down gens passively while you focus on harassing Survivors very aggressively."
-              ]
-            },
-            {
-              "name": "Scourge Build",
-              "perks": [
-                {
-                  "name": "Scourge Hook: Pain Resonance",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_scourgeHookPainResonance.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Scourge Hook: Jagged Compass",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_scourgeHookJaggedCompass.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Scourge Hook: Weeping Wounds",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_scourgeHookWeepingWounds.png",
-                  "alternatives": [
-                    {
-                      "name": "Sloppy Butcher",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_sloppyButcher.png"
-                    }
-                  ]
-                },
-                {
-                  "name": "Leverage",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_leverage.png",
-                  "alternatives": [
-                    {
-                      "name": "Barbecue & Chilli",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_barbecueAndChilli.png"
-                    }
-                  ]
-                }
-              ],
-              "details": []
-            },
-            {
-              "name": "Aggressive Instadown Build",
-              "perks": [
-                {
-                  "name": "Corrupt Intervention",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_corruptIntervention.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Friends 'til the End",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_friendsTilTheEnd.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Hex: No One Escapes Death",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_hexNoOneEscapesDeath.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Brutal Strength",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_brutalStrength.png",
-                  "alternatives": [
-                    {
-                      "name": "Coup de Grâce",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_coupDeGr%C3%A2ce.png"
-                    }
-                  ]
-                }
-              ],
-              "details": []
-            }
-          ]
-        },
-        {
-          "id": "mastermind",
-          "role": "killer",
-          "panelId": "Mastermind",
-          "name": "The Mastermind",
-          "imageUrl": "https://deadbydaylight.wiki.gg/images/K29_TheMastermind_Portrait.png?84582c",
-          "featuredBuildName": "Generic Build",
-          "buildCount": 3,
-          "builds": [
-            {
-              "name": "Generic Build",
-              "perks": [
-                {
-                  "name": "Corrupt Intervention",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_corruptIntervention.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Brutal Strength",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_brutalStrength.png",
-                  "alternatives": [
-                    {
-                      "name": "Dead Man's Switch",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_deadMansSwitch.png"
-                    },
-                    {
-                      "name": "Turn Back the Clock",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconsPerks_TurnBackTheClock.png"
-                    }
-                  ]
-                },
-                {
-                  "name": "Scourge Hook: Pain Resonance",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_scourgeHookPainResonance.png",
-                  "alternatives": [
-                    {
-                      "name": "Pop Goes the Weasel",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_popGoesTheWeasel.png"
-                    }
-                  ]
-                },
-                {
-                  "name": "Barbecue & Chilli",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_barbecueAndChilli.png",
-                  "alternatives": [
-                    {
-                      "name": "Awakened Awareness",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_awakenedAwareness.png"
-                    }
-                  ]
-                }
-              ],
-              "details": [
-                "Reliable and well-rounded build; a good starting point until you find the ideal build for your playstyle."
-              ]
-            },
-            {
-              "name": "Gen Stealth Build",
-              "perks": [
-                {
-                  "name": "Unforeseen",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_unforeseen.png",
-                  "alternatives": [
-                    {
-                      "name": "Trail of Torment",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_trailOfTorment.png"
-                    }
-                  ]
-                },
-                {
-                  "name": "Pop Goes the Weasel",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_popGoesTheWeasel.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Tinkerer",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_tinkerer.png",
-                  "alternatives": [
-                    {
-                      "name": "Nowhere to Hide",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_nowhereToHide.png"
-                    },
-                    {
-                      "name": "Discordance",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_discordance.png"
-                    }
-                  ]
-                },
-                {
-                  "name": "Eruption",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_eruption.png",
-                  "alternatives": [
-                    {
-                      "name": "Thrilling Tremors",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_thrillingTremors.png"
-                    }
-                  ]
-                }
-              ],
-              "details": []
-            },
-            {
-              "name": "Hex Build",
-              "perks": [
-                {
-                  "name": "Hex: Fortune's Fool",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_hexPlaything.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Hex: Pentimento",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_hexPentimento.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Hex: Blood Favour",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_hexBloodFavour.png",
-                  "alternatives": [
-                    {
-                      "name": "Hex: Ruin",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_hexRuin.png"
-                    }
-                  ]
-                },
-                {
-                  "name": "Hex: Thrill of the Hunt",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_hexThrillOfTheHunt.png",
-                  "alternatives": [
-                    {
-                      "name": "Scourge Hook: Pain Resonance",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_scourgeHookPainResonance.png"
-                    }
-                  ]
-                }
-              ],
-              "details": []
-            }
-          ]
-        },
-        {
-          "id": "knight",
-          "role": "killer",
-          "panelId": "Knight",
-          "name": "The Knight",
-          "imageUrl": "https://deadbydaylight.wiki.gg/images/K30_TheKnight_Portrait.png?b89c9d",
-          "featuredBuildName": "Generic Build",
-          "buildCount": 3,
-          "builds": [
-            {
-              "name": "Generic Build",
-              "perks": [
-                {
-                  "name": "Hex: Ruin",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_hexRuin.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Surge",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_surge.png",
-                  "alternatives": [
-                    {
-                      "name": "Hex: Undying",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_hexUndying.png"
-                    }
-                  ]
-                },
-                {
-                  "name": "Scourge Hook: Pain Resonance",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_scourgeHookPainResonance.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Surveillance",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_surveillance.png",
-                  "alternatives": []
-                }
-              ],
-              "details": [
-                "Reliable and well-rounded build; a good starting point until you find the ideal build for your playstyle."
-              ]
-            },
-            {
-              "name": "Aggressive Info Build",
-              "perks": [
-                {
-                  "name": "Discordance",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_discordance.png",
-                  "alternatives": [
-                    {
-                      "name": "Hex: No One Escapes Death",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_hexNoOneEscapesDeath.png"
-                    }
-                  ]
-                },
-                {
-                  "name": "Tinkerer",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_tinkerer.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Coup de Grâce",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_coupDeGr%C3%A2ce.png",
-                  "alternatives": [
-                    {
-                      "name": "Save the Best for Last",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_saveTheBestForLast.png"
-                    }
-                  ]
-                },
-                {
-                  "name": "No Holds Barred",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_NoHoldsBarred.png",
-                  "alternatives": []
-                }
-              ],
-              "details": []
-            },
-            {
-              "name": "Gen-Trap Build",
-              "perks": [
-                {
-                  "name": "Corrupt Intervention",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_corruptIntervention.png",
-                  "alternatives": [
-                    {
-                      "name": "Barbecue & Chilli",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_barbecueAndChilli.png"
-                    }
-                  ]
-                },
-                {
-                  "name": "Pop Goes the Weasel",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_popGoesTheWeasel.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Unforeseen",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_unforeseen.png",
-                  "alternatives": [
-                    {
-                      "name": "Trail of Torment",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_trailOfTorment.png"
-                    },
-                    {
-                      "name": "Nowhere to Hide",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_nowhereToHide.png"
-                    }
-                  ]
-                },
-                {
-                  "name": "No Holds Barred",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_NoHoldsBarred.png",
-                  "alternatives": [
-                    {
-                      "name": "Eruption",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_eruption.png"
-                    }
-                  ]
-                }
-              ],
-              "details": []
-            }
-          ]
-        },
-        {
-          "id": "skull-merchant",
-          "role": "killer",
-          "panelId": "Skull Merchant",
-          "name": "The Skull Merchant",
-          "imageUrl": "https://deadbydaylight.wiki.gg/images/K31_TheSkullMerchant_Portrait.png?91edf3",
-          "featuredBuildName": "Generic Build",
-          "buildCount": 3,
-          "builds": [
-            {
-              "name": "Generic Build",
-              "perks": [
-                {
-                  "name": "Corrupt Intervention",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_corruptIntervention.png",
-                  "alternatives": [
-                    {
-                      "name": "Discordance",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_discordance.png"
-                    }
-                  ]
-                },
-                {
-                  "name": "Scourge Hook: Pain Resonance",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_scourgeHookPainResonance.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Surge",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_surge.png",
-                  "alternatives": [
-                    {
-                      "name": "Hex: Ruin",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_hexRuin.png"
-                    }
-                  ]
-                },
-                {
-                  "name": "Scourge Hook: Jagged Compass",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_scourgeHookJaggedCompass.png",
-                  "alternatives": [
-                    {
-                      "name": "Surveillance",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_surveillance.png"
-                    }
-                  ]
-                }
-              ],
-              "details": [
-                "Reliable and well-rounded build; a good starting point until you find the ideal build for your playstyle."
-              ]
-            },
-            {
-              "name": "Instadown Build",
-              "perks": [
-                {
-                  "name": "Friends 'til the End",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_friendsTilTheEnd.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Make Your Choice",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_makeYourChoice.png",
-                  "alternatives": [
-                    {
-                      "name": "Coup de Grâce",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_coupDeGr%C3%A2ce.png"
-                    }
-                  ]
-                },
-                {
-                  "name": "Surge",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_surge.png",
-                  "alternatives": [
-                    {
-                      "name": "Hex: Ruin",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_hexRuin.png"
-                    },
-                    {
-                      "name": "Grim Embrace",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_grimEmbrace.png"
-                    }
-                  ]
-                },
-                {
-                  "name": "Scourge Hook: Pain Resonance",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_scourgeHookPainResonance.png",
-                  "alternatives": []
-                }
-              ],
-              "details": []
-            },
-            {
-              "name": "Hit & Run Stealth Build",
-              "perks": [
-                {
-                  "name": "Sloppy Butcher",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_sloppyButcher.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "A Nurse's Calling",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_aNursesCalling.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Gearhead",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_gearhead.png",
-                  "alternatives": [
-                    {
-                      "name": "Barbecue & Chilli",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_barbecueAndChilli.png"
-                    }
-                  ]
-                },
-                {
-                  "name": "No Holds Barred",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_NoHoldsBarred.png",
-                  "alternatives": [
-                    {
-                      "name": "Surge",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_surge.png"
-                    }
-                  ]
-                }
-              ],
-              "details": []
-            }
-          ]
-        },
-        {
-          "id": "singularity",
-          "role": "killer",
-          "panelId": "Singularity",
-          "name": "The Singularity",
-          "imageUrl": "https://deadbydaylight.wiki.gg/images/K32_TheSingularity_Portrait.png?3d6300",
-          "featuredBuildName": "Generic Build",
-          "buildCount": 3,
-          "builds": [
-            {
-              "name": "Generic Build",
-              "perks": [
-                {
-                  "name": "Corrupt Intervention",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_corruptIntervention.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "No Holds Barred",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_NoHoldsBarred.png",
-                  "alternatives": [
-                    {
-                      "name": "Grim Embrace",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_grimEmbrace.png"
-                    }
-                  ]
-                },
-                {
-                  "name": "Surge",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_surge.png",
-                  "alternatives": [
-                    {
-                      "name": "Sloppy Butcher",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_sloppyButcher.png"
-                    }
-                  ]
-                },
-                {
-                  "name": "Coup de Grâce",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_coupDeGr%C3%A2ce.png",
-                  "alternatives": [
-                    {
-                      "name": "Rapid Brutality",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_rapidBrutality.png"
-                    },
-                    {
-                      "name": "Bamboozle",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_bamboozle.png"
-                    }
-                  ]
-                }
-              ],
-              "details": [
-                "Reliable and well-rounded build; a good starting point until you find the ideal build for your playstyle."
-              ]
-            },
-            {
-              "name": "Gen Regression",
-              "perks": [
-                {
-                  "name": "Scourge Hook: Pain Resonance",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_scourgeHookPainResonance.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Surge",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_surge.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Surveillance",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_surveillance.png",
-                  "alternatives": [
-                    {
-                      "name": "Scourge Hook: Jagged Compass",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_scourgeHookJaggedCompass.png"
-                    }
-                  ]
-                },
-                {
-                  "name": "Hex: Ruin",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_hexRuin.png",
-                  "alternatives": []
-                }
-              ],
-              "details": []
-            },
-            {
-              "name": "Endgame Build",
-              "perks": [
-                {
-                  "name": "Friends 'til the End",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_friendsTilTheEnd.png",
-                  "alternatives": [
-                    {
-                      "name": "Remember Me",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_rememberMe.png"
-                    }
-                  ]
-                },
-                {
-                  "name": "Scourge Hook: Pain Resonance",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_scourgeHookPainResonance.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "No Way Out",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_noWayOut.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Hex: No One Escapes Death",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_hexNoOneEscapesDeath.png",
-                  "alternatives": []
-                }
-              ],
-              "details": []
-            }
-          ]
-        },
-        {
-          "id": "xenomorph",
-          "role": "killer",
-          "panelId": "Xenomorph",
-          "name": "The Xenomorph",
-          "imageUrl": "https://deadbydaylight.wiki.gg/images/K33_TheXenomorph_Portrait.png?17ff7e",
-          "featuredBuildName": "Generic Build",
-          "buildCount": 3,
-          "builds": [
-            {
-              "name": "Generic Build",
-              "perks": [
-                {
-                  "name": "Corrupt Intervention",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_corruptIntervention.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Scourge Hook: Pain Resonance",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_scourgeHookPainResonance.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Scourge Hook: Jagged Compass",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_scourgeHookJaggedCompass.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Scourge Hook: Floods of Rage",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_scourgeHookFloodsOfRage.png",
-                  "alternatives": []
-                }
-              ],
-              "details": [
-                "Reliable and well-rounded build; a good starting point until you find the ideal build for your playstyle."
-              ]
-            },
-            {
-              "name": "Hex Build",
-              "perks": [
-                {
-                  "name": "Hex: Ruin",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_hexRuin.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Hex: Thrill of the Hunt",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_hexThrillOfTheHunt.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Hex: Blood Favour",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_hexBloodFavour.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Hex: Pentimento",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_hexPentimento.png",
-                  "alternatives": [
-                    {
-                      "name": "Hex: Undying",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_hexUndying.png"
-                    },
-                    {
-                      "name": "Dominance",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_Dominance.png"
-                    }
-                  ]
-                }
-              ],
-              "details": []
-            },
-            {
-              "name": "Gen-Control Build",
-              "perks": [
-                {
-                  "name": "Discordance",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_discordance.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Tinkerer",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_tinkerer.png",
-                  "alternatives": [
-                    {
-                      "name": "Nowhere to Hide",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_nowhereToHide.png"
-                    }
-                  ]
-                },
-                {
-                  "name": "Eruption",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_eruption.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Pop Goes the Weasel",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_popGoesTheWeasel.png",
-                  "alternatives": []
-                }
-              ],
-              "details": []
-            }
-          ]
-        },
-        {
-          "id": "good-guy",
-          "role": "killer",
-          "panelId": "Good Guy",
-          "name": "The Good Guy",
-          "imageUrl": "https://deadbydaylight.wiki.gg/images/K34_TheGoodGuy_Portrait.png?4dc7a9",
-          "featuredBuildName": "Generic Build",
-          "buildCount": 3,
-          "builds": [
-            {
-              "name": "Generic Build",
-              "perks": [
-                {
-                  "name": "Corrupt Intervention",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_corruptIntervention.png",
-                  "alternatives": [
-                    {
-                      "name": "Discordance",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_discordance.png"
-                    }
-                  ]
-                },
-                {
-                  "name": "Scourge Hook: Pain Resonance",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_scourgeHookPainResonance.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Turn Back the Clock",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconsPerks_TurnBackTheClock.png",
-                  "alternatives": [
-                    {
-                      "name": "Dead Man's Switch",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_deadMansSwitch.png"
-                    }
-                  ]
-                },
-                {
-                  "name": "Grim Embrace",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_grimEmbrace.png",
-                  "alternatives": [
-                    {
-                      "name": "Agitation",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_agitation.png"
-                    }
-                  ]
-                }
-              ],
-              "details": [
-                "Reliable and well-rounded build; a good starting point until you find the ideal build for your playstyle."
-              ]
-            },
-            {
-              "name": "Hex Control Build",
-              "perks": [
-                {
-                  "name": "Hex: Ruin",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_hexRuin.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Hex: Undying",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_hexUndying.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Hex: Hive Mind",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconsPerks_HexHiveMind.png",
-                  "alternatives": [
-                    {
-                      "name": "Thrilling Tremors",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_thrillingTremors.png"
-                    },
-                    {
-                      "name": "Barbecue & Chilli",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_barbecueAndChilli.png"
-                    }
-                  ]
-                },
-                {
-                  "name": "Hex: Thrill of the Hunt",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_hexThrillOfTheHunt.png",
-                  "alternatives": [
-                    {
-                      "name": "Leverage",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_leverage.png"
-                    },
-                    {
-                      "name": "Hex: Retribution",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_hexRetribution.png"
-                    }
-                  ]
-                }
-              ],
-              "details": [
-                "Ruin and Hive Mind help control and monitor gens after your first hook, with other supporting hexes to help."
-              ]
-            },
-            {
-              "name": "Aura Build",
-              "perks": [
-                {
-                  "name": "Lethal Pursuer",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_lethalPursuer.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Barbecue & Chilli",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_barbecueAndChilli.png",
-                  "alternatives": [
-                    {
-                      "name": "Alien Instinct",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_alienInstinct.png"
-                    },
-                    {
-                      "name": "Friends 'til the End",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_friendsTilTheEnd.png"
-                    }
-                  ]
-                },
-                {
-                  "name": "I'm All Ears",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_imAllEars.png",
-                  "alternatives": [
-                    {
-                      "name": "Zanshin Tactics",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_zanshinTactics.png"
-                    }
-                  ]
-                },
-                {
-                  "name": "Grim Embrace",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_grimEmbrace.png",
-                  "alternatives": []
-                }
-              ],
-              "details": []
-            }
-          ]
-        },
-        {
-          "id": "unknown",
-          "role": "killer",
-          "panelId": "Unknown",
-          "name": "The Unknown",
-          "imageUrl": "https://deadbydaylight.wiki.gg/images/K35_TheUnknown_Portrait.png?88bbed",
-          "featuredBuildName": "Generic Build",
-          "buildCount": 3,
-          "builds": [
-            {
-              "name": "Generic Build",
-              "perks": [
-                {
-                  "name": "Lethal Pursuer",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_lethalPursuer.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Nowhere to Hide",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_nowhereToHide.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Scourge Hook: Pain Resonance",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_scourgeHookPainResonance.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Pop Goes the Weasel",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_popGoesTheWeasel.png",
-                  "alternatives": []
-                }
-              ],
-              "details": [
-                "Reliable and well-rounded build; a good starting point until you find the ideal build for your playstyle.",
-                "Kicking a generator does more damage if Pop is active and reveals people around you with Nowhere to Hide.",
-                "Nobody nearby? Teleport to an hallucination and you'll still be able to reveal Survivors around you, allowing you to scout two areas at once! This aura duration is extended by Lethal Pursuer."
-              ]
-            },
-            {
-              "name": "Aggressive Hex Build",
-              "perks": [
-                {
-                  "name": "Hex: Blood Favour",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_hexBloodFavour.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Hex: Undying",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_hexUndying.png",
-                  "alternatives": [
-                    {
-                      "name": "Dominance",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_Dominance.png"
-                    },
-                    {
-                      "name": "Barbecue & Chilli",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_barbecueAndChilli.png"
-                    }
-                  ]
-                },
-                {
-                  "name": "Hex: Pentimento",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_hexPentimento.png",
-                  "alternatives": [
-                    {
-                      "name": "Hex: Thrill of the Hunt",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_hexThrillOfTheHunt.png"
-                    }
-                  ]
-                },
-                {
-                  "name": "Hex: Ruin",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_hexRuin.png",
-                  "alternatives": []
-                }
-              ],
-              "details": []
-            },
-            {
-              "name": "Ambush Build",
-              "perks": [
-                {
-                  "name": "A Nurse's Calling",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_aNursesCalling.png",
-                  "alternatives": [
-                    {
-                      "name": "Nowhere to Hide",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_nowhereToHide.png"
-                    }
-                  ]
-                },
-                {
-                  "name": "Eruption",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_eruption.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Unforeseen",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_unforeseen.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Scourge Hook: Pain Resonance",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_scourgeHookPainResonance.png",
-                  "alternatives": [
-                    {
-                      "name": "Barbecue & Chilli",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_barbecueAndChilli.png"
-                    }
-                  ]
-                }
-              ],
-              "details": [
-                "Hyper-aggressive build popularized by u/Relhtar. It revolves around constant hit and run and never committing to unproductive chases. You never chase in the open where Survivors can dispel UVX status easily.",
-                "Kicking gens sets them up for future damage (Eruption) and turns you undetectable (Unforeseen), making it more likely to find healing Survivors with Nurse's Calling.",
-                "Works best with double iridescent add-ons!"
-              ]
-            }
-          ]
-        },
-        {
-          "id": "lich",
-          "role": "killer",
-          "panelId": "Lich",
-          "name": "The Lich",
-          "imageUrl": "https://deadbydaylight.wiki.gg/images/K36_TheLich_Portrait.png?25df98",
-          "featuredBuildName": "Generic Build",
-          "buildCount": 3,
-          "builds": [
-            {
-              "name": "Generic Build",
-              "perks": [
-                {
-                  "name": "Scourge Hook: Pain Resonance",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_scourgeHookPainResonance.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Dead Man's Switch",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_deadMansSwitch.png",
-                  "alternatives": [
-                    {
-                      "name": "Grim Embrace",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_grimEmbrace.png"
-                    }
-                  ]
-                },
-                {
-                  "name": "Barbecue & Chilli",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_barbecueAndChilli.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Hex: No One Escapes Death",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_hexNoOneEscapesDeath.png",
-                  "alternatives": []
-                }
-              ],
-              "details": [
-                "Reliable and well-rounded build; a good starting point until you find the ideal build for your playstyle."
-              ]
-            },
-            {
-              "name": "Hex-Oriented Build",
-              "perks": [
-                {
-                  "name": "Scourge Hook: Pain Resonance",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_scourgeHookPainResonance.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Hex: Blood Favour",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_hexBloodFavour.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Hex: Ruin",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_hexRuin.png",
-                  "alternatives": [
-                    {
-                      "name": "Grim Embrace",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_grimEmbrace.png"
-                    }
-                  ]
-                },
-                {
-                  "name": "Hex: Undying",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_hexUndying.png",
-                  "alternatives": [
-                    {
-                      "name": "No Holds Barred",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_NoHoldsBarred.png"
-                    }
-                  ]
-                }
-              ],
-              "details": []
-            },
-            {
-              "name": "Instadown & Stealth Build",
-              "perks": [
-                {
-                  "name": "Friends 'til the End",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_friendsTilTheEnd.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Furtive Chase",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_furtiveChase.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Surge",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_surge.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Hex: No One Escapes Death",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_hexNoOneEscapesDeath.png",
-                  "alternatives": [
-                    {
-                      "name": "Coup de Grâce",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_coupDeGr%C3%A2ce.png"
-                    },
-                    {
-                      "name": "Rapid Brutality",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_rapidBrutality.png"
-                    }
-                  ]
-                }
-              ],
-              "details": []
-            }
-          ]
-        },
-        {
-          "id": "dark-lord",
-          "role": "killer",
-          "panelId": "Dark Lord",
-          "name": "The Dark Lord",
-          "imageUrl": "https://deadbydaylight.wiki.gg/images/K37_TheDarkLord_Portrait.png?d391a7",
-          "featuredBuildName": "Generic Build",
-          "buildCount": 3,
-          "builds": [
-            {
-              "name": "Generic Build",
-              "perks": [
-                {
-                  "name": "Scourge Hook: Pain Resonance",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_scourgeHookPainResonance.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Dead Man's Switch",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_deadMansSwitch.png",
-                  "alternatives": [
-                    {
-                      "name": "Agitation",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_agitation.png"
-                    },
-                    {
-                      "name": "Scourge Hook: Weeping Wounds",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_scourgeHookWeepingWounds.png"
-                    }
-                  ]
-                },
-                {
-                  "name": "Turn Back the Clock",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconsPerks_TurnBackTheClock.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Barbecue & Chilli",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_barbecueAndChilli.png",
-                  "alternatives": [
-                    {
-                      "name": "Tinkerer",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_tinkerer.png"
-                    }
-                  ]
-                }
-              ],
-              "details": [
-                "Reliable and well-rounded build; a good starting point until you find the ideal build for your playstyle.",
-                "Pain Res & DMS will passively slow down the game for you, with BBQ guiding you after every hook.",
-                "You can manually regress gens in bat form with Turn Back The Clock! This can trigger DMS if Survivors haven't let go yet."
-              ]
-            },
-            {
-              "name": "Anti-Heal Build",
-              "perks": [
-                {
-                  "name": "Scourge Hook: Pain Resonance",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_scourgeHookPainResonance.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Scourge Hook: Weeping Wounds",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_scourgeHookWeepingWounds.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Leverage",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_leverage.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Grim Embrace",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_grimEmbrace.png",
-                  "alternatives": [
-                    {
-                      "name": "Barbecue & Chilli",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_barbecueAndChilli.png"
-                    }
-                  ]
-                }
-              ],
-              "details": []
-            },
-            {
-              "name": "Endgame-Oriented Build",
-              "perks": [
-                {
-                  "name": "Barbecue & Chilli",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_barbecueAndChilli.png",
-                  "alternatives": [
-                    {
-                      "name": "Friends 'til the End",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_friendsTilTheEnd.png"
-                    }
-                  ]
-                },
-                {
-                  "name": "Grim Embrace",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_grimEmbrace.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "No Way Out",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_noWayOut.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Hex: No One Escapes Death",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_hexNoOneEscapesDeath.png",
-                  "alternatives": [
-                    {
-                      "name": "Dissolution",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_dissolution.png"
-                    }
-                  ]
-                }
-              ],
-              "details": []
-            }
-          ]
-        },
-        {
-          "id": "houndmaster",
-          "role": "killer",
-          "panelId": "Houndmaster",
-          "name": "The Houndmaster",
-          "imageUrl": "https://deadbydaylight.wiki.gg/images/K38_TheHoundmaster_Portrait.png?6e438f",
-          "featuredBuildName": "Generic Build",
-          "buildCount": 3,
-          "builds": [
-            {
-              "name": "Generic Build",
-              "perks": [
-                {
-                  "name": "Corrupt Intervention",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_corruptIntervention.png",
-                  "alternatives": [
-                    {
-                      "name": "Lethal Pursuer",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_lethalPursuer.png"
-                    }
-                  ]
-                },
-                {
-                  "name": "Barbecue & Chilli",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_barbecueAndChilli.png",
-                  "alternatives": [
-                    {
-                      "name": "Thrilling Tremors",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_thrillingTremors.png"
-                    }
-                  ]
-                },
-                {
-                  "name": "Surge",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_surge.png",
-                  "alternatives": [
-                    {
-                      "name": "No Holds Barred",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_NoHoldsBarred.png"
-                    }
-                  ]
-                },
-                {
-                  "name": "Grim Embrace",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_grimEmbrace.png",
-                  "alternatives": []
-                }
-              ],
-              "details": [
-                "Reliable and well-rounded build; a good starting point until you find the ideal build for your playstyle."
-              ]
-            },
-            {
-              "name": "Scourge Build",
-              "perks": [
-                {
-                  "name": "Scourge Hook: Pain Resonance",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_scourgeHookPainResonance.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Scourge Hook: Jagged Compass",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_scourgeHookJaggedCompass.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Scourge Hook: Floods of Rage",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_scourgeHookFloodsOfRage.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Lethal Pursuer",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_lethalPursuer.png",
-                  "alternatives": [
-                    {
-                      "name": "Scourge Hook: Weeping Wounds",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_scourgeHookWeepingWounds.png"
-                    }
-                  ]
-                }
-              ],
-              "details": []
-            },
-            {
-              "name": "Aggressive Stall Build",
-              "perks": [
-                {
-                  "name": "Scourge Hook: Pain Resonance",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_scourgeHookPainResonance.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Dead Man's Switch",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_deadMansSwitch.png",
-                  "alternatives": [
-                    {
-                      "name": "Hex: Ruin",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_hexRuin.png"
-                    }
-                  ]
-                },
-                {
-                  "name": "Hex: Blood Favour",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_hexBloodFavour.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Friends 'til the End",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_friendsTilTheEnd.png",
-                  "alternatives": [
-                    {
-                      "name": "Barbecue & Chilli",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_barbecueAndChilli.png"
-                    }
-                  ]
-                }
-              ],
-              "details": []
-            }
-          ]
-        },
-        {
-          "id": "ghoul",
-          "role": "killer",
-          "panelId": "Ghoul",
-          "name": "The Ghoul",
-          "imageUrl": "https://deadbydaylight.wiki.gg/images/K39_TheGhoul_Portrait.png?fbb95c",
-          "featuredBuildName": "Generic Build",
-          "buildCount": 3,
-          "builds": [
-            {
-              "name": "Generic Build",
-              "perks": [
-                {
-                  "name": "Scourge Hook: Pain Resonance",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_scourgeHookPainResonance.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Scourge Hook: Jagged Compass",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_scourgeHookJaggedCompass.png",
-                  "alternatives": [
-                    {
-                      "name": "Corrupt Intervention",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_corruptIntervention.png"
-                    }
-                  ]
-                },
-                {
-                  "name": "Eruption",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_eruption.png",
-                  "alternatives": [
-                    {
-                      "name": "Pop Goes the Weasel",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_popGoesTheWeasel.png"
-                    },
-                    {
-                      "name": "Nowhere to Hide",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_nowhereToHide.png"
-                    }
-                  ]
-                },
-                {
-                  "name": "Coup de Grâce",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_coupDeGr%C3%A2ce.png",
-                  "alternatives": [
-                    {
-                      "name": "Brutal Strength",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_brutalStrength.png"
-                    },
-                    {
-                      "name": "Fire Up",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_fireUp.png"
-                    }
-                  ]
-                }
-              ],
-              "details": [
-                "Reliable and well-rounded build; a good starting point until you find the ideal build for your playstyle."
-              ]
-            },
-            {
-              "name": "Hex Build",
-              "perks": [
-                {
-                  "name": "Hex: Ruin",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_hexRuin.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Hex: Undying",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_hexUndying.png",
-                  "alternatives": [
-                    {
-                      "name": "Hex: Thrill of the Hunt",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_hexThrillOfTheHunt.png"
-                    }
-                  ]
-                },
-                {
-                  "name": "Hex: Hive Mind",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconsPerks_HexHiveMind.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Hex: Pentimento",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_hexPentimento.png",
-                  "alternatives": []
-                }
-              ],
-              "details": []
-            },
-            {
-              "name": "Simple Aura Build",
-              "perks": [
-                {
-                  "name": "Lethal Pursuer",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_lethalPursuer.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Alien Instinct",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_alienInstinct.png",
-                  "alternatives": [
-                    {
-                      "name": "Barbecue & Chilli",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_barbecueAndChilli.png"
-                    },
-                    {
-                      "name": "Friends 'til the End",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_friendsTilTheEnd.png"
-                    }
-                  ]
-                },
-                {
-                  "name": "Dead Man's Switch",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_deadMansSwitch.png",
-                  "alternatives": [
-                    {
-                      "name": "Pop Goes the Weasel",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_popGoesTheWeasel.png"
-                    },
-                    {
-                      "name": "Nowhere to Hide",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_nowhereToHide.png"
-                    }
-                  ]
-                },
-                {
-                  "name": "Grim Embrace",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_grimEmbrace.png",
-                  "alternatives": [
-                    {
-                      "name": "No Way Out",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_noWayOut.png"
-                    }
-                  ]
-                }
-              ],
-              "details": []
-            }
-          ]
-        },
-        {
-          "id": "animatronic",
-          "role": "killer",
-          "panelId": "Animatronic",
-          "name": "The Animatronic",
-          "imageUrl": "https://deadbydaylight.wiki.gg/images/K40_TheAnimatronic_Portrait.png?636799",
-          "featuredBuildName": "Generic Build",
-          "buildCount": 3,
-          "builds": [
-            {
-              "name": "Generic Build",
-              "perks": [
-                {
-                  "name": "Scourge Hook: Pain Resonance",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_scourgeHookPainResonance.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Turn Back the Clock",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconsPerks_TurnBackTheClock.png",
-                  "alternatives": [
-                    {
-                      "name": "Hex: Ruin",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_hexRuin.png"
-                    },
-                    {
-                      "name": "Dead Man's Switch",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_deadMansSwitch.png"
-                    }
-                  ]
-                },
-                {
-                  "name": "Surveillance",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_surveillance.png",
-                  "alternatives": [
-                    {
-                      "name": "Barbecue & Chilli",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_barbecueAndChilli.png"
-                    },
-                    {
-                      "name": "Thrilling Tremors",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_thrillingTremors.png"
-                    }
-                  ]
-                },
-                {
-                  "name": "Bamboozle",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_bamboozle.png",
-                  "alternatives": [
-                    {
-                      "name": "Hex: Blood Favour",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_hexBloodFavour.png"
-                    },
-                    {
-                      "name": "Leverage",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_leverage.png"
-                    },
-                    {
-                      "name": "Scourge Hook: Gift of Pain",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_scourgeHookGiftOfPain.png"
-                    }
-                  ]
-                }
-              ],
-              "details": [
-                "Reliable and well-rounded build; a good starting point until you find the ideal build for your playstyle.",
-                "After activating Pain Res when hooking, look out for generators changing color (Surveillance) to know here to strike next.",
-                "If far away, portals can help get you there and activate Turn Back The Clock for even more damage! This will also make gens turn white until touched again.",
-                "The last perk is there to help in chase but is totally flexible. Pick what works best for you!"
-              ]
-            },
-            {
-              "name": "Hex Build",
-              "perks": [
-                {
-                  "name": "Hex: Ruin",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_hexRuin.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Hex: Blood Favour",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_hexBloodFavour.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Hex: Undying",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_hexUndying.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Hex: Hive Mind",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconsPerks_HexHiveMind.png",
-                  "alternatives": [
-                    {
-                      "name": "Hex: Thrill of the Hunt",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_hexThrillOfTheHunt.png"
-                    }
-                  ]
-                }
-              ],
-              "details": [
-                "All hexes provide massive utility in chase, gen slowdown and information. Blood Favor makes it hard to get to safety after being hit by a fire axe throw.",
-                "Hive Mind provides a similar effect as the blue \"Bonnie's Guitar\" add-on but without any downside. You can use an alternative perk if you're using that add-on instead."
-              ]
-            },
-            {
-              "name": "Breaking Speed Build",
-              "perks": [
-                {
-                  "name": "Lethal Pursuer",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_lethalPursuer.png",
-                  "alternatives": [
-                    {
-                      "name": "Friends 'til the End",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_friendsTilTheEnd.png"
-                    }
-                  ]
-                },
-                {
-                  "name": "Nowhere to Hide",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_nowhereToHide.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Eruption",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_eruption.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Fire Up",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_fireUp.png",
-                  "alternatives": [
-                    {
-                      "name": "Brutal Strength",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_brutalStrength.png"
-                    }
-                  ]
-                }
-              ],
-              "details": [
-                "Can be stacked with the Endo CPU for an even faster break animation!"
-              ]
-            }
-          ]
-        },
-        {
-          "id": "krasue",
-          "role": "killer",
-          "panelId": "Krasue",
-          "name": "The Krasue",
-          "imageUrl": "https://deadbydaylight.wiki.gg/images/K41_TheKrasue_Portrait.png?3513ba",
-          "featuredBuildName": "Generic Build",
-          "buildCount": 3,
-          "builds": [
-            {
-              "name": "Generic Build",
-              "perks": [
-                {
-                  "name": "Hex: Blood Favour",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_hexBloodFavour.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Hex: Undying",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_hexUndying.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Turn Back the Clock",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconsPerks_TurnBackTheClock.png",
-                  "alternatives": [
-                    {
-                      "name": "Hex: Ruin",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_hexRuin.png"
-                    }
-                  ]
-                },
-                {
-                  "name": "Hex: Hive Mind",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconsPerks_HexHiveMind.png",
-                  "alternatives": [
-                    {
-                      "name": "Barbecue & Chilli",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_barbecueAndChilli.png"
-                    }
-                  ]
-                }
-              ],
-              "details": [
-                "Reliable and well-rounded build; a good starting point until you find the ideal build for your playstyle.",
-                "Blood Favor is deadly and stops some strong pallets from slowing you down in Head form. Hive Mind will point you towards the most progressed gens.",
-                "Turn Back The Clock (or Ruin) help slow down gens and can be used while in both forms.",
-                "Undying will keep all of the totems alive for longer!"
-              ]
-            },
-            {
-              "name": "Simple Gen Control Build",
-              "perks": [
-                {
-                  "name": "Scourge Hook: Pain Resonance",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_scourgeHookPainResonance.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Hex: Ruin",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_hexRuin.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Hex: Undying",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_hexUndying.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Surveillance",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_surveillance.png",
-                  "alternatives": [
-                    {
-                      "name": "Hex: Retribution",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_hexRetribution.png"
-                    },
-                    {
-                      "name": "Hex: Blood Favour",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_hexBloodFavour.png"
-                    }
-                  ]
-                }
-              ],
-              "details": []
-            },
-            {
-              "name": "Aura Build",
-              "perks": [
-                {
-                  "name": "Lethal Pursuer",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_lethalPursuer.png",
-                  "alternatives": [
-                    {
-                      "name": "Tinkerer",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_tinkerer.png"
-                    }
-                  ]
-                },
-                {
-                  "name": "Pop Goes the Weasel",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_popGoesTheWeasel.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Nowhere to Hide",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_nowhereToHide.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Eruption",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_eruption.png",
-                  "alternatives": [
-                    {
-                      "name": "Oppression",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_oppression.png"
-                    }
-                  ]
-                }
-              ],
-              "details": []
-            }
-          ]
-        },
-        {
-          "id": "first",
-          "role": "killer",
-          "panelId": "First",
-          "name": "The First",
-          "imageUrl": "https://deadbydaylight.wiki.gg/images/K42_TheFirst_Portrait.png?e12bf6",
-          "featuredBuildName": "Generic Build",
-          "buildCount": 3,
-          "builds": [
-            {
-              "name": "Generic Build",
-              "perks": [
-                {
-                  "name": "Scourge Hook: Jagged Compass",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_scourgeHookJaggedCompass.png",
-                  "alternatives": [
-                    {
-                      "name": "Barbecue & Chilli",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_barbecueAndChilli.png"
-                    }
-                  ]
-                },
-                {
-                  "name": "Scourge Hook: Pain Resonance",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_scourgeHookPainResonance.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Dead Man's Switch",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_deadMansSwitch.png",
-                  "alternatives": [
-                    {
-                      "name": "Grim Embrace",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_grimEmbrace.png"
-                    }
-                  ]
-                },
-                {
-                  "name": "Scourge Hook: Floods of Rage",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_scourgeHookFloodsOfRage.png",
-                  "alternatives": [
-                    {
-                      "name": "Scourge Hook: Hangman's Trick",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_scourgeHookHangmansTrick.png"
-                    },
-                    {
-                      "name": "Agitation",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_agitation.png"
-                    }
-                  ]
-                }
-              ],
-              "details": [
-                "Reliable and well-rounded build; a good starting point until you find the ideal build for your playstyle.",
-                "Pain Res & DMS will slow down gens for you and Jagged Compass will often show the best gen to interrupt.",
-                "After each unhook, you create new scourge hooks and get a long aura read that can really to land Vine attacks."
-              ]
-            },
-            {
-              "name": "Winstreak Hex Build",
-              "perks": [
-                {
-                  "name": "Hex: Ruin",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_hexRuin.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Hex: Thrill of the Hunt",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_hexThrillOfTheHunt.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Hex: Hive Mind",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconsPerks_HexHiveMind.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Hex: Pentimento",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_hexPentimento.png",
-                  "alternatives": [
-                    {
-                      "name": "Hex: Undying",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_hexUndying.png"
-                    },
-                    {
-                      "name": "Dominance",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_Dominance.png"
-                    },
-                    {
-                      "name": "Hex: Devour Hope",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_hexDevourHope.png"
-                    }
-                  ]
-                }
-              ],
-              "details": [
-                "Build popularized by Hens333 and used by many for its consistency.",
-                "Thrill makes totem cleansing speeds extremely slow and hard to commit to.",
-                "If totems are ignored, Ruin and Hive Mind make gens very difficult to get done without constant regression & interruptions.",
-                "Even if some totems are lost, a support perk like Hex: Pentimento can keep Survivors constantly busy and distracted as long as you're getting downs quickly."
-              ]
-            },
-            {
-              "name": "Chest Radar Build",
-              "perks": [
-                {
-                  "name": "Human Greed",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_HumanGreed.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Hoarder",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_hoarder.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Corrupt Intervention",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_corruptIntervention.png",
-                  "alternatives": [
-                    {
-                      "name": "Scourge Hook: Pain Resonance",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_scourgeHookPainResonance.png"
-                    }
-                  ]
-                },
-                {
-                  "name": "No Holds Barred",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_NoHoldsBarred.png",
-                  "alternatives": [
-                    {
-                      "name": "Leverage",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_leverage.png"
-                    },
-                    {
-                      "name": "Hex: No One Escapes Death",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_hexNoOneEscapesDeath.png"
-                    }
-                  ]
-                }
-              ],
-              "details": [
-                "Human Greed creates pockets around the map where Survivor auras are constantly revealed.",
-                "Hoarder creates extra chests and occasionally alerts you of a Survivor interacting with a dropped item.",
-                "Your other perks are there to help you slow things down a bit. Feel free to experiment."
-              ]
-            }
-          ]
-        }
-      ],
-      "survivors": [
-        {
-          "id": "solo-survivor",
-          "role": "survivor",
-          "panelId": "Solo Survivor",
-          "name": "Solo Survivor",
-          "imageUrl": "https://otzdarva-builds.com/assets/images/survivor_portraits/S01_Solo_Portrait.webp",
-          "featuredBuildName": "Beginner Starter Build",
-          "buildCount": 4,
-          "builds": [
-            {
-              "name": "Beginner Starter Build",
-              "perks": [
-                {
-                  "name": "Kindred",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_kindred.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "We'll Make It",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_wellMakeIt.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Déjà Vu",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_dejaVu.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Dark Sense",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_darkSense.png",
-                  "alternatives": [
-                    {
-                      "name": "No One Left Behind",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_noOneLeftBehind.png"
-                    }
-                  ]
-                }
-              ],
-              "details": [
-                "Only uses basic perks available to all Survivors in the bloodweb.",
-                "Kindred & WMI give useful info and healing speed when unhooking.",
-                "Déjà Vu & Dark Sense ensures you keep an eye on gens and the Killer.",
-                "Feel free to customize it to your needs."
-              ]
-            },
-            {
-              "name": "Beginner Solo Build",
-              "perks": [
-                {
-                  "name": "Kindred",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_kindred.png",
-                  "alternatives": [
-                    {
-                      "name": "Bond",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_bond.png"
-                    }
-                  ]
-                },
-                {
-                  "name": "Déjà Vu",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_dejaVu.png",
-                  "alternatives": [
-                    {
-                      "name": "Adrenaline",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_adrenaline.png"
-                    }
-                  ]
-                },
-                {
-                  "name": "Lithe",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_lithe.png",
-                  "alternatives": [
-                    {
-                      "name": "Sprint Burst",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_sprintBurst.png"
-                    },
-                    {
-                      "name": "Resilience",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_resilience.png"
-                    }
-                  ]
-                },
-                {
-                  "name": "Alert",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_alert.png",
-                  "alternatives": [
-                    {
-                      "name": "Windows of Opportunity",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_windowsOfOpportunity.png"
-                    },
-                    {
-                      "name": "Leader",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_leader.png"
-                    }
-                  ]
-                }
-              ],
-              "details": [
-                "Mainly uses perks from Feng Min (ideally) or altnernatively Meg Thomas.",
-                "Versatile build with a focus on information.",
-                "Alert/Windows of Opporunity will help you know which pallets are still available."
-              ]
-            },
-            {
-              "name": "All Purpose Solo Build",
-              "perks": [
-                {
-                  "name": "Kindred",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_kindred.png",
-                  "alternatives": [
-                    {
-                      "name": "Bond",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_bond.png"
-                    },
-                    {
-                      "name": "Aftercare",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_aftercare.png"
-                    },
-                    {
-                      "name": "Empathy",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_empathy.png"
-                    },
-                    {
-                      "name": "Better Together",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_betterTogether.png"
-                    },
-                    {
-                      "name": "Quick Gambit",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_quickGambit.png"
-                    }
-                  ]
-                },
-                {
-                  "name": "Windows of Opportunity",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_windowsOfOpportunity.png",
-                  "alternatives": [
-                    {
-                      "name": "Alert",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_alert.png"
-                    }
-                  ]
-                },
-                {
-                  "name": "Will to Live",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_decisiveStrike.png",
-                  "alternatives": [
-                    {
-                      "name": "Resurgence",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_resurgence.png"
-                    },
-                    {
-                      "name": "Off the Record",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_offTheRecord.png"
-                    }
-                  ]
-                },
-                {
-                  "name": "Lithe",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_lithe.png",
-                  "alternatives": []
-                }
-              ],
-              "details": [
-                "Ideal build for a solo player o someone without comms.",
-                "Kindred & Windows of O. let you keep an eye on your team and available resources.",
-                "Getting tunneled after being unhooked? Use Lithe on a vault after escaping with Will to Live.",
-                "Bring a medkit for even more self-reliance."
-              ]
-            },
-            {
-              "name": "Simple Self-heal Build",
-              "perks": [
-                {
-                  "name": "Self-Care",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_self-Care.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Botany Knowledge",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_botanyKnowledge.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Déjà Vu",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_dejaVu.png",
-                  "alternatives": [
-                    {
-                      "name": "Dark Sense",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_darkSense.png"
-                    }
-                  ]
-                },
-                {
-                  "name": "Kindred",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_kindred.png",
-                  "alternatives": [
-                    {
-                      "name": "Empathy",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_empathy.png"
-                    }
-                  ]
-                }
-              ],
-              "details": [
-                "Allows you to reliably heal yourself without a medkit.",
-                "Only uses teachable perks from Claudette.",
-                "Use Kindred (or similar) to know if your team currently needs you.",
-                "If an important gen can be finished safely, prioritize that instead."
-              ]
-            }
-          ]
-        },
-        {
-          "id": "advanced-builds",
-          "role": "survivor",
-          "panelId": "Advanced Builds",
-          "name": "Advanced Builds",
-          "imageUrl": "https://otzdarva-builds.com/assets/images/survivor_portraits/S02_SoloAdvanced_Portrait.webp",
-          "featuredBuildName": "Solo Escape Build",
-          "buildCount": 4,
-          "builds": [
-            {
-              "name": "Solo Escape Build",
-              "perks": [
-                {
-                  "name": "Down to the Last",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_soleSurvivor_noLicense.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Left Behind",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_leftBehind.png",
-                  "alternatives": [
-                    {
-                      "name": "Clairvoyance",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_clairvoyance.png"
-                    }
-                  ]
-                },
-                {
-                  "name": "Inner Strength",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_innerStrength.png",
-                  "alternatives": [
-                    {
-                      "name": "Plot Twist",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_plotTwist.png"
-                    },
-                    {
-                      "name": "Pharmacy",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_pharmacy.png"
-                    },
-                    {
-                      "name": "Self-Care",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_self-Care.png"
-                    }
-                  ]
-                },
-                {
-                  "name": "Kindred",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_kindred.png",
-                  "alternatives": [
-                    {
-                      "name": "Windows of Opportunity",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_windowsOfOpportunity.png"
-                    },
-                    {
-                      "name": "Alert",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_alert.png"
-                    },
-                    {
-                      "name": "Unbreakable",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_unbreakable.png"
-                    }
-                  ]
-                }
-              ],
-              "details": [
-                "Prioritizes survival when you're the last one alive.",
-                "Find the hatch quickly with Left Behind...",
-                "... or let the Killer find the hatch and open gates faster with Down to the Last.",
-                "Last two perks provide a bit of info and self-heal options."
-              ]
-            },
-            {
-              "name": "Basement Build",
-              "perks": [
-                {
-                  "name": "Overcome",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_overcome.png",
-                  "alternatives": [
-                    {
-                      "name": "Sprint Burst",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_sprintBurst.png"
-                    },
-                    {
-                      "name": "Plunderer's Instinct",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_plunderersInstinct.png"
-                    }
-                  ]
-                },
-                {
-                  "name": "Wicked",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_wicked.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Will to Live",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_decisiveStrike.png",
-                  "alternatives": [
-                    {
-                      "name": "Resurgence",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_resurgence.png"
-                    }
-                  ]
-                },
-                {
-                  "name": "Windows of Opportunity",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_windowsOfOpportunity.png",
-                  "alternatives": [
-                    {
-                      "name": "Unbreakable",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_unbreakable.png"
-                    }
-                  ]
-                }
-              ],
-              "details": [
-                "Use your first perk to reach (or locate) the basement in chase reliably.",
-                "If hooked in basement, Wicked allows you to self-unhook 100% consistently, often denying use of strong Scourge Hook perks from the Killer.",
-                "Then, escape safely with Will to Live or heal quickly with Resurgence.",
-                "Try telling your team mates that you'll do this!"
-              ]
-            },
-            {
-              "name": "Super Aura Build",
-              "perks": [
-                {
-                  "name": "Open-Handed",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_open-Handed.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Kindred",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_kindred.png",
-                  "alternatives": [
-                    {
-                      "name": "Vigil",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_vigil.png"
-                    }
-                  ]
-                },
-                {
-                  "name": "Sprint Burst",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_sprintBurst.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Extrasensory Perception",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconsPerks_ExtrasensoryPerception.png",
-                  "alternatives": [
-                    {
-                      "name": "Still Sight",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_stillSight.png"
-                    },
-                    {
-                      "name": "Bond",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_bond.png"
-                    }
-                  ]
-                }
-              ],
-              "details": [
-                "Open-Handed extends the aura range of other perks.",
-                "Stop briefly to recharge your Sprint Burst and see gens and Killer with Extrasensory Perception or Still Sight."
-              ]
-            },
-            {
-              "name": "Solo \"Genrush\" Build",
-              "perks": [
-                {
-                  "name": "Déjà Vu",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_dejaVu.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Poised",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_poised.png",
-                  "alternatives": [
-                    {
-                      "name": "Alert",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_alert.png"
-                    }
-                  ]
-                },
-                {
-                  "name": "Built to Last",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_builtToLast.png",
-                  "alternatives": [
-                    {
-                      "name": "Kindred",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_kindred.png"
-                    }
-                  ]
-                },
-                {
-                  "name": "Resurgence",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_resurgence.png",
-                  "alternatives": [
-                    {
-                      "name": "Decisive Strike",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_decisiveStrike.png"
-                    }
-                  ]
-                }
-              ],
-              "details": [
-                "Déjà Vu shows you gens and Poised helps keep an eye on the Killer.",
-                "Killer busy? Use a strong toolbox and later replenish it with Built to Last.",
-                "Resurgence gets you healed faster after being unhooked."
-              ]
-            }
-          ]
-        },
-        {
-          "id": "team-player",
-          "role": "survivor",
-          "panelId": "Team Player",
-          "name": "Team Player",
-          "imageUrl": "https://otzdarva-builds.com/assets/images/survivor_portraits/S03_Team_Portrait.webp",
-          "featuredBuildName": "All Purpose Team Build",
-          "buildCount": 7,
-          "builds": [
-            {
-              "name": "All Purpose Team Build",
-              "perks": [
-                {
-                  "name": "Resurgence",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_resurgence.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Will to Live",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_decisiveStrike.png",
-                  "alternatives": [
-                    {
-                      "name": "Off the Record",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_offTheRecord.png"
-                    }
-                  ]
-                },
-                {
-                  "name": "Lithe",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_lithe.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Conviction",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_conviction.png",
-                  "alternatives": [
-                    {
-                      "name": "Unbreakable",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_unbreakable.png"
-                    }
-                  ]
-                }
-              ],
-              "details": [
-                "Versatile build allows you to bounce back from any situation.",
-                "Tunneled? Use Lithe on a vault after escaping with Decisive Strike.",
-                "Not tunneled? Heal in seconds with Resurgence.",
-                "Conviction/Unbreakable helps if you die protecting a team mate or the Killer gets greedy."
-              ]
-            },
-            {
-              "name": "Tunnel-prevention Build",
-              "perks": [
-                {
-                  "name": "Shoulder the Burden",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_shoulderTheBurden.png",
-                  "alternatives": [
-                    {
-                      "name": "Deliverance",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_deliverance.png"
-                    }
-                  ]
-                },
-                {
-                  "name": "Sprint Burst",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_sprintBurst.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Vigil",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_vigil.png",
-                  "alternatives": [
-                    {
-                      "name": "Will to Live",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_decisiveStrike.png"
-                    }
-                  ]
-                },
-                {
-                  "name": "We'll Make It",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_wellMakeIt.png",
-                  "alternatives": [
-                    {
-                      "name": "Reassurance",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_reassurance.png"
-                    }
-                  ]
-                }
-              ],
-              "details": [
-                "This builds helps you keep someone alive if they're being focused on.",
-                "Shoulder the Burden can \"steal\" a hook stage from them.",
-                "Still solid effects even if the Killer does not tunnel.",
-                "You can run Decisive Strike yourself in case the Killer switches targets."
-              ]
-            },
-            {
-              "name": "Chase-Focused Build",
-              "perks": [
-                {
-                  "name": "Windows of Opportunity",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_windowsOfOpportunity.png",
-                  "alternatives": [
-                    {
-                      "name": "Alert",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_alert.png"
-                    }
-                  ]
-                },
-                {
-                  "name": "Sprint Burst",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_sprintBurst.png",
-                  "alternatives": [
-                    {
-                      "name": "Lithe",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_lithe.png"
-                    },
-                    {
-                      "name": "Overcome",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_overcome.png"
-                    },
-                    {
-                      "name": "Dead Hard",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_deadHard.png"
-                    },
-                    {
-                      "name": "Balanced Landing",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_balancedLanding.png"
-                    }
-                  ]
-                },
-                {
-                  "name": "Adrenaline",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_adrenaline.png",
-                  "alternatives": [
-                    {
-                      "name": "Hope",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_hope.png"
-                    }
-                  ]
-                },
-                {
-                  "name": "Will to Live",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_decisiveStrike.png",
-                  "alternatives": [
-                    {
-                      "name": "Resurgence",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_resurgence.png"
-                    }
-                  ]
-                }
-              ],
-              "details": [
-                "An action-oriented build that assumes your team is already coordinated.",
-                "Best used if you're comfortable taking the Killer's attention.",
-                "Windows + Exhaustion perk = easy way to reach safety.",
-                "Decisive or Resurgence helps you be less vulnerable after being unhooked."
-              ]
-            },
-            {
-              "name": "Full Luck Build",
-              "perks": [
-                {
-                  "name": "Slippery Meat",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_slipperyMeat.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Up the Ante",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_upTheAnte.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Will to Live",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_decisiveStrike.png",
-                  "alternatives": [
-                    {
-                      "name": "Off the Record",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_offTheRecord.png"
-                    }
-                  ]
-                },
-                {
-                  "name": "Unbreakable",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_unbreakable.png",
-                  "alternatives": [
-                    {
-                      "name": "We're Gonna Live Forever",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_wereGonnaLiveForever.png"
-                    },
-                    {
-                      "name": "Conviction",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_conviction.png"
-                    },
-                    {
-                      "name": "Breakdown",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_breakdown.png"
-                    }
-                  ]
-                }
-              ],
-              "details": [
-                "Note: Requires a full party using Up the Ante + Luck Offerings to really shine.",
-                "Gives each Survivor a nearly 100% chance to self-unhook and be relatively safe with the basekit endurance and Will to Live.",
-                "Meanwhile, everyone else focuses on generators.",
-                "Strong anti-tunnel & anti-slugging perks prevent the Killer from countering this plan effectively."
-              ]
-            },
-            {
-              "name": "High Altruism Build",
-              "perks": [
-                {
-                  "name": "We're Gonna Live Forever",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_wereGonnaLiveForever.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Made for This",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_madeForThis.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Bond",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_bond.png",
-                  "alternatives": [
-                    {
-                      "name": "Aftercare",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_aftercare.png"
-                    },
-                    {
-                      "name": "Empathy",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_empathy.png"
-                    },
-                    {
-                      "name": "Background Player",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_backgroundPlayer.png"
-                    }
-                  ]
-                },
-                {
-                  "name": "Iron Will",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_ironWill.png",
-                  "alternatives": [
-                    {
-                      "name": "Adrenaline",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_adrenaline.png"
-                    },
-                    {
-                      "name": "Unbreakable",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_unbreakable.png"
-                    },
-                    {
-                      "name": "Conviction",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_conviction.png"
-                    }
-                  ]
-                }
-              ],
-              "details": [
-                "Perfect build to ask your team mates to die under a pallet with.",
-                "Killer hesitates? You can pick them up and protect them with Endurance status effect thanks to WGLF.",
-                "If injured, MFT will also grant you Endurance too.",
-                "At least one info perk is recommended in this build."
-              ]
-            },
-            {
-              "name": "Boon Support Build",
-              "perks": [
-                {
-                  "name": "Boon: Circle of Healing",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_boonCircleOfHealing.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Boon: Exponential",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_boonExponential.png",
-                  "alternatives": [
-                    {
-                      "name": "Boon: Shadow Step",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_boonShadowStep.png"
-                    }
-                  ]
-                },
-                {
-                  "name": "Extrasensory Perception",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconsPerks_ExtrasensoryPerception.png",
-                  "alternatives": [
-                    {
-                      "name": "Overzealous",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_overzealous.png"
-                    },
-                    {
-                      "name": "Small Game",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_smallGame.png"
-                    }
-                  ]
-                },
-                {
-                  "name": "Aftercare",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_aftercare.png",
-                  "alternatives": [
-                    {
-                      "name": "Déjà Vu",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_dejaVu.png"
-                    },
-                    {
-                      "name": "Sprint Burst",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_sprintBurst.png"
-                    }
-                  ]
-                }
-              ],
-              "details": [
-                "Creates a strong healing area where team mates can be quickly healed and self-pick up.",
-                "Use a map with the Sharpened Flint add-on can replace Extrasensory Perception to find totems.",
-                "Good choice for a player that wants to stay in the background."
-              ]
-            },
-            {
-              "name": "\"Noob Helper\" Build",
-              "perks": [
-                {
-                  "name": "Kindred",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_kindred.png",
-                  "alternatives": [
-                    {
-                      "name": "Aftercare",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_aftercare.png"
-                    },
-                    {
-                      "name": "Empathic Connection",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_empathicConnection.png"
-                    }
-                  ]
-                },
-                {
-                  "name": "Corrective Action",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_correctiveAction.png",
-                  "alternatives": []
-                },
-                {
-                  "name": "Prove Thyself",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_proveThyself.png",
-                  "alternatives": [
-                    {
-                      "name": "Boon: Illumination",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_boonIllumination.png"
-                    }
-                  ]
-                },
-                {
-                  "name": "We'll Make It",
-                  "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_wellMakeIt.png",
-                  "alternatives": [
-                    {
-                      "name": "Reassurance",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_reassurance.png"
-                    },
-                    {
-                      "name": "Shoulder the Burden",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_shoulderTheBurden.png"
-                    },
-                    {
-                      "name": "Babysitter",
-                      "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_babysitter.png"
-                    }
-                  ]
-                }
-              ],
-              "details": [
-                "Focused on effects to help & guide a new player in your team.",
-                "Kindred (or similar) helps them keep an eye on you.",
-                "Corrective Action & Prove Thyself makes it easier to do gens together and reduce missed skill-checks.",
-                "We'll Make It (or alternative) helps to keep them safe after unhook."
-              ]
-            }
-          ]
-        }
-      ]
+      "killers": [],
+      "survivors": []
     },
     "stats": {
-      "killerProfileCount": 43,
-      "survivorProfileCount": 3,
-      "totalBuildCount": 149,
-      "uniqueKillerPerksInBuilds": 83,
-      "uniqueSurvivorPerksInBuilds": 63,
-      "killerPerkDetailsResolved": 83,
-      "survivorPerkDetailsResolved": 63,
-      "perkDetailsResolvedTotal": 146,
+      "killerProfileCount": 0,
+      "survivorProfileCount": 0,
+      "totalBuildCount": 0,
+      "uniqueKillerPerksInBuilds": 0,
+      "uniqueSurvivorPerksInBuilds": 0,
+      "killerPerkDetailsResolved": 0,
+      "survivorPerkDetailsResolved": 0,
+      "perkDetailsResolvedTotal": 0,
       "perkDetailsMissingTotal": 0
     },
     "perkDetails": {
-      "killers": [
-        {
-          "id": "killers-a-nurse-s-calling",
-          "role": "killers",
-          "key": "anursescalling",
-          "name": "A Nurse's Calling",
-          "obtainedFrom": "Nurse",
-          "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_aNursesCalling.png",
-          "descriptionText": "Unlocks potential in your Aura-reading ability: The Auras of injured Survivors being healed or healing themselves are revealed to you within 28/30/32 metres. \"Still attached to the fragments of her past life, she is drawn to those in need of help.\"",
-          "links": [
-            {
-              "label": "Auras",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Aura"
-            }
-          ]
-        },
-        {
-          "id": "killers-agitation",
-          "role": "killers",
-          "key": "agitation",
-          "name": "Agitation",
-          "obtainedFrom": "Trapper",
-          "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_agitation.png",
-          "descriptionText": "\"You get excited in anticipation of hooking your prey.\" While carrying a Survivor, Agitation activates: Increases your Carrying speed by 6/12/18 %. Increases your Terror Radius by 12 metres. \"At some point, the excitement of hooking one of us becomes more important than the desire to kill us.\"",
-          "links": [
-            {
-              "label": "Terror Radius",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Terror_Radius"
-            }
-          ]
-        },
-        {
-          "id": "killers-alien-instinct",
-          "role": "killers",
-          "key": "alieninstinct",
-          "name": "Alien Instinct",
-          "obtainedFrom": "Xenomorph",
-          "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_alienInstinct.png",
-          "descriptionText": "\"You are so stealthy, sometimes it seems like you appear out of nowhere.\" Whenever you hook a Survivor, Alien Instinct activates: The Aura of the farthest Survivor from your current location who is in the Injured State is revealed to you for 8 seconds. Causes that Survivor to suffer from the Oblivious Status Effect for 40/50/60 seconds. \"Yellow light's for my eyes only.\" — Dallas",
-          "links": [
-            {
-              "label": "Aura",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Aura"
-            },
-            {
-              "label": "Injured State",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Injured_State"
-            },
-            {
-              "label": "Oblivious",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Oblivious"
-            }
-          ]
-        },
-        {
-          "id": "killers-awakened-awareness",
-          "role": "killers",
-          "key": "awakenedawareness",
-          "name": "Awakened Awareness",
-          "obtainedFrom": "Mastermind",
-          "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_awakenedAwareness.png",
-          "descriptionText": "\"Your genes have been altered to heighten your senses in intense situations.\" While carrying a Survivor, you benefit from the following effect: The Auras of other Survivors within 16/18/20 metres of your location are revealed to you.",
-          "links": [
-            {
-              "label": "Auras",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Aura"
-            }
-          ]
-        },
-        {
-          "id": "killers-bamboozle",
-          "role": "killers",
-          "key": "bamboozle",
-          "name": "Bamboozle",
-          "obtainedFrom": "Kenneth Chase",
-          "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_bamboozle.png",
-          "descriptionText": "You benefit from the following permanent effect: Increases your Vaulting speed by 5/10/15 %. Whenever you vault a Window, Bamboozle calls upon The Entity for the following effect: Blocks it to all Survivors for 8/12/16 seconds. Vaulting it again within that time resets the timer. Vaulting a different one transfers the effect to it instead. Bamboozle does not extend its effects to vaulting a dropped Pallet.",
-          "links": [
-            {
-              "label": "Window",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Window"
-            },
-            {
-              "label": "Entity",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Entity"
-            }
-          ]
-        },
-        {
-          "id": "killers-barbecue-chilli",
-          "role": "killers",
-          "key": "barbecuechilli",
-          "name": "Barbecue & Chilli",
-          "obtainedFrom": "Cannibal",
-          "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_barbecueAndChilli.png",
-          "descriptionText": "A deep bond with The Entity unlocks potential in one's Aura-reading ability. After hooking a Survivor, all Survivors who are at least 60/50/40 metres away from that Hook have their Aura revealed to you for 5 seconds. \"I just can't take no pleasure in killing. There's just some things you gotta do. Don't mean you have to like it.\" — Drayton Sawyer",
-          "links": [
-            {
-              "label": "Entity",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Entity"
-            },
-            {
-              "label": "Aura",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Aura"
-            }
-          ]
-        },
-        {
-          "id": "killers-bitter-murmur",
-          "role": "killers",
-          "key": "bittermurmur",
-          "name": "Bitter Murmur",
-          "obtainedFrom": "Bloodweb",
-          "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_bitterMurmur.png",
-          "descriptionText": "Unlocks potential in your Aura-reading ability.Whenever a Generator is completed, Bitter Murmur triggers its primary effect: The Auras of any Survivors within 16 metres of that Generator are revealed to you for 5 seconds. Once the last Generator is completed, Bitter Murmur triggers its secondary effect: The Auras of all Survivors are revealed to you for 5/7/10 seconds.",
-          "links": [
-            {
-              "label": "Generator",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Generator"
-            },
-            {
-              "label": "Auras",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Aura"
-            }
-          ]
-        },
-        {
-          "id": "killers-brutal-strength",
-          "role": "killers",
-          "key": "brutalstrength",
-          "name": "Brutal Strength",
-          "obtainedFrom": "Trapper",
-          "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_brutalStrength.png",
-          "descriptionText": "\"Your great strength allows you to shred through your prey's defences.\" While performing the Break or Damage action on Breakable Walls, Pallets, or Generators, Brutal Strength triggers its effect: Increases the Action speed by 10/15/20 %. \"It is more than muscles. A dark power motivates the beast.\"",
-          "links": [
-            {
-              "label": "Breakable Walls",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Breakable_Wall"
-            },
-            {
-              "label": "Pallets",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Pallet"
-            },
-            {
-              "label": "Generators",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Generator"
-            }
-          ]
-        },
-        {
-          "id": "killers-call-of-brine",
-          "role": "killers",
-          "key": "callofbrine",
-          "name": "Call of Brine",
-          "obtainedFrom": "Onryō",
-          "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_callOfBrine.png",
-          "descriptionText": "\"Your psychic abilities influence technology in devastating ways.\" After performing the Damage Generator action on a Generator, Call of Brine applies its effects to it for 70 seconds: Increases its Regression speed to 130/140/150 % of the default value. Highlights its Aura to you in yellow. Triggers a Loud Noise Notification whenever a Survivor succeeds a Good Skill Check while repairing it.",
-          "links": [
-            {
-              "label": "Generator",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Generator"
-            },
-            {
-              "label": "Aura",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Aura"
-            },
-            {
-              "label": "Loud Noise Notification",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Loud_Noise_Notification"
-            }
-          ]
-        },
-        {
-          "id": "killers-corrupt-intervention",
-          "role": "killers",
-          "key": "corruptintervention",
-          "name": "Corrupt Intervention",
-          "obtainedFrom": "Plague",
-          "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_corruptIntervention.png",
-          "descriptionText": "Your prayers invoke a dark power that meddles with the Survivors' chances of survival. At the start of the Trial, the 3 Generators located farthest from you are blocked by The Entity for 80/100/120 seconds. Corrupt Intervention deactivates prematurely once the first Survivor is put into the Dying State. \"It shall be known across the land that the Gods curse the unfaithful.\" — (The Tablet of Adiris, 3.7)",
-          "links": [
-            {
-              "label": "Entity",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Entity"
-            },
-            {
-              "label": "Dying State",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Dying_State"
-            }
-          ]
-        },
-        {
-          "id": "killers-coup-de-grace",
-          "role": "killers",
-          "key": "coupdegrace",
-          "name": "Coup de Grâce",
-          "obtainedFrom": "Twins",
-          "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_coupDeGr%C3%A2ce.png",
-          "descriptionText": "As the end nears, you go in for the kill. Whenever a Generator is completed, Coup de Grâce gains 2 Tokens, up to a maximum of 10 Tokens per Trial: Increases the range of your next Lunge Attack by 70/75/80 %, while consuming -1 Token. Coup de Grâce can only hold a maximum of 5 Tokens at a time.",
-          "links": [
-            {
-              "label": "Generator",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Generator"
-            },
-            {
-              "label": "Lunge Attack",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Lunge_Attack"
-            }
-          ]
-        },
-        {
-          "id": "killers-darkness-revealed",
-          "role": "killers",
-          "key": "darknessrevealed",
-          "name": "Darkness Revealed",
-          "obtainedFrom": "Dredge",
-          "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_darknessRevealed.png",
-          "descriptionText": "\"In your presence, places once thought to be safe are perhaps the most dangerous.\" Searching a Locker has the following effect: The Auras of Survivors within 8 metres of any Locker are revealed to you for 6/7/8 seconds. Darkness Revealed has a cool-down of 30 seconds. \"Stay in the light, my children. In darkness, your fear will expose you.\" — Otto Stamper",
-          "links": [
-            {
-              "label": "Locker",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Locker"
-            },
-            {
-              "label": "Auras",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Aura"
-            }
-          ]
-        },
-        {
-          "id": "killers-dead-man-s-switch",
-          "role": "killers",
-          "key": "deadmansswitch",
-          "name": "Dead Man's Switch",
-          "obtainedFrom": "Deathslinger",
-          "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_deadMansSwitch.png",
-          "descriptionText": "After hooking a Survivor, Dead Man's Switch triggers its effect: Blocks the first Generator any Survivor stops repairing for 25/30/35 seconds. The Blocked Generator is highlighted to you in white. Dead Man's Switch cannot activate if its effect is still active from a previous activation. \"I've seen the look on a man's face when he realises he's going to die.\" — Caleb Quinn",
-          "links": [
-            {
-              "label": "Generator",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Generator"
-            }
-          ]
-        },
-        {
-          "id": "killers-deerstalker",
-          "role": "killers",
-          "key": "deerstalker",
-          "name": "Deerstalker",
-          "obtainedFrom": "Bloodweb",
-          "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_deerstalker.png",
-          "descriptionText": "Unlocks potential in your Aura-reading ability.Whenever a Survivor reads your Aura, Deerstalker activates for the same duration as their Aura-reading action: The Aura of that Survivor is revealed to you. Furthermore, the following effect triggers automatically every 40/35/30 seconds: Your Aura is revealed for 3 seconds to the Survivor with currently the lowest cumulative Chase time.",
-          "links": [
-            {
-              "label": "Aura",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Aura"
-            }
-          ]
-        },
-        {
-          "id": "killers-discordance",
-          "role": "killers",
-          "key": "discordance",
-          "name": "Discordance",
-          "obtainedFrom": "Frank, Julie, Susie, Joey",
-          "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_discordance.png",
-          "descriptionText": "Any Generator within a range of 64/96/128 metres that is being repaired by 2 or more Survivors is marked by a yellow Aura. When the Generator is first highlighted, Discordance triggers a Loud Noise Notification on the Generator. After the Generator is no longer within range or is being repaired by just 1 Survivor, the highlighted Aura will linger for another 4 seconds. \"Smartasses get killed. We always see to that.\" — The Legion",
-          "links": [
-            {
-              "label": "Generator",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Generator"
-            },
-            {
-              "label": "Aura",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Aura"
-            },
-            {
-              "label": "Loud Noise Notification",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Loud_Noise_Notification"
-            }
-          ]
-        },
-        {
-          "id": "killers-dissolution",
-          "role": "killers",
-          "key": "dissolution",
-          "name": "Dissolution",
-          "obtainedFrom": "Dredge",
-          "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_dissolution.png",
-          "descriptionText": "\"Everything turns to dust. It is as inescapable as the coming of the night.\" After 3 seconds of injuring a Survivor by any means, Dissolution activates for 12/16/20 seconds: Instantly breaks the next Pallet that Survivor performs a Fast Vault across while inside your Terror Radius. \"The Garden shall be a place of perfect Joy; through Joy, nothing shall stand in our way.\" — Otto Stamper",
-          "links": [
-            {
-              "label": "Pallet",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Pallet"
-            },
-            {
-              "label": "Terror Radius",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Terror_Radius"
-            }
-          ]
-        },
-        {
-          "id": "killers-dominance",
-          "role": "killers",
-          "key": "dominance",
-          "name": "Dominance",
-          "obtainedFrom": "Dark Lord",
-          "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_Dominance.png",
-          "descriptionText": "The power you wield over the land strikes terror in the hearts of all who cross your path. The first time each Chest and each Totem are interacted with by a Survivor, Dominance triggers its effect: Calls upon The Entity to block it for 8/12/16 seconds. The Aura of the blocked Prop is revealed to you in white. \"Tragic, is it not? How powerless you must feel.\" — Dracula",
-          "links": [
-            {
-              "label": "Chest",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Chest"
-            },
-            {
-              "label": "Totem",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Totem"
-            },
-            {
-              "label": "Entity",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Entity"
-            },
-            {
-              "label": "Aura",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Aura"
-            }
-          ]
-        },
-        {
-          "id": "killers-dragon-s-grip",
-          "role": "killers",
-          "key": "dragonsgrip",
-          "name": "Dragon's Grip",
-          "obtainedFrom": "Blight",
-          "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_dragonsGrip.png",
-          "descriptionText": "After performing the Damage Generator action on a Generator, Dragon's Grip activates for 30 seconds.While active, the first Survivor interacting with that Generator suffers from the following effects: Causes them to scream and reveal their location for 4 seconds. Inflicts the Exposed Status Effect for 60 seconds. Dragon's Grip has a cool-down of 60/45/30 seconds. \"Such potential in this compound... even the slightest trace causes unnatural effects.\" — Journal of Talbot Grimes",
-          "links": [
-            {
-              "label": "Generator",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Generator"
-            },
-            {
-              "label": "Exposed",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Exposed"
-            }
-          ]
-        },
-        {
-          "id": "killers-dying-light",
-          "role": "killers",
-          "key": "dyinglight",
-          "name": "Dying Light",
-          "obtainedFrom": "Shape",
-          "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_dyingLight.png",
-          "descriptionText": "Identical to Cull the Weak. \"This isn't a man...\" — Dr Sam Loomis",
-          "links": [
-            {
-              "label": "Cull the Weak",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Cull_the_Weak"
-            }
-          ]
-        },
-        {
-          "id": "killers-enduring",
-          "role": "killers",
-          "key": "enduring",
-          "name": "Enduring",
-          "obtainedFrom": "Hillbilly",
-          "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_enduring.png",
-          "descriptionText": "\"You are resilient to pain.\" You benefit from the following effect: Reduces the duration of Pallet Stuns by 40/45/50 %. This effect does not apply when stunned while carrying a Survivor. \"He stops at nothing.\"",
-          "links": []
-        },
-        {
-          "id": "killers-eruption",
-          "role": "killers",
-          "key": "eruption",
-          "name": "Eruption",
-          "obtainedFrom": "Nemesis T-Type",
-          "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_eruption.png",
-          "descriptionText": "\"The NE-α parasite provides you with the intelligence and awareness needed to set a trap.\" Performing the Damage Generator action on Generators highlights their Auras in yellow.Whenever a Survivor enters the Dying State by any means, Eruption triggers the following effects on all highlighted Generators: Causes them to explode, damaging them. Instantly regresses them by -10 % of their total Progression. Causes them to start regressing afterwards. Causes all Survivors currently repairing them to suffer from the following effects: Causes them to scream. Their Auras are revealed to you for 8/10/12 seconds. Eruption has a cool-down of 30 seconds after triggering its effects, which also resets the highlighted Auras. \"It can use weapons?\" — Jill Valentine",
-          "links": [
-            {
-              "label": "Generators",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Generator"
-            },
-            {
-              "label": "Auras",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Aura"
-            },
-            {
-              "label": "Dying State",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Dying_State"
-            }
-          ]
-        },
-        {
-          "id": "killers-fire-up",
-          "role": "killers",
-          "key": "fireup",
-          "name": "Fire Up",
-          "obtainedFrom": "Nightmare",
-          "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_fireUp.png",
-          "descriptionText": "The increased pressure of losing your preys fills you with anger and gives you unsuspected motivation. For each completed Generator, Fire Up gains 1 Token, up to a maximum of 5 Tokens: Increases the Action speeds for the following interactions by a stack-able 4/5/6 % per Token, up to a maximum of 20/25/30 %: Picking up and dropping Survivors. Breaking Breakable Walls and dropped Pallets. Damaging Generators. Vaulting Windows. \"Now why don't you just fucking die?\" — Freddy Krueger",
-          "links": [
-            {
-              "label": "Breakable Walls",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Breakable_Wall"
-            },
-            {
-              "label": "Pallets",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Pallet"
-            },
-            {
-              "label": "Generators",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Generator"
-            },
-            {
-              "label": "Windows",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Window"
-            }
-          ]
-        },
-        {
-          "id": "killers-friends-til-the-end",
-          "role": "killers",
-          "key": "friendstiltheend",
-          "name": "Friends 'til the End",
-          "obtainedFrom": "Charles Lee Ray",
-          "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_friendsTilTheEnd.png",
-          "descriptionText": "\"You will kill anyone who gets between you and your target.\" When you hook any Survivors that is not the Obsession, the following effects apply to the Obsession: Their Aura is revealed for 6/8/10 seconds. They suffer from the Exposed Status Effect for 20 seconds. When you hook the Obsession, the following effects apply to a random Survivor: Causes the Survivor to scream and reveal their location to the Killer. They become the new Obsession. You can only be obsessed with one Survivor at a time. \"I got some fresh meat lined up, and I'm not gonna let you spoil it, not this time!\" — Chucky",
-          "links": [
-            {
-              "label": "Obsession",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Obsession"
-            },
-            {
-              "label": "Aura",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Aura"
-            },
-            {
-              "label": "Exposed",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Exposed"
-            }
-          ]
-        },
-        {
-          "id": "killers-furtive-chase",
-          "role": "killers",
-          "key": "furtivechase",
-          "name": "Furtive Chase",
-          "obtainedFrom": "Danny Johnson",
-          "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_furtiveChase.png",
-          "descriptionText": "\"You lurk in the shadows, eliminating your victims one by one.\" After hooking the Obsession, you benefit from the following effects for 14/16/18 seconds: Grants the Undetectable Status Effect. Grants a 10 % Haste Status Effect. Whenever the Obsession is unhooked by another Survivor, the Obsession Status transfers to their Rescuer.You can only be obsessed with one Survivor at a time. \"You have no idea what I have planned for you. It'll be in the news for weeks. I'll make sure of that.\" — The Ghost Face",
-          "links": [
-            {
-              "label": "Obsession",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Obsession"
-            },
-            {
-              "label": "Undetectable",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Undetectable"
-            },
-            {
-              "label": "Haste",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Haste"
-            }
-          ]
-        },
-        {
-          "id": "killers-gearhead",
-          "role": "killers",
-          "key": "gearhead",
-          "name": "Gearhead",
-          "obtainedFrom": "Deathslinger",
-          "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_gearhead.png",
-          "descriptionText": "\"You have got an ear for well-oiled gears.\" After a Survivor loses a Health State, Gearhead activates for 30 seconds: While Gearhead is active, a Survivor succeeding a Good Skill Check while repairing reveals their Aura to you for 6/7/8 seconds. \"Sometimes a man's best work is what puts him in the grave.\" — The Prison Warden",
-          "links": [
-            {
-              "label": "Health State",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Health_State"
-            },
-            {
-              "label": "Survivor",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Survivor"
-            },
-            {
-              "label": "Good Skill Check",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Good_Skill_Check"
-            },
-            {
-              "label": "Aura",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Aura"
-            }
-          ]
-        },
-        {
-          "id": "killers-grim-embrace",
-          "role": "killers",
-          "key": "grimembrace",
-          "name": "Grim Embrace",
-          "obtainedFrom": "Artist",
-          "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_grimEmbrace.png",
-          "descriptionText": "Your act of servitude to The Entity has not gone unnoticed. Each time a Survivor is hooked for the first time, Grim Embrace gains 1 Token and activates once you are at least 16 metres away from the Hook: 1-3 Tokens: Blocks all Generators for 6/8/10 seconds. 4 Tokens: Blocks all Generators for 40 seconds and the Aura of the Obsession is revealed to you for 6 seconds. \"Are we nothing but prisoners to our sorrow?\" — Carmina Mora",
-          "links": [
-            {
-              "label": "Hook",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Hook"
-            },
-            {
-              "label": "Generators",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Generator"
-            },
-            {
-              "label": "Aura",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Aura"
-            },
-            {
-              "label": "Obsession",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Obsession"
-            }
-          ]
-        },
-        {
-          "id": "killers-hex-blood-favour",
-          "role": "killers",
-          "key": "hexbloodfavour",
-          "name": "Hex: Blood Favour",
-          "obtainedFrom": "Blight",
-          "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_hexBloodFavour.png",
-          "descriptionText": "\"A Hex that gains the favour of The Entity when blood is spilt.\" Hex: Blood Favour lights a Hex Totem at the start of the Trial, cursing Survivors with its Hex Effects.Whenever a Survivor loses a Health State by any means, Hex: Blood Favour triggers its effect for 15 seconds: Blocks all upright Pallets within 24/28/32 metres of that Survivor. Blocked Pallets cannot be dropped by any Survivor. The Hex Effects persist until the Hex Totem is either blessed or cleansed by a Survivor, disabling it for the remainder of the Trial. \"It would be no leap of the imagination to suggest that the Trials are a biological response of sorts.\" — Journal of Talbot Grimes",
-          "links": [
-            {
-              "label": "Hex Totem",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Hex_Totem"
-            },
-            {
-              "label": "Health State",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Health_State"
-            },
-            {
-              "label": "Pallets",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Pallet"
-            }
-          ]
-        },
-        {
-          "id": "killers-hex-crowd-control",
-          "role": "killers",
-          "key": "hexcrowdcontrol",
-          "name": "Hex: Crowd Control",
-          "obtainedFrom": "Trickster",
-          "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_hexCrowdControl.png",
-          "descriptionText": "\"A Hex that ensures those lesser than you are properly herded.\" Hex: Crowd Control lights a Hex Totem at the start of the Trial, cursing Survivors with its Hex Effects.Whenever a Survivors performs a Rushed Vault action at a Window, Hex: Crowd Control triggers its effect: Blocks that Window for all Survivors. Hex: Crowd Control has a limit of 3/4/5 Windows it can affect at a time.The Hex Effects persist until the Hex Totem is either blessed or cleansed by a Survivor, disabling it for the remainder of the Trial. \"You have no control. People like you never did.\" — Ji-Woon Hak",
-          "links": [
-            {
-              "label": "Hex Totem",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Hex_Totem"
-            },
-            {
-              "label": "Window",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Window"
-            }
-          ]
-        },
-        {
-          "id": "killers-hex-devour-hope",
-          "role": "killers",
-          "key": "hexdevourhope",
-          "name": "Hex: Devour Hope",
-          "obtainedFrom": "Hag",
-          "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_hexDevourHope.png",
-          "descriptionText": "\"A Hex rooting its power on hope.The false hope of Survivors ignites your hunger.\" Hex: Devour Hope lights a Hex Totem at the start of the Trial, cursing Survivors with its Hex Effects.Whenever a Survivor is unhooked at least 24 metres from your location, Hex: Devour Hope gains 1 Token, up to a maximum of 5 Tokens: At 2 Tokens: 10 seconds after hooking a Survivor, you are granted a 3/4/5 % Haste Status Effect for 10 seconds. At 3 Tokens: Afflicts all Survivors with the Exposed Status Effect. At 5 Tokens: Unlocks the Kill ability, allowing you to kill dying Survivors by your own hands. The Hex Effects persist until the Hex Totem is either blessed or cleansed by a Survivor, disabling it for the remainder of the Trial. \"If you do nothing, you have their blood on your hands. If you save them, her hunger grows.\"",
-          "links": [
-            {
-              "label": "Hex Totem",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Hex_Totem"
-            },
-            {
-              "label": "Haste",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Haste"
-            },
-            {
-              "label": "Exposed",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Exposed"
-            }
-          ]
-        },
-        {
-          "id": "killers-hex-face-the-darkness",
-          "role": "killers",
-          "key": "hexfacethedarkness",
-          "name": "Hex: Face the Darkness",
-          "obtainedFrom": "Knight",
-          "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_hexFaceTheDarkness.png",
-          "descriptionText": "\"You make an example of one of your victims, forcing their allies to become awed by your power.\" If there is still a Dull Totem in the environment, Hex: Face the Darkness lights a Hex Totem after injuring a Survivor by any means, cursing them with its Hex Effects.While cursed, the following effects trigger once every 35/30/25 seconds on all other Survivors outside of the Terror Radius: Causes them to scream. Their Auras are revealed to you for 2 seconds. Hex: Face the Darkness is deactivated once the Cursed Survivor either returns to Healthy or enters the Dying State by any means, extinguishing the Hex Totem.The Hex Effects persist until the Hex Totem is either blessed or cleansed by a Survivor, disabling it for the remainder of the Trial. \"I shall make an example of one. These mewling worms will never know peace.\" — Tarhos Kovács",
-          "links": [
-            {
-              "label": "Dull Totem",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Dull_Totem"
-            },
-            {
-              "label": "Hex Totem",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Hex_Totem"
-            },
-            {
-              "label": "Terror Radius",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Terror_Radius"
-            },
-            {
-              "label": "Auras",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Aura"
-            },
-            {
-              "label": "Healthy",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Healthy"
-            },
-            {
-              "label": "Dying State",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Dying_State"
-            }
-          ]
-        },
-        {
-          "id": "killers-hex-fortune-s-fool",
-          "role": "killers",
-          "key": "hexfortunesfool",
-          "name": "Hex: Fortune's Fool",
-          "obtainedFrom": "Bloodweb",
-          "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_hexPlaything.png",
-          "descriptionText": "\"A Hex that toys with a victim's suffering.\" If there is still a Dull Totem in the environment, Hex: Fortune's Fool lights a Hex Totem whenever you hook a Survivor for the first time, cursing them with its Hex Effects. Inflicts the Oblivious Status Effect. Blocks the Hex Totem for all other Survivors for 90 seconds. Blocked Hex Totems cannot be cleansed or blessed by Survivors. This does not affect the Cursed Survivor. The Aura of the Hex Totem is revealed to the Cursed Survivor within 24/20/16 metres.The Hex Effects persist until the Hex Totem is either blessed or cleansed by a Survivor, disabling it for the remainder of the Trial.",
-          "links": [
-            {
-              "label": "Dull Totem",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Dull_Totem"
-            },
-            {
-              "label": "Hex Totem",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Hex_Totem"
-            },
-            {
-              "label": "Oblivious",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Oblivious"
-            },
-            {
-              "label": "Aura",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Aura"
-            }
-          ]
-        },
-        {
-          "id": "killers-hex-haunted-ground",
-          "role": "killers",
-          "key": "hexhauntedground",
-          "name": "Hex: Haunted Ground",
-          "obtainedFrom": "Spirit",
-          "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_hexHauntedGround.png",
-          "descriptionText": "Hex: Haunted Ground lights 2 Hex Totems at the start of the Trial, laying a trap for Survivors.Blessing or cleansing either Hex Totem trips the trap and triggers the following effect: Causes all Survivors to suffer from the Exposed Status Effect for 40/50/60 seconds. Hex: Haunted Ground extinguishes the second Hex Totem after tripping its trap.Hex: Haunted Ground is disabled for the remainder of the Trial after triggering its effect. \"Her home become profane.\"",
-          "links": [
-            {
-              "label": "Hex Totems",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Hex_Totem"
-            },
-            {
-              "label": "Exposed",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Exposed"
-            }
-          ]
-        },
-        {
-          "id": "killers-hex-hive-mind",
-          "role": "killers",
-          "key": "hexhivemind",
-          "name": "Hex: Hive Mind",
-          "obtainedFrom": "First",
-          "iconUrl": "https://deadbydaylight.wiki.gg/images/IconsPerks_HexHiveMind.png",
-          "descriptionText": "\"You found yourself connected to something dark and unknowable... and you embraced it.\" The first time you hook any Survivor, a random Dull Totem becomes a Hex Totem, provided that a Dull Totem remains in the Trial Grounds. Generators are highlighted; the intensity of the generator's Auras reveals their repair progress. As soon as a total of 4 generators have been completed in the Trial: All remaining generators explode, lose 6/8/10 % progess, and start regressing. The associated Hex Totem becomes dull, and this perk becomes disabled for the remainder of the trial. The Hex Effects persist until the Hex Totem is either blessed or cleansed by a Survivor, disabling it for the remainder of the Trial. \"You... let us in. And now, you are going to have to let us stay\" — Henry Creel",
-          "links": [
-            {
-              "label": "Survivor",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Survivor"
-            },
-            {
-              "label": "Dull Totem",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Dull_Totem"
-            },
-            {
-              "label": "Hex Totem",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Hex_Totem"
-            },
-            {
-              "label": "Generators",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Generator"
-            },
-            {
-              "label": "Auras",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Aura"
-            }
-          ]
-        },
-        {
-          "id": "killers-hex-huntress-lullaby",
-          "role": "killers",
-          "key": "hexhuntresslullaby",
-          "name": "Hex: Huntress Lullaby",
-          "obtainedFrom": "Huntress",
-          "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_hexHuntressLullaby.png",
-          "descriptionText": "\"A Hex rooting its power in despair.Your hunt is an irresistible song of dread which muddles your prey's attention.\" Survivors performing Healing or Repairing actions suffer from the following effect: Increases the Progression penalty for Failed Skill Checks by 2/4/6 %. Each time a Survivor is hooked, Hex: Huntress Lullaby grows in power and gains 1 Token, up to a maximum of 5 Tokens.Survivors performing Healing or Repairing actions suffer from the following additional effect: Reduces the time between the audio cue announcing an imminent Skill Check and it appearing, depending on the number of accumulated Tokens: 1 Token: -14 % 2 Tokens: -28 % 3 Tokens: -42 % 4 Tokens: -56 % 5 Tokens: Suppresses the audio cue altogether. The Hex Effects persist until the Hex Totem is either blessed or cleansed by a Survivor, disabling it for the remainder of the Trial. \"That song, it drives me crazy!\"",
-          "links": []
-        },
-        {
-          "id": "killers-hex-no-one-escapes-death",
-          "role": "killers",
-          "key": "hexnooneescapesdeath",
-          "name": "Hex: No One Escapes Death",
-          "obtainedFrom": "Bloodweb",
-          "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_hexNoOneEscapesDeath.png",
-          "descriptionText": "\"A Hex rooting its power on hope.You are animated by the power of your Hex Totem when the Survivors are on the verge of escaping.\" Once the Exit Gates are powered, if there is still a Dull Totem remaining in the environment, Hex: No One Escapes Death activates and lights it: Grants a 2/3/4 % Haste Status Effect. Causes all Survivors to suffer from the Exposed Status Effect. Once the Status Effect is revealed to Survivors, Hex: No One Escapes Death triggers the following effect: The Aura of its Hex Totem is revealed to all Survivors within 4 metres. This range gradually expands to 24 metres over the course of 30 seconds. Hex: No One Escapes Death remains inactive if no Dull Totems are available. The Hex Effects persist until the Hex Totem is either blessed or cleansed by a Survivor, disabling it for the remainder of the Trial. \"And the beast became faster and more powerful as if The Entity's shadowy whips were lashing at its back.\"",
-          "links": [
-            {
-              "label": "Exit Gates",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Exit_Gate"
-            },
-            {
-              "label": "Dull Totem",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Dull_Totem"
-            },
-            {
-              "label": "Haste",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Haste"
-            },
-            {
-              "label": "Exposed",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Exposed"
-            }
-          ]
-        },
-        {
-          "id": "killers-hex-pentimento",
-          "role": "killers",
-          "key": "hexpentimento",
-          "name": "Hex: Pentimento",
-          "obtainedFrom": "Artist",
-          "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_hexPentimento.png",
-          "descriptionText": "\"You reveal the true power of the Totems, hidden within their remains.\" Unlocks potential in your Aura-reading ability: The Auras of cleansed Totems are revealed to you in white. Press the Interaction button over the remains of a cleansed Totem to resurrect it as a Rekindled Totem.For each Rekindled Totem, Hex: Pentimento gains 1 Token, up to a maximum of 5 Tokens: 1 Token: Reduces the Action speeds for Healing and Repairing by -20 %. 2 to 5 Tokens: Increase the strength of the Action Speed penalty by a stackable 1/2/3 % per Token, up to a maximum of 24/28/32 %. Survivors cursed by Hex: Pentimento see the Auras of Rekindled Totems within 16 metres. Once Hex: Pentimento has reached its limit of 5 Tokens, it calls upon The Entity for the following effect: Blocks all Rekindled Totems for the remainder of the Trial. Totems may only be rekindled once per Trial, with The Entity consuming the remains of Rekindled Totems once they are cleansed. The Hex Effects persist until the Hex Totem is either blessed or cleansed by a Survivor, disabling it for the remainder of the Trial. \"Though a pentimento is an inherently concealed piece of art, there is something to be said of the desire to discover that which is beyond.\" — A Guide to Art & Process (1961)",
-          "links": [
-            {
-              "label": "Auras",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Aura"
-            },
-            {
-              "label": "Totem",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Totem"
-            }
-          ]
-        },
-        {
-          "id": "killers-hex-plaything",
-          "role": "killers",
-          "key": "hexplaything",
-          "name": "Hex: Plaything",
-          "obtainedFrom": "Cenobite",
-          "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_hexPlaything.png",
-          "descriptionText": "Identical to Hex: Fortune's Fool. \"We came. Now you must come with us. Taste our pleasure.\" — Pinhead",
-          "links": [
-            {
-              "label": "Hex: Fortune's Fool",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Hex:_Fortune%27s_Fool"
-            }
-          ]
-        },
-        {
-          "id": "killers-hex-retribution",
-          "role": "killers",
-          "key": "hexretribution",
-          "name": "Hex: Retribution",
-          "obtainedFrom": "Deathslinger",
-          "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_hexRetribution.png",
-          "descriptionText": "\"A Hex that lashes out upon its destruction.Those who cross you will be punished.\" Whenever a Survivor blesses or cleanses a Totem, Hex: Retribution triggers its primary effect: Causes that Survivor to suffer from the Oblivious Status Effect for 40/50/60 seconds. Whenever a Hex Totem is removed by any means, including its own, Hex: Retribution triggers its secondary effect: The Auras of all Survivors are revealed to you for 20 seconds. The Hex Effects persist until the Hex Totem is either blessed or cleansed by a Survivor, disabling it for the remainder of the Trial. \"Bloody fool, you pulled the trigger on yourself.\" — Caleb Quinn",
-          "links": [
-            {
-              "label": "Totem",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Totem"
-            },
-            {
-              "label": "Oblivious",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Oblivious"
-            },
-            {
-              "label": "Auras",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Aura"
-            }
-          ]
-        },
-        {
-          "id": "killers-hex-ruin",
-          "role": "killers",
-          "key": "hexruin",
-          "name": "Hex: Ruin",
-          "obtainedFrom": "Hag",
-          "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_hexRuin.png",
-          "descriptionText": "\"A Hex that affects the Generator Repair progress of all Survivors.\" All Generators not currently being repaired experience the following effect: Causes them to automatically regress at 100/125/150 % of the default Regression rate. The Hex Effects persist until the Hex Totem is either blessed or cleansed by a Survivor, disabling it for the remainder of the Trial. \"A curse is upon you. It will cause your ruin.\"",
-          "links": [
-            {
-              "label": "Generators",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Generator"
-            }
-          ]
-        },
-        {
-          "id": "killers-hex-thrill-of-the-hunt",
-          "role": "killers",
-          "key": "hexthrillofthehunt",
-          "name": "Hex: Thrill of the Hunt",
-          "obtainedFrom": "Bloodweb",
-          "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_hexThrillOfTheHunt.png",
-          "descriptionText": "\"A Hex rooting its power on hope.The false hope of Survivors fills you with excitement and strengthens your Totems.\" Start the Trial with 5 Tokens, one for each Totem located in the environment: Reduces the Action speeds for Blessing and Cleansing by a stack-able 8/10/12 % per Token, up to a maximum of 40/50/60 %. Hex: Thrill of the Hunt loses -1 Token whenever a Totem is cleansed. The Hex Effects persist until the Hex Totem is either blessed or cleansed by a Survivor, disabling it for the remainder of the Trial.",
-          "links": []
-        },
-        {
-          "id": "killers-hex-undying",
-          "role": "killers",
-          "key": "hexundying",
-          "name": "Hex: Undying",
-          "obtainedFrom": "Blight",
-          "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_hexUndying.png",
-          "descriptionText": "\"A Hex which maintains the vile powers that flow throughout the Trial.\" Whenever a Survivor is within 2/3/4 metres of a Dull Totem, Hex: Undying triggers its primary effect: Their Aura is revealed to you for as long as they remain in that range. Whenever a Hex Totem is cleansed, Hex: Undying triggers its secondary effect: Transfers the cleansed Hex to the Hex Totem associated with Hex: Undying instead, replacing it. The Hex Effects persist until the Hex Totem is either blessed or cleansed by a Survivor, disabling it for the remainder of the Trial.",
-          "links": [
-            {
-              "label": "Dull Totem",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Dull_Totem"
-            },
-            {
-              "label": "Aura",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Aura"
-            },
-            {
-              "label": "Hex Totem",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Hex_Totem"
-            }
-          ]
-        },
-        {
-          "id": "killers-hex-wretched-fate",
-          "role": "killers",
-          "key": "hexwretchedfate",
-          "name": "Hex: Wretched Fate",
-          "obtainedFrom": "Dark Lord",
-          "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_HexWretchedFate.png",
-          "descriptionText": "You see your victim from afar and resolve to prolong their suffering. After a Generator is completed, Hex: Wretched Fate activates and lights a random Dull Totem, cursing the Obsession: Reduces their Repair speed by 27/30/33 %. The Aura of the Hex Totem is revealed to them within 12 metres. \"So toil, mortal, toil! Your effort will be for naught!\" — Dracula",
-          "links": [
-            {
-              "label": "Generator",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Generator"
-            },
-            {
-              "label": "Dull Totem",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Dull_Totem"
-            },
-            {
-              "label": "Obsession",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Obsession"
-            },
-            {
-              "label": "Aura",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Aura"
-            }
-          ]
-        },
-        {
-          "id": "killers-hoarder",
-          "role": "killers",
-          "key": "hoarder",
-          "name": "Hoarder",
-          "obtainedFrom": "Twins",
-          "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_hoarder.png",
-          "descriptionText": "You protect what little you have and are perceptive to those rummaging through your stockpiles. Hoarder triggers a Loud Noise Notification for 4 seconds, whenever a Survivor performs any of the following actions within 32/48/64 metres of your location: Unlocks a Chest. Picks up any Item. Hoarder spawns 2 additional Chests in the Trial.",
-          "links": [
-            {
-              "label": "Loud Noise Notification",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Loud_Noise_Notification"
-            },
-            {
-              "label": "Chest",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Chest"
-            },
-            {
-              "label": "Item",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Item"
-            }
-          ]
-        },
-        {
-          "id": "killers-human-greed",
-          "role": "killers",
-          "key": "humangreed",
-          "name": "Human Greed",
-          "obtainedFrom": "Dark Lord",
-          "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_HumanGreed.png",
-          "descriptionText": "One can always rely on the avarice of the living and use it to one's advantage. Grants the ability to kick opened Chests and close them. The Auras of unopened Chests are revealed to you at all times. The Auras of Survivors coming within 8 metres of unopened or closed Chests are revealed to you for 3/4/5 seconds. Human Greed has a cool-down of 10 seconds on the ability to kick Chests. \"Come running, one and all, and see what fortune awaits you.\" — Dracula",
-          "links": [
-            {
-              "label": "Chests",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Chest"
-            },
-            {
-              "label": "Auras",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Aura"
-            }
-          ]
-        },
-        {
-          "id": "killers-i-m-all-ears",
-          "role": "killers",
-          "key": "imallears",
-          "name": "I'm All Ears",
-          "obtainedFrom": "Danny Johnson",
-          "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_imAllEars.png",
-          "descriptionText": "\"You sharpen your keen senses in the dark Realm of The Entity.\" Whenever a Survivor performs a Rushed Vault action within 48 metres of your location, you benefit from the following effect: The Aura of the Survivor is revealed to you for 8 seconds. I'm All Ears has a cool-down of 60/45/30 seconds. \"There is no need to worry. I've been preparing my whole life for this.\" — The Ghost Face",
-          "links": [
-            {
-              "label": "Entity",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Entity"
-            },
-            {
-              "label": "Aura",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Aura"
-            }
-          ]
-        },
-        {
-          "id": "killers-infectious-fright",
-          "role": "killers",
-          "key": "infectiousfright",
-          "name": "Infectious Fright",
-          "obtainedFrom": "Plague",
-          "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_infectiousFright.png",
-          "descriptionText": "\"The cries of the unfaithful make your heart leap.\" Whenever a Survivor is put into the Dying State by any means, all other Survivors within your Terror Radius will scream and reveal their current location to you for 4/5/6 seconds. \"Horror overcomes the heart of infidels who cry at the feet of the fallen.\" — (Hymn of Praise, 11.4)",
-          "links": [
-            {
-              "label": "Dying State",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Dying_State"
-            },
-            {
-              "label": "Terror Radius",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Terror_Radius"
-            }
-          ]
-        },
-        {
-          "id": "killers-lethal-pursuer",
-          "role": "killers",
-          "key": "lethalpursuer",
-          "name": "Lethal Pursuer",
-          "obtainedFrom": "Nemesis T-Type",
-          "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_lethalPursuer.png",
-          "descriptionText": "\"You have been designed to track down and eliminate targets.\" At the start of the Trial, the Auras of all Survivors are revealed to you for 7/8/9 seconds. Extends the duration of all instances of a Survivor Aura being revealed to you by 2 seconds. Lethal Pursuer benefits from its own effect. \"...it knows what it wants and won't stop till it gets it.\" — Carlos Oliveira",
-          "links": [
-            {
-              "label": "Auras",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Aura"
-            },
-            {
-              "label": "Survivors",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Survivor"
-            }
-          ]
-        },
-        {
-          "id": "killers-leverage",
-          "role": "killers",
-          "key": "leverage",
-          "name": "Leverage",
-          "obtainedFrom": "Skull Merchant",
-          "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_leverage.png",
-          "descriptionText": "\"Kick your competitors when they're down. Never let them regain lost ground.\" Whenever a Survivor performs an Unhook action, they suffer from the following effect for 60 seconds: Reduces their Healing speeds by 20/25/30 %. \"Good. Now we can move in for the kill.\" — Adriana Imai",
-          "links": []
-        },
-        {
-          "id": "killers-make-your-choice",
-          "role": "killers",
-          "key": "makeyourchoice",
-          "name": "Make Your Choice",
-          "obtainedFrom": "Pig",
-          "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_makeYourChoice.png",
-          "descriptionText": "Whenever a Survivor is rescued from a Hook, while you are farther than 32 metres away, Make Your Choice activates: Causes the unhooking Survivor to scream and reveal their location to you. Causes them to suffer from the Exposed Status Effect for 40/50/60 seconds. Make Your Choice has a cooldown of 40/50/60 seconds. \"You'd be surprised what tools can save a life.\" — Amanda Young",
-          "links": [
-            {
-              "label": "Hook",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Hook"
-            },
-            {
-              "label": "Exposed",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Exposed"
-            }
-          ]
-        },
-        {
-          "id": "killers-merciless-storm",
-          "role": "killers",
-          "key": "mercilessstorm",
-          "name": "Merciless Storm",
-          "obtainedFrom": "Onryō",
-          "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_mercilessStorm.png",
-          "descriptionText": "\"Your horrible trauma is felt by everyone.\" Whenever a Generator reaches 90 % of Repair progression, Merciless Storm triggers its effect: All Survivors repairing that Generator are faced with a continuous stream of Skill Checks until the Generator is completed. If any contributing Survivor fails a Skill Check or interrupts the action by any means, The Entity blocks the Generator for 16/18/20 seconds. Merciless Storm can only trigger once per Generator per Trial.",
-          "links": [
-            {
-              "label": "Generator",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Generator"
-            },
-            {
-              "label": "Skill Checks",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Skill_Check"
-            },
-            {
-              "label": "Entity",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Entity"
-            }
-          ]
-        },
-        {
-          "id": "killers-mindbreaker",
-          "role": "killers",
-          "key": "mindbreaker",
-          "name": "Mindbreaker",
-          "obtainedFrom": "Demogorgon",
-          "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_mindbreaker.png",
-          "descriptionText": "\"Your distressing presence drains and weakens your prey.\" While repairing a Generator, Survivors suffer from the following effects: Incurs the Blindness and Exhausted Status Effects. Both Status Effects linger for 3/4/5 seconds after ending the interaction. Mindbreaker cannot be used to override an existing Exhausted Status Effect, but pauses its timer instead. \"The specimen's apparent telepathic ability can evoke feelings of dread and fatigue in nearby individuals.\" — Hawkins National Laboratory",
-          "links": [
-            {
-              "label": "Generator",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Generator"
-            },
-            {
-              "label": "Blindness",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Blindness"
-            },
-            {
-              "label": "Exhausted",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Exhausted"
-            }
-          ]
-        },
-        {
-          "id": "killers-nemesis",
-          "role": "killers",
-          "key": "nemesis",
-          "name": "Nemesis",
-          "obtainedFrom": "Oni",
-          "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_nemesis.png",
-          "descriptionText": "\"You seek retribution on those who have wronged you.\" Whenever a Survivor other than your Obsession blinds you by any means or stuns you with a Pallet or a Locker, Nemesis triggers its primary effect: Causes that Survivor to become your current Obsession. Whenever your Obsession switches to a different Survivor by any means, Nemesis triggers its secondary effects: Causes that Survivor to suffer from the Oblivious Status Effect for 40/50/60 seconds. Their Aura is revealed to you for 8 seconds. You can only be obsessed with one Survivor at a time. \"Only a fool would spit in a demon's face and declare victory.\" — Renjiro's Doctrine 4:9",
-          "links": [
-            {
-              "label": "Obsession",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Obsession"
-            },
-            {
-              "label": "Pallet",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Pallet"
-            },
-            {
-              "label": "Locker",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Locker"
-            },
-            {
-              "label": "Oblivious",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Oblivious"
-            },
-            {
-              "label": "Aura",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Aura"
-            }
-          ]
-        },
-        {
-          "id": "killers-no-holds-barred",
-          "role": "killers",
-          "key": "noholdsbarred",
-          "name": "No Holds Barred",
-          "obtainedFrom": "Bloodweb",
-          "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_NoHoldsBarred.png",
-          "descriptionText": "\"You induce mental suffering by crushing any hope of escape.\" Each time a Generator is completed, No Holds Barred calls upon The Entity for the following effects: Blocks the Generator with the most Progression for 15/20/25 seconds. The Aura of the Blocked Generator is highlighted to you in white.",
-          "links": [
-            {
-              "label": "Generator",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Generator"
-            },
-            {
-              "label": "Entity",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Entity"
-            },
-            {
-              "label": "Aura",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Aura"
-            }
-          ]
-        },
-        {
-          "id": "killers-no-way-out",
-          "role": "killers",
-          "key": "nowayout",
-          "name": "No Way Out",
-          "obtainedFrom": "Trickster",
-          "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_noWayOut.png",
-          "descriptionText": "\"You are not going to let just anyone into the VIP room.\" Whenever you hook a Survivor for the first time, No Way Out gains 1 Token.Once the Exit Gates are powered, No Way Out activates: Causes the first Survivor to interact with either Exit Gate Switch to trigger a Loud Noise Notification at their location. Upon triggering the Loud Noise Notification, No Way Out calls upon The Entity for the following effect: Blocks both Exit Gate Switches for 12 seconds. This time is extended by an additional 6/9/12 seconds per accumulated Token, up to a combined maximum of 36/48/60 seconds. \"That sound when you bleed... let me hear it again.\" — Ji-Woon Hak",
-          "links": [
-            {
-              "label": "Exit Gates",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Exit_Gate"
-            },
-            {
-              "label": "Loud Noise Notification",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Loud_Noise_Notification"
-            },
-            {
-              "label": "Entity",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Entity"
-            }
-          ]
-        },
-        {
-          "id": "killers-nowhere-to-hide",
-          "role": "killers",
-          "key": "nowheretohide",
-          "name": "Nowhere to Hide",
-          "obtainedFrom": "Knight",
-          "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_nowhereToHide.png",
-          "descriptionText": "\"The machinations of the weak and craven draw your ire.Your anger forces Survivors to reveal themselves.\" Performing the Damage Generator action on a Generator triggers Nowhere to Hide: The Auras of all Survivors within 24 metres of your location are revealed to you for 3/4/5 seconds. \"Out with you, cowards! Show yourselves!\" — Tarhos Kovács",
-          "links": [
-            {
-              "label": "Generator",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Generator"
-            },
-            {
-              "label": "Auras",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Aura"
-            }
-          ]
-        },
-        {
-          "id": "killers-oppression",
-          "role": "killers",
-          "key": "oppression",
-          "name": "Oppression",
-          "obtainedFrom": "Twins",
-          "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_oppression.png",
-          "descriptionText": "\"Life has been difficult for you, so you will make it difficult for others.\" Performing the Damage Generator action on a Generator triggers the following effects: Randomly selects up to 4 additional Generators that will also start regressing. Triggers a difficult Skill Check for all Survivors currently repairing them. Oppression has a cool-down of 45/40/35 seconds. \"Damn them as they would damn us.\" — Charlotte Deshayes",
-          "links": [
-            {
-              "label": "Generator",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Generator"
-            },
-            {
-              "label": "Skill Check",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Skill_Check"
-            }
-          ]
-        },
-        {
-          "id": "killers-play-with-your-food",
-          "role": "killers",
-          "key": "playwithyourfood",
-          "name": "Play with Your Food",
-          "obtainedFrom": "Shape",
-          "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_playWithYourFood.png",
-          "descriptionText": "Identical to See How They Run. \"You've fooled them, haven't you Michael? But not me.\" — Dr Sam Loomis",
-          "links": [
-            {
-              "label": "See How They Run",
-              "url": "https://deadbydaylight.wiki.gg/wiki/See_How_They_Run"
-            }
-          ]
-        },
-        {
-          "id": "killers-pop-goes-the-weasel",
-          "role": "killers",
-          "key": "popgoestheweasel",
-          "name": "Pop Goes the Weasel",
-          "obtainedFrom": "Kenneth Chase",
-          "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_popGoesTheWeasel.png",
-          "descriptionText": "\"A deep bond with The Entity unlocks great strength.\" After hooking a Survivor, Pop Goes the Weasel activates for 35/40/45 seconds.While active, manually damaging a Generator triggers the following effect: Instantly regresses it by -20 % of its current Progression. Pop Goes the Weasel deactivates after use or once its timer elapses.",
-          "links": [
-            {
-              "label": "Generator",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Generator"
-            }
-          ]
-        },
-        {
-          "id": "killers-predator",
-          "role": "killers",
-          "key": "predator",
-          "name": "Predator",
-          "obtainedFrom": "Wraith",
-          "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_predator.png",
-          "descriptionText": "\"Your acute tracking ability allows you to find lost prey more easily.\" Whenever you lose a Survivor in a Chase, Predator triggers its effect: Their Aura is revealed to you for 4 seconds. Predator has a cool-down of 60/50/40 seconds. \"Never stop moving and hope you're always two steps ahead of the beast.\" — Unknown, Notebook",
-          "links": [
-            {
-              "label": "Aura",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Aura"
-            }
-          ]
-        },
-        {
-          "id": "killers-rapid-brutality",
-          "role": "killers",
-          "key": "rapidbrutality",
-          "name": "Rapid Brutality",
-          "obtainedFrom": "Xenomorph",
-          "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_rapidBrutality.png",
-          "descriptionText": "You move with a speed and fury that makes blood run cold. You can no longer gain the Bloodlust Status Effect. Successfully hitting a Survivor with a Basic Attack grants you a 5 % Haste Status Effect for 8/9/10 seconds. \"Catch it, put it in the airlock, get rid of it.\" — Dallas",
-          "links": [
-            {
-              "label": "Bloodlust",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Bloodlust"
-            },
-            {
-              "label": "Basic Attack",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Basic_Attack"
-            },
-            {
-              "label": "Haste",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Haste"
-            }
-          ]
-        },
-        {
-          "id": "killers-remember-me",
-          "role": "killers",
-          "key": "rememberme",
-          "name": "Remember Me",
-          "obtainedFrom": "Nightmare",
-          "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_rememberMe.png",
-          "descriptionText": "Whenever the Obsession loses a Health State by any means, Remember Me gains 1 Token, up to a maximum of 3/4/5 Tokens: Increases the Opening time of both Exit Gates by a stack-able 6 seconds per Token, up to a maximum additional Opening time of 18/24/30 seconds. This results in a maximum possible Opening time of 38/44/50 seconds for both Exit Gates. Remember Me does not apply its penalty to the Obsession, allowing them to open both Exit Gates in the default time of 20 seconds. You can only be obsessed with one Survivor at a time. \"You don't remember? You must. You're my number one, and you'll never wake up again.\" — Freddy Krueger",
-          "links": [
-            {
-              "label": "Obsession",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Obsession"
-            },
-            {
-              "label": "Health State",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Health_State"
-            },
-            {
-              "label": "Exit Gates",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Exit_Gate"
-            }
-          ]
-        },
-        {
-          "id": "killers-save-the-best-for-last",
-          "role": "killers",
-          "key": "savethebestforlast",
-          "name": "Save the Best for Last",
-          "obtainedFrom": "Shape",
-          "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_saveTheBestForLast.png",
-          "descriptionText": "Identical to Keep Them Waiting. \"Death has come to your little town, Sheriff.\" — Dr Sam Loomis",
-          "links": [
-            {
-              "label": "Keep Them Waiting",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Keep_Them_Waiting"
-            }
-          ]
-        },
-        {
-          "id": "killers-scourge-hook-floods-of-rage",
-          "role": "killers",
-          "key": "scourgehookfloodsofrage",
-          "name": "Scourge Hook: Floods of Rage",
-          "obtainedFrom": "Onryō",
-          "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_scourgeHookFloodsOfRage.png",
-          "descriptionText": "\"You form a psychic connection with The Entity and alter the rules of the Trial.\" At the start of the Trial, 4 Hooks in the environment are changed into Scourge Hooks: The Auras of these Scourge Hooks are highlighted in white. Each time a Survivor is unhooked from a Scourge Hook, the following effects apply: The Auras of all other Survivors are revealed for 5/6/7 seconds.",
-          "links": [
-            {
-              "label": "Auras",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Aura"
-            }
-          ]
-        },
-        {
-          "id": "killers-scourge-hook-gift-of-pain",
-          "role": "killers",
-          "key": "scourgehookgiftofpain",
-          "name": "Scourge Hook: Gift of Pain",
-          "obtainedFrom": "Cenobite",
-          "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_scourgeHookGiftOfPain.png",
-          "descriptionText": "Identical to Scourge Hook: Weeping Wounds. \"We will tear your soul apart.\" — Pinhead",
-          "links": [
-            {
-              "label": "Scourge Hook: Weeping Wounds",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Scourge_Hook:_Weeping_Wounds"
-            }
-          ]
-        },
-        {
-          "id": "killers-scourge-hook-hangman-s-trick",
-          "role": "killers",
-          "key": "scourgehookhangmanstrick",
-          "name": "Scourge Hook: Hangman's Trick",
-          "obtainedFrom": "Pig",
-          "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_scourgeHookHangmansTrick.png",
-          "descriptionText": "\"Your ingenious modifications to hooks alert you of tampering.\" At the start of the Trial, 4 Hooks in the environment are changed into Scourge Hooks: The Auras of these Scourge Hooks are highlighted in white. While carrying a Survivor, Scourge Hook: Hangman's Trick triggers its primary effect: The Auras of all Survivors within 12/14/16 metres of a Scourge Hook are revealed to you. Whenever a Survivor starts the Sabotage action on any Hook, Scourge Hook: Hangman's Trick triggers its secondary effect: Triggers a Loud Noise Notification at the location of that Hook. \"No excuses, no equivocations... No crying.\" — Amanda Young",
-          "links": [
-            {
-              "label": "Auras",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Aura"
-            },
-            {
-              "label": "Hook",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Hook"
-            },
-            {
-              "label": "Loud Noise Notification",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Loud_Noise_Notification"
-            }
-          ]
-        },
-        {
-          "id": "killers-scourge-hook-jagged-compass",
-          "role": "killers",
-          "key": "scourgehookjaggedcompass",
-          "name": "Scourge Hook: Jagged Compass",
-          "obtainedFrom": "Houndmaster",
-          "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_scourgeHookJaggedCompass.png",
-          "descriptionText": "\"Sometimes the compass points north. Other times it points somewhere else entirely.\" At the start of the Trial, 4 Hooks in the environment are changed into Scourge Hooks: The Auras of these Scourge Hooks are highlighted in white. Whenever a Survivor is unhooked from a normal Hook, the following effect applies: The Hook is converted into a Scourge Hook. Whenever you hook a Survivor onto a Scourge Hook, the following effect applies: The Aura of the Generator with the most progression is highlighted in yellow for 6/8/10 seconds. \"Drop anchor! I will chart us a new course.\" — Portia Maye",
-          "links": [
-            {
-              "label": "Auras",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Aura"
-            },
-            {
-              "label": "Hook",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Hook"
-            },
-            {
-              "label": "Generator",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Generator"
-            }
-          ]
-        },
-        {
-          "id": "killers-scourge-hook-pain-resonance",
-          "role": "killers",
-          "key": "scourgehookpainresonance",
-          "name": "Scourge Hook: Pain Resonance",
-          "obtainedFrom": "Artist",
-          "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_scourgeHookPainResonance.png",
-          "descriptionText": "Overwhelming pain reverberates outwards. At the start of the Trial, 4 Hooks in the environment are changed into Scourge Hooks: The Auras of these Scourge Hooks are highlighted in white. Start the Trial with 4 Token. Whenever a Survivor is hooked onto a Scourge Hook for the first time, Scourge Hook: Pain Resonance consumes -1 Token and applies the following effects: Causes the Generator with the most progression to explode, damaging it. Instantly regresses the Damaged Generator by 10/15/20 % of its total Progression. Causes the Damaged Generator to start regressing afterwards. Causes all Survivors repairing the Damaged Generator to scream. This does not trigger a Loud Noise Notification. Scourge Hook: Pain Resonance is disabled for the remainder of the Trial once all Tokens are consumed. \"The pain spills beyond flesh/darkness staining the horizon.\" — Girl in the Shadow by Carmina Mora",
-          "links": [
-            {
-              "label": "Auras",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Aura"
-            },
-            {
-              "label": "Generator",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Generator"
-            },
-            {
-              "label": "Loud Noise Notification",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Loud_Noise_Notification"
-            }
-          ]
-        },
-        {
-          "id": "killers-scourge-hook-weeping-wounds",
-          "role": "killers",
-          "key": "scourgehookweepingwounds",
-          "name": "Scourge Hook: Weeping Wounds",
-          "obtainedFrom": "Bloodweb",
-          "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_scourgeHookWeepingWounds.png",
-          "descriptionText": "\"You are the bringer of sweet pain.\" At the start of the Trial, 4 Hooks in the environment are changed into Scourge Hooks: The Auras of these Scourge Hooks are highlighted in white. Each time a Survivor is unhooked from a Scourge Hook, the following effects apply: Causes that Survivor to suffer from the Haemorrhage Status Effect for 90 seconds. After the first time that Survivor is healed back to full health, they suffer from the following effect until they are injured again by any means: Reduces their Action speeds for Healing and Repairing by 10/13/16 %.",
-          "links": [
-            {
-              "label": "Auras",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Aura"
-            },
-            {
-              "label": "Haemorrhage",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Haemorrhage"
-            }
-          ]
-        },
-        {
-          "id": "killers-secret-project",
-          "role": "killers",
-          "key": "secretproject",
-          "name": "Secret Project",
-          "obtainedFrom": "First",
-          "iconUrl": "https://deadbydaylight.wiki.gg/images/IconsPerks_SecretProject.png",
-          "descriptionText": "\"Raised to be weapon, you broke free with the very skills your captors honed within you.\" Whenever a Totem is blessed or cleansed, a random unblocked generator becomes blocked for 20/25/30 seconds. Whenever any number of Generators become blocked, you gain Undetectable Status Effect for 30 seconds. \"You are a prisoner here, just like me\" — Henry Creel",
-          "links": [
-            {
-              "label": "Totem",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Totem"
-            },
-            {
-              "label": "Generators",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Generator"
-            },
-            {
-              "label": "Undetectable",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Undetectable"
-            }
-          ]
-        },
-        {
-          "id": "killers-sloppy-butcher",
-          "role": "killers",
-          "key": "sloppybutcher",
-          "name": "Sloppy Butcher",
-          "obtainedFrom": "Bloodweb",
-          "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_sloppyButcher.png",
-          "descriptionText": "\"You know where to hit to make them bleed.\" Survivors hit with your vicious Basic Attack suffer from the following effects for 70/80/90 seconds: Inflicts the Haemorrhage and Mangled Status Effects. Modifies the potency of Haemorrhage: Increases the Spawn frequency of Pools of Blood by 50/75/100 %. Increases the Regression rate of partial Healing progression by 25 %. \"It is in its sadistic nature. There is no swift kill as it delights in the obscene spectacle of our agonising suffering.\"",
-          "links": [
-            {
-              "label": "Basic Attack",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Basic_Attack"
-            },
-            {
-              "label": "Haemorrhage",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Haemorrhage"
-            },
-            {
-              "label": "Mangled",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Mangled"
-            },
-            {
-              "label": "Pools of Blood",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Pools_of_Blood"
-            }
-          ]
-        },
-        {
-          "id": "killers-spies-from-the-shadows",
-          "role": "killers",
-          "key": "spiesfromtheshadows",
-          "name": "Spies from the Shadows",
-          "obtainedFrom": "Bloodweb",
-          "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_spiesFromTheShadows.png",
-          "descriptionText": "\"Allows the Crows found in the environment to directly communicate with you.\" Whenever a Survivor startles a Crow within 20/28/36 metres of your location, Spies from the Shadows triggers its effect: Alerts you with a unique Loud Noise Notification in the shape of a Crow. Spies from the Shadows has a cool-down of 5 seconds between alerts. \"In the shadows they torment, scarring our minds with each scream.\"",
-          "links": [
-            {
-              "label": "Crow",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Crow"
-            },
-            {
-              "label": "Loud Noise Notification",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Loud_Noise_Notification"
-            }
-          ]
-        },
-        {
-          "id": "killers-spirit-fury",
-          "role": "killers",
-          "key": "spiritfury",
-          "name": "Spirit Fury",
-          "obtainedFrom": "Spirit",
-          "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_spiritFury.png",
-          "descriptionText": "\"Each obstacle you break magnifies the wrath of The Entity.\" After manually breaking a total of 4/3/2 dropped Pallets by any means, Spirit Fury activates: Instantly breaks the next Pallet used by a Survivor to stun you. Spirit Fury deactivates after use and does not affect the duration of the Pallet Stun. \"Fury is her blood.\"",
-          "links": [
-            {
-              "label": "Pallets",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Pallet"
-            }
-          ]
-        },
-        {
-          "id": "killers-starstruck",
-          "role": "killers",
-          "key": "starstruck",
-          "name": "Starstruck",
-          "obtainedFrom": "Trickster",
-          "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_starstruck.png",
-          "descriptionText": "\"Your unmatched showmanship dazzles all.\" Whenever you are carrying a Survivor, Starstruck activates: Causes all other Survivors in your Terror Radius to suffer from the Exposed Status Effect. This effect lingers for 26/28/30 seconds after affected Survivors leave the Terror Radius or Starstruck deactivates. Starstruck deactivates after hooking or dropping the carried Survivor and has a cool-down of 60 seconds. \"Enjoy this moment, few get so close.\" — Ji-Woon Hak",
-          "links": [
-            {
-              "label": "Terror Radius",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Terror_Radius"
-            },
-            {
-              "label": "Exposed",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Exposed"
-            }
-          ]
-        },
-        {
-          "id": "killers-surge",
-          "role": "killers",
-          "key": "surge",
-          "name": "Surge",
-          "obtainedFrom": "Demogorgon",
-          "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_surge.png",
-          "descriptionText": "\"Your eerie presence charges the air and interferes with technology.\" Whenever you put a Survivor into the Dying State with your Basic Attack, Surge triggers its effect: Causes all Generators within 32 metres of your location to instantly explode and start regressing. Instantly regresses all affected Generators by 6/7/8 %. \"The creature appears to have some unknown influence over electricity and nearby electronics.\" — Hawkins National Laboratory",
-          "links": [
-            {
-              "label": "Dying State",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Dying_State"
-            },
-            {
-              "label": "Basic Attack",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Basic_Attack"
-            },
-            {
-              "label": "Generators",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Generator"
-            }
-          ]
-        },
-        {
-          "id": "killers-surveillance",
-          "role": "killers",
-          "key": "surveillance",
-          "name": "Surveillance",
-          "obtainedFrom": "Pig",
-          "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_surveillance.png",
-          "descriptionText": "Unlocks potential in your Aura-reading ability: The Auras of damaged Generators are highlighted based on their current state: White Aura: The Generator is currently regressing. Yellow Aura: The Generator stopped regressing due to Survivor-intervention. This effect lasts for 8/12/16 seconds, after which the Generator Aura returns to its default colour. While Survivors are repairing Generators, they suffer from the following effect: Increases the audible range of all noises related to the Repair interaction by 8 metres. \"Are you gonna behave?\" — Amanda Young",
-          "links": [
-            {
-              "label": "Auras",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Aura"
-            },
-            {
-              "label": "Generators",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Generator"
-            }
-          ]
-        },
-        {
-          "id": "killers-thanatophobia",
-          "role": "killers",
-          "key": "thanatophobia",
-          "name": "Thanatophobia",
-          "obtainedFrom": "Nurse",
-          "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_thanatophobia.png",
-          "descriptionText": "\"Their courage fades in the face of their undeniable mortality.\" Whenever at least one Survivor is either injured, dying, or hooked, Thanatophobia activates.While active, all Survivors suffer from the following primary effect: Incurs a stack-able 1/1.5/2 % Action-Speed penalty per injured, dying, or hooked Survivor for Cleansing, Repairing, and Sabotaging, up to a maximum of 4/6/8 %. If all four Survivors are either injured, dying, or hooked, they suffer from the following secondary effect: Increases the penalty by an additional 12 % to a total of 16/18/20 %. \"She plays with us and revels in our pain.\"",
-          "links": []
-        },
-        {
-          "id": "killers-thrilling-tremors",
-          "role": "killers",
-          "key": "thrillingtremors",
-          "name": "Thrilling Tremors",
-          "obtainedFrom": "Danny Johnson",
-          "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_thrillingTremors.png",
-          "descriptionText": "\"Your dark designs and shrewd composure rouse The Entity.\" After picking up a Survivor, Thrilling Tremors triggers its effects: Blocks all Generators not currently being repaired by any Survivors for 16 seconds. The Auras of Blocked Generators are highlighted to you in white. Thrilling Tremors has a cool-down of 40/35/30 seconds. \"The night assists me and it's endless here.\" — The Ghost Face",
-          "links": [
-            {
-              "label": "Entity",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Entity"
-            },
-            {
-              "label": "Generators",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Generator"
-            },
-            {
-              "label": "Auras",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Aura"
-            }
-          ]
-        },
-        {
-          "id": "killers-thwack",
-          "role": "killers",
-          "key": "thwack",
-          "name": "THWACK!",
-          "obtainedFrom": "Skull Merchant",
-          "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_thwack.png",
-          "descriptionText": "\"Your prey is terrified by your relentless pursuit.\" Start the Trial with 3 Tokens.Whenever you break a Breakable Wall or a dropped Pallet, THWACK! consumes -1 Token and applies the following effect: Causes all Survivors within 36 metres of your location to scream and reveal their Aura for 4/5/6 seconds. Whenever you hook a Survivor, THWACK! is granted 1 Token. \"All those who stood in her path feared her mighty THWACK!\" — Sonhadores Sombrios, Issue #3",
-          "links": [
-            {
-              "label": "Breakable Wall",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Breakable_Wall"
-            },
-            {
-              "label": "Pallet",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Pallet"
-            },
-            {
-              "label": "Aura",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Aura"
-            }
-          ]
-        },
-        {
-          "id": "killers-tinkerer",
-          "role": "killers",
-          "key": "tinkerer",
-          "name": "Tinkerer",
-          "obtainedFrom": "Hillbilly",
-          "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_tinkerer.png",
-          "descriptionText": "Whenever a Generator is repaired to 70 %, you benefit from the following effects: Triggers a Loud Noise Notification for that Generator, revealing its location. Grants the Undetectable Status Effect for the next 12/14/16 seconds. Tinkerer can only trigger once per Generator per Trial. \"The Hillbilly makes impressive tools out of scraps. Tools aimed at maiming us in creative ways.\" — Notebook",
-          "links": [
-            {
-              "label": "Generator",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Generator"
-            },
-            {
-              "label": "Loud Noise Notification",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Loud_Noise_Notification"
-            },
-            {
-              "label": "Undetectable",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Undetectable"
-            }
-          ]
-        },
-        {
-          "id": "killers-trail-of-torment",
-          "role": "killers",
-          "key": "trailoftorment",
-          "name": "Trail of Torment",
-          "obtainedFrom": "Executioner",
-          "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_trailOfTorment.png",
-          "descriptionText": "\"You guide your victims along a path of pain and punishment.\" Performing the Damage Generator action on a Generator activates Trail of Torment: Grants the Undetectable Status Effect. The Aura of the Damaged Generator is revealed to all Survivors and highlighted in yellow. Trail of Torment deactivates after the Damaged Generator stops regressing by any means and has a cool-down of 60/45/30 seconds between activations.",
-          "links": [
-            {
-              "label": "Generator",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Generator"
-            },
-            {
-              "label": "Undetectable",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Undetectable"
-            },
-            {
-              "label": "Aura",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Aura"
-            }
-          ]
-        },
-        {
-          "id": "killers-turn-back-the-clock",
-          "role": "killers",
-          "key": "turnbacktheclock",
-          "name": "Turn Back the Clock",
-          "obtainedFrom": "First",
-          "iconUrl": "https://deadbydaylight.wiki.gg/images/IconsPerks_TurnBackTheClock.png",
-          "descriptionText": "\"Resist as they might, time marches on, and your master plan comes closer to fruition.\" After hooking a Survivor, for 40/50/60 seconds, press the Active Ability button to make a target generator within 20 meters explode, lose -10 % progress, and start regressing. \"Nothing will happen to you... Nothing that you don't deserve!\" — Henry Creel",
-          "links": []
-        },
-        {
-          "id": "killers-unforeseen",
-          "role": "killers",
-          "key": "unforeseen",
-          "name": "Unforeseen",
-          "obtainedFrom": "Unknown",
-          "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_unforeseen.png",
-          "descriptionText": "\"Terror takes many forms and whispers devastating lies in its victims' ears.\" After performing the Damage Generator action on a Generator, you benefit from the following effects for 22/26/30 seconds: Transfers your Terror Radius to the damaged Generator. This Terror Radius is set to 32 metres. Grants the Undetectable Status Effect. Unforeseen has a cool-down of 30 seconds. \"Mom, if you find this, I'm sorry...\" — Final Journal Entry, 07/12/1991",
-          "links": [
-            {
-              "label": "Generator",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Generator"
-            },
-            {
-              "label": "Terror Radius",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Terror_Radius"
-            },
-            {
-              "label": "Undetectable",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Undetectable"
-            }
-          ]
-        },
-        {
-          "id": "killers-zanshin-tactics",
-          "role": "killers",
-          "key": "zanshintactics",
-          "name": "Zanshin Tactics",
-          "obtainedFrom": "Oni",
-          "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_zanshinTactics.png",
-          "descriptionText": "\"You are mentally alert and aware of key points on the battlefield and nearby enemies in retreat.\" Unlocks potential in your Aura-reading ability: The Auras of Pallets and Windows are revealed to you within 32 metres. Whenever a Survivor drops a Pallet, Zanshin Tactics triggers the following effect: Their Aura is revealed to you for 3/4/5 seconds. \"Within your enemy's strength is weakness.\" — Renjiro's Doctrine 12:5",
-          "links": [
-            {
-              "label": "Auras",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Aura"
-            },
-            {
-              "label": "Pallets",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Pallet"
-            },
-            {
-              "label": "Windows",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Window"
-            }
-          ]
-        }
-      ],
-      "survivors": [
-        {
-          "id": "survivors-adrenaline",
-          "role": "survivors",
-          "key": "adrenaline",
-          "name": "Adrenaline",
-          "obtainedFrom": "Meg Thomas",
-          "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_adrenaline.png",
-          "descriptionText": "\"You are fuelled by unexpecting energy when on the verge of escape.\" Once the Exit Gates are powered, Adrenaline activates and triggers the following effects: Heals you to the next Health State. Grants a 50 % Haste Status Effect for 3 seconds. Adrenaline can be used while Exhausted and ignores an existing Status Effect.Adrenaline causes the Exhausted Status Effect for 60/50/40 seconds after use.",
-          "links": [
-            {
-              "label": "Exit Gates",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Exit_Gate"
-            },
-            {
-              "label": "Health State",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Health_State"
-            },
-            {
-              "label": "Haste",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Haste"
-            },
-            {
-              "label": "Exhausted",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Exhausted"
-            }
-          ]
-        },
-        {
-          "id": "survivors-aftercare",
-          "role": "survivors",
-          "key": "aftercare",
-          "name": "Aftercare",
-          "obtainedFrom": "Jeff Johansen",
-          "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_aftercare.png",
-          "descriptionText": "Unlocks potential in your Aura-reading ability: You see the Auras of the 1/2/3 most recent Survivor(s) that helped you or vice versa: Rescued from a Hook. Completed a Healing action on. They also see your Aura. Aftercare resets its effects when you are hooked by the Killer. \"A Mercy that Rips the Storm.Oil work to honour my best buddies who happen to be the best musicians I know. Their first album is still my favourite. It got me through a dark time in my life.\" — Jeff, oil on canvas, 16x16",
-          "links": [
-            {
-              "label": "Auras",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Aura"
-            },
-            {
-              "label": "Hook",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Hook"
-            }
-          ]
-        },
-        {
-          "id": "survivors-alert",
-          "role": "survivors",
-          "key": "alert",
-          "name": "Alert",
-          "obtainedFrom": "Feng Min",
-          "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_alert.png",
-          "descriptionText": "\"Your acute senses are on high alert.\" Whenever the Killer performs the Break or Damage Action, Alert triggers: Their Aura is revealed to you for 3/4/5 seconds. \"I have true sight,\" — Feng Min",
-          "links": [
-            {
-              "label": "Aura",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Aura"
-            }
-          ]
-        },
-        {
-          "id": "survivors-babysitter",
-          "role": "survivors",
-          "key": "babysitter",
-          "name": "Babysitter",
-          "obtainedFrom": "Steve Harrington",
-          "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_babysitter.png",
-          "descriptionText": "\"While you have a reputation for being self-centred, you risk it all to help those in need.\" Whenever you unhook another Survivor, you benefit from the following effect: The Aura of the Killer is revealed to you for 8 seconds. The unhooked Survivor benefits from the following effects instead for 20/25/30 seconds: Suppresses the creation of their Scratch Marks and Pools of Blood. Increases the strength of their Haste Status Effect by 10 %. \"I promised to keep you shitheads safe, and that's exactly what I plan on doing.\" — Steve Harrington",
-          "links": [
-            {
-              "label": "Aura",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Aura"
-            },
-            {
-              "label": "Scratch Marks",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Scratch_Marks"
-            },
-            {
-              "label": "Pools of Blood",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Pools_of_Blood"
-            },
-            {
-              "label": "Haste",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Haste"
-            }
-          ]
-        },
-        {
-          "id": "survivors-background-player",
-          "role": "survivors",
-          "key": "backgroundplayer",
-          "name": "Background Player",
-          "obtainedFrom": "Renato Lyra",
-          "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_backgroundPlayer.png",
-          "descriptionText": "\"You are not usually the centre of attention and in some cases, this can be a good thing.\" Whenever the Killer picks up any other Survivor in the Dying State, Background Player activates for 10 seconds.While active, starting to run triggers the following effect: Grants a 50 % Haste Status Effect for 5 seconds. Background Player cannot be used while Exhausted.Background Player causes the Exhausted Status Effect for 30/25/20 seconds after use. \"You forget about me?\" — Renato Lyra",
-          "links": [
-            {
-              "label": "Dying State",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Dying_State"
-            },
-            {
-              "label": "Haste",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Haste"
-            },
-            {
-              "label": "Exhausted",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Exhausted"
-            }
-          ]
-        },
-        {
-          "id": "survivors-balanced-landing",
-          "role": "survivors",
-          "key": "balancedlanding",
-          "name": "Balanced Landing",
-          "obtainedFrom": "Nea Karlsson",
-          "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_balancedLanding.png",
-          "descriptionText": "\"Your agility and cat-like relexes are incomparable.\" While falling from height, you benefit from the following effects: Suppresses all noises related to falling and landing. Reduces the duration of the Stagger upon landing by -75 %. Grants a 50 % Haste Status Effect for 3 seconds. Balanced Landing cannot be used while Exhausted.Balanced Landing causes the Exhausted Status Effect for 60/50/40 seconds after use. \"I have jumped from higher places.\" — Nea Karlsson",
-          "links": [
-            {
-              "label": "Stagger",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Stagger"
-            },
-            {
-              "label": "Haste",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Haste"
-            },
-            {
-              "label": "Exhausted",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Exhausted"
-            }
-          ]
-        },
-        {
-          "id": "survivors-better-together",
-          "role": "survivors",
-          "key": "bettertogether",
-          "name": "Better Together",
-          "obtainedFrom": "Nancy Wheeler",
-          "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_betterTogether.png",
-          "descriptionText": "\"You seek justice and uncover the truth no matter what obstacle stands in your way.\" While repairing any Generator, you and the other Survivors benefit from the following primary effect: The Aura of that Generator is revealed to all Survivors and highlighted in yellow. Whenever the Killer downs another Survivor while you are repairing, you benefit from the following secondary effect: The Auras of all Survivors are revealed to you for 20/25/30 seconds. \"Let's burn that lab to the ground.\" — Nancy Wheeler",
-          "links": [
-            {
-              "label": "Generator",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Generator"
-            },
-            {
-              "label": "Aura",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Aura"
-            }
-          ]
-        },
-        {
-          "id": "survivors-bond",
-          "role": "survivors",
-          "key": "bond",
-          "name": "Bond",
-          "obtainedFrom": "Dwight Fairfield",
-          "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_bond.png",
-          "descriptionText": "Unlocks potential in your Aura-reading ability: The Auras of all other Survivors are revealed to you within 20/28/36 metres. \"We have to work as a team, I need you to survive so that I can survive!\" — Dwight Fairfield",
-          "links": [
-            {
-              "label": "Auras",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Aura"
-            }
-          ]
-        },
-        {
-          "id": "survivors-boon-circle-of-healing",
-          "role": "survivors",
-          "key": "booncircleofhealing",
-          "name": "Boon: Circle of Healing",
-          "obtainedFrom": "Mikaela Reid",
-          "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_boonCircleOfHealing.png",
-          "descriptionText": "A Boon that offers comfort amidst the terror. Press and hold the Active Ability button on a Dull or Hex Totem to bless it and create a Boon Totem.All Survivors within 24 metres hear soft chimes ringing out and benefit from its Boon Effects: Increases the Altruistic Healing speeds by 50/75/100 % when not using a Med-Kit. If a Survivor is injured, their Aura is revealed to all other Survivors. Survivors can only be affected by one instance of Boon: Circle of Healing at a time. Only one Totem can be blessed by your Boon Perks at a time and all of their effects are active on the same Boon Totem. \"Try this, it is better than anything you'll find in a pharmacy.\" — Mikaela Reid",
-          "links": [
-            {
-              "label": "Boon Totem",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Boon_Totem"
-            },
-            {
-              "label": "Med-Kit",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Med-Kit"
-            },
-            {
-              "label": "Aura",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Aura"
-            }
-          ]
-        },
-        {
-          "id": "survivors-boon-exponential",
-          "role": "survivors",
-          "key": "boonexponential",
-          "name": "Boon: Exponential",
-          "obtainedFrom": "Jonah Vasquez",
-          "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_boonExponential.png",
-          "descriptionText": "\"When it seems like your number is up, you consider ways to recalculate the odds.\" Press and hold the Active Ability button on a Dull or Hex Totem to bless it and create a Boon Totem.All Survivors within 24 metres hear soft chimes ringing out and benefit from its Boon Effects: Increases the Recovery speed while in the Dying State by 90/95/100 %. Unlocks the Self-Recovery ability, allowing them to fully recover from the Dying State. Only one Totem can be blessed by your Boon Perks at a time and all of their effects are active on the same Boon Totem. \"It is not our time to die... probably.\" — Jonah Vasquez",
-          "links": [
-            {
-              "label": "Boon Totem",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Boon_Totem"
-            },
-            {
-              "label": "Dying State",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Dying_State"
-            }
-          ]
-        },
-        {
-          "id": "survivors-boon-illumination",
-          "role": "survivors",
-          "key": "boonillumination",
-          "name": "Boon: Illumination",
-          "obtainedFrom": "Alan Wake",
-          "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_boonIllumination.png",
-          "descriptionText": "\"Your keen insight is something best shared with others.\" Press and hold the Active Ability button on a Dull or Hex Totem to bless it and create a Boon Totem.All Survivors within 24 metres hear soft chimes ringing out and benefit from its Boon Effects: The Auras of all Chests and Generators are highlighted to you in blue. Increases your Action speeds for Blessing and Cleansing by 6/8/10 % while you have a lit Boon Totem. Survivors can only be affected by one instance of Boon: Illumination at a time. Only one Totem can be blessed by your Boon Perks at a time and all of their effects are active on the same Boon Totem. \"A shift in reality. Heavy with hidden meanings.\" — Return",
-          "links": [
-            {
-              "label": "Boon Totem",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Boon_Totem"
-            },
-            {
-              "label": "Auras",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Aura"
-            },
-            {
-              "label": "Chests",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Chest"
-            },
-            {
-              "label": "Generators",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Generator"
-            }
-          ]
-        },
-        {
-          "id": "survivors-boon-shadow-step",
-          "role": "survivors",
-          "key": "boonshadowstep",
-          "name": "Boon: Shadow Step",
-          "obtainedFrom": "Mikaela Reid",
-          "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_boonShadowStep.png",
-          "descriptionText": "A Boon that conceals the truth. Press and hold the Active Ability button on a Dull or Hex Totem to bless it and create a Boon Totem.All Survivors within 24 metres hear soft chimes ringing out and benefit from its Boon Effects: Scratch Marks are suppressed. Auras are hidden from The Killer. Both effects linger for 2/3/4 seconds after leaving the Boon Totem's range. Only one Totem can be blessed by your Boon Perks at a time and all of their effects are active on the same Boon Totem. \"Stick to the shadows and cover your tracks.\" — Mikaela Reid",
-          "links": [
-            {
-              "label": "Boon Totem",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Boon_Totem"
-            },
-            {
-              "label": "Scratch Marks",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Scratch_Marks"
-            },
-            {
-              "label": "Auras",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Aura"
-            }
-          ]
-        },
-        {
-          "id": "survivors-botany-knowledge",
-          "role": "survivors",
-          "key": "botanyknowledge",
-          "name": "Botany Knowledge",
-          "obtainedFrom": "Claudette Morel",
-          "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_botanyKnowledge.png",
-          "descriptionText": "\"You transform plants found around the campfire into tinctures that slow down bleeding.\" You benefit from the following permanent effect: Increases your Healing speed by 30/40/50 %. \"Basic Botany Knowledge could save your life someday\" — Claudette Morel",
-          "links": []
-        },
-        {
-          "id": "survivors-breakdown",
-          "role": "survivors",
-          "key": "breakdown",
-          "name": "Breakdown",
-          "obtainedFrom": "Jeff Johansen",
-          "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_breakdown.png",
-          "descriptionText": "After you are unhooked by any means, Breakdown triggers its effects: Instantly breaks that Hook. Increases its Auto-Repair timer to 180 seconds. The Aura of the Killer is revealed to you for 4/5/6 seconds. \"Charge from the Belly of the Beast.Here's a sketch/painting on a piece of wood I saw by the side of this road. I felt like it got a story to tell. And it didn't waste its second chance.\" — Jeff, ink and oil wash on slice of wood, 12x16",
-          "links": [
-            {
-              "label": "Hook",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Hook"
-            },
-            {
-              "label": "Aura",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Aura"
-            }
-          ]
-        },
-        {
-          "id": "survivors-built-to-last",
-          "role": "survivors",
-          "key": "builttolast",
-          "name": "Built to Last",
-          "obtainedFrom": "Felix Richter",
-          "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_builtToLast.png",
-          "descriptionText": "\"You know how to get the most out of your tools.\" While hiding inside a Locker with a depleted Item equipped, Built to Last triggers the following effect after 12/10/8 seconds: Recharges the Item to one of the following percentages: First time: 99 %. Second time: 66 %. Third time: 33 %. Built to Last is disabled for the remainder of the Trial after triggering its effect for the third time. \"Architecture is the soul of civilisation.\" — Felix Richter",
-          "links": [
-            {
-              "label": "Locker",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Locker"
-            },
-            {
-              "label": "Item",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Item"
-            }
-          ]
-        },
-        {
-          "id": "survivors-clairvoyance",
-          "role": "survivors",
-          "key": "clairvoyance",
-          "name": "Clairvoyance",
-          "obtainedFrom": "Mikaela Reid",
-          "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_clairvoyance.png",
-          "descriptionText": "\"There is an intrinsic energy in you that sees beyond your vision.\" After cleansing or blessing a Totem, Clairvoyance activates.While active, press and hold the Use Item button when empty-handed to unlock your full Aura-reading potential: The Auras of the following objects within 64 metres are revealed to you for as long as you uphold the interaction, up to a maximum of 10/11/12 seconds: Chests Exit Gate Switches Generators Hatch Hooks \"Does anyone else see that? Just me?\" — Mikaela Reid",
-          "links": [
-            {
-              "label": "Totem",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Totem"
-            },
-            {
-              "label": "Auras",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Aura"
-            },
-            {
-              "label": "Chests",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Chest"
-            },
-            {
-              "label": "Exit Gate Switches",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Exit_Gate_Switch"
-            },
-            {
-              "label": "Generators",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Generator"
-            },
-            {
-              "label": "Hatch",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Hatch"
-            },
-            {
-              "label": "Hooks",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Hook"
-            }
-          ]
-        },
-        {
-          "id": "survivors-conviction",
-          "role": "survivors",
-          "key": "conviction",
-          "name": "Conviction",
-          "obtainedFrom": "Michonne Grimes",
-          "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_conviction.png",
-          "descriptionText": "\"Sometimes one last push means the difference between death and survival.\" After having completed a Healing action on another Survivor, whenever you are in the Dying State, Conviction activates.While active, press the Active Ability button after reaching at least 25 % Recovery progress to trigger the following effects: Unlocks the Self-Recovery ability, allowing you to fully recover from the Dying State. Inflicts the Broken Status Effect. Causes you to automatically re-enter the Dying State after 20/25/30 seconds. \"It's enough to keep going. Keep trying. Keep fighting. Keep dreaming.\" — Michonne Grimes",
-          "links": [
-            {
-              "label": "Dying State",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Dying_State"
-            },
-            {
-              "label": "Broken",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Broken"
-            }
-          ]
-        },
-        {
-          "id": "survivors-corrective-action",
-          "role": "survivors",
-          "key": "correctiveaction",
-          "name": "Corrective Action",
-          "obtainedFrom": "Jonah Vasquez",
-          "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_correctiveAction.png",
-          "descriptionText": "\"You quickly analyse problems and correct others' work when they make a mistake.\" You start the Trial with 1/2/3 Token(s) and succeeding a Great Skill Check grants 1 Token, up to a maximum of 5 Tokens.While any other Survivor performs a skilful interaction that can trigger Skill Checks, they benefit from the following effects: Converts any Failed Skill Check into a Good Skill Check. This consumes -1 Token. The Aura of that Survivor is revealed to you for 6 seconds. Corrective Action does not apply to special Skill Checks. \"Cannot hurt to have another set of eyes on the problem.\" — Jonah Vasquez",
-          "links": [
-            {
-              "label": "Skill Checks",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Skill_Check"
-            },
-            {
-              "label": "Aura",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Aura"
-            }
-          ]
-        },
-        {
-          "id": "survivors-dark-sense",
-          "role": "survivors",
-          "key": "darksense",
-          "name": "Dark Sense",
-          "obtainedFrom": "Bloodweb",
-          "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_darkSense.png",
-          "descriptionText": "Unlocks potential in your Aura-reading ability.Whenever a Generator is completed, Dark Sense activates: The Aura of the Killer is revealed to you for 5/7/10 seconds once they come within 24 metres of your location. Dark Sense deactivates after use. \"Take it from an old-timer: Slow down, don't rush and try not to worry so much! The best way to beat him is to know how he thinks.\" — Murf, The Lost Tapes",
-          "links": [
-            {
-              "label": "Generator",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Generator"
-            },
-            {
-              "label": "Aura",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Aura"
-            }
-          ]
-        },
-        {
-          "id": "survivors-dead-hard",
-          "role": "survivors",
-          "key": "deadhard",
-          "name": "Dead Hard",
-          "obtainedFrom": "David King",
-          "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_deadHard.png",
-          "descriptionText": "\"You can take a beating.Tap into your adrenaline bank to avoid taking further damage.\" After being unhooked by any means, Dead Hard activates:While injured and running, press the Active Ability button to trigger the following effect: Grants the Endurance Status Effect for 0.5 seconds. Dead Hard cannot be used while Exhausted.Dead Hard causes the Exhausted Status Effect for 60/50/40 seconds. \"We were walkin' through t'ginnel one night when a beer bottle flew past me, then another, and another.I thought to myself \"Gonna 'ave some fun 'ere lads, let's get stuck in!\".It were a right dust up, I swear down!\" — David King",
-          "links": [
-            {
-              "label": "Endurance",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Endurance"
-            },
-            {
-              "label": "Exhausted",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Exhausted"
-            }
-          ]
-        },
-        {
-          "id": "survivors-decisive-strike",
-          "role": "survivors",
-          "key": "decisivestrike",
-          "name": "Decisive Strike",
-          "obtainedFrom": "Laurie Strode",
-          "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_decisiveStrike.png",
-          "descriptionText": "Identical to Will to Live. \"There is nothing to be scared of.\" — Laurie Strode",
-          "links": [
-            {
-              "label": "Will to Live",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Will_to_Live"
-            }
-          ]
-        },
-        {
-          "id": "survivors-deja-vu",
-          "role": "survivors",
-          "key": "dejavu",
-          "name": "Déjà Vu",
-          "obtainedFrom": "Bloodweb",
-          "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_dejaVu.png",
-          "descriptionText": "\"Paranoia paired with your horror of failure helps prepare you from repeating the same mistakes.\" Unlocks potential in your Aura-reading ability: The Auras of whichever 3 Generators are currently in closest proximity to one another are revealed to you. Increases your Repair speed on those Generators by 4/5/6 %.",
-          "links": [
-            {
-              "label": "Auras",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Aura"
-            },
-            {
-              "label": "Generators",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Generator"
-            }
-          ]
-        },
-        {
-          "id": "survivors-deliverance",
-          "role": "survivors",
-          "key": "deliverance",
-          "name": "Deliverance",
-          "obtainedFrom": "Adam Francis",
-          "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_deliverance.png",
-          "descriptionText": "After safely unhooking another Survivor, Deliverance activates: Grants the ability to perform a successful Self-Unhook at any point during the first Hook Stage. Causes the Broken Status Effect for 100/80/60 seconds after unhooking yourself. Deliverance cannot be used during the second Hook Stage or if you are hooked as the Last Survivor Standing.Deliverance is disabled for the remainder of the Trial after use. \"I was raised by a strict man who taught me how to make the best of a bad situation.\" — Adam Francis",
-          "links": [
-            {
-              "label": "Broken",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Broken"
-            }
-          ]
-        },
-        {
-          "id": "survivors-down-to-the-last",
-          "role": "survivors",
-          "key": "downtothelast",
-          "name": "Down to the Last",
-          "obtainedFrom": "Bloodweb",
-          "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_soleSurvivor_noLicense.png",
-          "descriptionText": "As more of your friends fall to the Killer, you become shrouded in isolation and the Killer's Aura-reading abilities towards you are disrupted. Each time a Survivor other than yourself is killed or sacrificed, Down to the Last gains 1 Token, up to a maximum of 3 Tokens: Grants a stack-able radius of 20/22/24 metres per Token around you, up to a maximum of 60/66/72 metres, within which you are immune to the Killer's Aura-reading abilities. When you are the Last Survivor Standing, you benefit from the following effects: Increases your Repair speed by 75 %. Increases your Gate and Hatch Opening speeds by 50 %. Increases your chance of becoming the initial Obsession by increasing the default value by 100 %.The Killer can only be obsessed with one Survivor at a time.",
-          "links": []
-        },
-        {
-          "id": "survivors-empathic-connection",
-          "role": "survivors",
-          "key": "empathicconnection",
-          "name": "Empathic Connection",
-          "obtainedFrom": "Yoichi Asakawa",
-          "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_empathicConnection.png",
-          "descriptionText": "\"Your presence psychically projects itself to those in danger.\" You benefit from the following permanent primary effect: Increases your Altruistic Healing speed by 25/30/35 %. Whenever any other Survivor is injured, Empathic Connection applies its secondary effect: Your Aura as a potential Healer is revealed to them.",
-          "links": [
-            {
-              "label": "Aura",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Aura"
-            }
-          ]
-        },
-        {
-          "id": "survivors-empathy",
-          "role": "survivors",
-          "key": "empathy",
-          "name": "Empathy",
-          "obtainedFrom": "Claudette Morel",
-          "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_empathy.png",
-          "descriptionText": "Unlocks potential in your Aura-reading ability: The Auras of injured or dying Survivors are revealed to you within 64/96/128 metres.",
-          "links": [
-            {
-              "label": "Auras",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Aura"
-            }
-          ]
-        },
-        {
-          "id": "survivors-extrasensory-perception",
-          "role": "survivors",
-          "key": "extrasensoryperception",
-          "name": "Extrasensory Perception",
-          "obtainedFrom": "Eleven",
-          "iconUrl": "https://deadbydaylight.wiki.gg/images/IconsPerks_ExtrasensoryPerception.png",
-          "descriptionText": "\"By slowing down and focusing, you can sense both ally and enemy.\" Crouch for 4 seconds to activate this perk. While active: You see the Auras of Survivors, the Killer, and a variety of objects. These are revealed in an expanding 44 meter radius. *Revealed objects include Chests, Exit Gate, Generators, Hatch, Items, Pallets, Totems, and Windows. You gain Elusive and Oblivious Status Effects. When you stop crouching, or after 11 seconds, all effects of this perk end and it enters a 60/50/40 seconds cooldown. \"What is friend?\" — Eleven",
-          "links": [
-            {
-              "label": "Auras",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Aura"
-            },
-            {
-              "label": "Survivors",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Survivor"
-            },
-            {
-              "label": "Killer",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Killer"
-            },
-            {
-              "label": "Chests",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Chest"
-            },
-            {
-              "label": "Exit Gate",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Exit_Gate"
-            },
-            {
-              "label": "Generators",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Generator"
-            },
-            {
-              "label": "Hatch",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Hatch"
-            },
-            {
-              "label": "Items",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Item"
-            },
-            {
-              "label": "Pallets",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Pallet"
-            },
-            {
-              "label": "Totems",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Totem"
-            },
-            {
-              "label": "Windows",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Window"
-            },
-            {
-              "label": "Elusive",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Elusive"
-            },
-            {
-              "label": "Oblivious",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Oblivious"
-            }
-          ]
-        },
-        {
-          "id": "survivors-hope",
-          "role": "survivors",
-          "key": "hope",
-          "name": "Hope",
-          "obtainedFrom": "Bloodweb",
-          "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_hope.png",
-          "descriptionText": "\"The growing odds of a successful escape fill you with hope and give you wings.\" Once the Exit Gates are powered, Hope activates for the remainder of the Trial: Grants a 3/4/5 % Haste Status Effect. \"Buckle up, fuckos! Let's roll.\" — Nikki, The Lost Tapes",
-          "links": [
-            {
-              "label": "Exit Gates",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Exit_Gate"
-            },
-            {
-              "label": "Haste",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Haste"
-            }
-          ]
-        },
-        {
-          "id": "survivors-inner-strength",
-          "role": "survivors",
-          "key": "innerstrength",
-          "name": "Inner Strength",
-          "obtainedFrom": "Nancy Wheeler",
-          "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_innerStrength.png",
-          "descriptionText": "\"You look inwards and trust your instincts when you feel lost and alone.\" After cleansing a Totem of any kind, Inner Strength activates.While active, hiding inside a Locker for 10/9/8 seconds triggers the following effect: Heals you to the next Health State. Inner Strength deactivates after use.Inner Strength cannot be used while suffering from the Broken Status Effect. \"All this time I've been trying so hard to pretend like everything's fine, but it's not.\" — Nancy Wheeler",
-          "links": [
-            {
-              "label": "Totem",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Totem"
-            },
-            {
-              "label": "Locker",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Locker"
-            },
-            {
-              "label": "Health State",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Health_State"
-            },
-            {
-              "label": "Broken",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Broken"
-            }
-          ]
-        },
-        {
-          "id": "survivors-iron-will",
-          "role": "survivors",
-          "key": "ironwill",
-          "name": "Iron Will",
-          "obtainedFrom": "Jake Park",
-          "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_ironWill.png",
-          "descriptionText": "\"You are able to concentrate and enter a meditative-like state to numb some pain.\" While injured, you benefit from the following effects: Reduces the volume of Grunts of Pain by 80/90/100 %. Iron Will cannot be used while Exhausted, but does not cause the Status Effect.",
-          "links": []
-        },
-        {
-          "id": "survivors-kindred",
-          "role": "survivors",
-          "key": "kindred",
-          "name": "Kindred",
-          "obtainedFrom": "Bloodweb",
-          "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_kindred.png",
-          "descriptionText": "Unlocks potential in your Aura-reading ability. Whenever any Survivor is hooked, Kindred activates and applies the following effects: The Aura of the Killer is revealed to all Survivors whenever the Killer comes within 8/12/16 metres of the Hook. If you are the Hooked Survivor, the Auras of all Survivors are revealed to each other. If you are not the Hooked Survivor, the Auras of all other Survivors are only revealed to you. \"Be kind to one another, We're all in this together\" — Sujan, The Lost Tapes",
-          "links": [
-            {
-              "label": "Aura",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Aura"
-            },
-            {
-              "label": "Hook",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Hook"
-            }
-          ]
-        },
-        {
-          "id": "survivors-leader",
-          "role": "survivors",
-          "key": "leader",
-          "name": "Leader",
-          "obtainedFrom": "Dwight Fairfield",
-          "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_leader.png",
-          "descriptionText": "\"You are able to organise a team to cooperate more efficiently.\" All other Survivors within 10 metres of your location benefit from the following effect: Increases their Action speeds for Cleansing, Gate-Opening, Healing, Sabotaging, Unhooking, and Unlocking by 20/25/30 %. This effect lingers for 15 seconds after leaving its Area of Effect. Survivors can only be affected by one instance of Leader at a time.",
-          "links": []
-        },
-        {
-          "id": "survivors-left-behind",
-          "role": "survivors",
-          "key": "leftbehind",
-          "name": "Left Behind",
-          "obtainedFrom": "Bill Overbeck",
-          "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_leftBehind.png",
-          "descriptionText": "\"You will get the job done... no matter the cost.\" Once you are the Last Survivor Standing, Left Behind activates: The Aura of the Hatch is revealed to you within 24/28/32 metres. \"I'm not horse-shittin' around. I'm doing this alone!\" — Bill Overbeck",
-          "links": [
-            {
-              "label": "Aura",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Aura"
-            },
-            {
-              "label": "Hatch",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Hatch"
-            }
-          ]
-        },
-        {
-          "id": "survivors-lithe",
-          "role": "survivors",
-          "key": "lithe",
-          "name": "Lithe",
-          "obtainedFrom": "Feng Min",
-          "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_lithe.png",
-          "descriptionText": "Whenever you perform a Rushed Vault action, Lithe triggers its effect: Grants a 50 % Haste Status Effect for 3 seconds. Lithe cannot be used while Exhausted.Lithe causes the Exhausted Status Effect for 60/50/40 seconds. \"U mad?\" — Feng Min",
-          "links": [
-            {
-              "label": "Haste",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Haste"
-            },
-            {
-              "label": "Exhausted",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Exhausted"
-            }
-          ]
-        },
-        {
-          "id": "survivors-made-for-this",
-          "role": "survivors",
-          "key": "madeforthis",
-          "name": "Made for This",
-          "obtainedFrom": "Gabriel Soma",
-          "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_madeForThis.png",
-          "descriptionText": "\"You were born to survive, and raised to adapt.\" Whenever you are in the Injured State, Made for This activates.While active, completing a Healing action on another Survivor triggers the following primary effect: Grants the Endurance Status Effect for 6/8/10 seconds. Endurance is cancelled prematurely when performing a Conspicuous Action of any kind. While active and suffering from the Deep Wound Status Effect, running triggers the following secondary effect: Grants a 1/2/3 % Haste Status Effect. \"I didn't come here to be robot food!\" — Gabriel Soma",
-          "links": [
-            {
-              "label": "Injured State",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Injured_State"
-            },
-            {
-              "label": "Endurance",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Endurance"
-            },
-            {
-              "label": "Conspicuous Action",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Conspicuous_Action"
-            },
-            {
-              "label": "Deep Wound",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Deep_Wound"
-            },
-            {
-              "label": "Haste",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Haste"
-            }
-          ]
-        },
-        {
-          "id": "survivors-no-one-left-behind",
-          "role": "survivors",
-          "key": "nooneleftbehind",
-          "name": "No One Left Behind",
-          "obtainedFrom": "Bloodweb",
-          "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_noOneLeftBehind.png",
-          "descriptionText": "\"It is inconceivable to leave someone behind.\" Once the Exit Gates are powered, No One Left Behind activates: The Auras of all other Survivors are revealed to you. Increases your Action speeds for Healing and Unhooking by 50/75/100 %. Increases the strength and duration of the Haste Status Effect granted to Survivors you unhook by 10 % and 5 seconds respectively: Causes them to benefit from a 20 % Haste Status Effect for 15 seconds. \"Yeah, no shit.But I believe we can outsmart and overthrow him if we work together.Don't be predictable and selfish!\" — Clyde, The Lost Tapes",
-          "links": [
-            {
-              "label": "Exit Gates",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Exit_Gate"
-            },
-            {
-              "label": "Auras",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Aura"
-            },
-            {
-              "label": "Haste",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Haste"
-            }
-          ]
-        },
-        {
-          "id": "survivors-off-the-record",
-          "role": "survivors",
-          "key": "offtherecord",
-          "name": "Off the Record",
-          "obtainedFrom": "Zarina Kassir",
-          "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_offTheRecord.png",
-          "descriptionText": "\"You have learnt that a quiet approach is sometimes best.\" After being unhooked or unhooking yourself, Off the Record activates for 30/35/40 seconds: Blocks your Aura from being revealed. Suppresses your Grunts of Pain while in the Injured State. Suppresses the creation of your Scratch Marks. Grants the Endurance Status Effect. Endurance is cancelled prematurely when performing a Conspicuous Action of any kind. Off the Record deactivates prematurely and is disabled for the remainder of the Trial upon powering the Exit Gates. \"Trust me, I investigate thoroughly and discreetly.\" — Zarina Kassir",
-          "links": [
-            {
-              "label": "Aura",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Aura"
-            },
-            {
-              "label": "Injured State",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Injured_State"
-            },
-            {
-              "label": "Scratch Marks",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Scratch_Marks"
-            },
-            {
-              "label": "Endurance",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Endurance"
-            },
-            {
-              "label": "Conspicuous Action",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Conspicuous_Action"
-            },
-            {
-              "label": "Exit Gates",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Exit_Gate"
-            }
-          ]
-        },
-        {
-          "id": "survivors-open-handed",
-          "role": "survivors",
-          "key": "openhanded",
-          "name": "Open-Handed",
-          "obtainedFrom": "Ace Visconti",
-          "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_open-Handed.png",
-          "descriptionText": "\"Strengthens the potential in your and your team's Aura-reading abilities.\" All Survivors benefit from the following permanent effect: Increases the radius of all Aura-reading abilities by 8/12/16 metres. Open-Handed only affects Auras that emanate from the Survivor causing them.Survivors can only be affected by one instance of Open-Handed at a time. \"Paying attention is what kept me alive through the years. That, and my good looks of course.\" — Ace Visconti",
-          "links": [
-            {
-              "label": "Auras",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Aura"
-            }
-          ]
-        },
-        {
-          "id": "survivors-overcome",
-          "role": "survivors",
-          "key": "overcome",
-          "name": "Overcome",
-          "obtainedFrom": "Jonah Vasquez",
-          "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_overcome.png",
-          "descriptionText": "\"You have calculated how much energy you can risk to expend.\" Whenever you enter the Injured State from full health, Overcome triggers its effect: Extends the duration of the On-hit Sprint boost by 2 seconds. Overcome cannot be used while Exhausted.Overcome causes the Exhausted Status Effect for 60/50/40 seconds. \"After careful analysis, we are getting the hell out of here!\" — Jonah Vasquez",
-          "links": [
-            {
-              "label": "Injured State",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Injured_State"
-            },
-            {
-              "label": "Exhausted",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Exhausted"
-            }
-          ]
-        },
-        {
-          "id": "survivors-overzealous",
-          "role": "survivors",
-          "key": "overzealous",
-          "name": "Overzealous",
-          "obtainedFrom": "Haddie Kaur",
-          "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_overzealous.png",
-          "descriptionText": "Fighting back against the Ravage motivates and inspires you. After cleansing or blessing a Totem, Overzealous activates: Dull Totem: Increases your Repair speed by 8/9/10 %. Hex Totem: Increases your Repair speed by 16/18/20 %. Overzealous deactivates after losing a Health State by any means. \"The Ravage senses us. We need to work fast.\" — Haddie Kaur, Ravages of the Abyss Episode 9",
-          "links": [
-            {
-              "label": "Totem",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Totem"
-            },
-            {
-              "label": "Health State",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Health_State"
-            }
-          ]
-        },
-        {
-          "id": "survivors-pharmacy",
-          "role": "survivors",
-          "key": "pharmacy",
-          "name": "Pharmacy",
-          "obtainedFrom": "Quentin Smith",
-          "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_pharmacy.png",
-          "descriptionText": "\"You have a knack for finding medicine.\" While unlocking a Chest, you benefit from the following effects: Increases the Unlocking speed by 75/100/125 %. Reduces the audible range of all noises related to the Unlocking interaction by -12 metres. Guarantees an Emergency Med-Kit after completing the interaction. \"Adrenaline, it is going to keep us awake. I stole it from one of the Nurse's carts.\" — Quentin Smith",
-          "links": [
-            {
-              "label": "Chest",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Chest"
-            },
-            {
-              "label": "Emergency Med-Kit",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Emergency_Med-Kit"
-            }
-          ]
-        },
-        {
-          "id": "survivors-plot-twist",
-          "role": "survivors",
-          "key": "plottwist",
-          "name": "Plot Twist",
-          "obtainedFrom": "Nicolas Cage",
-          "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_plotTwist.png",
-          "descriptionText": "\"Big moments are vital, but you know that sometimes an understated read can be just as powerful.\" Whenever you are in the Injured State, Plot Twist activates.While active, press the Active Ability button while crouching and stationary to trigger the following primary effects: Silently enter the Dying State without notifying the Killer. Suppresses your Grunts of Pain and the creation of Pools of Blood. Unlocks the Self-Recovery ability, allowing you to fully recover from the Dying State: Increases the Recovery speed by 25 %. After self-recovering from the Dying State, you benefit from the following secondary effects: Instantly heals you to full health. Grants a 50 % Haste Status Effect for 2/3/4 seconds. Plot Twist is disabled after recovering by any means, but can be reactivated once more upon powering the Exit Gates. \"I think you'll find this shooting location... captivating.\" — Pauline Stamper",
-          "links": [
-            {
-              "label": "Injured State",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Injured_State"
-            },
-            {
-              "label": "Dying State",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Dying_State"
-            },
-            {
-              "label": "Pools of Blood",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Pools_of_Blood"
-            },
-            {
-              "label": "Haste",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Haste"
-            },
-            {
-              "label": "Exit Gates",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Exit_Gate"
-            }
-          ]
-        },
-        {
-          "id": "survivors-plunderer-s-instinct",
-          "role": "survivors",
-          "key": "plunderersinstinct",
-          "name": "Plunderer's Instinct",
-          "obtainedFrom": "Bloodweb",
-          "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_plunderersInstinct.png",
-          "descriptionText": "Unlocks potential in your Aura-reading ability: The Auras of the following objects are revealed to you within 32/48/64 metres: Closed Chests located in the environment. Items sitting inside opened Chests. Items dropped in the environment. When unlocking or rummaging through Chests, you benefit from the following effect: Increases the chances of finding rarer Items by 50 %. \"The pioneers used to loot these babies for hours.\" — Aizeyu, The Lost Tapes",
-          "links": [
-            {
-              "label": "Auras",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Aura"
-            },
-            {
-              "label": "Chests",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Chest"
-            },
-            {
-              "label": "Items",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Item"
-            }
-          ]
-        },
-        {
-          "id": "survivors-poised",
-          "role": "survivors",
-          "key": "poised",
-          "name": "Poised",
-          "obtainedFrom": "Jane Romero",
-          "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_poised.png",
-          "descriptionText": "\"Achieving goals boosts your confidence.\" Whenever a Generator is completed, Poised triggers its primary effect: Suppresses the creation of your Scratch Marks for 20/25/30 seconds. Whenever you start repairing a Generator for the first time, Poised triggers its secondary effect: The Aura of the Killer is revealed to you for 8 seconds. \"Ok, stay calm. Don't overthink it and just keep moving forward: you got this.\" — Jane Romero",
-          "links": [
-            {
-              "label": "Generator",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Generator"
-            },
-            {
-              "label": "Scratch Marks",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Scratch_Marks"
-            },
-            {
-              "label": "Aura",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Aura"
-            }
-          ]
-        },
-        {
-          "id": "survivors-prove-thyself",
-          "role": "survivors",
-          "key": "provethyself",
-          "name": "Prove Thyself",
-          "obtainedFrom": "Dwight Fairfield",
-          "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_proveThyself.png",
-          "descriptionText": "Increases the Repair speed by a stack-able 6/8/10 % per other Survivor within 4 metres of your location, up to a maximum of 18/24/30 %. Prove Thyself extends its effect to all Survivors within its range. Survivors can only be affected by one instance of Prove Thyself at a time. \"Show me what you can do!\" — Dwight Fairfield",
-          "links": []
-        },
-        {
-          "id": "survivors-quick-gambit",
-          "role": "survivors",
-          "key": "quickgambit",
-          "name": "Quick Gambit",
-          "obtainedFrom": "Vittorio Toscano",
-          "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_quickGambit.png",
-          "descriptionText": "\"When you have the Killer's attention, you know how to keep it; others can be confident they will not be interrupted any time soon.\" While being chased by the Killer, the following effects apply: The Auras of other Survivors are revealed to you. Increases the Repair speed of other Survivors by 3/4/5 %. Quick Gambit has a cool-down of 40 seconds upon losing a Health State. \"We need not resort to violence. And I shall prove it.\" — Vittorio Toscano",
-          "links": [
-            {
-              "label": "Auras",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Aura"
-            },
-            {
-              "label": "Health State",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Health_State"
-            }
-          ]
-        },
-        {
-          "id": "survivors-reassurance",
-          "role": "survivors",
-          "key": "reassurance",
-          "name": "Reassurance",
-          "obtainedFrom": "Rebecca Chambers",
-          "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_reassurance.png",
-          "descriptionText": "\"Your presence helps allies focus, assuaging the panic associated with extreme conditions.\" While within 6 metres of a hooked Survivor, press the Active Ability button to trigger the following effects for 20/25/30 seconds: Pauses the Sacrifice Process. This also pauses the Struggle Skill Checks for Survivors in the Struggle Phase. Causes the outline of that Survivor to be highlighted in white. Reassurance can only be used once per Survivor per Hook Instance.",
-          "links": []
-        },
-        {
-          "id": "survivors-resilience",
-          "role": "survivors",
-          "key": "resilience",
-          "name": "Resilience",
-          "obtainedFrom": "Bloodweb",
-          "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_resilience.png",
-          "descriptionText": "\"You are motivated in dire situations.\" Whenever you are in the Injured State, Resilience activates: Increases the Action speeds for the following interactions by 3/6/9 %: Blessing or Cleansing Totems. Healing yourself or other Survivors. Opening Exit Gates. Repairing Generators. Sabotaging Hooks. Searching Chests. Unhooking other Survivors. Vaulting Windows. \"Focus, even in these desperate times.\"",
-          "links": [
-            {
-              "label": "Injured State",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Injured_State"
-            },
-            {
-              "label": "Totems",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Totem"
-            },
-            {
-              "label": "Survivors",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Survivor"
-            },
-            {
-              "label": "Exit Gates",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Exit_Gate"
-            },
-            {
-              "label": "Generators",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Generator"
-            },
-            {
-              "label": "Hooks",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Hook"
-            },
-            {
-              "label": "Chests",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Chest"
-            },
-            {
-              "label": "Windows",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Window"
-            }
-          ]
-        },
-        {
-          "id": "survivors-resurgence",
-          "role": "survivors",
-          "key": "resurgence",
-          "name": "Resurgence",
-          "obtainedFrom": "Jill Valentine",
-          "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_resurgence.png",
-          "descriptionText": "\"You have come back from near impossible odds... and you will do it again.\" After you are unhooked by any means, Resurgence triggers the following effect: Grants you 50/60/70 % of Healing progression. \"It's my turn, bitch!\" — Jill Valentine",
-          "links": []
-        },
-        {
-          "id": "survivors-self-care",
-          "role": "survivors",
-          "key": "selfcare",
-          "name": "Self-Care",
-          "obtainedFrom": "Claudette Morel",
-          "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_self-Care.png",
-          "descriptionText": "Unlocks the Self-Care ability: Grants the ability to self-heal without needing a Med-Kit at 25/30/35 % of the regular Healing speed.",
-          "links": [
-            {
-              "label": "Med-Kit",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Med-Kit"
-            }
-          ]
-        },
-        {
-          "id": "survivors-shoulder-the-burden",
-          "role": "survivors",
-          "key": "shouldertheburden",
-          "name": "Shoulder the Burden",
-          "obtainedFrom": "Taurie Cain",
-          "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_shoulderTheBurden.png",
-          "descriptionText": "\"Born to be a disciple. Ready to submit to a greater cause. This is your calling.\" Once per Trial, and while you are not on Death Hook, press the Active Ability button while standing in front of a Hooked Survivor to unhook them and trigger the following effects: Trade 1 Hook Stage with the other Survivor to their benefit. Causes you to scream and suffer from the Exposed Status Effect for 60/50/40 seconds. \"It's not your time yet. Now go on!\" — Taurie Cain",
-          "links": [
-            {
-              "label": "Exposed",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Exposed"
-            }
-          ]
-        },
-        {
-          "id": "survivors-slippery-meat",
-          "role": "survivors",
-          "key": "slipperymeat",
-          "name": "Slippery Meat",
-          "obtainedFrom": "Bloodweb",
-          "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_slipperyMeat.png",
-          "descriptionText": "You have developed an efficient way to get off Hooks. Grants the ability to attempt 3 additional Self-Unhooks during the first Hook Stage. Increases the chances to successfully perform a Self-Unhook by 2/3/4 %.",
-          "links": []
-        },
-        {
-          "id": "survivors-small-game",
-          "role": "survivors",
-          "key": "smallgame",
-          "name": "Small Game",
-          "obtainedFrom": "Bloodweb",
-          "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_smallGame.png",
-          "descriptionText": "\"You have the undeniable capability to sense danger.\" Projects an invisible cone in the direction you are looking, with a Detection angle of 45 ° and a range of 8/10/12 metres: Triggers an audio cue when detecting any type of Totem within it. This effect has a cool-down of 14/12/10 seconds after use. Each time a Totem is cleansed, Small Game gains 1 Token, up to a maximum of 5 Tokens: Reduces the Detection angle of the cone by a stack-able -5 ° per Token, up to a maximum of -25 °. \"Nope.\" — Andy, The Lost Tapes",
-          "links": [
-            {
-              "label": "Totem",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Totem"
-            }
-          ]
-        },
-        {
-          "id": "survivors-sprint-burst",
-          "role": "survivors",
-          "key": "sprintburst",
-          "name": "Sprint Burst",
-          "obtainedFrom": "Meg Thomas",
-          "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_sprintBurst.png",
-          "descriptionText": "Starting to run triggers Sprint Burst: Grants a 50 % Haste Status Effect for 3 seconds. Sprint Burst cannot be used while Exhausted.Sprint Burst causes the Exhausted Status Effect for 60/50/40 seconds. \"See you if you can catch up...\" — Meg Thomas",
-          "links": [
-            {
-              "label": "Haste",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Haste"
-            },
-            {
-              "label": "Exhausted",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Exhausted"
-            }
-          ]
-        },
-        {
-          "id": "survivors-still-sight",
-          "role": "survivors",
-          "key": "stillsight",
-          "name": "Still Sight",
-          "obtainedFrom": "Troupe",
-          "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_stillSight.png",
-          "descriptionText": "\"A clear mind and calm temperament will always find the means of their escape.\" After standing still for 4/3/2 seconds, Still Sight activates: The following Auras are revealed to you within 24 meters: Killer Chests Generators Still Sight deactivates once you start moving again. \"Breathe in. Breathe out. Now open your eyes.\" — Baermar",
-          "links": [
-            {
-              "label": "Killer",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Killer"
-            },
-            {
-              "label": "Chests",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Chest"
-            },
-            {
-              "label": "Generators",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Generator"
-            }
-          ]
-        },
-        {
-          "id": "survivors-unbreakable",
-          "role": "survivors",
-          "key": "unbreakable",
-          "name": "Unbreakable",
-          "obtainedFrom": "Bill Overbeck",
-          "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_unbreakable.png",
-          "descriptionText": "\"Past battles have taught you a thing or two about survival.\" Whenever you are in the Dying State, Unbreakable activates: Increases your Recovery speed by 25/30/35 %. Unlocks the Self-Recovery ability, allowing you to fully recover from the Dying State. This ability can only be used once per Trial. \"Goddammit, I am seriously FUBAR!\" — Bill Overbeck",
-          "links": [
-            {
-              "label": "Dying State",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Dying_State"
-            }
-          ]
-        },
-        {
-          "id": "survivors-up-the-ante",
-          "role": "survivors",
-          "key": "uptheante",
-          "name": "Up the Ante",
-          "obtainedFrom": "Ace Visconti",
-          "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_upTheAnte.png",
-          "descriptionText": "\"All will be well in the end; you just know it.Your confidence strengthens the feeling of hope for those around you.\" Unlocks the ability to attempt Self-Unhooks during the first Hook Stage for all Survivors.For every Survivor still in the Trial, Up the Ante is granted 1 Token: Increases the Luck at succeeding Self-Unhook attempts for all Survivors by a stack-able 1/2/3 % per Token, up to a maximum of 3/6/9 %. \"What can I say? I'm just a very lucky guy... I'm sure some of it will rub off on you.\" — Ace Visconti",
-          "links": [
-            {
-              "label": "Luck",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Luck"
-            }
-          ]
-        },
-        {
-          "id": "survivors-vigil",
-          "role": "survivors",
-          "key": "vigil",
-          "name": "Vigil",
-          "obtainedFrom": "Quentin Smith",
-          "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_vigil.png",
-          "descriptionText": "\"You watch over your friends, even in dire situations.\" You recover 43/55/66 % faster from the following: The Blindness, Broken, Exhausted, Exposed, Haemorrhage, Hindered, Mangled, and Oblivious Status Effects. Vigil extends its effect to all Survivors within 16 metres of your location and lingers for 15 seconds after leaving its Area of Effect.Survivors can only be affected by one instance of Vigil at a time. \"I am gonna be here when you wake up. You are gonna make it.\" — Quentin Smith",
-          "links": [
-            {
-              "label": "Blindness",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Blindness"
-            },
-            {
-              "label": "Broken",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Broken"
-            },
-            {
-              "label": "Exhausted",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Exhausted"
-            },
-            {
-              "label": "Exposed",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Exposed"
-            },
-            {
-              "label": "Haemorrhage",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Haemorrhage"
-            },
-            {
-              "label": "Hindered",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Hindered"
-            },
-            {
-              "label": "Mangled",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Mangled"
-            },
-            {
-              "label": "Oblivious",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Oblivious"
-            }
-          ]
-        },
-        {
-          "id": "survivors-we-ll-make-it",
-          "role": "survivors",
-          "key": "wellmakeit",
-          "name": "We'll Make It",
-          "obtainedFrom": "Bloodweb",
-          "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_wellMakeIt.png",
-          "descriptionText": "\"Helping others heightens your morale.\" After unhooking another Survivor, We'll Make It activates for 30/60/90 seconds: Increases your Altruistic Healing speed by 100 %. \"I am confident we can all escape in one piece if we help each other.\"",
-          "links": []
-        },
-        {
-          "id": "survivors-we-re-gonna-live-forever",
-          "role": "survivors",
-          "key": "weregonnaliveforever",
-          "name": "We're Gonna Live Forever",
-          "obtainedFrom": "David King",
-          "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_wereGonnaLiveForever.png",
-          "descriptionText": "Your few friends deserve the best protection. You benefit from the following effect when healing a dying Survivor: Increases your Healing speed by 100 %. Any dying Survivor you heal back to the Injured State benefits from the following effect: Grants the Endurance Status Effect for 6/8/10 seconds. This effect can only be triggered once every 30 seconds. \"Come on then, let's ave' it! I don't give a shit pal.\" — David King",
-          "links": [
-            {
-              "label": "Endurance",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Endurance"
-            }
-          ]
-        },
-        {
-          "id": "survivors-wicked",
-          "role": "survivors",
-          "key": "wicked",
-          "name": "Wicked",
-          "obtainedFrom": "Sable Ward",
-          "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_wicked.png",
-          "descriptionText": "\"They can try to hurt you.But you're not going down so easily.\" After you are unhooked by any means, Wicked triggers the following effect: The Aura of the Killer is revealed to you for 16/18/20 seconds. While hooked inside the Basement, Wicked potentially triggers the following effect: First Hook Stage: 100 % to succeed an attempted Self-Unhook. Second Hook Stage: Does not trigger the effect. Last Survivor Standing: Does not trigger the effect. \"I haven't let anyone get in my way before. You think I'm gonna start now?\" — Sable",
-          "links": [
-            {
-              "label": "Aura",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Aura"
-            },
-            {
-              "label": "Basement",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Basement"
-            }
-          ]
-        },
-        {
-          "id": "survivors-will-to-live",
-          "role": "survivors",
-          "key": "willtolive",
-          "name": "Will to Live",
-          "obtainedFrom": "Bloodweb",
-          "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_decisiveStrike.png",
-          "descriptionText": "Using whatever is at hand, you stab your aggressor in an ultimate attempt to escape. After being unhooked or unhooking yourself, Will to Live activates for the next 40/50/60 seconds: When grabbed or picked up by the Killer, succeed a Skill Check to stab the Killer and escape from their grasp. Stuns the Killer for 4 seconds. Causes you to become the next Obsession. Will to Live is deactivated once the Exit Gates are powered.Will to Live is disabled for the remainder of the Trial after use. Will to Live is deactivated prematurely when performing a Conspicuous Action. Increases your chance of becoming the initial Obsession by increasing the default value by 100 %.The Killer can only be obsessed with one Survivor at a time.",
-          "links": [
-            {
-              "label": "Skill Check",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Skill_Check"
-            },
-            {
-              "label": "Obsession",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Obsession"
-            },
-            {
-              "label": "Exit Gates",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Exit_Gate"
-            },
-            {
-              "label": "Conspicuous Action",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Conspicuous_Action"
-            }
-          ]
-        },
-        {
-          "id": "survivors-windows-of-opportunity",
-          "role": "survivors",
-          "key": "windowsofopportunity",
-          "name": "Windows of Opportunity",
-          "obtainedFrom": "Kate Denson",
-          "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_windowsOfOpportunity.png",
-          "descriptionText": "Unlocks potential in your Aura-reading ability. The Auras of Breakable Walls, Pallets, and Windows are revealed to you within 24/28/32 metres. \"Rise and shine, work hard, carve out your name,Take aim, pull the trigger, hit the bulls eye for fame,Know the value of faith, an' family, and don't you complain,Open wide, your windows of opportunity\" — Kate Denson's \"Windows of Opportunity\"",
-          "links": [
-            {
-              "label": "Auras",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Aura"
-            },
-            {
-              "label": "Breakable Walls",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Breakable_Wall"
-            },
-            {
-              "label": "Pallets",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Pallet"
-            },
-            {
-              "label": "Windows",
-              "url": "https://deadbydaylight.wiki.gg/wiki/Window"
-            }
-          ]
-        }
-      ]
+      "killers": [],
+      "survivors": []
     }
   },
   "characterInfo": {
@@ -29929,7 +20288,7 @@ var COMMUNITY_CONTENT = {
         "difficulty": "Intermediate Difficulty",
         "cost": "250 AC / 4,500 IS",
         "availableIn": "\"Endless Hunt\" DLC Pack",
-        "speed": "4.4 m/s (110%)",
+        "speed": "4.6 m/s (115%)",
         "terrorRadius": "24m",
         "stealth": "",
         "loudnessHealthy": "",
@@ -30181,7 +20540,7 @@ var COMMUNITY_CONTENT = {
         "difficulty": "High Difficulty",
         "cost": "250 AC / 4,500 IS",
         "availableIn": "\"Macabre Tales\" DLC Pack",
-        "speed": "4.4 m/s (110%)",
+        "speed": "4.6 m/s (115%)",
         "terrorRadius": "32m",
         "stealth": "",
         "loudnessHealthy": "",
@@ -30236,7 +20595,7 @@ var COMMUNITY_CONTENT = {
             "id": "45aaa7f2-5c21-42da-971d-b704e6e9a0e2",
             "name": "Zanshin Tactics",
             "belongsTo": "Killer",
-            "value": 700,
+            "value": 555,
             "iconUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/d/d3/IconPerks_zanshinTactics.png"
           },
           {
@@ -30643,7 +21002,7 @@ var COMMUNITY_CONTENT = {
         "difficulty": "High Difficulty",
         "cost": "250 AC / 4,500 IS",
         "availableIn": "\"Macabre Tales\" DLC Pack",
-        "speed": "4.4 m/s (110%)",
+        "speed": "4.6 m/s (115%)",
         "terrorRadius": "40m",
         "stealth": "",
         "loudnessHealthy": "",
@@ -31184,7 +21543,7 @@ var COMMUNITY_CONTENT = {
         "role": "killer",
         "name": "The Krasue",
         "iconUrl": "https://deadbydaylight.wiki.gg/images/K41_TheKrasue_Portrait.png",
-        "unlockPriority": 537,
+        "unlockPriority": 240,
         "licensed": false,
         "difficulty": "High Difficulty",
         "cost": "500 AC / 9000 IS",
@@ -31196,7 +21555,7 @@ var COMMUNITY_CONTENT = {
         "loudnessInjured": "",
         "mostRecentGuideUrl": "https://youtu.be/6XVtz1SL7HM?si=x_Ge4xwwN0LBwfXN&t=36351",
         "addOnBreakdownUrl": "https://otz-addon-tierlist.pages.dev",
-        "otzComment": "The Krasue is a multi-form monster that infects Survivors with a projectile attack and can then transforms into a flying head to finish the job. Her mobility and lethality are remarkable, but you must absolutely understand when and how to use each of her forms to be successful. When you master both forms, there will be very few places where Survivors will find safety against you.\n---\nThe Krasue is not extremely complex but she certainly requires more awareness and decision-making than most other Killers. Keep this in mind if you're a relative beginner. Most of her perks are not particularly valuable for new players either.",
+        "otzComment": "The Krasue is a multi-form monster that infects Survivors with a projectile attack and can then transforms into a flying head to finish the job. Her mobility and lethality are remarkable, but you must absolutely understand when and how to use each of her forms to be successful. When you master both forms, there will be very few places where Survivors will find safety against you.\n---\nThe Krasue is not extremely complex but she certainly requires more awareness and decision-making than most other Killers. Beginners might have a hard time understanding when and how to use her head form effectively. Her perks are generally very weak and unappealing to new players, unfortunately.",
         "perks": [
           {
             "id": "8937ef85-c6ab-45ce-854f-94d742ba9cf2",
@@ -32177,14 +22536,14 @@ var COMMUNITY_CONTENT = {
             "id": "4f48f2d5-62b0-47b5-9d7f-b5a3355ca291",
             "name": "Pharmacy",
             "belongsTo": "Survivor",
-            "value": 777,
+            "value": 555,
             "iconUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/f/f1/IconPerks_pharmacy.png"
           },
           {
             "id": "f80fdde6-aff7-4ec9-920e-e738efde55af",
             "name": "Vigil",
             "belongsTo": "Survivor",
-            "value": 632,
+            "value": 777,
             "iconUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/4/46/IconPerks_vigil.png"
           }
         ]
@@ -32500,7 +22859,7 @@ var COMMUNITY_CONTENT = {
         "loudnessInjured": "Medium",
         "mostRecentGuideUrl": "",
         "addOnBreakdownUrl": "",
-        "otzComment": "Jill isn't a very accessible choice for beginners since she is locked behind a paid DLC, but her perks are still very helpful for newer players. Resurgence allows you to be healed very quickly after each unhook and Blast Mine is a simple perk that can stun the Killer and buy your team a bit of time here and there.",
+        "otzComment": "Jill isn't a very accessible choice for beginners since she is locked behind a paid DLC, but her perks are still very helpful for newer players. Resurgence allows you to be healed very quickly after each unhook and Blast Mine is a simple perk that can stun the Killer and buy your team a bit of time here and there. Counterforce is a bit niche but it's a helpful tool to deal with hex builds from the Killer.",
         "perks": [
           {
             "id": "56effc0e-e848-4b96-abca-8d862ab8bd66",
@@ -32530,7 +22889,7 @@ var COMMUNITY_CONTENT = {
         "role": "survivor",
         "name": "Dustin Henderson",
         "iconUrl": "https://deadbydaylight.wiki.gg/images/S50_DustinHenderson_Portrait.png",
-        "unlockPriority": 507,
+        "unlockPriority": 305,
         "licensed": null,
         "difficulty": "",
         "cost": "500 AC",
@@ -32572,7 +22931,7 @@ var COMMUNITY_CONTENT = {
         "role": "survivor",
         "name": "Lee Yun-Jin",
         "iconUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/f/f7/S25_Yun-JinLee_Portrait.png",
-        "unlockPriority": 230,
+        "unlockPriority": 605,
         "licensed": null,
         "difficulty": "",
         "cost": "250 AC / 4,500 IS",
@@ -32584,13 +22943,13 @@ var COMMUNITY_CONTENT = {
         "loudnessInjured": "Medium",
         "mostRecentGuideUrl": "",
         "addOnBreakdownUrl": "",
-        "otzComment": "Yun-Jin's perks are not too unique or powerful, so she's not a very high priority for beginner players to unlock. That being said, Smash Hit can be a very effective exhaustion perks in the hand of experienced players that can consistently land pallet stuns and that will benefit from its shorter exhaustion compared to other similar perks. Fast Track also currently provides a really nice boost to generator progress if your team is falling behind and you manage to land great skill checks consistently.",
+        "otzComment": "Yun-Jin's perks are generally not extremely necessary for beginners. That being said, Self-Preservation is a really effective tool to remain undetected when your team mates are being hooked. Smash Hit can be a very effective exhaustion perks in the hand of experienced players that can consistently land pallet stuns and that will benefit from its shorter exhaustion compared to other similar perks. Fast Track provides a small boost to generator progress if your team is falling behind.",
         "perks": [
           {
             "id": "4138a85d-2465-4d7b-bd17-00855b916003",
             "name": "Fast Track",
             "belongsTo": "Survivor",
-            "value": 888,
+            "value": 555,
             "iconUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/7/75/IconPerks_fastTrack.png"
           },
           {
@@ -32604,8 +22963,8 @@ var COMMUNITY_CONTENT = {
             "id": "972d0e24-d605-4ed7-9dde-552bd6c01bda",
             "name": "Self-Preservation",
             "belongsTo": "Survivor",
-            "value": 23,
-            "iconUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/4/43/IconPerks_self-Preservation.png"
+            "value": 777,
+            "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_self-Preservation.png"
           }
         ]
       },
@@ -32698,7 +23057,7 @@ var COMMUNITY_CONTENT = {
         "role": "survivor",
         "name": "Ash Williams",
         "iconUrl": "https://deadbydaylight.wiki.gg/images/S17_AshWilliams_Portrait.png",
-        "unlockPriority": 210,
+        "unlockPriority": 200,
         "licensed": null,
         "difficulty": "",
         "cost": "500 AC",
@@ -32710,7 +23069,7 @@ var COMMUNITY_CONTENT = {
         "loudnessInjured": "High",
         "mostRecentGuideUrl": "",
         "addOnBreakdownUrl": "",
-        "otzComment": "Ash's perks are actually fairly strong, but all of them require an aggressive playstyle and several other synergistic perks to support them. For this reason, and because he is a paid DLC character, Ash is generally not a high priority choice for beginners that are still learning the game.",
+        "otzComment": "Ash's perks are actually fairly strong, but all of them require an aggressive playstyle, very precise teamwork and other synergistic perks to support them. For this reason, and because he is a paid DLC character, Ash is generally not a high priority choice for beginners that are still learning the game.",
         "perks": [
           {
             "id": "a80fb5e1-68d4-4479-838c-95727c57f49a",
@@ -32723,7 +23082,7 @@ var COMMUNITY_CONTENT = {
             "id": "54f565ee-977e-4070-a439-9452aac60711",
             "name": "Buckle Up",
             "belongsTo": "Survivor",
-            "value": 444,
+            "value": 222,
             "iconUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/7/74/IconPerks_buckleUp.png"
           },
           {
@@ -33136,7 +23495,7 @@ var COMMUNITY_CONTENT = {
             "id": "dabf5aac-19b6-47c2-a036-4269789438a0",
             "name": "Do No Harm",
             "belongsTo": "Survivor",
-            "value": 222,
+            "value": 555,
             "iconUrl": "https://deadbydaylight.wiki.gg/images/1/1e/T_UI_iconsPerks_DoNoHarm.png"
           },
           {
@@ -33244,7 +23603,7 @@ var COMMUNITY_CONTENT = {
         "role": "survivor",
         "name": "Rebecca Chambers",
         "iconUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/f/fd/S33_RebeccaChambers_Portrait.png",
-        "unlockPriority": 460,
+        "unlockPriority": 317,
         "licensed": null,
         "difficulty": "",
         "cost": "500 AC",
@@ -33256,7 +23615,7 @@ var COMMUNITY_CONTENT = {
         "loudnessInjured": "Medium",
         "mostRecentGuideUrl": "",
         "addOnBreakdownUrl": "",
-        "otzComment": "Rebecca's perks are not very good for beginners. Better Than New is a mediocre healing perk easily outclassed by more accessible perks like Leader or Botany Knowledge. Hyperfocus is a perk with tremendous potential to speed up generator progress but requires extremely precise skillchecks, which also makes it far from optimal for beginners. However, her perk Reassurance is a great tool against Killers that try to aggressively contest unhooking scenarios. Experienced players might want to pick it up at some point.",
+        "otzComment": "Rebecca's perks are not very good for beginners. Better Than New is a mediocre healing perk easily outclassed by more accessible perks like Leader or Botany Knowledge. Hyperfocus is a perk with tremendous potential to speed up generator progress but requires extremely precise skillchecks, which also makes it far from optimal for beginners unless they also unlock Detective Tapp's Stake Out. However, her perk Reassurance is a great tool against Killers that try to aggressively contest unhooking scenarios by extending the already long 70 second hook timer. Experienced players might want to pick it up at some point.",
         "perks": [
           {
             "id": "2fa5beb8-5125-4ec5-8619-a923646bf3cf",
@@ -33276,7 +23635,7 @@ var COMMUNITY_CONTENT = {
             "id": "5b762b45-ba70-407a-bd7b-c3e485f2cd39",
             "name": "Hyperfocus",
             "belongsTo": "Survivor",
-            "value": 222,
+            "value": 555,
             "iconUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/5/5d/IconPerks_hyperfocus.png"
           }
         ]
@@ -33370,7 +23729,7 @@ var COMMUNITY_CONTENT = {
         "role": "survivor",
         "name": "Renato Lyra",
         "iconUrl": "https://deadbydaylight.wiki.gg/images/S36_RenatoLyra_Portrait.png",
-        "unlockPriority": 200,
+        "unlockPriority": 210,
         "licensed": null,
         "difficulty": "",
         "cost": "250 AC / 4,500 IS",
@@ -33382,7 +23741,7 @@ var COMMUNITY_CONTENT = {
         "loudnessInjured": "Quiet",
         "mostRecentGuideUrl": "",
         "addOnBreakdownUrl": "",
-        "otzComment": "Renato's perks are simply not good enough and thus he is not a high priority for beginner players to unlock. Background Player is a fun pick for experienced Survivors in coordinated teams, but his other perks are too weak or niche to be worth running while you're still learning the game.",
+        "otzComment": "Renato's perks are simply not good enough on their own and thus he is not a high priority for beginner players to unlock. Background Player is a fun pick for experienced Survivors in coordinated teams, but his other perks are too weak or niche to be worth running while you're still learning the game.",
         "perks": [
           {
             "id": "7c9d6e78-7c45-4d74-b23b-4e3f4fc02314",
@@ -34379,7 +24738,7 @@ var COMMUNITY_CONTENT = {
         "id": "4138a85d-2465-4d7b-bd17-00855b916003",
         "name": "Fast Track",
         "belongsTo": "Survivor",
-        "value": 888,
+        "value": 555,
         "iconUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/7/75/IconPerks_fastTrack.png"
       },
       {
@@ -34407,7 +24766,7 @@ var COMMUNITY_CONTENT = {
         "id": "45aaa7f2-5c21-42da-971d-b704e6e9a0e2",
         "name": "Zanshin Tactics",
         "belongsTo": "Killer",
-        "value": 700,
+        "value": 555,
         "iconUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/d/d3/IconPerks_zanshinTactics.png"
       },
       {
@@ -34491,7 +24850,7 @@ var COMMUNITY_CONTENT = {
         "id": "4f48f2d5-62b0-47b5-9d7f-b5a3355ca291",
         "name": "Pharmacy",
         "belongsTo": "Survivor",
-        "value": 777,
+        "value": 555,
         "iconUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/f/f1/IconPerks_pharmacy.png"
       },
       {
@@ -34561,7 +24920,7 @@ var COMMUNITY_CONTENT = {
         "id": "54f565ee-977e-4070-a439-9452aac60711",
         "name": "Buckle Up",
         "belongsTo": "Survivor",
-        "value": 444,
+        "value": 222,
         "iconUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/7/74/IconPerks_buckleUp.png"
       },
       {
@@ -34638,7 +24997,7 @@ var COMMUNITY_CONTENT = {
         "id": "5b762b45-ba70-407a-bd7b-c3e485f2cd39",
         "name": "Hyperfocus",
         "belongsTo": "Survivor",
-        "value": 222,
+        "value": 555,
         "iconUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/5/5d/IconPerks_hyperfocus.png"
       },
       {
@@ -35114,8 +25473,8 @@ var COMMUNITY_CONTENT = {
         "id": "972d0e24-d605-4ed7-9dde-552bd6c01bda",
         "name": "Self-Preservation",
         "belongsTo": "Survivor",
-        "value": 23,
-        "iconUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/4/43/IconPerks_self-Preservation.png"
+        "value": 777,
+        "iconUrl": "https://deadbydaylight.wiki.gg/images/IconPerks_self-Preservation.png"
       },
       {
         "id": "98ecc7c0-a654-4979-9254-d9fc907aa08a",
@@ -35632,7 +25991,7 @@ var COMMUNITY_CONTENT = {
         "id": "dabf5aac-19b6-47c2-a036-4269789438a0",
         "name": "Do No Harm",
         "belongsTo": "Survivor",
-        "value": 222,
+        "value": 555,
         "iconUrl": "https://deadbydaylight.wiki.gg/images/1/1e/T_UI_iconsPerks_DoNoHarm.png"
       },
       {
@@ -35940,7 +26299,7 @@ var COMMUNITY_CONTENT = {
         "id": "f80fdde6-aff7-4ec9-920e-e738efde55af",
         "name": "Vigil",
         "belongsTo": "Survivor",
-        "value": 632,
+        "value": 777,
         "iconUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/4/46/IconPerks_vigil.png"
       },
       {
@@ -36076,17 +26435,18 @@ var COMMUNITY_CONTENT = {
     "description": "",
     "entries": [
       {
-        "id": "3ce0ee42-82aa-4a77-affd-7ad112c67581",
-        "title": "All Killers Tierlist",
-        "description": "This tierlist ranks all Killers in the current 9.2.0 update and attempts to predict the main changes in the upcoming 7.5.0 patch.",
-        "patch": "9.2.0",
-        "dateLabel": "Oct 15th, 2025",
-        "dateIso": "2025-10-14T22:00:00.000Z",
-        "category": "1",
-        "categoryLabel": "Killer Focus",
-        "imageUrl": "https://otzdarva.com/[object%20Object]",
-        "url": "https://youtu.be/22GLsHL1hGU",
-        "sourceType": "video"
+        "id": "4eb3b866-167e-4849-8ef0-ec21485f9fef",
+        "title": "Survivor Perk Tierlist",
+        "description": "All 170 Survivor Perks: Tierlist & Full Explanation.",
+        "patch": "9.5.0",
+        "dateLabel": "Apr 29th, 2026",
+        "dateIso": "2026-04-28T22:00:00.000Z",
+        "category": "2",
+        "categoryLabel": "Survivor Focus",
+        "imageUrl": "https://i.ytimg.com/vi_webp/pqHHCN9Po-4/maxresdefault.webp",
+        "url": "https://www.youtube.com/watch?v=pqHHCN9Po-4",
+        "sourceType": "video",
+        "sourceNote": "Manual YouTube freshness override; otzdarva.com/dbd/tierlists still points to the Oct 2024 edited video."
       },
       {
         "id": "e9563bb7-8ec3-4f7f-87ec-588ca45adbc3",
@@ -36103,18 +26463,17 @@ var COMMUNITY_CONTENT = {
         "sourceNote": "Manual YouTube freshness override; otzdarva.com/dbd/tierlists still points to the Oct 2024 edited video."
       },
       {
-        "id": "4eb3b866-167e-4849-8ef0-ec21485f9fef",
-        "title": "Survivor Perk Tierlist",
-        "description": "All 170 Survivor Perks: Tierlist & Full Explanation.",
-        "patch": "9.5.0",
-        "dateLabel": "Apr 29th, 2026",
-        "dateIso": "2026-04-28T22:00:00.000Z",
-        "category": "2",
-        "categoryLabel": "Survivor Focus",
-        "imageUrl": "https://i.ytimg.com/vi_webp/pqHHCN9Po-4/maxresdefault.webp",
-        "url": "https://www.youtube.com/watch?v=pqHHCN9Po-4",
-        "sourceType": "video",
-        "sourceNote": "Manual YouTube freshness override; otzdarva.com/dbd/tierlists still points to the Oct 2024 edited video."
+        "id": "3ce0ee42-82aa-4a77-affd-7ad112c67581",
+        "title": "All Killers Tierlist",
+        "description": "This tierlist ranks all Killers in the current 9.2.0 update and attempts to predict the main changes in the upcoming 7.5.0 patch.",
+        "patch": "9.2.0",
+        "dateLabel": "Oct 15th, 2025",
+        "dateIso": "2025-10-14T22:00:00.000Z",
+        "category": "1",
+        "categoryLabel": "Killer Focus",
+        "imageUrl": "https://otzdarva.com/[object%20Object]",
+        "url": "https://youtu.be/22GLsHL1hGU",
+        "sourceType": "video"
       },
       {
         "id": "55502172-df2a-45fc-badb-1ff4693cc6e7",
@@ -36172,7 +26531,7 @@ var COMMUNITY_CONTENT = {
         "id": "60ae7c2c-c46a-42c9-91df-378958c8baf0",
         "title": "Killer Add-on Tierlist",
         "description": "A sorting of Add-ons based on general strength and usefulness.",
-        "patch": "9.2.0",
+        "patch": "9.6.0",
         "dateLabel": "Updated recently",
         "dateIso": null,
         "category": "1",
@@ -36185,8 +26544,8 @@ var COMMUNITY_CONTENT = {
     "stats": {
       "tierlistCount": 8,
       "categoryCounts": {
-        "Killer Focus": 3,
         "Survivor Focus": 3,
+        "Killer Focus": 3,
         "General": 2
       },
       "datedCount": 7
@@ -36194,7 +26553,7 @@ var COMMUNITY_CONTENT = {
   },
   "guideVault": {
     "title": "Killer-specific Tips & Guides",
-    "description": "TIPS FOR ALL 41 KILLERS\nPart 1 (Trapper to Blight)\nPart 2 (Twins to Krasue)\nTRAPPER\nOtz’s Quick Killer Guide\nWRAITH\n-\nHILLBILLY\nGuide by UncleStanBana\nGuide by MrSleepyHead32\nNURSE\nGuide by SupaAlf\nHUNTRESS\nGuide by ScottJund\nSHAPE\n-\nHAG\nGuide by Michi\nDOCTOR\nShock Guide by Drey\nCANNIBAL\nGuide by Mathiiis\nImportant: In-depth Guide by Lucass & Ays\nNIGHTMARE\n-\nPIG\nGuide by Scorpionz\nImportant: When to save traps\nCLOWN\nGuide by Arinad\nSPIRIT\nGuide by Remylea\nGuide by Rayoxium\nLEGION\nGuide by Tatariu\nPLAGUE\nOtz’s Quick Killer Guide\nGHOSTFACE\nGuide by King Pin\nGuide by Kotzwurst\nGuide by mousemallow\nImportant: Stalking Spots\nDEMOGORGON\nGuide by Bronx\nGuide by Monsterkill\nGuide by Pyrus\nONI\nGuide by Jugglet\nGuide by SkrightGames\nGuide by ScottJund\nDEATHSLINGER\nGuide by G. Chill Cast\nGuide by Akeeno\nEXECUTIONER\nGuide by Ohmals\nsplit\nBLIGHT\nGuide by LilithOmen\nGuide by ScottJund\nTWINS\nGuide by Pixel Bush\nTRICKSTER\n-\nNEMESIS\nGuide by horceror\nCENOBITE\nGuide by FieldAgentReaper\nGuide by Lino\nARTIST\nGuide by Carniveris\nGuide by Pixel Bush\nGuide (text) by Lichmere\nONRYO\nGuide by Turbo Ligma\nDREDGE\nGuide by kmd\nMASTERMIND\nGuide by W3skuh\nImportant: Rebound Tech\nImportant: Wesker Techs\nKNIGHT\nGuide by Choy\nGuide by Mate8\nSKULL MERCH.\n-\nSINGULARITY\nGuide by YoBro\nXENOMORPH\nGuide by TheMrHeadache\nGOOD GUY\n-\nUNKNOWN\nGuide by HonestPanda Tips by u/Rehltar\nLICH\nGuide by RefinedKillz\nDARK LORD\nGuide by Bleak\nHOUNDMASTER\n-\nGHOUL\n-\nSPRINGTRAP\nGuide by TabaFaba\nKRASUE\nGuide by Szon77\nFIRST\n-",
+    "description": "TIPS FOR ALL KILLERS\nPart 1 (Trapper to Blight)\nPart 2 (Twins to Krasue)\nTRAPPER\nOtz’s Quick Killer Guide\nWRAITH\n-\nHILLBILLY\nGuide by UncleStanBana\nGuide by Hens\nGuide by MrSleepyHead32\nNURSE\nGuide by SupaAlf\nHUNTRESS\nGuide by ScottJund\nSHAPE\n-\nHAG\nGuide by Michi\nDOCTOR\nShock Guide by Drey\nCANNIBAL\nGuide by Mathiiis\nImportant: In-depth Guide by Lucass & Ays\nNIGHTMARE\nGuide by Kuhssir\nPIG\nGuide by Scorpionz\nImportant: When to save traps\nCLOWN\nGuide by Arinad\nSPIRIT\nGuide by Remylea\nGuide by Rayoxium\nLEGION\nGuide by Tatariu\nPLAGUE\nOtz’s Quick Killer Guide\nGHOSTFACE\nGuide by King Pin\nGuide by Kotzwurst\nGuide by mousemallow\nImportant: Stalking Spots\nDEMOGORGON\nGuide by Bronx\nGuide by Monsterkill\nGuide by Pyrus\nONI\nGuide by Jugglet\nGuide by SkrightGames\nGuide by ScottJund\nDEATHSLINGER\nGuide by G. Chill Cast\nGuide by Akeeno\nEXECUTIONER\nGuide by Ohmals\nsplit\nBLIGHT\nGuide by LilithOmen\nGuide by ScottJund\nTWINS\nGuide by Pixel Bush\nTRICKSTER\n-\nNEMESIS\nGuide by horceror\nCENOBITE\nGuide by FieldAgentReaper\nGuide by Lino\nARTIST\nGuide by Carniveris\nGuide by Pixel Bush\nGuide (text) by Lichmere\nONRYO\nGuide by Turbo Ligma\nDREDGE\nGuide by kmd\nMASTERMIND\nGuide by W3skuh\nImportant: Rebound Tech\nImportant: Wesker Techs\nKNIGHT\nGuide by Choy\nGuide by Mate8\nSKULL MERCH.\n-\nSINGULARITY\nGuide by jera\nXENOMORPH\nGuide by TheMrHeadache\nGOOD GUY\n-\nUNKNOWN\nGuide by HonestPanda Tips by u/Rehltar\nLICH\nGuide by RefinedKillz\nDARK LORD\nGuide by Bleak\nHOUNDMASTER\n-\nGHOUL\n-\nSPRINGTRAP\nGuide by TabaFaba\nKRASUE\nGuide by Szon77\nFIRST\n-",
     "entries": [
       {
         "id": "pt-2-1-part-1-1",
@@ -36229,7 +26588,15 @@ var COMMUNITY_CONTENT = {
         "sourceType": "video"
       },
       {
-        "id": "pt-11-1-guide-by-mrsleepyhead32-5",
+        "id": "pt-11-1-guide-by-hens-5",
+        "label": "Guide by Hens",
+        "context": "Guide by Hens",
+        "url": "https://www.youtube.com/watch?v=SPUiaoLetIo",
+        "host": "youtube.com",
+        "sourceType": "video"
+      },
+      {
+        "id": "pt-12-1-guide-by-mrsleepyhead32-6",
         "label": "Guide by MrSleepyHead32",
         "context": "Guide by MrSleepyHead32",
         "url": "https://youtu.be/KqV2Yded_GI",
@@ -36237,7 +26604,7 @@ var COMMUNITY_CONTENT = {
         "sourceType": "video"
       },
       {
-        "id": "pt-14-1-guide-by-supaalf-6",
+        "id": "pt-15-1-guide-by-supaalf-7",
         "label": "Guide by SupaAlf",
         "context": "Guide by SupaAlf",
         "url": "https://youtu.be/XPQb8B7pMIM",
@@ -36245,7 +26612,7 @@ var COMMUNITY_CONTENT = {
         "sourceType": "video"
       },
       {
-        "id": "pt-16-1-guide-by-scottjund-7",
+        "id": "pt-17-1-guide-by-scottjund-8",
         "label": "Guide by ScottJund",
         "context": "Guide by ScottJund",
         "url": "https://youtu.be/IQRDijaX5Io",
@@ -36253,7 +26620,7 @@ var COMMUNITY_CONTENT = {
         "sourceType": "video"
       },
       {
-        "id": "pt-22-1-guide-by-michi-8",
+        "id": "pt-23-1-guide-by-michi-9",
         "label": "Guide by Michi",
         "context": "Guide by Michi",
         "url": "https://youtu.be/AX5AGQiNKg0",
@@ -36261,7 +26628,7 @@ var COMMUNITY_CONTENT = {
         "sourceType": "video"
       },
       {
-        "id": "pt-25-1-shock-guide-by-drey-9",
+        "id": "pt-26-1-shock-guide-by-drey-10",
         "label": "Shock Guide by Drey",
         "context": "Shock Guide by Drey",
         "url": "https://www.youtube.com/watch?v=v9nuFCWBD_o",
@@ -36269,7 +26636,7 @@ var COMMUNITY_CONTENT = {
         "sourceType": "video"
       },
       {
-        "id": "pt-28-1-guide-by-mathiiis-10",
+        "id": "pt-29-1-guide-by-mathiiis-11",
         "label": "Guide by Mathiiis",
         "context": "Guide by Mathiiis",
         "url": "https://youtu.be/qgjvKM9QlHM",
@@ -36277,7 +26644,7 @@ var COMMUNITY_CONTENT = {
         "sourceType": "video"
       },
       {
-        "id": "pt-29-1-important-in-depth-guide-11",
+        "id": "pt-30-1-important-in-depth-guide-12",
         "label": "Important: In-depth Guide",
         "context": "Important: In-depth Guide by Lucass & Ays",
         "url": "https://docs.google.com/document/d/1rpadxYbdjf7MDsu0Ug-Ogkuejj6HwQ04D8-cgB9pcWw/edit",
@@ -36285,7 +26652,15 @@ var COMMUNITY_CONTENT = {
         "sourceType": "document"
       },
       {
-        "id": "pt-33-1-guide-by-scorpionz-12",
+        "id": "pt-32-1-guide-by-kuhssir-13",
+        "label": "Guide by Kuhssir",
+        "context": "Guide by Kuhssir",
+        "url": "https://docs.google.com/document/d/1kY9wbd0MSZ6c5y7mXsT_Xw5BbLRJXbWCE12n0YbOigA/edit?usp=sharing",
+        "host": "docs.google.com",
+        "sourceType": "document"
+      },
+      {
+        "id": "pt-34-1-guide-by-scorpionz-14",
         "label": "Guide by Scorpionz",
         "context": "Guide by Scorpionz",
         "url": "https://youtu.be/-ZLb3wbc-EQ",
@@ -36293,7 +26668,7 @@ var COMMUNITY_CONTENT = {
         "sourceType": "video"
       },
       {
-        "id": "pt-34-1-important-when-to-save-traps-13",
+        "id": "pt-35-1-important-when-to-save-traps-15",
         "label": "Important: When to save traps",
         "context": "Important: When to save traps",
         "url": "https://youtu.be/6Q0siJ1P3Vs",
@@ -36301,7 +26676,7 @@ var COMMUNITY_CONTENT = {
         "sourceType": "video"
       },
       {
-        "id": "pt-37-1-guide-by-arinad-14",
+        "id": "pt-38-1-guide-by-arinad-16",
         "label": "Guide by Arinad",
         "context": "Guide by Arinad",
         "url": "https://docs.google.com/document/d/1umXUJy-If1bzdN-Mw3LIr12YYzVFkRv10R-6akE1v5o/edit?tab=t.0",
@@ -36309,7 +26684,7 @@ var COMMUNITY_CONTENT = {
         "sourceType": "document"
       },
       {
-        "id": "pt-39-1-guide-by-remylea-15",
+        "id": "pt-40-1-guide-by-remylea-17",
         "label": "Guide by Remylea",
         "context": "Guide by Remylea",
         "url": "https://bit.ly/4iAiDHE",
@@ -36317,7 +26692,7 @@ var COMMUNITY_CONTENT = {
         "sourceType": "link"
       },
       {
-        "id": "pt-40-1-guide-by-rayoxium-16",
+        "id": "pt-41-1-guide-by-rayoxium-18",
         "label": "Guide by Rayoxium",
         "context": "Guide by Rayoxium",
         "url": "https://www.youtube.com/watch?v=FHEX92wqSgA",
@@ -36325,7 +26700,7 @@ var COMMUNITY_CONTENT = {
         "sourceType": "video"
       },
       {
-        "id": "pt-42-1-guide-by-tatariu-17",
+        "id": "pt-43-1-guide-by-tatariu-19",
         "label": "Guide by Tatariu",
         "context": "Guide by Tatariu",
         "url": "https://youtu.be/TapiizxKvyk?t=57",
@@ -36333,7 +26708,7 @@ var COMMUNITY_CONTENT = {
         "sourceType": "video"
       },
       {
-        "id": "pt-44-1-otz-s-quick-killer-guide-18",
+        "id": "pt-45-1-otz-s-quick-killer-guide-20",
         "label": "Otz’s Quick Killer Guide",
         "context": "Otz’s Quick Killer Guide",
         "url": "https://youtu.be/Bmx6Cb_4Gmc",
@@ -36341,7 +26716,7 @@ var COMMUNITY_CONTENT = {
         "sourceType": "video"
       },
       {
-        "id": "pt-46-1-guide-by-king-pin-19",
+        "id": "pt-47-1-guide-by-king-pin-21",
         "label": "Guide by King Pin",
         "context": "Guide by King Pin",
         "url": "https://youtu.be/LIrc4Tn5KHU",
@@ -36349,7 +26724,7 @@ var COMMUNITY_CONTENT = {
         "sourceType": "video"
       },
       {
-        "id": "pt-47-1-guide-by-kotzwurst-20",
+        "id": "pt-48-1-guide-by-kotzwurst-22",
         "label": "Guide by Kotzwurst",
         "context": "Guide by Kotzwurst",
         "url": "https://www.youtube.com/watch?v=InIcMrbeqys",
@@ -36357,7 +26732,7 @@ var COMMUNITY_CONTENT = {
         "sourceType": "video"
       },
       {
-        "id": "pt-48-1-guide-by-mousemallow-21",
+        "id": "pt-49-1-guide-by-mousemallow-23",
         "label": "Guide by mousemallow",
         "context": "Guide by mousemallow",
         "url": "https://youtu.be/p3XnXqadwVI?si=5YoiN86OI99Pb_PN",
@@ -36365,7 +26740,7 @@ var COMMUNITY_CONTENT = {
         "sourceType": "video"
       },
       {
-        "id": "pt-49-1-important-stalking-spots-22",
+        "id": "pt-50-1-important-stalking-spots-24",
         "label": "Important: Stalking Spots",
         "context": "Important: Stalking Spots",
         "url": "https://imgur.com/a/Zmc6cTB",
@@ -36373,7 +26748,7 @@ var COMMUNITY_CONTENT = {
         "sourceType": "image"
       },
       {
-        "id": "pt-52-1-guide-by-bronx-23",
+        "id": "pt-53-1-guide-by-bronx-25",
         "label": "Guide by Bronx",
         "context": "Guide by Bronx",
         "url": "https://www.youtube.com/watch?v=8RfEmtu9hIU",
@@ -36381,7 +26756,7 @@ var COMMUNITY_CONTENT = {
         "sourceType": "video"
       },
       {
-        "id": "pt-53-1-guide-by-monsterkill-24",
+        "id": "pt-54-1-guide-by-monsterkill-26",
         "label": "Guide by Monsterkill",
         "context": "Guide by Monsterkill",
         "url": "https://youtu.be/fAf6Edlss4s?si=pPajs-PR3evlLUzv",
@@ -36389,7 +26764,7 @@ var COMMUNITY_CONTENT = {
         "sourceType": "video"
       },
       {
-        "id": "pt-54-1-guide-by-pyrus-25",
+        "id": "pt-55-1-guide-by-pyrus-27",
         "label": "Guide by Pyrus",
         "context": "Guide by Pyrus",
         "url": "https://youtu.be/-WoemxN7B18",
@@ -36397,7 +26772,7 @@ var COMMUNITY_CONTENT = {
         "sourceType": "video"
       },
       {
-        "id": "pt-57-1-guide-by-jugglet-26",
+        "id": "pt-58-1-guide-by-jugglet-28",
         "label": "Guide by Jugglet",
         "context": "Guide by Jugglet",
         "url": "https://youtu.be/5FTHQnFWeSE",
@@ -36405,7 +26780,7 @@ var COMMUNITY_CONTENT = {
         "sourceType": "video"
       },
       {
-        "id": "pt-58-1-guide-by-skrightgames-27",
+        "id": "pt-59-1-guide-by-skrightgames-29",
         "label": "Guide by SkrightGames",
         "context": "Guide by SkrightGames",
         "url": "https://www.youtube.com/watch?v=EOQdmN_ScVo",
@@ -36413,7 +26788,7 @@ var COMMUNITY_CONTENT = {
         "sourceType": "video"
       },
       {
-        "id": "pt-59-1-guide-by-scottjund-28",
+        "id": "pt-60-1-guide-by-scottjund-30",
         "label": "Guide by ScottJund",
         "context": "Guide by ScottJund",
         "url": "https://youtu.be/KfvciT6nnB8",
@@ -36421,7 +26796,7 @@ var COMMUNITY_CONTENT = {
         "sourceType": "video"
       },
       {
-        "id": "pt-62-1-guide-by-g-chill-cast-29",
+        "id": "pt-63-1-guide-by-g-chill-cast-31",
         "label": "Guide by G. Chill Cast",
         "context": "Guide by G. Chill Cast",
         "url": "https://youtu.be/WX_3Yowf53c",
@@ -36429,7 +26804,7 @@ var COMMUNITY_CONTENT = {
         "sourceType": "video"
       },
       {
-        "id": "pt-63-1-guide-by-akeeno-30",
+        "id": "pt-64-1-guide-by-akeeno-32",
         "label": "Guide by Akeeno",
         "context": "Guide by Akeeno",
         "url": "https://www.youtube.com/watch?v=EmTdNE5OlRk",
@@ -36437,7 +26812,7 @@ var COMMUNITY_CONTENT = {
         "sourceType": "video"
       },
       {
-        "id": "pt-66-1-guide-by-ohmals-31",
+        "id": "pt-67-1-guide-by-ohmals-33",
         "label": "Guide by Ohmals",
         "context": "Guide by Ohmals",
         "url": "https://www.youtube.com/watch?v=4i-OW9lT9yE",
@@ -36445,7 +26820,7 @@ var COMMUNITY_CONTENT = {
         "sourceType": "video"
       },
       {
-        "id": "pt-70-1-guide-by-lilithomen-32",
+        "id": "pt-71-1-guide-by-lilithomen-34",
         "label": "Guide by LilithOmen",
         "context": "Guide by LilithOmen",
         "url": "https://youtu.be/9sp_0PCdSOo",
@@ -36453,7 +26828,7 @@ var COMMUNITY_CONTENT = {
         "sourceType": "video"
       },
       {
-        "id": "pt-71-1-guide-by-scottjund-33",
+        "id": "pt-72-1-guide-by-scottjund-35",
         "label": "Guide by ScottJund",
         "context": "Guide by ScottJund",
         "url": "https://youtu.be/vyuTmnd825A",
@@ -36461,7 +26836,7 @@ var COMMUNITY_CONTENT = {
         "sourceType": "video"
       },
       {
-        "id": "pt-74-1-guide-by-pixel-bush-34",
+        "id": "pt-75-1-guide-by-pixel-bush-36",
         "label": "Guide by Pixel Bush",
         "context": "Guide by Pixel Bush",
         "url": "https://youtu.be/ZE3CuWn5LeU",
@@ -36469,7 +26844,7 @@ var COMMUNITY_CONTENT = {
         "sourceType": "video"
       },
       {
-        "id": "pt-80-1-guide-by-horceror-35",
+        "id": "pt-81-1-guide-by-horceror-37",
         "label": "Guide by horceror",
         "context": "Guide by horceror",
         "url": "https://youtu.be/-GxLEtbGPns?si=bx8ZQHcNG81wO74L",
@@ -36477,7 +26852,7 @@ var COMMUNITY_CONTENT = {
         "sourceType": "video"
       },
       {
-        "id": "pt-83-1-guide-by-fieldagentreaper-36",
+        "id": "pt-84-1-guide-by-fieldagentreaper-38",
         "label": "Guide by FieldAgentReaper",
         "context": "Guide by FieldAgentReaper",
         "url": "https://www.youtube.com/watch?v=dv4gC6PIRXM",
@@ -36485,7 +26860,7 @@ var COMMUNITY_CONTENT = {
         "sourceType": "video"
       },
       {
-        "id": "pt-84-1-guide-by-lino-37",
+        "id": "pt-85-1-guide-by-lino-39",
         "label": "Guide by Lino",
         "context": "Guide by Lino",
         "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3016471787",
@@ -36493,7 +26868,7 @@ var COMMUNITY_CONTENT = {
         "sourceType": "community"
       },
       {
-        "id": "pt-87-1-guide-by-carniveris-38",
+        "id": "pt-88-1-guide-by-carniveris-40",
         "label": "Guide by Carniveris",
         "context": "Guide by Carniveris",
         "url": "https://youtu.be/u24RF10J-ao",
@@ -36501,7 +26876,7 @@ var COMMUNITY_CONTENT = {
         "sourceType": "video"
       },
       {
-        "id": "pt-88-1-guide-by-pixel-bush-39",
+        "id": "pt-89-1-guide-by-pixel-bush-41",
         "label": "Guide by Pixel Bush",
         "context": "Guide by Pixel Bush",
         "url": "https://youtu.be/UOsJavP70pc?t=129",
@@ -36509,7 +26884,7 @@ var COMMUNITY_CONTENT = {
         "sourceType": "video"
       },
       {
-        "id": "pt-89-1-guide-text-by-lichmere-40",
+        "id": "pt-90-1-guide-text-by-lichmere-42",
         "label": "Guide (text) by Lichmere",
         "context": "Guide (text) by Lichmere",
         "url": "https://docs.google.com/document/d/1RCzX3DxraaaonYxdp5ZnrKGyNah2q-Omq3rFE2iDxvc/edit",
@@ -36517,7 +26892,7 @@ var COMMUNITY_CONTENT = {
         "sourceType": "document"
       },
       {
-        "id": "pt-92-1-guide-by-turbo-ligma-41",
+        "id": "pt-93-1-guide-by-turbo-ligma-43",
         "label": "Guide by Turbo Ligma",
         "context": "Guide by Turbo Ligma",
         "url": "https://docs.google.com/document/d/1odRx2ge-ix5yZkb8yZuMeb3Ax3Vgm4StPYL_HtR0zRs/edit?usp=sharing",
@@ -36525,7 +26900,7 @@ var COMMUNITY_CONTENT = {
         "sourceType": "document"
       },
       {
-        "id": "pt-95-1-guide-by-kmd-42",
+        "id": "pt-96-1-guide-by-kmd-44",
         "label": "Guide by kmd",
         "context": "Guide by kmd",
         "url": "https://docs.google.com/document/d/1oVp9Rz-7Vi_252ufpAaTPFy-5YcvCkSi9l5rMZNJ82k/edit?usp=sharing",
@@ -36533,7 +26908,7 @@ var COMMUNITY_CONTENT = {
         "sourceType": "document"
       },
       {
-        "id": "pt-98-1-guide-by-w3skuh-43",
+        "id": "pt-99-1-guide-by-w3skuh-45",
         "label": "Guide by W3skuh",
         "context": "Guide by W3skuh",
         "url": "https://www.youtube.com/watch?v=YH4OpnhGtIE",
@@ -36541,7 +26916,7 @@ var COMMUNITY_CONTENT = {
         "sourceType": "video"
       },
       {
-        "id": "pt-99-1-important-rebound-tech-44",
+        "id": "pt-100-1-important-rebound-tech-46",
         "label": "Important: Rebound Tech",
         "context": "Important: Rebound Tech",
         "url": "https://youtu.be/6_iP_fE7HPw",
@@ -36549,7 +26924,7 @@ var COMMUNITY_CONTENT = {
         "sourceType": "video"
       },
       {
-        "id": "pt-100-1-important-wesker-techs-45",
+        "id": "pt-101-1-important-wesker-techs-47",
         "label": "Important: Wesker Techs",
         "context": "Important: Wesker Techs",
         "url": "https://www.youtube.com/watch?v=yNZzG_mgSjg",
@@ -36557,7 +26932,7 @@ var COMMUNITY_CONTENT = {
         "sourceType": "video"
       },
       {
-        "id": "pt-103-1-guide-by-choy-46",
+        "id": "pt-104-1-guide-by-choy-48",
         "label": "Guide by Choy",
         "context": "Guide by Choy",
         "url": "https://www.youtube.com/watch?v=kS9LNIQLFeo",
@@ -36565,7 +26940,7 @@ var COMMUNITY_CONTENT = {
         "sourceType": "video"
       },
       {
-        "id": "pt-104-1-guide-by-mate8-47",
+        "id": "pt-105-1-guide-by-mate8-49",
         "label": "Guide by Mate8",
         "context": "Guide by Mate8",
         "url": "https://www.youtube.com/watch?v=xYrmThARPuo",
@@ -36573,15 +26948,15 @@ var COMMUNITY_CONTENT = {
         "sourceType": "video"
       },
       {
-        "id": "pt-110-1-guide-by-yobro-48",
-        "label": "Guide by YoBro",
-        "context": "Guide by YoBro",
-        "url": "https://www.youtube.com/watch?v=P33a8Mu-J2M",
-        "host": "youtube.com",
+        "id": "pt-111-1-guide-by-jera-50",
+        "label": "Guide by jera",
+        "context": "Guide by jera",
+        "url": "https://youtu.be/zJkVPZMTj5w",
+        "host": "youtu.be",
         "sourceType": "video"
       },
       {
-        "id": "pt-113-1-guide-by-themrheadache-49",
+        "id": "pt-114-1-guide-by-themrheadache-51",
         "label": "Guide by TheMrHeadache",
         "context": "Guide by TheMrHeadache",
         "url": "https://docs.google.com/document/d/1-lG_Ow-OAE6kavsj-HEhh489_e-rIkrB4A43oHJL2wI/edit?usp=sharing",
@@ -36589,7 +26964,7 @@ var COMMUNITY_CONTENT = {
         "sourceType": "document"
       },
       {
-        "id": "pt-119-1-guide-by-honestpanda-50",
+        "id": "pt-120-1-guide-by-honestpanda-52",
         "label": "Guide by HonestPanda",
         "context": "Guide by HonestPanda Tips by u/Rehltar",
         "url": "https://youtu.be/Mr9crO-Y9-c",
@@ -36597,7 +26972,7 @@ var COMMUNITY_CONTENT = {
         "sourceType": "video"
       },
       {
-        "id": "pt-119-3-tips-by-u-rehltar-51",
+        "id": "pt-120-3-tips-by-u-rehltar-53",
         "label": "Tips by u/Rehltar",
         "context": "Guide by HonestPanda Tips by u/Rehltar",
         "url": "https://www.reddit.com/r/deadbydaylight/comments/1omizk7/unknown_guide_become_the_harmful_and_unlock_the/",
@@ -36605,7 +26980,7 @@ var COMMUNITY_CONTENT = {
         "sourceType": "community"
       },
       {
-        "id": "pt-122-1-guide-by-refinedkillz-52",
+        "id": "pt-123-1-guide-by-refinedkillz-54",
         "label": "Guide by RefinedKillz",
         "context": "Guide by RefinedKillz",
         "url": "https://youtu.be/SPSt0t5MoQE",
@@ -36613,7 +26988,7 @@ var COMMUNITY_CONTENT = {
         "sourceType": "video"
       },
       {
-        "id": "pt-125-1-guide-by-bleak-53",
+        "id": "pt-126-1-guide-by-bleak-55",
         "label": "Guide by Bleak",
         "context": "Guide by Bleak",
         "url": "https://www.youtube.com/watch?v=nVBuYlwbpFc",
@@ -36621,7 +26996,7 @@ var COMMUNITY_CONTENT = {
         "sourceType": "video"
       },
       {
-        "id": "pt-133-1-guide-by-tabafaba-54",
+        "id": "pt-134-1-guide-by-tabafaba-56",
         "label": "Guide by TabaFaba",
         "context": "Guide by TabaFaba",
         "url": "https://docs.google.com/document/d/1XcUusQV2QIsQowEAWRTZIaF-AUQxhKYNeRIZd4tT0EY/edit?tab=t.0#heading=h.mhplike4a81o",
@@ -36629,7 +27004,7 @@ var COMMUNITY_CONTENT = {
         "sourceType": "document"
       },
       {
-        "id": "pt-136-1-guide-by-szon77-55",
+        "id": "pt-137-1-guide-by-szon77-57",
         "label": "Guide by Szon77",
         "context": "Guide by Szon77",
         "url": "https://docs.google.com/document/d/1Covn0kPf4XJ-kRTJs4Jyd1SAXF0sM1iLdvc8vEsAovc/edit?usp=sharing",
@@ -36638,10 +27013,10 @@ var COMMUNITY_CONTENT = {
       }
     ],
     "stats": {
-      "linkCount": 55,
+      "linkCount": 57,
       "sourceTypeCounts": {
-        "video": 43,
-        "document": 8,
+        "video": 44,
+        "document": 9,
         "link": 1,
         "image": 1,
         "community": 2

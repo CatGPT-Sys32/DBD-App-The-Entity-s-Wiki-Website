@@ -1,19 +1,19 @@
 var COSMETICS_CATALOG = {
-  "generatedAt": "2026-05-24T18:35:45.487Z",
+  "generatedAt": "2026-06-18T02:53:59.496Z",
   "metadata": {
-    "sourceDiscoveryGeneratedAt": "2026-05-24T18:34:08.254Z",
-    "characterSwapCount": 103,
-    "fullSetCount": 4147,
-    "cosmeticCount": 4147,
+    "sourceDiscoveryGeneratedAt": "2026-06-18T02:53:59.130Z",
+    "characterSwapCount": 110,
+    "fullSetCount": 4159,
+    "cosmeticCount": 4159,
     "linkedFullSetCount": 57,
     "linkedCosmeticCount": 57,
     "fullSetLinkModeCounts": {
-      "unlinked": 4090,
+      "unlinked": 4102,
       "partially_linked": 7,
       "linked": 50
     },
     "cosmeticLinkModeCounts": {
-      "unlinked": 4090,
+      "unlinked": 4102,
       "partially_linked": 7,
       "linked": 50
     }
@@ -126,6 +126,44 @@ var COSMETICS_CATALOG = {
         "File:CC064 charSelect portrait.png"
       ],
       "description": "Character swaps outfit for The Artist"
+    },
+    {
+      "id": "the-artist--lilith",
+      "name": "Lilith",
+      "baseCharacterId": "10ae434f-ee93-49cb-afc6-e8463c770292",
+      "baseCharacterName": "The Artist",
+      "baseCharacterType": "Killer",
+      "groupKey": "legendary",
+      "groupLabel": "Legendary",
+      "collectionName": "Character swaps",
+      "image": "./dbd_images/cosmetics/character_swaps/the-artist--lilith.png",
+      "aliases": [
+        "lilith",
+        "legendary",
+        "character swap",
+        "character swaps",
+        "hud swap",
+        "the artist"
+      ],
+      "sourceKind": "wiki-category",
+      "sourcePage": "Carmina Mora/Lilith",
+      "assetProvenance": "official-portrait-exception",
+      "status": "ready",
+      "rarity": "Legendary",
+      "outfitLinkMode": "character_swap",
+      "boundSlots": [],
+      "bindSummary": "",
+      "isLinkedSet": false,
+      "isCharacterSwap": true,
+      "pieceType": "Outfit",
+      "sourceBucket": "Character swaps",
+      "assetFileTitleCandidates": [
+        "File:CategoryIcon_outfits.png",
+        "File:CC107 charSelect portrait.png"
+      ],
+      "description": "Character swaps outfit for The Artist",
+      "assetIsPlaceholder": true,
+      "assetPlaceholderSource": "File:CategoryIcon_outfits.png"
     },
     {
       "id": "the-artist--miss-fuchi",
@@ -775,6 +813,44 @@ var COSMETICS_CATALOG = {
       "description": "Character swaps outfit for The Huntress"
     },
     {
+      "id": "the-huntress--anniversary-eddie",
+      "name": "Anniversary Eddie",
+      "baseCharacterId": "45a09c50-e8ab-40bb-8dd3-d79aae054663",
+      "baseCharacterName": "The Huntress",
+      "baseCharacterType": "Killer",
+      "groupKey": "legendary",
+      "groupLabel": "Legendary",
+      "collectionName": "Character swaps",
+      "image": "./dbd_images/cosmetics/character_swaps/the-huntress--anniversary-eddie.png",
+      "aliases": [
+        "anniversary eddie",
+        "legendary",
+        "character swap",
+        "character swaps",
+        "hud swap",
+        "the huntress"
+      ],
+      "sourceKind": "wiki-category",
+      "sourcePage": "Anna/Anniversary Eddie",
+      "assetProvenance": "official-portrait-exception",
+      "status": "ready",
+      "rarity": "Legendary",
+      "outfitLinkMode": "character_swap",
+      "boundSlots": [],
+      "bindSummary": "",
+      "isLinkedSet": false,
+      "isCharacterSwap": true,
+      "pieceType": "Outfit",
+      "sourceBucket": "Character swaps",
+      "assetFileTitleCandidates": [
+        "File:CategoryIcon_outfits.png",
+        "File:CC105 charSelect portrait.png"
+      ],
+      "description": "Character swaps outfit for The Huntress",
+      "assetIsPlaceholder": true,
+      "assetPlaceholderSource": "File:CategoryIcon_outfits.png"
+    },
+    {
       "id": "the-huntress--the-baba-yaga",
       "name": "The Baba Yaga",
       "baseCharacterId": "45a09c50-e8ab-40bb-8dd3-d79aae054663",
@@ -1281,6 +1357,44 @@ var COSMETICS_CATALOG = {
         "File:CC017 charSelect portrait.png"
       ],
       "description": "Character swaps outfit for The Onryō"
+    },
+    {
+      "id": "the-spirit--bubble-head-nurse",
+      "name": "Bubble Head Nurse",
+      "baseCharacterId": "c5b56576-0afb-4f1e-ac73-bac5bd3ee9a0",
+      "baseCharacterName": "The Spirit",
+      "baseCharacterType": "Killer",
+      "groupKey": "legendary",
+      "groupLabel": "Legendary",
+      "collectionName": "Character swaps",
+      "image": "./dbd_images/cosmetics/character_swaps/the-spirit--bubble-head-nurse.png",
+      "aliases": [
+        "bubble head nurse",
+        "legendary",
+        "character swap",
+        "character swaps",
+        "hud swap",
+        "the spirit"
+      ],
+      "sourceKind": "wiki-category",
+      "sourcePage": "Rin Yamaoka/Bubble Head Nurse",
+      "assetProvenance": "official-portrait-exception",
+      "status": "ready",
+      "rarity": "Legendary",
+      "outfitLinkMode": "character_swap",
+      "boundSlots": [],
+      "bindSummary": "",
+      "isLinkedSet": false,
+      "isCharacterSwap": true,
+      "pieceType": "Outfit",
+      "sourceBucket": "Character swaps",
+      "assetFileTitleCandidates": [
+        "File:CategoryIcon_outfits.png",
+        "File:CC110 charSelect portrait.png"
+      ],
+      "description": "Character swaps outfit for The Spirit",
+      "assetIsPlaceholder": true,
+      "assetPlaceholderSource": "File:CategoryIcon_outfits.png"
     },
     {
       "id": "the-spirit--tomie-kawakami",
@@ -2078,6 +2192,42 @@ var COSMETICS_CATALOG = {
       "description": "Character swaps outfit for Cheryl Mason"
     },
     {
+      "id": "cheryl-mason--shimizu-hinako",
+      "name": "Shimizu Hinako",
+      "baseCharacterId": "d1d07b5d-6975-47cd-b4ea-8d67e21dbb60",
+      "baseCharacterName": "Cheryl Mason",
+      "baseCharacterType": "Survivor",
+      "groupKey": "legendary",
+      "groupLabel": "Legendary",
+      "collectionName": "Character swaps",
+      "image": "./dbd_images/cosmetics/character_swaps/cheryl-mason--shimizu-hinako.png",
+      "aliases": [
+        "shimizu hinako",
+        "legendary",
+        "character swap",
+        "character swaps",
+        "hud swap",
+        "cheryl mason"
+      ],
+      "sourceKind": "wiki-category",
+      "sourcePage": "Cheryl Mason/Shimizu Hinako",
+      "assetProvenance": "official-headshot",
+      "status": "ready",
+      "rarity": "Legendary",
+      "outfitLinkMode": "character_swap",
+      "boundSlots": [],
+      "bindSummary": "",
+      "isLinkedSet": false,
+      "isCharacterSwap": true,
+      "pieceType": "Outfit",
+      "sourceBucket": "Character swaps",
+      "assetFileTitleCandidates": [
+        "File:S22 Head014.png",
+        "File:CC104 charSelect portrait.png"
+      ],
+      "description": "Character swaps outfit for Cheryl Mason"
+    },
+    {
       "id": "david-king--highwayman",
       "name": "Highwayman",
       "baseCharacterId": "bf7d5108-7017-4428-a012-865b2bc8e72f",
@@ -2182,6 +2332,42 @@ var COSMETICS_CATALOG = {
       "assetFileTitleCandidates": [
         "File:DF Head020.png",
         "File:CC040 charSelect portrait.png"
+      ],
+      "description": "Character swaps outfit for Dwight Fairfield"
+    },
+    {
+      "id": "dwight-fairfield--scooby-doo",
+      "name": "Scooby-Doo",
+      "baseCharacterId": "c1ad4f3a-3f31-47f6-ae66-7ba2746a1423",
+      "baseCharacterName": "Dwight Fairfield",
+      "baseCharacterType": "Survivor",
+      "groupKey": "costume",
+      "groupLabel": "Costume",
+      "collectionName": "Character swaps",
+      "image": "./dbd_images/cosmetics/character_swaps/dwight-fairfield--scooby-doo.png",
+      "aliases": [
+        "scooby-doo",
+        "costume",
+        "character swap",
+        "character swaps",
+        "hud swap",
+        "dwight fairfield"
+      ],
+      "sourceKind": "wiki-category",
+      "sourcePage": "Dwight Fairfield/Scooby-Doo",
+      "assetProvenance": "official-portrait-exception",
+      "status": "ready",
+      "rarity": "Costume",
+      "outfitLinkMode": "character_swap",
+      "boundSlots": [],
+      "bindSummary": "",
+      "isLinkedSet": false,
+      "isCharacterSwap": true,
+      "pieceType": "Outfit",
+      "sourceBucket": "Character swaps",
+      "assetFileTitleCandidates": [
+        "File:SurvivorDwight.png",
+        "File:CC108 charSelect portrait.png"
       ],
       "description": "Character swaps outfit for Dwight Fairfield"
     },
@@ -3083,6 +3269,78 @@ var COSMETICS_CATALOG = {
       "assetFileTitleCandidates": [
         "File:S47 Head008.png",
         "File:CC065 charSelect portrait.png"
+      ],
+      "description": "Character swaps outfit for Rick Grimes"
+    },
+    {
+      "id": "rick-grimes--glenn-rhee",
+      "name": "Glenn Rhee",
+      "baseCharacterId": "3364089d-c7a1-49f3-a421-87cb4069081f",
+      "baseCharacterName": "Rick Grimes",
+      "baseCharacterType": "Survivor",
+      "groupKey": "legendary",
+      "groupLabel": "Legendary",
+      "collectionName": "Character swaps",
+      "image": "./dbd_images/cosmetics/character_swaps/rick-grimes--glenn-rhee.png",
+      "aliases": [
+        "glenn rhee",
+        "legendary",
+        "character swap",
+        "character swaps",
+        "hud swap",
+        "rick grimes"
+      ],
+      "sourceKind": "wiki-category",
+      "sourcePage": "Rick Grimes/Glenn Rhee",
+      "assetProvenance": "official-portrait-exception",
+      "status": "ready",
+      "rarity": "Legendary",
+      "outfitLinkMode": "character_swap",
+      "boundSlots": [],
+      "bindSummary": "",
+      "isLinkedSet": false,
+      "isCharacterSwap": true,
+      "pieceType": "Outfit",
+      "sourceBucket": "Character swaps",
+      "assetFileTitleCandidates": [
+        "File:Rick Grimes Glenn Rhee Cosmetic Promo.png",
+        "File:CC106 charSelect portrait.png"
+      ],
+      "description": "Character swaps outfit for Rick Grimes"
+    },
+    {
+      "id": "rick-grimes--negan-smith",
+      "name": "Negan Smith",
+      "baseCharacterId": "3364089d-c7a1-49f3-a421-87cb4069081f",
+      "baseCharacterName": "Rick Grimes",
+      "baseCharacterType": "Survivor",
+      "groupKey": "legendary",
+      "groupLabel": "Legendary",
+      "collectionName": "Character swaps",
+      "image": "./dbd_images/cosmetics/character_swaps/rick-grimes--negan-smith.png",
+      "aliases": [
+        "negan smith",
+        "legendary",
+        "character swap",
+        "character swaps",
+        "hud swap",
+        "rick grimes"
+      ],
+      "sourceKind": "wiki-category",
+      "sourcePage": "Rick Grimes/Negan Smith",
+      "assetProvenance": "official-portrait-exception",
+      "status": "ready",
+      "rarity": "Legendary",
+      "outfitLinkMode": "character_swap",
+      "boundSlots": [],
+      "bindSummary": "",
+      "isLinkedSet": false,
+      "isCharacterSwap": true,
+      "pieceType": "Outfit",
+      "sourceBucket": "Character swaps",
+      "assetFileTitleCandidates": [
+        "File:SurvivorRick.png",
+        "File:CC109 charSelect portrait.png"
       ],
       "description": "Character swaps outfit for Rick Grimes"
     },
@@ -4832,8 +5090,7 @@ var COSMETICS_CATALOG = {
       "pieceType": "Body",
       "sourceBucket": "Archive",
       "assetFileTitleCandidates": [
-        "File:K26 Body010.png",
-        "File:K26_Body010.png"
+        "File:K26 Body010.png"
       ],
       "description": "Her deft touch ensured no paint sullied this incredible dress, which fluttered in a graceful dance as she created."
     },
@@ -5049,8 +5306,7 @@ var COSMETICS_CATALOG = {
       "pieceType": "Head",
       "sourceBucket": "Archive",
       "assetFileTitleCandidates": [
-        "File:K26 Head010.png",
-        "File:K26_Head010.png"
+        "File:K26 Head010.png"
       ],
       "description": "Her piece spoke to the aimlessness of humanity, hopelessly scrambling to discover its purpose."
     },
@@ -5641,8 +5897,7 @@ var COSMETICS_CATALOG = {
       "pieceType": "Weapon",
       "sourceBucket": "Archive",
       "assetFileTitleCandidates": [
-        "File:K26 W010.png",
-        "File:K26_W010.png"
+        "File:K26 W010.png"
       ],
       "description": "Its inky blackness drew thick dark lines across the pathetic masses."
     },
@@ -6369,7 +6624,8 @@ var COSMETICS_CATALOG = {
       "pieceType": "Outfit",
       "sourceBucket": "Archive",
       "assetFileTitleCandidates": [
-        "File:K21_outfit_006_01.png"
+        "File:K21_outfit_006_01.png",
+        "File:K21 outfit 006 01.png"
       ],
       "description": "An Irish outfit to celebrate the holiday, gifted to Talbot by a friend in the East India Company."
     },
@@ -7180,11 +7436,10 @@ var COSMETICS_CATALOG = {
       "baseCharacterType": "Killer",
       "groupKey": "cosmetic",
       "groupLabel": "Darkest Dungeon",
-      "collectionName": "Ruinous Depths",
+      "collectionName": "Darkest Dungeon",
       "image": "./dbd_images/cosmetics/full_sets/the-blight--prophet-s-sight--outfit--k21-outfit-023.png",
       "aliases": [
         "prophet’s sight",
-        "ruinous depths",
         "darkest dungeon",
         "outfit",
         "the blight",
@@ -7223,11 +7478,10 @@ var COSMETICS_CATALOG = {
       "baseCharacterType": "Killer",
       "groupKey": "cosmetic",
       "groupLabel": "Darkest Dungeon",
-      "collectionName": "Ruinous Depths",
+      "collectionName": "Darkest Dungeon",
       "image": "./dbd_images/cosmetics/full_sets/the-blight--prophet-s-sight-deep-rift-1--outfit--k21-outfit-023-01.png",
       "aliases": [
         "prophet’s sight (deep rift 1)",
-        "ruinous depths",
         "darkest dungeon",
         "outfit",
         "the blight",
@@ -7266,11 +7520,10 @@ var COSMETICS_CATALOG = {
       "baseCharacterType": "Killer",
       "groupKey": "cosmetic",
       "groupLabel": "Darkest Dungeon",
-      "collectionName": "Ruinous Depths",
+      "collectionName": "Darkest Dungeon",
       "image": "./dbd_images/cosmetics/full_sets/the-blight--prophet-s-sight-deep-rift-2--outfit--k21-outfit-023-02.png",
       "aliases": [
         "prophet’s sight (deep rift 2)",
-        "ruinous depths",
         "darkest dungeon",
         "outfit",
         "the blight",
@@ -13714,7 +13967,8 @@ var COSMETICS_CATALOG = {
       "pieceType": "Outfit",
       "sourceBucket": "Archive",
       "assetFileTitleCandidates": [
-        "File:UK_outfit_009_01.png"
+        "File:UK_outfit_009_01.png",
+        "File:UK outfit 009 01.png"
       ],
       "description": "Caleb's life has been rife with misfortune. It's time for him to make his own luck."
     },
@@ -20893,6 +21147,90 @@ var COSMETICS_CATALOG = {
         "File:K28 outfit 008.png"
       ],
       "description": "From the subconscious of the cold and scared emerged a horrifying creature of ice and malice."
+    },
+    {
+      "id": "the-dredge--a-house-not-a-home--outfit--k28-outfit-022",
+      "name": "A House Not A Home",
+      "baseCharacterId": "ff93ca55-15c2-485b-bc3d-335ef9f1d32f",
+      "baseCharacterName": "The Dredge",
+      "baseCharacterType": "Killer",
+      "groupKey": "cosmetic",
+      "groupLabel": "Community",
+      "collectionName": "Community",
+      "image": "./dbd_images/cosmetics/full_sets/the-dredge--a-house-not-a-home--outfit--k28-outfit-022.png",
+      "aliases": [
+        "a house not a home",
+        "community",
+        "outfit",
+        "the dredge",
+        "arm",
+        "body",
+        "weapon",
+        "unlinked",
+        "unlinked outfit"
+      ],
+      "sourceKind": "wiki-collection-page",
+      "sourcePage": "Community Collection",
+      "assetProvenance": "official-outfit-icon",
+      "status": "ready",
+      "rarity": "Very Rare",
+      "outfitLinkMode": "unlinked",
+      "boundSlots": [
+        "Arm",
+        "Body",
+        "Weapon"
+      ],
+      "bindSummary": "Arm + Body + Weapon",
+      "isLinkedSet": false,
+      "isCharacterSwap": false,
+      "pieceType": "Outfit",
+      "sourceBucket": "Community",
+      "assetFileTitleCandidates": [
+        "File:K28 outfit 022.png"
+      ],
+      "description": "She was just a child, but she would never forget the day she and her family moved into their new home. Design inspired by Ivana Krovinova"
+    },
+    {
+      "id": "the-dredge--fear-of-reminiscence--outfit--k28-outfit-020",
+      "name": "Fear of Reminiscence",
+      "baseCharacterId": "ff93ca55-15c2-485b-bc3d-335ef9f1d32f",
+      "baseCharacterName": "The Dredge",
+      "baseCharacterType": "Killer",
+      "groupKey": "cosmetic",
+      "groupLabel": "Community",
+      "collectionName": "Community",
+      "image": "./dbd_images/cosmetics/full_sets/the-dredge--fear-of-reminiscence--outfit--k28-outfit-020.png",
+      "aliases": [
+        "fear of reminiscence",
+        "community",
+        "outfit",
+        "the dredge",
+        "arm",
+        "body",
+        "weapon",
+        "unlinked",
+        "unlinked outfit"
+      ],
+      "sourceKind": "wiki-collection-page",
+      "sourcePage": "Community Collection",
+      "assetProvenance": "official-outfit-icon",
+      "status": "ready",
+      "rarity": "Very Rare",
+      "outfitLinkMode": "unlinked",
+      "boundSlots": [
+        "Arm",
+        "Body",
+        "Weapon"
+      ],
+      "bindSummary": "Arm + Body + Weapon",
+      "isLinkedSet": false,
+      "isCharacterSwap": false,
+      "pieceType": "Outfit",
+      "sourceBucket": "Community",
+      "assetFileTitleCandidates": [
+        "File:K28 outfit 020.png"
+      ],
+      "description": "Amidst the screams and violence, he saw a figure draped in a white sheet. It was a familiar sight that chilled him to the bone. Design inspired by urouroutsuro."
     },
     {
       "id": "the-dredge--war-is-hell--outfit--k28-outfit-010",
@@ -28495,8 +28833,7 @@ var COSMETICS_CATALOG = {
       "pieceType": "Body",
       "sourceBucket": "Archive",
       "assetFileTitleCandidates": [
-        "File:TC Torso05 04.png",
-        "File:TC_Torso05_04.png"
+        "File:TC Torso05 04.png"
       ],
       "description": "A cozy plaid shirt found amongst his father's belongings. This top keeps one warm and obscures bloodstains quite effectively."
     },
@@ -28856,8 +29193,7 @@ var COSMETICS_CATALOG = {
       "pieceType": "Legs",
       "sourceBucket": "Archive",
       "assetFileTitleCandidates": [
-        "File:TC Legs05 04.png",
-        "File:TC_Legs05_04.png"
+        "File:TC Legs05 04.png"
       ],
       "description": "Canvas pants favored by workers for being tough, these won't tear even if they brushed by, for example, a shotgon covered in rusty nails."
     },
@@ -29868,8 +30204,7 @@ var COSMETICS_CATALOG = {
       "pieceType": "Weapon",
       "sourceBucket": "Archive",
       "assetFileTitleCandidates": [
-        "File:TC W05 04.png",
-        "File:TC_W05_04.png"
+        "File:TC W05 04.png"
       ],
       "description": "The business end of this shotgun is wrapped tight in extra flannel torn from his shirt, to keep the fingers warm while gripping cold steel."
     },
@@ -35476,11 +35811,10 @@ var COSMETICS_CATALOG = {
       "baseCharacterType": "Killer",
       "groupKey": "cosmetic",
       "groupLabel": "Darkest Dungeon",
-      "collectionName": "Ruinous Depths",
+      "collectionName": "Darkest Dungeon",
       "image": "./dbd_images/cosmetics/full_sets/the-knight--weathered-armor--outfit--k30-outfit-013-01.png",
       "aliases": [
         "weathered armor",
-        "ruinous depths",
         "darkest dungeon",
         "outfit",
         "the knight",
@@ -37201,8 +37535,7 @@ var COSMETICS_CATALOG = {
       "pieceType": "Body",
       "sourceBucket": "Archive",
       "assetFileTitleCandidates": [
-        "File:KK Body022.png",
-        "File:KK_Body022.png"
+        "File:KK Body022.png"
       ],
       "description": "Susie has no love for Fairview, so she used some of her crew's spraypaint to endorse something worth cheering for."
     },
@@ -37560,8 +37893,7 @@ var COSMETICS_CATALOG = {
       "pieceType": "Head",
       "sourceBucket": "Archive",
       "assetFileTitleCandidates": [
-        "File:KK Mask022.png",
-        "File:KK_Mask022.png"
+        "File:KK Mask022.png"
       ],
       "description": "An art class project, this mask once was covered in glitter and sequins."
     },
@@ -37963,8 +38295,7 @@ var COSMETICS_CATALOG = {
       "pieceType": "Weapon",
       "sourceBucket": "Archive",
       "assetFileTitleCandidates": [
-        "File:KK W022.png",
-        "File:KK_W022.png"
+        "File:KK W022.png"
       ],
       "description": "Susie now carries this deadly blade, festooned with a doll and pom pom- a twisted riposte to those who caused her so much pain."
     },
@@ -42286,11 +42617,10 @@ var COSMETICS_CATALOG = {
       "baseCharacterType": "Killer",
       "groupKey": "cosmetic",
       "groupLabel": "Darkest Dungeon",
-      "collectionName": "Ruinous Depths",
+      "collectionName": "Darkest Dungeon",
       "image": "./dbd_images/cosmetics/full_sets/the-nurse--collector-s-curse--outfit--tn-outfit-027.png",
       "aliases": [
         "collector's curse",
-        "ruinous depths",
         "darkest dungeon",
         "outfit",
         "the nurse",
@@ -42329,11 +42659,10 @@ var COSMETICS_CATALOG = {
       "baseCharacterType": "Killer",
       "groupKey": "cosmetic",
       "groupLabel": "Darkest Dungeon",
-      "collectionName": "Ruinous Depths",
+      "collectionName": "Darkest Dungeon",
       "image": "./dbd_images/cosmetics/full_sets/the-nurse--collector-s-curse-deep-rift-1--outfit--tn-outfit-027-01.png",
       "aliases": [
         "collector's curse (deep rift 1)",
-        "ruinous depths",
         "darkest dungeon",
         "outfit",
         "the nurse",
@@ -42372,11 +42701,10 @@ var COSMETICS_CATALOG = {
       "baseCharacterType": "Killer",
       "groupKey": "cosmetic",
       "groupLabel": "Darkest Dungeon",
-      "collectionName": "Ruinous Depths",
+      "collectionName": "Darkest Dungeon",
       "image": "./dbd_images/cosmetics/full_sets/the-nurse--collector-s-curse-deep-rift-2--outfit--tn-outfit-027-02.png",
       "aliases": [
         "collector's curse (deep rift 2)",
-        "ruinous depths",
         "darkest dungeon",
         "outfit",
         "the nurse",
@@ -43119,8 +43447,7 @@ var COSMETICS_CATALOG = {
       "pieceType": "Body",
       "sourceBucket": "Archive",
       "assetFileTitleCandidates": [
-        "File:TN Body006 02.png",
-        "File:TN_Body006_02.png"
+        "File:TN Body006 02.png"
       ],
       "description": "A light, flowery prison for the ribs and lungs that squeezes the very breath from its wearer."
     },
@@ -43264,8 +43591,7 @@ var COSMETICS_CATALOG = {
       "pieceType": "Head",
       "sourceBucket": "Archive",
       "assetFileTitleCandidates": [
-        "File:TN Head006 02.png",
-        "File:TN_Head006_02.png"
+        "File:TN Head006 02.png"
       ],
       "description": "A crown of beautiful, vibrant flowers- all perfectly preserved and very dead."
     },
@@ -43559,8 +43885,7 @@ var COSMETICS_CATALOG = {
       "pieceType": "Weapon",
       "sourceBucket": "Archive",
       "assetFileTitleCandidates": [
-        "File:TN W006 02.png",
-        "File:TN_W006_02.png"
+        "File:TN W006 02.png"
       ],
       "description": "A piece of medical equipment that blurs the line between surgeon and butcher."
     },
@@ -49377,8 +49702,7 @@ var COSMETICS_CATALOG = {
       "pieceType": "Body",
       "sourceBucket": "Archive",
       "assetFileTitleCandidates": [
-        "File:MK Body010 01.png",
-        "File:MK_Body010_01.png"
+        "File:MK Body010 01.png"
       ],
       "description": "A robe dyed deep red with the powdered remains of beetles."
     },
@@ -49702,8 +50026,7 @@ var COSMETICS_CATALOG = {
       "pieceType": "Head",
       "sourceBucket": "Archive",
       "assetFileTitleCandidates": [
-        "File:MK Mask010 01.png",
-        "File:MK_Mask010_01.png"
+        "File:MK Mask010 01.png"
       ],
       "description": "A deep red headdress that symbolizes vitality and long life."
     },
@@ -50464,8 +50787,7 @@ var COSMETICS_CATALOG = {
       "pieceType": "Weapon",
       "sourceBucket": "Archive",
       "assetFileTitleCandidates": [
-        "File:MK W010 01.png",
-        "File:MK_W010_01.png"
+        "File:MK W010 01.png"
       ],
       "description": "The stink of various incenses and reagents emanate from this heavy bronze container."
     },
@@ -62641,8 +62963,7 @@ var COSMETICS_CATALOG = {
       "pieceType": "Body",
       "sourceBucket": "Archive",
       "assetFileTitleCandidates": [
-        "File:K23 Body006 01.png",
-        "File:K23_Body006_01.png"
+        "File:K23 Body006 01.png"
       ],
       "description": "A piece personally commissioned to express the desire to take what is one's own, no matter what might stand in the way."
     },
@@ -62858,8 +63179,7 @@ var COSMETICS_CATALOG = {
       "pieceType": "Head",
       "sourceBucket": "Archive",
       "assetFileTitleCandidates": [
-        "File:K23 Head006 01.png",
-        "File:K23_Head006_01.png"
+        "File:K23 Head006 01.png"
       ],
       "description": "Dramatic blue makeup and hair dye that are as cold as his heart."
     },
@@ -63777,8 +64097,7 @@ var COSMETICS_CATALOG = {
       "pieceType": "Weapon",
       "sourceBucket": "Archive",
       "assetFileTitleCandidates": [
-        "File:K23 Weapon006 01.png",
-        "File:K23_Weapon006_01.png"
+        "File:K23 Weapon006 01.png"
       ],
       "description": "One of the last custom bats made to celebrate the good fortune he was about to make for himself."
     },
@@ -64351,8 +64670,7 @@ var COSMETICS_CATALOG = {
       "pieceType": "Body",
       "sourceBucket": "Archive",
       "assetFileTitleCandidates": [
-        "File:K22 Body008.png",
-        "File:K22_Body008.png"
+        "File:K22 Body008.png"
       ],
       "description": "The journey would be dangerous, and difficult, but at its end, a land where sweet syrup poured from the trees."
     },
@@ -64460,8 +64778,7 @@ var COSMETICS_CATALOG = {
       "pieceType": "Head",
       "sourceBucket": "Archive",
       "assetFileTitleCandidates": [
-        "File:K22 Head008.png",
-        "File:K22_Head008.png"
+        "File:K22 Head008.png"
       ],
       "description": "Charlotte gazed upon a ship at sea and imagined stealing the clothes of a naval officer and sailing West to this New World."
     },
@@ -64623,11 +64940,10 @@ var COSMETICS_CATALOG = {
       "baseCharacterType": "Killer",
       "groupKey": "cosmetic",
       "groupLabel": "Darkest Dungeon",
-      "collectionName": "Ruinous Depths",
+      "collectionName": "Darkest Dungeon",
       "image": "./dbd_images/cosmetics/full_sets/the-twins--thicker-than-water--outfit--k22-outfit-015-01.png",
       "aliases": [
         "thicker than water",
-        "ruinous depths",
         "darkest dungeon",
         "outfit",
         "the twins",
@@ -64858,8 +65174,7 @@ var COSMETICS_CATALOG = {
       "pieceType": "Weapon",
       "sourceBucket": "Archive",
       "assetFileTitleCandidates": [
-        "File:K22 W008.png",
-        "File:K22_W008.png"
+        "File:K22 W008.png"
       ],
       "description": "One day, these awful weapons could be used not for violence, but to build a new place for them to call home."
     },
@@ -65515,6 +65830,48 @@ var COSMETICS_CATALOG = {
         "File:K35 outfit 011.png"
       ],
       "description": "The biggest kid in the schoolyard had everyone's attention – he told them The Unknown was so scary, it even killed the Big Bad Wolf.Design inspired by DuckieGrumpy."
+    },
+    {
+      "id": "the-unknown--unsolved--outfit--k35-outfit-014",
+      "name": "Unsolved",
+      "baseCharacterId": "b1367d52-b93a-49f0-b8b3-64c202e12efb",
+      "baseCharacterName": "The Unknown",
+      "baseCharacterType": "Killer",
+      "groupKey": "cosmetic",
+      "groupLabel": "Community",
+      "collectionName": "Community",
+      "image": "./dbd_images/cosmetics/full_sets/the-unknown--unsolved--outfit--k35-outfit-014.png",
+      "aliases": [
+        "unsolved",
+        "community",
+        "outfit",
+        "the unknown",
+        "head",
+        "body",
+        "weapon",
+        "unlinked",
+        "unlinked outfit"
+      ],
+      "sourceKind": "wiki-collection-page",
+      "sourcePage": "Community Collection",
+      "assetProvenance": "official-outfit-icon",
+      "status": "ready",
+      "rarity": "Very Rare",
+      "outfitLinkMode": "unlinked",
+      "boundSlots": [
+        "Head",
+        "Body",
+        "Weapon"
+      ],
+      "bindSummary": "Head + Body + Weapon",
+      "isLinkedSet": false,
+      "isCharacterSwap": false,
+      "pieceType": "Outfit",
+      "sourceBucket": "Community",
+      "assetFileTitleCandidates": [
+        "File:K35 outfit 014.png"
+      ],
+      "description": "The entire police department was on high alert after a detective went missing during a murder investigation.Design inspired by Shyboi."
     },
     {
       "id": "the-unknown--bonfire-faire--outfit--k35-outfit-010",
@@ -66211,8 +66568,7 @@ var COSMETICS_CATALOG = {
       "pieceType": "Body",
       "sourceBucket": "Archive",
       "assetFileTitleCandidates": [
-        "File:TW Body014.png",
-        "File:TW_Body014.png"
+        "File:TW Body014.png"
       ],
       "description": "Extremely easy to see, except for when it isn’t."
     },
@@ -66248,8 +66604,7 @@ var COSMETICS_CATALOG = {
       "pieceType": "Body",
       "sourceBucket": "Archive",
       "assetFileTitleCandidates": [
-        "File:TW Body014 01.png",
-        "File:TW_Body014_01.png"
+        "File:TW Body014 01.png"
       ],
       "description": "Extremely easy to see, except for when it’s foggy."
     },
@@ -66357,8 +66712,7 @@ var COSMETICS_CATALOG = {
       "pieceType": "Head",
       "sourceBucket": "Archive",
       "assetFileTitleCandidates": [
-        "File:TW Head014.png",
-        "File:TW_Head014.png"
+        "File:TW Head014.png"
       ],
       "description": "While he should probably have had his helmet on, the sweltering heat made it worth taking a risk from time to time."
     },
@@ -66394,8 +66748,7 @@ var COSMETICS_CATALOG = {
       "pieceType": "Head",
       "sourceBucket": "Archive",
       "assetFileTitleCandidates": [
-        "File:TW Head014 01.png",
-        "File:TW_Head014_01.png"
+        "File:TW Head014 01.png"
       ],
       "description": "While he should probably have had his helmet on, the unending trials made it worth taking a risk from time to time."
     },
@@ -66689,8 +67042,7 @@ var COSMETICS_CATALOG = {
       "pieceType": "Weapon",
       "sourceBucket": "Archive",
       "assetFileTitleCandidates": [
-        "File:TW W014.png",
-        "File:TW_W014.png"
+        "File:TW W014.png"
       ],
       "description": "A violent combination of bits and pieces from Autohaven Wreckers."
     },
@@ -66726,8 +67078,7 @@ var COSMETICS_CATALOG = {
       "pieceType": "Weapon",
       "sourceBucket": "Archive",
       "assetFileTitleCandidates": [
-        "File:TW W014 01.png",
-        "File:TW_W014_01.png"
+        "File:TW W014 01.png"
       ],
       "description": "A violent combination of bits and pieces from around the Entity’s realm."
     },
@@ -67930,6 +68281,48 @@ var COSMETICS_CATALOG = {
         "File:TW outfit 019.png"
       ],
       "description": "He was drawn to the swarm of flies over an open trunk. Inside was a partially decomposed stag, its round eyes gazing into the abyss."
+    },
+    {
+      "id": "the-wraith--periwinkle-the-jester--outfit--tw-outfit-024",
+      "name": "Periwinkle the Jester",
+      "baseCharacterId": "ea0aa555-6726-46f3-ad07-a805b5429ccf",
+      "baseCharacterName": "The Wraith",
+      "baseCharacterType": "Killer",
+      "groupKey": "cosmetic",
+      "groupLabel": "Community",
+      "collectionName": "Community",
+      "image": "./dbd_images/cosmetics/full_sets/the-wraith--periwinkle-the-jester--outfit--tw-outfit-024.png",
+      "aliases": [
+        "periwinkle the jester",
+        "community",
+        "outfit",
+        "the wraith",
+        "head",
+        "body",
+        "weapon",
+        "unlinked",
+        "unlinked outfit"
+      ],
+      "sourceKind": "wiki-collection-page",
+      "sourcePage": "Community Collection",
+      "assetProvenance": "official-outfit-icon",
+      "status": "ready",
+      "rarity": "Very Rare",
+      "outfitLinkMode": "unlinked",
+      "boundSlots": [
+        "Head",
+        "Body",
+        "Weapon"
+      ],
+      "bindSummary": "Head + Body + Weapon",
+      "isLinkedSet": false,
+      "isCharacterSwap": false,
+      "pieceType": "Outfit",
+      "sourceBucket": "Community",
+      "assetFileTitleCandidates": [
+        "File:TW outfit 024.png"
+      ],
+      "description": "A dark part of him, buried deep inside, emerged from the shadows with a cruel grin.Design inspired by KahChen."
     },
     {
       "id": "the-wraith--stray-cat--outfit--tw-outfit-017",
@@ -70593,8 +70986,7 @@ var COSMETICS_CATALOG = {
       "pieceType": "Body",
       "sourceBucket": "Archive",
       "assetFileTitleCandidates": [
-        "File:AV Torso012 01.png",
-        "File:AV_Torso012_01.png"
+        "File:AV Torso012 01.png"
       ],
       "description": "Why would a card shark be scary? They don’t even come on land. He’s a card TIGER."
     },
@@ -70954,8 +71346,7 @@ var COSMETICS_CATALOG = {
       "pieceType": "Head",
       "sourceBucket": "Archive",
       "assetFileTitleCandidates": [
-        "File:AV Head012 01.png",
-        "File:AV_Head012_01.png"
+        "File:AV Head012 01.png"
       ],
       "description": "These whiskers may not help him move navigate small spaces, but they sure do look fancy."
     },
@@ -71315,8 +71706,7 @@ var COSMETICS_CATALOG = {
       "pieceType": "Legs",
       "sourceBucket": "Archive",
       "assetFileTitleCandidates": [
-        "File:AV Legs012 01.png",
-        "File:AV_Legs012_01.png"
+        "File:AV Legs012 01.png"
       ],
       "description": "You might think you have him on the flop or the turn, but the river is where the tiger is king."
     },
@@ -74358,8 +74748,7 @@ var COSMETICS_CATALOG = {
       "pieceType": "Body",
       "sourceBucket": "Archive",
       "assetFileTitleCandidates": [
-        "File:HS Torso014.png",
-        "File:HS_Torso014.png"
+        "File:HS Torso014.png"
       ],
       "description": "A beautiful patterned vest and sack filled with rare manuscripts."
     },
@@ -74395,8 +74784,7 @@ var COSMETICS_CATALOG = {
       "pieceType": "Body",
       "sourceBucket": "Archive",
       "assetFileTitleCandidates": [
-        "File:HS Torso014 01.png",
-        "File:HS_Torso014_01.png"
+        "File:HS Torso014 01.png"
       ],
       "description": "A beautiful patterned vest and sack filled with observations on this strange place."
     },
@@ -74720,8 +75108,7 @@ var COSMETICS_CATALOG = {
       "pieceType": "Head",
       "sourceBucket": "Archive",
       "assetFileTitleCandidates": [
-        "File:HS Head014.png",
-        "File:HS_Head014.png"
+        "File:HS Head014.png"
       ],
       "description": "A sensible hat recovered from Vigo’s workshop, it protected him from leaks and harsh lights."
     },
@@ -74757,8 +75144,7 @@ var COSMETICS_CATALOG = {
       "pieceType": "Head",
       "sourceBucket": "Archive",
       "assetFileTitleCandidates": [
-        "File:HS Head014 01.png",
-        "File:HS_Head014_01.png"
+        "File:HS Head014 01.png"
       ],
       "description": "A sensible hat recovered from Vigo’s workshop, it protected him from the great unknown."
     },
@@ -75082,8 +75468,7 @@ var COSMETICS_CATALOG = {
       "pieceType": "Legs",
       "sourceBucket": "Archive",
       "assetFileTitleCandidates": [
-        "File:HS Legs014.png",
-        "File:HS_Legs014.png"
+        "File:HS Legs014.png"
       ],
       "description": "A deep brown, and deeply comfortable, pair of trousers. Despite the stains, they were remarkably well-preserved."
     },
@@ -75119,8 +75504,7 @@ var COSMETICS_CATALOG = {
       "pieceType": "Legs",
       "sourceBucket": "Archive",
       "assetFileTitleCandidates": [
-        "File:HS Legs014 01.png",
-        "File:HS_Legs014_01.png"
+        "File:HS Legs014 01.png"
       ],
       "description": "A deeply comfortable pair of trousers. Despite the stains, they were a remarkable and valuable artifact."
     },
@@ -75523,6 +75907,48 @@ var COSMETICS_CATALOG = {
         "File:HS outfit 032.png"
       ],
       "description": "An elegant three-piece suit, worthy of a royal ceremony from another realm."
+    },
+    {
+      "id": "adam-francis--late-night--outfit--hs-outfit-031",
+      "name": "Late Night",
+      "baseCharacterId": "9047b38b-c1e4-4e6a-9ea9-325d7c9c0159",
+      "baseCharacterName": "Adam Francis",
+      "baseCharacterType": "Survivor",
+      "groupKey": "cosmetic",
+      "groupLabel": "Community",
+      "collectionName": "Community",
+      "image": "./dbd_images/cosmetics/full_sets/adam-francis--late-night--outfit--hs-outfit-031.png",
+      "aliases": [
+        "late night",
+        "community",
+        "outfit",
+        "adam francis",
+        "head",
+        "body",
+        "legs",
+        "unlinked",
+        "unlinked outfit"
+      ],
+      "sourceKind": "wiki-collection-page",
+      "sourcePage": "Community Collection",
+      "assetProvenance": "official-outfit-icon",
+      "status": "ready",
+      "rarity": "Very Rare",
+      "outfitLinkMode": "unlinked",
+      "boundSlots": [
+        "Head",
+        "Body",
+        "Legs"
+      ],
+      "bindSummary": "Head + Body + Legs",
+      "isLinkedSet": false,
+      "isCharacterSwap": false,
+      "pieceType": "Outfit",
+      "sourceBucket": "Community",
+      "assetFileTitleCandidates": [
+        "File:HS outfit 031.png"
+      ],
+      "description": "He picked up his cousin at the airport, excited about the adventures they would inevitably get into during his visit. Design inspired by Razz Pazazz."
     },
     {
       "id": "adam-francis--flora-sensa--outfit--hs-outfit-030",
@@ -77526,6 +77952,49 @@ var COSMETICS_CATALOG = {
         "File:ML outfit 008.png"
       ],
       "description": "Outfit cosmetic for Ashley J. Williams"
+    },
+    {
+      "id": "cheryl-mason--hinako-shimizu--outfit--s22-outfit-014",
+      "name": "Hinako Shimizu",
+      "baseCharacterId": "d1d07b5d-6975-47cd-b4ea-8d67e21dbb60",
+      "baseCharacterName": "Cheryl Mason",
+      "baseCharacterType": "Survivor",
+      "groupKey": "cosmetic",
+      "groupLabel": "Silent Hill",
+      "collectionName": "Silent Hill f",
+      "image": "./dbd_images/cosmetics/full_sets/cheryl-mason--hinako-shimizu--outfit--s22-outfit-014.png",
+      "aliases": [
+        "hinako shimizu",
+        "silent hill f",
+        "silent hill",
+        "outfit",
+        "cheryl mason",
+        "head",
+        "body",
+        "legs",
+        "unlinked",
+        "unlinked outfit"
+      ],
+      "sourceKind": "wiki-collection-page",
+      "sourcePage": "Silent Hill Collection",
+      "assetProvenance": "official-outfit-icon",
+      "status": "ready",
+      "rarity": "",
+      "outfitLinkMode": "unlinked",
+      "boundSlots": [
+        "Head",
+        "Body",
+        "Legs"
+      ],
+      "bindSummary": "Head + Body + Legs",
+      "isLinkedSet": false,
+      "isCharacterSwap": false,
+      "pieceType": "Outfit",
+      "sourceBucket": "Silent Hill",
+      "assetFileTitleCandidates": [
+        "File:S22 outfit 014.png"
+      ],
+      "description": "The school had undergone a nightmarish transformation, as red spider lilies turned into swirling black fog."
     },
     {
       "id": "cheryl-mason--puffy-vest--body--s22-torso01",
@@ -85968,7 +86437,8 @@ var COSMETICS_CATALOG = {
       "pieceType": "Outfit",
       "sourceBucket": "Archive",
       "assetFileTitleCandidates": [
-        "File:DK_outfit_009_01.png"
+        "File:DK_outfit_009_01.png",
+        "File:DK outfit 009 01.png"
       ],
       "description": "How did it even happen? David King awoke after St. Patrick’s Day with a killer hangover and a leprechaun outfit that wasn’t on him when the night began."
     },
@@ -86064,11 +86534,10 @@ var COSMETICS_CATALOG = {
       "baseCharacterType": "Survivor",
       "groupKey": "cosmetic",
       "groupLabel": "Darkest Dungeon",
-      "collectionName": "Ruinous Depths",
+      "collectionName": "Darkest Dungeon",
       "image": "./dbd_images/cosmetics/full_sets/david-king--highwayman-s-tale--outfit--dk-outfit-032.png",
       "aliases": [
         "highwayman's tale",
-        "ruinous depths",
         "darkest dungeon",
         "outfit",
         "david king",
@@ -86107,11 +86576,10 @@ var COSMETICS_CATALOG = {
       "baseCharacterType": "Survivor",
       "groupKey": "cosmetic",
       "groupLabel": "Darkest Dungeon",
-      "collectionName": "Ruinous Depths",
+      "collectionName": "Darkest Dungeon",
       "image": "./dbd_images/cosmetics/full_sets/david-king--highwayman-s-tale-deep-rift-1--outfit--dk-outfit-032-01.png",
       "aliases": [
         "highwayman's tale (deep rift 1)",
-        "ruinous depths",
         "darkest dungeon",
         "outfit",
         "david king",
@@ -86150,11 +86618,10 @@ var COSMETICS_CATALOG = {
       "baseCharacterType": "Survivor",
       "groupKey": "cosmetic",
       "groupLabel": "Darkest Dungeon",
-      "collectionName": "Ruinous Depths",
+      "collectionName": "Darkest Dungeon",
       "image": "./dbd_images/cosmetics/full_sets/david-king--highwayman-s-tale-deep-rift-2--outfit--dk-outfit-032-02.png",
       "aliases": [
         "highwayman's tale (deep rift 2)",
-        "ruinous depths",
         "darkest dungeon",
         "outfit",
         "david king",
@@ -98398,11 +98865,10 @@ var COSMETICS_CATALOG = {
       "baseCharacterType": "Survivor",
       "groupKey": "cosmetic",
       "groupLabel": "Darkest Dungeon",
-      "collectionName": "Ruinous Depths",
+      "collectionName": "Darkest Dungeon",
       "image": "./dbd_images/cosmetics/full_sets/felix-richter--arcane-architect--outfit--s23-outfit-031-01.png",
       "aliases": [
         "arcane architect",
-        "ruinous depths",
         "darkest dungeon",
         "outfit",
         "felix richter",
@@ -104469,6 +104935,48 @@ var COSMETICS_CATALOG = {
       "description": "The cosmos danced before him as he spent the day on the observation deck. The peace was disturbed by the sudden blaring of an alarm."
     },
     {
+      "id": "gabriel-soma--space-rider--outfit--s37-outfit-025",
+      "name": "Space Rider",
+      "baseCharacterId": "6466d931-d3c5-4475-b400-fc92b6b5ce23",
+      "baseCharacterName": "Gabriel Soma",
+      "baseCharacterType": "Survivor",
+      "groupKey": "cosmetic",
+      "groupLabel": "Community",
+      "collectionName": "Community",
+      "image": "./dbd_images/cosmetics/full_sets/gabriel-soma--space-rider--outfit--s37-outfit-025.png",
+      "aliases": [
+        "space rider",
+        "community",
+        "outfit",
+        "gabriel soma",
+        "head",
+        "body",
+        "legs",
+        "unlinked",
+        "unlinked outfit"
+      ],
+      "sourceKind": "wiki-collection-page",
+      "sourcePage": "Community Collection",
+      "assetProvenance": "official-outfit-icon",
+      "status": "ready",
+      "rarity": "Very Rare",
+      "outfitLinkMode": "unlinked",
+      "boundSlots": [
+        "Head",
+        "Body",
+        "Legs"
+      ],
+      "bindSummary": "Head + Body + Legs",
+      "isLinkedSet": false,
+      "isCharacterSwap": false,
+      "pieceType": "Outfit",
+      "sourceBucket": "Community",
+      "assetFileTitleCandidates": [
+        "File:S37 outfit 025.png"
+      ],
+      "description": "Gabriel was surprised to find a Space Rider comic at the ship’s store. He held the old book and couldn't help but smile.Design inspired by vrgabriel_."
+    },
+    {
       "id": "gabriel-soma--mending-magic--outfit--s37-outfit-018",
       "name": "Mending Magic",
       "baseCharacterId": "6466d931-d3c5-4475-b400-fc92b6b5ce23",
@@ -108988,8 +109496,7 @@ var COSMETICS_CATALOG = {
       "pieceType": "Body",
       "sourceBucket": "Archive",
       "assetFileTitleCandidates": [
-        "File:JP Torso01 03.png",
-        "File:JP_Torso01_03.png"
+        "File:JP Torso01 03.png"
       ],
       "description": "Lightweight and mobile, it still protected against the elements and kept its wearer extremely visible to spotters."
     },
@@ -109457,8 +109964,7 @@ var COSMETICS_CATALOG = {
       "pieceType": "Head",
       "sourceBucket": "Archive",
       "assetFileTitleCandidates": [
-        "File:JP Head07 01.png",
-        "File:JP_Head07_01.png"
+        "File:JP Head07 01.png"
       ],
       "description": "Without these, snow blindness could kick in unexpectedly. With them, you could stare at the powder for hours."
     },
@@ -109926,8 +110432,7 @@ var COSMETICS_CATALOG = {
       "pieceType": "Legs",
       "sourceBucket": "Archive",
       "assetFileTitleCandidates": [
-        "File:JP Legs01 03.png",
-        "File:JP_Legs01_03.png"
+        "File:JP Legs01 03.png"
       ],
       "description": "Nothing is worse than cramping during free climb. The sensors in these pants would keep the muscles engaged and loose during a climb."
     },
@@ -113181,6 +113686,48 @@ var COSMETICS_CATALOG = {
       "description": "She bought this lovely one-piece while on vacation."
     },
     {
+      "id": "jane-romero--runway-ready--outfit--ms-outfit-027",
+      "name": "Runway Ready",
+      "baseCharacterId": "2eb4da5d-a075-453b-abc6-fb455f96af82",
+      "baseCharacterName": "Jane Romero",
+      "baseCharacterType": "Survivor",
+      "groupKey": "cosmetic",
+      "groupLabel": "Community",
+      "collectionName": "Community",
+      "image": "./dbd_images/cosmetics/full_sets/jane-romero--runway-ready--outfit--ms-outfit-027.png",
+      "aliases": [
+        "runway ready",
+        "community",
+        "outfit",
+        "jane romero",
+        "head",
+        "body",
+        "legs",
+        "unlinked",
+        "unlinked outfit"
+      ],
+      "sourceKind": "wiki-collection-page",
+      "sourcePage": "Community Collection",
+      "assetProvenance": "official-outfit-icon",
+      "status": "ready",
+      "rarity": "Very Rare",
+      "outfitLinkMode": "unlinked",
+      "boundSlots": [
+        "Head",
+        "Body",
+        "Legs"
+      ],
+      "bindSummary": "Head + Body + Legs",
+      "isLinkedSet": false,
+      "isCharacterSwap": false,
+      "pieceType": "Outfit",
+      "sourceBucket": "Community",
+      "assetFileTitleCandidates": [
+        "File:MS outfit 027.png"
+      ],
+      "description": "Amid pulsing music and flashing lights, Jane hit the catwalk as the featured guest of Fashion Week.Design inspired by Brewster1121."
+    },
+    {
       "id": "jane-romero--home-at-last--outfit--ms-outfit-026",
       "name": "Home At Last",
       "baseCharacterId": "2eb4da5d-a075-453b-abc6-fb455f96af82",
@@ -113593,6 +114140,49 @@ var COSMETICS_CATALOG = {
         "File:MS outfit 013.png"
       ],
       "description": "Through poetry and tales of Thalia, an outfit formed of the fog."
+    },
+    {
+      "id": "jane-romero--celebrity-volunteer--outfit--ms-outfit-014-02",
+      "name": "Celebrity Volunteer",
+      "baseCharacterId": "2eb4da5d-a075-453b-abc6-fb455f96af82",
+      "baseCharacterName": "Jane Romero",
+      "baseCharacterType": "Survivor",
+      "groupKey": "cosmetic",
+      "groupLabel": "St. Patrick's Day",
+      "collectionName": "St. Patrick's 2023 Collection",
+      "image": "./dbd_images/cosmetics/full_sets/jane-romero--celebrity-volunteer--outfit--ms-outfit-014-02.png",
+      "aliases": [
+        "celebrity volunteer",
+        "st. patrick's 2023 collection",
+        "st. patrick's day",
+        "outfit",
+        "jane romero",
+        "head",
+        "body",
+        "legs",
+        "unlinked",
+        "unlinked outfit"
+      ],
+      "sourceKind": "wiki-collection-page",
+      "sourcePage": "St. Patrick's Day Collection",
+      "assetProvenance": "official-outfit-icon",
+      "status": "ready",
+      "rarity": "Very Rare",
+      "outfitLinkMode": "unlinked",
+      "boundSlots": [
+        "Head",
+        "Body",
+        "Legs"
+      ],
+      "bindSummary": "Head + Body + Legs",
+      "isLinkedSet": false,
+      "isCharacterSwap": false,
+      "pieceType": "Outfit",
+      "sourceBucket": "St. Patrick's Day",
+      "assetFileTitleCandidates": [
+        "File:MS outfit 014 02.png"
+      ],
+      "description": "When her friends asked her for help, she jumped at the chance to help with a St. Patrick’s Day charity event."
     },
     {
       "id": "jane-romero--memoria--outfit--ms-outfit-009",
@@ -115883,11 +116473,10 @@ var COSMETICS_CATALOG = {
       "baseCharacterType": "Survivor",
       "groupKey": "cosmetic",
       "groupLabel": "Darkest Dungeon",
-      "collectionName": "Ruinous Depths",
+      "collectionName": "Darkest Dungeon",
       "image": "./dbd_images/cosmetics/full_sets/jeff-johansen--loyal-protector--outfit--ks-outfit-012-01.png",
       "aliases": [
         "loyal protector",
-        "ruinous depths",
         "darkest dungeon",
         "outfit",
         "jeff johansen",
@@ -117630,8 +118219,7 @@ var COSMETICS_CATALOG = {
       "pieceType": "Body",
       "sourceBucket": "Archive",
       "assetFileTitleCandidates": [
-        "File:S29 Torso009.png",
-        "File:S29_Torso009.png"
+        "File:S29 Torso009.png"
       ],
       "description": "The dull olive color allowed him to blend into the background in both urban and natural enviroments."
     },
@@ -117739,8 +118327,7 @@ var COSMETICS_CATALOG = {
       "pieceType": "Head",
       "sourceBucket": "Archive",
       "assetFileTitleCandidates": [
-        "File:S29 Head009.png",
-        "File:S29_Head009.png"
+        "File:S29 Head009.png"
       ],
       "description": "An unassuming hat that kept the light out of his eyes, and others from noticing him."
     },
@@ -117848,8 +118435,7 @@ var COSMETICS_CATALOG = {
       "pieceType": "Legs",
       "sourceBucket": "Archive",
       "assetFileTitleCandidates": [
-        "File:S29 Legs009.png",
-        "File:S29_Legs009.png"
+        "File:S29 Legs009.png"
       ],
       "description": "Camouflaged to avoid being spotted while on his vital mission."
     },
@@ -119406,7 +119992,8 @@ var COSMETICS_CATALOG = {
       "pieceType": "Outfit",
       "sourceBucket": "Archive",
       "assetFileTitleCandidates": [
-        "File:GS_outfit_02_03.png"
+        "File:GS_outfit_02_03.png",
+        "File:GS outfit 02 03.png"
       ],
       "description": "Lessens the likelihood of being pinched this St. Patrick’s Day. Sacrificed though? That might still happen."
     },
@@ -121416,6 +122003,49 @@ var COSMETICS_CATALOG = {
         "File:Kate outfit 011.png"
       ],
       "description": "Outfit cosmetic for Kate Denson"
+    },
+    {
+      "id": "kate-denson--saint-patrick-s-day-concert--outfit--gs-outfit-017-01",
+      "name": "Saint Patrick’s Day Concert",
+      "baseCharacterId": "be60e4eb-d735-4136-ac1b-292d5a0205df",
+      "baseCharacterName": "Kate Denson",
+      "baseCharacterType": "Survivor",
+      "groupKey": "cosmetic",
+      "groupLabel": "St. Patrick's Day",
+      "collectionName": "St. Patrick's 2023 Collection",
+      "image": "./dbd_images/cosmetics/full_sets/kate-denson--saint-patrick-s-day-concert--outfit--gs-outfit-017-01.png",
+      "aliases": [
+        "saint patrick’s day concert",
+        "st. patrick's 2023 collection",
+        "st. patrick's day",
+        "outfit",
+        "kate denson",
+        "head",
+        "body",
+        "legs",
+        "unlinked",
+        "unlinked outfit"
+      ],
+      "sourceKind": "wiki-collection-page",
+      "sourcePage": "St. Patrick's Day Collection",
+      "assetProvenance": "official-outfit-icon",
+      "status": "ready",
+      "rarity": "Very Rare",
+      "outfitLinkMode": "unlinked",
+      "boundSlots": [
+        "Head",
+        "Body",
+        "Legs"
+      ],
+      "bindSummary": "Head + Body + Legs",
+      "isLinkedSet": false,
+      "isCharacterSwap": false,
+      "pieceType": "Outfit",
+      "sourceBucket": "St. Patrick's Day",
+      "assetFileTitleCandidates": [
+        "File:GS outfit 017 01.png"
+      ],
+      "description": "An ensemble she wore during her unannounced performance at a local pub."
     },
     {
       "id": "kate-denson--up-beat--outfit--gs-outfit-029",
@@ -124245,11 +124875,10 @@ var COSMETICS_CATALOG = {
       "baseCharacterType": "Survivor",
       "groupKey": "cosmetic",
       "groupLabel": "Darkest Dungeon",
-      "collectionName": "Ruinous Depths",
+      "collectionName": "Darkest Dungeon",
       "image": "./dbd_images/cosmetics/full_sets/meg-thomas--hellion-s-courage--outfit--mt-outfit-036.png",
       "aliases": [
         "hellion’s courage",
-        "ruinous depths",
         "darkest dungeon",
         "outfit",
         "meg thomas",
@@ -124288,11 +124917,10 @@ var COSMETICS_CATALOG = {
       "baseCharacterType": "Survivor",
       "groupKey": "cosmetic",
       "groupLabel": "Darkest Dungeon",
-      "collectionName": "Ruinous Depths",
+      "collectionName": "Darkest Dungeon",
       "image": "./dbd_images/cosmetics/full_sets/meg-thomas--hellion-s-courage-deep-rift-1--outfit--mt-outfit-036-01.png",
       "aliases": [
         "hellion’s courage (deep rift 1)",
-        "ruinous depths",
         "darkest dungeon",
         "outfit",
         "meg thomas",
@@ -124331,11 +124959,10 @@ var COSMETICS_CATALOG = {
       "baseCharacterType": "Survivor",
       "groupKey": "cosmetic",
       "groupLabel": "Darkest Dungeon",
-      "collectionName": "Ruinous Depths",
+      "collectionName": "Darkest Dungeon",
       "image": "./dbd_images/cosmetics/full_sets/meg-thomas--hellion-s-courage-deep-rift-2--outfit--mt-outfit-036-02.png",
       "aliases": [
         "hellion’s courage (deep rift 2)",
-        "ruinous depths",
         "darkest dungeon",
         "outfit",
         "meg thomas",
@@ -124941,8 +125568,7 @@ var COSMETICS_CATALOG = {
       "pieceType": "Body",
       "sourceBucket": "Archive",
       "assetFileTitleCandidates": [
-        "File:MT Torso020.png",
-        "File:MT_Torso020.png"
+        "File:MT Torso020.png"
       ],
       "description": "She picked up this coat when visiting her perspective campus, convinced she would be wearing it the following year."
     },
@@ -124978,8 +125604,7 @@ var COSMETICS_CATALOG = {
       "pieceType": "Body",
       "sourceBucket": "Archive",
       "assetFileTitleCandidates": [
-        "File:MT Torso020 01.png",
-        "File:MT_Torso020_01.png"
+        "File:MT Torso020 01.png"
       ],
       "description": "She picked up this coat when visiting her perspective campus, but found it twisted by the Entity’s realm."
     },
@@ -125312,8 +125937,7 @@ var COSMETICS_CATALOG = {
       "pieceType": "Head",
       "sourceBucket": "Archive",
       "assetFileTitleCandidates": [
-        "File:MT Head020.png",
-        "File:MT_Head020.png"
+        "File:MT Head020.png"
       ],
       "description": "A fresh cut for a freshman."
     },
@@ -125349,8 +125973,7 @@ var COSMETICS_CATALOG = {
       "pieceType": "Head",
       "sourceBucket": "Archive",
       "assetFileTitleCandidates": [
-        "File:MT Head020 01.png",
-        "File:MT_Head020_01.png"
+        "File:MT Head020 01.png"
       ],
       "description": "A rift-touched cut for a rift traveler."
     },
@@ -125458,8 +126081,7 @@ var COSMETICS_CATALOG = {
       "pieceType": "Legs",
       "sourceBucket": "Archive",
       "assetFileTitleCandidates": [
-        "File:MT Legs020.png",
-        "File:MT_Legs020.png"
+        "File:MT Legs020.png"
       ],
       "description": "While she wasn’t typically one for a skirt, she was living her college fantasy."
     },
@@ -125495,8 +126117,7 @@ var COSMETICS_CATALOG = {
       "pieceType": "Legs",
       "sourceBucket": "Archive",
       "assetFileTitleCandidates": [
-        "File:MT Legs020 01.png",
-        "File:MT_Legs020_01.png"
+        "File:MT Legs020 01.png"
       ],
       "description": "While she wasn’t typically one for a skirt, she was more focused on surviving."
     },
@@ -130675,8 +131296,7 @@ var COSMETICS_CATALOG = {
       "pieceType": "Body",
       "sourceBucket": "Archive",
       "assetFileTitleCandidates": [
-        "File:S28_Torso015 01.png",
-        "File:S28_Torso015_01.png"
+        "File:S28_Torso015 01.png"
       ],
       "description": "The café’s logo was artfully designed by her and represented her strength in the trials."
     },
@@ -131036,8 +131656,7 @@ var COSMETICS_CATALOG = {
       "pieceType": "Head",
       "sourceBucket": "Archive",
       "assetFileTitleCandidates": [
-        "File:S28_Head015 01.png",
-        "File:S28_Head015_01.png"
+        "File:S28_Head015 01.png"
       ],
       "description": "Her hair was pulled up to stay out of her face while running for her life."
     },
@@ -131397,8 +132016,7 @@ var COSMETICS_CATALOG = {
       "pieceType": "Legs",
       "sourceBucket": "Archive",
       "assetFileTitleCandidates": [
-        "File:S28_Legs015 01.png",
-        "File:S28_Legs015_01.png"
+        "File:S28_Legs015 01.png"
       ],
       "description": "Its pockets are littered with old orders, notes to herself, and strange items found in the trials."
     },
@@ -134982,8 +135600,7 @@ var COSMETICS_CATALOG = {
       "pieceType": "Body",
       "sourceBucket": "Archive",
       "assetFileTitleCandidates": [
-        "File:NK Torso011 01.png",
-        "File:NK_Torso011_01.png"
+        "File:NK Torso011 01.png"
       ],
       "description": "A warm jacket with a refracted image of a landscape plastered across it."
     },
@@ -135560,8 +136177,7 @@ var COSMETICS_CATALOG = {
       "pieceType": "Head",
       "sourceBucket": "Archive",
       "assetFileTitleCandidates": [
-        "File:NK Head011 01.png",
-        "File:NK_Head011_01.png"
+        "File:NK Head011 01.png"
       ],
       "description": "Long, flowing hair tinged with a bit of blue, like the icy tops of Sweden’s mountains."
     },
@@ -136137,8 +136753,7 @@ var COSMETICS_CATALOG = {
       "pieceType": "Legs",
       "sourceBucket": "Archive",
       "assetFileTitleCandidates": [
-        "File:NK Legs011 01.png",
-        "File:NK_Legs011_01.png"
+        "File:NK Legs011 01.png"
       ],
       "description": "Even the best boarders eat it sometimes."
     },
@@ -137028,11 +137643,10 @@ var COSMETICS_CATALOG = {
       "baseCharacterType": "Survivor",
       "groupKey": "cosmetic",
       "groupLabel": "Darkest Dungeon",
-      "collectionName": "Ruinous Depths",
+      "collectionName": "Darkest Dungeon",
       "image": "./dbd_images/cosmetics/full_sets/nea-karlsson--righteous-rebel--outfit--nk-outfit-029-01.png",
       "aliases": [
         "righteous rebel",
-        "ruinous depths",
         "darkest dungeon",
         "outfit",
         "nea karlsson",
@@ -143280,6 +143894,48 @@ var COSMETICS_CATALOG = {
         "File:S41 outfit 008.png"
       ],
       "description": "Her show that night was about a psychic's involvement in a murder investigation, but a new idea came to her while on the air."
+    },
+    {
+      "id": "sable-ward--death-by-roses--outfit--s41-outfit-019",
+      "name": "Death By Roses",
+      "baseCharacterId": "69703a45-e940-4e72-8499-37c99562aa22",
+      "baseCharacterName": "Sable Ward",
+      "baseCharacterType": "Survivor",
+      "groupKey": "cosmetic",
+      "groupLabel": "Community",
+      "collectionName": "Community",
+      "image": "./dbd_images/cosmetics/full_sets/sable-ward--death-by-roses--outfit--s41-outfit-019.png",
+      "aliases": [
+        "death by roses",
+        "community",
+        "outfit",
+        "sable ward",
+        "head",
+        "body",
+        "legs",
+        "unlinked",
+        "unlinked outfit"
+      ],
+      "sourceKind": "wiki-collection-page",
+      "sourcePage": "Community Collection",
+      "assetProvenance": "official-outfit-icon",
+      "status": "ready",
+      "rarity": "Very Rare",
+      "outfitLinkMode": "unlinked",
+      "boundSlots": [
+        "Head",
+        "Body",
+        "Legs"
+      ],
+      "bindSummary": "Head + Body + Legs",
+      "isLinkedSet": false,
+      "isCharacterSwap": false,
+      "pieceType": "Outfit",
+      "sourceBucket": "Community",
+      "assetFileTitleCandidates": [
+        "File:S41 outfit 019.png"
+      ],
+      "description": "The Rose Killer’s abandoned house was not far from her place. It was a once-in-a-lifetime chance and she took it.Design inspired by Fairy Kun."
     },
     {
       "id": "sable-ward--sassy-guest--outfit--s41-outfit-020",
@@ -149783,11 +150439,10 @@ var COSMETICS_CATALOG = {
       "baseCharacterType": "Survivor",
       "groupKey": "cosmetic",
       "groupLabel": "Darkest Dungeon",
-      "collectionName": "Ruinous Depths",
+      "collectionName": "Darkest Dungeon",
       "image": "./dbd_images/cosmetics/full_sets/vittorio-toscano--leper-s-quest--outfit--s34-outfit-026.png",
       "aliases": [
         "leper's quest",
-        "ruinous depths",
         "darkest dungeon",
         "outfit",
         "vittorio toscano",
@@ -149826,11 +150481,10 @@ var COSMETICS_CATALOG = {
       "baseCharacterType": "Survivor",
       "groupKey": "cosmetic",
       "groupLabel": "Darkest Dungeon",
-      "collectionName": "Ruinous Depths",
+      "collectionName": "Darkest Dungeon",
       "image": "./dbd_images/cosmetics/full_sets/vittorio-toscano--leper-s-quest-deep-rift-1--outfit--s34-outfit-026-01.png",
       "aliases": [
         "leper's quest (deep rift 1)",
-        "ruinous depths",
         "darkest dungeon",
         "outfit",
         "vittorio toscano",
@@ -149869,11 +150523,10 @@ var COSMETICS_CATALOG = {
       "baseCharacterType": "Survivor",
       "groupKey": "cosmetic",
       "groupLabel": "Darkest Dungeon",
-      "collectionName": "Ruinous Depths",
+      "collectionName": "Darkest Dungeon",
       "image": "./dbd_images/cosmetics/full_sets/vittorio-toscano--leper-s-quest-deep-rift-2--outfit--s34-outfit-026-02.png",
       "aliases": [
         "leper's quest (deep rift 2)",
-        "ruinous depths",
         "darkest dungeon",
         "outfit",
         "vittorio toscano",
@@ -150582,12 +151235,13 @@ var COSMETICS_CATALOG = {
       "baseCharacterName": "Yoichi Asakawa",
       "baseCharacterType": "Survivor",
       "groupKey": "cosmetic",
-      "groupLabel": "Hallowed Blight",
+      "groupLabel": "Sadako Rising",
       "collectionName": "Hallowed Blight",
       "image": "./dbd_images/cosmetics/full_sets/yoichi-asakawa--vigo-s-scientist--outfit--s30-outfit-008.png",
       "aliases": [
         "vigo’s scientist",
         "hallowed blight",
+        "sadako rising",
         "outfit",
         "yoichi asakawa",
         "head",
@@ -150597,7 +151251,7 @@ var COSMETICS_CATALOG = {
         "unlinked outfit"
       ],
       "sourceKind": "wiki-collection-page",
-      "sourcePage": "Hallowed Blight Collection",
+      "sourcePage": "Sadako Rising Collection",
       "assetProvenance": "official-outfit-icon",
       "status": "ready",
       "rarity": "Very Rare",
@@ -150611,7 +151265,7 @@ var COSMETICS_CATALOG = {
       "isLinkedSet": false,
       "isCharacterSwap": false,
       "pieceType": "Outfit",
-      "sourceBucket": "Hallowed Blight",
+      "sourceBucket": "Sadako Rising",
       "assetFileTitleCandidates": [
         "File:S30 outfit 008.png"
       ],
@@ -151634,8 +152288,7 @@ var COSMETICS_CATALOG = {
       "pieceType": "Body",
       "sourceBucket": "Archive",
       "assetFileTitleCandidates": [
-        "File:SwedenSurvivor Torso018.png",
-        "File:SwedenSurvivor_Torso018.png"
+        "File:SwedenSurvivor Torso018.png"
       ],
       "description": "In breathable and dark fabrics streaked with hot pink accents, she looked like a futuristic athlete."
     },
@@ -151923,8 +152576,7 @@ var COSMETICS_CATALOG = {
       "pieceType": "Head",
       "sourceBucket": "Archive",
       "assetFileTitleCandidates": [
-        "File:SwedenSurvivor Head018.png",
-        "File:SwedenSurvivor_Head018.png"
+        "File:SwedenSurvivor Head018.png"
       ],
       "description": "She wore a mask to filter out the exhaust fumes on the strip."
     },
@@ -152212,8 +152864,7 @@ var COSMETICS_CATALOG = {
       "pieceType": "Legs",
       "sourceBucket": "Archive",
       "assetFileTitleCandidates": [
-        "File:SwedenSurvivor Legs018.png",
-        "File:SwedenSurvivor_Legs018.png"
+        "File:SwedenSurvivor Legs018.png"
       ],
       "description": "The future of street racing looked away from the leathers of the past and towards new, lighter, stronger textiles."
     },
@@ -153326,6 +153977,49 @@ var COSMETICS_CATALOG = {
         "File:SwedenSurvivor outfit 017.png"
       ],
       "description": "The outfit of a determined warrior from a lost realm."
+    },
+    {
+      "id": "yui-kimura--spring-celebration--outfit--swedensurvivor-outfit-015-01",
+      "name": "Spring Celebration",
+      "baseCharacterId": "2db2c972-199f-4b87-ac8b-a64a1bf601e4",
+      "baseCharacterName": "Yui Kimura",
+      "baseCharacterType": "Survivor",
+      "groupKey": "cosmetic",
+      "groupLabel": "St. Patrick's Day",
+      "collectionName": "St. Patrick's 2023 Collection",
+      "image": "./dbd_images/cosmetics/full_sets/yui-kimura--spring-celebration--outfit--swedensurvivor-outfit-015-01.png",
+      "aliases": [
+        "spring celebration",
+        "st. patrick's 2023 collection",
+        "st. patrick's day",
+        "outfit",
+        "yui kimura",
+        "head",
+        "body",
+        "legs",
+        "unlinked",
+        "unlinked outfit"
+      ],
+      "sourceKind": "wiki-collection-page",
+      "sourcePage": "St. Patrick's Day Collection",
+      "assetProvenance": "official-outfit-icon",
+      "status": "ready",
+      "rarity": "Very Rare",
+      "outfitLinkMode": "unlinked",
+      "boundSlots": [
+        "Head",
+        "Body",
+        "Legs"
+      ],
+      "bindSummary": "Head + Body + Legs",
+      "isLinkedSet": false,
+      "isCharacterSwap": false,
+      "pieceType": "Outfit",
+      "sourceBucket": "St. Patrick's Day",
+      "assetFileTitleCandidates": [
+        "File:SwedenSurvivor outfit 015 01.png"
+      ],
+      "description": "A memory from a parade she attended during a chilly but beautiful weekend at the beginning of the spring."
     },
     {
       "id": "yui-kimura--rabbit-costume--outfit--ss-outfit-029",
@@ -157502,11 +158196,10 @@ var COSMETICS_CATALOG = {
       "baseCharacterType": "Survivor",
       "groupKey": "cosmetic",
       "groupLabel": "Darkest Dungeon",
-      "collectionName": "Ruinous Depths",
+      "collectionName": "Darkest Dungeon",
       "image": "./dbd_images/cosmetics/full_sets/zarina-kassir--plague-doctor-s-purpose--outfit--us-outfit-032.png",
       "aliases": [
         "plague doctor's purpose",
-        "ruinous depths",
         "darkest dungeon",
         "outfit",
         "zarina kassir",
@@ -157545,11 +158238,10 @@ var COSMETICS_CATALOG = {
       "baseCharacterType": "Survivor",
       "groupKey": "cosmetic",
       "groupLabel": "Darkest Dungeon",
-      "collectionName": "Ruinous Depths",
+      "collectionName": "Darkest Dungeon",
       "image": "./dbd_images/cosmetics/full_sets/zarina-kassir--plague-doctor-s-purpose-deep-rift-1--outfit--us-outfit-032-01.png",
       "aliases": [
         "plague doctor's purpose (deep rift 1)",
-        "ruinous depths",
         "darkest dungeon",
         "outfit",
         "zarina kassir",
@@ -157588,11 +158280,10 @@ var COSMETICS_CATALOG = {
       "baseCharacterType": "Survivor",
       "groupKey": "cosmetic",
       "groupLabel": "Darkest Dungeon",
-      "collectionName": "Ruinous Depths",
+      "collectionName": "Darkest Dungeon",
       "image": "./dbd_images/cosmetics/full_sets/zarina-kassir--plague-doctor-s-purpose-deep-rift-2--outfit--us-outfit-032-02.png",
       "aliases": [
         "plague doctor's purpose (deep rift 2)",
-        "ruinous depths",
         "darkest dungeon",
         "outfit",
         "zarina kassir",

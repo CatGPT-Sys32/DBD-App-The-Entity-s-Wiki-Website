@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-30T18:58:49.514Z",
+  "generatedAt": "2026-06-18T03:07:07.256Z",
   "options": {
     "dryRun": false,
     "checkMode": false,
@@ -8,20 +8,20 @@
   "source": {
     "perksApi": "https://dbd.tricky.lol/api/perks",
     "addonsApi": "https://dbd.tricky.lol/api/addons",
-    "sourcePerkCount": 309,
-    "sourceAddonCount": 906
+    "sourcePerkCount": 315,
+    "sourceAddonCount": 926
   },
   "perks": {
-    "total": 309,
+    "total": 315,
     "counts": {
-      "different": 185,
-      "same_as_legacy": 124
+      "different": 309,
+      "same_as_legacy": 6
     },
     "changes": {
       "added": 0,
       "updated": 0,
       "removed": 0,
-      "unchanged": 309,
+      "unchanged": 315,
       "total": 0
     },
     "unresolvedCount": 0,
@@ -29,24 +29,19 @@
     "sampleChanges": []
   },
   "addons": {
-    "total": 906,
+    "total": 926,
     "counts": {
-      "updated": 1,
-      "unchanged": 905,
+      "updated": 0,
+      "unchanged": 926,
       "unresolved": 0
     },
     "changes": {
-      "updated": 1,
-      "unchanged": 905,
-      "total": 1
+      "updated": 0,
+      "unchanged": 926,
+      "total": 0
     },
     "unresolvedCount": 0,
     "unresolved": [],
-    "sampleChanges": [
-      {
-        "name": "Walleye's Matchbook",
-        "internalId": "Addon_Ghost_WalleyesMatchbook"
-      }
-    ]
+    "sampleChanges": []
   }
 }

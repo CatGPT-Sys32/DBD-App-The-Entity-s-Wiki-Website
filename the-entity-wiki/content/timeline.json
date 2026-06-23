@@ -1466,6 +1466,44 @@
           "realm": "Sleepless District"
         }
       ]
+    },
+    {
+      "id": "chapter-40",
+      "name": "Dead by Daylight: Jason",
+      "type": "chapter",
+      "chapterNumber": 40,
+      "date": "2026-06-16",
+      "displayDate": "June 16, 2026",
+      "description": "The 10th-anniversary milestone chapter bringing the legendary slasher Jason Voorhees to Dead by Daylight as The Slasher. Released to mark DBD's decade of horror alongside the 10.0.0 patch.",
+      "killers": [
+        {
+          "id": "the-slasher",
+          "name": "The Slasher",
+          "realName": "Jason Voorhees",
+          "fogEntry": "A relentless force of nature born from the waters of Crystal Lake, Jason Voorhees became the embodiment of unstoppable horror after a lifetime of suffering and death. His hockey mask and machete are synonymous with Friday night fear. The Entity found in him a killer who cannot be bargained with, cannot be reasoned with, and absolutely will not stop—ever—until everyone is dead.",
+          "licensed": true
+        }
+      ],
+      "survivors": [],
+      "maps": []
+    },
+    {
+      "id": "the-life-road",
+      "name": "The Life Road",
+      "type": "paragraph",
+      "date": "2026-06-25",
+      "displayDate": "June 25, 2026",
+      "description": "An original paragraph DLC introducing Shane Wiigwaas, the game's first Indigenous survivor, a First Nations defense attorney whose search for justice led him into the Entity's realm.",
+      "killers": [],
+      "survivors": [
+        {
+          "id": "shane",
+          "name": "Shane Wiigwaas",
+          "fogEntry": "A First Nations defense attorney who spent his career fighting for balance over punishment, Shane's faith in justice was shattered when his cousin Derek was wrongly convicted of murder. His relentless search for evidence—and for the strange black fog witnesses described—led him deeper into the wilderness than any map could follow, until the fog claimed him too.",
+          "licensed": false
+        }
+      ],
+      "maps": []
     }
   ]
 }

@@ -3579,7 +3579,7 @@
       "type": "Survivor",
       "description": "After completing 20% worth of repairs, press Ability button 1 next to a window to trap it for 40/50/60 seconds.\n\nThe trap triggers when the Killer performs a vault on the window, inflicting them with 50% Hindered for 6 seconds.",
       "image": "assets/perks/badaboom.png",
-      "descriptionPost95": "After repairing 20% of Generators, while next to a Window, use Active Ability Button 2 to trap it for 40/50/60s. All Survivors see that Window's Aura for that time. When the Killer vaults that Window, the trap explodes and they gain 50% Hindered for 4s."
+      "descriptionPost95": "After repairing 20% of Generators, while next to a Window, use Active Ability Button 2 to trap it for 40/50/60s. All Survivors see that Window's Aura for that time. When the Killer vaults that Window, the trap explodes and they gain 50% Hindered for 6s."
     },
     {
       "id": "st2-perk-008-changeofplan",
@@ -3672,7 +3672,8 @@
       "owner": "Shane Wiigwaas",
       "type": "Survivor",
       "description": "While in the Killer's Terror Radius, they leave Light Marks that last for 10s that you can see. While on the Killer's Light Marks, you gain Elusive. This ends after 3/4/5s.",
-      "image": "dbd_images/perks/IconPerks_CrossExamination.png"
+      "image": "dbd_images/perks/IconPerks_CrossExamination.png",
+      "descriptionPost95": "While in the Killer's Terror Radius and not being chased by the Killer, they leave Light Marks that last for 10s that you can see. While on the Killer's Light Marks, you gain Elusive. This ends after 3/4/5s."
     }
   ],
   "maps": [
@@ -22211,7 +22212,7 @@
         "Item_K43Power"
       ],
       "killerName": "The Slasher",
-      "description": "A cup of coffee that went unfinished. Increases the distance Survivors are pushed by Spikes by 25%. Gain 8% Haste for 3 seconds after injuring a Survivor with a Spike. Haste increases Killer movement speed.",
+      "description": "A cup of coffee that went unfinished. Increases the distance Survivors are pushed by Spikes by 25%. Gain 13% Haste for 3 seconds after injuring a Survivor with a Spike if they do not collide with the environment. Haste increases Killer movement speed.",
       "role": "killer",
       "rarity": "uncommon",
       "bloodweb": true,
@@ -22355,7 +22356,7 @@
         "Item_K43Power"
       ],
       "killerName": "The Slasher",
-      "description": "The badge of an officer who discovered that some things aren't worth investigating. While in Omnipresent Evil, passing within 4 meters of a generator will cause it to explode, losing 5% progress and begin regressing. If any survivors are repairing the generator, it doesn't explode, but they get a special Skill Check.",
+      "description": "The badge of an officer who discovered that some things aren't worth investigating. While in Omnipresent Evil, passing within 2 meters of a generator will cause it to explode, losing 5% progress and begin regressing. If any survivors are repairing the generator, it doesn't explode, but they get a special Skill Check.",
       "role": "killer",
       "rarity": "veryrare",
       "bloodweb": true,

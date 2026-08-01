@@ -3,6 +3,12 @@
 const fs = require('fs');
 const path = require('path');
 const vm = require('vm');
+const { File } = require('buffer');
+
+if (typeof globalThis.File === 'undefined') {
+  globalThis.File = File;
+}
+
 const cheerio = require('cheerio');
 const { fetchTextWithRetry, formatFetchError } = require('./network-resilience');
 
@@ -34,6 +40,29 @@ const TIERLIST_CATEGORY_LABELS = {
   '1': 'Killer Focus',
   '2': 'Survivor Focus',
   '3': 'General'
+};
+
+const TIERLIST_LINK_OVERRIDES = {
+  'killer perk tierlist': {
+    description: 'Latest Otz perk-tierlist stream found on YouTube; use this for current perk rankings until the official tierlists page is refreshed.',
+    patch: '9.5.0',
+    dateLabel: 'Mar 23rd, 2026',
+    dateIso: '2026-03-22T23:00:00.000Z',
+    imageUrl: 'https://i.ytimg.com/vi/K2ZqYJqkbxY/maxresdefault.jpg',
+    url: 'https://www.youtube.com/watch?v=K2ZqYJqkbxY',
+    sourceType: 'video',
+    sourceNote: 'Manual YouTube freshness override; otzdarva.com/dbd/tierlists still points to the Oct 2024 edited video.'
+  },
+  'survivor perk tierlist': {
+    description: 'All 170 Survivor Perks: Tierlist & Full Explanation.',
+    patch: '9.5.0',
+    dateLabel: 'Apr 29th, 2026',
+    dateIso: '2026-04-28T22:00:00.000Z',
+    imageUrl: 'https://i.ytimg.com/vi_webp/pqHHCN9Po-4/maxresdefault.webp',
+    url: 'https://www.youtube.com/watch?v=pqHHCN9Po-4',
+    sourceType: 'video',
+    sourceNote: 'Manual YouTube freshness override; otzdarva.com/dbd/tierlists still points to the Oct 2024 edited video.'
+  }
 };
 
 const SCRAPER_VERSION = 2;
@@ -962,18 +991,21 @@ function parseTierlists(html) {
       const dateLabel = normalizeText(entry.date || '');
       const dateIso = toDateIso(dateLabel);
       const category = normalizeText(entry.category || '');
+      const title = normalizeText(entry.title || '');
+      const override = TIERLIST_LINK_OVERRIDES[normalizeKey(title)] || {};
       return {
         id: entry._id || `tierlist-${index + 1}`,
-        title: normalizeText(entry.title || ''),
-        description: normalizeText(entry.description || ''),
-        patch: normalizeText(entry.patch || ''),
-        dateLabel,
-        dateIso,
+        title,
+        description: normalizeText(override.description || entry.description || ''),
+        patch: normalizeText(override.patch || entry.patch || ''),
+        dateLabel: override.dateLabel || dateLabel,
+        dateIso: override.dateIso || dateIso,
         category,
         categoryLabel: TIERLIST_CATEGORY_LABELS[category] || category || 'General',
-        imageUrl: resolveUrl(SOURCES.home, entry.image || ''),
-        url: resolveUrl(SOURCES.home, entry.url || ''),
-        sourceType: inferResourceType(entry.url || '')
+        imageUrl: override.imageUrl || resolveUrl(SOURCES.home, entry.image || ''),
+        url: override.url || resolveUrl(SOURCES.home, entry.url || ''),
+        sourceType: override.sourceType || inferResourceType(entry.url || ''),
+        ...(override.sourceNote ? { sourceNote: override.sourceNote } : {})
       };
     })
     .filter((entry) => entry.title)

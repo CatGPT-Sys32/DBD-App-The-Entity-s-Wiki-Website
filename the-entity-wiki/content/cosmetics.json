@@ -1,19 +1,19 @@
 {
-  "generatedAt": "2026-06-18T02:53:59.496Z",
+  "generatedAt": "2026-08-01T17:46:07.276Z",
   "metadata": {
-    "sourceDiscoveryGeneratedAt": "2026-06-18T02:53:59.130Z",
-    "characterSwapCount": 110,
-    "fullSetCount": 4159,
-    "cosmeticCount": 4159,
+    "sourceDiscoveryGeneratedAt": "2026-08-01T17:46:06.835Z",
+    "characterSwapCount": 111,
+    "fullSetCount": 4223,
+    "cosmeticCount": 4223,
     "linkedFullSetCount": 57,
     "linkedCosmeticCount": 57,
     "fullSetLinkModeCounts": {
-      "unlinked": 4102,
+      "unlinked": 4166,
       "partially_linked": 7,
       "linked": 50
     },
     "cosmeticLinkModeCounts": {
-      "unlinked": 4102,
+      "unlinked": 4166,
       "partially_linked": 7,
       "linked": 50
     }
@@ -158,12 +158,9 @@
       "pieceType": "Outfit",
       "sourceBucket": "Character swaps",
       "assetFileTitleCandidates": [
-        "File:CategoryIcon_outfits.png",
         "File:CC107 charSelect portrait.png"
       ],
-      "description": "Character swaps outfit for The Artist",
-      "assetIsPlaceholder": true,
-      "assetPlaceholderSource": "File:CategoryIcon_outfits.png"
+      "description": "Character swaps outfit for The Artist"
     },
     {
       "id": "the-artist--miss-fuchi",
@@ -448,6 +445,7 @@
       "pieceType": "Outfit",
       "sourceBucket": "Character swaps",
       "assetFileTitleCandidates": [
+        "File:K37 Head008 01.png",
         "File:K37 Head008.png",
         "File:CC055 charSelect portrait.png"
       ],
@@ -581,7 +579,7 @@
       ],
       "sourceKind": "wiki-category",
       "sourcePage": "The Dredge/Eddie's Tribute",
-      "assetProvenance": "official-portrait-exception",
+      "assetProvenance": "official-headshot",
       "status": "ready",
       "rarity": "Legendary",
       "outfitLinkMode": "character_swap",
@@ -592,6 +590,7 @@
       "pieceType": "Outfit",
       "sourceBucket": "Character swaps",
       "assetFileTitleCandidates": [
+        "File:K28 Head013.png",
         "File:CC032 charSelect portrait.png"
       ],
       "description": "Character swaps outfit for The Dredge"
@@ -849,6 +848,42 @@
       "description": "Character swaps outfit for The Huntress",
       "assetIsPlaceholder": true,
       "assetPlaceholderSource": "File:CategoryIcon_outfits.png"
+    },
+    {
+      "id": "the-huntress--facemelter-eddie",
+      "name": "Facemelter Eddie",
+      "baseCharacterId": "45a09c50-e8ab-40bb-8dd3-d79aae054663",
+      "baseCharacterName": "The Huntress",
+      "baseCharacterType": "Killer",
+      "groupKey": "legendary",
+      "groupLabel": "Legendary",
+      "collectionName": "Character swaps",
+      "image": "./dbd_images/cosmetics/character_swaps/the-huntress--facemelter-eddie.png",
+      "aliases": [
+        "facemelter eddie",
+        "legendary",
+        "character swap",
+        "character swaps",
+        "hud swap",
+        "the huntress"
+      ],
+      "sourceKind": "wiki-category",
+      "sourcePage": "Anna/Facemelter Eddie",
+      "assetProvenance": "official-headshot",
+      "status": "ready",
+      "rarity": "Legendary",
+      "outfitLinkMode": "character_swap",
+      "boundSlots": [],
+      "bindSummary": "",
+      "isLinkedSet": false,
+      "isCharacterSwap": true,
+      "pieceType": "Outfit",
+      "sourceBucket": "Character swaps",
+      "assetFileTitleCandidates": [
+        "File:BE Mask031.png",
+        "File:CC105 charSelect portrait.png"
+      ],
+      "description": "Character swaps outfit for The Huntress"
     },
     {
       "id": "the-huntress--the-baba-yaga",
@@ -1137,6 +1172,7 @@
       "pieceType": "Outfit",
       "sourceBucket": "Character swaps",
       "assetFileTitleCandidates": [
+        "File:TN Head021 01.png",
         "File:TN Head021.png",
         "File:CC077 charSelect portrait.png"
       ],
@@ -1389,12 +1425,9 @@
       "pieceType": "Outfit",
       "sourceBucket": "Character swaps",
       "assetFileTitleCandidates": [
-        "File:CategoryIcon_outfits.png",
         "File:CC110 charSelect portrait.png"
       ],
-      "description": "Character swaps outfit for The Spirit",
-      "assetIsPlaceholder": true,
-      "assetPlaceholderSource": "File:CategoryIcon_outfits.png"
+      "description": "Character swaps outfit for The Spirit"
     },
     {
       "id": "the-spirit--tomie-kawakami",
@@ -2366,7 +2399,6 @@
       "pieceType": "Outfit",
       "sourceBucket": "Character swaps",
       "assetFileTitleCandidates": [
-        "File:SurvivorDwight.png",
         "File:CC108 charSelect portrait.png"
       ],
       "description": "Character swaps outfit for Dwight Fairfield"
@@ -2582,6 +2614,7 @@
       "pieceType": "Outfit",
       "sourceBucket": "Character swaps",
       "assetFileTitleCandidates": [
+        "File:S23 Head029 01.png",
         "File:S23 Head029.png",
         "File:CC075 charSelect portrait.png"
       ],
@@ -3292,7 +3325,7 @@
       ],
       "sourceKind": "wiki-category",
       "sourcePage": "Rick Grimes/Glenn Rhee",
-      "assetProvenance": "official-portrait-exception",
+      "assetProvenance": "official-headshot",
       "status": "ready",
       "rarity": "Legendary",
       "outfitLinkMode": "character_swap",
@@ -3303,7 +3336,7 @@
       "pieceType": "Outfit",
       "sourceBucket": "Character swaps",
       "assetFileTitleCandidates": [
-        "File:Rick Grimes Glenn Rhee Cosmetic Promo.png",
+        "File:S47 Head011.png",
         "File:CC106 charSelect portrait.png"
       ],
       "description": "Character swaps outfit for Rick Grimes"
@@ -3339,7 +3372,6 @@
       "pieceType": "Outfit",
       "sourceBucket": "Character swaps",
       "assetFileTitleCandidates": [
-        "File:SurvivorRick.png",
         "File:CC109 charSelect portrait.png"
       ],
       "description": "Character swaps outfit for Rick Grimes"
@@ -3627,6 +3659,7 @@
       "pieceType": "Outfit",
       "sourceBucket": "Character swaps",
       "assetFileTitleCandidates": [
+        "File:S44 Head009 01.png",
         "File:S44 Head009.png",
         "File:CC054 charSelect portrait.png"
       ],
@@ -3807,6 +3840,7 @@
       "pieceType": "Outfit",
       "sourceBucket": "Character swaps",
       "assetFileTitleCandidates": [
+        "File:SwedenSurvivor Head027 01.png",
         "File:SwedenSurvivor Head027.png",
         "File:CC076 charSelect portrait.png"
       ],
@@ -14835,6 +14869,48 @@
       "description": "The man Caleb claimed a bounty on had an unusual outfit, like nothing he’d seen before. Wherever it was from, it was his now."
     },
     {
+      "id": "the-deathslinger--roving-bounty--outfit--uk-outfit-008-02",
+      "name": "Roving Bounty",
+      "baseCharacterId": "9f75c81a-dd7f-4773-be24-38e8336a12f2",
+      "baseCharacterName": "The Deathslinger",
+      "baseCharacterType": "Killer",
+      "groupKey": "cosmetic",
+      "groupLabel": "Sacrifice the Sunflesh",
+      "collectionName": "Sacrifice The Sunflesh",
+      "image": "./dbd_images/cosmetics/full_sets/the-deathslinger--roving-bounty--outfit--uk-outfit-008-02.png",
+      "aliases": [
+        "roving bounty",
+        "sacrifice the sunflesh",
+        "outfit",
+        "the deathslinger",
+        "head",
+        "body",
+        "weapon",
+        "unlinked",
+        "unlinked outfit"
+      ],
+      "sourceKind": "wiki-collection-page",
+      "sourcePage": "Sacrifice the Sunflesh Collection",
+      "assetProvenance": "official-outfit-icon",
+      "status": "ready",
+      "rarity": "Very Rare",
+      "outfitLinkMode": "unlinked",
+      "boundSlots": [
+        "Head",
+        "Body",
+        "Weapon"
+      ],
+      "bindSummary": "Head + Body + Weapon",
+      "isLinkedSet": false,
+      "isCharacterSwap": false,
+      "pieceType": "Outfit",
+      "sourceBucket": "Sacrifice the Sunflesh",
+      "assetFileTitleCandidates": [
+        "File:UK outfit 008 02.png"
+      ],
+      "description": "The air was hot and still. Caleb was in a bad shape after walking under the blazing sun for hours."
+    },
+    {
       "id": "the-deathslinger--lovebirds-wing-shot--weapon--uk-w007-02",
       "name": "Lovebirds Wing Shot",
       "baseCharacterId": "9f75c81a-dd7f-4773-be24-38e8336a12f2",
@@ -18848,6 +18924,48 @@
         "File:DO_outfit_007_01.png"
       ],
       "description": "An outfit for the man who wants your heart. Literally."
+    },
+    {
+      "id": "the-doctor--dearest-herman--outfit--do-outfit-028",
+      "name": "Dearest Herman",
+      "baseCharacterId": "a66d8365-f333-49f3-921b-d062f4e0abc7",
+      "baseCharacterName": "The Doctor",
+      "baseCharacterType": "Killer",
+      "groupKey": "cosmetic",
+      "groupLabel": "Black Banquet",
+      "collectionName": "Black Banquet",
+      "image": "./dbd_images/cosmetics/full_sets/the-doctor--dearest-herman--outfit--do-outfit-028.png",
+      "aliases": [
+        "dearest herman",
+        "black banquet",
+        "outfit",
+        "the doctor",
+        "head",
+        "body",
+        "weapon",
+        "unlinked",
+        "unlinked outfit"
+      ],
+      "sourceKind": "wiki-collection-page",
+      "sourcePage": "Black Banquet Collection",
+      "assetProvenance": "official-outfit-icon",
+      "status": "ready",
+      "rarity": "Very Rare",
+      "outfitLinkMode": "unlinked",
+      "boundSlots": [
+        "Head",
+        "Body",
+        "Weapon"
+      ],
+      "bindSummary": "Head + Body + Weapon",
+      "isLinkedSet": false,
+      "isCharacterSwap": false,
+      "pieceType": "Outfit",
+      "sourceBucket": "Black Banquet",
+      "assetFileTitleCandidates": [
+        "File:DO outfit 028.png"
+      ],
+      "description": "You are cordially invited to the Black Banquet, where the bold are nourished on the spoils of their ambition."
     },
     {
       "id": "the-doctor--blood-shock--outfit--do-outfit-020",
@@ -33673,6 +33791,48 @@
       "description": "Designed by Jay."
     },
     {
+      "id": "the-huntress--curious-kill--outfit--be-outfit-026",
+      "name": "Curious Kill",
+      "baseCharacterId": "45a09c50-e8ab-40bb-8dd3-d79aae054663",
+      "baseCharacterName": "The Huntress",
+      "baseCharacterType": "Killer",
+      "groupKey": "cosmetic",
+      "groupLabel": "Bone Chill",
+      "collectionName": "Bone Chill",
+      "image": "./dbd_images/cosmetics/full_sets/the-huntress--curious-kill--outfit--be-outfit-026.png",
+      "aliases": [
+        "curious kill",
+        "bone chill",
+        "outfit",
+        "the huntress",
+        "head",
+        "body",
+        "weapon",
+        "unlinked",
+        "unlinked outfit"
+      ],
+      "sourceKind": "wiki-collection-page",
+      "sourcePage": "Bone Chill Collection",
+      "assetProvenance": "official-outfit-icon",
+      "status": "ready",
+      "rarity": "Very Rare",
+      "outfitLinkMode": "unlinked",
+      "boundSlots": [
+        "Head",
+        "Body",
+        "Weapon"
+      ],
+      "bindSummary": "Head + Body + Weapon",
+      "isLinkedSet": false,
+      "isCharacterSwap": false,
+      "pieceType": "Outfit",
+      "sourceBucket": "Bone Chill",
+      "assetFileTitleCandidates": [
+        "File:BE outfit 026.png"
+      ],
+      "description": "Anna studied at the lifeless warhorse in the clearing. Its body was eviscerated, flesh stripped from its face."
+    },
+    {
       "id": "the-huntress--lethal-eclipse--outfit--be-outfit-030",
       "name": "Lethal Eclipse",
       "baseCharacterId": "45a09c50-e8ab-40bb-8dd3-d79aae054663",
@@ -35804,6 +35964,48 @@
       "description": "The boy was unique among the slaves bound for Italy. While others were gripped by fear, he was entranced by visions of blood and fire."
     },
     {
+      "id": "the-knight--splinter-rose--outfit--k30-outfit-021",
+      "name": "Splinter Rose",
+      "baseCharacterId": "14a78919-7b60-484c-9f27-a5d3e3efd66f",
+      "baseCharacterName": "The Knight",
+      "baseCharacterType": "Killer",
+      "groupKey": "cosmetic",
+      "groupLabel": "Community",
+      "collectionName": "Community",
+      "image": "./dbd_images/cosmetics/full_sets/the-knight--splinter-rose--outfit--k30-outfit-021.png",
+      "aliases": [
+        "splinter rose",
+        "community",
+        "outfit",
+        "the knight",
+        "head",
+        "body",
+        "weapon",
+        "unlinked",
+        "unlinked outfit"
+      ],
+      "sourceKind": "wiki-collection-page",
+      "sourcePage": "Community Collection",
+      "assetProvenance": "official-outfit-icon",
+      "status": "ready",
+      "rarity": "Very Rare",
+      "outfitLinkMode": "unlinked",
+      "boundSlots": [
+        "Head",
+        "Body",
+        "Weapon"
+      ],
+      "bindSummary": "Head + Body + Weapon",
+      "isLinkedSet": false,
+      "isCharacterSwap": false,
+      "pieceType": "Outfit",
+      "sourceBucket": "Community",
+      "assetFileTitleCandidates": [
+        "File:K30 outfit 021.png"
+      ],
+      "description": "The warriors pursued him for days, but Tarhos lured them to a secluded forest. On verdant soil, their quest would end. Design inspired by ATHS_ART."
+    },
+    {
       "id": "the-knight--weathered-armor--outfit--k30-outfit-013-01",
       "name": "Weathered Armor",
       "baseCharacterId": "14a78919-7b60-484c-9f27-a5d3e3efd66f",
@@ -36781,6 +36983,90 @@
         "File:K41 outfit 01 01.png"
       ],
       "description": "Her rival stole a role that was meant for her. It was clearly politics at play."
+    },
+    {
+      "id": "the-krasue--force-of-nature--outfit--k41-outfit-009",
+      "name": "Force Of Nature",
+      "baseCharacterId": "abee5dcf-b54c-4b9c-9cc9-edb8fef90e7f",
+      "baseCharacterName": "The Krasue",
+      "baseCharacterType": "Killer",
+      "groupKey": "cosmetic",
+      "groupLabel": "Dark Overgrowth",
+      "collectionName": "Dark Overgrowth",
+      "image": "./dbd_images/cosmetics/full_sets/the-krasue--force-of-nature--outfit--k41-outfit-009.png",
+      "aliases": [
+        "force of nature",
+        "dark overgrowth",
+        "outfit",
+        "the krasue",
+        "head",
+        "body",
+        "weapon",
+        "unlinked",
+        "unlinked outfit"
+      ],
+      "sourceKind": "wiki-collection-page",
+      "sourcePage": "Dark Overgrowth Collection",
+      "assetProvenance": "official-outfit-icon",
+      "status": "ready",
+      "rarity": "Very Rare",
+      "outfitLinkMode": "unlinked",
+      "boundSlots": [
+        "Head",
+        "Body",
+        "Weapon"
+      ],
+      "bindSummary": "Head + Body + Weapon",
+      "isLinkedSet": false,
+      "isCharacterSwap": false,
+      "pieceType": "Outfit",
+      "sourceBucket": "Dark Overgrowth",
+      "assetFileTitleCandidates": [
+        "File:K41 outfit 009.png"
+      ],
+      "description": "She arose from the earth after a night of feasting, severing the roots that had wormed their way into her skin."
+    },
+    {
+      "id": "the-krasue--ice-queen--outfit--k41-outfit-008",
+      "name": "Ice Queen",
+      "baseCharacterId": "abee5dcf-b54c-4b9c-9cc9-edb8fef90e7f",
+      "baseCharacterName": "The Krasue",
+      "baseCharacterType": "Killer",
+      "groupKey": "cosmetic",
+      "groupLabel": "Deck the Trials",
+      "collectionName": "Deck The Trials",
+      "image": "./dbd_images/cosmetics/full_sets/the-krasue--ice-queen--outfit--k41-outfit-008.png",
+      "aliases": [
+        "ice queen",
+        "deck the trials",
+        "outfit",
+        "the krasue",
+        "head",
+        "body",
+        "weapon",
+        "unlinked",
+        "unlinked outfit"
+      ],
+      "sourceKind": "wiki-collection-page",
+      "sourcePage": "Deck the Trials Collection",
+      "assetProvenance": "official-outfit-icon",
+      "status": "ready",
+      "rarity": "Very Rare",
+      "outfitLinkMode": "unlinked",
+      "boundSlots": [
+        "Head",
+        "Body",
+        "Weapon"
+      ],
+      "bindSummary": "Head + Body + Weapon",
+      "isLinkedSet": false,
+      "isCharacterSwap": false,
+      "pieceType": "Outfit",
+      "sourceBucket": "Deck the Trials",
+      "assetFileTitleCandidates": [
+        "File:K41 outfit 008.png"
+      ],
+      "description": "Her amazing performance showed the audience how the Queen’s icy heart melted, thanks to the love coursing through her."
     },
     {
       "id": "the-krasue--night-queen--outfit--k41-outfit-006",
@@ -39433,6 +39719,48 @@
         "File:KK outfit 028.png"
       ],
       "description": "Designed by Ikumi Nakamura."
+    },
+    {
+      "id": "the-legion--dearest-julie--outfit--kk-outfit-041",
+      "name": "Dearest Julie",
+      "baseCharacterId": "06dc1383-c914-4a14-ad32-8354823bc8bd",
+      "baseCharacterName": "The Legion",
+      "baseCharacterType": "Killer",
+      "groupKey": "cosmetic",
+      "groupLabel": "Black Banquet",
+      "collectionName": "Black Banquet",
+      "image": "./dbd_images/cosmetics/full_sets/the-legion--dearest-julie--outfit--kk-outfit-041.png",
+      "aliases": [
+        "dearest julie",
+        "black banquet",
+        "outfit",
+        "the legion",
+        "head",
+        "body",
+        "weapon",
+        "unlinked",
+        "unlinked outfit"
+      ],
+      "sourceKind": "wiki-collection-page",
+      "sourcePage": "Black Banquet Collection",
+      "assetProvenance": "official-outfit-icon",
+      "status": "ready",
+      "rarity": "Very Rare",
+      "outfitLinkMode": "unlinked",
+      "boundSlots": [
+        "Head",
+        "Body",
+        "Weapon"
+      ],
+      "bindSummary": "Head + Body + Weapon",
+      "isLinkedSet": false,
+      "isCharacterSwap": false,
+      "pieceType": "Outfit",
+      "sourceBucket": "Black Banquet",
+      "assetFileTitleCandidates": [
+        "File:KK outfit 041.png"
+      ],
+      "description": "You are cordially invited to the Black Banquet, where one can finally let loose in the company of friends."
     },
     {
       "id": "the-legion--last-sleepover--outfit--kk-outfit-035",
@@ -47107,6 +47435,48 @@
       "description": "Designed by Ikumi Nakamura."
     },
     {
+      "id": "the-oni--dearest-kazan--outfit--swedenkiller-outfit-025",
+      "name": "Dearest Kazan",
+      "baseCharacterId": "783ab05b-1689-4fe9-983e-be211cf3ab00",
+      "baseCharacterName": "The Oni",
+      "baseCharacterType": "Killer",
+      "groupKey": "cosmetic",
+      "groupLabel": "Black Banquet",
+      "collectionName": "Black Banquet",
+      "image": "./dbd_images/cosmetics/full_sets/the-oni--dearest-kazan--outfit--swedenkiller-outfit-025.png",
+      "aliases": [
+        "dearest kazan",
+        "black banquet",
+        "outfit",
+        "the oni",
+        "head",
+        "body",
+        "weapon",
+        "unlinked",
+        "unlinked outfit"
+      ],
+      "sourceKind": "wiki-collection-page",
+      "sourcePage": "Black Banquet Collection",
+      "assetProvenance": "official-outfit-icon",
+      "status": "ready",
+      "rarity": "Very Rare",
+      "outfitLinkMode": "unlinked",
+      "boundSlots": [
+        "Head",
+        "Body",
+        "Weapon"
+      ],
+      "bindSummary": "Head + Body + Weapon",
+      "isLinkedSet": false,
+      "isCharacterSwap": false,
+      "pieceType": "Outfit",
+      "sourceBucket": "Black Banquet",
+      "assetFileTitleCandidates": [
+        "File:SwedenKiller outfit 025.png"
+      ],
+      "description": "You are cordially invited to the Black Banquet, where a feast befitting the Yamaoka name awaits."
+    },
+    {
       "id": "the-oni--red-mist--outfit--swedenkiller-outfit-021",
       "name": "Red Mist",
       "baseCharacterId": "783ab05b-1689-4fe9-983e-be211cf3ab00",
@@ -50635,6 +51005,132 @@
       "description": "She emerged from confinement when the serum amplified the disease coursing through her blood."
     },
     {
+      "id": "the-plague--dissident-priestess--outfit--mk-outfit-021",
+      "name": "Dissident Priestess",
+      "baseCharacterId": "075032e3-0af8-4c01-b552-7a16cbfccfe8",
+      "baseCharacterName": "The Plague",
+      "baseCharacterType": "Killer",
+      "groupKey": "cosmetic",
+      "groupLabel": "Sacrifice the Sunflesh",
+      "collectionName": "Sacrifice The Sunflesh",
+      "image": "./dbd_images/cosmetics/full_sets/the-plague--dissident-priestess--outfit--mk-outfit-021.png",
+      "aliases": [
+        "dissident priestess",
+        "sacrifice the sunflesh",
+        "outfit",
+        "the plague",
+        "head",
+        "body",
+        "weapon",
+        "unlinked",
+        "unlinked outfit"
+      ],
+      "sourceKind": "wiki-collection-page",
+      "sourcePage": "Sacrifice the Sunflesh Collection",
+      "assetProvenance": "official-outfit-icon",
+      "status": "ready",
+      "rarity": "Very Rare",
+      "outfitLinkMode": "unlinked",
+      "boundSlots": [
+        "Head",
+        "Body",
+        "Weapon"
+      ],
+      "bindSummary": "Head + Body + Weapon",
+      "isLinkedSet": false,
+      "isCharacterSwap": false,
+      "pieceType": "Outfit",
+      "sourceBucket": "Sacrifice the Sunflesh",
+      "assetFileTitleCandidates": [
+        "File:MK outfit 021.png"
+      ],
+      "description": "The clothes of an ancient priestess. She abandoned her old beliefs to join a new movement, one she hoped would lead to happiness."
+    },
+    {
+      "id": "the-plague--dissident-priestess-deep-rift-1--outfit--mk-outfit-021-01",
+      "name": "Dissident Priestess (Deep Rift 1)",
+      "baseCharacterId": "075032e3-0af8-4c01-b552-7a16cbfccfe8",
+      "baseCharacterName": "The Plague",
+      "baseCharacterType": "Killer",
+      "groupKey": "cosmetic",
+      "groupLabel": "Sacrifice the Sunflesh",
+      "collectionName": "Sacrifice The Sunflesh",
+      "image": "./dbd_images/cosmetics/full_sets/the-plague--dissident-priestess-deep-rift-1--outfit--mk-outfit-021-01.png",
+      "aliases": [
+        "dissident priestess (deep rift 1)",
+        "sacrifice the sunflesh",
+        "outfit",
+        "the plague",
+        "head",
+        "body",
+        "weapon",
+        "unlinked",
+        "unlinked outfit"
+      ],
+      "sourceKind": "wiki-collection-page",
+      "sourcePage": "Sacrifice the Sunflesh Collection",
+      "assetProvenance": "official-outfit-icon",
+      "status": "ready",
+      "rarity": "Very Rare",
+      "outfitLinkMode": "unlinked",
+      "boundSlots": [
+        "Head",
+        "Body",
+        "Weapon"
+      ],
+      "bindSummary": "Head + Body + Weapon",
+      "isLinkedSet": false,
+      "isCharacterSwap": false,
+      "pieceType": "Outfit",
+      "sourceBucket": "Sacrifice the Sunflesh",
+      "assetFileTitleCandidates": [
+        "File:MK outfit 021 01.png"
+      ],
+      "description": "The clothes of an ancient priestess. She abandoned her old beliefs to join a new movement, one she hoped would lead to happiness."
+    },
+    {
+      "id": "the-plague--dissident-priestess-deep-rift-2--outfit--mk-outfit-021-02",
+      "name": "Dissident Priestess (Deep Rift 2)",
+      "baseCharacterId": "075032e3-0af8-4c01-b552-7a16cbfccfe8",
+      "baseCharacterName": "The Plague",
+      "baseCharacterType": "Killer",
+      "groupKey": "cosmetic",
+      "groupLabel": "Sacrifice the Sunflesh",
+      "collectionName": "Sacrifice The Sunflesh",
+      "image": "./dbd_images/cosmetics/full_sets/the-plague--dissident-priestess-deep-rift-2--outfit--mk-outfit-021-02.png",
+      "aliases": [
+        "dissident priestess (deep rift 2)",
+        "sacrifice the sunflesh",
+        "outfit",
+        "the plague",
+        "head",
+        "body",
+        "weapon",
+        "unlinked",
+        "unlinked outfit"
+      ],
+      "sourceKind": "wiki-collection-page",
+      "sourcePage": "Sacrifice the Sunflesh Collection",
+      "assetProvenance": "official-outfit-icon",
+      "status": "ready",
+      "rarity": "Very Rare",
+      "outfitLinkMode": "unlinked",
+      "boundSlots": [
+        "Head",
+        "Body",
+        "Weapon"
+      ],
+      "bindSummary": "Head + Body + Weapon",
+      "isLinkedSet": false,
+      "isCharacterSwap": false,
+      "pieceType": "Outfit",
+      "sourceBucket": "Sacrifice the Sunflesh",
+      "assetFileTitleCandidates": [
+        "File:MK outfit 021 02.png"
+      ],
+      "description": "The clothes of an ancient priestess. She abandoned her old beliefs to join a new movement, one she hoped would lead to happiness."
+    },
+    {
       "id": "the-plague--dark-apostate--outfit--mk-outfit-018",
       "name": "Dark Apostate",
       "baseCharacterId": "075032e3-0af8-4c01-b552-7a16cbfccfe8",
@@ -52564,7 +53060,8 @@
       "pieceType": "Outfit",
       "sourceBucket": "Haunted by Daylight 2025 Featured",
       "assetFileTitleCandidates": [
-        "File:K31_outfit_018.png"
+        "File:K31_outfit_018.png",
+        "File:K31 outfit 018.png"
       ],
       "description": "The Halloween miniseries from Sonhadores Sombrios was written to attract international readers. It was Adriana's favorite story."
     },
@@ -53438,6 +53935,388 @@
         "File:K31 W013 01.png"
       ],
       "description": "When the struggle became wearisome, she slit the executive's throat. His blood turned the green water a sickening brown."
+    },
+    {
+      "id": "the-slasher--weather-beaten-gear--body--k43-body01",
+      "name": "Weather-Beaten Gear",
+      "baseCharacterId": "0a13ef17-04da-4e6b-9783-4dbd724d4cde",
+      "baseCharacterName": "The Slasher",
+      "baseCharacterType": "Killer",
+      "groupKey": "cosmetic",
+      "groupLabel": "Default",
+      "collectionName": "Default",
+      "image": "./dbd_images/cosmetics/full_sets/the-slasher--weather-beaten-gear--body--k43-body01.png",
+      "aliases": [
+        "weather-beaten gear",
+        "default",
+        "body",
+        "the slasher",
+        "unlinked",
+        "unlinked outfit"
+      ],
+      "sourceKind": "wiki-template",
+      "sourcePage": "Template:Slasher's Default Cosmetics",
+      "assetProvenance": "official-piece-icon",
+      "status": "ready",
+      "rarity": "Common",
+      "outfitLinkMode": "unlinked",
+      "boundSlots": [],
+      "bindSummary": "",
+      "isLinkedSet": false,
+      "isCharacterSwap": false,
+      "pieceType": "Body",
+      "sourceBucket": "Default",
+      "assetFileTitleCandidates": [
+        "File:K43 Body01.png"
+      ],
+      "description": "A terrifying force, he left trails of victims in his wake."
+    },
+    {
+      "id": "the-slasher--hockey-mask--head--k43-head01",
+      "name": "Hockey Mask",
+      "baseCharacterId": "0a13ef17-04da-4e6b-9783-4dbd724d4cde",
+      "baseCharacterName": "The Slasher",
+      "baseCharacterType": "Killer",
+      "groupKey": "cosmetic",
+      "groupLabel": "Default",
+      "collectionName": "Default",
+      "image": "./dbd_images/cosmetics/full_sets/the-slasher--hockey-mask--head--k43-head01.png",
+      "aliases": [
+        "hockey mask",
+        "default",
+        "head",
+        "the slasher",
+        "unlinked",
+        "unlinked outfit"
+      ],
+      "sourceKind": "wiki-template",
+      "sourcePage": "Template:Slasher's Default Cosmetics",
+      "assetProvenance": "official-piece-icon",
+      "status": "ready",
+      "rarity": "Common",
+      "outfitLinkMode": "unlinked",
+      "boundSlots": [],
+      "bindSummary": "",
+      "isLinkedSet": false,
+      "isCharacterSwap": false,
+      "pieceType": "Head",
+      "sourceBucket": "Default",
+      "assetFileTitleCandidates": [
+        "File:K43 Head01.png"
+      ],
+      "description": "His mask hid any sign of emotion as he pursued his victims. He was unstoppable."
+    },
+    {
+      "id": "the-slasher--classic-machete--weapon--k43-w01",
+      "name": "Classic Machete",
+      "baseCharacterId": "0a13ef17-04da-4e6b-9783-4dbd724d4cde",
+      "baseCharacterName": "The Slasher",
+      "baseCharacterType": "Killer",
+      "groupKey": "cosmetic",
+      "groupLabel": "Default",
+      "collectionName": "Default",
+      "image": "./dbd_images/cosmetics/full_sets/the-slasher--classic-machete--weapon--k43-w01.png",
+      "aliases": [
+        "classic machete",
+        "default",
+        "weapon",
+        "the slasher",
+        "unlinked",
+        "unlinked outfit"
+      ],
+      "sourceKind": "wiki-template",
+      "sourcePage": "Template:Slasher's Default Cosmetics",
+      "assetProvenance": "official-piece-icon",
+      "status": "ready",
+      "rarity": "Common",
+      "outfitLinkMode": "unlinked",
+      "boundSlots": [],
+      "bindSummary": "",
+      "isLinkedSet": false,
+      "isCharacterSwap": false,
+      "pieceType": "Weapon",
+      "sourceBucket": "Default",
+      "assetFileTitleCandidates": [
+        "File:K43 W01.png"
+      ],
+      "description": "The machete suited him well. It was large, powerful, and its cold steel cut through most anything."
+    },
+    {
+      "id": "the-slasher--blood-beaten-gear--body--k43-body01-p01",
+      "name": "Blood-Beaten Gear",
+      "baseCharacterId": "0a13ef17-04da-4e6b-9783-4dbd724d4cde",
+      "baseCharacterName": "The Slasher",
+      "baseCharacterType": "Killer",
+      "groupKey": "cosmetic",
+      "groupLabel": "Prestige",
+      "collectionName": "Prestige",
+      "image": "./dbd_images/cosmetics/full_sets/the-slasher--blood-beaten-gear--body--k43-body01-p01.png",
+      "aliases": [
+        "blood-beaten gear",
+        "prestige",
+        "body",
+        "the slasher",
+        "unlinked",
+        "unlinked outfit"
+      ],
+      "sourceKind": "wiki-template",
+      "sourcePage": "Template:Slasher's Prestige Cosmetics",
+      "assetProvenance": "official-piece-icon",
+      "status": "ready",
+      "rarity": "Rare",
+      "outfitLinkMode": "unlinked",
+      "boundSlots": [],
+      "bindSummary": "",
+      "isLinkedSet": false,
+      "isCharacterSwap": false,
+      "pieceType": "Body",
+      "sourceBucket": "Prestige",
+      "assetFileTitleCandidates": [
+        "File:K43 Body01_P01.png"
+      ],
+      "description": "A blood-curdling menace, he left rivers of blood and trails of death wherever he struck."
+    },
+    {
+      "id": "the-slasher--spattered-hockey-mask--head--k43-head01-p01",
+      "name": "Spattered Hockey Mask",
+      "baseCharacterId": "0a13ef17-04da-4e6b-9783-4dbd724d4cde",
+      "baseCharacterName": "The Slasher",
+      "baseCharacterType": "Killer",
+      "groupKey": "cosmetic",
+      "groupLabel": "Prestige",
+      "collectionName": "Prestige",
+      "image": "./dbd_images/cosmetics/full_sets/the-slasher--spattered-hockey-mask--head--k43-head01-p01.png",
+      "aliases": [
+        "spattered hockey mask",
+        "prestige",
+        "head",
+        "the slasher",
+        "unlinked",
+        "unlinked outfit"
+      ],
+      "sourceKind": "wiki-template",
+      "sourcePage": "Template:Slasher's Prestige Cosmetics",
+      "assetProvenance": "official-piece-icon",
+      "status": "ready",
+      "rarity": "Rare",
+      "outfitLinkMode": "unlinked",
+      "boundSlots": [],
+      "bindSummary": "",
+      "isLinkedSet": false,
+      "isCharacterSwap": false,
+      "pieceType": "Head",
+      "sourceBucket": "Prestige",
+      "assetFileTitleCandidates": [
+        "File:K43 Head01_P01.png"
+      ],
+      "description": "His mask struck fear into the hearts of his victims. His reign of bloodshed was unstoppable."
+    },
+    {
+      "id": "the-slasher--backwoods-horror--outfit--k43-outfit-02-01",
+      "name": "Backwoods Horror",
+      "baseCharacterId": "0a13ef17-04da-4e6b-9783-4dbd724d4cde",
+      "baseCharacterName": "The Slasher",
+      "baseCharacterType": "Killer",
+      "groupKey": "cosmetic",
+      "groupLabel": "Jason",
+      "collectionName": "Slasher Aberrations",
+      "image": "./dbd_images/cosmetics/full_sets/the-slasher--backwoods-horror--outfit--k43-outfit-02-01.png",
+      "aliases": [
+        "backwoods horror",
+        "slasher aberrations",
+        "jason",
+        "outfit",
+        "the slasher",
+        "head",
+        "body",
+        "weapon",
+        "unlinked",
+        "unlinked outfit"
+      ],
+      "sourceKind": "wiki-collection-page",
+      "sourcePage": "Jason Collection",
+      "assetProvenance": "official-outfit-icon",
+      "status": "ready",
+      "rarity": "Rare",
+      "outfitLinkMode": "unlinked",
+      "boundSlots": [
+        "Head",
+        "Body",
+        "Weapon"
+      ],
+      "bindSummary": "Head + Body + Weapon",
+      "isLinkedSet": false,
+      "isCharacterSwap": false,
+      "pieceType": "Outfit",
+      "sourceBucket": "Jason",
+      "assetFileTitleCandidates": [
+        "File:K43 outfit 02 01.png"
+      ],
+      "description": "He carved through thick brush and trees with effortless swipes. Nothing could get in his way when he wanted: vengeance."
+    },
+    {
+      "id": "the-slasher--backwoods-terror--outfit--k43-outfit-02",
+      "name": "Backwoods Terror",
+      "baseCharacterId": "0a13ef17-04da-4e6b-9783-4dbd724d4cde",
+      "baseCharacterName": "The Slasher",
+      "baseCharacterType": "Killer",
+      "groupKey": "cosmetic",
+      "groupLabel": "Jason",
+      "collectionName": "Slasher Aberrations",
+      "image": "./dbd_images/cosmetics/full_sets/the-slasher--backwoods-terror--outfit--k43-outfit-02.png",
+      "aliases": [
+        "backwoods terror",
+        "slasher aberrations",
+        "jason",
+        "outfit",
+        "the slasher",
+        "head",
+        "body",
+        "weapon",
+        "unlinked",
+        "unlinked outfit"
+      ],
+      "sourceKind": "wiki-collection-page",
+      "sourcePage": "Jason Collection",
+      "assetProvenance": "official-outfit-icon",
+      "status": "ready",
+      "rarity": "Rare",
+      "outfitLinkMode": "unlinked",
+      "boundSlots": [
+        "Head",
+        "Body",
+        "Weapon"
+      ],
+      "bindSummary": "Head + Body + Weapon",
+      "isLinkedSet": false,
+      "isCharacterSwap": false,
+      "pieceType": "Outfit",
+      "sourceBucket": "Jason",
+      "assetFileTitleCandidates": [
+        "File:K43 outfit 02.png"
+      ],
+      "description": "He carved through thick brush and trees with effortless swipes. Nothing could get in his way when he wanted: vengeance."
+    },
+    {
+      "id": "the-slasher--crimson-machete--weapon--k43-w01-p01",
+      "name": "Crimson Machete",
+      "baseCharacterId": "0a13ef17-04da-4e6b-9783-4dbd724d4cde",
+      "baseCharacterName": "The Slasher",
+      "baseCharacterType": "Killer",
+      "groupKey": "cosmetic",
+      "groupLabel": "Prestige",
+      "collectionName": "Prestige",
+      "image": "./dbd_images/cosmetics/full_sets/the-slasher--crimson-machete--weapon--k43-w01-p01.png",
+      "aliases": [
+        "crimson machete",
+        "prestige",
+        "weapon",
+        "the slasher",
+        "unlinked",
+        "unlinked outfit"
+      ],
+      "sourceKind": "wiki-template",
+      "sourcePage": "Template:Slasher's Prestige Cosmetics",
+      "assetProvenance": "official-piece-icon",
+      "status": "ready",
+      "rarity": "Rare",
+      "outfitLinkMode": "unlinked",
+      "boundSlots": [],
+      "bindSummary": "",
+      "isLinkedSet": false,
+      "isCharacterSwap": false,
+      "pieceType": "Weapon",
+      "sourceBucket": "Prestige",
+      "assetFileTitleCandidates": [
+        "File:K43 W01_P01.png"
+      ],
+      "description": "The machete suited him well. It was large, powerful, and left his victim screaming in a pool of blood."
+    },
+    {
+      "id": "the-slasher--death-forsaken--outfit--k43-outfit-007",
+      "name": "Death Forsaken",
+      "baseCharacterId": "0a13ef17-04da-4e6b-9783-4dbd724d4cde",
+      "baseCharacterName": "The Slasher",
+      "baseCharacterType": "Killer",
+      "groupKey": "cosmetic",
+      "groupLabel": "Jason",
+      "collectionName": "Slasher Aberrations",
+      "image": "./dbd_images/cosmetics/full_sets/the-slasher--death-forsaken--outfit--k43-outfit-007.png",
+      "aliases": [
+        "death forsaken",
+        "slasher aberrations",
+        "jason",
+        "outfit",
+        "the slasher",
+        "head",
+        "body",
+        "weapon",
+        "unlinked",
+        "unlinked outfit"
+      ],
+      "sourceKind": "wiki-collection-page",
+      "sourcePage": "Jason Collection",
+      "assetProvenance": "official-outfit-icon",
+      "status": "ready",
+      "rarity": "Very Rare",
+      "outfitLinkMode": "unlinked",
+      "boundSlots": [
+        "Head",
+        "Body",
+        "Weapon"
+      ],
+      "bindSummary": "Head + Body + Weapon",
+      "isLinkedSet": false,
+      "isCharacterSwap": false,
+      "pieceType": "Outfit",
+      "sourceBucket": "Jason",
+      "assetFileTitleCandidates": [
+        "File:K43 outfit 007.png"
+      ],
+      "description": "The skin sloughed off his bones but he would not die, not when there was more blood to be shed."
+    },
+    {
+      "id": "the-slasher--depths-of-despair--outfit--k43-outfit-006",
+      "name": "Depths of Despair",
+      "baseCharacterId": "0a13ef17-04da-4e6b-9783-4dbd724d4cde",
+      "baseCharacterName": "The Slasher",
+      "baseCharacterType": "Killer",
+      "groupKey": "cosmetic",
+      "groupLabel": "Jason",
+      "collectionName": "Slasher Aberrations",
+      "image": "./dbd_images/cosmetics/full_sets/the-slasher--depths-of-despair--outfit--k43-outfit-006.png",
+      "aliases": [
+        "depths of despair",
+        "slasher aberrations",
+        "jason",
+        "outfit",
+        "the slasher",
+        "head",
+        "body",
+        "weapon",
+        "unlinked",
+        "unlinked outfit"
+      ],
+      "sourceKind": "wiki-collection-page",
+      "sourcePage": "Jason Collection",
+      "assetProvenance": "official-outfit-icon",
+      "status": "ready",
+      "rarity": "Very Rare",
+      "outfitLinkMode": "unlinked",
+      "boundSlots": [
+        "Head",
+        "Body",
+        "Weapon"
+      ],
+      "bindSummary": "Head + Body + Weapon",
+      "isLinkedSet": false,
+      "isCharacterSwap": false,
+      "pieceType": "Outfit",
+      "sourceBucket": "Jason",
+      "assetFileTitleCandidates": [
+        "File:K43 outfit 006.png"
+      ],
+      "description": "Though submerged in the deep, it would not be his end. He would return. He would always return."
     },
     {
       "id": "the-spirit--nightmare-serpent--outfit--hk-outfit-020",
@@ -60798,6 +61677,48 @@
       "description": "As a child, he remembered seeing a scary fighter in a newspaper ad. When he woke up in a trial, he bore in this remnant from a lost realm."
     },
     {
+      "id": "the-trapper--dearest-evan--outfit--tr-outfit-030",
+      "name": "Dearest Evan",
+      "baseCharacterId": "7a34f0fb-fe18-4854-ab5d-47f89a210051",
+      "baseCharacterName": "The Trapper",
+      "baseCharacterType": "Killer",
+      "groupKey": "cosmetic",
+      "groupLabel": "Black Banquet",
+      "collectionName": "Black Banquet",
+      "image": "./dbd_images/cosmetics/full_sets/the-trapper--dearest-evan--outfit--tr-outfit-030.png",
+      "aliases": [
+        "dearest evan",
+        "black banquet",
+        "outfit",
+        "the trapper",
+        "head",
+        "body",
+        "weapon",
+        "unlinked",
+        "unlinked outfit"
+      ],
+      "sourceKind": "wiki-collection-page",
+      "sourcePage": "Black Banquet Collection",
+      "assetProvenance": "official-outfit-icon",
+      "status": "ready",
+      "rarity": "Very Rare",
+      "outfitLinkMode": "unlinked",
+      "boundSlots": [
+        "Head",
+        "Body",
+        "Weapon"
+      ],
+      "bindSummary": "Head + Body + Weapon",
+      "isLinkedSet": false,
+      "isCharacterSwap": false,
+      "pieceType": "Outfit",
+      "sourceBucket": "Black Banquet",
+      "assetFileTitleCandidates": [
+        "File:TR outfit 030.png"
+      ],
+      "description": "You are cordially invited to the Black Banquet, where one can set the table with whatever decor they desire."
+    },
+    {
       "id": "the-trapper--grim-punishment--outfit--tr-outfit-027",
       "name": "Grim Punishment",
       "baseCharacterId": "7a34f0fb-fe18-4854-ab5d-47f89a210051",
@@ -63904,6 +64825,48 @@
       "description": "He saved one of his most dramatic looks for a guest appearance on a talent show."
     },
     {
+      "id": "the-trickster--ancient-instinct--outfit--k23-outfit-022-01",
+      "name": "Ancient Instinct",
+      "baseCharacterId": "ec7f61ae-66fe-4309-9bfe-788161b9330e",
+      "baseCharacterName": "The Trickster",
+      "baseCharacterType": "Killer",
+      "groupKey": "cosmetic",
+      "groupLabel": "Sacrifice the Sunflesh",
+      "collectionName": "Sacrifice The Sunflesh",
+      "image": "./dbd_images/cosmetics/full_sets/the-trickster--ancient-instinct--outfit--k23-outfit-022-01.png",
+      "aliases": [
+        "ancient instinct",
+        "sacrifice the sunflesh",
+        "outfit",
+        "the trickster",
+        "head",
+        "body",
+        "weapon",
+        "unlinked",
+        "unlinked outfit"
+      ],
+      "sourceKind": "wiki-collection-page",
+      "sourcePage": "Sacrifice the Sunflesh Collection",
+      "assetProvenance": "official-outfit-icon",
+      "status": "ready",
+      "rarity": "Very Rare",
+      "outfitLinkMode": "unlinked",
+      "boundSlots": [
+        "Head",
+        "Body",
+        "Weapon"
+      ],
+      "bindSummary": "Head + Body + Weapon",
+      "isLinkedSet": false,
+      "isCharacterSwap": false,
+      "pieceType": "Outfit",
+      "sourceBucket": "Sacrifice the Sunflesh",
+      "assetFileTitleCandidates": [
+        "File:K23 outfit 022 01.png"
+      ],
+      "description": "While visiting a museum in another country, Ji-Woon became fascinated by an ancient golden mask."
+    },
+    {
       "id": "the-trickster--cut-thru-u-performance--outfit--k23-outfit-006",
       "name": "Cut Thru U Performance",
       "baseCharacterId": "ec7f61ae-66fe-4309-9bfe-788161b9330e",
@@ -66070,6 +67033,132 @@
         "File:K35 W014.png"
       ],
       "description": "A witness thought she saw the detective stumble away from the crime scene, but it was too dark to be certain."
+    },
+    {
+      "id": "the-wraith--scrap-collector--outfit--tw-outfit-025",
+      "name": "Scrap Collector",
+      "baseCharacterId": "ea0aa555-6726-46f3-ad07-a805b5429ccf",
+      "baseCharacterName": "The Wraith",
+      "baseCharacterType": "Killer",
+      "groupKey": "cosmetic",
+      "groupLabel": "Sacrifice the Sunflesh",
+      "collectionName": "Sacrifice The Sunflesh",
+      "image": "./dbd_images/cosmetics/full_sets/the-wraith--scrap-collector--outfit--tw-outfit-025.png",
+      "aliases": [
+        "scrap collector",
+        "sacrifice the sunflesh",
+        "outfit",
+        "the wraith",
+        "head",
+        "body",
+        "weapon",
+        "unlinked",
+        "unlinked outfit"
+      ],
+      "sourceKind": "wiki-collection-page",
+      "sourcePage": "Sacrifice the Sunflesh Collection",
+      "assetProvenance": "official-outfit-icon",
+      "status": "ready",
+      "rarity": "",
+      "outfitLinkMode": "unlinked",
+      "boundSlots": [
+        "Head",
+        "Body",
+        "Weapon"
+      ],
+      "bindSummary": "Head + Body + Weapon",
+      "isLinkedSet": false,
+      "isCharacterSwap": false,
+      "pieceType": "Outfit",
+      "sourceBucket": "Sacrifice the Sunflesh",
+      "assetFileTitleCandidates": [
+        "File:TW outfit 025.png"
+      ],
+      "description": "The clothes of an ancient scrapper. He discovered an endless treasure at the base of a rapturous phenomenon."
+    },
+    {
+      "id": "the-wraith--scrap-collector-deep-rift-1--outfit--tw-outfit-025-01",
+      "name": "Scrap Collector (Deep Rift 1)",
+      "baseCharacterId": "ea0aa555-6726-46f3-ad07-a805b5429ccf",
+      "baseCharacterName": "The Wraith",
+      "baseCharacterType": "Killer",
+      "groupKey": "cosmetic",
+      "groupLabel": "Sacrifice the Sunflesh",
+      "collectionName": "Sacrifice The Sunflesh",
+      "image": "./dbd_images/cosmetics/full_sets/the-wraith--scrap-collector-deep-rift-1--outfit--tw-outfit-025-01.png",
+      "aliases": [
+        "scrap collector (deep rift 1)",
+        "sacrifice the sunflesh",
+        "outfit",
+        "the wraith",
+        "head",
+        "body",
+        "weapon",
+        "unlinked",
+        "unlinked outfit"
+      ],
+      "sourceKind": "wiki-collection-page",
+      "sourcePage": "Sacrifice the Sunflesh Collection",
+      "assetProvenance": "official-outfit-icon",
+      "status": "ready",
+      "rarity": "",
+      "outfitLinkMode": "unlinked",
+      "boundSlots": [
+        "Head",
+        "Body",
+        "Weapon"
+      ],
+      "bindSummary": "Head + Body + Weapon",
+      "isLinkedSet": false,
+      "isCharacterSwap": false,
+      "pieceType": "Outfit",
+      "sourceBucket": "Sacrifice the Sunflesh",
+      "assetFileTitleCandidates": [
+        "File:TW outfit 025 01.png"
+      ],
+      "description": "The clothes of an ancient scrapper. He discovered an endless treasure at the base of a rapturous phenomenon."
+    },
+    {
+      "id": "the-wraith--scrap-collector-deep-rift-2--outfit--tw-outfit-025-02",
+      "name": "Scrap Collector (Deep Rift 2)",
+      "baseCharacterId": "ea0aa555-6726-46f3-ad07-a805b5429ccf",
+      "baseCharacterName": "The Wraith",
+      "baseCharacterType": "Killer",
+      "groupKey": "cosmetic",
+      "groupLabel": "Sacrifice the Sunflesh",
+      "collectionName": "Sacrifice The Sunflesh",
+      "image": "./dbd_images/cosmetics/full_sets/the-wraith--scrap-collector-deep-rift-2--outfit--tw-outfit-025-02.png",
+      "aliases": [
+        "scrap collector (deep rift 2)",
+        "sacrifice the sunflesh",
+        "outfit",
+        "the wraith",
+        "head",
+        "body",
+        "weapon",
+        "unlinked",
+        "unlinked outfit"
+      ],
+      "sourceKind": "wiki-collection-page",
+      "sourcePage": "Sacrifice the Sunflesh Collection",
+      "assetProvenance": "official-outfit-icon",
+      "status": "ready",
+      "rarity": "",
+      "outfitLinkMode": "unlinked",
+      "boundSlots": [
+        "Head",
+        "Body",
+        "Weapon"
+      ],
+      "bindSummary": "Head + Body + Weapon",
+      "isLinkedSet": false,
+      "isCharacterSwap": false,
+      "pieceType": "Outfit",
+      "sourceBucket": "Sacrifice the Sunflesh",
+      "assetFileTitleCandidates": [
+        "File:TW outfit 025 02.png"
+      ],
+      "description": "The clothes of an ancient scrapper. He discovered an endless treasure at the base of a rapturous phenomenon."
     },
     {
       "id": "the-wraith--dark-cloak--body--wraith-body01",
@@ -83039,6 +84128,48 @@
       "description": "A dusty pink get-up that celebrates the end of another long, dreadful Canadian winter."
     },
     {
+      "id": "claudette-morel--dearest-claudette--outfit--cm-outfit-036",
+      "name": "Dearest Claudette",
+      "baseCharacterId": "405e213e-cdf1-4463-895d-086fc20c02e9",
+      "baseCharacterName": "Claudette Morel",
+      "baseCharacterType": "Survivor",
+      "groupKey": "cosmetic",
+      "groupLabel": "Black Banquet",
+      "collectionName": "Black Banquet",
+      "image": "./dbd_images/cosmetics/full_sets/claudette-morel--dearest-claudette--outfit--cm-outfit-036.png",
+      "aliases": [
+        "dearest claudette",
+        "black banquet",
+        "outfit",
+        "claudette morel",
+        "head",
+        "body",
+        "legs",
+        "unlinked",
+        "unlinked outfit"
+      ],
+      "sourceKind": "wiki-collection-page",
+      "sourcePage": "Black Banquet Collection",
+      "assetProvenance": "official-outfit-icon",
+      "status": "ready",
+      "rarity": "Very Rare",
+      "outfitLinkMode": "unlinked",
+      "boundSlots": [
+        "Head",
+        "Body",
+        "Legs"
+      ],
+      "bindSummary": "Head + Body + Legs",
+      "isLinkedSet": false,
+      "isCharacterSwap": false,
+      "pieceType": "Outfit",
+      "sourceBucket": "Black Banquet",
+      "assetFileTitleCandidates": [
+        "File:CM outfit 036.png"
+      ],
+      "description": "You are cordially invited to the Black Banquet, where the lost may find a place among kindred spirits."
+    },
+    {
       "id": "claudette-morel--bloody-botany--outfit--cm-outfit-030",
       "name": "Bloody Botany",
       "baseCharacterId": "405e213e-cdf1-4463-895d-086fc20c02e9",
@@ -92136,6 +93267,48 @@
       "description": "The darkness was all around him, and all he could do was venture onward."
     },
     {
+      "id": "dwight-fairfield--dearest-dwight--outfit--df-outfit-040",
+      "name": "Dearest Dwight",
+      "baseCharacterId": "c1ad4f3a-3f31-47f6-ae66-7ba2746a1423",
+      "baseCharacterName": "Dwight Fairfield",
+      "baseCharacterType": "Survivor",
+      "groupKey": "cosmetic",
+      "groupLabel": "Black Banquet",
+      "collectionName": "Black Banquet",
+      "image": "./dbd_images/cosmetics/full_sets/dwight-fairfield--dearest-dwight--outfit--df-outfit-040.png",
+      "aliases": [
+        "dearest dwight",
+        "black banquet",
+        "outfit",
+        "dwight fairfield",
+        "head",
+        "body",
+        "legs",
+        "unlinked",
+        "unlinked outfit"
+      ],
+      "sourceKind": "wiki-collection-page",
+      "sourcePage": "Black Banquet Collection",
+      "assetProvenance": "official-outfit-icon",
+      "status": "ready",
+      "rarity": "Very Rare",
+      "outfitLinkMode": "unlinked",
+      "boundSlots": [
+        "Head",
+        "Body",
+        "Legs"
+      ],
+      "bindSummary": "Head + Body + Legs",
+      "isLinkedSet": false,
+      "isCharacterSwap": false,
+      "pieceType": "Outfit",
+      "sourceBucket": "Black Banquet",
+      "assetFileTitleCandidates": [
+        "File:DF outfit 040.png"
+      ],
+      "description": "You are cordially invited to the Black Banquet, where all of your wildest appetites can be satiated."
+    },
+    {
       "id": "dwight-fairfield--mr-elf--outfit--df-outfit-011",
       "name": "Mr. Elf",
       "baseCharacterId": "c1ad4f3a-3f31-47f6-ae66-7ba2746a1423",
@@ -93692,6 +94865,48 @@
       "description": "They pair well with an exoskeleton."
     },
     {
+      "id": "ellen-ripley--back-in-action--outfit--s39-outfit-006",
+      "name": "Back in Action",
+      "baseCharacterId": "ef8f557a-3117-48ae-9fd7-a36b09dfe789",
+      "baseCharacterName": "Ellen Ripley",
+      "baseCharacterType": "Survivor",
+      "groupKey": "cosmetic",
+      "groupLabel": "Alien",
+      "collectionName": "Alien",
+      "image": "./dbd_images/cosmetics/full_sets/ellen-ripley--back-in-action--outfit--s39-outfit-006.png",
+      "aliases": [
+        "back in action",
+        "alien",
+        "outfit",
+        "ellen ripley",
+        "head",
+        "body",
+        "legs",
+        "unlinked",
+        "unlinked outfit"
+      ],
+      "sourceKind": "wiki-collection-page",
+      "sourcePage": "Alien Collection",
+      "assetProvenance": "official-outfit-icon",
+      "status": "ready",
+      "rarity": "Very Rare",
+      "outfitLinkMode": "unlinked",
+      "boundSlots": [
+        "Head",
+        "Body",
+        "Legs"
+      ],
+      "bindSummary": "Head + Body + Legs",
+      "isLinkedSet": false,
+      "isCharacterSwap": false,
+      "pieceType": "Outfit",
+      "sourceBucket": "Alien",
+      "assetFileTitleCandidates": [
+        "File:S39 outfit 006.png"
+      ],
+      "description": "After nearly 60 years in stasis, she awoke to a new nightmare."
+    },
+    {
       "id": "ellen-ripley--pressure-suit--outfit--s39-outfit-010",
       "name": "Pressure Suit",
       "baseCharacterId": "ef8f557a-3117-48ae-9fd7-a36b09dfe789",
@@ -93733,49 +94948,6 @@
         "File:S39 outfit 010.png"
       ],
       "description": "She suddenly realized she wasn't alone. Back against the wall, she slowly slipped on her suit."
-    },
-    {
-      "id": "ellen-ripley--back-in-action--outfit--s39-outfit-006",
-      "name": "Back in Action",
-      "baseCharacterId": "ef8f557a-3117-48ae-9fd7-a36b09dfe789",
-      "baseCharacterName": "Ellen Ripley",
-      "baseCharacterType": "Survivor",
-      "groupKey": "cosmetic",
-      "groupLabel": "Alien",
-      "collectionName": "Aliens",
-      "image": "./dbd_images/cosmetics/full_sets/ellen-ripley--back-in-action--outfit--s39-outfit-006.png",
-      "aliases": [
-        "back in action",
-        "aliens",
-        "alien",
-        "outfit",
-        "ellen ripley",
-        "head",
-        "body",
-        "legs",
-        "unlinked",
-        "unlinked outfit"
-      ],
-      "sourceKind": "wiki-collection-page",
-      "sourcePage": "Alien Collection",
-      "assetProvenance": "official-outfit-icon",
-      "status": "ready",
-      "rarity": "Very Rare",
-      "outfitLinkMode": "unlinked",
-      "boundSlots": [
-        "Head",
-        "Body",
-        "Legs"
-      ],
-      "bindSummary": "Head + Body + Legs",
-      "isLinkedSet": false,
-      "isCharacterSwap": false,
-      "pieceType": "Outfit",
-      "sourceBucket": "Alien",
-      "assetFileTitleCandidates": [
-        "File:S39 outfit 006.png"
-      ],
-      "description": "After nearly 60 years in stasis, she awoke to a new nightmare."
     },
     {
       "id": "ellen-ripley--cat-survivor--outfit--s39-outfit-011",
@@ -96964,7 +98136,8 @@
       "pieceType": "Outfit",
       "sourceBucket": "Haunted by Daylight 2025 Featured",
       "assetFileTitleCandidates": [
-        "File:S23_outfit_034.png"
+        "File:S23_outfit_034.png",
+        "File:S23 outfit 034.png"
       ],
       "description": "Felix wanted to stay home, but the Halloween party was hosted by a famous architect. He couldn't miss the opportunity."
     },
@@ -102820,6 +103993,48 @@
       "description": "She watched the rain fall outside her window. She had been too focused on her game to notice the weather change."
     },
     {
+      "id": "feng-min--star-student--outfit--fm-outfit-044",
+      "name": "Star Student",
+      "baseCharacterId": "5083636a-b37d-4747-a37b-adaf4db26161",
+      "baseCharacterName": "Feng Min",
+      "baseCharacterType": "Survivor",
+      "groupKey": "cosmetic",
+      "groupLabel": "Community",
+      "collectionName": "Community",
+      "image": "./dbd_images/cosmetics/full_sets/feng-min--star-student--outfit--fm-outfit-044.png",
+      "aliases": [
+        "star student",
+        "community",
+        "outfit",
+        "feng min",
+        "head",
+        "body",
+        "legs",
+        "unlinked",
+        "unlinked outfit"
+      ],
+      "sourceKind": "wiki-collection-page",
+      "sourcePage": "Community Collection",
+      "assetProvenance": "official-outfit-icon",
+      "status": "ready",
+      "rarity": "Very Rare",
+      "outfitLinkMode": "unlinked",
+      "boundSlots": [
+        "Head",
+        "Body",
+        "Legs"
+      ],
+      "bindSummary": "Head + Body + Legs",
+      "isLinkedSet": false,
+      "isCharacterSwap": false,
+      "pieceType": "Outfit",
+      "sourceBucket": "Community",
+      "assetFileTitleCandidates": [
+        "File:FM outfit 044.png"
+      ],
+      "description": "Just when things were looking dire, she came in clutch with a near-perfect grade on her final exam. Design inspired by LeafyShrooms."
+    },
+    {
       "id": "feng-min--beauty-sleep-pyjamas--outfit--fm-outfit-017",
       "name": "Beauty Sleep Pyjamas",
       "baseCharacterId": "5083636a-b37d-4747-a37b-adaf4db26161",
@@ -103028,49 +104243,6 @@
         "File:FM outfit 031.png"
       ],
       "description": "Feng spent the evening personalizing her player character. The endless possibilities before her were captivating."
-    },
-    {
-      "id": "feng-min--sovereign-rising--outfit--fm-outfit-036",
-      "name": "Sovereign Rising",
-      "baseCharacterId": "5083636a-b37d-4747-a37b-adaf4db26161",
-      "baseCharacterName": "Feng Min",
-      "baseCharacterType": "Survivor",
-      "groupKey": "cosmetic",
-      "groupLabel": "Deck the Trials",
-      "collectionName": "Holiday Horror",
-      "image": "./dbd_images/cosmetics/full_sets/feng-min--sovereign-rising--outfit--fm-outfit-036.png",
-      "aliases": [
-        "sovereign rising",
-        "holiday horror",
-        "deck the trials",
-        "outfit",
-        "feng min",
-        "head",
-        "body",
-        "legs",
-        "unlinked",
-        "unlinked outfit"
-      ],
-      "sourceKind": "wiki-collection-page",
-      "sourcePage": "Deck the Trials Collection",
-      "assetProvenance": "official-outfit-icon",
-      "status": "ready",
-      "rarity": "Very Rare",
-      "outfitLinkMode": "unlinked",
-      "boundSlots": [
-        "Head",
-        "Body",
-        "Legs"
-      ],
-      "bindSummary": "Head + Body + Legs",
-      "isLinkedSet": false,
-      "isCharacterSwap": false,
-      "pieceType": "Outfit",
-      "sourceBucket": "Deck the Trials",
-      "assetFileTitleCandidates": [
-        "File:FM outfit 036.png"
-      ],
-      "description": "The team took a break for the holidays and Min played a new game about a princess fighting to be queen."
     },
     {
       "id": "feng-min--noticed-talent--outfit--fm-outfit-029",
@@ -103359,6 +104531,48 @@
         "File:FM outfit 013.png"
       ],
       "description": "The extravagant dress reminded Feng of a heroine from a game she used to play. In The Entity’s realm, she’d take any reminder of home that she could get."
+    },
+    {
+      "id": "feng-min--sovereign-rising--outfit--fm-outfit-036",
+      "name": "Sovereign Rising",
+      "baseCharacterId": "5083636a-b37d-4747-a37b-adaf4db26161",
+      "baseCharacterName": "Feng Min",
+      "baseCharacterType": "Survivor",
+      "groupKey": "cosmetic",
+      "groupLabel": "Holiday Horror",
+      "collectionName": "Holiday Horror",
+      "image": "./dbd_images/cosmetics/full_sets/feng-min--sovereign-rising--outfit--fm-outfit-036.png",
+      "aliases": [
+        "sovereign rising",
+        "holiday horror",
+        "outfit",
+        "feng min",
+        "head",
+        "body",
+        "legs",
+        "unlinked",
+        "unlinked outfit"
+      ],
+      "sourceKind": "wiki-collection-page",
+      "sourcePage": "Holiday Horror Collection",
+      "assetProvenance": "official-outfit-icon",
+      "status": "ready",
+      "rarity": "Very Rare",
+      "outfitLinkMode": "unlinked",
+      "boundSlots": [
+        "Head",
+        "Body",
+        "Legs"
+      ],
+      "bindSummary": "Head + Body + Legs",
+      "isLinkedSet": false,
+      "isCharacterSwap": false,
+      "pieceType": "Outfit",
+      "sourceBucket": "Holiday Horror",
+      "assetFileTitleCandidates": [
+        "File:FM outfit 036.png"
+      ],
+      "description": "The team took a break for the holidays and Min played a new game about a princess fighting to be queen."
     },
     {
       "id": "feng-min--down-the-rabbit-hole--outfit--fm-outfit-023",
@@ -105101,6 +106315,48 @@
         "File:S37 outfit 021.png"
       ],
       "description": "He kneeled before the open closet, pulling the latch and gently lifting the tortoise out of the cage."
+    },
+    {
+      "id": "gabriel-soma--holiday-memories--outfit--s37-outfit-024",
+      "name": "Holiday Memories",
+      "baseCharacterId": "6466d931-d3c5-4475-b400-fc92b6b5ce23",
+      "baseCharacterName": "Gabriel Soma",
+      "baseCharacterType": "Survivor",
+      "groupKey": "cosmetic",
+      "groupLabel": "Holiday Horror",
+      "collectionName": "Holiday Horror",
+      "image": "./dbd_images/cosmetics/full_sets/gabriel-soma--holiday-memories--outfit--s37-outfit-024.png",
+      "aliases": [
+        "holiday memories",
+        "holiday horror",
+        "outfit",
+        "gabriel soma",
+        "head",
+        "body",
+        "legs",
+        "unlinked",
+        "unlinked outfit"
+      ],
+      "sourceKind": "wiki-collection-page",
+      "sourcePage": "Holiday Horror Collection",
+      "assetProvenance": "official-outfit-icon",
+      "status": "ready",
+      "rarity": "Very Rare",
+      "outfitLinkMode": "unlinked",
+      "boundSlots": [
+        "Head",
+        "Body",
+        "Legs"
+      ],
+      "bindSummary": "Head + Body + Legs",
+      "isLinkedSet": false,
+      "isCharacterSwap": false,
+      "pieceType": "Outfit",
+      "sourceBucket": "Holiday Horror",
+      "assetFileTitleCandidates": [
+        "File:S37 outfit 024.png"
+      ],
+      "description": "Christmas had arrived on the ship, and Gabriel was the lucky one who got to top the tree with the star."
     },
     {
       "id": "gabriel-soma--friendship-memento--outfit--s37-outfit-016",
@@ -121278,6 +122534,48 @@
       "description": "After miles of Autumn colors through the country side, Kate could finally see her aunt's ranch on the horizon."
     },
     {
+      "id": "kate-denson--dearest-kate--outfit--gs-outfit-040",
+      "name": "Dearest Kate",
+      "baseCharacterId": "be60e4eb-d735-4136-ac1b-292d5a0205df",
+      "baseCharacterName": "Kate Denson",
+      "baseCharacterType": "Survivor",
+      "groupKey": "cosmetic",
+      "groupLabel": "Black Banquet",
+      "collectionName": "Black Banquet",
+      "image": "./dbd_images/cosmetics/full_sets/kate-denson--dearest-kate--outfit--gs-outfit-040.png",
+      "aliases": [
+        "dearest kate",
+        "black banquet",
+        "outfit",
+        "kate denson",
+        "head",
+        "body",
+        "legs",
+        "unlinked",
+        "unlinked outfit"
+      ],
+      "sourceKind": "wiki-collection-page",
+      "sourcePage": "Black Banquet Collection",
+      "assetProvenance": "official-outfit-icon",
+      "status": "ready",
+      "rarity": "Very Rare",
+      "outfitLinkMode": "unlinked",
+      "boundSlots": [
+        "Head",
+        "Body",
+        "Legs"
+      ],
+      "bindSummary": "Head + Body + Legs",
+      "isLinkedSet": false,
+      "isCharacterSwap": false,
+      "pieceType": "Outfit",
+      "sourceBucket": "Black Banquet",
+      "assetFileTitleCandidates": [
+        "File:GS outfit 040.png"
+      ],
+      "description": "You are cordially invited to the Black Banquet, where your dulcet tones shall provide the evening’s entertainment."
+    },
+    {
       "id": "kate-denson--maria-renard-s-garments--outfit--gs-outfit-032",
       "name": "Maria Renard's Garments",
       "baseCharacterId": "be60e4eb-d735-4136-ac1b-292d5a0205df",
@@ -121804,6 +123102,132 @@
         "File:GS outfit 014.png"
       ],
       "description": "Kate took the stage at a 50’s revival show and played till the cows came home."
+    },
+    {
+      "id": "kate-denson--fervent-chantress--outfit--gs-outfit-041",
+      "name": "Fervent Chantress",
+      "baseCharacterId": "be60e4eb-d735-4136-ac1b-292d5a0205df",
+      "baseCharacterName": "Kate Denson",
+      "baseCharacterType": "Survivor",
+      "groupKey": "cosmetic",
+      "groupLabel": "Sacrifice the Sunflesh",
+      "collectionName": "Sacrifice The Sunflesh",
+      "image": "./dbd_images/cosmetics/full_sets/kate-denson--fervent-chantress--outfit--gs-outfit-041.png",
+      "aliases": [
+        "fervent chantress",
+        "sacrifice the sunflesh",
+        "outfit",
+        "kate denson",
+        "head",
+        "body",
+        "legs",
+        "unlinked",
+        "unlinked outfit"
+      ],
+      "sourceKind": "wiki-collection-page",
+      "sourcePage": "Sacrifice the Sunflesh Collection",
+      "assetProvenance": "official-outfit-icon",
+      "status": "ready",
+      "rarity": "Very Rare",
+      "outfitLinkMode": "unlinked",
+      "boundSlots": [
+        "Head",
+        "Body",
+        "Legs"
+      ],
+      "bindSummary": "Head + Body + Legs",
+      "isLinkedSet": false,
+      "isCharacterSwap": false,
+      "pieceType": "Outfit",
+      "sourceBucket": "Sacrifice the Sunflesh",
+      "assetFileTitleCandidates": [
+        "File:GS outfit 041.png"
+      ],
+      "description": "The clothes of an ancient singer. She dedicated her voice to the new ethereal force that brought hope to the people."
+    },
+    {
+      "id": "kate-denson--fervent-chantress-deep-rift-1--outfit--gs-outfit-041-01",
+      "name": "Fervent Chantress (Deep Rift 1)",
+      "baseCharacterId": "be60e4eb-d735-4136-ac1b-292d5a0205df",
+      "baseCharacterName": "Kate Denson",
+      "baseCharacterType": "Survivor",
+      "groupKey": "cosmetic",
+      "groupLabel": "Sacrifice the Sunflesh",
+      "collectionName": "Sacrifice The Sunflesh",
+      "image": "./dbd_images/cosmetics/full_sets/kate-denson--fervent-chantress-deep-rift-1--outfit--gs-outfit-041-01.png",
+      "aliases": [
+        "fervent chantress (deep rift 1)",
+        "sacrifice the sunflesh",
+        "outfit",
+        "kate denson",
+        "head",
+        "body",
+        "legs",
+        "unlinked",
+        "unlinked outfit"
+      ],
+      "sourceKind": "wiki-collection-page",
+      "sourcePage": "Sacrifice the Sunflesh Collection",
+      "assetProvenance": "official-outfit-icon",
+      "status": "ready",
+      "rarity": "Very Rare",
+      "outfitLinkMode": "unlinked",
+      "boundSlots": [
+        "Head",
+        "Body",
+        "Legs"
+      ],
+      "bindSummary": "Head + Body + Legs",
+      "isLinkedSet": false,
+      "isCharacterSwap": false,
+      "pieceType": "Outfit",
+      "sourceBucket": "Sacrifice the Sunflesh",
+      "assetFileTitleCandidates": [
+        "File:GS outfit 041 01.png"
+      ],
+      "description": "The clothes of an ancient singer. She dedicated her voice to the new ethereal force that brought hope to the people."
+    },
+    {
+      "id": "kate-denson--fervent-chantress-deep-rift-2--outfit--gs-outfit-041-02",
+      "name": "Fervent Chantress (Deep Rift 2)",
+      "baseCharacterId": "be60e4eb-d735-4136-ac1b-292d5a0205df",
+      "baseCharacterName": "Kate Denson",
+      "baseCharacterType": "Survivor",
+      "groupKey": "cosmetic",
+      "groupLabel": "Sacrifice the Sunflesh",
+      "collectionName": "Sacrifice The Sunflesh",
+      "image": "./dbd_images/cosmetics/full_sets/kate-denson--fervent-chantress-deep-rift-2--outfit--gs-outfit-041-02.png",
+      "aliases": [
+        "fervent chantress (deep rift 2)",
+        "sacrifice the sunflesh",
+        "outfit",
+        "kate denson",
+        "head",
+        "body",
+        "legs",
+        "unlinked",
+        "unlinked outfit"
+      ],
+      "sourceKind": "wiki-collection-page",
+      "sourcePage": "Sacrifice the Sunflesh Collection",
+      "assetProvenance": "official-outfit-icon",
+      "status": "ready",
+      "rarity": "Very Rare",
+      "outfitLinkMode": "unlinked",
+      "boundSlots": [
+        "Head",
+        "Body",
+        "Legs"
+      ],
+      "bindSummary": "Head + Body + Legs",
+      "isLinkedSet": false,
+      "isCharacterSwap": false,
+      "pieceType": "Outfit",
+      "sourceBucket": "Sacrifice the Sunflesh",
+      "assetFileTitleCandidates": [
+        "File:GS outfit 041 02.png"
+      ],
+      "description": "The clothes of an ancient singer. She dedicated her voice to the new ethereal force that brought hope to the people."
     },
     {
       "id": "kate-denson--historia-s-uniform--outfit--gs-outfit-019",
@@ -122976,6 +124400,48 @@
         "File:S52 outfit 007.png"
       ],
       "description": "From his office window, he watched the city slowly wake up. Everything seemed so small from up there."
+    },
+    {
+      "id": "kwon-tae-young--touch-sand--outfit--s52-outfit-008",
+      "name": "Touch Sand",
+      "baseCharacterId": "kwon-tae-young",
+      "baseCharacterName": "Kwon Tae-Young",
+      "baseCharacterType": "Survivor",
+      "groupKey": "cosmetic",
+      "groupLabel": "Waterfront Massacre",
+      "collectionName": "Waterfront Massacre",
+      "image": "./dbd_images/cosmetics/full_sets/kwon-tae-young--touch-sand--outfit--s52-outfit-008.png",
+      "aliases": [
+        "touch sand",
+        "waterfront massacre",
+        "outfit",
+        "kwon tae-young",
+        "head",
+        "body",
+        "legs",
+        "unlinked",
+        "unlinked outfit"
+      ],
+      "sourceKind": "wiki-collection-page",
+      "sourcePage": "Waterfront Massacre Collection",
+      "assetProvenance": "official-outfit-icon",
+      "status": "ready",
+      "rarity": "Very Rare",
+      "outfitLinkMode": "unlinked",
+      "boundSlots": [
+        "Head",
+        "Body",
+        "Legs"
+      ],
+      "bindSummary": "Head + Body + Legs",
+      "isLinkedSet": false,
+      "isCharacterSwap": false,
+      "pieceType": "Outfit",
+      "sourceBucket": "Waterfront Massacre",
+      "assetFileTitleCandidates": [
+        "File:S52 outfit 008.png"
+      ],
+      "description": "After countless hours coding in the dark, Tae-young had to admit that a day in the sun would do his body good."
     },
     {
       "id": "lara-croft--dark-tank-top--body--s43-torso01",
@@ -133003,6 +134469,48 @@
       "description": "She told her latest ghost story while leading a candle-making class at the Moonstone."
     },
     {
+      "id": "mikaela-reid--bleak-force--outfit--s28-outfit-014-01",
+      "name": "Bleak Force",
+      "baseCharacterId": "c3cbdf22-6974-461a-bcf3-dd9d9037bbad",
+      "baseCharacterName": "Mikaela Reid",
+      "baseCharacterType": "Survivor",
+      "groupKey": "cosmetic",
+      "groupLabel": "Sacrifice the Sunflesh",
+      "collectionName": "Sacrifice The Sunflesh",
+      "image": "./dbd_images/cosmetics/full_sets/mikaela-reid--bleak-force--outfit--s28-outfit-014-01.png",
+      "aliases": [
+        "bleak force",
+        "sacrifice the sunflesh",
+        "outfit",
+        "mikaela reid",
+        "head",
+        "body",
+        "legs",
+        "unlinked",
+        "unlinked outfit"
+      ],
+      "sourceKind": "wiki-collection-page",
+      "sourcePage": "Sacrifice the Sunflesh Collection",
+      "assetProvenance": "official-outfit-icon",
+      "status": "ready",
+      "rarity": "Very Rare",
+      "outfitLinkMode": "unlinked",
+      "boundSlots": [
+        "Head",
+        "Body",
+        "Legs"
+      ],
+      "bindSummary": "Head + Body + Legs",
+      "isLinkedSet": false,
+      "isCharacterSwap": false,
+      "pieceType": "Outfit",
+      "sourceBucket": "Sacrifice the Sunflesh",
+      "assetFileTitleCandidates": [
+        "File:S28 outfit 014 01.png"
+      ],
+      "description": "For a connoisseur like Mikaela, all energy sources in the world had to be treated with caution."
+    },
+    {
       "id": "mikaela-reid--rejuvenation-spell--outfit--s28-outfit-011",
       "name": "Rejuvenation Spell",
       "baseCharacterId": "c3cbdf22-6974-461a-bcf3-dd9d9037bbad",
@@ -137412,6 +138920,48 @@
       "description": "A warrior against the old guard."
     },
     {
+      "id": "nea-karlsson--slippery-slope--outfit--nk-outfit-033",
+      "name": "Slippery Slope",
+      "baseCharacterId": "b4ec0d91-e2de-4e9c-ae33-4de1abb11648",
+      "baseCharacterName": "Nea Karlsson",
+      "baseCharacterType": "Survivor",
+      "groupKey": "cosmetic",
+      "groupLabel": "Bone Chill",
+      "collectionName": "Bone Chill",
+      "image": "./dbd_images/cosmetics/full_sets/nea-karlsson--slippery-slope--outfit--nk-outfit-033.png",
+      "aliases": [
+        "slippery slope",
+        "bone chill",
+        "outfit",
+        "nea karlsson",
+        "head",
+        "body",
+        "legs",
+        "unlinked",
+        "unlinked outfit"
+      ],
+      "sourceKind": "wiki-collection-page",
+      "sourcePage": "Bone Chill Collection",
+      "assetProvenance": "official-outfit-icon",
+      "status": "ready",
+      "rarity": "Very Rare",
+      "outfitLinkMode": "unlinked",
+      "boundSlots": [
+        "Head",
+        "Body",
+        "Legs"
+      ],
+      "bindSummary": "Head + Body + Legs",
+      "isLinkedSet": false,
+      "isCharacterSwap": false,
+      "pieceType": "Outfit",
+      "sourceBucket": "Bone Chill",
+      "assetFileTitleCandidates": [
+        "File:NK outfit 033.png"
+      ],
+      "description": "Nea climbed the ladder to her snow-covered roof. Her friends watched her, excitement tinged with nerves."
+    },
+    {
       "id": "nea-karlsson--butterfly-of-the-night--outfit--nk-outfit-021",
       "name": "Butterfly of the Night",
       "baseCharacterId": "b4ec0d91-e2de-4e9c-ae33-4de1abb11648",
@@ -140539,6 +142089,132 @@
         "File:S46 outfit 007 02.png"
       ],
       "description": "The staff of Screams in the Dark were rehearsing a show based on disturbing solstice rituals when one of the performers began to choke."
+    },
+    {
+      "id": "orela-rose--faithful-healer--outfit--s46-outfit-016",
+      "name": "Faithful Healer",
+      "baseCharacterId": "dd41f4c8-4261-48ed-82cb-bec07d601e3e",
+      "baseCharacterName": "Orela Rose",
+      "baseCharacterType": "Survivor",
+      "groupKey": "cosmetic",
+      "groupLabel": "Sacrifice the Sunflesh",
+      "collectionName": "Sacrifice The Sunflesh",
+      "image": "./dbd_images/cosmetics/full_sets/orela-rose--faithful-healer--outfit--s46-outfit-016.png",
+      "aliases": [
+        "faithful healer",
+        "sacrifice the sunflesh",
+        "outfit",
+        "orela rose",
+        "head",
+        "body",
+        "legs",
+        "unlinked",
+        "unlinked outfit"
+      ],
+      "sourceKind": "wiki-collection-page",
+      "sourcePage": "Sacrifice the Sunflesh Collection",
+      "assetProvenance": "official-outfit-icon",
+      "status": "ready",
+      "rarity": "Very Rare",
+      "outfitLinkMode": "unlinked",
+      "boundSlots": [
+        "Head",
+        "Body",
+        "Legs"
+      ],
+      "bindSummary": "Head + Body + Legs",
+      "isLinkedSet": false,
+      "isCharacterSwap": false,
+      "pieceType": "Outfit",
+      "sourceBucket": "Sacrifice the Sunflesh",
+      "assetFileTitleCandidates": [
+        "File:S46 outfit 016.png"
+      ],
+      "description": "The clothes of an ancient healer. She accepted her best friend’s invitation to a ceremony marking the beginning of a new life."
+    },
+    {
+      "id": "orela-rose--faithful-healer-deep-rift-1--outfit--s46-outfit-016-01",
+      "name": "Faithful Healer (Deep Rift 1)",
+      "baseCharacterId": "dd41f4c8-4261-48ed-82cb-bec07d601e3e",
+      "baseCharacterName": "Orela Rose",
+      "baseCharacterType": "Survivor",
+      "groupKey": "cosmetic",
+      "groupLabel": "Sacrifice the Sunflesh",
+      "collectionName": "Sacrifice The Sunflesh",
+      "image": "./dbd_images/cosmetics/full_sets/orela-rose--faithful-healer-deep-rift-1--outfit--s46-outfit-016-01.png",
+      "aliases": [
+        "faithful healer (deep rift 1)",
+        "sacrifice the sunflesh",
+        "outfit",
+        "orela rose",
+        "head",
+        "body",
+        "legs",
+        "unlinked",
+        "unlinked outfit"
+      ],
+      "sourceKind": "wiki-collection-page",
+      "sourcePage": "Sacrifice the Sunflesh Collection",
+      "assetProvenance": "official-outfit-icon",
+      "status": "ready",
+      "rarity": "Very Rare",
+      "outfitLinkMode": "unlinked",
+      "boundSlots": [
+        "Head",
+        "Body",
+        "Legs"
+      ],
+      "bindSummary": "Head + Body + Legs",
+      "isLinkedSet": false,
+      "isCharacterSwap": false,
+      "pieceType": "Outfit",
+      "sourceBucket": "Sacrifice the Sunflesh",
+      "assetFileTitleCandidates": [
+        "File:S46 outfit 016 01.png"
+      ],
+      "description": "The clothes of an ancient healer. She accepted her best friend’s invitation to a ceremony marking the beginning of a new life."
+    },
+    {
+      "id": "orela-rose--faithful-healer-deep-rift-2--outfit--s46-outfit-016-02",
+      "name": "Faithful Healer (Deep Rift 2)",
+      "baseCharacterId": "dd41f4c8-4261-48ed-82cb-bec07d601e3e",
+      "baseCharacterName": "Orela Rose",
+      "baseCharacterType": "Survivor",
+      "groupKey": "cosmetic",
+      "groupLabel": "Sacrifice the Sunflesh",
+      "collectionName": "Sacrifice The Sunflesh",
+      "image": "./dbd_images/cosmetics/full_sets/orela-rose--faithful-healer-deep-rift-2--outfit--s46-outfit-016-02.png",
+      "aliases": [
+        "faithful healer (deep rift 2)",
+        "sacrifice the sunflesh",
+        "outfit",
+        "orela rose",
+        "head",
+        "body",
+        "legs",
+        "unlinked",
+        "unlinked outfit"
+      ],
+      "sourceKind": "wiki-collection-page",
+      "sourcePage": "Sacrifice the Sunflesh Collection",
+      "assetProvenance": "official-outfit-icon",
+      "status": "ready",
+      "rarity": "Very Rare",
+      "outfitLinkMode": "unlinked",
+      "boundSlots": [
+        "Head",
+        "Body",
+        "Legs"
+      ],
+      "bindSummary": "Head + Body + Legs",
+      "isLinkedSet": false,
+      "isCharacterSwap": false,
+      "pieceType": "Outfit",
+      "sourceBucket": "Sacrifice the Sunflesh",
+      "assetFileTitleCandidates": [
+        "File:S46 outfit 016 02.png"
+      ],
+      "description": "The clothes of an ancient healer. She accepted her best friend’s invitation to a ceremony marking the beginning of a new life."
     },
     {
       "id": "orela-rose--halcyon-dreams--outfit--s46-outfit-006",
@@ -144148,6 +145824,681 @@
       "description": "Kids ran by, kicking sand onto Sable's towel. She rolled her eyes, wishing she could be at home alone with her book."
     },
     {
+      "id": "shane-wiigwaas--thunderbird-jacket--body--s53-torso01",
+      "name": "Thunderbird Jacket",
+      "baseCharacterId": "bbb83024-f7b6-40cf-b060-5339820478e4",
+      "baseCharacterName": "Shane Wiigwaas",
+      "baseCharacterType": "Survivor",
+      "groupKey": "cosmetic",
+      "groupLabel": "Default",
+      "collectionName": "Default",
+      "image": "./dbd_images/cosmetics/full_sets/shane-wiigwaas--thunderbird-jacket--body--s53-torso01.png",
+      "aliases": [
+        "thunderbird jacket",
+        "default",
+        "body",
+        "shane wiigwaas",
+        "unlinked",
+        "unlinked outfit"
+      ],
+      "sourceKind": "wiki-template",
+      "sourcePage": "Template:Shane's Default Cosmetics",
+      "assetProvenance": "official-piece-icon",
+      "status": "ready",
+      "rarity": "Common",
+      "outfitLinkMode": "unlinked",
+      "boundSlots": [],
+      "bindSummary": "",
+      "isLinkedSet": false,
+      "isCharacterSwap": false,
+      "pieceType": "Body",
+      "sourceBucket": "Default",
+      "assetFileTitleCandidates": [
+        "File:S53 Torso01.png"
+      ],
+      "description": "His wandering came to an end when he heard of another person taken by the mysterious black fog."
+    },
+    {
+      "id": "shane-wiigwaas--dauntless-undercut--head--s53-head01",
+      "name": "Dauntless Undercut",
+      "baseCharacterId": "bbb83024-f7b6-40cf-b060-5339820478e4",
+      "baseCharacterName": "Shane Wiigwaas",
+      "baseCharacterType": "Survivor",
+      "groupKey": "cosmetic",
+      "groupLabel": "Default",
+      "collectionName": "Default",
+      "image": "./dbd_images/cosmetics/full_sets/shane-wiigwaas--dauntless-undercut--head--s53-head01.png",
+      "aliases": [
+        "dauntless undercut",
+        "default",
+        "head",
+        "shane wiigwaas",
+        "unlinked",
+        "unlinked outfit"
+      ],
+      "sourceKind": "wiki-template",
+      "sourcePage": "Template:Shane's Default Cosmetics",
+      "assetProvenance": "official-piece-icon",
+      "status": "ready",
+      "rarity": "Common",
+      "outfitLinkMode": "unlinked",
+      "boundSlots": [],
+      "bindSummary": "",
+      "isLinkedSet": false,
+      "isCharacterSwap": false,
+      "pieceType": "Head",
+      "sourceBucket": "Default",
+      "assetFileTitleCandidates": [
+        "File:S53 Head01.png"
+      ],
+      "description": "He moved across Turtle Island, finding work and making friends but never staying in one place too long."
+    },
+    {
+      "id": "shane-wiigwaas--classic-biker-boots--legs--s53-legs01",
+      "name": "Classic Biker Boots",
+      "baseCharacterId": "bbb83024-f7b6-40cf-b060-5339820478e4",
+      "baseCharacterName": "Shane Wiigwaas",
+      "baseCharacterType": "Survivor",
+      "groupKey": "cosmetic",
+      "groupLabel": "Default",
+      "collectionName": "Default",
+      "image": "./dbd_images/cosmetics/full_sets/shane-wiigwaas--classic-biker-boots--legs--s53-legs01.png",
+      "aliases": [
+        "classic biker boots",
+        "default",
+        "legs",
+        "shane wiigwaas",
+        "unlinked",
+        "unlinked outfit"
+      ],
+      "sourceKind": "wiki-template",
+      "sourcePage": "Template:Shane's Default Cosmetics",
+      "assetProvenance": "official-piece-icon",
+      "status": "ready",
+      "rarity": "Common",
+      "outfitLinkMode": "unlinked",
+      "boundSlots": [],
+      "bindSummary": "",
+      "isLinkedSet": false,
+      "isCharacterSwap": false,
+      "pieceType": "Legs",
+      "sourceBucket": "Default",
+      "assetFileTitleCandidates": [
+        "File:S53 Legs01.png"
+      ],
+      "description": "He found the proof he needed to get his cousin out of prison, but it was too late."
+    },
+    {
+      "id": "shane-wiigwaas--ride-away--outfit--s53-outfit-01-cv04",
+      "name": "Ride Away",
+      "baseCharacterId": "bbb83024-f7b6-40cf-b060-5339820478e4",
+      "baseCharacterName": "Shane Wiigwaas",
+      "baseCharacterType": "Survivor",
+      "groupKey": "cosmetic",
+      "groupLabel": "The Life Road",
+      "collectionName": "Shane Essentials",
+      "image": "./dbd_images/cosmetics/full_sets/shane-wiigwaas--ride-away--outfit--s53-outfit-01-cv04.png",
+      "aliases": [
+        "ride away",
+        "shane essentials",
+        "the life road",
+        "outfit",
+        "shane wiigwaas",
+        "body",
+        "legs",
+        "unlinked",
+        "unlinked outfit"
+      ],
+      "sourceKind": "wiki-collection-page",
+      "sourcePage": "The Life Road Collection",
+      "assetProvenance": "official-outfit-icon",
+      "status": "ready",
+      "rarity": "Common",
+      "outfitLinkMode": "unlinked",
+      "boundSlots": [
+        "Body",
+        "Legs"
+      ],
+      "bindSummary": "Body + Legs",
+      "isLinkedSet": false,
+      "isCharacterSwap": false,
+      "pieceType": "Outfit",
+      "sourceBucket": "The Life Road",
+      "assetFileTitleCandidates": [
+        "File:S53 outfit 01 CV04.png"
+      ],
+      "description": "He thought he was the only one on the highway until he heard the whoop of a siren."
+    },
+    {
+      "id": "shane-wiigwaas--ride-on--outfit--s53-outfit-01-cv01",
+      "name": "Ride On",
+      "baseCharacterId": "bbb83024-f7b6-40cf-b060-5339820478e4",
+      "baseCharacterName": "Shane Wiigwaas",
+      "baseCharacterType": "Survivor",
+      "groupKey": "cosmetic",
+      "groupLabel": "The Life Road",
+      "collectionName": "Shane Essentials",
+      "image": "./dbd_images/cosmetics/full_sets/shane-wiigwaas--ride-on--outfit--s53-outfit-01-cv01.png",
+      "aliases": [
+        "ride on",
+        "shane essentials",
+        "the life road",
+        "outfit",
+        "shane wiigwaas",
+        "body",
+        "legs",
+        "unlinked",
+        "unlinked outfit"
+      ],
+      "sourceKind": "wiki-collection-page",
+      "sourcePage": "The Life Road Collection",
+      "assetProvenance": "official-outfit-icon",
+      "status": "ready",
+      "rarity": "Common",
+      "outfitLinkMode": "unlinked",
+      "boundSlots": [
+        "Body",
+        "Legs"
+      ],
+      "bindSummary": "Body + Legs",
+      "isLinkedSet": false,
+      "isCharacterSwap": false,
+      "pieceType": "Outfit",
+      "sourceBucket": "The Life Road",
+      "assetFileTitleCandidates": [
+        "File:S53 outfit 01 CV01.png"
+      ],
+      "description": "He thought he was the only one on the highway until he heard the whoop of a siren."
+    },
+    {
+      "id": "shane-wiigwaas--ride-out--outfit--s53-outfit-01-cv02",
+      "name": "Ride Out",
+      "baseCharacterId": "bbb83024-f7b6-40cf-b060-5339820478e4",
+      "baseCharacterName": "Shane Wiigwaas",
+      "baseCharacterType": "Survivor",
+      "groupKey": "cosmetic",
+      "groupLabel": "The Life Road",
+      "collectionName": "Shane Essentials",
+      "image": "./dbd_images/cosmetics/full_sets/shane-wiigwaas--ride-out--outfit--s53-outfit-01-cv02.png",
+      "aliases": [
+        "ride out",
+        "shane essentials",
+        "the life road",
+        "outfit",
+        "shane wiigwaas",
+        "body",
+        "legs",
+        "unlinked",
+        "unlinked outfit"
+      ],
+      "sourceKind": "wiki-collection-page",
+      "sourcePage": "The Life Road Collection",
+      "assetProvenance": "official-outfit-icon",
+      "status": "ready",
+      "rarity": "Common",
+      "outfitLinkMode": "unlinked",
+      "boundSlots": [
+        "Body",
+        "Legs"
+      ],
+      "bindSummary": "Body + Legs",
+      "isLinkedSet": false,
+      "isCharacterSwap": false,
+      "pieceType": "Outfit",
+      "sourceBucket": "The Life Road",
+      "assetFileTitleCandidates": [
+        "File:S53 outfit 01 CV02.png"
+      ],
+      "description": "He thought he was the only one on the highway until he heard the whoop of a siren."
+    },
+    {
+      "id": "shane-wiigwaas--ride-through--outfit--s53-outfit-01-cv03",
+      "name": "Ride Through",
+      "baseCharacterId": "bbb83024-f7b6-40cf-b060-5339820478e4",
+      "baseCharacterName": "Shane Wiigwaas",
+      "baseCharacterType": "Survivor",
+      "groupKey": "cosmetic",
+      "groupLabel": "The Life Road",
+      "collectionName": "Shane Essentials",
+      "image": "./dbd_images/cosmetics/full_sets/shane-wiigwaas--ride-through--outfit--s53-outfit-01-cv03.png",
+      "aliases": [
+        "ride through",
+        "shane essentials",
+        "the life road",
+        "outfit",
+        "shane wiigwaas",
+        "body",
+        "legs",
+        "unlinked",
+        "unlinked outfit"
+      ],
+      "sourceKind": "wiki-collection-page",
+      "sourcePage": "The Life Road Collection",
+      "assetProvenance": "official-outfit-icon",
+      "status": "ready",
+      "rarity": "Common",
+      "outfitLinkMode": "unlinked",
+      "boundSlots": [
+        "Body",
+        "Legs"
+      ],
+      "bindSummary": "Body + Legs",
+      "isLinkedSet": false,
+      "isCharacterSwap": false,
+      "pieceType": "Outfit",
+      "sourceBucket": "The Life Road",
+      "assetFileTitleCandidates": [
+        "File:S53 outfit 01 CV03.png"
+      ],
+      "description": "He thought he was the only one on the highway until he heard the whoop of a siren."
+    },
+    {
+      "id": "shane-wiigwaas--sanguinary-jacket--body--s53-torso01-p01",
+      "name": "Sanguinary Jacket",
+      "baseCharacterId": "bbb83024-f7b6-40cf-b060-5339820478e4",
+      "baseCharacterName": "Shane Wiigwaas",
+      "baseCharacterType": "Survivor",
+      "groupKey": "cosmetic",
+      "groupLabel": "Prestige",
+      "collectionName": "Prestige",
+      "image": "./dbd_images/cosmetics/full_sets/shane-wiigwaas--sanguinary-jacket--body--s53-torso01-p01.png",
+      "aliases": [
+        "sanguinary jacket",
+        "prestige",
+        "body",
+        "shane wiigwaas",
+        "unlinked",
+        "unlinked outfit"
+      ],
+      "sourceKind": "wiki-template",
+      "sourcePage": "Template:Shane's Prestige Cosmetics",
+      "assetProvenance": "official-piece-icon",
+      "status": "ready",
+      "rarity": "Rare",
+      "outfitLinkMode": "unlinked",
+      "boundSlots": [],
+      "bindSummary": "",
+      "isLinkedSet": false,
+      "isCharacterSwap": false,
+      "pieceType": "Body",
+      "sourceBucket": "Prestige",
+      "assetFileTitleCandidates": [
+        "File:S53 Torso01_P01.png"
+      ],
+      "description": "His wandering came to an end when he discovered there were others doomed to a terrible fate."
+    },
+    {
+      "id": "shane-wiigwaas--blood-specked-undercut--head--s53-head01-p01",
+      "name": "Blood-Specked Undercut",
+      "baseCharacterId": "bbb83024-f7b6-40cf-b060-5339820478e4",
+      "baseCharacterName": "Shane Wiigwaas",
+      "baseCharacterType": "Survivor",
+      "groupKey": "cosmetic",
+      "groupLabel": "Prestige",
+      "collectionName": "Prestige",
+      "image": "./dbd_images/cosmetics/full_sets/shane-wiigwaas--blood-specked-undercut--head--s53-head01-p01.png",
+      "aliases": [
+        "blood-specked undercut",
+        "prestige",
+        "head",
+        "shane wiigwaas",
+        "unlinked",
+        "unlinked outfit"
+      ],
+      "sourceKind": "wiki-template",
+      "sourcePage": "Template:Shane's Prestige Cosmetics",
+      "assetProvenance": "official-piece-icon",
+      "status": "ready",
+      "rarity": "Rare",
+      "outfitLinkMode": "unlinked",
+      "boundSlots": [],
+      "bindSummary": "",
+      "isLinkedSet": false,
+      "isCharacterSwap": false,
+      "pieceType": "Head",
+      "sourceBucket": "Prestige",
+      "assetFileTitleCandidates": [
+        "File:S53 Head01_P01.png"
+      ],
+      "description": "He moved across Turtle Island, trying to escape the nightmares that always seemed to follow him."
+    },
+    {
+      "id": "shane-wiigwaas--spattered-biker-boots--legs--s53-legs01-p01",
+      "name": "Spattered Biker Boots",
+      "baseCharacterId": "bbb83024-f7b6-40cf-b060-5339820478e4",
+      "baseCharacterName": "Shane Wiigwaas",
+      "baseCharacterType": "Survivor",
+      "groupKey": "cosmetic",
+      "groupLabel": "Prestige",
+      "collectionName": "Prestige",
+      "image": "./dbd_images/cosmetics/full_sets/shane-wiigwaas--spattered-biker-boots--legs--s53-legs01-p01.png",
+      "aliases": [
+        "spattered biker boots",
+        "prestige",
+        "legs",
+        "shane wiigwaas",
+        "unlinked",
+        "unlinked outfit"
+      ],
+      "sourceKind": "wiki-template",
+      "sourcePage": "Template:Shane's Prestige Cosmetics",
+      "assetProvenance": "official-piece-icon",
+      "status": "ready",
+      "rarity": "Rare",
+      "outfitLinkMode": "unlinked",
+      "boundSlots": [],
+      "bindSummary": "",
+      "isLinkedSet": false,
+      "isCharacterSwap": false,
+      "pieceType": "Legs",
+      "sourceBucket": "Prestige",
+      "assetFileTitleCandidates": [
+        "File:S53 Legs01_P01.png"
+      ],
+      "description": "He found the proof he needed to get his cousin out of prison, but it would never come to pass."
+    },
+    {
+      "id": "shane-wiigwaas--law-school-days--outfit--s53-outfit-02-01",
+      "name": "Law School Days",
+      "baseCharacterId": "bbb83024-f7b6-40cf-b060-5339820478e4",
+      "baseCharacterName": "Shane Wiigwaas",
+      "baseCharacterType": "Survivor",
+      "groupKey": "cosmetic",
+      "groupLabel": "The Life Road",
+      "collectionName": "Shane Essentials",
+      "image": "./dbd_images/cosmetics/full_sets/shane-wiigwaas--law-school-days--outfit--s53-outfit-02-01.png",
+      "aliases": [
+        "law school days",
+        "shane essentials",
+        "the life road",
+        "outfit",
+        "shane wiigwaas",
+        "head",
+        "body",
+        "legs",
+        "unlinked",
+        "unlinked outfit"
+      ],
+      "sourceKind": "wiki-collection-page",
+      "sourcePage": "The Life Road Collection",
+      "assetProvenance": "official-outfit-icon",
+      "status": "ready",
+      "rarity": "Rare",
+      "outfitLinkMode": "unlinked",
+      "boundSlots": [
+        "Head",
+        "Body",
+        "Legs"
+      ],
+      "bindSummary": "Head + Body + Legs",
+      "isLinkedSet": false,
+      "isCharacterSwap": false,
+      "pieceType": "Outfit",
+      "sourceBucket": "The Life Road",
+      "assetFileTitleCandidates": [
+        "File:S53 outfit 02 01.png"
+      ],
+      "description": "University in Northern Ontario meant being surrounded by many Indigenous students he could relate to."
+    },
+    {
+      "id": "shane-wiigwaas--law-school-nights--outfit--s53-outfit-02",
+      "name": "Law School Nights",
+      "baseCharacterId": "bbb83024-f7b6-40cf-b060-5339820478e4",
+      "baseCharacterName": "Shane Wiigwaas",
+      "baseCharacterType": "Survivor",
+      "groupKey": "cosmetic",
+      "groupLabel": "The Life Road",
+      "collectionName": "Shane Essentials",
+      "image": "./dbd_images/cosmetics/full_sets/shane-wiigwaas--law-school-nights--outfit--s53-outfit-02.png",
+      "aliases": [
+        "law school nights",
+        "shane essentials",
+        "the life road",
+        "outfit",
+        "shane wiigwaas",
+        "head",
+        "body",
+        "legs",
+        "unlinked",
+        "unlinked outfit"
+      ],
+      "sourceKind": "wiki-collection-page",
+      "sourcePage": "The Life Road Collection",
+      "assetProvenance": "official-outfit-icon",
+      "status": "ready",
+      "rarity": "Rare",
+      "outfitLinkMode": "unlinked",
+      "boundSlots": [
+        "Head",
+        "Body",
+        "Legs"
+      ],
+      "bindSummary": "Head + Body + Legs",
+      "isLinkedSet": false,
+      "isCharacterSwap": false,
+      "pieceType": "Outfit",
+      "sourceBucket": "The Life Road",
+      "assetFileTitleCandidates": [
+        "File:S53 outfit 02.png"
+      ],
+      "description": "University in Northern Ontario meant being surrounded by many Indigenous students he could relate to."
+    },
+    {
+      "id": "shane-wiigwaas--former-apprentice--outfit--s53-outfit-01-01",
+      "name": "Former Apprentice",
+      "baseCharacterId": "bbb83024-f7b6-40cf-b060-5339820478e4",
+      "baseCharacterName": "Shane Wiigwaas",
+      "baseCharacterType": "Survivor",
+      "groupKey": "cosmetic",
+      "groupLabel": "The Life Road",
+      "collectionName": "Shane Essentials",
+      "image": "./dbd_images/cosmetics/full_sets/shane-wiigwaas--former-apprentice--outfit--s53-outfit-01-01.png",
+      "aliases": [
+        "former apprentice",
+        "shane essentials",
+        "the life road",
+        "outfit",
+        "shane wiigwaas",
+        "head",
+        "body",
+        "legs",
+        "unlinked",
+        "unlinked outfit"
+      ],
+      "sourceKind": "wiki-collection-page",
+      "sourcePage": "The Life Road Collection",
+      "assetProvenance": "official-outfit-icon",
+      "status": "ready",
+      "rarity": "Uncommon",
+      "outfitLinkMode": "unlinked",
+      "boundSlots": [
+        "Head",
+        "Body",
+        "Legs"
+      ],
+      "bindSummary": "Head + Body + Legs",
+      "isLinkedSet": false,
+      "isCharacterSwap": false,
+      "pieceType": "Outfit",
+      "sourceBucket": "The Life Road",
+      "assetFileTitleCandidates": [
+        "File:S53 outfit 01 01.png"
+      ],
+      "description": "Whenever Shane rolled into a new town, he looked for a place to stay and, most importantly, a job."
+    },
+    {
+      "id": "shane-wiigwaas--former-booking-agent--outfit--s53-outfit-01-02",
+      "name": "Former Booking Agent",
+      "baseCharacterId": "bbb83024-f7b6-40cf-b060-5339820478e4",
+      "baseCharacterName": "Shane Wiigwaas",
+      "baseCharacterType": "Survivor",
+      "groupKey": "cosmetic",
+      "groupLabel": "The Life Road",
+      "collectionName": "Shane Essentials",
+      "image": "./dbd_images/cosmetics/full_sets/shane-wiigwaas--former-booking-agent--outfit--s53-outfit-01-02.png",
+      "aliases": [
+        "former booking agent",
+        "shane essentials",
+        "the life road",
+        "outfit",
+        "shane wiigwaas",
+        "head",
+        "body",
+        "legs",
+        "unlinked",
+        "unlinked outfit"
+      ],
+      "sourceKind": "wiki-collection-page",
+      "sourcePage": "The Life Road Collection",
+      "assetProvenance": "official-outfit-icon",
+      "status": "ready",
+      "rarity": "Uncommon",
+      "outfitLinkMode": "unlinked",
+      "boundSlots": [
+        "Head",
+        "Body",
+        "Legs"
+      ],
+      "bindSummary": "Head + Body + Legs",
+      "isLinkedSet": false,
+      "isCharacterSwap": false,
+      "pieceType": "Outfit",
+      "sourceBucket": "The Life Road",
+      "assetFileTitleCandidates": [
+        "File:S53 outfit 01 02.png"
+      ],
+      "description": "Whenever Shane rolled into a new town, he looked for a place to stay and, most importantly, a job."
+    },
+    {
+      "id": "shane-wiigwaas--former-powwow-mc--outfit--s53-outfit-01-03",
+      "name": "Former Powwow MC",
+      "baseCharacterId": "bbb83024-f7b6-40cf-b060-5339820478e4",
+      "baseCharacterName": "Shane Wiigwaas",
+      "baseCharacterType": "Survivor",
+      "groupKey": "cosmetic",
+      "groupLabel": "The Life Road",
+      "collectionName": "Shane Essentials",
+      "image": "./dbd_images/cosmetics/full_sets/shane-wiigwaas--former-powwow-mc--outfit--s53-outfit-01-03.png",
+      "aliases": [
+        "former powwow mc",
+        "shane essentials",
+        "the life road",
+        "outfit",
+        "shane wiigwaas",
+        "head",
+        "body",
+        "legs",
+        "unlinked",
+        "unlinked outfit"
+      ],
+      "sourceKind": "wiki-collection-page",
+      "sourcePage": "The Life Road Collection",
+      "assetProvenance": "official-outfit-icon",
+      "status": "ready",
+      "rarity": "Uncommon",
+      "outfitLinkMode": "unlinked",
+      "boundSlots": [
+        "Head",
+        "Body",
+        "Legs"
+      ],
+      "bindSummary": "Head + Body + Legs",
+      "isLinkedSet": false,
+      "isCharacterSwap": false,
+      "pieceType": "Outfit",
+      "sourceBucket": "The Life Road",
+      "assetFileTitleCandidates": [
+        "File:S53 outfit 01 03.png"
+      ],
+      "description": "Whenever Shane rolled into a new town, he looked for a place to stay and, most importantly, a job."
+    },
+    {
+      "id": "shane-wiigwaas--white-woodland-regalia--outfit--s53-outfit-006-01",
+      "name": "White Woodland Regalia",
+      "baseCharacterId": "bbb83024-f7b6-40cf-b060-5339820478e4",
+      "baseCharacterName": "Shane Wiigwaas",
+      "baseCharacterType": "Survivor",
+      "groupKey": "cosmetic",
+      "groupLabel": "The Life Road",
+      "collectionName": "Shane Essentials",
+      "image": "./dbd_images/cosmetics/full_sets/shane-wiigwaas--white-woodland-regalia--outfit--s53-outfit-006-01.png",
+      "aliases": [
+        "white woodland regalia",
+        "shane essentials",
+        "the life road",
+        "outfit",
+        "shane wiigwaas",
+        "head",
+        "body",
+        "legs",
+        "unlinked",
+        "unlinked outfit"
+      ],
+      "sourceKind": "wiki-collection-page",
+      "sourcePage": "The Life Road Collection",
+      "assetProvenance": "official-outfit-icon",
+      "status": "ready",
+      "rarity": "Very Rare",
+      "outfitLinkMode": "unlinked",
+      "boundSlots": [
+        "Head",
+        "Body",
+        "Legs"
+      ],
+      "bindSummary": "Head + Body + Legs",
+      "isLinkedSet": false,
+      "isCharacterSwap": false,
+      "pieceType": "Outfit",
+      "sourceBucket": "The Life Road",
+      "assetFileTitleCandidates": [
+        "File:S53 outfit 006 01.png"
+      ],
+      "description": "When the time felt right, his grandmother called him to sit with her at the sewing machine."
+    },
+    {
+      "id": "shane-wiigwaas--woodland-regalia--outfit--s53-outfit-006",
+      "name": "Woodland Regalia",
+      "baseCharacterId": "bbb83024-f7b6-40cf-b060-5339820478e4",
+      "baseCharacterName": "Shane Wiigwaas",
+      "baseCharacterType": "Survivor",
+      "groupKey": "cosmetic",
+      "groupLabel": "The Life Road",
+      "collectionName": "Shane Essentials",
+      "image": "./dbd_images/cosmetics/full_sets/shane-wiigwaas--woodland-regalia--outfit--s53-outfit-006.png",
+      "aliases": [
+        "woodland regalia",
+        "shane essentials",
+        "the life road",
+        "outfit",
+        "shane wiigwaas",
+        "head",
+        "body",
+        "legs",
+        "unlinked",
+        "unlinked outfit"
+      ],
+      "sourceKind": "wiki-collection-page",
+      "sourcePage": "The Life Road Collection",
+      "assetProvenance": "official-outfit-icon",
+      "status": "ready",
+      "rarity": "Very Rare",
+      "outfitLinkMode": "unlinked",
+      "boundSlots": [
+        "Head",
+        "Body",
+        "Legs"
+      ],
+      "bindSummary": "Head + Body + Legs",
+      "isLinkedSet": false,
+      "isCharacterSwap": false,
+      "pieceType": "Outfit",
+      "sourceBucket": "The Life Road",
+      "assetFileTitleCandidates": [
+        "File:S53 outfit 006.png"
+      ],
+      "description": "When the time felt right, his grandmother called him to sit with her at the sewing machine."
+    },
+    {
       "id": "steve-harrington--casual-rolled-sleeves--body--qm-torso01",
       "name": "Casual Rolled Sleeves",
       "baseCharacterId": "b38fe73f-5f50-423d-9bcf-185dbc97b803",
@@ -144780,6 +147131,132 @@
         "File:QM outfit 006.png"
       ],
       "description": "Outfit cosmetic for Steve Harrington"
+    },
+    {
+      "id": "taurie-cain--ardent-believer--outfit--s45-outfit-016",
+      "name": "Ardent Believer",
+      "baseCharacterId": "b4cb7d83-e55b-40ae-b9d5-a767569a90cf",
+      "baseCharacterName": "Taurie Cain",
+      "baseCharacterType": "Survivor",
+      "groupKey": "cosmetic",
+      "groupLabel": "Sacrifice the Sunflesh",
+      "collectionName": "Sacrifice The Sunflesh",
+      "image": "./dbd_images/cosmetics/full_sets/taurie-cain--ardent-believer--outfit--s45-outfit-016.png",
+      "aliases": [
+        "ardent believer",
+        "sacrifice the sunflesh",
+        "outfit",
+        "taurie cain",
+        "head",
+        "body",
+        "legs",
+        "unlinked",
+        "unlinked outfit"
+      ],
+      "sourceKind": "wiki-collection-page",
+      "sourcePage": "Sacrifice the Sunflesh Collection",
+      "assetProvenance": "official-outfit-icon",
+      "status": "ready",
+      "rarity": "",
+      "outfitLinkMode": "unlinked",
+      "boundSlots": [
+        "Head",
+        "Body",
+        "Legs"
+      ],
+      "bindSummary": "Head + Body + Legs",
+      "isLinkedSet": false,
+      "isCharacterSwap": false,
+      "pieceType": "Outfit",
+      "sourceBucket": "Sacrifice the Sunflesh",
+      "assetFileTitleCandidates": [
+        "File:S45 outfit 016.png"
+      ],
+      "description": "The clothes of an ancient soldier. She defied orders and pursued a new divine force with the promise of transcendence."
+    },
+    {
+      "id": "taurie-cain--ardent-believer-deep-rift-1--outfit--s45-outfit-016-01",
+      "name": "Ardent Believer (Deep Rift 1)",
+      "baseCharacterId": "b4cb7d83-e55b-40ae-b9d5-a767569a90cf",
+      "baseCharacterName": "Taurie Cain",
+      "baseCharacterType": "Survivor",
+      "groupKey": "cosmetic",
+      "groupLabel": "Sacrifice the Sunflesh",
+      "collectionName": "Sacrifice The Sunflesh",
+      "image": "./dbd_images/cosmetics/full_sets/taurie-cain--ardent-believer-deep-rift-1--outfit--s45-outfit-016-01.png",
+      "aliases": [
+        "ardent believer (deep rift 1)",
+        "sacrifice the sunflesh",
+        "outfit",
+        "taurie cain",
+        "head",
+        "body",
+        "legs",
+        "unlinked",
+        "unlinked outfit"
+      ],
+      "sourceKind": "wiki-collection-page",
+      "sourcePage": "Sacrifice the Sunflesh Collection",
+      "assetProvenance": "official-outfit-icon",
+      "status": "ready",
+      "rarity": "",
+      "outfitLinkMode": "unlinked",
+      "boundSlots": [
+        "Head",
+        "Body",
+        "Legs"
+      ],
+      "bindSummary": "Head + Body + Legs",
+      "isLinkedSet": false,
+      "isCharacterSwap": false,
+      "pieceType": "Outfit",
+      "sourceBucket": "Sacrifice the Sunflesh",
+      "assetFileTitleCandidates": [
+        "File:S45 outfit 016 01.png"
+      ],
+      "description": "The clothes of an ancient soldier. She defied orders and pursued a new divine force with the promise of transcendence."
+    },
+    {
+      "id": "taurie-cain--ardent-believer-deep-rift-2--outfit--s45-outfit-016-02",
+      "name": "Ardent Believer (Deep Rift 2)",
+      "baseCharacterId": "b4cb7d83-e55b-40ae-b9d5-a767569a90cf",
+      "baseCharacterName": "Taurie Cain",
+      "baseCharacterType": "Survivor",
+      "groupKey": "cosmetic",
+      "groupLabel": "Sacrifice the Sunflesh",
+      "collectionName": "Sacrifice The Sunflesh",
+      "image": "./dbd_images/cosmetics/full_sets/taurie-cain--ardent-believer-deep-rift-2--outfit--s45-outfit-016-02.png",
+      "aliases": [
+        "ardent believer (deep rift 2)",
+        "sacrifice the sunflesh",
+        "outfit",
+        "taurie cain",
+        "head",
+        "body",
+        "legs",
+        "unlinked",
+        "unlinked outfit"
+      ],
+      "sourceKind": "wiki-collection-page",
+      "sourcePage": "Sacrifice the Sunflesh Collection",
+      "assetProvenance": "official-outfit-icon",
+      "status": "ready",
+      "rarity": "",
+      "outfitLinkMode": "unlinked",
+      "boundSlots": [
+        "Head",
+        "Body",
+        "Legs"
+      ],
+      "bindSummary": "Head + Body + Legs",
+      "isLinkedSet": false,
+      "isCharacterSwap": false,
+      "pieceType": "Outfit",
+      "sourceBucket": "Sacrifice the Sunflesh",
+      "assetFileTitleCandidates": [
+        "File:S45 outfit 016 02.png"
+      ],
+      "description": "The clothes of an ancient soldier. She defied orders and pursued a new divine force with the promise of transcendence."
     },
     {
       "id": "taurie-cain--black-talon-robe--body--s45-torso01",
@@ -149020,6 +151497,48 @@
       "description": "After three weeks of roughing it in the sweaty Axekick van, an epic water fight sounded like a refreshing change of pace."
     },
     {
+      "id": "vee-boonyasak--tan-session--outfit--s49-outfit-012",
+      "name": "Tan Session",
+      "baseCharacterId": "63679644-dbc2-4c10-b1b8-f768e404f03d",
+      "baseCharacterName": "Vee Boonyasak",
+      "baseCharacterType": "Survivor",
+      "groupKey": "cosmetic",
+      "groupLabel": "Waterfront Massacre",
+      "collectionName": "Waterfront Massacre",
+      "image": "./dbd_images/cosmetics/full_sets/vee-boonyasak--tan-session--outfit--s49-outfit-012.png",
+      "aliases": [
+        "tan session",
+        "waterfront massacre",
+        "outfit",
+        "vee boonyasak",
+        "head",
+        "body",
+        "legs",
+        "unlinked",
+        "unlinked outfit"
+      ],
+      "sourceKind": "wiki-collection-page",
+      "sourcePage": "Waterfront Massacre Collection",
+      "assetProvenance": "official-outfit-icon",
+      "status": "ready",
+      "rarity": "Very Rare",
+      "outfitLinkMode": "unlinked",
+      "boundSlots": [
+        "Head",
+        "Body",
+        "Legs"
+      ],
+      "bindSummary": "Head + Body + Legs",
+      "isLinkedSet": false,
+      "isCharacterSwap": false,
+      "pieceType": "Outfit",
+      "sourceBucket": "Waterfront Massacre",
+      "assetFileTitleCandidates": [
+        "File:S49 outfit 012.png"
+      ],
+      "description": "The sun was hot and the water was crystal blue. A combination as harmonious as drum and bass."
+    },
+    {
       "id": "vittorio-toscano--song-of-faith-deep-rift-2--outfit--s34-outfit-025-03",
       "name": "Song of Faith (Deep Rift 2)",
       "baseCharacterId": "7a7d1989-8fc1-4923-8122-775eac3fa293",
@@ -151235,13 +153754,12 @@
       "baseCharacterName": "Yoichi Asakawa",
       "baseCharacterType": "Survivor",
       "groupKey": "cosmetic",
-      "groupLabel": "Sadako Rising",
+      "groupLabel": "Hallowed Blight",
       "collectionName": "Hallowed Blight",
       "image": "./dbd_images/cosmetics/full_sets/yoichi-asakawa--vigo-s-scientist--outfit--s30-outfit-008.png",
       "aliases": [
         "vigo’s scientist",
         "hallowed blight",
-        "sadako rising",
         "outfit",
         "yoichi asakawa",
         "head",
@@ -151251,7 +153769,7 @@
         "unlinked outfit"
       ],
       "sourceKind": "wiki-collection-page",
-      "sourcePage": "Sadako Rising Collection",
+      "sourcePage": "Hallowed Blight Collection",
       "assetProvenance": "official-outfit-icon",
       "status": "ready",
       "rarity": "Very Rare",
@@ -151265,7 +153783,7 @@
       "isLinkedSet": false,
       "isCharacterSwap": false,
       "pieceType": "Outfit",
-      "sourceBucket": "Sadako Rising",
+      "sourceBucket": "Hallowed Blight",
       "assetFileTitleCandidates": [
         "File:S30 outfit 008.png"
       ],
@@ -158644,6 +161162,132 @@
         "File:US outfit 016.png"
       ],
       "description": "The outfit of a curious innovator from a lost realm."
+    },
+    {
+      "id": "zarina-kassir--daring-scribe--outfit--us-outfit-033",
+      "name": "Daring Scribe",
+      "baseCharacterId": "fb437383-7baa-4242-af8c-cf9da40718e1",
+      "baseCharacterName": "Zarina Kassir",
+      "baseCharacterType": "Survivor",
+      "groupKey": "cosmetic",
+      "groupLabel": "Sacrifice the Sunflesh",
+      "collectionName": "Sacrifice The Sunflesh",
+      "image": "./dbd_images/cosmetics/full_sets/zarina-kassir--daring-scribe--outfit--us-outfit-033.png",
+      "aliases": [
+        "daring scribe",
+        "sacrifice the sunflesh",
+        "outfit",
+        "zarina kassir",
+        "head",
+        "body",
+        "legs",
+        "unlinked",
+        "unlinked outfit"
+      ],
+      "sourceKind": "wiki-collection-page",
+      "sourcePage": "Sacrifice the Sunflesh Collection",
+      "assetProvenance": "official-outfit-icon",
+      "status": "ready",
+      "rarity": "Very Rare",
+      "outfitLinkMode": "unlinked",
+      "boundSlots": [
+        "Head",
+        "Body",
+        "Legs"
+      ],
+      "bindSummary": "Head + Body + Legs",
+      "isLinkedSet": false,
+      "isCharacterSwap": false,
+      "pieceType": "Outfit",
+      "sourceBucket": "Sacrifice the Sunflesh",
+      "assetFileTitleCandidates": [
+        "File:US Outfit 033.png"
+      ],
+      "description": "The clothes of an ancient scribe. Tasked with documenting historical events, she began to investigate a dissident cult."
+    },
+    {
+      "id": "zarina-kassir--daring-scribe-deep-rift-1--outfit--us-outfit-033-01",
+      "name": "Daring Scribe (Deep Rift 1)",
+      "baseCharacterId": "fb437383-7baa-4242-af8c-cf9da40718e1",
+      "baseCharacterName": "Zarina Kassir",
+      "baseCharacterType": "Survivor",
+      "groupKey": "cosmetic",
+      "groupLabel": "Sacrifice the Sunflesh",
+      "collectionName": "Sacrifice The Sunflesh",
+      "image": "./dbd_images/cosmetics/full_sets/zarina-kassir--daring-scribe-deep-rift-1--outfit--us-outfit-033-01.png",
+      "aliases": [
+        "daring scribe (deep rift 1)",
+        "sacrifice the sunflesh",
+        "outfit",
+        "zarina kassir",
+        "head",
+        "body",
+        "legs",
+        "unlinked",
+        "unlinked outfit"
+      ],
+      "sourceKind": "wiki-collection-page",
+      "sourcePage": "Sacrifice the Sunflesh Collection",
+      "assetProvenance": "official-outfit-icon",
+      "status": "ready",
+      "rarity": "Very Rare",
+      "outfitLinkMode": "unlinked",
+      "boundSlots": [
+        "Head",
+        "Body",
+        "Legs"
+      ],
+      "bindSummary": "Head + Body + Legs",
+      "isLinkedSet": false,
+      "isCharacterSwap": false,
+      "pieceType": "Outfit",
+      "sourceBucket": "Sacrifice the Sunflesh",
+      "assetFileTitleCandidates": [
+        "File:US Outfit 033 01.png"
+      ],
+      "description": "The clothes of an ancient scribe. Tasked with documenting historical events, she began to investigate a dissident cult."
+    },
+    {
+      "id": "zarina-kassir--daring-scribe-deep-rift-2--outfit--us-outfit-033-02",
+      "name": "Daring Scribe (Deep Rift 2)",
+      "baseCharacterId": "fb437383-7baa-4242-af8c-cf9da40718e1",
+      "baseCharacterName": "Zarina Kassir",
+      "baseCharacterType": "Survivor",
+      "groupKey": "cosmetic",
+      "groupLabel": "Sacrifice the Sunflesh",
+      "collectionName": "Sacrifice The Sunflesh",
+      "image": "./dbd_images/cosmetics/full_sets/zarina-kassir--daring-scribe-deep-rift-2--outfit--us-outfit-033-02.png",
+      "aliases": [
+        "daring scribe (deep rift 2)",
+        "sacrifice the sunflesh",
+        "outfit",
+        "zarina kassir",
+        "head",
+        "body",
+        "legs",
+        "unlinked",
+        "unlinked outfit"
+      ],
+      "sourceKind": "wiki-collection-page",
+      "sourcePage": "Sacrifice the Sunflesh Collection",
+      "assetProvenance": "official-outfit-icon",
+      "status": "ready",
+      "rarity": "Very Rare",
+      "outfitLinkMode": "unlinked",
+      "boundSlots": [
+        "Head",
+        "Body",
+        "Legs"
+      ],
+      "bindSummary": "Head + Body + Legs",
+      "isLinkedSet": false,
+      "isCharacterSwap": false,
+      "pieceType": "Outfit",
+      "sourceBucket": "Sacrifice the Sunflesh",
+      "assetFileTitleCandidates": [
+        "File:US Outfit 033 02.png"
+      ],
+      "description": "The clothes of an ancient scribe. Tasked with documenting historical events, she began to investigate a dissident cult."
     },
     {
       "id": "zarina-kassir--penguin-onesie-outfit--outfit--us-outfit-010",

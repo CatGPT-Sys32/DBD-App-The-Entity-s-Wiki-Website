@@ -1,8 +1,8 @@
 {
   "totalPerks": 315,
   "counts": {
-    "different": 309,
-    "same_as_legacy": 6
+    "different": 310,
+    "same_as_legacy": 5
   },
   "entries": [
     {
@@ -2520,7 +2520,7 @@
     {
       "id": "s53p03-cross-examination",
       "name": "Cross-Examination",
-      "status": "same_as_legacy",
+      "status": "different",
       "sourceUrl": "https://dbd.tricky.lol/api/perks#S53P03",
       "sourceKey": "S53P03",
       "matchType": "name"

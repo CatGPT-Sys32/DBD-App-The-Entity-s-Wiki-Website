@@ -1,11 +1,15 @@
 Cosmetics Audit
-Generated: 2026-05-24T18:40:34.138Z
+Generated: 2026-08-01T17:47:02.080Z
 Blocked cosmetics: 0
-Ready cosmetics: 4250
-Character Swaps: 103
-Cosmetics: 4147
+Ready cosmetics: 4334
+Character Swaps: 111
+Cosmetics: 4223
 
 Blocked entries: 0
 
-Portrait exceptions: 1
-- The Dredge -> Eddie's Tribute | official-portrait-exception
+Portrait exceptions: 5
+- The Artist -> Lilith | official-portrait-exception
+- The Huntress -> Anniversary Eddie | official-portrait-exception
+- The Spirit -> Bubble Head Nurse | official-portrait-exception
+- Dwight Fairfield -> Scooby-Doo | official-portrait-exception
+- Rick Grimes -> Negan Smith | official-portrait-exception

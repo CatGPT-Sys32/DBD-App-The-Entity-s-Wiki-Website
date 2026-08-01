@@ -12,6 +12,42 @@ const SUMMARY_REPORT_PATH = path.join(ROOT, 'review', 'description-sync-report.j
 
 const PERKS_API_URL = 'https://dbd.tricky.lol/api/perks';
 const ADDONS_API_URL = 'https://dbd.tricky.lol/api/addons';
+const OFFICIAL_960_PERK_DESCRIPTION_OVERRIDES = new Map([
+  [
+    'fast track',
+    [
+      'Whenever you unhook another Survivor, you earn 1 Token, up to 1/2/3.',
+      '',
+      'While repairing, whenever you hit a great basic Skill Check, spend all Tokens. For each Token spent, the Generator gains 5% permanent progress.'
+    ].join('\n')
+  ]
+]);
+const OFFICIAL_960_ADDON_DESCRIPTION_OVERRIDES = new Map([
+  [
+    'ADDON_Lastbreath_HeavyPanting',
+    "The slow and bulging breath stolen from the orderly. Dimly oscillates at The Nurse's touch.\n\nExtends the duration of a lunge after more than one Blink by 10%."
+  ],
+  [
+    'Addon_Ghost_WalleyesMatchbook',
+    "A sheet of matches from Walleye's, a small bar in Northern Roseville. A victim's phone number is scribbled in blue. One of the incriminating pieces of evidence found.\n\nDecreases Night Shroud recovery time by 2 seconds."
+  ],
+  [
+    'Addon_K29_05',
+    'To the person whose only tool is a crank, the whole world looks like a crank-shaped hole. Increases movement speed between the first and second Virulent Bounds by 15%.'
+  ],
+  [
+    'Addon_K29_14',
+    'A highly coveted foodstuff. The cash worth is second only to its regenerative effects. Increases the Chain Bound window by 20%.'
+  ],
+  [
+    'Addon_K40_03',
+    'The lamination is peeling and crusty. How appetizing.\n\nDecreases the minimum time required to retrieve an axe embedded in the environment by 10%.'
+  ],
+  [
+    'Addon_K40_16',
+    'Gaining control over the security doors is key to getting the job done.\n\nYour Axe gains the ability to travel through Security Doors, and will exit straight through the connected Security Door.\n\nWhen aiming your Axe:Gain Killer Instinct on Survivors within 6 meters of any Security Door.Reveals the auras of all Security Door numbers.'
+  ]
+]);
 const STATUS_EXPLANATION_RE = /^(?:Blindness|Broken|Exhausted|Exposed|Haste|Hindered|Oblivious|Undetectable)\b.*(?:prevents|increases|reduces|hides|downed)/i;
 const NETWORK_OPTIONS = {
   retries: 3,
@@ -309,7 +345,11 @@ function processPerks(database, perksPayload) {
       continue;
     }
 
-    const sourceDescription = sanitizeDescriptionBlock(applyTunables(source.description, source.tunables));
+    let sourceDescription = sanitizeDescriptionBlock(applyTunables(source.description, source.tunables));
+    const officialOverride = OFFICIAL_960_PERK_DESCRIPTION_OVERRIDES.get(source.name.toLowerCase());
+    if (officialOverride) {
+      sourceDescription = normalizeMultilineText(officialOverride);
+    }
     const legacyDescription = normalizeMultilineText(perk.description || '');
     const existingPost95 = normalizeMultilineText(perk.descriptionPost95 || '');
 
@@ -397,7 +437,11 @@ function processAddons(database, addonsPayload) {
       continue;
     }
 
-    const sourceDescription = normalizeMultilineText(applyTunables(source.description || '', source.modifiers));
+    let sourceDescription = normalizeMultilineText(applyTunables(source.description || '', source.modifiers));
+    const officialOverride = OFFICIAL_960_ADDON_DESCRIPTION_OVERRIDES.get(addon.internalId);
+    if (officialOverride) {
+      sourceDescription = normalizeMultilineText(officialOverride);
+    }
     const localDescription = normalizeMultilineText(addon.description || '');
     const changed = semanticNormalize(sourceDescription) !== semanticNormalize(localDescription);
 

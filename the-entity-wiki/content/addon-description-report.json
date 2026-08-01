@@ -1,8 +1,8 @@
 {
   "totalAddons": 926,
   "counts": {
-    "updated": 0,
-    "unchanged": 926,
+    "updated": 2,
+    "unchanged": 924,
     "unresolved": 0
   },
   "entries": [
@@ -6408,7 +6408,7 @@
       "id": "09ab4d5f-b9d4-4753-a068-171b8ff3e083",
       "internalId": "Addon_K43_09",
       "name": "Coroner's Coffee",
-      "status": "unchanged",
+      "status": "updated",
       "sourceUrl": "https://dbd.tricky.lol/api/addons#Addon_K43_09"
     },
     {
@@ -6471,7 +6471,7 @@
       "id": "6891cbbc-1370-4ac9-875b-e150cc65be43",
       "internalId": "Addon_K43_18",
       "name": "Deputy's Badge",
-      "status": "unchanged",
+      "status": "updated",
       "sourceUrl": "https://dbd.tricky.lol/api/addons#Addon_K43_18"
     },
     {

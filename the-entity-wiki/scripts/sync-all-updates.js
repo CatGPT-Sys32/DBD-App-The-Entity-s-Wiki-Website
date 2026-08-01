@@ -26,7 +26,12 @@ const TRACKED_PATHS = [
   'web/lore.js',
   'web/community-content.js',
   'web/cosmetics.js',
-  'web/dbd_images/map_layouts_hens'
+  'web/dbd_images/addons',
+  'web/dbd_images/killers',
+  'web/dbd_images/map_layouts_hens',
+  'web/dbd_images/perks',
+  'web/dbd_images/powers',
+  'web/dbd_images/survivors'
 ];
 
 function fail(message) {
@@ -259,6 +264,7 @@ function buildSteps() {
     { name: 'health-check-community-sources', command: 'node', args: ['scripts/sync-community-content.js', '--health-check'] },
     { name: 'health-check-map-layout-sources', command: 'node', args: ['scripts/sync-map-layouts.js', '--health-check'] },
     { name: 'health-check-description-sources', command: 'node', args: ['scripts/sync-descriptions.js', '--health-check'] },
+    { name: 'sync-catalog-updates', command: 'node', args: ['scripts/sync-catalog-updates.js'] },
     { name: 'sync-community-content', command: 'node', args: ['scripts/sync-community-content.js'] },
     { name: 'sync-map-layouts', command: 'node', args: ['scripts/sync-map-layouts.js', '--upgrade-legacy'] },
     { name: 'sync-descriptions', command: 'node', args: ['scripts/sync-descriptions.js'] }

@@ -1,5 +1,5 @@
 var COMMUNITY_CONTENT = {
-  "generatedAt": "2026-06-18T03:07:05.565Z",
+  "generatedAt": "2026-08-01T17:37:45.340Z",
   "metadata": {
     "scraperVersion": 2,
     "attribution": "Data sourced from Otzdarva web properties. Keep attribution when redistributing.",
@@ -7,55 +7,55 @@ var COMMUNITY_CONTENT = {
       {
         "id": "home",
         "url": "https://otzdarva.com/",
-        "fetchedAt": "2026-06-18T03:07:05.565Z"
+        "fetchedAt": "2026-08-01T17:37:45.340Z"
       },
       {
         "id": "addonTierlist",
         "url": "https://otz-addon-tierlist.pages.dev/",
-        "fetchedAt": "2026-06-18T03:07:05.565Z"
+        "fetchedAt": "2026-08-01T17:37:45.340Z"
       },
       {
         "id": "buildsHome",
         "url": "https://otzdarva-builds.com/",
-        "fetchedAt": "2026-06-18T03:07:05.565Z"
+        "fetchedAt": "2026-08-01T17:37:45.340Z"
       },
       {
         "id": "buildsPanels",
         "url": "https://otzdarva-builds.com/assets/modules/XMLHttpRequest/returnCharacterPanels.php",
-        "fetchedAt": "2026-06-18T03:07:05.565Z"
+        "fetchedAt": "2026-08-01T17:37:45.340Z"
       },
       {
         "id": "buildsPerkDetails",
         "url": "https://otzdarva-builds.com/assets/modules/XMLHttpRequest/showPerkDetails.php",
-        "fetchedAt": "2026-06-18T03:07:05.565Z"
+        "fetchedAt": "2026-08-01T17:37:45.340Z"
       },
       {
         "id": "characterInfo",
         "url": "https://otzdarva.com/dbd/character-info",
-        "fetchedAt": "2026-06-18T03:07:05.565Z"
+        "fetchedAt": "2026-08-01T17:37:45.340Z"
       },
       {
         "id": "beginnerGuides",
         "url": "https://otzdarva.com/dbd/beginner-guides",
-        "fetchedAt": "2026-06-18T03:07:05.565Z"
+        "fetchedAt": "2026-08-01T17:37:45.340Z"
       },
       {
         "id": "tierlists",
         "url": "https://otzdarva.com/dbd/tierlists",
-        "fetchedAt": "2026-06-18T03:07:05.565Z"
+        "fetchedAt": "2026-08-01T17:37:45.340Z"
       },
       {
         "id": "killerGuides",
         "url": "https://otzdarva.com/dbd/killer-guides",
-        "fetchedAt": "2026-06-18T03:07:05.565Z"
+        "fetchedAt": "2026-08-01T17:37:45.340Z"
       }
     ],
     "stats": {
       "addonTierlist": {
-        "killerCount": 42,
-        "addonCount": 840,
-        "comboCount": 168,
-        "matchedAddonCount": 840,
+        "killerCount": 43,
+        "addonCount": 860,
+        "comboCount": 172,
+        "matchedAddonCount": 860,
         "unmatchedAddonCount": 0,
         "unmatchedAddonSample": []
       },
@@ -71,9 +71,9 @@ var COMMUNITY_CONTENT = {
         "perkDetailsMissingTotal": 0
       },
       "characterInfo": {
-        "killerCount": 42,
-        "survivorCount": 52,
-        "perkCount": 305,
+        "killerCount": 43,
+        "survivorCount": 53,
+        "perkCount": 311,
         "killerPriorityRange": {
           "min": 1,
           "max": 999
@@ -97,13 +97,13 @@ var COMMUNITY_CONTENT = {
         "datedCount": 7
       },
       "guideVault": {
-        "linkCount": 57,
+        "linkCount": 62,
         "sourceTypeCounts": {
-          "video": 44,
-          "document": 9,
+          "video": 46,
+          "community": 3,
+          "document": 11,
           "link": 1,
-          "image": 1,
-          "community": 2
+          "image": 1
         }
       },
       "linkCount": 7
@@ -163,7 +163,7 @@ var COMMUNITY_CONTENT = {
             "tierBucket": "strongest",
             "name": "Bloody Coil",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/trapper/bloodycoil.png",
-            "otzComment": "Bloody Coil : Passively injures any healthy Survivor that disarms a trap. Note that injured Survivors that are partially healed can still disarm them and then finish their heal afterwards. Obviously, this add-on isn't ideal if you plan to hide all of your traps very carefully but it's quite useful if you planm to play more aggressively and place traps in high-traffic areas that would normally be useless when spotted and disarmed. Critically, Survivors have no way of knowing if this add-on is in play until at least one healthy person tries disarming a trap. At its worst, it will force Survivors to be very careful. At its best, it can keep a team injured or even prevent them from being able to rescue someone trapped in basement altogether. Injuring people with this add-on also has many synergies with perks such as \"Hysteria\", \"Blood Favor\", etc.",
+            "otzComment": "Bloody Coil : Passively injures any healthy Survivor that disarms a trap. Note that injured Survivors that are partially healed can still disarm them and then finish their heal afterwards. Obviously, this add-on isn't ideal if you plan to hide all of your traps very carefully but it's quite useful if you play more aggressively and place traps in high-traffic areas that would normally be useless when spotted and disarmed. Critically, Survivors have no way of knowing if this add-on is in play until at least one healthy person tries disarming a trap. At its worst, it will force Survivors to be very careful. At its best, it can keep a team injured or even prevent them from being able to rescue someone trapped in basement altogether. Injuring people with this add-on also has many synergies with perks such as \"Hysteria\", \"Blood Favor\", etc.",
             "description": "Part sticky, part slippery, this grim liquid makes handling the Bear Traps spring more dangerous. When a healthy Survivor disarms a Bear Trap, the Bloody Coil exacts its price, putting the Survivor into the Injured State.",
             "localMatch": {
               "addonId": "cdfd9d58-ff9c-4e86-a68f-436f1582cd3c",
@@ -177,22 +177,6 @@ var COMMUNITY_CONTENT = {
           {
             "rank": 2,
             "tierBucket": "strongest",
-            "name": "Trapper Sack",
-            "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/trapper/trappersack.png",
-            "otzComment": "Trapper Sack : Makes you start with all of your traps on your inventory at the cost of not being able to pick them up and relocate them anymore. Despite the downside making you a bit less flexible in some scenarios, this add-on is still incredibly powerful as it removes a lot of randomness and mitigates many of the Trapper's weaknesses. Carrying all of your traps at once enables a lot of different playstyles; you can set up aggressively at the start, set up lots of traps in chase in key areas or even completely lock down all entrances after a basement hook. Since there's no random trap spawns around the map, Survivors might also take longer to realize they're playing against a Trapper. Keep in mind that even though you cannot pick up traps, you can still rearm them on the ground.",
-            "description": "A crude leather sack suitable for foraging. Causes all Bear Traps to be carried in your inventory at the beginning of the Trial. You can no longer pick up any placed Bear Traps, only reset them.",
-            "localMatch": {
-              "addonId": "b28a1318-f9c3-4987-9007-e7a203f33253",
-              "internalId": "Addon_Beartrap_009",
-              "localName": "Trapper Sack",
-              "localImage": "dbd_images/addons/iconaddon_trappersack.png",
-              "localRarity": "veryrare",
-              "method": "name"
-            }
-          },
-          {
-            "rank": 3,
-            "tierBucket": "strongest",
             "name": "Iridescent Stone",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/trapper/iridescentstone.png",
             "otzComment": "Iridescent Stone : Disarmed traps on the ground will reactivate based on an internal timer. Not very effective at the start of the match or when there's several disarmed traps, but can be quite powerful when there's only a few of them. For this reason, it pairs particularly well with the purple Trapper Sack, since there will be less traps to cycle through. It also pairs well with the iridescent Bloody Coil to create lose-lose situations where disarming traps can backfire for Survivors. It can also be used on exit gates as part of endgame builds; if Survivors disarm the trap and begin to open the gate they run the risk of being caught when it re-opens later. When not using the Trapper Sack, you might also have instances where Survivors run into the randomly spawned traps since they don't expect them to be there.",
@@ -203,6 +187,22 @@ var COMMUNITY_CONTENT = {
               "localName": "Iridescent Stone",
               "localImage": "dbd_images/addons/iconaddon_iridescentstone.png",
               "localRarity": "visceral",
+              "method": "name"
+            }
+          },
+          {
+            "rank": 3,
+            "tierBucket": "good",
+            "name": "Trapper Sack",
+            "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/trapper/trappersack.png",
+            "otzComment": "Trapper Sack : Makes you start with all of your traps on your inventory at the cost of not being able to pick them up and relocate them anymore. Despite the downside making you a bit less flexible in some scenarios, this add-on is still incredibly powerful as it removes a lot of randomness and mitigates many of the Trapper's weaknesses. Carrying all of your traps at once enables a lot of different playstyles; you can set up aggressively at the start, set up lots of traps in chase in key areas or even completely lock down all entrances after a basement hook. Since there's no random trap spawns around the map, Survivors might also take longer to realize they're playing against a Trapper. Keep in mind that even though you cannot pick up traps, you can still rearm them on the ground. Overall this is a great add-on but very experienced Trappers might prefer to juggle traps throughout the match without it so that they can use two add-ons for other, more impactful effects.",
+            "description": "A crude leather sack suitable for foraging. Causes all Bear Traps to be carried in your inventory at the beginning of the Trial. You can no longer pick up any placed Bear Traps, only reset them.",
+            "localMatch": {
+              "addonId": "b28a1318-f9c3-4987-9007-e7a203f33253",
+              "internalId": "Addon_Beartrap_009",
+              "localName": "Trapper Sack",
+              "localImage": "dbd_images/addons/iconaddon_trappersack.png",
+              "localRarity": "veryrare",
               "method": "name"
             }
           },
@@ -307,7 +307,7 @@ var COMMUNITY_CONTENT = {
             "tierBucket": "decent",
             "name": "Oily Coil",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/trapper/oilycoil.png",
-            "otzComment": "Oily Coil : Allows you to briefly see the aura of whatever Survivor interacted with a disarmed trap. If you pay attention during the match, you can use this effect to quickly locate specific Survivors that you're hunting down. Doing this can sometimes be extremely helpful in the late game when a particularly vulnerable Survivors is trying to hide. Keep in mind, however, that aura reading can be countered by several Survivor perks. In other instances, you might also find that some Survivors are constantly around you and that this effect is simply redundant. This add-on pairs well with the iridescent Bloody Coil, since it might help you find an injured Survivor after they disarm a trap.",
+            "otzComment": "Oily Coil : Allows you to briefly see the aura of whatever Survivor interacted with a disarmed trap. If you pay attention during the match, you can use this effect to quickly locate specific Survivors that you're hunting down. Doing this can sometimes be extremely helpful in the late game when a particularly vulnerable Survivor is trying to stay hidden. Keep in mind, however, that aura reading can be countered by several Survivor perks. In other instances, you might also find that some Survivors are constantly around you and that this effect is simply redundant. This add-on pairs well with the iridescent Bloody Coil, since it might help you find an injured Survivor after they disarm a trap.",
             "description": "A clear oil that makes handling the Bear Trap's spring more hazardous. Resetting a Bear Trap reveals the Aura of the last Survivor to have disarmed it for 5 seconds.",
             "localMatch": {
               "addonId": "0089391f-5549-42d1-9878-84c7ad2030ce",
@@ -355,7 +355,7 @@ var COMMUNITY_CONTENT = {
             "tierBucket": "decent",
             "name": "Tension Spring",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/trapper/tensionspring.png",
-            "otzComment": "Tension Spring : This add-on provides a powerful yet situational effect. Whenever a Survivor escapes or is rescued, the trap they stepped in will be immediately rearmed. Keep in mind that this does not trigger when you grab or hit a Survivor out of a trap yourself, only when they escape it. Even though it's quite rare, this add-on can create very chaotic situations where a Survivor steps on a trap, escapes and then gets unexpectedly caught again. Most of the times you will try your best to stay close to your own traps, so this add-on simply doesn't come into play very often.",
+            "otzComment": "Tension Spring : This add-on provides a powerful yet situational effect. Whenever a Survivor escapes or is rescued, the trap they stepped in will be immediately rearmed. Keep in mind that this does not trigger when you grab or hit a Survivor out of a trap yourself, only when they escape it. Even though it's quite rare, this add-on can create very chaotic situations where a Survivor steps on a trap, escapes and then gets unexpectedly caught again. This scenario occurs often if a Survivor is caught when trying to cleanse a hex totem or open a gate, since they'll stay on the same spot trying to finish the action. Most of the times you will try your best to stay close to your own traps, so this add-on simply doesn't come into play very often.",
             "description": "A high tension spring that snaps back into place after being stretched. Automatically resets the Bear Trap 2 seconds after a Survivor escaped from it.",
             "localMatch": {
               "addonId": "35fbbaca-13b6-4dce-bc41-b01c86dd1b2e",
@@ -484,6 +484,42 @@ var COMMUNITY_CONTENT = {
             "tier": "best",
             "label": "Best Combo",
             "addonRanks": [
+              2,
+              4
+            ],
+            "addons": [
+              {
+                "rank": 2,
+                "name": "Iridescent Stone",
+                "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/trapper/iridescentstone.png",
+                "localMatch": {
+                  "addonId": "27f58b35-9e66-4075-9bec-8d96a9d43986",
+                  "internalId": "ADDON_trap_DiamondStone",
+                  "localName": "Iridescent Stone",
+                  "localImage": "dbd_images/addons/iconaddon_iridescentstone.png",
+                  "localRarity": "visceral",
+                  "method": "name"
+                }
+              },
+              {
+                "rank": 4,
+                "name": "Honing Stone",
+                "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/trapper/honingstone.png",
+                "localMatch": {
+                  "addonId": "d1594519-7b15-4bc7-a11b-0710433f1a95",
+                  "internalId": "Addon_Beartrap_001",
+                  "localName": "Honing Stone",
+                  "localImage": "dbd_images/addons/iconaddon_honingstone.png",
+                  "localRarity": "veryrare",
+                  "method": "name"
+                }
+              }
+            ]
+          },
+          {
+            "tier": "solid",
+            "label": "Solid Combo",
+            "addonRanks": [
               1,
               3
             ],
@@ -503,50 +539,14 @@ var COMMUNITY_CONTENT = {
               },
               {
                 "rank": 3,
-                "name": "Iridescent Stone",
-                "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/trapper/iridescentstone.png",
+                "name": "Trapper Sack",
+                "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/trapper/trappersack.png",
                 "localMatch": {
-                  "addonId": "27f58b35-9e66-4075-9bec-8d96a9d43986",
-                  "internalId": "ADDON_trap_DiamondStone",
-                  "localName": "Iridescent Stone",
-                  "localImage": "dbd_images/addons/iconaddon_iridescentstone.png",
-                  "localRarity": "visceral",
-                  "method": "name"
-                }
-              }
-            ]
-          },
-          {
-            "tier": "solid",
-            "label": "Solid Combo",
-            "addonRanks": [
-              5,
-              6
-            ],
-            "addons": [
-              {
-                "rank": 5,
-                "name": "Fastening Tools",
-                "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/trapper/fasteningtools.png",
-                "localMatch": {
-                  "addonId": "5bf2888d-b2a2-4f38-a048-bff07d04087a",
-                  "internalId": "Addon_Beartrap_012",
-                  "localName": "Fastening Tools",
-                  "localImage": "dbd_images/addons/iconaddon_fasteningtools.png",
-                  "localRarity": "rare",
-                  "method": "name"
-                }
-              },
-              {
-                "rank": 6,
-                "name": "Trapper Bag",
-                "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/trapper/trapperbag.png",
-                "localMatch": {
-                  "addonId": "4e0d3786-2c31-481d-b172-eb9940ddc4b6",
-                  "internalId": "Addon_Beartrap_003",
-                  "localName": "Trapper Bag",
-                  "localImage": "dbd_images/addons/iconaddon_trapperbag.png",
-                  "localRarity": "rare",
+                  "addonId": "b28a1318-f9c3-4987-9007-e7a203f33253",
+                  "internalId": "Addon_Beartrap_009",
+                  "localName": "Trapper Sack",
+                  "localImage": "dbd_images/addons/iconaddon_trappersack.png",
+                  "localRarity": "veryrare",
                   "method": "name"
                 }
               }
@@ -593,7 +593,7 @@ var COMMUNITY_CONTENT = {
             "label": "Fun Combo",
             "addonRanks": [
               4,
-              10
+              13
             ],
             "addons": [
               {
@@ -610,14 +610,14 @@ var COMMUNITY_CONTENT = {
                 }
               },
               {
-                "rank": 10,
-                "name": "Oily Coil",
-                "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/trapper/oilycoil.png",
+                "rank": 13,
+                "name": "Tension Spring",
+                "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/trapper/tensionspring.png",
                 "localMatch": {
-                  "addonId": "0089391f-5549-42d1-9878-84c7ad2030ce",
-                  "internalId": "ADDON_trap_OilyCoil",
-                  "localName": "Oily Coil",
-                  "localImage": "dbd_images/addons/iconaddon_oilycoil.png",
+                  "addonId": "35fbbaca-13b6-4dce-bc41-b01c86dd1b2e",
+                  "internalId": "ADDON_trap_StitchedBag",
+                  "localName": "Tension Spring",
+                  "localImage": "dbd_images/addons/iconaddon_tensionspring.png",
                   "localRarity": "veryrare",
                   "method": "name"
                 }
@@ -1646,7 +1646,7 @@ var COMMUNITY_CONTENT = {
             "name": "Heavy Panting",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/nurse/heavypanting.png",
             "otzComment": "Heavy Panting : A simple but powerful add-on that increases the Nurse's lunge without any downside. Makes it even harder for Survivors to outplay you.",
-            "description": "This description is based on the changes announced for or featured in the upcoming Patch 9.6.0The slow and bulging breath stolen from Harvey Kavanagh, the asylum's \"Fat Orderly\".Dimly oscillates at The Nurse's touch. Extends the Lunge duration of Special Attacks to 110 %, which increases your Attack range by +10 %. This effect only applies after the second or third Blink.",
+            "description": "The slow and bulging breath stolen from Harvey Kavanagh, the asylum's \"Fat Orderly\".Dimly oscillates at The Nurse's touch. Extends the Lunge duration of Special Attacks to 110 %, which increases your Attack range by +10 %. This effect only applies after the second or third Blink.",
             "localMatch": {
               "addonId": "b18e555d-aa41-4b43-861b-554120a1d22b",
               "internalId": "ADDON_Lastbreath_HeavyPanting",
@@ -1901,7 +1901,7 @@ var COMMUNITY_CONTENT = {
             "tierBucket": "detrimental",
             "name": "Dull Bracelet",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/nurse/dullbracelet.png",
-            "otzComment": "Dull Bracelet : Reduces the maximum range of your blink teleports. This is a massive downside and doesn't even provide a fun a challenge. Avoid at all costs unless you are a masochist.",
+            "otzComment": "Dull Bracelet : Reduces the maximum range of your blink teleports. This is a massive downside and doesn't even provide a fun challenge. Avoid at all costs unless you are a masochist.",
             "description": "A worthless piece of jewellery that might have an important significance to someone.Taken from the \"Anxious Girl's\" body. Grants +100 % bonus Bloodpoints for Precise Blink Score Events. Reduces the maximum range of the Blink by -20 %.",
             "localMatch": {
               "addonId": "82f8a6a8-a9af-4706-aec5-eaf131766657",
@@ -2076,7 +2076,7 @@ var COMMUNITY_CONTENT = {
             "tierBucket": "strongest",
             "name": "Judith's Tombstone",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/myers/judithstombstone.png",
-            "otzComment": "Judith's Tombstone : Resets the timer of the Evil Within mode after hooking a Survivor, making it easier to keep the pressure up if there are still Survivors nearby (although its duration can never be extended with other add-ons now). This effect can be particularly devastating if you also bring specific perks to keep the momentum going after each hook and/or provide additional speed (such as the combo of \"Friends til' the End\" + \"Furtive Chase\"). This add-on can also be paired with the purple Lock of Hair in case you want to immediately end your power and keep 50% of it as stalk progress.",
+            "otzComment": "Judith's Tombstone : Resets the timer of the Evil Within mode after hooking a Survivor, making it easier to keep the pressure up if there are still Survivors nearby (although its duration can never be extended with other add-ons now). This effect can be particularly devastating if you also bring specific perks to make you stealthy or keep the momentum going after each hook (such as the combo of \"Friends til' the End\" + \"Furtive Chase\"). This add-on can also be paired with the purple Lock of Hair in case you want to immediately end your power and keep 50% of it as stalk progress. Keep in mind that this add-on has the downside of locking the duration of Evil Within to 40 seconds, making it not work with certain other add-ons.",
             "description": "\"A large and heavy granite tombstone stolen from Mt. Sinclair cemetery, belonging to Judith Myers.\" Modifies Evil Incarnate with the following effects: Hooking a Survivor while in Evil Incarnate will refresh its duration. Caps the maximum duration of Evil Incarnate at 40 seconds. \"Here lies our beloved daughter.\"",
             "localMatch": {
               "addonId": "8d324535-ad5b-4f25-9b36-babf1fe1eb34",
@@ -2089,54 +2089,38 @@ var COMMUNITY_CONTENT = {
           },
           {
             "rank": 2,
-            "tierBucket": "good",
-            "name": "Vanity Mirror",
-            "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/myers/vanitymirror.png",
-            "otzComment": "Vanity Mirror : Shows you the aura of all Survivors when Evil Within mode ends, allowing you to plan out your next chase and possibly ambush someone with the Stalker mode. A really useful effect in general but particularly so if you're ending the mode manually with the purple Lock of Hair, since you can choose when to benefit from the aura read.",
-            "description": "\"A standing portable vanity mirror in perfect condition except for a fine layer of dust and face powder covering it.\" Modifies Evil Incarnate with the following effect: When Evil Incarnate ends, the Auras of all Survivors are revealed to you for 4 seconds.",
+            "tierBucket": "strongest",
+            "name": "Hair Brush",
+            "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/myers/hairbrush.png",
+            "otzComment": "Hair Brush : When activating Evil Within mode, your next pallet break is much faster, an effect that can be further stacked with perks of similar nature. Sounds somewhat redundant when you remember that the Evil Within special attack already shred through pallets pretty quickly, but doing this slows you down and makes your strike go on cooldown. Being able to shred through a pallet very fast can speed up chases very significantly (especially if you trick a Survivor into positioning themselves badly right before you do it). Since it's an add-on, it does not suffer from the effects of diminishing returns so you can pair it with perks like Brutal Strength for even faster pallet breaks. Keep in mind that this one-time pallet breaking bonus does not remain after Evil Within ends, so you cannot save it for later.",
+            "description": "\"A nylon bristle brush used to add body and softness to hair.\" When Evil Incarnate activates, Hair Brush triggers its effect: Increases the Action speed of the next Pallet break action by +50 %.",
             "localMatch": {
-              "addonId": "2eff5f73-ef14-496b-bb5b-a337885713de",
-              "internalId": "Addon_Stalker_VanityMirror",
-              "localName": "Vanity Mirror",
-              "localImage": "dbd_images/addons/iconaddon_vanitymirror.png",
-              "localRarity": "veryrare",
+              "addonId": "8cf2ec84-34cc-4733-b412-1228b7b8572a",
+              "internalId": "Addon_Stalker_HairBrush",
+              "localName": "Hair Brush",
+              "localImage": "dbd_images/addons/iconaddon_hairbrush.png",
+              "localRarity": "uncommon",
               "method": "name"
             }
           },
           {
             "rank": 3,
-            "tierBucket": "good",
-            "name": "Lock of Hair",
-            "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/myers/lockofhair.png",
-            "otzComment": "Lock of Hair : Unlocks the ability to manually end the Evil Within mode and keep the remaining gauge as stalk progress which makes it easier to return to Evil Within mode again sooner. A useful effect that pairs well with a variety of other add-ons that revolve around entering or leaving Evil Within mode.",
-            "description": "\"A cut lock of blond hair bunched with a black elastic.\" Unlocks the following ability while in Evil Incarnate: Hold the Active Ability button to end Evil Incarnate prematurely. This converts 50 % of the remaining duration into Stalk progress.",
+            "tierBucket": "strongest",
+            "name": "Mirror Shard",
+            "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/myers/mirrorshard.png",
+            "otzComment": "Mirror Shard : Increases the duration of your slaughtering strike by 0.25 seconds, making it last a total of 1.75 seconds at full charge. Interestingly, it gives you this extra duration on your strike even if you don't fully charge it. It's a strong effect that will generally make you even deadlier in small loops where a Survivor has to make a play and can't afford to just walk away. However, it comes with a small downside of a slightly longer charge time that could mess with your muscle memory if you're still not used to it. Keep this in mind when using it. Needless to say, this add-on is not useful at all if you're doing some kind of gimmick where the slaughtering strike ability is not used (such as Scratched Mirror builds).",
+            "description": "\"A large and sharp piece of a broken mirror.\" Modifies Slaughtering Strike with the following effects: Increases the base duration of Slaughtering Strike by +0.25 seconds. Decreases the charge speed of Slaughtering Strike by -25 %.",
             "localMatch": {
-              "addonId": "50343ca5-18b7-4b94-8037-0e9b84f959f0",
-              "internalId": "Addon_Stalker_LockOfHair",
-              "localName": "Lock of Hair",
-              "localImage": "dbd_images/addons/iconaddon_lockofhair.png",
-              "localRarity": "veryrare",
+              "addonId": "1abc9724-30a8-42d4-b631-6d16ff3537db",
+              "internalId": "Addon_Stalker_MirrorShard",
+              "localName": "Mirror Shard",
+              "localImage": "dbd_images/addons/iconaddon_mirrorshard.png",
+              "localRarity": "rare",
               "method": "name"
             }
           },
           {
             "rank": 4,
-            "tierBucket": "good",
-            "name": "Jewellery Box",
-            "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/myers/jewellerybox.png",
-            "otzComment": "Jewellery Box : Significantly improves your overall stalking rate at the cost of reducing your stalk range from 32 to 16 meters, effectively halving it. This seems like a harsh penalty that removes some stalking opportunities in large open maps, but in practice you will still be able to stalk Survivors in most situations perfectly fine, even with just a 16 meter range stalk.",
-            "description": "\"A barren wooden box in which vanity items were once stored.\" Modifies the Stalk ability with the following effect: Increases the Power speed of Stalking by +30 %. Decreases the range of Stalking by -16 metres.",
-            "localMatch": {
-              "addonId": "2dbcb692-1fbe-4737-9dc7-7e2849d47337",
-              "internalId": "Addon_Stalker_JewelryBox",
-              "localName": "Jewelry Box",
-              "localImage": "dbd_images/addons/iconaddon_jewellerybox.png",
-              "localRarity": "rare",
-              "method": "image"
-            }
-          },
-          {
-            "rank": 5,
             "tierBucket": "good",
             "name": "Tombstone Piece",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/myers/tombstonepiece.png",
@@ -2152,88 +2136,40 @@ var COMMUNITY_CONTENT = {
             }
           },
           {
+            "rank": 5,
+            "tierBucket": "good",
+            "name": "Vanity Mirror",
+            "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/myers/vanitymirror.png",
+            "otzComment": "Vanity Mirror : Shows you the auras of all Survivors when Evil Within mode ends, allowing you to plan out your next chase and possibly ambush someone with the Stalker mode. This obviously doesn't help you in chase but the information can be invaluable. A really useful effect in general but particularly so if you're ending the mode manually with the purple Lock of Hair, since you can choose when to benefit from the aura read.",
+            "description": "\"A standing portable vanity mirror in perfect condition except for a fine layer of dust and face powder covering it.\" Modifies Evil Incarnate with the following effect: When Evil Incarnate ends, the Auras of all Survivors are revealed to you for 4 seconds.",
+            "localMatch": {
+              "addonId": "2eff5f73-ef14-496b-bb5b-a337885713de",
+              "internalId": "Addon_Stalker_VanityMirror",
+              "localName": "Vanity Mirror",
+              "localImage": "dbd_images/addons/iconaddon_vanitymirror.png",
+              "localRarity": "veryrare",
+              "method": "name"
+            }
+          },
+          {
             "rank": 6,
             "tierBucket": "good",
-            "name": "Judith's Journal",
-            "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/myers/judithsjournal.png",
-            "otzComment": "Judith's Journal : Significantly improves your stalking rate when stalking the Obsession. Not the most reliable by itself but it can pair well with perks that change or reveal the Obsession, especially with a build centered around it.",
-            "description": "\"A journal identified as owned by Judith M. Myers.Most of the pages are defaced with frightening and disturbing drawings.\" While Stalking the Obsession, you benefit from the following effect: Increases the Power speed of Stalking by +40 %.",
+            "name": "Lock of Hair",
+            "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/myers/lockofhair.png",
+            "otzComment": "Lock of Hair : Unlocks the ability to manually end the Evil Within mode and keep the remaining gauge as stalk progress which makes it easier to return to Evil Within mode again sooner. A useful effect that pairs well with a variety of other add-ons that revolve around entering or leaving Evil Within mode.",
+            "description": "\"A cut lock of blond hair bunched with a black elastic.\" Unlocks the following ability while in Evil Incarnate: Hold the Active Ability button to end Evil Incarnate prematurely. This converts 50 % of the remaining duration into Stalk progress.",
             "localMatch": {
-              "addonId": "d3c759e7-e58d-4e92-9ee4-703b351aa6dd",
-              "internalId": "Addon_Stalker_JudithsJournal",
-              "localName": "Judith's Journal",
-              "localImage": "dbd_images/addons/iconaddon_judithsjournal.png",
-              "localRarity": "rare",
+              "addonId": "50343ca5-18b7-4b94-8037-0e9b84f959f0",
+              "internalId": "Addon_Stalker_LockOfHair",
+              "localName": "Lock of Hair",
+              "localImage": "dbd_images/addons/iconaddon_lockofhair.png",
+              "localRarity": "veryrare",
               "method": "name"
             }
           },
           {
             "rank": 7,
             "tierBucket": "good",
-            "name": "Hair Brush",
-            "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/myers/hairbrush.png",
-            "otzComment": "Hair Brush : When activating Evil Within mode, your next pallet break is much faster, an effect that can be further stacked with perks of similar nature. Sounds very powerful and it's certainly not a bad effect, but it can be somewhat redundant when you remember that the Evil Within special attack already shred through pallets pretty quickly. Still, it's quite a decent effect if your slaughtering strike is on cooldown or if you're unable to use it because you brought the green Fragrant Tuft of Hair. Unfortunately, it seems that this one-time pallet breaking bonus does not remain after Evil Within ends, so you cannot save it for later.",
-            "description": "\"A nylon bristle brush used to add body and softness to hair.\" When Evil Incarnate activates, Hair Brush triggers its effect: Increases the Action speed of the next Pallet break action by +50 %.",
-            "localMatch": {
-              "addonId": "8cf2ec84-34cc-4733-b412-1228b7b8572a",
-              "internalId": "Addon_Stalker_HairBrush",
-              "localName": "Hair Brush",
-              "localImage": "dbd_images/addons/iconaddon_hairbrush.png",
-              "localRarity": "uncommon",
-              "method": "name"
-            }
-          },
-          {
-            "rank": 8,
-            "tierBucket": "good",
-            "name": "Tacky Earrings",
-            "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/myers/tackyearrings.png",
-            "otzComment": "Tacky Earrings : Increases your movement speed while actively stalking. A noticeable effect that makes the process feel quite smoother. Not very strong by any means but a decent choice considering its rarity. Just remember that stalking while moving gains less progress than stalking while standing still. This add-on is for those situations where standing still isn't an option.",
-            "description": "\"A very cheap piece of jewellery made from plastic. Painted to resemble precious material.\" Modifies Evil Within with the following effect: Increases your Movement speed while Stalking by +20 %.",
-            "localMatch": {
-              "addonId": "5f73edde-81f8-4add-b12c-42cfe7a52350",
-              "internalId": "Addon_Stalker_TackyEarrings",
-              "localName": "Tacky Earrings",
-              "localImage": "dbd_images/addons/iconaddon_tackyearrings.png",
-              "localRarity": "common",
-              "method": "name"
-            }
-          },
-          {
-            "rank": 9,
-            "tierBucket": "good",
-            "name": "J. Myers Memorial",
-            "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/myers/jmyersmemorial.png",
-            "otzComment": "J. Myers Memorial : Massively speeds up the pick-up and hook actions during Evil Within mode. This saves a bit of time but doesn't even come close to the extra time that you'd get from the iridescent Judith's Tombstone or the blue Hair Bow. The real value from this add-on comes from the fact that it makes flashlight and pallet rescues much harder to pull off. The quicker hook animation might also occasionally catch Survivors by surprise.",
-            "description": "\"A glossy page ripped from the 1965 Haddonfield High School yearbook, one dedicated to the memory of Judith Myers.\" While in Evil Incarnate, the following effect applies: Increases the speed of Picking up and Hooking Survivors by +40 %.",
-            "localMatch": {
-              "addonId": "45f40a7e-c699-47aa-917c-cdb7645dcaa3",
-              "internalId": "Addon_Stalker_JMyersMemorial",
-              "localName": "J.Myers Memorial",
-              "localImage": "dbd_images/addons/iconaddon_jmyersmemorial.png",
-              "localRarity": "rare",
-              "method": "name"
-            }
-          },
-          {
-            "rank": 10,
-            "tierBucket": "decent",
-            "name": "Dead Rabbit",
-            "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/myers/deadrabbit.png",
-            "otzComment": "Dead Rabbit : Decreases your terror radius while in Pursuer mode (making it 16m instead of 24m) and increases it during Evil Wihin mode (making it 50m instead of 40m). The extra stealth during Pursuer mode isn't terrible but it might not be very necessary if you're switching to the Stalker mode when attempting to ambush. The bigger terror radius during Evil Within mode could be used to trigger the effects of some perks but it's otherwise not very valuable on its own.",
-            "description": "\"A grey rabbit which has been opened from neck to tail.\" Adjusts the Terror Radius, depending on the current Mode of Evil Within: Pursuer Mode: Reduces it by -25 %. Evil Incarnate: Increases it by +25 %.",
-            "localMatch": {
-              "addonId": "6f2b77b4-50cd-40cd-87b8-18d219f897e2",
-              "internalId": "Addon_Stalker_DeadRabbit",
-              "localName": "Dead Rabbit",
-              "localImage": "dbd_images/addons/iconaddon_deadrabbit.png",
-              "localRarity": "uncommon",
-              "method": "name"
-            }
-          },
-          {
-            "rank": 11,
-            "tierBucket": "decent",
             "name": "Hair Bow",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/myers/hairbow.png",
             "otzComment": "Hair Bow : Increases the duration of Evil Within mode by 20 seconds (bringing it to a total of 60 seconds) but also increases the stalk time required to reach it. Potentially outclassed by the iridescent Judith's Tombstone if you plan on hooking a Survivor that you've downed, but it's still a decent effect. You can try to mitigate the downside of this add-on by pairing with something like the blue Jewelry Box.",
@@ -2248,71 +2184,87 @@ var COMMUNITY_CONTENT = {
             }
           },
           {
-            "rank": 12,
-            "tierBucket": "almost-no-effect",
-            "name": "Fragrant Tuft of Hair",
-            "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/myers/fragranttuftofhair.png",
-            "otzComment": "Fragrant Tuft of Hair : Removes Myers' new slaughtering strike and replaces it a longer lunge effect and automatically applied Exposed status effect to all Survivors, essentially reenabling his old power kit. This add-on gives you a more immediate instadown (although you still have to go through the mode transition animation) and can help you have better synergy with certain perks that would only trigger with basic attacks and that would normally not work with his special slaughtering strike. Losing the slaughtering strike ability makes your power worse in certain loops and also removes your ability to break pallets quickly with it. Use it only if you really know what you're doing it.",
-            "description": "\"A tuft of blond hair which was forcefully torn off someone's scalp.Releases hints of feminine floral fragrance.\" During Evil Incarnate, the following effects apply: Survivors suffer from the Exposed Status Effect. Increases the Lunge Range by +50 %. Disables the Slaughtering Strike ability.",
+            "rank": 8,
+            "tierBucket": "good",
+            "name": "Jewellery Box",
+            "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/myers/jewellerybox.png",
+            "otzComment": "Jewellery Box : Significantly improves your overall stalking rate at the cost of reducing your stalk range from 32 to 16 meters, effectively halving it. This seems like a harsh penalty that removes some stalking opportunities in large open maps, but in practice you will still be able to stalk Survivors in most situations perfectly fine, even with just a 16 meter range stalk.",
+            "description": "\"A barren wooden box in which vanity items were once stored.\" Modifies the Stalk ability with the following effect: Increases the Power speed of Stalking by +30 %. Decreases the range of Stalking by -16 metres.",
             "localMatch": {
-              "addonId": "0e9de79e-83a2-4a00-975f-65aab97c0d7e",
-              "internalId": "Addon_Stalker_FragrantTuftOfHair",
-              "localName": "Fragrant Tuft of Hair",
-              "localImage": "dbd_images/addons/iconaddon_fragranttuftofhair.png",
+              "addonId": "2dbcb692-1fbe-4737-9dc7-7e2849d47337",
+              "internalId": "Addon_Stalker_JewelryBox",
+              "localName": "Jewelry Box",
+              "localImage": "dbd_images/addons/iconaddon_jewellerybox.png",
+              "localRarity": "rare",
+              "method": "image"
+            }
+          },
+          {
+            "rank": 9,
+            "tierBucket": "decent",
+            "name": "Dead Rabbit",
+            "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/myers/deadrabbit.png",
+            "otzComment": "Dead Rabbit : Decreases your terror radius while in Pursuer mode (making it 16m instead of 24m) and increases it during Evil Wihin mode (making it 50m instead of 40m). The extra stealth during Pursuer mode isn't terrible but it might not be very necessary if you're switching to the Stalker mode when attempting to ambush. However, it's still quite useful since the game locks you into Pursuer mode when your stalk meter is full. The bigger terror radius during Evil Within mode could be used to trigger the effects of some perks but it's otherwise not very valuable on its own.",
+            "description": "\"A grey rabbit which has been opened from neck to tail.\" Adjusts the Terror Radius, depending on the current Mode of Evil Within: Pursuer Mode: Reduces it by -25 %. Evil Incarnate: Increases it by +25 %.",
+            "localMatch": {
+              "addonId": "6f2b77b4-50cd-40cd-87b8-18d219f897e2",
+              "internalId": "Addon_Stalker_DeadRabbit",
+              "localName": "Dead Rabbit",
+              "localImage": "dbd_images/addons/iconaddon_deadrabbit.png",
               "localRarity": "uncommon",
+              "method": "name"
+            }
+          },
+          {
+            "rank": 10,
+            "tierBucket": "decent",
+            "name": "Judith's Journal",
+            "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/myers/judithsjournal.png",
+            "otzComment": "Judith's Journal : Significantly improves your stalking rate when stalking the Obsession. Not the most reliable by itself but it can pair well with perks that change or reveal the Obsession, especially with a build centered around it.",
+            "description": "\"A journal identified as owned by Judith M. Myers.Most of the pages are defaced with frightening and disturbing drawings.\" While Stalking the Obsession, you benefit from the following effect: Increases the Power speed of Stalking by +40 %.",
+            "localMatch": {
+              "addonId": "d3c759e7-e58d-4e92-9ee4-703b351aa6dd",
+              "internalId": "Addon_Stalker_JudithsJournal",
+              "localName": "Judith's Journal",
+              "localImage": "dbd_images/addons/iconaddon_judithsjournal.png",
+              "localRarity": "rare",
+              "method": "name"
+            }
+          },
+          {
+            "rank": 11,
+            "tierBucket": "decent",
+            "name": "Tacky Earrings",
+            "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/myers/tackyearrings.png",
+            "otzComment": "Tacky Earrings : Increases your movement speed while actively stalking. A noticeable effect that makes the process feel quite smoother. Not very strong by any means but a decent choice considering its rarity. Just remember that stalking while moving gains less progress than stalking while standing still. This add-on is for those situations where standing still isn't an option.",
+            "description": "\"A very cheap piece of jewellery made from plastic. Painted to resemble precious material.\" Modifies Evil Within with the following effect: Increases your Movement speed while Stalking by +20 %.",
+            "localMatch": {
+              "addonId": "5f73edde-81f8-4add-b12c-42cfe7a52350",
+              "internalId": "Addon_Stalker_TackyEarrings",
+              "localName": "Tacky Earrings",
+              "localImage": "dbd_images/addons/iconaddon_tackyearrings.png",
+              "localRarity": "common",
+              "method": "name"
+            }
+          },
+          {
+            "rank": 12,
+            "tierBucket": "decent",
+            "name": "J. Myers Memorial",
+            "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/myers/jmyersmemorial.png",
+            "otzComment": "J. Myers Memorial : Massively speeds up the pick-up and hook actions during Evil Within mode. This saves a bit of time but doesn't even come close to the extra time that you'd get from the iridescent Judith's Tombstone or the blue Hair Bow. The real value from this add-on comes from the fact that it makes flashlight and pallet rescues much harder to pull off. The quicker hook animation might also occasionally catch Survivors by surprise.",
+            "description": "\"A glossy page ripped from the 1965 Haddonfield High School yearbook, one dedicated to the memory of Judith Myers.\" While in Evil Incarnate, the following effect applies: Increases the speed of Picking up and Hooking Survivors by +40 %.",
+            "localMatch": {
+              "addonId": "45f40a7e-c699-47aa-917c-cdb7645dcaa3",
+              "internalId": "Addon_Stalker_JMyersMemorial",
+              "localName": "J.Myers Memorial",
+              "localImage": "dbd_images/addons/iconaddon_jmyersmemorial.png",
+              "localRarity": "rare",
               "method": "name"
             }
           },
           {
             "rank": 13,
-            "tierBucket": "almost-no-effect",
-            "name": "Memorial Flower",
-            "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/myers/memorialflower.png",
-            "otzComment": "Memorial Flower : Increases your movement speed to 4.4m/s while in Stalker mode, making you move at 110% of the normal Survivor speed instead of 105%. Ideally, you shouldn't be using the stalker mode unnecessarily to the point where this add-on is constantly in play, but it's obviously really good with the iridescent Scratched Mirror that permanently locks you into Stalker mode.",
-            "description": "\"A partially faded and dried pink larkspur picked up from a gravestone.\" Modifies Stalker Mode with the following effect: Increases your Movement speed by +0.2 m/s to 4.4 m/s.",
-            "localMatch": {
-              "addonId": "de00ef68-28e3-44e3-8f2c-c02bac31eaa3",
-              "internalId": "Addon_Stalker_MemorialFlower",
-              "localName": "Memorial Flower",
-              "localImage": "dbd_images/addons/iconaddon_memorialflower.png",
-              "localRarity": "common",
-              "method": "name"
-            }
-          },
-          {
-            "rank": 14,
-            "tierBucket": "almost-no-effect",
-            "name": "Jewellery",
-            "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/myers/jewellery.png",
-            "otzComment": "Jewellery : Increases the stalk rate by 10% on stationary, non-moving Survivors. This can help you activate Evil Within mode a bit faster if Survivors fail to notice you stalking them when working on a generator, for example. However, the extra 10% is not that noticeable and you're probably better off using something else.",
-            "description": "\"A large necklace made of beads an inexpensive metals.One of Judith's favourites.\" When Stalking stationary Survivors, you benefit from the following effect: Increases the Power speed of Stalking by +10 %.",
-            "localMatch": {
-              "addonId": "229cbf30-c92c-4a4b-8913-c1aa2470a852",
-              "internalId": "Addon_Stalker_Jewelry",
-              "localName": "Jewelry",
-              "localImage": "dbd_images/addons/iconaddon_jewellery.png",
-              "localRarity": "uncommon",
-              "method": "image"
-            }
-          },
-          {
-            "rank": 15,
-            "tierBucket": "almost-no-effect",
-            "name": "Blond Hair",
-            "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/myers/blondhair.png",
-            "otzComment": "Blond Hair : Doubles the duration of scratchmarks and blood left on the environment by Survivors when you're in Stalker mode. It's a considerable effect but one that you generally don't need as much as you'd think. Keep in mind that seeing extremely old scratchmarks could make you start chasing a Survivor that is already extremely far away and lead to unproductive chases.",
-            "description": "\"A single slightly wavy blond hair.\" While in Stalker Mode, you benefit from the following effect: Increases the duration of Scratch Marks and Pools of Blood by +100 %.",
-            "localMatch": {
-              "addonId": "67ec0d2a-8a63-45e5-a6df-9b98adad4a45",
-              "internalId": "Addon_Stalker_BlondHair",
-              "localName": "Blonde Hair",
-              "localImage": "dbd_images/addons/iconaddon_blondhair.png",
-              "localRarity": "common",
-              "method": "image"
-            }
-          },
-          {
-            "rank": 16,
             "tierBucket": "almost-no-effect",
             "name": "Boyfriend's Memo",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/myers/boyfriendsmemo.png",
@@ -2328,33 +2280,81 @@ var COMMUNITY_CONTENT = {
             }
           },
           {
-            "rank": 17,
+            "rank": 14,
             "tierBucket": "almost-no-effect",
-            "name": "Mirror Shard",
-            "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/myers/mirrorshard.png",
-            "otzComment": "Mirror Shard : Increases the duration of your slaughtering strike by 0.25 seconds, making it last a total of 1.75 seconds. This gives it a bit of extra distance but it also comes with the downside of making the charge time slower. Only use it if you really know what you're doing.",
-            "description": "\"A large and sharp piece of a broken mirror.\" Modifies Slaughtering Strike with the following effects: Increases the base duration of Slaughtering Strike by +0.25 seconds. Decreases the charge speed of Slaughtering Strike by -25 %.",
+            "name": "Memorial Flower",
+            "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/myers/memorialflower.png",
+            "otzComment": "Memorial Flower : Increases your movement speed to 4.4m/s while in Stalker mode, making you move at 110% of the normal Survivor speed instead of 105%. Ideally, you shouldn't be using the stalker mode unnecessarily to the point where this add-on is constantly in play, but it's obviously really good with the iridescent Scratched Mirror that permanently locks you into Stalker mode.",
+            "description": "\"A partially faded and dried pink larkspur picked up from a gravestone.\" Modifies Stalker Mode with the following effect: Increases your Movement speed by +0.2 m/s to 4.4 m/s.",
             "localMatch": {
-              "addonId": "1abc9724-30a8-42d4-b631-6d16ff3537db",
-              "internalId": "Addon_Stalker_MirrorShard",
-              "localName": "Mirror Shard",
-              "localImage": "dbd_images/addons/iconaddon_mirrorshard.png",
-              "localRarity": "rare",
+              "addonId": "de00ef68-28e3-44e3-8f2c-c02bac31eaa3",
+              "internalId": "Addon_Stalker_MemorialFlower",
+              "localName": "Memorial Flower",
+              "localImage": "dbd_images/addons/iconaddon_memorialflower.png",
+              "localRarity": "common",
               "method": "name"
             }
           },
           {
-            "rank": 18,
+            "rank": 15,
+            "tierBucket": "almost-no-effect",
+            "name": "Jewellery",
+            "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/myers/jewellery.png",
+            "otzComment": "Jewellery : Increases the stalk rate by 10% on stationary, non-moving Survivors. This can help you activate Evil Within mode a bit faster if Survivors fail to notice you stalking them when working on a generator, for example. However, the extra 10% is not that noticeable and you're probably better off using something else.",
+            "description": "\"A large necklace made of beads an inexpensive metals.One of Judith's favourites.\" When Stalking stationary Survivors, you benefit from the following effect: Increases the Power speed of Stalking by +10 %.",
+            "localMatch": {
+              "addonId": "229cbf30-c92c-4a4b-8913-c1aa2470a852",
+              "internalId": "Addon_Stalker_Jewelry",
+              "localName": "Jewelry",
+              "localImage": "dbd_images/addons/iconaddon_jewellery.png",
+              "localRarity": "uncommon",
+              "method": "image"
+            }
+          },
+          {
+            "rank": 16,
             "tierBucket": "almost-no-effect",
             "name": "Glass Fragment",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/myers/glassfragment.png",
-            "otzComment": "Glass Fragment : Increases the movement speed of the slaughtering strike by 5%, but at the cost of longer charge time. This effect should theoretically make your power harder to avoid in situations where a Survivor is already cornered and you have plenty of time to fully charge it. However, in practice, the downside of 10% slower charge pretty much nullifies the extra movement speed and cancels it out.",
+            "otzComment": "Glass Fragment : Increases the movement speed of the slaughtering strike by 5%, but at the cost of longer charge time. This effect should theoretically make your power harder to avoid in situations where a Survivor is already cornered and you have plenty of time to fully charge it. However, in practice, the slightly faster speed is rarely worth the add-on slot and the downside of 10% slower charge.",
             "description": "\"A tiny piece of tinted glass, probably from a broken object.It is impossible to determine its origin.\" Modifies Slaughtering Strike with the following effects: Increases the Movement speed of Slaughtering Strike by +5 %. Decreases the Charge speed of Slaughtering Strike by -10 %.",
             "localMatch": {
               "addonId": "3e4377e8-080c-4b81-af6c-c2aec7675691",
               "internalId": "Addon_Stalker_GlassFragment",
               "localName": "Glass Fragment",
               "localImage": "dbd_images/addons/iconaddon_glassfragment.png",
+              "localRarity": "uncommon",
+              "method": "name"
+            }
+          },
+          {
+            "rank": 17,
+            "tierBucket": "almost-no-effect",
+            "name": "Blond Hair",
+            "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/myers/blondhair.png",
+            "otzComment": "Blond Hair : Doubles the duration of scratchmarks and blood left on the environment by Survivors when you're in Stalker mode. It's a considerable effect but one that you generally don't need as much as you'd think. Keep in mind that seeing extremely old scratchmarks could make you start chasing a Survivor that is already extremely far away and lead to unproductive chases.",
+            "description": "\"A single slightly wavy blond hair.\" While in Stalker Mode, you benefit from the following effect: Increases the duration of Scratch Marks and Pools of Blood by +100 %.",
+            "localMatch": {
+              "addonId": "67ec0d2a-8a63-45e5-a6df-9b98adad4a45",
+              "internalId": "Addon_Stalker_BlondHair",
+              "localName": "Blonde Hair",
+              "localImage": "dbd_images/addons/iconaddon_blondhair.png",
+              "localRarity": "common",
+              "method": "image"
+            }
+          },
+          {
+            "rank": 18,
+            "tierBucket": "detrimental",
+            "name": "Fragrant Tuft of Hair",
+            "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/myers/fragranttuftofhair.png",
+            "otzComment": "Fragrant Tuft of Hair : Removes Myers' new slaughtering strike and replaces it with a longer lunge Basic Attack that automatically applies the Exposed status effect to all Survivors, essentially reenabling his old power kit. This add-on gives you a more immediate instadown (although you still have to go through the mode transition animation) and can help you have better synergy with certain perks that would only trigger with basic attacks and that would normally not work with his special slaughtering strike. Losing the slaughtering strike ability makes your power worse in certain loops and also removes your ability to break pallets quickly with it. Use it only if you really know what you're doing or if you want to have a simplified version of his power for some reason.",
+            "description": "\"A tuft of blond hair which was forcefully torn off someone's scalp.Releases hints of feminine floral fragrance.\" During Evil Incarnate, the following effects apply: Survivors suffer from the Exposed Status Effect. Increases the Lunge Range by +50 %. Disables the Slaughtering Strike ability.",
+            "localMatch": {
+              "addonId": "0e9de79e-83a2-4a00-975f-65aab97c0d7e",
+              "internalId": "Addon_Stalker_FragrantTuftOfHair",
+              "localName": "Fragrant Tuft of Hair",
+              "localImage": "dbd_images/addons/iconaddon_fragranttuftofhair.png",
               "localRarity": "uncommon",
               "method": "name"
             }
@@ -2397,44 +2397,8 @@ var COMMUNITY_CONTENT = {
             "tier": "best",
             "label": "Best Combo",
             "addonRanks": [
-              2,
-              3
-            ],
-            "addons": [
-              {
-                "rank": 2,
-                "name": "Vanity Mirror",
-                "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/myers/vanitymirror.png",
-                "localMatch": {
-                  "addonId": "2eff5f73-ef14-496b-bb5b-a337885713de",
-                  "internalId": "Addon_Stalker_VanityMirror",
-                  "localName": "Vanity Mirror",
-                  "localImage": "dbd_images/addons/iconaddon_vanitymirror.png",
-                  "localRarity": "veryrare",
-                  "method": "name"
-                }
-              },
-              {
-                "rank": 3,
-                "name": "Lock of Hair",
-                "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/myers/lockofhair.png",
-                "localMatch": {
-                  "addonId": "50343ca5-18b7-4b94-8037-0e9b84f959f0",
-                  "internalId": "Addon_Stalker_LockOfHair",
-                  "localName": "Lock of Hair",
-                  "localImage": "dbd_images/addons/iconaddon_lockofhair.png",
-                  "localRarity": "veryrare",
-                  "method": "name"
-                }
-              }
-            ]
-          },
-          {
-            "tier": "solid",
-            "label": "Solid Combo",
-            "addonRanks": [
               1,
-              4
+              2
             ],
             "addons": [
               {
@@ -2451,43 +2415,7 @@ var COMMUNITY_CONTENT = {
                 }
               },
               {
-                "rank": 4,
-                "name": "Jewellery Box",
-                "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/myers/jewellerybox.png",
-                "localMatch": {
-                  "addonId": "2dbcb692-1fbe-4737-9dc7-7e2849d47337",
-                  "internalId": "Addon_Stalker_JewelryBox",
-                  "localName": "Jewelry Box",
-                  "localImage": "dbd_images/addons/iconaddon_jewellerybox.png",
-                  "localRarity": "rare",
-                  "method": "image"
-                }
-              }
-            ]
-          },
-          {
-            "tier": "good",
-            "label": "Good Combo",
-            "addonRanks": [
-              8,
-              7
-            ],
-            "addons": [
-              {
-                "rank": 8,
-                "name": "Tacky Earrings",
-                "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/myers/tackyearrings.png",
-                "localMatch": {
-                  "addonId": "5f73edde-81f8-4add-b12c-42cfe7a52350",
-                  "internalId": "Addon_Stalker_TackyEarrings",
-                  "localName": "Tacky Earrings",
-                  "localImage": "dbd_images/addons/iconaddon_tackyearrings.png",
-                  "localRarity": "common",
-                  "method": "name"
-                }
-              },
-              {
-                "rank": 7,
+                "rank": 2,
                 "name": "Hair Brush",
                 "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/myers/hairbrush.png",
                 "localMatch": {
@@ -2502,15 +2430,87 @@ var COMMUNITY_CONTENT = {
             ]
           },
           {
-            "tier": "fun",
-            "label": "Fun Combo",
+            "tier": "solid",
+            "label": "Solid Combo",
             "addonRanks": [
-              5,
-              3
+              3,
+              4
             ],
             "addons": [
               {
-                "rank": 5,
+                "rank": 3,
+                "name": "Mirror Shard",
+                "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/myers/mirrorshard.png",
+                "localMatch": {
+                  "addonId": "1abc9724-30a8-42d4-b631-6d16ff3537db",
+                  "internalId": "Addon_Stalker_MirrorShard",
+                  "localName": "Mirror Shard",
+                  "localImage": "dbd_images/addons/iconaddon_mirrorshard.png",
+                  "localRarity": "rare",
+                  "method": "name"
+                }
+              },
+              {
+                "rank": 4,
+                "name": "Tombstone Piece",
+                "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/myers/tombstonepiece.png",
+                "localMatch": {
+                  "addonId": "00dd2190-6c93-4f27-a9b0-9b1ca97eb943",
+                  "internalId": "Addon_Stalker_TombstonePiece",
+                  "localName": "Tombstone Piece",
+                  "localImage": "dbd_images/addons/iconaddon_tombstonepiece.png",
+                  "localRarity": "veryrare",
+                  "method": "name"
+                }
+              }
+            ]
+          },
+          {
+            "tier": "good",
+            "label": "Good Combo",
+            "addonRanks": [
+              2,
+              11
+            ],
+            "addons": [
+              {
+                "rank": 2,
+                "name": "Hair Brush",
+                "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/myers/hairbrush.png",
+                "localMatch": {
+                  "addonId": "8cf2ec84-34cc-4733-b412-1228b7b8572a",
+                  "internalId": "Addon_Stalker_HairBrush",
+                  "localName": "Hair Brush",
+                  "localImage": "dbd_images/addons/iconaddon_hairbrush.png",
+                  "localRarity": "uncommon",
+                  "method": "name"
+                }
+              },
+              {
+                "rank": 11,
+                "name": "Tacky Earrings",
+                "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/myers/tackyearrings.png",
+                "localMatch": {
+                  "addonId": "5f73edde-81f8-4add-b12c-42cfe7a52350",
+                  "internalId": "Addon_Stalker_TackyEarrings",
+                  "localName": "Tacky Earrings",
+                  "localImage": "dbd_images/addons/iconaddon_tackyearrings.png",
+                  "localRarity": "common",
+                  "method": "name"
+                }
+              }
+            ]
+          },
+          {
+            "tier": "fun",
+            "label": "Fun Combo",
+            "addonRanks": [
+              4,
+              6
+            ],
+            "addons": [
+              {
+                "rank": 4,
                 "name": "Tombstone Piece",
                 "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/myers/tombstonepiece.png",
                 "localMatch": {
@@ -2523,7 +2523,7 @@ var COMMUNITY_CONTENT = {
                 }
               },
               {
-                "rank": 3,
+                "rank": 6,
                 "name": "Lock of Hair",
                 "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/myers/lockofhair.png",
                 "localMatch": {
@@ -3049,7 +3049,7 @@ var COMMUNITY_CONTENT = {
             "name": "\"Discipline\" - Carter's Notes",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/doctor/disciplinecartersnotes.png",
             "otzComment": "\"Discipline\" - Carter's Notes : Discipline's main effect makes your shock hit Survivors significantly sooner. This helps massively in chase, making your shock much more consistent and allowing you to deny the use of pallets or windows with much more success than usual. The secondary passive effect of this add-on is also quite powerful, since it removes the red stain during chase and can be quite disorienting while in Madness Tier 3. Keep in mind that all passive effects do not stack with other instances of themselves.",
-            "description": "Project Awakening ECT procedure for disciplinary action, annotated by Doctor Herman Carter himself.The intolerably high voltage leaves the patient in a severe state of paranoia. Reduces the Detonation delay of the Shock Therapy Attack by -0.2 seconds. Survivors affected by Madness suffer from the Affliction of Discipline: Madness II: During a Chase, Survivors perceive an Illusionary Red Stain and Terror Radius, as if you were constantly right behind them. This effect lingers for 6 seconds after the Chase ends. Madness III: In any situation, Survivors perceive an Illusionary Red Stain and Terror Radius, as if you were constantly right behind them. You share into your patients' Madness and can see the Illusionary Red Stain. \"To avoid relapse from our most tenacious subjects, use maximum levels when proceeding with disciplinary actions.\" — Herman Carter",
+            "description": "Project Awakening ECT procedure for disciplinary action, annotated by Doctor Herman Carter himself.The intolerably high voltage leaves the patient in a severe state of paranoia. Reduces the Detonation delay of the Shock Therapy Attack by -0.1 seconds. Survivors affected by Madness suffer from the Affliction of Discipline: Madness II: During a Chase, Survivors perceive an Illusionary Red Stain and Terror Radius, as if you were constantly right behind them. This effect lingers for 6 seconds after the Chase ends. Madness III: In any situation, Survivors perceive an Illusionary Red Stain and Terror Radius, as if you were constantly right behind them. You share into your patients' Madness and can see the Illusionary Red Stain. \"To avoid relapse from our most tenacious subjects, use maximum levels when proceeding with disciplinary actions.\" — Herman Carter",
             "localMatch": {
               "addonId": "5120c5d2-4d05-4317-9d9f-4b131fe47e3c",
               "internalId": "Addon_Spark_DisciplineMuYisNotes",
@@ -3065,7 +3065,7 @@ var COMMUNITY_CONTENT = {
             "name": "\"Discipline\" - Class III",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/doctor/disciplineclassiii.png",
             "otzComment": "\"Discipline\" - Class III : Discipline's main effect makes your shock hit Survivors significantly sooner. This helps massively in chase, making your shock much more consistent and allowing you to deny the use of pallets or windows with much more success than usual. The secondary passive effect of this add-on is also quite powerful, since it removes the red stain during chase and can be quite disorienting while in Madness Tier 3. Keep in mind that all passive effects do not stack with other instances of themselves.",
-            "description": "Project Awakening ECT procedure for disciplinary action which uses a fixed dose at very high voltage.Can cause a state of serious paranoia in the patient. Reduces the Detonation delay of the Shock Therapy Attack by -0.15 seconds. Survivors affected by Madness suffer from the Affliction of Discipline: Madness II: During a Chase, Survivors perceive an Illusionary Red Stain and Terror Radius, as if you were constantly right behind them. This effect lingers for 6 seconds after the Chase ends. Madness III: In any situation, Survivors perceive an Illusionary Red Stain and Terror Radius, as if you were constantly right behind them. You share into your patients' Madness and can see the Illusionary Red Stain. \"Respect of our patients is at the core of our principles.\" — Léry's Memorial Institute",
+            "description": "Project Awakening ECT procedure for disciplinary action which uses a fixed dose at very high voltage.Can cause a state of serious paranoia in the patient. Reduces the Detonation delay of the Shock Therapy Attack by -0.08 seconds. Survivors affected by Madness suffer from the Affliction of Discipline: Madness II: During a Chase, Survivors perceive an Illusionary Red Stain and Terror Radius, as if you were constantly right behind them. This effect lingers for 6 seconds after the Chase ends. Madness III: In any situation, Survivors perceive an Illusionary Red Stain and Terror Radius, as if you were constantly right behind them. You share into your patients' Madness and can see the Illusionary Red Stain. \"Respect of our patients is at the core of our principles.\" — Léry's Memorial Institute",
             "localMatch": {
               "addonId": "78b3dcd5-6d44-4ea8-b55a-432ddbbe9dce",
               "internalId": "Addon_Spark_DisciplineClassIII",
@@ -3080,7 +3080,7 @@ var COMMUNITY_CONTENT = {
             "tierBucket": "good",
             "name": "Iridescent King",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/doctor/iridescentking.png",
-            "otzComment": "Iridescent King : This add-on inflicts the passive effects of the four main family of add-ons: Calm, Discipline, Restraint and Order. Keep in mind that the passive effects can never stack with other instance of themselves. This combinaton of several effects causes a lot of small effects to happen at once which can be quite overwhelming against less experienced or coordinated Survivors. Against stronger Survivors, you might find it preferable to run other add-ons with more impactful effects.",
+            "otzComment": "Iridescent King : This add-on inflicts the passive effects of the four main family of add-ons: Calm, Discipline, Restraint and Order. Keep in mind that the passive effects can never stack with other instances of themselves. This combinaton of several effects causes a lot of small effects to happen at once which can be quite overwhelming against less experienced or coordinated Survivors. Against stronger Survivors, you might find it preferable to run other add-ons with more impactful effects.",
             "description": "A glass-like king chess piece moulded from The Fog itself.The Entity's trace reverberating within can break the most powerful minds. Survivors affected by Madness suffer simultaneously from the Afflictions of Calm, Discipline, Order, and Restraint: Survivors intermittently hear a distant Illusionary Terror Radius. During a Chase, Survivors perceive an Illusionary Red Stain and Terror Radius, as if you were constantly right behind them. Madness II: This effect lingers for 6 seconds after the Chase ends. Madness III: This effect is constant, regardless of whether the Survivors are being chased or not. Broken Pallets are randomly replaced by dropped or upright Illusionary Pallets, which persist until approached by Survivors. New Illusionary Pallets are generated every 20 seconds. Increases the duration of Illusionary Doctors by +6 seconds. You share into your patients' Madness and can see the Illusionary Doctors, Red Stain, and Pallets. \"Gazing into the iridescent glass is plunging one's self into madness.\" — Herman Carter",
             "localMatch": {
               "addonId": "843cb18f-c8a5-497c-a63d-9e8aebbadfd7",
@@ -3096,7 +3096,7 @@ var COMMUNITY_CONTENT = {
             "tierBucket": "good",
             "name": "High Stimulus Electrode",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/doctor/highstimuluselectrode.png",
-            "otzComment": "High Stimulus Electrode : Increases the maximum range of your shock. This extra range isn't always necessary in chase but it's still helpful to interrupt Survivors performing critical actions such finishing generators or attempting an unhook. Can be stacked with other range add-ons, but it's typically best to run it with some other add-on that brings more utility.",
+            "otzComment": "High Stimulus Electrode : Increases the maximum range of your shock. This extra range isn't always necessary in chase but it's still helpful to interrupt Survivors performing critical actions such as finishing generators or attempting an unhook. Can be stacked with other range add-ons, but it's typically best to run it with some other add-on that brings more utility.",
             "description": "An experimental electrode that can withstand very high charges for a longer period of time. Extends the Area of Effect of the Shock Therapy Attack by +4 metres.",
             "localMatch": {
               "addonId": "e7b743ac-f20f-4971-afbb-6cf00520a172",
@@ -3113,7 +3113,7 @@ var COMMUNITY_CONTENT = {
             "name": "\"Discipline\" - Class II",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/doctor/disciplineclassii.png",
             "otzComment": "\"Discipline\" - Class II : Discipline's main effect makes your shock hit Survivors significantly sooner. It's still noticeable despite being weaker than its blue and purple counterparts. The secondary passive effect of this add-on is also quite powerful, since it removes the red stain during chase and can be quite disorienting while in Madness Tier 3. Keep in mind that all passive effects do not stack with other instances of themselves. The passive effects are also the same across all rarities.",
-            "description": "Project Awakening ECT procedure for disciplinary action which uses a fixed dose at high voltage.Can cause a state of moderate paranoia in the patient. Reduces the Detonation delay of the Shock Therapy Attack by -0.1 seconds. Survivors affected by Madness suffer from the Affliction of Discipline: Madness II: During a Chase, Survivors perceive an Illusionary Red Stain and Terror Radius, as if you were constantly right behind them. This effect lingers for 6 seconds after the Chase ends. Madness III: In any situation, Survivors perceive an Illusionary Red Stain and Terror Radius, as if you were constantly right behind them. You share into your patients' Madness and can see the Illusionary Red Stain. \"We re-educate our patients with the greatest care.\" — Léry's Memorial Institute",
+            "description": "Project Awakening ECT procedure for disciplinary action which uses a fixed dose at high voltage.Can cause a state of moderate paranoia in the patient. Reduces the Detonation delay of the Shock Therapy Attack by -0.06 seconds. Survivors affected by Madness suffer from the Affliction of Discipline: Madness II: During a Chase, Survivors perceive an Illusionary Red Stain and Terror Radius, as if you were constantly right behind them. This effect lingers for 6 seconds after the Chase ends. Madness III: In any situation, Survivors perceive an Illusionary Red Stain and Terror Radius, as if you were constantly right behind them. You share into your patients' Madness and can see the Illusionary Red Stain. \"We re-educate our patients with the greatest care.\" — Léry's Memorial Institute",
             "localMatch": {
               "addonId": "a7e1072f-c797-446f-a0ee-8f74d4775721",
               "internalId": "Addon_Spark_DisciplineClassII",
@@ -3128,7 +3128,7 @@ var COMMUNITY_CONTENT = {
             "tierBucket": "good",
             "name": "Polished Electrode",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/doctor/polishedelectrode.png",
-            "otzComment": "Polished Electrode : Increases the maximum range of your shock. This extra range isn't always necessary in chase but it's still helpful to interrupt Survivors performing critical actions such finishing generators or attempting an unhook. Can be stacked with other range add-ons, but it's typically best to run it with some other add-on that brings more utility.",
+            "otzComment": "Polished Electrode : Increases the maximum range of your shock. This extra range isn't always necessary in chase but it's still helpful to interrupt Survivors performing critical actions such as finishing generators or attempting an unhook. Can be stacked with other range add-ons, but it's typically best to run it with some other add-on that brings more utility.",
             "description": "A like-new standard electrode equipment to conduct electro-convulsive treatments. Extends the Area of Effect of the Shock Therapy Attack by +3 metres.",
             "localMatch": {
               "addonId": "281bfb04-21e0-46dd-a4ef-24f3e661e0e8",
@@ -3176,7 +3176,7 @@ var COMMUNITY_CONTENT = {
             "tierBucket": "decent",
             "name": "Mouldy Electrode",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/doctor/mouldyelectrode.png",
-            "otzComment": "Mouldy Electrode : Increases the maximum range of your shock. This extra range isn't always necessary in chase but it's still helpful to interrupt Survivors performing critical actions such finishing generators or attempting an unhook. Can be stacked with other range add-ons, but it's typically best to run it with some other add-on that brings more utility.",
+            "otzComment": "Mouldy Electrode : Increases the maximum range of your shock. This extra range isn't always necessary in chase but it's still helpful to interrupt Survivors performing critical actions such as finishing generators or attempting an unhook. Can be stacked with other range add-ons, but it's typically best to run it with some other add-on that brings more utility.",
             "description": "A mouldy electrode which can nevertheless conduct a weak electrical current. Extends the Area of Effect of the Shock Therapy Attack by +2 metres.",
             "localMatch": {
               "addonId": "1c88a787-87e2-4646-ace2-4991e125ac84",
@@ -3272,7 +3272,7 @@ var COMMUNITY_CONTENT = {
             "tierBucket": "almost-no-effect",
             "name": "\"Order\" - Carter's Notes",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/doctor/ordercartersnotes.png",
-            "otzComment": "\"Order\" - Carter's Notes : Order's main effect is to slightly reduce the cooldown timer of your blast, allowing you to use it more frequently. However, even when stacked together, this reduction only amounts to a few seconds. The secondary passive periodically creates fake illusory pallets on the spots where real pallets were broken. These pallets are visible to perks such as \"Windows of Opportunity\" but are relatively easy to see through upon close inspection, since the debris of the real broken pallet is visible below them. While they can occasionally trick a Survivor into making a mistake, they're ultimately not very reliable. Keep in mind that all passive effects are exactly the same across all rarities and that they do not stack with other instances of themselves.",
+            "otzComment": "\"Order\" - Carter's Notes : Order's main effect is to slightly reduce the cooldown timer of your blast, allowing you to use it more frequently. However, even when stacked together, this reduction only amounts to a few seconds. The secondary passive periodically creates fake illusory pallets on the spots where real pallets were broken. These pallets are visible to perks such as \"Windows of Opportunity\" but are relatively easy to see through upon close inspection, since the debris of a real broken pallet is visible below them. While they can occasionally trick a Survivor into making a mistake, they're ultimately not very reliable. Keep in mind that all passive effects are exactly the same across all rarities and that they do not stack with other instances of themselves.",
             "description": "An experimental version of the ECT procedure, annotated by Doctor Herman Carter himself.The long, constant stimulus leaves the patient in a state of severe confusion. Reduces the Cool-down duration of Static Blast by -3 seconds. Survivors affected by Madness suffer from the Affliction of Order: Broken Pallets are randomly replaced by dropped or upright Illusionary Pallets, which persist until approached by Survivors. New Illusionary Pallets are generated every 20 seconds. You share into your patients' Madness and can see the Illusionary Pallets. \"The stimulus must be kept active at a convulsive level.\" — Herman Carter",
             "localMatch": {
               "addonId": "26d68d70-8707-46b1-9b1e-462901ce9e29",
@@ -3288,7 +3288,7 @@ var COMMUNITY_CONTENT = {
             "tierBucket": "almost-no-effect",
             "name": "\"Order\" - Class II",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/doctor/orderclassii.png",
-            "otzComment": "\"Order\" - Class II : Order's main effect is to slightly reduce the cooldown timer of your blast, allowing you to use it more frequently. However, even when stacked together, this reduction only amounts to a few seconds. The secondary passive periodically creates fake illusory pallets on the spots where real pallets were broken. These pallets are visible to perks such as \"Windows of Opportunity\" but are relatively easy to see through upon close inspection, since the debris of the real broken pallet is visible below them. While they can occasionally trick a Survivor into making a mistake, they're ultimately not very reliable. Keep in mind that all passive effects are exactly the same across all rarities and that they do not stack with other instances of themselves.",
+            "otzComment": "\"Order\" - Class II : Order's main effect is to slightly reduce the cooldown timer of your blast, allowing you to use it more frequently. However, even when stacked together, this reduction only amounts to a few seconds. The secondary passive periodically creates fake illusory pallets on the spots where real pallets were broken. These pallets are visible to perks such as \"Windows of Opportunity\" but are relatively easy to see through upon close inspection, since the debris of a real broken pallet is visible below them. While they can occasionally trick a Survivor into making a mistake, they're ultimately not very reliable. Keep in mind that all passive effects are exactly the same across all rarities and that they do not stack with other instances of themselves.",
             "description": "A high stimulus ECT procedure, part of a patient's daily routine at the Léry's Memorial Institute.Can cause a state of moderate confusion in the patient. Reduces the Cool-down duration of Static Blast by -2.5 seconds. Survivors affected by Madness suffer from the Affliction of Order: Broken Pallets are randomly replaced by dropped or upright Illusionary Pallets, which persist until approached by Survivors. New Illusionary Pallets are generated every 20 seconds. You share into your patients' Madness and can see the Illusionary Pallets. \"Side effects are very rare.\" — Léry's Memorial Institute",
             "localMatch": {
               "addonId": "52f292eb-d50b-4c20-961d-522f0fdaa679",
@@ -3304,7 +3304,7 @@ var COMMUNITY_CONTENT = {
             "tierBucket": "almost-no-effect",
             "name": "\"Order\" - Class I",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/doctor/orderclassi.png",
-            "otzComment": "\"Order\" - Class I : Order's main effect is to slightly reduce the cooldown timer of your blast, allowing you to use it more frequently. However, even when stacked together, this reduction only amounts to a few seconds. The secondary passive periodically creates fake illusory pallets on the spots where real pallets were broken. These pallets are visible to perks such as \"Windows of Opportunity\" but are relatively easy to see through upon close inspection, since the debris of the real broken pallet is visible below them. While they can occasionally trick a Survivor into making a mistake, they're ultimately not very reliable. Keep in mind that all passive effects are exactly the same across all rarities and that they do not stack with other instances of themselves.",
+            "otzComment": "\"Order\" - Class I : Order's main effect is to slightly reduce the cooldown timer of your blast, allowing you to use it more frequently. However, even when stacked together, this reduction only amounts to a few seconds. The secondary passive periodically creates fake illusory pallets on the spots where real pallets were broken. These pallets are visible to perks such as \"Windows of Opportunity\" but are relatively easy to see through upon close inspection, since the debris of a real broken pallet is visible below them. While they can occasionally trick a Survivor into making a mistake, they're ultimately not very reliable. Keep in mind that all passive effects are exactly the same across all rarities and that they do not stack with other instances of themselves.",
             "description": "A conventional ECT procedure, part of a patient's daily routine at the Léry's Memorial Institute.Can cause a state of mild confusion in the patient. Reduces the Cool-down duration of Static Blast by -2 seconds. Survivors affected by Madness suffer from the Affliction of Order: Broken Pallets are randomly replaced by dropped or upright Illusionary Pallets, which persist until approached by Survivors. New Illusionary Pallets are generated every 20 seconds. You share into your patients' Madness and can see the Illusionary Pallets.",
             "localMatch": {
               "addonId": "593a6470-f716-4f12-a9b6-12576143caa5",
@@ -3320,7 +3320,7 @@ var COMMUNITY_CONTENT = {
             "tierBucket": "detrimental",
             "name": "Maple Knight",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/doctor/mapleknight.png",
-            "otzComment": "Maple Knight : This add-on shows a preview of your shock's range. Quite useful for beginners that are still learning the basics or that want to see the exact shape of the shock when using one of several add-ons that modify it. Other than that, this add-on provides no value and might actually be detrimental since it's quite distracting.",
+            "otzComment": "Maple Knight : This add-on shows a preview of your shock's range. Quite useful for beginners that are still learning the basics or want to see the exact shape of the shock when using one of several add-ons that modify it. Other than that, this add-on provides no value and might actually be detrimental since it's quite distracting.",
             "description": "A white knight chess piece made of maple.This gift from an old man brings back distant memories and imbues The Doctor with devastating focus. Grants the ability to see the Area of Effect of the Shock Therapy Attack.",
             "localMatch": {
               "addonId": "d758f9f9-9b31-4ca4-bff7-7623b21fcdac",
@@ -3574,7 +3574,7 @@ var COMMUNITY_CONTENT = {
             "tierBucket": "good",
             "name": "Shiny Pin",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/huntress/shinypin.png",
-            "otzComment": "Shiny Pin : Provides a noticeably boost to your walking speed while holding a hatchet. This helps in almost every situation, allowing you to lose less distance when Survivors are running away from you. In some loops, the increased speed also allows you to put Survivors in lose-lose situations where you'll hit them before they reach the next corner.",
+            "otzComment": "Shiny Pin : Provides a noticeable boost to your walking speed while holding a hatchet. This helps in almost every situation, allowing you to lose less distance when Survivors are running away from you. In some loops, the increased speed also allows you to put Survivors in lose-lose situations where you'll hit them before they reach the next corner.",
             "description": "A copper pin defaced beyond recognition yet polished to a high sheen.Pillaged from a particularly difficult prey. Increases the Movement speed while winding Hatchets up by +5 %.",
             "localMatch": {
               "addonId": "939821b8-a948-4c8a-ac5f-4b4dae77efab",
@@ -3718,7 +3718,7 @@ var COMMUNITY_CONTENT = {
             "tierBucket": "decent",
             "name": "Coarse Stone",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/huntress/coarsestone.png",
-            "otzComment": "Coarse Stone : Increase the grunt volume of Survivors injured by hatchets, which helps with tracking. Notably, this effect does not have a timer and remains on indefinitely until the Survivor heals. Not bad at all for an add-on of this rarity.",
+            "otzComment": "Coarse Stone : Increases the grunt volume of Survivors injured by hatchets, which helps with tracking. Notably, this effect does not have a timer and remains on indefinitely until the Survivor heals. Not bad at all for an add-on of this rarity.",
             "description": "This stone is too coarse to do any good.A blade damaged by it inflicts awful open wounds. Increases the volume of Grunts of Pain of injured Survivors hit by Hatchets by +50 %.",
             "localMatch": {
               "addonId": "86230bd7-a6ed-451a-8417-0bb40f0da70c",
@@ -4086,7 +4086,7 @@ var COMMUNITY_CONTENT = {
             "tierBucket": "good",
             "name": "Spark Plug",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/leatherface/sparkplug.png",
-            "otzComment": "Spark Plug : Allows you to recovery your chainsaw tokens faster. Useful in prolonged chases where you use your saw multiple times. Also allows you to be ready for another chainsaw attack sooner if you enter a tantrum and lose all of your charges.",
+            "otzComment": "Spark Plug : Allows you to recover your chainsaw tokens faster. Useful in prolonged chases where you use your saw multiple times. Also allows you to be ready for another chainsaw attack sooner if you enter a tantrum and lose all of your charges.",
             "description": "A clean spark plug fitted for a Chainsaw. Reduces the Power Recharge time by -0.5 seconds.",
             "localMatch": {
               "addonId": "20625610-ba82-4ae4-9850-6f3f3b9531ff",
@@ -4198,7 +4198,7 @@ var COMMUNITY_CONTENT = {
             "tierBucket": "almost-no-effect",
             "name": "Homemade Muffler",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/leatherface/homemademuffler.png",
-            "otzComment": "Homemade Muffler : Helpful for beginner players that still find themselves bumping into obstacles often. However, with the current Cannibal's reduced tantrum duration, this effect only amounts to 0.5 seconds, which isn't that much. It does, however, provide the benefit of making it locker juke plays even riskier for Survivors if you bump into a locker that they entered during your sweep.",
+            "otzComment": "Homemade Muffler : Helpful for beginner players that still find themselves bumping into obstacles often. However, with the current Cannibal's reduced tantrum duration, this effect only amounts to 0.5 seconds, which isn't that much. It does, however, provide the benefit of making the locker juke plays even riskier for Survivors if you bump into a locker that they entered during your sweep.",
             "description": "A makeshift exhaust system made of black gas pipes. Reduces the duration of a Tantrum by -0.5 seconds.",
             "localMatch": {
               "addonId": "7b1d5c4c-d946-4989-82fc-1f0515105a7e",
@@ -4469,7 +4469,7 @@ var COMMUNITY_CONTENT = {
             "tierBucket": "strongest",
             "name": "Jump Rope",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/freddy/jumprope.png",
-            "otzComment": "Jump Rope : The hinder from snares is already very long, and this add-on makes it even longer. A very simple but oppressive effect.",
+            "otzComment": "Jump Rope : Increases the already long movement penalty hinder applied by your snares. This makes them even more oppressive and hard to outplay in chase. The duration is so long that you can hit a Survivor with a snare right before a basic attack and they'll still be affected by the time their post-hit speed runs out. It's also one of the few ways to minimize the negative effect of Vigil, a perk that reduces the duration of this and other negative effects. A safe choice for any player.",
             "description": "A long Double-Dutch jump rope, stained with many years of use. Increases the duration of the -12 % Hindered Status Effect caused by Dream Snares by +0.5 seconds to 5 seconds.",
             "localMatch": {
               "addonId": "961b92a6-5cd2-44a2-b85e-516e8f8e2ae7",
@@ -4485,7 +4485,7 @@ var COMMUNITY_CONTENT = {
             "tierBucket": "strongest",
             "name": "Pill Bottle",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/freddy/pillbottle.png",
-            "otzComment": "Pill Bottle : Makes the Survivors sleep timer shorter each time they wake up, which can really become oppressive in games that last long.",
+            "otzComment": "Pill Bottle : Makes the Survivors' sleep timer shorter each time they wake up, proggressively forcing them to waste time more frequently if they want to stay awake. This effect can become quite oppressive in prolonged matches.",
             "description": "An empty pill bottle which once contained a medicine called Zoneral. Reduces the duration of the next instance of Microsleep for Survivors having entered the Dream World by falling asleep by a stack-able -10 %, up to a maximum of -50 %.",
             "localMatch": {
               "addonId": "7731d89c-6eb2-4eba-9a21-f81c54dd3f6c",
@@ -4501,7 +4501,7 @@ var COMMUNITY_CONTENT = {
             "tierBucket": "good",
             "name": "\"Z\" Block",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/freddy/zblock.png",
-            "otzComment": "\"Z\" Block : The aura reading from this add-on is very useful and triggers many times during a match, making it a very safe choice. Particularly useful when paired with the perk Lethal Pursuer, since it increases the aura read duration.",
+            "otzComment": "\"Z\" Block : The aura reading from this add-on is very useful and triggers many times during a match, making it a very safe choice. Particularly useful when paired with the perk Lethal Pursuer, since it increases the aura read duration. Being able to see how Survivors move after being hit by a snare will eventually deepen your understanding of how they play against you, which makes this add-on an excellent training tool that will help you even when you eventually stop using it.",
             "description": "A deeply scratched and burnt wooden block which's only recognisable feature is the letter \"Z\". The Auras of Survivors affected by a Dream Snare or a Dream Pallet are revealed for 3 seconds.",
             "localMatch": {
               "addonId": "fdd956d8-0fc2-418b-af76-1db435c8cc9c",
@@ -4515,57 +4515,9 @@ var COMMUNITY_CONTENT = {
           {
             "rank": 4,
             "tierBucket": "good",
-            "name": "Garden Rake",
-            "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/freddy/gardenrake.png",
-            "otzComment": "Garden Rake : Increases the size of snares by 10%. Not extremely noticeable at first glance but a solid effect nonetheless.",
-            "description": "A small claw rake, a must have tool for any accomplished gardener. Increases the size of the Dream Snare by +10 %.",
-            "localMatch": {
-              "addonId": "d7216c52-b27a-4cec-84de-edbece4351f4",
-              "internalId": "Addon_DreamInducer_GardenRake",
-              "localName": "Garden Rake",
-              "localImage": "dbd_images/addons/iconaddon_gardenrake.png",
-              "localRarity": "common",
-              "method": "name"
-            }
-          },
-          {
-            "rank": 5,
-            "tierBucket": "good",
-            "name": "Class Photo",
-            "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/freddy/classphoto.png",
-            "otzComment": "Class Photo : The ability to teleport to exit gates has great synergy with endgame builds and is quite a nasty surprise, but remember that it only works on asleep Survivors. Pairs well with the iridescent Black Box and with endgame perks.",
-            "description": "A large photograph taken at Badham Preschool showing the cheerful class of '94-95. Grants the ability target the Exit Gate Switches with the Dream Projection ability. Causes Survivors opening an Exit Gate to trigger Killer Instinct.",
-            "localMatch": {
-              "addonId": "8b65b366-04e5-4471-95a4-beb7f744de60",
-              "internalId": "Addon_DreamInducer_ClassPhoto",
-              "localName": "Class Photo",
-              "localImage": "dbd_images/addons/iconaddon_classphoto.png",
-              "localRarity": "veryrare",
-              "method": "name"
-            }
-          },
-          {
-            "rank": 6,
-            "tierBucket": "good",
-            "name": "Black Box",
-            "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/freddy/blackbox.png",
-            "otzComment": "Black Box : When each exit gate is opened, this add-on traps any asleep Survivors for 15 seconds (and a small linger 3 seconds if they wake up in any way). Highly situational, but this effect can catch Survivors off-guard and allow you to secure an extra kill at the endgame. Keep in mind that it can work once on each gate. If a Survivor is awake, you can put them to sleep with a basic attack or hit them from afar with a snare or two to prevent them from escaping at the last moment.",
-            "description": "A black cardboard box filled with photographs. Causes the Exit Gates to be blocked for Asleep Survivors for 15 seconds after they are opened. This effect lingers for 3 seconds after those Survivors wake up.",
-            "localMatch": {
-              "addonId": "7fb7e188-7855-4622-befe-e4d68b40a473",
-              "internalId": "Addon_DreamInducer_BlackBox",
-              "localName": "Black Box",
-              "localImage": "dbd_images/addons/iconaddon_blackbox.png",
-              "localRarity": "visceral",
-              "method": "name"
-            }
-          },
-          {
-            "rank": 7,
-            "tierBucket": "good",
             "name": "Nancy's Sketch",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/freddy/nancyssketch.png",
-            "otzComment": "Nancy's Sketch : Reduces the immunity period that Survivors obtain after waking up from a clock, removing 6 seconds and bringing it down to 24 instead of 30 seconds. A really solid effect, since immune Survivors can be really challenging to chase. This is quite useful if you plan on switching targets often. Needless to say, if you focus on chasing the same Survivor for a long period of time and don't give them a chance to use a clock, this add-on will do nothing. Pairs well with strategies that slow down healing times or exit gate opening times if you plan on using the purple Class Photo.",
+            "otzComment": "Nancy's Sketch : Reduces the immunity period that Survivors obtain after waking up from a clock, removing 6 seconds and bringing it down to 24 instead of 30 seconds. A really solid effect, since immune Survivors can be really challenging to chase. This effect is most noticeable when you're making the most out of the Nightmare's kit, teleporting often and switching targets constantly against a competent team that is trying to stay awake. Needless to say, if you focus on chasing the same Survivor for a long period of time and don't give them a chance to use a clock, this add-on will do nothing. It will also do nothing if Survivors don't make an effort to wake up frequently, but this is already a good scenario for you anyway.",
             "description": "A crude and bold sketch made with Fusain, signed by Nancy H. Reduces the duration of Sleep Immunity by -20 %.",
             "localMatch": {
               "addonId": "96276297-3457-4409-b2ca-1a277d752644",
@@ -4577,8 +4529,88 @@ var COMMUNITY_CONTENT = {
             }
           },
           {
+            "rank": 5,
+            "tierBucket": "good",
+            "name": "Unicorn Block",
+            "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/freddy/unicornblock.png",
+            "otzComment": "Unicorn Block : Increases the range of the fake pallet's explosion by 0.5 meters when detonated by you. The larger radius makes it harder for Survivors to get away at the last second. The extra half meter makes a huge difference in several structures since it can allow the radius to envelop them fully and catch a Survivor that is looping them tightly. Even if you miss, the fact that a Survivor has to go further out of their way to dodge the explosion might make them easier to hit with a basic attack. Overall, this is a strong add-on with no downsides that will shine most in the hands of an experienced Nightmare player that can constantly micro-manage illusory pallet explosions.",
+            "description": "A white and red wooden block depicting a prancing Unicorn and the letter \"U\". Increases the Detonation radius of rupturing Dream Pallets by +0.5 metres.",
+            "localMatch": {
+              "addonId": "f7d178cf-47ac-4830-980c-ce589d58af89",
+              "internalId": "Addon_DreamInducer_UnicornBlock",
+              "localName": "Unicorn Block",
+              "localImage": "dbd_images/addons/iconaddon_unicornblock.png",
+              "localRarity": "rare",
+              "method": "name"
+            }
+          },
+          {
+            "rank": 6,
+            "tierBucket": "good",
+            "name": "Class Photo",
+            "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/freddy/classphoto.png",
+            "otzComment": "Class Photo : The ability to teleport to exit gates has great synergy with endgame builds but can also be used even earlier during the match in situations where an exit gate is located at a particularly useful spot to control an area or cut someone off. Pairs well with the iridescent Black Box.",
+            "description": "A large photograph taken at Badham Preschool showing the cheerful class of '94-95. Grants the ability target the Exit Gate Switches with the Dream Projection ability. Causes Survivors opening an Exit Gate to trigger Killer Instinct.",
+            "localMatch": {
+              "addonId": "8b65b366-04e5-4471-95a4-beb7f744de60",
+              "internalId": "Addon_DreamInducer_ClassPhoto",
+              "localName": "Class Photo",
+              "localImage": "dbd_images/addons/iconaddon_classphoto.png",
+              "localRarity": "veryrare",
+              "method": "name"
+            }
+          },
+          {
+            "rank": 7,
+            "tierBucket": "good",
+            "name": "Garden Rake",
+            "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/freddy/gardenrake.png",
+            "otzComment": "Garden Rake : Increases the size of snares by 10%. Not extremely noticeable at first glance but a solid effect nonetheless, especially when you're trying to land snare hits on distant Survivors with unpredictable movement.",
+            "description": "A small claw rake, a must have tool for any accomplished gardener. Increases the size of the Dream Snare by +10 %.",
+            "localMatch": {
+              "addonId": "d7216c52-b27a-4cec-84de-edbece4351f4",
+              "internalId": "Addon_DreamInducer_GardenRake",
+              "localName": "Garden Rake",
+              "localImage": "dbd_images/addons/iconaddon_gardenrake.png",
+              "localRarity": "common",
+              "method": "name"
+            }
+          },
+          {
             "rank": 8,
             "tierBucket": "good",
+            "name": "Nancy's Masterpiece",
+            "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/freddy/nancysmasterpiece.png",
+            "otzComment": "Nancy's Masterpiece : Reduces the teleport cooldown by 10%, saving you about 3 seconds each time you hit a Survivor with a snare or fake pallet. This effect can be quite noticeable and result in much faster teleports, especially if multiple Survivors are hit in quick succession. However, having a shorter teleport cooldown isn't always extremely necessary, since you don't always need to use it right away anyway.",
+            "description": "A painting of a character, made by Nancy Holbrook at Badham and kept as a treasured memory. Reduces the Cool-down duration of Dream Projection by -10 % whenever a Survivor is struck by a Dream Ability.",
+            "localMatch": {
+              "addonId": "49e3dae3-1b41-464b-9d35-07251245223a",
+              "internalId": "Addon_DreamInducer_NancysMasterpiece",
+              "localName": "Nancy's Masterpiece",
+              "localImage": "dbd_images/addons/iconaddon_nancysmasterpiece.png",
+              "localRarity": "rare",
+              "method": "name"
+            }
+          },
+          {
+            "rank": 9,
+            "tierBucket": "decent",
+            "name": "Outdoor Rope",
+            "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/freddy/outdoorrope.png",
+            "otzComment": "Outdoor Rope : Increases the speed of the dream snare projectile. More useful when hitting Survivors at a slight distance, but be careful not to rely too much on it since it might mess with your muscle memory when you take it off.",
+            "description": "Sturdy outdoor rope, handy to tie up anything. Increases the Travel speed of Dream Snares while placing them by +15 %.",
+            "localMatch": {
+              "addonId": "d5ffce13-9c69-4f53-8302-0e5eb852f4b5",
+              "internalId": "Addon_DreamInducer_Rope",
+              "localName": "Outdoor Rope",
+              "localImage": "dbd_images/addons/iconaddon_outdoorrope.png",
+              "localRarity": "uncommon",
+              "method": "name"
+            }
+          },
+          {
+            "rank": 10,
+            "tierBucket": "decent",
             "name": "Prototype Claws",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/freddy/prototypeclaws.png",
             "otzComment": "Prototype Claws : Increases the speed at which you can charge and release dream snares. Seems quite redundant, since the charge timer is so fast already, but being able to do it even faster does help make it feel more smooth during chase.",
@@ -4593,23 +4625,23 @@ var COMMUNITY_CONTENT = {
             }
           },
           {
-            "rank": 9,
-            "tierBucket": "good",
-            "name": "Outdoor Rope",
-            "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/freddy/outdoorrope.png",
-            "otzComment": "Outdoor Rope : Increases the speed the dream snare projectile. More useful when hitting Survivors at a slight distance, but be careful not to rely too much on it since it might mess with your muscle memory when you take it off.",
-            "description": "Sturdy outdoor rope, handy to tie up anything. Increases the Travel speed of Dream Snares while placing them by +15 %.",
+            "rank": 11,
+            "tierBucket": "decent",
+            "name": "Black Box",
+            "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/freddy/blackbox.png",
+            "otzComment": "Black Box : When each exit gate is opened, this add-on traps any asleep Survivors for 15 seconds (and for a small extra 3 seconds if they wake up in any way). Highly situational, but this effect can catch Survivors off-guard and allow you to secure an extra kill at the endgame. Keep in mind that it can work once on each gate. If a Survivor is awake, you can put them to sleep with a basic attack or hit them from afar with a snare or two to prevent them from escaping at the last moment. Pairs well with endgame builds and the Class Photo for obvious reasons.",
+            "description": "A black cardboard box filled with photographs. Causes the Exit Gates to be blocked for Asleep Survivors for 15 seconds after they are opened. This effect lingers for 3 seconds after those Survivors wake up.",
             "localMatch": {
-              "addonId": "d5ffce13-9c69-4f53-8302-0e5eb852f4b5",
-              "internalId": "Addon_DreamInducer_Rope",
-              "localName": "Outdoor Rope",
-              "localImage": "dbd_images/addons/iconaddon_outdoorrope.png",
-              "localRarity": "uncommon",
+              "addonId": "7fb7e188-7855-4622-befe-e4d68b40a473",
+              "internalId": "Addon_DreamInducer_BlackBox",
+              "localName": "Black Box",
+              "localImage": "dbd_images/addons/iconaddon_blackbox.png",
+              "localRarity": "visceral",
               "method": "name"
             }
           },
           {
-            "rank": 10,
+            "rank": 12,
             "tierBucket": "decent",
             "name": "Green Dress",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/freddy/greendress.png",
@@ -4625,59 +4657,11 @@ var COMMUNITY_CONTENT = {
             }
           },
           {
-            "rank": 11,
-            "tierBucket": "decent",
-            "name": "Wool Shirt",
-            "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/freddy/woolshirt.png",
-            "otzComment": "Wool Shirt : Reduces the delay of fake pallets when detonated remotely, giving Survivors less time to dodge or run past them. Pairs well with the blue Unicorn Block to make the pallets deadlier overall, but keep in mind that pallets can be quite hard to use early on in some maps and that it might be a risky idea to dedicate two add-ons for them.",
-            "description": "A small boy's orange and yellow striped shirt. Identified with a sewn name tag to \"Jesse\". Reduces the Detonation delay of rupturing Dream Pallets by -10 %.",
-            "localMatch": {
-              "addonId": "6711d3ee-e7a6-435f-96d0-92dcd5013bd8",
-              "internalId": "Addon_DreamInducer_WoolShirt",
-              "localName": "Wool Shirt",
-              "localImage": "dbd_images/addons/iconaddon_woolshirt.png",
-              "localRarity": "common",
-              "method": "name"
-            }
-          },
-          {
-            "rank": 12,
-            "tierBucket": "decent",
-            "name": "Unicorn Block",
-            "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/freddy/unicornblock.png",
-            "otzComment": "Unicorn Block : Increases the range of the fake pallet's explosion when detonated remotely. Pairs well with the brown Wool Shirt to make the pallets deadlier overall, but keep in mind that pallets can be quite hard to use early on in some maps and that it might be a risky idea to dedicate two add-ons for them.",
-            "description": "A white and red wooden block depicting a prancing Unicorn and the letter \"U\". Increases the Detonation radius of rupturing Dream Pallets by +0.5 metres.",
-            "localMatch": {
-              "addonId": "f7d178cf-47ac-4830-980c-ce589d58af89",
-              "internalId": "Addon_DreamInducer_UnicornBlock",
-              "localName": "Unicorn Block",
-              "localImage": "dbd_images/addons/iconaddon_unicornblock.png",
-              "localRarity": "rare",
-              "method": "name"
-            }
-          },
-          {
             "rank": 13,
-            "tierBucket": "decent",
-            "name": "Nancy's Masterpiece",
-            "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/freddy/nancysmasterpiece.png",
-            "otzComment": "Nancy's Masterpiece : Reduces the teleport cooldown by 10%, saving you about 3 seconds each time you hit a Survivor with a snare or fake pallet. This effect can be quite noticeable and result in much faster teleports, especially if multiple Survivors are hit in quick succession. However, having a shorter teleport cooldown isn't always extremely necessary, since you don't always need to use it right away anyway.",
-            "description": "A painting of a character, made by Nancy Holbrook at Badham and kept as a treasured memory. Reduces the Cool-down duration of Dream Projection by -10 % whenever a Survivor is affected by a Dream Ability.",
-            "localMatch": {
-              "addonId": "49e3dae3-1b41-464b-9d35-07251245223a",
-              "internalId": "Addon_DreamInducer_NancysMasterpiece",
-              "localName": "Nancy's Masterpiece",
-              "localImage": "dbd_images/addons/iconaddon_nancysmasterpiece.png",
-              "localRarity": "rare",
-              "method": "name"
-            }
-          },
-          {
-            "rank": 14,
             "tierBucket": "decent",
             "name": "Cat Block",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/freddy/catblock.png",
-            "otzComment": "Cat Block : Reduces the teleport cooldown by 10%, saving you about 3 seconds. Not a terrible effect, but not extremely impactful either since you don't necessarily want to teleport right away anyway. Pretty useful if you're feeling lost and need to teleport to a different area of the map as soon as possible.",
+            "otzComment": "Cat Block : Reduces the teleport cooldown by 10%, saving you about 3 seconds if you need to use it again. Not a terrible effect, but not extremely impactful either since you don't necessarily want to teleport right away anyway. Pretty useful if you're feeling lost and need to teleport to a different area of the map as soon as possible.",
             "description": "A white and purple wooden block depicting a sleeping Cat and the letter \"C\". Reduces the Cool-down duration of the Dream Projection ability by -10 %.",
             "localMatch": {
               "addonId": "9a4b70fc-7567-48b7-84c9-61e3fcd77753",
@@ -4689,34 +4673,50 @@ var COMMUNITY_CONTENT = {
             }
           },
           {
+            "rank": 14,
+            "tierBucket": "almost-no-effect",
+            "name": "Wool Shirt",
+            "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/freddy/woolshirt.png",
+            "otzComment": "Wool Shirt : Reduces the delay of fake pallets when detonated remotely, giving Survivors less time to dodge or run past them. Pairs well with the blue Unicorn Block to make the pallets deadlier overall, but keep in mind that pallets can be quite hard to use early on in some maps and that it might be a risky idea to dedicate two add-ons to them. You can also try to make up for the lack of this add-on by triggering the explosion slightly sooner, if possible. Overall, this add-on's effect is nice but so small that it's sometimes hard to notice.",
+            "description": "A small boy's orange and yellow striped shirt. Identified with a sewn name tag to \"Jesse\". Reduces the Detonation delay of rupturing Dream Pallets by -10 %.",
+            "localMatch": {
+              "addonId": "6711d3ee-e7a6-435f-96d0-92dcd5013bd8",
+              "internalId": "Addon_DreamInducer_WoolShirt",
+              "localName": "Wool Shirt",
+              "localImage": "dbd_images/addons/iconaddon_woolshirt.png",
+              "localRarity": "common",
+              "method": "name"
+            }
+          },
+          {
             "rank": 15,
             "tierBucket": "almost-no-effect",
-            "name": "Sheep Block",
-            "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/freddy/sheepblock.png",
-            "otzComment": "Sheep Block : Increases the time that a dream world clock is unavailable after being used, forcing Survivors to wait slightly longer before being able to use it again. Not terrible for an add-on of this rarity, but the effect is quite small. Don't forget that Survivors can also wake up in other ways.",
-            "description": "A white and blue wooden block depicting two woolly Lambs grazing and the letter \"S\". Increases the Cool-down time of Alarm Clocks by +10 %.",
+            "name": "Paint Thinner",
+            "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/freddy/paintthinner.png",
+            "otzComment": "Paint Thinner : Unlocks the ability to teleport to Survivors that drop a fake pallet at a faster rate than usual, and also reveals their location for a while with Killer Instinct. This is overall a very situational tool that might not even come into play a single time during the match. On top of that, Survivors that try to disrupt your fake pallets are probably not the ones you want to prioritize anyway. If you're gonna run it, try pairing it with the purple Swing Chains for a better chance to see value.",
+            "description": "A tin of a highly volatile and inflammable material. Causes Survivors dropping a Dream Pallet to trigger Killer Instinct for 6 seconds. Grants the ability to target these Survivors with the Dream Projection ability: Increases the Charge speed of this Dream Projection by +100 %.",
             "localMatch": {
-              "addonId": "73394e3c-8c8a-463d-8bd0-f65e853a6b82",
-              "internalId": "Addon_DreamInducer_SheepBlock",
-              "localName": "Sheep Block",
-              "localImage": "dbd_images/addons/iconaddon_sheepblock.png",
-              "localRarity": "common",
+              "addonId": "51aeaa12-cfdf-4f5d-8b88-90f4dfa7a37b",
+              "internalId": "Addon_DreamInducer_PaintThinner",
+              "localName": "Paint Thinner",
+              "localImage": "dbd_images/addons/iconaddon_paintthinner.png",
+              "localRarity": "rare",
               "method": "name"
             }
           },
           {
             "rank": 16,
             "tierBucket": "almost-no-effect",
-            "name": "Swing Chains",
-            "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/freddy/swingchains.png",
-            "otzComment": "Swing Chains : This add-on blocks windows in a small 16 meter radius upon a successful teleport. Sadly, the effect is too brief and triggers way too late to be consistently useful.",
-            "description": "Rusty, but sturdy chains used to securely attach a swing seat. Blocks all Windows within 16 metres of your location for 6 seconds after using the Dream Projection ability.",
+            "name": "Red Paint Brush",
+            "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/freddy/redpaintbrush.png",
+            "otzComment": "Red Paint Brush : This add-on provides the extremely valuable ability to see distant Survivors who are asleep, giving you reliable information on their location. However, it comes at the huge cost of making their sleep timer 50% longer. This means they'll take 30 seconds longer to passively fall asleep and your snares will require one additional hit before putting them to sleep. Survivors being awake longer means they'll have an easier time healing without the fear of being teleported to. Overall, the tradeoff of this add-on is very negative and not worth the add-on slot unless you really know what you're doing.",
+            "description": "A large paint brush, wet with crimson paint. The Auras of Survivors trapped in the Dream World are revealed to you, whenever they are farther than 32 metres from your location. Increases the default duration of Microsleep by +50 %.",
             "localMatch": {
-              "addonId": "4123ae24-67ac-4ffe-86aa-9115fcb3aec7",
-              "internalId": "Addon_DreamInducer_SwingChains",
-              "localName": "Swing Chains",
-              "localImage": "dbd_images/addons/iconaddon_swingchains.png",
-              "localRarity": "veryrare",
+              "addonId": "f271d851-2e76-4c7e-993b-721fe7fe003e",
+              "internalId": "Addon_DreamInducer_RedPaintBrush",
+              "localName": "Red Paint Brush",
+              "localImage": "dbd_images/addons/iconaddon_redpaintbrush.png",
+              "localRarity": "visceral",
               "method": "name"
             }
           },
@@ -4739,32 +4739,32 @@ var COMMUNITY_CONTENT = {
           {
             "rank": 18,
             "tierBucket": "almost-no-effect",
-            "name": "Paint Thinner",
-            "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/freddy/paintthinner.png",
-            "otzComment": "Paint Thinner : Unlocks the ability to teleport to Survivors that drop a fake pallet a faster rate than usual, and also reveals their location for a while with Killer Instinct. This is overall a very situational tool that might not even come into play a single time during the match. On top of that, Survivors that try to disrupt your fake pallets are probably not the ones you want to prioritize anyway.",
-            "description": "A tin of a highly volatile and inflammable material. Causes Survivors dropping a Dream Pallet to trigger Killer Instinct for 6 seconds. Grants the ability to target these Survivors with the Dream Projection ability: Increases the Charge speed of this Dream Projection by +100 %.",
+            "name": "Sheep Block",
+            "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/freddy/sheepblock.png",
+            "otzComment": "Sheep Block : Increases the time that a dream world clock is unavailable after being used, forcing Survivors to wait slightly longer before being able to use it again. Not terrible for an add-on of this rarity, but the effect is quite small. Don't forget that Survivors can also wake up in other ways.",
+            "description": "A white and blue wooden block depicting two woolly Lambs grazing and the letter \"S\". Increases the Cool-down time of Alarm Clocks by +10 %.",
             "localMatch": {
-              "addonId": "51aeaa12-cfdf-4f5d-8b88-90f4dfa7a37b",
-              "internalId": "Addon_DreamInducer_PaintThinner",
-              "localName": "Paint Thinner",
-              "localImage": "dbd_images/addons/iconaddon_paintthinner.png",
-              "localRarity": "rare",
+              "addonId": "73394e3c-8c8a-463d-8bd0-f65e853a6b82",
+              "internalId": "Addon_DreamInducer_SheepBlock",
+              "localName": "Sheep Block",
+              "localImage": "dbd_images/addons/iconaddon_sheepblock.png",
+              "localRarity": "common",
               "method": "name"
             }
           },
           {
             "rank": 19,
-            "tierBucket": "detrimental",
-            "name": "Red Paint Brush",
-            "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/freddy/redpaintbrush.png",
-            "otzComment": "Red Paint Brush : This add-on provides the extremely valuable ability to see distant Survivors who are asleep, giving you reliable information on their location. However, it comes at the huge cost of making their sleep timer 50% longer. This means they'll naturally take 30 seconds longer to fall asleep and your snares will require one additional hit before putting them to sleep. Survivors being awake longer means they'll have an easier time healing without the fear of being teleported to. Overall, the tradeoff of this add-on is very negative and not worth the add-on slot unless you really know what you're doing.",
-            "description": "A large paint brush, wet with crimson paint. The Auras of Survivors trapped in the Dream World are revealed to you, whenever they are farther than 32 metres from your location. Increases the default duration of Microsleep by +50 %.",
+            "tierBucket": "almost-no-effect",
+            "name": "Swing Chains",
+            "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/freddy/swingchains.png",
+            "otzComment": "Swing Chains : This add-on blocks windows in a small 16 meter radius upon a successful teleport. Sadly, the effect is too brief and triggers way too late to be consistently useful. It can be paired with the Paint Thinner to possibly catch a Survivor by surprise who was trying to disrupt your fake pallets.",
+            "description": "Rusty, but sturdy chains used to securely attach a swing seat. Blocks all Windows within 16 metres of your location for 6 seconds after using the Dream Projection ability.",
             "localMatch": {
-              "addonId": "f271d851-2e76-4c7e-993b-721fe7fe003e",
-              "internalId": "Addon_DreamInducer_RedPaintBrush",
-              "localName": "Red Paint Brush",
-              "localImage": "dbd_images/addons/iconaddon_redpaintbrush.png",
-              "localRarity": "visceral",
+              "addonId": "4123ae24-67ac-4ffe-86aa-9115fcb3aec7",
+              "internalId": "Addon_DreamInducer_SwingChains",
+              "localName": "Swing Chains",
+              "localImage": "dbd_images/addons/iconaddon_swingchains.png",
+              "localRarity": "veryrare",
               "method": "name"
             }
           },
@@ -4791,7 +4791,7 @@ var COMMUNITY_CONTENT = {
             "label": "Best Combo",
             "addonRanks": [
               1,
-              2
+              3
             ],
             "addons": [
               {
@@ -4808,29 +4808,6 @@ var COMMUNITY_CONTENT = {
                 }
               },
               {
-                "rank": 2,
-                "name": "Pill Bottle",
-                "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/freddy/pillbottle.png",
-                "localMatch": {
-                  "addonId": "7731d89c-6eb2-4eba-9a21-f81c54dd3f6c",
-                  "internalId": "Addon_DreamInducer_PillBottle",
-                  "localName": "Pill Bottle",
-                  "localImage": "dbd_images/addons/iconaddon_pillbottle.png",
-                  "localRarity": "veryrare",
-                  "method": "name"
-                }
-              }
-            ]
-          },
-          {
-            "tier": "solid",
-            "label": "Solid Combo",
-            "addonRanks": [
-              3,
-              8
-            ],
-            "addons": [
-              {
                 "rank": 3,
                 "name": "\"Z\" Block",
                 "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/freddy/zblock.png",
@@ -4842,9 +4819,68 @@ var COMMUNITY_CONTENT = {
                   "localRarity": "veryrare",
                   "method": "name"
                 }
+              }
+            ]
+          },
+          {
+            "tier": "solid",
+            "label": "Solid Combo",
+            "addonRanks": [
+              2,
+              4
+            ],
+            "addons": [
+              {
+                "rank": 2,
+                "name": "Pill Bottle",
+                "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/freddy/pillbottle.png",
+                "localMatch": {
+                  "addonId": "7731d89c-6eb2-4eba-9a21-f81c54dd3f6c",
+                  "internalId": "Addon_DreamInducer_PillBottle",
+                  "localName": "Pill Bottle",
+                  "localImage": "dbd_images/addons/iconaddon_pillbottle.png",
+                  "localRarity": "veryrare",
+                  "method": "name"
+                }
               },
               {
-                "rank": 8,
+                "rank": 4,
+                "name": "Nancy's Sketch",
+                "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/freddy/nancyssketch.png",
+                "localMatch": {
+                  "addonId": "96276297-3457-4409-b2ca-1a277d752644",
+                  "internalId": "Addon_DreamInducer_NancysSketch",
+                  "localName": "Nancy's Sketch",
+                  "localImage": "dbd_images/addons/iconaddon_nancyssketch.png",
+                  "localRarity": "uncommon",
+                  "method": "name"
+                }
+              }
+            ]
+          },
+          {
+            "tier": "good",
+            "label": "Good Combo",
+            "addonRanks": [
+              7,
+              10
+            ],
+            "addons": [
+              {
+                "rank": 7,
+                "name": "Garden Rake",
+                "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/freddy/gardenrake.png",
+                "localMatch": {
+                  "addonId": "d7216c52-b27a-4cec-84de-edbece4351f4",
+                  "internalId": "Addon_DreamInducer_GardenRake",
+                  "localName": "Garden Rake",
+                  "localImage": "dbd_images/addons/iconaddon_gardenrake.png",
+                  "localRarity": "common",
+                  "method": "name"
+                }
+              },
+              {
+                "rank": 10,
                 "name": "Prototype Claws",
                 "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/freddy/prototypeclaws.png",
                 "localMatch": {
@@ -4859,51 +4895,15 @@ var COMMUNITY_CONTENT = {
             ]
           },
           {
-            "tier": "good",
-            "label": "Good Combo",
-            "addonRanks": [
-              7,
-              4
-            ],
-            "addons": [
-              {
-                "rank": 7,
-                "name": "Nancy's Sketch",
-                "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/freddy/nancyssketch.png",
-                "localMatch": {
-                  "addonId": "96276297-3457-4409-b2ca-1a277d752644",
-                  "internalId": "Addon_DreamInducer_NancysSketch",
-                  "localName": "Nancy's Sketch",
-                  "localImage": "dbd_images/addons/iconaddon_nancyssketch.png",
-                  "localRarity": "uncommon",
-                  "method": "name"
-                }
-              },
-              {
-                "rank": 4,
-                "name": "Garden Rake",
-                "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/freddy/gardenrake.png",
-                "localMatch": {
-                  "addonId": "d7216c52-b27a-4cec-84de-edbece4351f4",
-                  "internalId": "Addon_DreamInducer_GardenRake",
-                  "localName": "Garden Rake",
-                  "localImage": "dbd_images/addons/iconaddon_gardenrake.png",
-                  "localRarity": "common",
-                  "method": "name"
-                }
-              }
-            ]
-          },
-          {
             "tier": "fun",
             "label": "Fun Combo",
             "addonRanks": [
-              5,
-              6
+              6,
+              11
             ],
             "addons": [
               {
-                "rank": 5,
+                "rank": 6,
                 "name": "Class Photo",
                 "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/freddy/classphoto.png",
                 "localMatch": {
@@ -4916,7 +4916,7 @@ var COMMUNITY_CONTENT = {
                 }
               },
               {
-                "rank": 6,
+                "rank": 11,
                 "name": "Black Box",
                 "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/freddy/blackbox.png",
                 "localMatch": {
@@ -4980,7 +4980,7 @@ var COMMUNITY_CONTENT = {
             "tierBucket": "good",
             "name": "Tampered Timer",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/pig/tamperedtimer.png",
-            "otzComment": "Tampered Timer : Reduces the timer for active reverse traps, making it more likely that an unlucky Survivor might die to them. Since the amount of searches is not entirely random, this add-on can make it almost impossible for at least some Survivors to actually have enough time to remove their trap before they die. Not particularly strong by itself, but its effect are much more consistent when you also bring the purple Crate of Gears or if you are on a particular map that is difficult to navigate. Certain perks such as \"Hex: Face the Darkness\" can also randomly interrupt Survivors during searches to make them even longer. Keep in mind that this add-on will do literally nothing if your downs take too long and Survivors' traps aren't actually active for a long time.",
+            "otzComment": "Tampered Timer : Reduces the timer for active reverse traps, making it more likely that an unlucky Survivor might die to them. Since the amount of searches is not entirely random, this add-on can make it almost impossible for at least some Survivors to actually have enough time to remove their trap before they die. Not particularly strong by itself, but its effect is much more consistent when you also bring the purple Crate of Gears or if you are on a particular map that is difficult to navigate. Certain perks such as \"Hex: Face the Darkness\" can also randomly interrupt Survivors during searches to make them even longer. Keep in mind that this add-on will do literally nothing if your downs take too long and Survivors' traps aren't actually active for a long time.",
             "description": "A timer that has been fiddled with.A spring in the mechanism forces the gears to turn faster. Reduces the Death timer of Reverse Bear Traps by -20 seconds.",
             "localMatch": {
               "addonId": "bd9937a4-b889-4b50-b54e-ccf309556825",
@@ -5092,7 +5092,7 @@ var COMMUNITY_CONTENT = {
             "tierBucket": "decent",
             "name": "Rules Set No.2",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/pig/rulessetno2.png",
-            "otzComment": "Rules Set No.2 : Removes the auras of the Jigsaw boxes until your trap is active. This can be very disorienting for newer players or in indoor maps, where boxes are hard to find. Overall, this effect isn't all that powerful by itself since you typically do not want to encourage Survivors to repair generators instead of removing their trap. However, it can be quite useful when paired with the iridescent Video Tape (since everyone starts with a trap and the first generator won't be repaired for a while).",
+            "otzComment": "Rules Set No.2 : Removes the (normally visible) auras of the Jigsaw boxes until a Survivor's trap is active. This can be very disorienting for newer players or in indoor maps, where boxes are hard to find. Overall, this effect isn't all that powerful by itself since you typically do not want to encourage Survivors to repair generators instead of removing their trap. However, it can be quite useful when paired with the iridescent Video Tape (since everyone starts with a trap and the first generator won't be repaired for a while).",
             "description": "Not all games need to have the same rules. Disables the ability of Survivors to see the Auras of Jigsaw Boxes, until their Reverse Bear Trap becomes active. \"Listen, there are rules.\" — Jigsaw",
             "localMatch": {
               "addonId": "f7455fbf-011c-4038-81bc-5eb886e30f77",
@@ -5140,7 +5140,7 @@ var COMMUNITY_CONTENT = {
             "tierBucket": "decent",
             "name": "Amanda's Letter",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/pig/amandasletter.png",
-            "otzComment": "Amanda's Letter : Allows you to see Survivor auras near you at the cost of losing two of your beartraps. The aura reading effect is phenomenal and helps both in and out of chase (as long as Survivors don't have perks that hide their auras). However, the downside of losing half of your beartraps can be devastating in many cases, so must use this add-on carefully.",
+            "otzComment": "Amanda's Letter : Allows you to see Survivor auras near you at the cost of losing two of your beartraps. The aura reading effect is phenomenal and helps both in and out of chase (as long as Survivors don't have perks that hide their auras). However, the downside of losing half of your beartraps can be devastating in many cases, so one must use this add-on carefully.",
             "description": "A blackmailing Letter for the attention of Amanda.Fills the reader with rage and focus. The Auras of Survivors within 16 metres are revealed to you when Crouched. Reduces the number of carried Reverse Bear Traps by -2. \"Amanda, you were with Cecil the night Jill lost Gideon. You killed their child. You know it and I know it.\" — Detective Hoffman",
             "localMatch": {
               "addonId": "cd596e0f-b91a-4403-b84d-550caa820765",
@@ -5204,7 +5204,7 @@ var COMMUNITY_CONTENT = {
             "tierBucket": "almost-no-effect",
             "name": "Razor Wires",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/pig/razorwires.png",
-            "otzComment": "Razor Wires : Much like its brown counterpart, this add-on is very unlikely to work in regular gameplay. However, it can be particularly useful when paired together with the Video Tape add-on. Since many Survivors will be frantically trying to remove their trap at the start of the game, the chances for one of them to be interrupted and take damage are much higher.",
+            "otzComment": "Razor Wires : Much like its brown counterpart, this add-on is very unlikely to work in regular gameplay. However, it can be particularly useful when paired together with the Video Tape add-on. Since many Survivors will be frantically trying to remove their traps at the start of the game, the chances for one of them to be interrupted and take damage are much higher.",
             "description": "A modification to the Reverse Bear Trap:The addition of razor sharp wires makes it extra difficult and potentially painful to search them. While healthy, Survivors failing a Skill Check at a Jigsaw Box become injured. Increases the Skill Check difficulty by +20 %.",
             "localMatch": {
               "addonId": "05297c71-7945-4dfe-8930-918820e8a1e9",
@@ -5730,7 +5730,7 @@ var COMMUNITY_CONTENT = {
             "tierBucket": "detrimental",
             "name": "Redhead's Pinkie Finger",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/clown/redheadspinkiefinger.png",
-            "otzComment": "Redhead's Pinkie Finger : This add-on provides a strong insta-down (if you can successfully land a direct hit with your bottle) but comes at the huge cost of limiting your maximum capacity to a single bottle. This greatly diminishes the versatility of your bottles and is typically not worth running over other add-ons unless you really know what you're doing. You might want to pair this with the green Thick Cork Stopped to at least reload fast after each bottle toss.",
+            "otzComment": "Redhead's Pinkie Finger : This add-on provides a strong insta-down (if you can successfully land a direct hit with your bottle) but comes at the huge cost of limiting your maximum capacity to a single bottle. This greatly diminishes the versatility of your bottles and is typically not worth running over other add-ons unless you really know what you're doing. You might want to pair this with the green Thick Cork Stopper to at least reload faster after each bottle toss.",
             "description": "\"The prized pinkie finger of a redhead.Faintly fragrant.Tastes of potpourri and varnish.\" Modifies the Tonic with the following effect: Survivors hit directly with its Bottle suffer from the Exposed Status Effect while Intoxicated. Redhead's Pinkie Finger limits the number of carried Bottles to 1.",
             "localMatch": {
               "addonId": "1757999d-ac56-4ea6-91a7-da3106f29559",
@@ -6463,7 +6463,7 @@ var COMMUNITY_CONTENT = {
             "tierBucket": "good",
             "name": "Etched Ruler",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/legion/etchedruler.png",
-            "otzComment": "Etched Ruler : Inflicts 60 seconds of the Obliviousness status effects on Survivors as soon as they are hit by Feral Frenzy. This has a minor downside of making them undetectable by your Killer Instinct if they mend. Despite this downside, the effect of this add-on is really powerful and can allow you to catch a Survivor by surprise when they believe that you've already left to target someone else. Particularly useful when ran together with the blue Stylish Sunglasses add-on.",
+            "otzComment": "Etched Ruler : Inflicts 60 seconds of the Oblivious status effect on Survivors as soon as they are hit by Feral Frenzy. This has a minor downside of making them undetectable by your Killer Instinct if they mend. Despite this downside, the effect of this add-on is really powerful and can allow you to catch a Survivor by surprise when they believe that you've already left to target someone else. Particularly useful when ran together with the blue Stylish Sunglasses add-on.",
             "description": "A wooden ruler deeply etched with the names of enemies. Survivors hit with a Feral Slash suffer from the Oblivious Status Effect for 60 seconds.",
             "localMatch": {
               "addonId": "5fd16ba2-919a-4514-abbf-f54ed3ef3c11",
@@ -6511,8 +6511,8 @@ var COMMUNITY_CONTENT = {
             "tierBucket": "decent",
             "name": "Susie's Mix Tape",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/legion/susiesmixtape.png",
-            "otzComment": "Susie's Mix Tape : Significantly extends the detection range of your Killer Instinct, which is typicall 40m, now making it 60m in total. This provides a great level of awareness even in larger maps, making it easier to tell where everyone is once you've already hit someone. Keep in mind, however, that very distant Survivors won't always be easily reached. You might have to simply remember their location and cancel your power early so it's ready to be used again when you close the gap normally. Oddly enough, this add-on can help you detect people even when your Terror Radius would be zero.",
-            "description": "A fast and thrilling mix tape with energising songs with break-neck beats. Increases the Detection radius of Killer Instinct by +20 metres. Unlocks an additional sound layer in the Terror Radius, enhancing it musically. Susie's Mix Tape can be combined with any other Mix Tape Add-on to unlock multiple sound layer combos.",
+            "otzComment": "Susie's Mix Tape : Significantly extends the detection range of your Killer Instinct, which is typically 40m, now making it 60m in total. This provides a great level of awareness even in larger maps, making it easier to tell where everyone is once you've already hit someone. Keep in mind, however, that very distant Survivors won't always be easily reached. You might have to simply remember their location and cancel your power early so it's ready to be used again when you close the gap normally. Oddly enough, this add-on can help you detect people even when your Terror Radius would be zero.",
+            "description": "A thrilling mix tape with energising songs and intricate guitar riffs. Increases the Detection radius of Killer Instinct by +20 metres. Unlocks an additional sound layer in the Terror Radius, enhancing it musically. Susie's Mix Tape can be combined with any other Mix Tape Add-on to unlock multiple sound layer combos.",
             "localMatch": {
               "addonId": "2ab9609c-c1b5-4248-b34b-3370bac4c0f7",
               "internalId": "ADDON_Frenzy_SusiesMixTape",
@@ -6527,7 +6527,7 @@ var COMMUNITY_CONTENT = {
             "tierBucket": "decent",
             "name": "Mural Sketch",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/legion/muralsketch.png",
-            "otzComment": "Mural Sketch : Increases the bonus movement speed that you get for each consecutive hit in Feral Frenzy, giving you a nice boost of speed (and thus, distance). Not a bad at all, although the distance gained is not as signficant as the one gained from the brown Mischief List add-on.",
+            "otzComment": "Mural Sketch : Increases the bonus movement speed that you get for each consecutive hit in Feral Frenzy, giving you a nice boost of speed (and thus, distance). Not bad at all, although the distance gained is not as signficant as the one gained from the brown Mischief List add-on.",
             "description": "A rough sketch of The Legion mural torn from a notebook. Increases the stack-able Movement Speed boost gained from chained Feral Slashes by +0.08 m/s to +0.32 m/s, up to a maximum of +1.28 m/s.",
             "localMatch": {
               "addonId": "78d2f914-0173-43d0-b6c9-e12aa3dbab13",
@@ -6543,7 +6543,7 @@ var COMMUNITY_CONTENT = {
             "tierBucket": "decent",
             "name": "Never-Sleep Pills",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/legion/neversleeppills.png",
-            "otzComment": "Never-Sleep Pills : Makes your Feral Frenzy significant slower but basically doubles its duration. This effect can be devastating against uncoordinated Survivors since the massive extra duration will give you plenty of time to catch up to almost anyone on the map. Pairs pretty well with the green Mural Sketch to compensate for the loss of speed. Against better teams, however, you will find that this add-on is ultimately not that strong. Coordinated Survivors can bodyblock for each other, preventing you from hitting a non-mending target and resetting your power completely. The slower speed in Feral Frenzy can also make your first hit very difficult and be very punishing if you make any mistakes at all.",
+            "otzComment": "Never-Sleep Pills : Makes your Feral Frenzy significantly slower but basically doubles its duration. This effect can be devastating against uncoordinated Survivors since the massive extra duration will give you plenty of time to catch up to almost anyone on the map. Pairs pretty well with the green Mural Sketch to compensate for the loss of speed. Against better teams, however, you will find that this add-on is ultimately not that strong. Coordinated Survivors can bodyblock for each other, preventing you from hitting a non-mending target and resetting your power completely. The slower speed in Feral Frenzy can also make your first hit very difficult and be very punishing if you make any mistakes at all.",
             "description": "Highly caffeinated tablets to make you extra sharp for exams or draining activities. Extends the duration of Feral Frenzy by +10 seconds. Reduces the starting Movement speed of Feral Frenzy to 4.6 m/s. Grants a stack-able +100 bonus Bloodpoints for successful Feral Slashes, up to a maximum of +500.",
             "localMatch": {
               "addonId": "73689bed-9d92-4929-ba92-5cbf3c2db11e",
@@ -6575,7 +6575,7 @@ var COMMUNITY_CONTENT = {
             "tierBucket": "decent",
             "name": "Julie's Mix Tape",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/legion/juliesmixtape.png",
-            "otzComment": "Julie's Mix Tape : Completely refills your power upon being stunned by a pallet, making it far easier to get your first hit going even if you smake a small mistake. Obviously, being stunned will still reset your power so you won't be able to easily chain four Feral Frenzy hits anymore if this happens. Still, it is a comfortable add-on to run for beginners and works particularly well with the perk \"Enduring\" if you want to become fearless around pallets. More advanced players will probably find other add-ons more appealing.",
+            "otzComment": "Julie's Mix Tape : Completely refills your power upon being stunned by a pallet, making it far easier to get your first hit going even if you make a small mistake. Obviously, being stunned will still reset your power so you won't be able to easily chain four Feral Frenzy hits anymore if this happens. Still, it is a comfortable add-on to run for beginners and works particularly well with the perk \"Enduring\" if you want to become fearless around pallets. More advanced players will probably find other add-ons more appealing.",
             "description": "A dark and depressing mix tape made out from mainly power ballads and gloomy melodies. Instantly recharges Feral Frenzy after being stunned by any means while using it. Unlocks an additional sound layer in the Terror Radius, enhancing it musically. Julie's Mix Tape can be combined with any other Mix Tape Add-on to unlock multiple sound layer combos.",
             "localMatch": {
               "addonId": "a178d2bb-8491-4a26-bedf-7057686ac2ff",
@@ -6894,7 +6894,7 @@ var COMMUNITY_CONTENT = {
             "tierBucket": "good",
             "name": "Ashen Apple",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/plague/ashenapple.png",
-            "otzComment": "Ashen Apple : Very similar to the green Apple, but spawns one extra fountain. This brings some small advantages and disadvantages, including the fact that corrupting all pools at once becomes slightly harder. Shorter recovery also means that you regain your normal speed sooner.",
+            "otzComment": "Ashen Apple : Very similar to the green Apple, but spawns one extra fountain. This brings some small advantages and disadvantages, including the fact that corrupting all pools at once becomes slightly harder.",
             "description": "A peeled apple rolled into sanctified ashes.Eating such a fruit warded off the malignantly envious spirits of the deceased. Causes 1 Pool of Devotion to spawn in the Corrupted state. Increases the number of available Pools of Devotion by +1.",
             "localMatch": {
               "addonId": "81c0b2e9-ccb3-4190-b1a2-596d3fe1b6c9",
@@ -6958,7 +6958,7 @@ var COMMUNITY_CONTENT = {
             "tierBucket": "good",
             "name": "Prayer Tablet Fragment",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/plague/prayertabletfragment.png",
-            "otzComment": "Prayer Tablet Fragment : A deceivingly strong add-on that has one major downside but several effects that make up for it. Notably, it makes object infections last a very long time and accelerates the rate at which Survivors become infected when working on them. If used properly with an appropriate build, it can be quite powerful.",
+            "otzComment": "Prayer Tablet Fragment : A deceivingly strong add-on that has one major downside but several effects that make up for it. Notably, it makes object infections last a very long time and accelerates the rate at which Survivors become infected when working on them. If used properly with an appropriate build, it can be quite powerful. Just remember that you will NOT be able to directly infect Survivors when running this add-on, you will need to instead puke on elements of the map that they will interact with.",
             "description": "A fragmented stone tablet with a corrupted incantation originally used to purge illnesses and feelings of general malaise. Increases the Infection duration on Props hit with Vile Purge by +40 seconds. Increases the Infection gained while performing Interactions for Survivors by +100 %. Grants +100 % bonus Bloodpoints for Score Events in the Deviousness Category. Vile Purge no longer affects Survivors directly.",
             "localMatch": {
               "addonId": "ce8aa0f3-af1f-4116-b3ed-f0a2d92c7a45",
@@ -7086,7 +7086,7 @@ var COMMUNITY_CONTENT = {
             "tierBucket": "decent",
             "name": "Worship Tablet",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/plague/worshiptablet.png",
-            "otzComment": "Worship Tablet : Increases your movement from 110% (4.4m/s) to 115% (4.6m/s) when holding either type of puke. Very useful in certain loops to guarantee hits that would otherwise be difficult.",
+            "otzComment": "Worship Tablet : Increases your movement from 110% (4.4m/s) to 115% (4.6m/s) when holding your Corrupt Purge (red puke). Holding the attack and moving at full Killer speed can make certain loops feel completely inescapable (and will also likely catch some Survivors by surprise). This add-on also slightly speeds up the animation of drinking from a fountain. These effects are nice but they're often not worth the add-on slot compared to other choices.",
             "description": "A stone tablet adorned with gold, showing the drawings and writings of a corrupted incantation used originally to worship forgotten deities. Increases the Ingestion speed at Pools of Devotion by +100 %. Increases your Movement speed while holding Corrupt Purge by 4.4 %.",
             "localMatch": {
               "addonId": "1355cc2d-0670-4ba1-8f4e-11dc30df1d06",
@@ -7102,7 +7102,7 @@ var COMMUNITY_CONTENT = {
             "tierBucket": "almost-no-effect",
             "name": "Vile Emetic",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/plague/vileemetic.png",
-            "otzComment": "Vile Emetic : The increase to your projectile speed is not very noticeable, since it's already pretty slow. However, this add-on also indirectly increases the maximum range that you can reach with both types of puke and makes it slightly easier to pull off some fancy tricks.",
+            "otzComment": "Vile Emetic : The increase to your projectile speed is not very noticeable, since it's already pretty slow. However, this add-on also indirectly increases the maximum range that you can reach with both types of puke and makes it slightly easier to pull off some fancy tricks. Experienced players might want to experiment with it, but this is generally not recommended for beginners.",
             "description": "A foul-smelling and half-congealed potion of unidentifiable ingredients.Consumed to rapidly induce vomiting.Used to purge evil from the body. Increases the Projectile speed of Vile Purge and Corrupt Purge by +10 %.",
             "localMatch": {
               "addonId": "a8eccab9-bb7c-4ae5-ab63-574d1df678f4",
@@ -7420,7 +7420,7 @@ var COMMUNITY_CONTENT = {
             "tierBucket": "good",
             "name": "Olsen's Wallet",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/ghostface/olsenswallet.png",
-            "otzComment": "Olsen's Wallet : Allows you to skip your power cooldown entirely when you break a pallet or wall, which sometimes allows you to fully stalk unsuspecting Survivors during chase. Particular useful in pallet-dense maps.",
+            "otzComment": "Olsen's Wallet : Allows you to skip your power cooldown entirely when you break a pallet or wall, which sometimes allows you to fully stalk unsuspecting Survivors during chase. Particularly useful in pallet-dense maps.",
             "description": "Olsen's wallet holds thirty dollars in cash, a video club membership card, and a folded picture of Olsen's first Roseville victim.Carrying incriminating evidence boosts your excitement and resolve. Instantly recharges Night Shroud after breaking a Breakable Wall or a Pallet.",
             "localMatch": {
               "addonId": "f346872f-3e92-443c-8b29-a2355a567568",
@@ -7436,8 +7436,8 @@ var COMMUNITY_CONTENT = {
             "tierBucket": "good",
             "name": "Walleye's Matchbook",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/ghostface/walleyesmatchbook.png",
-            "otzComment": "Walleye's Matchbook : This add-on shortens the already short power cooldown another 3 seconds. Good by itself, especially considering its rarity. Does not pair well with other add-ons that automatically recover your power like the blue Olsen's Wallet.",
-            "description": "This description is based on the changes announced for or featured in the upcoming Patch 9.6.0A sheet of matches from Walleye's, a small bar in Northern Roseville.A victim's phone number is scribbled in blue.One of the incriminating pieces of evidence found. Reduces the Power Recharge time by -2 seconds.",
+            "otzComment": "Walleye's Matchbook : This add-on shortens the already short power cooldown another 2 seconds. Decent effect by itself, especially considering its rarity. Does not pair well with other add-ons that automatically recover your power like the blue Olsen's Wallet.",
+            "description": "A sheet of matches from Walleye's, a small bar in Northern Roseville.A victim's phone number is scribbled in blue.One of the incriminating pieces of evidence found. Reduces the Power Recharge time by -2 seconds.",
             "localMatch": {
               "addonId": "634fe595-c33b-41a2-af36-b78e7ddfca4f",
               "internalId": "Addon_Ghost_WalleyesMatchbook",
@@ -7564,7 +7564,7 @@ var COMMUNITY_CONTENT = {
             "tierBucket": "almost-no-effect",
             "name": "Cheap Cologne",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/ghostface/cheapcologne.png",
-            "otzComment": "Cheap Cologne : The extra marked duration is not a bad effect per se, but you should almost never stalk someone fully if you're confident that you can down them in a short period of time. That being said, this add-on can still be useful to keep a Survivor vulnerable for an extended period of time so that they have a difficult time being altruistic.",
+            "otzComment": "Cheap Cologne : The extra marked duration is not a bad effect per se, but you should almost never stalk someone fully if you're not confident that you can down them in a short period of time. That being said, this add-on can still be useful to keep a Survivor vulnerable for an extended period of time so that they have a difficult time being altruistic.",
             "description": "Dollar store cologne with a pungent scent of rubbing alcohol.Worn by The Ghost Face to make his presence known.Reserved for impromptu visits. Increases the duration of Marked by +10 seconds.",
             "localMatch": {
               "addonId": "3f6fc08e-22b3-4d75-9a9b-7ed07d332991",
@@ -7612,7 +7612,7 @@ var COMMUNITY_CONTENT = {
             "tierBucket": "almost-no-effect",
             "name": "Leather Knife Sheath",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/ghostface/leatherknifesheath.png",
-            "otzComment": "Leather Knife Sheath : Gives a decent boost to your movement speed while crouched, but this isn't all that useful. You should not travel around the map crouched anyway. Using the crouch ¡to avoid being revealed or to temporarily hide your exact position behind a small loop is a decent strategy, but you can also do it without this add-on.",
+            "otzComment": "Leather Knife Sheath : Gives a decent boost to your movement speed while crouched, but this isn't all that useful. You should not travel around the map crouched anyway. Using the crouch to avoid being revealed or to temporarily hide your exact position behind a small loop is a decent strategy, but you can also do it without this add-on.",
             "description": "A quiet and flexible sheath to carry your blade.Movement is easier when things are fastened into place. Increases your Movement Speed by +10 % when Crouched.",
             "localMatch": {
               "addonId": "2d618678-8556-4a26-9e90-7b7602666bba",
@@ -7628,7 +7628,7 @@ var COMMUNITY_CONTENT = {
             "tierBucket": "almost-no-effect",
             "name": "Marked Map",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/ghostface/markedmap.png",
-            "otzComment": "Marked Map : It's already typically pretty easy to tell the location of the Survivor that revealed, so this add-on doesn't help too much. Ideally, you should also not aim to be revealed too often by Survivors.",
+            "otzComment": "Marked Map : It's already typically pretty easy to tell the location of the Survivor that revealed you, so this add-on doesn't help too much. Ideally, you should also not aim to be revealed too often by Survivors.",
             "description": "The annotated map of Northern Roseville, Florida.Each 'X' represents a victim of The Ghost Face.Mapping out your targets allows you to roam the streets undetected. Increases the duration of Killer Instinct by +2 seconds.",
             "localMatch": {
               "addonId": "59d5182c-f7b7-4b02-bd87-60f253ac777b",
@@ -7898,7 +7898,7 @@ var COMMUNITY_CONTENT = {
             "tierBucket": "good",
             "name": "Lifeguard Whistle",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/demogorgon/lifeguardwhistle.png",
-            "otzComment": "Lifeguard Whistle : Increases your portal count by two. This gives you a bit more room for mistakes and allows you to control more areas of the map if that's your preferred playstyle. Just keep in mind that the green Mews' Guts has a similar effect and also gives another useful effect.",
+            "otzComment": "Lifeguard Whistle : Increases your portal count by two. This gives you a bit more room for mistakes and allows you to control more areas of the map if that's your preferred playstyle. Just keep in mind that the green Mews' Guts does something similar but also gives another useful effect.",
             "description": "A rusty, metal whistle that once ruled the Hawkins public pool. You benefit from the following effect: Increases the number of available Portals by +2. \"Emits a strong electromagnetic field: it must have come into contact with the Upside Down.\" — Hawkins National Laboratory",
             "localMatch": {
               "addonId": "68a40bf4-f548-42ce-ba5b-60b56f2c0116",
@@ -7946,7 +7946,7 @@ var COMMUNITY_CONTENT = {
             "tierBucket": "decent",
             "name": "Rat Tail",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/demogorgon/rattail.png",
-            "otzComment": "Rat Tail : Simple effect, but saves you quite a bit of time when placing a portal, allowing to reposition faster after you hook someone or need to return to a certain area.",
+            "otzComment": "Rat Tail : Simple effect, but saves you quite a bit of time when placing a portal, allowing to reposition faster after you hook someone or if you need to return to a certain area.",
             "description": "A chewy rat tail for The Demogorgon to consume. Increases the Opening speed of Portals by +50 %.",
             "localMatch": {
               "addonId": "45fabb60-af9f-424b-a767-7a0137a8d660",
@@ -8106,7 +8106,7 @@ var COMMUNITY_CONTENT = {
             "tierBucket": "detrimental",
             "name": "Deer Lung",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/demogorgon/deerlung.png",
-            "otzComment": "Deer Lung : Provides a noticeable boost to your portal traversing speed but has the unfortunate downside of limiting your portal amount. You don't always use all of your portals, but in some situations you will find that only having four portals can be highly detrimental. Using the green Rotten Green Tripe can achieve a similar effect without any downside.",
+            "otzComment": "Deer Lung : Provides a noticeable boost to your portal traversing speed but has the unfortunate downside of limiting your portal amount. You don't always use all of your portals, but in some situations you will find that only having four portals can be highly detrimental. Using the green Rotten Green Tripe a similar effect can be achieved without any downsides.",
             "description": "A raw, rubbery lung that reinvigorates The Demogorgon. Increases your Teleportation speed by +30 %. Reduces the number of available Portals by -2.",
             "localMatch": {
               "addonId": "7ecb9343-cbb7-42ff-be7e-ad0ae556abac",
@@ -8122,7 +8122,7 @@ var COMMUNITY_CONTENT = {
             "tierBucket": "detrimental",
             "name": "Rotten Pumpkin",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/demogorgon/rottenpumpkin.png",
-            "otzComment": "Rotten Pumpkin : This add-on destroys a portal as you use it, which gives you the ability to remove portals that you no longer want around. However, since placing portals is already a time consuming action, this add-on forces you spend even more time doing so. Could be paired with the Deer Lung to offset its downside, but even then, it's not generally worth it.",
+            "otzComment": "Rotten Pumpkin : This add-on destroys a portal as you use it, which gives you the ability to remove portals that you no longer want around. However, since placing portals is already a time consuming action, this add-on forces you to spend even more time doing so. Could be paired with the Deer Lung to offset its downside, but even then, it's not generally worth it.",
             "description": "Pumpkin flesh infected by the rotten soil in Hawkins. Causes the Portal from which you start your Teleport to seal automatically. Grants +200 bonus Bloodpoints for Interdimensional Travel Score Events.",
             "localMatch": {
               "addonId": "7f2e3f72-8844-4932-bcad-dd6b9cb1d10c",
@@ -9285,7 +9285,7 @@ var COMMUNITY_CONTENT = {
             "tierBucket": "good",
             "name": "Cinderella Music Box",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/pyramid%20head/cinderellamusicbox.png",
-            "otzComment": "Cinderella Music Box : Slightly shortens your recovery time after performing a punishment attack. This allows you regain full control and movement speed sooner after a hit or even try to do another one if you missed. It's not extremely noticeable or critical if you're still a beginner, but experienced players will certainly notice and take full advantage of this small effect.",
+            "otzComment": "Cinderella Music Box : Slightly shortens your recovery time after performing a punishment attack. This allows you to regain full control and movement speed sooner after a hit or even try to do another one if you missed. It's not extremely noticeable or critical if you're still a beginner, but experienced players will certainly notice and take full advantage of this small effect.",
             "description": "\"A music box with a figure from the fairy tale Cinderella, found inside a suitcase adorned with stickers from multiple destinations.\" Modifies Punishment of the Damned with the following effect: Reduces its Cool-down time by -10 %.",
             "localMatch": {
               "addonId": "5bcef878-a81f-4430-9d1d-f2f32d4ffffb",
@@ -9397,7 +9397,7 @@ var COMMUNITY_CONTENT = {
             "tierBucket": "decent",
             "name": "Copper Ring",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/pyramid%20head/copperring.png",
-            "otzComment": "Copper Ring : Increases the maximum amount of time that you can drag your sword by 5 seconds (50% more). This is a fairly strong effect that allows you to have more room for mistakes when going for multiple punishment attacks in a row or when drawing long trails around the map or get more utility out of other add-ons that require you to do leave trails.",
+            "otzComment": "Copper Ring : Increases the maximum amount of time that you can drag your sword by 5 seconds (50% more). This is a fairly strong effect that allows you to have more room for mistakes when going for multiple punishment attacks in a row or when drawing long trails around the map or get more utility out of other add-ons that require you to leave trails.",
             "description": "\"Found in the basement of Brookhaven Hospital.It is engraved with a picture of a spider.\" Modifies Rites of Judgement with the following effect: Increases its maximum duration by +5 seconds. \"I was locked up inside the basement's basement. It was so small and dark, and I was so afraid. I dropped my precious ring. But I'll never ever go back there.\"",
             "localMatch": {
               "addonId": "c6faf746-125e-4510-b100-188580d6b307",
@@ -9413,7 +9413,7 @@ var COMMUNITY_CONTENT = {
             "tierBucket": "decent",
             "name": "Forgotten Videotape",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/pyramid%20head/forgottenvideotape.png",
-            "otzComment": "Forgotten Videotape : Increases the speed at which the punishment attack travels forward by 10%. This has minimal implications for close-range hits, but the increased speed can make it harder for Survivors to react and dodge out of the way at longer distances. It's probably better than the green Wax Doll if you want to hit people at the end of your range.",
+            "otzComment": "Forgotten Videotape : NOTE: THIS ADD-ON SEEMS CURRENTLY BUGGED AND DOESN'T ACTUALLY SEEM TO DO ANYTHING. Increases the speed at which the punishment attack travels forward by 10%. This has minimal implications for close-range hits, but the increased speed can make it harder for Survivors to react and dodge out of the way at longer distances. It's probably better than the green Wax Doll if you want to hit people at the end of your range.",
             "description": "\"A videotape of two lovers vacationing in Silent Hill.Despite its sentimental value, it was left behind in the Lakeview Hotel.\" Modifies Punishment of the Damned with the following effect: Increases its Travel speed by +10 %.",
             "localMatch": {
               "addonId": "1225a1f0-3d1b-43fc-9713-37007afd60d9",
@@ -9493,7 +9493,7 @@ var COMMUNITY_CONTENT = {
             "tierBucket": "almost-no-effect",
             "name": "Spearhead",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/pyramid%20head/spearhead.png",
-            "otzComment": "Spearhead : Reveals the aura of the rescuing Survivor when someone is rescued from a cage. This add-on is not really necessary for basic information (because getting rescued from a cage already creates a loud noise notification for the Killer) but it can help you to accurate track someone's position and maybe even get a surprise hit through a wall, for example. That being said, lingering around cages waiting for an opportunity to strike isn't always ideal or even possible. Do keep in mind that if you're too close to a cage for a few seconds, it will be transported to another side of the map as well. Needless to say, this add-on does nothing if you're not tormenting Survivors and using the cages often.",
+            "otzComment": "Spearhead : Reveals the aura of the rescuing Survivor when someone is rescued from a cage. This add-on is not really necessary for basic information (because getting rescued from a cage already creates a loud noise notification for the Killer) but it can help you to accurately track someone's position and maybe even get a surprise hit through a wall, for example. That being said, lingering around cages waiting for an opportunity to strike isn't always ideal or even possible. Do keep in mind that if you're too close to a cage for a few seconds, it will be transported to another side of the map as well. Needless to say, this add-on does nothing if you're not tormenting Survivors and using the cages often.",
             "description": "\"The sharp, rusted tip of a spear.It is flaked with blood from its last victim.\" Survivors rescuing others from a Cage of Atonement suffer from the following effect: Their Aura is revealed to you for 8 seconds.",
             "localMatch": {
               "addonId": "3d0f06c6-108c-46be-8fe5-7232ce07dd5d",
@@ -9541,7 +9541,7 @@ var COMMUNITY_CONTENT = {
             "tierBucket": "almost-no-effect",
             "name": "Burning Man Painting",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/pyramid%20head/burningmanpainting.png",
-            "otzComment": "Burning Man Painting : Reveals the aura of nearby Survivors when you've missed your punishment special attack. However, the range of 3 meters is absolutely pitiful and only activates after the punishment attack itself has happened. In other words, any Survivor moving away from you will almost always be further away than 3 meters and completely avoid this effect even if you were right on top of them when you missed the punishment attack. If a Survivor is that close, hitting them with a normal or special attack should be very easy well. In its current form, there is almost zero reason to use this add-on.",
+            "otzComment": "Burning Man Painting : Reveals the aura of nearby Survivors when you've missed your punishment special attack. However, the range of 3 meters is absolutely pitiful and only activates after the punishment attack itself has happened. In other words, any Survivor moving away from you will almost always be further away than 3 meters and completely avoid this effect even if you were right on top of them when you missed the punishment attack. If a Survivor is that close, hitting them with a normal or special attack should be very easy anyway. In its current form, there is almost zero reason to use this add-on.",
             "description": "\"A diagram of the Lakeview Hotel.Red flames are painted over this place of guilt.\" Missed Punishment of the Damned attacks trigger the following effect: The Auras of all Survivors within 3 metres of your current location are revealed to you for 6 seconds.",
             "localMatch": {
               "addonId": "ce20f27e-5b45-49fd-a38a-d0e51c385d76",
@@ -9557,7 +9557,7 @@ var COMMUNITY_CONTENT = {
             "tierBucket": "detrimental",
             "name": "Lead Ring",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/pyramid%20head/leadring.png",
-            "otzComment": "Lead Ring : Increases your punishment's range, at the cost of narrowing its width. This is generally a really bad deal since a narrower punishment makes it even harder to land hits on Survivors in most scenarios. You should generally not use this add-on unless you know what you're doing. If you want some extra range with less downsides, the green Wall Doll or even the Iridescent Seal of Metatron might be more appropriate. Stacking the Iridescent Seal with this add-on is a really funny idea if you want to go for maximum possible range.",
+            "otzComment": "Lead Ring : Increases your punishment's range, at the cost of narrowing its width. This is generally a really bad deal since a narrower punishment makes it even harder to land hits on Survivors in most scenarios. You should generally not use this add-on unless you know what you're doing. If you want some extra range with less downsides, the green Wax Doll or even the Iridescent Seal of Metatron might be more appropriate. Stacking the Iridescent Seal with this add-on is a really funny idea if you want to go for maximum possible range.",
             "description": "\"Found in a refrigerator.It is engraved with a disgusting, bloated face.\" Modifies Punishment of the Damned with the following effects: Increases its range by +25 %. Reduces its width by -25 %.",
             "localMatch": {
               "addonId": "08a94abb-69b1-4e6b-a9dd-19803cccea24",
@@ -10035,7 +10035,7 @@ var COMMUNITY_CONTENT = {
             "tierBucket": "detrimental",
             "name": "Placebo Tablet",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/blight/placebotablet.png",
-            "otzComment": "Placebo Tablet : Lowering your speed makes navigation a bit easier but is otherwise a horrible effect that hurts your overall mobility and chase potential. Considering that Blight is already a really good Killer when it comes to generating bloodpoints, you most definitely do not this to use this add-on under basically any circumstance. Keep in mind that the reduced speed also results in a shorter attack with less reach than normal.",
+            "otzComment": "Placebo Tablet : Lowering your speed makes navigation a bit easier but is otherwise a horrible effect that hurts your overall mobility and chase potential. Considering that Blight is already a really good Killer when it comes to generating bloodpoints, you most definitely do not need to use this add-on under basically any circumstance. Keep in mind that the reduced speed also results in a shorter attack with less reach than normal.",
             "description": "A pill that is utterly ineffective... or is it? Reduces your Movement speed during a Rush by -15 %. Grants +100 % bonus Bloodpoints for Rush Score Events.",
             "localMatch": {
               "addonId": "a4fbae51-1992-48db-9e45-039e5c096e8e",
@@ -10321,7 +10321,7 @@ var COMMUNITY_CONTENT = {
             "tierBucket": "good",
             "name": "Stale Biscuit",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/twins/stalebiscuit.png",
-            "otzComment": "Stale Biscuit : Reduces the time window where Victor is vulnerable to being kicked, which can result in a nasty surprise for Survivors that have a keen sense of timing and try to kick you at the last second. Even if it only works once or time per match, it's still a decent effect.",
+            "otzComment": "Stale Biscuit : Reduces the time window where Victor is vulnerable to being kicked, which can result in a nasty surprise for Survivors that have a keen sense of timing and try to kick you at the last second. Even if it only works once or twice per match, it's still a decent effect.",
             "description": "A hard, unleavened biscuit that Madeleine stole from a town's market.It was not much, but it was better than most meals. Reduces the Cool-down time of a Pounce by -0.4 seconds.",
             "localMatch": {
               "addonId": "2696faf4-d1cc-4f29-8501-c3516f191657",
@@ -10433,7 +10433,7 @@ var COMMUNITY_CONTENT = {
             "tierBucket": "almost-no-effect",
             "name": "Weighty Rattle",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/twins/weightyrattle.png",
-            "otzComment": "Weighty Rattle : Similar to other add-ons of its type, the effects only trigger if Survivors actively remove Victor. If they hold him hostage and you recall him, the effect simply doesn't trigger. For this reason, these add-ons are very mediocre.",
+            "otzComment": "Weighty Rattle : Similar to other add-ons of its type, the effect only triggers if Survivors actively remove Victor. If they hold him hostage and you recall him, the effect simply doesn't trigger. For this reason, these add-ons are very mediocre.",
             "description": "A shoddily carved rattle that Victor cried over until his mother stole it for him.It is entirely too heavy to be trusted to a child. Removing a latched-on Victor causes the Survivor to suffer from the Broken Status Effect for 20 seconds.",
             "localMatch": {
               "addonId": "fc707eef-6ed2-42ca-9bbe-f758390b5bf2",
@@ -10481,7 +10481,7 @@ var COMMUNITY_CONTENT = {
             "tierBucket": "almost-no-effect",
             "name": "Rusted Needle",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/twins/rustedneedle.png",
-            "otzComment": "Rusted Needle : Similar to other add-ons of its type, the effects only trigger if Survivors actively remove Victor. If they hold him hostage and you recall him, the effect simply doesn't trigger. For this reason, these add-ons are very mediocre.",
+            "otzComment": "Rusted Needle : Similar to other add-ons of its type, the effect only triggers if Survivors actively remove Victor. If they hold him hostage and you recall him, the effect simply doesn't trigger. For this reason, these add-ons are very mediocre.",
             "description": "A needle Madeleine used to sew up her children's tattered clothes. Removing a latched-on Victor causes the Survivor to suffer from the Haemorrhage Status Effect until fully healed.",
             "localMatch": {
               "addonId": "6eb4c3a7-5f47-4fa7-8dfc-0abb02f34172",
@@ -10497,7 +10497,7 @@ var COMMUNITY_CONTENT = {
             "tierBucket": "almost-no-effect",
             "name": "Baby Teeth",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/twins/babyteeth.png",
-            "otzComment": "Baby Teeth : Similar to other add-ons of its type, the effects only trigger if Survivors actively remove Victor. If they hold him hostage and you recall him, the effect simply doesn't trigger. For this reason, these add-ons are very mediocre.",
+            "otzComment": "Baby Teeth : Similar to other add-ons of its type, the effect only triggers if Survivors actively remove Victor. If they hold him hostage and you recall him, the effect simply doesn't trigger. For this reason, these add-ons are very mediocre.",
             "description": "Two teeth that Victor lost long ago.They are unusually sharp. Survivors suffer from the Blindness Status Effect for 30 seconds after removing Victor.",
             "localMatch": {
               "addonId": "97774c6c-d152-464f-b49f-4cbeb44c8bfe",
@@ -10701,16 +10701,16 @@ var COMMUNITY_CONTENT = {
           {
             "rank": 2,
             "tierBucket": "strongest",
-            "name": "Cut Thru U Single",
-            "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/trickster/cutthruusingle.png",
-            "otzComment": "Cut Thru U Single : Triggers Killer Instinct on nearby Survivors when you're close to reaching S-tier rank and about to unlock Main Event, potentially helping you to find the most vulnerable targets.",
-            "description": "The first single released by NO SPIN after Ji-Woon joined their ranks.Scored an all-kill on the Korean charts. When reaching A-Rank, all Survivors within 32 metres are revealed by Killer Instinct for 4.4 seconds.",
+            "name": "Death Throes Compilation",
+            "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/trickster/deaththroescompilation.png",
+            "otzComment": "Death Throes Compilation : Automatically reloads 75% of your blade ammo upon finishing Main Event, greatly reducing the need to reload and lose momentum between chases. A simple but strong effect that shines best if you have a build that constantly feeds you information and points you towards the next chase.",
+            "description": "A collection of the final sounds from Ji-Woon's victims, adapted to a vinyl record.Terrifying and emotionally raw. 75% of the maximum Blade capacity is refilled once Main Event ends. \"Please, no... don't make it hurt... I can't... I...\" — Unidentified Voice",
             "localMatch": {
-              "addonId": "02261a03-f8e7-464c-a5e8-175cfa074e4e",
-              "internalId": "Addon_Trickster_18",
-              "localName": "Cut Thru U Single",
-              "localImage": "dbd_images/addons/iconaddon_cutthruusingle.png",
-              "localRarity": "veryrare",
+              "addonId": "8a6720b7-ff5e-401c-ab94-dc498d244006",
+              "internalId": "Addon_Trickster_19",
+              "localName": "Death Throes Compilation",
+              "localImage": "dbd_images/addons/iconaddon_deaththroescompilation.png",
+              "localRarity": "visceral",
               "method": "name"
             }
           },
@@ -10719,7 +10719,7 @@ var COMMUNITY_CONTENT = {
             "tierBucket": "good",
             "name": "Trick Blades",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/trickster/trickblades.png",
-            "otzComment": "Trick Blades : Makes blades bounce off surfaces once, allowing you to hit Survivors around obstacles. Veteran Trickster players favor this add-on as it allows them to hit Survivors hiding behind certain obstacles or when they go around certain corners without a direct line of sight. Experienced players can use this effect to deal with the Trickster's main weakness: structures with long walls such as main buildings or jungle gyms. Additionally, this add-on also provides a randomized effect every 8th blade hit after a bounce. This might seem almost impossible to trigger consistently, but you can always aim at the ground behind a Survivor to land ricochet hits more consistently. Overall, this is a strong add-on but is not the most beginner-friendly, since it can induce players to waste a lot of blades unnecessarily. Works best in maps with many flat walls that enable predictable bounces.",
+            "otzComment": "Trick Blades : Makes blades bounce off surfaces once, allowing you to hit Survivors around obstacles. Veteran Trickster players favor this add-on as it allows them to hit Survivors hiding behind certain obstacles or when they go around certain corners without a direct line of sight. Experienced players can use this effect to deal with the Trickster's main weakness: structures with long walls such as main buildings or jungle gyms. Additionally, this add-on also provides a randomized effect every 8th blade hit after a bounce. This might seem almost impossible to trigger consistently, but you can always aim at the ground behind a Survivor to land ricochet hits more consistently. Overall, this is a strong add-on but is not the most beginner-friendly, since it can induce players to waste a lot of blades unnecessarily. Works best in maps with many flat walls that enable predictable bounces. If you want to benefit from the extra effects of this add-on in a simple way, you can always aim at the ground directly behind a Survivor to land a nearly-guaranteed ricochet blade hit.",
             "description": "Specialty blades that are only seen as faulty by those who lack imagination.A young Ji-Woon dazzled spectators with the trick he performed. Causes Blades to ricochet off the environment a total of one time. After a ricochet, on every eighth Blade hit, a bonus is assigned at random: Laceration is increased by +100 %. Reveal Survivors auras within 12 metres for 4.4 seconds. Gain 1 additional Style Point.",
             "localMatch": {
               "addonId": "53396683-7647-45e1-abe4-dbac4777dbff",
@@ -10733,16 +10733,16 @@ var COMMUNITY_CONTENT = {
           {
             "rank": 4,
             "tierBucket": "good",
-            "name": "Death Throes Compilation",
-            "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/trickster/deaththroescompilation.png",
-            "otzComment": "Death Throes Compilation : Automatically reloads 75% of your blade ammo upon finishing Main Event, greatly reducing the need to reload and lose momentum between chases. A simple but strong effect that shines best if you have a build that constantly feeds you information and points you towards the next chase.",
-            "description": "A collection of the final sounds from Ji-Woon's victims, adapted to a vinyl record.Terrifying and emotionally raw. 75% of the maximum Blade capacity is refilled once Main Event ends. \"Please, no... don't make it hurt... I can't... I...\" — Unidentified Voice",
+            "name": "Cut Thru U Single",
+            "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/trickster/cutthruusingle.png",
+            "otzComment": "Cut Thru U Single : Triggers Killer Instinct on nearby Survivors when you're close to reaching S-tier rank and about to unlock Main Event, potentially helping you to find the most vulnerable targets.",
+            "description": "The first single released by NO SPIN after Ji-Woon joined their ranks.Scored an all-kill on the Korean charts. When reaching A-Rank, all Survivors within 32 metres are revealed by Killer Instinct for 4.4 seconds.",
             "localMatch": {
-              "addonId": "8a6720b7-ff5e-401c-ab94-dc498d244006",
-              "internalId": "Addon_Trickster_19",
-              "localName": "Death Throes Compilation",
-              "localImage": "dbd_images/addons/iconaddon_deaththroescompilation.png",
-              "localRarity": "visceral",
+              "addonId": "02261a03-f8e7-464c-a5e8-175cfa074e4e",
+              "internalId": "Addon_Trickster_18",
+              "localName": "Cut Thru U Single",
+              "localImage": "dbd_images/addons/iconaddon_cutthruusingle.png",
+              "localRarity": "veryrare",
               "method": "name"
             }
           },
@@ -10765,53 +10765,21 @@ var COMMUNITY_CONTENT = {
           {
             "rank": 6,
             "tierBucket": "good",
-            "name": "Diamond Cufflinks",
-            "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/trickster/diamondcufflinks.png",
-            "otzComment": "Diamond Cufflinks : Reveals the aura of Survivors when they're one blade away from taking damage. This comes into play very often and allows you to easily track a Survivor after damaging them or land the final blade on someone who managed to break line of sight temporarily. A pretty good and simple effect, especially useful if it helps you land blade hits through small gaps (which grant extra style points).",
-            "description": "Cufflinks gouged into the eyes of a sasaeng fan who made the mistake of stalking Ji-Woon.Rubbing off the blood, there is so much to be seen in the glitter. The Auras of Survivors one hit away from maximum Laceration are revealed to you for 6 seconds. \"Shhh... you don't have to see your blood anymore.\" — Ji-Woon Hak",
+            "name": "Tequila Moonrock",
+            "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/trickster/tequilamoonrock.png",
+            "otzComment": "Tequila Moonrock : Increases the throw rate of blades by a noticeable 8% for a short duration after gaining a style rank point. The effect is noticeable but sometimes triggers at awkward times when you can't really make the most out of it. Not the most beginner-friendly add-on but skilled players will make good use of it.",
+            "description": "A drink invented in a modest Changwon bar.Became a favourite of Ji-Woon's. Increases the Throw rate by +8 % for 10 seconds after gaining a Style Rank.",
             "localMatch": {
-              "addonId": "98af2deb-40ee-482f-8370-9f986043f708",
-              "internalId": "Addon_Trickster_15",
-              "localName": "Diamond Cufflinks",
-              "localImage": "dbd_images/addons/iconaddon_diamondcufflinks.png",
-              "localRarity": "veryrare",
+              "addonId": "42dc359a-4fb3-4718-a615-43951c0f8e02",
+              "internalId": "Addon_Trickster_09",
+              "localName": "Tequila Moonrock",
+              "localImage": "dbd_images/addons/iconaddon_tequilamoonrock.png",
+              "localRarity": "uncommon",
               "method": "name"
             }
           },
           {
             "rank": 7,
-            "tierBucket": "good",
-            "name": "Trick Pouch",
-            "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/trickster/trickpouch.png",
-            "otzComment": "Trick Pouch : Increases your blade ammo counter by 8, leading to less frequent reloads and a better ability to pressure Survivors without interruptions. A simple but great effect, especially for beginners that do not always the get full value of the Main Event's temporary infinite blades.",
-            "description": "A pouch with a number of hidden pockets.Used by aspiring magicians and those with something to hide. Increases the number of carried Blades by +8.",
-            "localMatch": {
-              "addonId": "1d7e5140-bfc0-4fe4-a041-970fe3968ebd",
-              "internalId": "Addon_Trickster_02",
-              "localName": "Trick Pouch",
-              "localImage": "dbd_images/addons/iconaddon_trickpouch.png",
-              "localRarity": "common",
-              "method": "name"
-            }
-          },
-          {
-            "rank": 8,
-            "tierBucket": "good",
-            "name": "Edge of Revival Album",
-            "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/trickster/edgeofrevivalalbum.png",
-            "otzComment": "Edge of Revival Album : Essentially doubles the damage of each blade hit when they're hit from further than 20 meters away. A powerful and certainly map-dependent effect that is best used by experienced players, especially with a good supporting build that provides information or stealth to catch Survivors by surprise.",
-            "description": "The Trickster's debut album.The coarse and vicious tone was met with a mixed reaction from fans despite critical acclaim. Causes Blade hits from more than 20 metres away to deal +100 % more Laceration. \"Your whisper on meWarm as can beBurning each breathTill I can't breathe\" — The Trickster's \"Whispers of Warmth\"",
-            "localMatch": {
-              "addonId": "0fb14773-c2fa-4f29-906e-b94f7de712e7",
-              "internalId": "Addon_Trickster_16",
-              "localName": "Edge of Revival Album",
-              "localImage": "dbd_images/addons/iconaddon_edgeofrevivalalbum.png",
-              "localRarity": "veryrare",
-              "method": "name"
-            }
-          },
-          {
-            "rank": 9,
             "tierBucket": "good",
             "name": "Killing Part Chords",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/trickster/killingpartchords.png",
@@ -10827,7 +10795,55 @@ var COMMUNITY_CONTENT = {
             }
           },
           {
+            "rank": 8,
+            "tierBucket": "good",
+            "name": "Diamond Cufflinks",
+            "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/trickster/diamondcufflinks.png",
+            "otzComment": "Diamond Cufflinks : Reveals the aura of Survivors when they're one blade away from taking damage. This comes into play very often and allows you to easily track a Survivor after damaging them or land the final blade on someone who managed to break line of sight temporarily. A pretty good and simple effect, especially useful if it helps you land blade hits through small gaps (which grants extra style points).",
+            "description": "Cufflinks gouged into the eyes of a sasaeng fan who made the mistake of stalking Ji-Woon.Rubbing off the blood, there is so much to be seen in the glitter. The Auras of Survivors one hit away from maximum Laceration are revealed to you for 6 seconds. \"Shhh... you don't have to see your blood anymore.\" — Ji-Woon Hak",
+            "localMatch": {
+              "addonId": "98af2deb-40ee-482f-8370-9f986043f708",
+              "internalId": "Addon_Trickster_15",
+              "localName": "Diamond Cufflinks",
+              "localImage": "dbd_images/addons/iconaddon_diamondcufflinks.png",
+              "localRarity": "veryrare",
+              "method": "name"
+            }
+          },
+          {
+            "rank": 9,
+            "tierBucket": "good",
+            "name": "Trick Pouch",
+            "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/trickster/trickpouch.png",
+            "otzComment": "Trick Pouch : Increases your blade ammo counter by 8, leading to less frequent reloads and a better ability to pressure Survivors without interruptions. A simple but great effect, especially for beginners that do not always get full value of the Main Event's temporary infinite blades.",
+            "description": "A pouch with a number of hidden pockets.Used by aspiring magicians and those with something to hide. Increases the number of carried Blades by +8.",
+            "localMatch": {
+              "addonId": "1d7e5140-bfc0-4fe4-a041-970fe3968ebd",
+              "internalId": "Addon_Trickster_02",
+              "localName": "Trick Pouch",
+              "localImage": "dbd_images/addons/iconaddon_trickpouch.png",
+              "localRarity": "common",
+              "method": "name"
+            }
+          },
+          {
             "rank": 10,
+            "tierBucket": "good",
+            "name": "Edge of Revival Album",
+            "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/trickster/edgeofrevivalalbum.png",
+            "otzComment": "Edge of Revival Album : Essentially doubles the damage of each blade hit when they're hit from further than 20 meters away. A powerful and certainly map-dependent effect that is best used by experienced players, especially with a good supporting build that provides information or stealth to catch Survivors by surprise.",
+            "description": "The Trickster's debut album.The coarse and vicious tone was met with a mixed reaction from fans despite critical acclaim. Causes Blade hits from more than 20 metres away to deal +100 % more Laceration. \"Your whisper on meWarm as can beBurning each breathTill I can't breathe\" — The Trickster's \"Whispers of Warmth\"",
+            "localMatch": {
+              "addonId": "0fb14773-c2fa-4f29-906e-b94f7de712e7",
+              "internalId": "Addon_Trickster_16",
+              "localName": "Edge of Revival Album",
+              "localImage": "dbd_images/addons/iconaddon_edgeofrevivalalbum.png",
+              "localRarity": "veryrare",
+              "method": "name"
+            }
+          },
+          {
+            "rank": 11,
             "tierBucket": "good",
             "name": "Lucky Blade",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/trickster/luckyblade.png",
@@ -10838,22 +10854,6 @@ var COMMUNITY_CONTENT = {
               "internalId": "Addon_Trickster_07",
               "localName": "Lucky Blade",
               "localImage": "dbd_images/addons/iconaddon_luckyblade.png",
-              "localRarity": "uncommon",
-              "method": "name"
-            }
-          },
-          {
-            "rank": 11,
-            "tierBucket": "good",
-            "name": "Tequila Moonrock",
-            "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/trickster/tequilamoonrock.png",
-            "otzComment": "Tequila Moonrock : Increases the throw rate of blades by a noticeable 8% for a short duration after gaining a style rank point. The effect is noticeable but sometimes triggers at awkward times when you can't really make the most out of it.",
-            "description": "A drink invented in a modest Changwon bar.Became a favourite of Ji-Woon's. Increases the Throw rate by +8 % for 10 seconds after gaining a Style Rank.",
-            "localMatch": {
-              "addonId": "42dc359a-4fb3-4718-a615-43951c0f8e02",
-              "internalId": "Addon_Trickster_09",
-              "localName": "Tequila Moonrock",
-              "localImage": "dbd_images/addons/iconaddon_tequilamoonrock.png",
               "localRarity": "uncommon",
               "method": "name"
             }
@@ -10911,7 +10911,7 @@ var COMMUNITY_CONTENT = {
             "tierBucket": "decent",
             "name": "On Target Single",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/trickster/ontargetsingle.png",
-            "otzComment": "On Target Single : Extends the duration of Main Event, making it about 5% longer for each blade that you hit (0.5s per blade). This could theoretically keep Main Event going for an additional 20 seconds at most. A few extra seconds can still be devastating against Survivors that are grouped up after unhooking (for example), but you'll often find that there's a lot of situations where a longer Main Event is redundant or unnecessary.",
+            "otzComment": "On Target Single : Extends the duration of Main Event, making it about 5% longer for each blade that you hit (0.5s per blade). This could theoretically keep Main Event going for an additional 20 seconds at most. A few extra seconds can still be devastating against Survivors that are grouped up after unhooking (for example), but you'll often find that there are a lot of situations where a longer Main Event is redundant or unnecessary.",
             "description": "An underground single produced by Ji-Woon before achieving fame.Only the biggest NO SPIN fans collected this hidden gem. While in S-Rank, each Blade hit increases the duration of Main Event by 0.5 seconds up to a maximum of 20 seconds.",
             "localMatch": {
               "addonId": "43633561-19fe-40f3-a307-2b7c937231f2",
@@ -10941,22 +10941,6 @@ var COMMUNITY_CONTENT = {
           {
             "rank": 17,
             "tierBucket": "almost-no-effect",
-            "name": "Bloody Boa",
-            "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/trickster/bloodyboa.png",
-            "otzComment": "Bloody Boa : Signicantly extends the rate at which Survivors lose laceration (partial knife damage), although it doesn't seem to have an effect on the first laceration token (only subsequent ones). A simple and useful effect for beginners that might struggle to track Survivors in chase. Just keep in mind that this add-on has bad synergy with the blue Waiting For You Watch and that laceration does not decay at all when you're in S-rank.",
-            "description": "A boa that Ji-Woon draped around a victim's slashed neck.A number of pockets are concealed within it. Decreases the speed at which Laceration decays by -75 %.",
-            "localMatch": {
-              "addonId": "fe8d2585-3242-4527-9ad1-7f6a581f652e",
-              "internalId": "Addon_Trickster_10",
-              "localName": "Bloody Boa",
-              "localImage": "dbd_images/addons/iconaddon_bloodyboa.png",
-              "localRarity": "rare",
-              "method": "name"
-            }
-          },
-          {
-            "rank": 18,
-            "tierBucket": "almost-no-effect",
             "name": "Inferno Wires",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/trickster/infernowires.png",
             "otzComment": "Inferno Wires : Increases the time before S-rank decreases by about 12 seconds. However, the normal S-rank timer is already very generous and these extra few seconds rarely make a difference unless you really need to delay using Main Event for some reason. You might choose to run this add-on if you're trying to extend the S-rank duration to benefit from another add-on such as the blue Ripper Brace.",
@@ -10967,6 +10951,22 @@ var COMMUNITY_CONTENT = {
               "localName": "Inferno Wires",
               "localImage": "dbd_images/addons/iconaddon_infernowires.png",
               "localRarity": "common",
+              "method": "name"
+            }
+          },
+          {
+            "rank": 18,
+            "tierBucket": "almost-no-effect",
+            "name": "Bloody Boa",
+            "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/trickster/bloodyboa.png",
+            "otzComment": "Bloody Boa : Signicantly extends the rate at which Survivors lose laceration (partial knife damage), although it doesn't seem to have an effect on the first laceration token (only subsequent ones). A simple and useful effect for beginners that might struggle to track Survivors in chase. Just keep in mind that this add-on has bad synergy with the blue Waiting For You Watch and that laceration does not decay at all when you're in S-rank.",
+            "description": "A boa that Ji-Woon draped around a victim's slashed neck.A number of pockets are concealed within it. Decreases the speed at which Laceration decays by -75 %.",
+            "localMatch": {
+              "addonId": "fe8d2585-3242-4527-9ad1-7f6a581f652e",
+              "internalId": "Addon_Trickster_10",
+              "localName": "Bloody Boa",
+              "localImage": "dbd_images/addons/iconaddon_bloodyboa.png",
+              "localRarity": "rare",
               "method": "name"
             }
           },
@@ -11009,6 +11009,42 @@ var COMMUNITY_CONTENT = {
             "label": "Best Combo",
             "addonRanks": [
               1,
+              4
+            ],
+            "addons": [
+              {
+                "rank": 1,
+                "name": "Iridescent Photocard",
+                "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/trickster/iridescentphotocard.png",
+                "localMatch": {
+                  "addonId": "fb459cb8-ee6b-4a53-9148-ea876726ad24",
+                  "internalId": "Addon_Trickster_20",
+                  "localName": "Iridescent Photocard",
+                  "localImage": "dbd_images/addons/iconaddon_iridescentphotocard.png",
+                  "localRarity": "visceral",
+                  "method": "name"
+                }
+              },
+              {
+                "rank": 4,
+                "name": "Cut Thru U Single",
+                "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/trickster/cutthruusingle.png",
+                "localMatch": {
+                  "addonId": "02261a03-f8e7-464c-a5e8-175cfa074e4e",
+                  "internalId": "Addon_Trickster_18",
+                  "localName": "Cut Thru U Single",
+                  "localImage": "dbd_images/addons/iconaddon_cutthruusingle.png",
+                  "localRarity": "veryrare",
+                  "method": "name"
+                }
+              }
+            ]
+          },
+          {
+            "tier": "solid",
+            "label": "Solid Combo",
+            "addonRanks": [
+              1,
               2
             ],
             "addons": [
@@ -11027,29 +11063,6 @@ var COMMUNITY_CONTENT = {
               },
               {
                 "rank": 2,
-                "name": "Cut Thru U Single",
-                "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/trickster/cutthruusingle.png",
-                "localMatch": {
-                  "addonId": "02261a03-f8e7-464c-a5e8-175cfa074e4e",
-                  "internalId": "Addon_Trickster_18",
-                  "localName": "Cut Thru U Single",
-                  "localImage": "dbd_images/addons/iconaddon_cutthruusingle.png",
-                  "localRarity": "veryrare",
-                  "method": "name"
-                }
-              }
-            ]
-          },
-          {
-            "tier": "solid",
-            "label": "Solid Combo",
-            "addonRanks": [
-              4,
-              6
-            ],
-            "addons": [
-              {
-                "rank": 4,
                 "name": "Death Throes Compilation",
                 "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/trickster/deaththroescompilation.png",
                 "localMatch": {
@@ -11058,19 +11071,6 @@ var COMMUNITY_CONTENT = {
                   "localName": "Death Throes Compilation",
                   "localImage": "dbd_images/addons/iconaddon_deaththroescompilation.png",
                   "localRarity": "visceral",
-                  "method": "name"
-                }
-              },
-              {
-                "rank": 6,
-                "name": "Diamond Cufflinks",
-                "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/trickster/diamondcufflinks.png",
-                "localMatch": {
-                  "addonId": "98af2deb-40ee-482f-8370-9f986043f708",
-                  "internalId": "Addon_Trickster_15",
-                  "localName": "Diamond Cufflinks",
-                  "localImage": "dbd_images/addons/iconaddon_diamondcufflinks.png",
-                  "localRarity": "veryrare",
                   "method": "name"
                 }
               }
@@ -11086,19 +11086,6 @@ var COMMUNITY_CONTENT = {
             "addons": [
               {
                 "rank": 7,
-                "name": "Trick Pouch",
-                "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/trickster/trickpouch.png",
-                "localMatch": {
-                  "addonId": "1d7e5140-bfc0-4fe4-a041-970fe3968ebd",
-                  "internalId": "Addon_Trickster_02",
-                  "localName": "Trick Pouch",
-                  "localImage": "dbd_images/addons/iconaddon_trickpouch.png",
-                  "localRarity": "common",
-                  "method": "name"
-                }
-              },
-              {
-                "rank": 9,
                 "name": "Killing Part Chords",
                 "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/trickster/killingpartchords.png",
                 "localMatch": {
@@ -11106,6 +11093,19 @@ var COMMUNITY_CONTENT = {
                   "internalId": "Addon_Trickster_03",
                   "localName": "Killing Part Chords",
                   "localImage": "dbd_images/addons/iconaddon_killingpartchords.png",
+                  "localRarity": "common",
+                  "method": "name"
+                }
+              },
+              {
+                "rank": 9,
+                "name": "Trick Pouch",
+                "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/trickster/trickpouch.png",
+                "localMatch": {
+                  "addonId": "1d7e5140-bfc0-4fe4-a041-970fe3968ebd",
+                  "internalId": "Addon_Trickster_02",
+                  "localName": "Trick Pouch",
+                  "localImage": "dbd_images/addons/iconaddon_trickpouch.png",
                   "localRarity": "common",
                   "method": "name"
                 }
@@ -11117,7 +11117,7 @@ var COMMUNITY_CONTENT = {
             "label": "Fun Combo",
             "addonRanks": [
               3,
-              5
+              8
             ],
             "addons": [
               {
@@ -11134,15 +11134,15 @@ var COMMUNITY_CONTENT = {
                 }
               },
               {
-                "rank": 5,
-                "name": "Ripper Brace",
-                "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/trickster/ripperbrace.png",
+                "rank": 8,
+                "name": "Diamond Cufflinks",
+                "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/trickster/diamondcufflinks.png",
                 "localMatch": {
-                  "addonId": "faedb603-17ce-44cd-9e26-3b7cc0d85cf3",
-                  "internalId": "Addon_Trickster_13",
-                  "localName": "Ripper Brace",
-                  "localImage": "dbd_images/addons/iconaddon_ripperbrace.png",
-                  "localRarity": "rare",
+                  "addonId": "98af2deb-40ee-482f-8370-9f986043f708",
+                  "internalId": "Addon_Trickster_15",
+                  "localName": "Diamond Cufflinks",
+                  "localImage": "dbd_images/addons/iconaddon_diamondcufflinks.png",
+                  "localRarity": "veryrare",
                   "method": "name"
                 }
               }
@@ -11277,7 +11277,7 @@ var COMMUNITY_CONTENT = {
             "tierBucket": "decent",
             "name": "Iridescent Umbrella Badge",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/nemesis/iridescentumbrellabadge.png",
-            "otzComment": "Iridescent Umbrella Badge : Inflicts any Survivor that is vaccinated with the Exposed status effect for 60 seconds, making them vulnerable to being instantly downed. This effect is quite powerful in the right circumstances and might catch someone by surprise, but it's still quite situational. Many times, a vaccinated Survivor will be too far out of reach or will already be injured. Even if Survivors become aware of its presence, this add-on can still passively put pressure of them by preventing them from using vaccines and immediately being altruistic near you.",
+            "otzComment": "Iridescent Umbrella Badge : Inflicts any Survivor that is vaccinated with the Exposed status effect for 60 seconds, making them vulnerable to being instantly downed. This effect is quite powerful in the right circumstances and might catch someone by surprise, but it's still quite situational. Many times, a vaccinated Survivor will be too far out of reach or will already be injured. Even if Survivors become aware of its presence, this add-on can still passively put pressure on them by preventing them from using vaccines and immediately being altruistic near you.",
             "description": "A glass-like badge moulded from The Fog itself.It represents a corporation that pushed far beyond ethical and humane science. Survivors suffer from the Exposed Status Effect for 60 seconds after using a Vaccine. \"Commitment, honesty, integrity. These are the core values that create the foundation of Umbrella Corp.\" — Doctor Matt Gorkis",
             "localMatch": {
               "addonId": "5e7a6262-5350-47da-8d91-5a153b2bc13e",
@@ -11820,7 +11820,7 @@ var COMMUNITY_CONTENT = {
             "tierBucket": "almost-no-effect",
             "name": "Torture Pillar",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/pinhead/torturepillar.png",
-            "otzComment": "Torture Pillar : Shortens the timer before the box activates and the Chain Hunt commences by 6 seconds. This is a very simple and passive effect that can beginners might find appealing, but its actual value is too small to really be worth running at higher levels. Can be stacked with its brown counterpart, but even then, the effect is very miniscule.",
+            "otzComment": "Torture Pillar : Shortens the timer before the box activates and the Chain Hunt commences by 6 seconds. This is a very simple and passive effect that beginners might find appealing, but its actual value is too small to really be worth running at higher levels. Can be stacked with its brown counterpart, but even then, the effect is very miniscule.",
             "description": "A dangling slab covered in the gore of past victims. Reduces the Timer duration for starting a Chain Hunt by -6 seconds. \"This isn't for your eyes.\" — Pinhead",
             "localMatch": {
               "addonId": "ee96993a-e3fc-4c7e-bc32-333c5c4d4cd2",
@@ -11884,7 +11884,7 @@ var COMMUNITY_CONTENT = {
             "tierBucket": "almost-no-effect",
             "name": "Burning Candle",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/pinhead/burningcandle.png",
-            "otzComment": "Burning Candle : Shortens the timer before the box activates and the Chain Hunt commences by 3 seconds. This is a very simple and passive effect that can beginners might find appealing, but its actual value is too small to really be worth running at higher levels. Can be stacked with its blue counterpart, but even then, the effect is very miniscule.",
+            "otzComment": "Burning Candle : Shortens the timer before the box activates and the Chain Hunt commences by 3 seconds. This is a very simple and passive effect that beginners might find appealing, but its actual value is too small to really be worth running at higher levels. Can be stacked with its blue counterpart, but even then, the effect is very miniscule.",
             "description": "A candle lit by Frank Cotton during a fatal summoning ceremony. Reduces the Timer duration for starting a Chain Hunt by -3 seconds.",
             "localMatch": {
               "addonId": "a54946fd-3f92-4963-ae4a-9503dfcd153e",
@@ -11916,7 +11916,7 @@ var COMMUNITY_CONTENT = {
             "tierBucket": "almost-no-effect",
             "name": "Larry's Blood",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/pinhead/larrysblood.png",
-            "otzComment": "Larry's Blood : Increases the maximum distance that your Possessed Chain can travel before disappearing by a small margin (4 meters). Hitting Survivors with a long distance chain is typically a very risky and pointless idea, since it's much safer to spawn the chain near them and then hit them from up close. There are very exceptions to this rule and even in those situations the extra 4 meters is still not that impactful. Needless to say, this add-on has basically zero effect during normal chases and can even be detrimental if you accidentally miss a chain into the sky, as it will take longer to disappear and waste additional time. Keep in mind that your Possessed Chain accelerates and gains speed over time, so it's very difficult to control it accurately over a long distance. If you want an add-on that helps you to interrupt Survivors from afar, Frank's Heart is the superior choice.",
+            "otzComment": "Larry's Blood : Increases the maximum distance that your Possessed Chain can travel before disappearing by a small margin (4 meters). Hitting Survivors with a long distance chain is typically a very risky and pointless idea, since it's much safer to spawn the chain near them and then hit them from up close. There are very few exceptions to this rule and even in those situations the extra 4 meters is still not that impactful. Needless to say, this add-on has basically zero effect during normal chases and can even be detrimental if you accidentally miss a chain into the sky, as it will take longer to disappear and waste additional time. Keep in mind that your Possessed Chain accelerates and gains speed over time, so it's very difficult to control it accurately over a long distance. If you want an add-on that helps you to interrupt Survivors from afar, Frank's Heart is the superior choice.",
             "description": "The blood of Larry Cotton, which partially resurrected his brother Frank. Increases the maximum range of the Possessed Chain by +4 metres.",
             "localMatch": {
               "addonId": "746fd708-8b49-4316-991c-44101a4c8c2d",
@@ -12122,7 +12122,7 @@ var COMMUNITY_CONTENT = {
             "tierBucket": "strongest",
             "name": "Severed Hands",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/artist/severedhands.png",
-            "otzComment": "Severed Hands : Swarmed Survivors now contaminate and spread the swarm to any other nearby Survivor. This is an incredibly powerful effect with several implications. First, it now becomes possible to swarm multiple Survivors with a single bird, allowing you to do a quick follow up and potentially damaging multiple Survivors at once as a result. Normally, this would be impossible since you'd need to use more than one bird and have a very long cooldown as a result. This add-on also allows you to damage grouped Survivors with only two birds that are slightly spaced apart; the first bird will hit a Survivor and swarm them both, and then the second bird will go through the first Survivor (since they have a brief immunity that protects from being hit again too soon) and injure the second Survivor (which does not have any immunity if swarmed by the effects of this add-on). This add-on also makes it very easy for Survivors that repel a swarm to become swarmed immediately if they accidentally get to close to someone else. This makes it almost impossible to be altruistic since Survivors will constantly reset each other's swarm timers.",
+            "otzComment": "Severed Hands : Swarmed Survivors now contaminate and spread the swarm to any other nearby Survivor. This is an incredibly powerful effect with several implications. First, it now becomes possible to swarm multiple Survivors with a single bird, allowing you to do a quick follow up and potentially damaging multiple Survivors at once as a result. Normally, this would be impossible since you'd need to use more than one bird and have a very long cooldown as a result. This add-on also allows you to damage grouped Survivors with only two birds that are slightly spaced apart; the first bird will hit a Survivor and swarm them both, and then the second bird will go through the first Survivor (since they have a brief immunity that protects from being hit again too soon) and injure the second Survivor (which does not have any immunity if swarmed by the effects of this add-on). This add-on also makes it very easy for Survivors that repel a swarm to become swarmed immediately if they accidentally get too close to someone else. This makes it almost impossible to be altruistic since Survivors will constantly reset each other's swarm timers.",
             "description": "Carmina's severed hands, cut from her arms shortly before her death.The sight brings sheer fury to her and her protectors. Causes Survivors coming within 3 metres of Swarmed Survivors to become swarmed too. \"How are you going to paint now?\" — Hooded Man",
             "localMatch": {
               "addonId": "d90d3dd8-aad2-479d-81a8-23d5ee917aa1",
@@ -12138,7 +12138,7 @@ var COMMUNITY_CONTENT = {
             "tierBucket": "strongest",
             "name": "Matias' Baby Shoes",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/artist/matiasbabyshoes.png",
-            "otzComment": "Matias' Baby Shoes : Shows the aura of any Survivor within proximity to a placed Dire Crow. This makes your birds extremely deadly even in loops with very limited visibility. It also completely reduces the need to guess a Survivor location, allowing you place very threatening birds aimed at windows and other chokepoints. Since the detection range is pretty generous and lingers for a brief time, you can also use birds to help you track Survivors in certain structures. For example, a bird placed on the bottom floor will sometimes reveal the aura of a Survivor on the floor above. Overall, this is a very deadly add-on that removes a huge element of counterplay from the Artist's gameplay. Be careful when dealing with Survivors with perks that hide their aura, however.",
+            "otzComment": "Matias' Baby Shoes : Shows the aura of any Survivor within proximity to a placed Dire Crow. This makes your birds extremely deadly even in loops with very limited visibility. It also completely reduces the need to guess a Survivor's location, allowing you to place very threatening birds aimed at windows and other chokepoints. Since the detection range is pretty generous and lingers for a brief time, you can also use birds to help you track Survivors in certain structures. For example, a bird placed on the bottom floor will sometimes reveal the aura of a Survivor on the floor above. Overall, this is a very deadly add-on that removes a huge element of counterplay from the Artist's gameplay. Be careful when dealing with Survivors with perks that hide their aura, however.",
             "description": "A grieving reminder to Carmina that Matias would be with her, always watching. The Auras of Survivors within 5 metres of idle Dire Crows are revealed to you for 3 seconds. \"See you soon, Matias.\" — Carmina Mora",
             "localMatch": {
               "addonId": "d12c26f2-44b0-4f0e-bfb8-6475e47a2993",
@@ -12234,7 +12234,7 @@ var COMMUNITY_CONTENT = {
             "tierBucket": "good",
             "name": "Thorny Nest",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/artist/thornynest.png",
-            "otzComment": "Thorny Nest : Inflicts a temporary Mangled and Haemorrhage to any Survivor hit by a bird. This is pretty helpful, especially when you consider that it lingers enough to affect a Survivor after they get rescued from a hook.",
+            "otzComment": "Thorny Nest : Inflicts temporary Mangled and Haemorrhage effects to any Survivor hit by a bird. This is pretty helpful, especially when you consider that it lingers enough to affect a Survivor after they get rescued from a hook.",
             "description": "A nest that remained empty near Carmina's home.There are sharp thorns embedded in it. Survivors suffer from the Haemorrhage and Mangled Status Effects for 70 seconds after being damaged by Dire Crows.",
             "localMatch": {
               "addonId": "aed586a1-d224-41db-ae77-55e506c8b69f",
@@ -12250,7 +12250,7 @@ var COMMUNITY_CONTENT = {
             "tierBucket": "good",
             "name": "Untitled Agony",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/artist/untitledagony.png",
-            "otzComment": "Untitled Agony : Inflicts a brief but powerful Hindered status effect on any Survivor swarmed by any means. This effect is almost always helpful and can actually make a difference in certain loops, turning them completely unsafe. Since the Artist herself is also slowed down when firing a bird, you might find it useful to pair this add-on with the purple Severed Tongue or even placing the bird at the loop preemptively, similar to what you would do with Freddy snares or Clown bottles.",
+            "otzComment": "Untitled Agony : Inflicts a brief but powerful Hindered status effect on any Survivor swarmed by any means. This effect is almost always helpful and can actually make a difference in certain loops, turning them completely unsafe. Since the Artist herself is also slowed down when firing a bird, you might find it useful to pair this add-on with the purple Severed Tongue or even placing the bird at the loop preemptively, similar to what you would do with Clown bottles.",
             "description": "A canvas that was targeted with swipes and trashes of black paint following Matias' death.It radiates with heavy, crippling sorrow. Swarmed Survivors suffer from a -15 % Hindered Status Effect for 1.5 seconds.",
             "localMatch": {
               "addonId": "c94ec712-1a1d-4474-a347-a3cfb5a344d0",
@@ -12266,7 +12266,7 @@ var COMMUNITY_CONTENT = {
             "tierBucket": "decent",
             "name": "Silver Bell",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/artist/silverbell.png",
-            "otzComment": "Silver Bell : Makes swarmed Survivors oblivious until they repel the birds. This generally doesn't have a huge impact in chase, but it can be used to confuse distant Survivors that don't have a direct line of sight with you. Since they don't hear the terror radius briefly, it might be difficult for them to be sure about your location. Not a terribly powerful effect, especially against coordinated the teams, but it can catch people by surprise from time to time.",
+            "otzComment": "Silver Bell : Makes swarmed Survivors oblivious until they repel the birds. This generally doesn't have a huge impact in chase, but it can be used to confuse distant Survivors that don't have a direct line of sight with you. Since they don't hear the terror radius briefly, it might be difficult for them to be sure about your location. Not a terribly powerful effect, especially against coordinated teams, but it can catch people by surprise from time to time.",
             "description": "A shiny trinket that a crow took a liking to.The clinking of the bell was a distraction to everyone but Carmina. Swarmed Survivors suffer from the Oblivious Status Effect.",
             "localMatch": {
               "addonId": "f39dba55-b817-4c5e-b034-68c2a245ee13",
@@ -12282,7 +12282,7 @@ var COMMUNITY_CONTENT = {
             "tierBucket": "decent",
             "name": "O Grief, O Lover",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/artist/ogriefolover.png",
-            "otzComment": "O Grief, O Lover : Inflicts Survivors with the Exhaustion status effect while they're swarmed. Since it doesn't have a lingering duration, this effect can be easily removed and doesn't provide from value if you hit Survivors from afar. However, it can be very useful in chase to deny a Survivor the ability to trigger certain perks such as \"Balanced Landing\" or \"Lithe\" right before they can use them. It can also be used to completely outplay perks such as \"Dead Hard\" or \"Overcome\" before they even have a chance to be used. Definitely situational, but a nice effect nonetheless.",
+            "otzComment": "O Grief, O Lover : Inflicts Survivors with the Exhaustion status effect while they're swarmed. Since it doesn't have a lingering duration, this effect can be easily removed and doesn't provide value if you hit Survivors from afar. However, it can be very useful in chase to deny a Survivor the ability to trigger certain perks such as \"Balanced Landing\" or \"Lithe\" right before they can use them. It can also be used to completely outplay perks such as \"Dead Hard\" or \"Overcome\" before they even have a chance to be used. Definitely situational, but a nice effect nonetheless.",
             "description": "An abstract ink drawing that Carmina drew before walking to the Death Leap. Swarmed Survivors suffer from the Exhausted Status Effect.",
             "localMatch": {
               "addonId": "2293c3af-45b7-4f49-819f-0540f468d401",
@@ -12298,7 +12298,7 @@ var COMMUNITY_CONTENT = {
             "tierBucket": "decent",
             "name": "Ink Egg",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/artist/inkegg.png",
-            "otzComment": "Ink Egg : Allows you to place one extra Dire Crow, up to four in total. However, placing an extra bird still takes time and also results in an even longer cooldown. The add-on also has a penalty to the timer before a bird disintegrates. Overall, there's very few situations where having so many birds is useful, making this add-on quite situational. It can be helpful when you're just trying to find someone (since you want to send out as many brids as possible for a chance to detect a Survivor) and also in situations where a Survivor doesn't have time to remove their swarm at all and you want to ensure that at least one bird will hit.",
+            "otzComment": "Ink Egg : Allows you to place one extra Dire Crow, up to four in total. However, placing an extra bird still takes time and also results in an even longer cooldown. The add-on also has a penalty to the timer before a bird disintegrates. Overall, there are very few situations where having so many birds is useful, making this add-on quite situational. It can be helpful when you're just trying to find someone (since you want to send out as many brids as possible for a chance to detect a Survivor) and also in situations where a Survivor doesn't have time to remove their swarm at all and you want to ensure that at least one bird will hit.",
             "description": "An unusual egg that seems to be nothing but a ball of semi-solid ink. Increases the number of summonable Dire Crows by +1. Reduces the Timer before idle Dire Crows disintegrate by -2 seconds. \"Perhaps, covered in darkness as I was, they saw me as one of their own.\" — Carmina Mora",
             "localMatch": {
               "addonId": "da839844-fcc6-4aeb-acbc-5e67ffab0e16",
@@ -12362,7 +12362,7 @@ var COMMUNITY_CONTENT = {
             "tierBucket": "almost-no-effect",
             "name": "Darkest Ink",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/artist/darkestink.png",
-            "otzComment": "Darkest Ink : Inflicts the Blindness status effect for a brief time when swarming Survivors with birds. Can be useful to deny a Survivor the ability use aura reading during chase, from perks such as \"Windows of Opportunity\" or keys. Its very short duration unfortunately keeps it from being useful in almost any other scenario. Overall, not a very impactful add-on.",
+            "otzComment": "Darkest Ink : Inflicts the Blindness status effect for a brief time when swarming Survivors with birds. Can be useful to deny a Survivor the ability to use aura reading during chase, from perks such as \"Windows of Opportunity\" or keys. Its very short duration unfortunately keeps it from being useful in almost any other scenario. Overall, not a very impactful add-on.",
             "description": "An unnatural ink, so wretched and dark that it seems to pull in light around it. Swarmed Survivors suffer from the Blindness Status Effect. This effect lingers for 15 seconds after repelling the Swarm.",
             "localMatch": {
               "addonId": "7aefd060-e674-4278-970c-8341f1ab5b23",
@@ -12394,7 +12394,7 @@ var COMMUNITY_CONTENT = {
             "tierBucket": "almost-no-effect",
             "name": "Choclo Corn",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/artist/choclocorn.png",
-            "otzComment": "Choclo Corn : Extending the time that Dire Crows stay active can sometimes be helpful sometimes, but in most cases this can actually hurt you. In some instances, it's better to let your birds expire so that you get your power back sooner. With this add-on, you'll need to wait extra time or shoot the bird yourself to begint the cooldown. If more than one bird is shot at once, this cooldown is pretty long and will hurt your ability to pressure Survivors.",
+            "otzComment": "Choclo Corn : Extending the time that Dire Crows stay active can sometimes be helpful, but in most cases this can actually hurt you. In some instances, it's better to let your birds expire so that you get your power back sooner. With this add-on, you'll need to wait extra time or shoot the bird yourself to begin the cooldown. If more than one bird is shot at once, this cooldown is pretty long and will hurt your ability to pressure Survivors.",
             "description": "A type of corn common in South America.A few kernels are reason enough for a crow to stop for a snack. Increases the Timer before idle Dire Crows disintegrate by +2 seconds.",
             "localMatch": {
               "addonId": "7d15546d-e17a-44fa-85cb-57da6634d07a",
@@ -12410,7 +12410,7 @@ var COMMUNITY_CONTENT = {
             "tierBucket": "almost-no-effect",
             "name": "Still Life Crow",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/artist/stilllifecrow.png",
-            "otzComment": "Still Life Crow : Extending the time that Dire Crows stay active can sometimes be helpful sometimes, but in most cases this can actually hurt you. In some instances, it's better to let your birds expire so that you get your power back sooner. With this add-on, you'll need to wait extra time or shoot the bird yourself to begin the cooldown. If more than one bird is shot at once, this cooldown is pretty long and will hurt your ability to pressure Survivors.",
+            "otzComment": "Still Life Crow : Extending the time that Dire Crows stay active can be helpful sometimes, but in most cases this can actually hurt you. In some instances, it's better to let your birds expire so that you get your power back sooner. With this add-on, you'll need to wait extra time or shoot the bird yourself to begin the cooldown. If more than one bird is shot at once, this cooldown is pretty long and will hurt your ability to pressure Survivors.",
             "description": "An ink drawing of a dead crow.Carmina's sadness over its death can be felt with each dark line. Increases the Timer before idle Dire Crows disintegrate by +4 seconds.",
             "localMatch": {
               "addonId": "0ca3dc84-69b0-47a9-b206-a4d3dce4bc15",
@@ -12426,7 +12426,7 @@ var COMMUNITY_CONTENT = {
             "tierBucket": "detrimental",
             "name": "Charcoal Stick",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/artist/charcoalstick.png",
-            "otzComment": "Charcoal Stick : Removes the visual trail that Dire Crows produce when they fly, making them slightly harder to see coming when they're fired from a distance. This effect would be decent by itself but unfortunately this add-on comes with an incredibly awful downside. When placing any birds, their auras will be visible to all Survivors briefly. This makes your power much easier to outplay in general. With this add-on, it basically becomes impossible to trick Survivors into dodging in the wrong direction since they'll see exactly where your birds are aimed at even if you placed them behind a wall. Overall, an absolutely horrible add-on that should be avoided at all costs. If you want to use birds for long distance shots there are much better and cheaper alternatives such as the blue Velvet Fabric or the Festering Carrion.",
+            "otzComment": "Charcoal Stick : Removes the visual trail that Dire Crows produce when they fly, making it slightly harder to see them coming when they're fired from a distance. This effect would be decent by itself but unfortunately this add-on comes with an incredibly awful downside. When placing any birds, their auras will be visible to all Survivors briefly. This makes your power much easier to outplay in general. With this add-on, it basically becomes impossible to trick Survivors into dodging in the wrong direction since they'll see exactly where your birds are aimed at even if you placed them behind a wall. Overall, an absolutely horrible add-on that should be avoided at all costs. If you want to use birds for long distance shots there are much better and cheaper alternatives such as the blue Velvet Fabric or the Festering Carrion.",
             "description": "A stick of charcoal that conceals anything it rubs over. The Auras Dire Crows mid-flight are no longer visible to Survivors. The Auras of Dire Crows are visible to Survivors for 0.5 seconds after summoning them.",
             "localMatch": {
               "addonId": "8d051383-c99e-4e03-bf25-c688070a721c",
@@ -12649,7 +12649,7 @@ var COMMUNITY_CONTENT = {
             "tierBucket": "good",
             "name": "Reiko's Watch",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/onryo/reikoswatch.png",
-            "otzComment": "Reiko's Watch : Slightly increases the flickering invisibility that occurs periodically while you're demanifested. With this add-on, the invisibility lasts long enough to actually confuse Survivors and make them walk into you at smaller loops if you time your movements correctly. Definetely not suited for beginners that still need to learn how to pull this off, but quite strong in the hands of experienced players that know how to fully utilize it. Unfortunately, due to a current bug, the effect of this add-on is smaller than it should be and the invisibility that you see from your point of view as the Killer doesn't exactly match what Survivors see on their screen.",
+            "otzComment": "Reiko's Watch : Slightly increases the flickering invisibility that occurs periodically while you're demanifested. With this add-on, the invisibility lasts long enough to consistently confuse Survivors and make them walk into you at smaller loops if you time your movements correctly. Definetely not suited for beginners that still need to learn how to pull this off, but quite strong in the hands of experienced players that know how to fully utilize it.",
             "description": "The watch that Reiko left her son Yoichi.A distracting and constant reminder of one's impending doom. Increases the duration of your full Invisibility while Demanifested by +25 %.",
             "localMatch": {
               "addonId": "9ca6cb73-ca3d-4d33-ac03-fe81dea3bc20",
@@ -12745,8 +12745,8 @@ var COMMUNITY_CONTENT = {
             "tierBucket": "decent",
             "name": "Well Stone",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/onryo/wellstone.png",
-            "otzComment": "Well Stone : Reduces the cooldown of TVs (by 10%), making them activate again sooner after being turned off by a Survivor (normally 70 seconds). Quite a passive effect, but not terrible for its rarity.",
-            "description": "A piece of the well where Sadako was trapped, an image burned into the mind of all those who have watched the tape. Reduces the time it takes for TVs to turn back on after Projection by -7 seconds.",
+            "otzComment": "Well Stone : Reduces the cooldown of TVs by -7 seconds (10%), making them activate again sooner after being turned off by a Survivor (normally 70 seconds). This effect will not trigger often if you're playing her very aggressively and teleporting to TVs a lot to build up condemn, but it can help you pressure Survivors sooner if they manage to turn a few TVs off while you were busy doing something else.",
+            "description": "A piece of the well where Sadako was trapped, an image burned into the mind of all those who have watched the tape. Reduces the time it takes for TVs to turn back on after being turned off by a Survivor by -7 seconds.",
             "localMatch": {
               "addonId": "c5158a73-9e87-4262-8f2e-3189cd1ad0bf",
               "internalId": "Addon_TheOnryo_08",
@@ -12761,7 +12761,7 @@ var COMMUNITY_CONTENT = {
             "tierBucket": "decent",
             "name": "Cabin Sign",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/onryo/cabinsign.png",
-            "otzComment": "Cabin Sign : Reduces the cooldown of TVs (by 10%), making them activate again sooner after teleporting to them (normally 45 seconds). Not a bad effect for its rarity.",
+            "otzComment": "Cabin Sign : Reduces the cooldown of TVs by 4.5 seconds (10%), making them activate again sooner after teleporting to them yourself (normally 45 seconds). Not a bad effect for its rarity.",
             "description": "The cabin where both Tomoko and Reiko watched the tape.Carries the memory of those first curses. Reduces the time it takes for TVs to turn back on after Projection by -4.5 seconds.",
             "localMatch": {
               "addonId": "9b9d22f5-d061-403a-8fb8-4dc76bdaa76e",
@@ -12777,7 +12777,7 @@ var COMMUNITY_CONTENT = {
             "tierBucket": "almost-no-effect",
             "name": "Distorted Photo",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/onryo/distortedphoto.png",
-            "otzComment": "Distorted Photo : Nearby Survivors will scream and briefly have their aura revealed for 4 seconds if they're looking at you when you manifest. This effect can occasionally help you discover or keep track of Survivors that run out of line of sight, but it's otherwise quite gimmicky. Very occasionally, you might find yourself able to interrupt a Survivor inserting a tape or doing some other critical action, although the scream itself doesn't prevent them from using pallets or windows in chase.",
+            "otzComment": "Distorted Photo : Nearby Survivors will scream and briefly have their auras revealed for 4 seconds if they're looking at you when you manifest. This effect can occasionally help you discover or keep track of Survivors that run out of line of sight, but it's otherwise quite gimmicky. Very occasionally, you might find yourself able to interrupt a Survivor inserting a tape or doing some other critical action, although the scream itself doesn't prevent them from using pallets or windows in chase.",
             "description": "Those who have watched the tape find all photos of themselves distorted, a reminder of their impending doom. Causes all Survivors within 16 metres of your location who witness your Manifestation to scream and reveal their Auras for 4 seconds. \"Why is it only you were saved?\" — Sadaoka Yamamura",
             "localMatch": {
               "addonId": "04d99a27-0c77-47f5-ae49-d5d8e316c3d1",
@@ -12809,7 +12809,7 @@ var COMMUNITY_CONTENT = {
             "tierBucket": "almost-no-effect",
             "name": "Rickety Pinwheel",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/onryo/ricketypinwheel.png",
-            "otzComment": "Rickety Pinwheel : Inflicts Survivors with the Oblivious status effect when within 8m of a powered TV, which lingers for an additional 7 seconds after they leave its radius. Not a terribly impactful add-on, especially considering that Sadako has her own lullaby-type sound that will always give away your approach. This add-on might also have the downside of making Survivors more aware of the presence of powered TVs and thus encourage them to disable them even more.",
+            "otzComment": "Rickety Pinwheel : Inflicts Survivors with the Oblivious status effect when within 8m of a powered TV, which lingers for an additional 7 seconds after they leave its radius. Not a terribly impactful add-on, especially considering that Sadako has her own lullaby-type sound that will always give away your approach. This add-on might also have the downside of making Survivors more aware of the presence of powered TVs and thus encourage to disable them even more.",
             "description": "A pinwheel found in the caves of Izu Oshima.It spins even when there is no wind, disorienting those who see or hear it. Survivors suffer from the Oblivious Status Effect when within 8 metres of powered TVs. This effect lingers for 7 seconds after turning off a TV.",
             "localMatch": {
               "addonId": "7e37a37d-7f99-4585-9691-8523be3e63ac",
@@ -12825,7 +12825,7 @@ var COMMUNITY_CONTENT = {
             "tierBucket": "almost-no-effect",
             "name": "Sea-Soaked Cloth",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/onryo/seasoakedcloth.png",
-            "otzComment": "Sea-Soaked Cloth : Inflicts Survivors with the Blindness status effect when within 8m of a powered TV, which lingers for an additional 7 seconds after they leave its radius. Not a terribly impactful add-on, and might even have the downside of making Survivors more aware of the presence of powered TVs and thus encourage them to disable them even more.",
+            "otzComment": "Sea-Soaked Cloth : Inflicts Survivors with the Blindness status effect when within 8m of a powered TV, which lingers for an additional 7 seconds after they leave its radius. Not a terribly impactful add-on, and might even have the downside of making Survivors more aware of the presence of powered TVs and thus encourage to disable them even more.",
             "description": "The hood worn by the mysterious figure in the tape.Makes those near it unable to trust what they see. Survivors suffer from the Blindness Status Effect when within 8 metres of powered TVs. This effect lingers for 7 seconds after turning off a TV.",
             "localMatch": {
               "addonId": "21957867-a4dd-4911-9785-08f00933840e",
@@ -12841,7 +12841,7 @@ var COMMUNITY_CONTENT = {
             "tierBucket": "almost-no-effect",
             "name": "Telephone",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/onryo/telephone.png",
-            "otzComment": "Telephone : When demanfesting within 7 meters of a Survivor, this add-on inflicts with an extremely brief and small hindered effect (-3% speed for 3 seconds). This should help you close the gap and make certain hits easier to land, but the effect itself is so tiny that it's honestly hard to even tell when it has made an actual difference.",
+            "otzComment": "Telephone : When demanifesting within 7 meters of a Survivor, this add-on inflicts them with an extremely brief and small hindered effect (-3% speed for 3 seconds). This should help you close the gap and make certain hits easier to land, but the effect itself is so tiny that it's honestly hard to even tell when it has made an actual difference.",
             "description": "After watching the video, victims receive a phone call.They are frozen in fear as they realise they have seven days left to live. Survivors suffer from a -3 % Hindered Status Effect for 3 seconds when Manifesting within 7 metres of them. \"I saw a weird video the other day... after it ended, someone called us. Some kind of prank call.\" — Tomoko Oishi",
             "localMatch": {
               "addonId": "1b045149-70e5-4543-a219-d3afaa16adfe",
@@ -12889,7 +12889,7 @@ var COMMUNITY_CONTENT = {
             "tierBucket": "almost-no-effect",
             "name": "Tape Editing Deck",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/onryo/tapeeditingdeck.png",
-            "otzComment": "Tape Editing Deck : Makes all Survivors start with a tape on their hand that they must deliver to the furthest spawned TV, and also reveals their auras whenever they successfully insert a tape into a TV to remove their condemn. The aura reveal effect is slightly redundant but not too bad. Making all Survivors start with a tape, however, is generally a detrimental effect that makes it easier for them to immedialy begin to undo any condemn they might have gained. Arguably, you could use this add-on to easily figure out someone's target TV that they need to reach and play defensive around it, but risk and reward of this strategy isn't always favorable. Definitely stay away from this add-on unless you know what you're doing.",
+            "otzComment": "Tape Editing Deck : Makes all Survivors start with a tape on their hand that they must deliver to the furthest spawned TV, and also reveals their auras whenever they successfully insert a tape into a TV to remove their condemn. The aura reveal effect is slightly redundant but not too bad. Making all Survivors start with a tape, however, is generally a detrimental effect that makes it easier for them to immediately begin to undo any condemn they might have gained. Arguably, you could use this add-on to easily figure out someone's target TV that they need to reach and play defensive around it, but risk and reward of this strategy isn't always favorable. Definitely stay away from this add-on unless you know what you're doing.",
             "description": "The editing deck used by Reiko and Ryuji to analyse and copy the tape.Copying and sharing the tape is the only way to survive the curse. Causes all Survivors start the Trial with a VHS Tape. All Survivors must bring their VHS Tape to the TV that is farthest from their current location. The Auras of Survivors inserting a VHS Tape into a TV are revealed to you for 6 seconds. \"Frolic in brine, goblins be thine.\" — Message hidden in Sakado's Tape",
             "localMatch": {
               "addonId": "224c11ae-195e-4ff4-92b2-2aea0ca36785",
@@ -13127,7 +13127,7 @@ var COMMUNITY_CONTENT = {
             "tierBucket": "good",
             "name": "Haddie's Calendar",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/dredge/haddiescalendar.png",
-            "otzComment": "Haddie's Calendar : Allows you emerge from a locked locker slightly faster by about 0.4 seconds. This effect is noticeable and gives Survivors less time to get away from you. Keep in mind that your speed when coming out of unlocked lockers is not affected by this add-on at all. This add-on is universally useful but it pairs particularly well with other add-ons related to locked lockers, such as the blue Worry Stone or the brown Caffeine Tablets.",
+            "otzComment": "Haddie's Calendar : Allows you to emerge from a locked locker slightly faster by about 0.4 seconds. This effect is noticeable and gives Survivors less time to get away from you. Keep in mind that your speed when coming out of unlocked lockers is not affected by this add-on at all. This add-on is universally useful but it pairs particularly well with other add-ons related to locked lockers, such as the blue Worry Stone or the brown Caffeine Tablets.",
             "description": "She planned to cross out each day until her parents took her to India, but when tragedy struck, she abandoned her calendar. Reduces the Exiting time from locked Lockers by -0.4 seconds.",
             "localMatch": {
               "addonId": "d351c3a9-71df-4bd7-8c6d-6f53c75b2396",
@@ -13159,7 +13159,7 @@ var COMMUNITY_CONTENT = {
             "tierBucket": "good",
             "name": "Malthinker's Skull",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/dredge/malthinkersskull.png",
-            "otzComment": "Malthinker's Skull : Increases the passive gain that occurs when Survivors are injured. The effects are obviously stronger when multiple Survivors are injured at the same time. Generally stronger than the other add-ons that speed up Nightfall, but it's still probably less impactful than the Broken Doll or Field Recorder. Keep in mind that Survivors on the ground or on a hook do not count as injured.",
+            "otzComment": "Malthinker's Skull : Increases the passive gain that occurs when Survivors are injured. The effect is obviously stronger when multiple Survivors are injured at the same time. Generally stronger than the other add-ons that speed up Nightfall, but it's still probably less impactful than the Broken Doll or Field Recorder. Keep in mind that Survivors on the ground or on a hook do not count as injured.",
             "description": "Those who brought negativity to the commune would mysteriously disappear from time to time.Their remains were never found... until The Dredge brought them up. Increases the Charge rate of the Nightfall Meter while Survivors are injured by +25 % per second.",
             "localMatch": {
               "addonId": "52e0e1fb-2d99-49b2-8fe9-1afa866b9804",
@@ -13207,7 +13207,7 @@ var COMMUNITY_CONTENT = {
             "tierBucket": "decent",
             "name": "Worry Stone",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/dredge/worrystone.png",
-            "otzComment": "Worry Stone : Shows you the auras of any Survivors that locks a locker. This information is particular helpful earlier on, since Survivors typically start the match by locking nearby lockers. Despite being countered by some Survivor perks that prevent auras from being revealed, this is still a strong effect if you pay enough attention to your surroundings. The aura shown might come too late to really capitalize on it, but at least it will make sure that you're entering chases early and possibly throughout the match.",
+            "otzComment": "Worry Stone : Shows you the auras of any Survivors that lock a locker. This information is particularly helpful earlier on, since Survivors typically start the match by locking nearby lockers. Despite being countered by some Survivor perks that prevent auras from being revealed, this is still a strong effect if you pay enough attention to your surroundings. The aura shown might come too late to really capitalize on it, but at least it will make sure that you're entering chases early and possibly throughout the match.",
             "description": "While the Ottomarians were told to think only positive thoughts, some kept these stones in their pockets to rub when negative thoughts arose. The Auras of Survivors locking a Locker are revealed to you for 6 seconds.",
             "localMatch": {
               "addonId": "35f40e97-9641-4667-bc72-b70bab36d9c3",
@@ -13351,7 +13351,7 @@ var COMMUNITY_CONTENT = {
             "tierBucket": "almost-no-effect",
             "name": "Air Freshener",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/dredge/airfreshener.png",
-            "otzComment": "Air Freshener : Gives you a 4th teleport token, allowing you to teleport one more time before having to emerge from a locker. Particularly useful when you accidentally teleport to the wrong locker. Otherwise, the extra teleport is often unnecessary. If you want to speed up your mobility or improve your ability to track Survivors, there's several other add-ons that help much more than this one.",
+            "otzComment": "Air Freshener : Gives you a 4th teleport token, allowing you to teleport one more time before having to emerge from a locker. Particularly useful when you accidentally teleport to the wrong locker. Otherwise, the extra teleport is often unnecessary. If you want to speed up your mobility or improve your ability to track Survivors, there are several other add-ons that help much more than this one.",
             "description": "After her parents were found, this was in the bag of belongings the police returned.Haddie does not know why she keeps it. Increases the number of available Power Tokens to 4.",
             "localMatch": {
               "addonId": "afae4e43-c707-4310-be5a-283aa90e9ef9",
@@ -13622,7 +13622,7 @@ var COMMUNITY_CONTENT = {
             "name": "Egg (Gold)",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/wesker/egggold.png",
             "otzComment": "Egg (Gold) : Extends the window of time between your dashes, allowing you to reposition for longer before using second dash. In some rare cases, this longer period can lead to more wasted time, but overall this is a solid add-on that catches many Survivors off-guard when they think you're already in cooldown. Even more importantly, this add-on indirectly affects the speed at which you move during this period. This makes it a far superior alternative to the yellow Loose Crank, and has a much more noticeable effect. Some advanced players really appreciate this feature and use it to perform certain tricks that involve sliding along obstacles.",
-            "description": "This description is based on the changes announced for or featured in the upcoming Patch 9.6.0A highly coveted foodstuff.The cash worth is second only to its regenerative effects. Increases the duration of the Chain Bound Window by +20 %.",
+            "description": "A highly coveted foodstuff.The cash worth is second only to its regenerative effects. Increases the duration of the Chain Bound Window by +20 %.",
             "localMatch": {
               "addonId": "4ee877c1-bcf9-4527-a61d-9f4725b3797a",
               "internalId": "Addon_K29_14",
@@ -13717,7 +13717,7 @@ var COMMUNITY_CONTENT = {
             "tierBucket": "decent",
             "name": "Lion Medallion",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/wesker/lionmedallion.png",
-            "otzComment": "Lion Medallion : This add-on extends the distance that Survivors are thrown after being grabbed, making it easier to ensure that they hit an obstacle and take damage. Throwing Survivors against obstacles has several advantages over slamming; it starts your token recovery sooner and often leads to easy follow-up hits. Pairs well with the brow Jewel Beetle add-on to make throws even more consistent. Keep in mind that if you slam a Survivor against a wall, this add-on has no effect whatsoever. There's also some rare situations where slamming is actually preferable, such as when a healthy Survivor is fully infected. Additionally, some surfaces have \"soft\" edges where Survivors will often slide instead of being damaged, and this add-on unfortunately does not always help in these cases.",
+            "otzComment": "Lion Medallion : This add-on extends the distance that Survivors are thrown after being grabbed, making it easier to ensure that they hit an obstacle and take damage. Throwing Survivors against obstacles has several advantages over slamming; it starts your token recovery sooner and often leads to easy follow-up hits. Pairs well with the brown Jewel Beetle add-on to make throws even more consistent. Keep in mind that if you slam a Survivor against a wall, this add-on has no effect whatsoever. There's also some rare situations where slamming is actually preferable, such as when a healthy Survivor is fully infected. Additionally, some surfaces have \"soft\" edges where Survivors will often slide instead of being damaged, and this add-on unfortunately does not always help in these cases.",
             "description": "An old medallion depicting a brave lion.It was made when the Raccoon Police Station was still an art museum. Increases the Throw distance of Survivors grabbed Mid-Bound by +30 %.",
             "localMatch": {
               "addonId": "c39895de-ec8d-42de-9698-892962e551f3",
@@ -13781,7 +13781,7 @@ var COMMUNITY_CONTENT = {
             "tierBucket": "almost-no-effect",
             "name": "Red Herb",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/wesker/redherb.png",
-            "otzComment": "Red Herb : This add-on increases the usage time of the first aid sprays from 5 to 7 seconds. In most scenarios, this small increase won't make much of a difference.",
+            "otzComment": "Red Herb : This add-on increases the usage time of first aid sprays from 5 to 7 seconds. In most scenarios, this small increase won't make much of a difference.",
             "description": "Acts as a reagent that strengthens the effect of that with which it is combined. Increases the Healing time of the First Aid Spray by +2 seconds.",
             "localMatch": {
               "addonId": "f4725d00-39d5-4ff5-832a-c28d026ecae6",
@@ -13797,7 +13797,7 @@ var COMMUNITY_CONTENT = {
             "tierBucket": "almost-no-effect",
             "name": "Portable Safe",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/wesker/portablesafe.png",
-            "otzComment": "Portable Safe : Hemorrhage is not that particularly strong on its own, and you're not even always guaranteed to get decent value out of this add-on unless you finish the chase with a special attack.",
+            "otzComment": "Portable Safe : Haemorrhage is not that particularly strong on its own, and you're not even always guaranteed to get decent value out of this add-on unless you finish the chase with a special attack.",
             "description": "A small container that requires a complicated combination to unlock. Survivors suffer from the Haemorrhage Status Effect until fully healed when injured using Virulent Bound.",
             "localMatch": {
               "addonId": "87e86342-ef60-4d2e-b8c8-dfc2b575ee61",
@@ -13830,7 +13830,7 @@ var COMMUNITY_CONTENT = {
             "name": "Loose Crank",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/wesker/loosecrank.png",
             "otzComment": "Loose Crank : Increasing the movement speed between your dashes might sound very appealing, but the effects of this add-on are very small and barely make a difference. The blue Egg (Gold) is actually a much alternative for this particular purpose.",
-            "description": "This description is based on the changes announced for or featured in the upcoming Patch 9.6.0To the person whose only tool is a crank, the whole world looks like a crank-shaped hole. Increases your Movement speed during the Chain Bound Window by +15 %.",
+            "description": "To the person whose only tool is a crank, the whole world looks like a crank-shaped hole. Increases your Movement speed during the Chain Bound Window by +15 %.",
             "localMatch": {
               "addonId": "ae3633c0-545d-4527-956a-a9b6006e6c8f",
               "internalId": "Addon_K29_05",
@@ -14033,38 +14033,6 @@ var COMMUNITY_CONTENT = {
           {
             "rank": 1,
             "tierBucket": "strongest",
-            "name": "Knight's Contract",
-            "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/knight/knightscontract.png",
-            "otzComment": "Knight's Contract : Allows you to kick gens, walls or pallets with your guards and still detect and chase nearby Survivors afterwards. Obviously more useful with the Carnifex, since he'll be able to detect them earlier after his quick break animation. The main advantage of this add-on is the fact that you'll be both regressing the generator and pushing a Survivor away from it afterwards, instead of just one of those things. An overall very decent effect, especially if Survivors are unprepared. Keep in mind that using this add-on wrong can result in needlessly longer cooldowns across the board, since you might delay the time a guard enters its cooldown period. NOTE: Unfortunately, this add-on seems to be currently bugged and does not work as intended.",
-            "description": "The original document contracting Tarhos to Vittorio's employ.The laws of man could not stand up, though, to natural law. Causes a Guard to linger around for 8 seconds after completing a Guard Order, triggering a Hunt, should he detect a Survivor in that time. \"I fear he has left me here to die.\" — Vittorio Toscano",
-            "localMatch": {
-              "addonId": "992faf7c-1269-42b9-aa46-dccee1e6485f",
-              "internalId": "Addon_K30_19",
-              "localName": "Knight’s Contract",
-              "localImage": "dbd_images/addons/iconaddon_knightscontract.png",
-              "localRarity": "visceral",
-              "method": "name"
-            }
-          },
-          {
-            "rank": 2,
-            "tierBucket": "good",
-            "name": "Town Watch's Torch",
-            "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/knight/townwatchstorch.png",
-            "otzComment": "Town Watch's Torch : Being Undetectable during a Hunt is a really decent effect and triggers fairly frequently. Not bad at all, especially if you're able to consistently keep Survivors busy with long distance hunts. Particularly effective in maps with low visibility for Survivors.",
-            "description": "Upon breaching a village, the first thing they would extinguish was the torches, and with them, hope. Grants the Undetectable Status Effect during a Hunt.",
-            "localMatch": {
-              "addonId": "14b51988-ad71-40ef-aecf-92639f25db83",
-              "internalId": "Addon_K30_14",
-              "localName": "Town Watch’s Torch",
-              "localImage": "dbd_images/addons/iconaddon_townwatchstorch.png",
-              "localRarity": "rare",
-              "method": "name"
-            }
-          },
-          {
-            "rank": 3,
-            "tierBucket": "good",
             "name": "Call to Arms",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/knight/calltoarms.png",
             "otzComment": "Call to Arms : This add-on allows you to send out the guards faster and further, even slightly outside of your 32 meter terror radius. This effect is almost universally useful and thus this add-on pairs well with basically anything else. Placing guards far away allows you to interrupt gens and has other benefits as well, such as the small haste effect after deploying a distant guard. Without this add-on, you'll often find yourself unable to act on the information provided by your perks without having to spend precious seconds traveling around the map first. Being able to place guards from very far distances also makes it less likely that Survivors will hear yout terror radius and begin to run away preemptively.",
@@ -14079,24 +14047,8 @@ var COMMUNITY_CONTENT = {
             }
           },
           {
-            "rank": 4,
-            "tierBucket": "good",
-            "name": "Sharpened Mount",
-            "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/knight/sharpenedmount.png",
-            "otzComment": "Sharpened Mount : Increases the delay before Survivors can grab the banner to escape a guard hunt, which is particularly noticeable on the Jailer since he has the longest delay of all guards. The increase of 15% doesn't make a huge difference but it will consistently buy you some extra distraction time against Survivors that try to grab the flag (which is typically the best strategy to follow if they're not being actively chased by you as well).",
-            "description": "To stand before the Standard of the Guardia Compagnia was to stand at the threshold between life and death. Increases the Spawn duration of Standards by +15 %.",
-            "localMatch": {
-              "addonId": "1b0a0c7d-ccac-4aa2-b253-86785c5543e8",
-              "internalId": "Addon_K30_10",
-              "localName": "Sharpened Mount",
-              "localImage": "dbd_images/addons/iconaddon_sharpenedmount.png",
-              "localRarity": "rare",
-              "method": "name"
-            }
-          },
-          {
-            "rank": 5,
-            "tierBucket": "good",
+            "rank": 2,
+            "tierBucket": "strongest",
             "name": "Dried Horsemeat",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/knight/driedhorsemeat.png",
             "otzComment": "Dried Horsemeat : The extra timer can really help distract Survivors for longer, ensure that your guards get a hit, or delay their deactivation timer even if you happen to get a bit close to them (which normally makes this timer go much faster). A solid choice to ensure that Survivors are kept busy if they try to outrun guards.",
@@ -14111,7 +14063,23 @@ var COMMUNITY_CONTENT = {
             }
           },
           {
-            "rank": 6,
+            "rank": 3,
+            "tierBucket": "strongest",
+            "name": "Town Watch's Torch",
+            "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/knight/townwatchstorch.png",
+            "otzComment": "Town Watch's Torch : Being Undetectable during a Hunt is a really decent effect and triggers fairly frequently. Not bad at all, especially if you're able to consistently keep Survivors busy with long distance hunts. Particularly effective in maps with low visibility for Survivors.",
+            "description": "Upon breaching a village, the first thing they would extinguish was the torches, and with them, hope. Grants the Undetectable Status Effect during a Hunt.",
+            "localMatch": {
+              "addonId": "14b51988-ad71-40ef-aecf-92639f25db83",
+              "internalId": "Addon_K30_14",
+              "localName": "Town Watch’s Torch",
+              "localImage": "dbd_images/addons/iconaddon_townwatchstorch.png",
+              "localRarity": "rare",
+              "method": "name"
+            }
+          },
+          {
+            "rank": 4,
             "tierBucket": "good",
             "name": "Map of the Realm",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/knight/mapoftherealm.png",
@@ -14127,7 +14095,23 @@ var COMMUNITY_CONTENT = {
             }
           },
           {
-            "rank": 7,
+            "rank": 5,
+            "tierBucket": "good",
+            "name": "Sharpened Mount",
+            "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/knight/sharpenedmount.png",
+            "otzComment": "Sharpened Mount : Increases the delay before Survivors can grab the banner to escape a guard hunt, which is particularly noticeable on the Jailer since he has the longest delay of all guards. The increase of 15% doesn't make a huge difference but it will consistently buy you some extra distraction time against Survivors that try to grab the flag (which is typically the best strategy to follow if they're not being actively chased by you as well).",
+            "description": "To stand before the Standard of the Guardia Compagnia was to stand at the threshold between life and death. Increases the Spawn duration of Standards by +15 %.",
+            "localMatch": {
+              "addonId": "1b0a0c7d-ccac-4aa2-b253-86785c5543e8",
+              "internalId": "Addon_K30_10",
+              "localName": "Sharpened Mount",
+              "localImage": "dbd_images/addons/iconaddon_sharpenedmount.png",
+              "localRarity": "rare",
+              "method": "name"
+            }
+          },
+          {
+            "rank": 6,
             "tierBucket": "good",
             "name": "Iridescent Company Banner",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/knight/iridescentcompanybanner.png",
@@ -14143,7 +14127,39 @@ var COMMUNITY_CONTENT = {
             }
           },
           {
+            "rank": 7,
+            "tierBucket": "good",
+            "name": "Blacksmith's Hammer",
+            "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/knight/blacksmithshammer.png",
+            "otzComment": "Blacksmith's Hammer : Inflicts Broken for 60 seconds if a guard gets a hit. Even if it only triggers a couple times per match, it can occasionally cripple a team's ability to get back on its feet.",
+            "description": "In their hands, everything was a weapon. Causes Survivors damaged by a Guard during a Hunt to suffer from the Broken Status Effect for 60 seconds.",
+            "localMatch": {
+              "addonId": "8450712c-8b63-4370-b0d3-7734fda0bc42",
+              "internalId": "Addon_K30_15",
+              "localName": "Blacksmith’s Hammer",
+              "localImage": "dbd_images/addons/iconaddon_blacksmithshammer.png",
+              "localRarity": "veryrare",
+              "method": "name"
+            }
+          },
+          {
             "rank": 8,
+            "tierBucket": "decent",
+            "name": "Knight's Contract",
+            "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/knight/knightscontract.png",
+            "otzComment": "Knight's Contract : Allows you to kick gens, walls or pallets with your guards and still detect and chase nearby Survivors afterwards. Obviously more useful with the Carnifex, since he'll be able to detect them earlier after his quick break animation. The main advantage of this add-on is the fact that you'll be both regressing the generator and pushing a Survivor away from it afterwards, instead of just one of those things. An overall very decent effect in theory, but the current bug makes it wildly inconsistent. NOTE: Unfortunately, this add-on seems to be currently bugged and does not work as intended, making guards linger without detecting nearby Survivors for some reason.",
+            "description": "The original document contracting Tarhos to Vittorio's employ.The laws of man could not stand up, though, to natural law. Causes a Guard to linger around for 8 seconds after completing a Guard Order, triggering a Hunt, should he detect a Survivor in that time. \"I fear he has left me here to die.\" — Vittorio Toscano",
+            "localMatch": {
+              "addonId": "992faf7c-1269-42b9-aa46-dccee1e6485f",
+              "internalId": "Addon_K30_19",
+              "localName": "Knight’s Contract",
+              "localImage": "dbd_images/addons/iconaddon_knightscontract.png",
+              "localRarity": "visceral",
+              "method": "name"
+            }
+          },
+          {
+            "rank": 9,
             "tierBucket": "decent",
             "name": "Cold Steel Manacles",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/knight/coldsteelmanacles.png",
@@ -14159,7 +14175,7 @@ var COMMUNITY_CONTENT = {
             }
           },
           {
-            "rank": 9,
+            "rank": 10,
             "tierBucket": "decent",
             "name": "Battle Axe Head",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/knight/battleaxehead.png",
@@ -14175,7 +14191,7 @@ var COMMUNITY_CONTENT = {
             }
           },
           {
-            "rank": 10,
+            "rank": 11,
             "tierBucket": "decent",
             "name": "Treated Blade",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/knight/treatedblade.png",
@@ -14191,7 +14207,7 @@ var COMMUNITY_CONTENT = {
             }
           },
           {
-            "rank": 11,
+            "rank": 12,
             "tierBucket": "decent",
             "name": "Healing Poultice",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/knight/healingpoultice.png",
@@ -14207,7 +14223,7 @@ var COMMUNITY_CONTENT = {
             }
           },
           {
-            "rank": 12,
+            "rank": 13,
             "tierBucket": "decent",
             "name": "Flint and Steel",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/knight/flintandsteel.png",
@@ -14218,22 +14234,6 @@ var COMMUNITY_CONTENT = {
               "internalId": "Addon_K30_16",
               "localName": "Flint and Steel",
               "localImage": "dbd_images/addons/iconaddon_flintandsteel.png",
-              "localRarity": "veryrare",
-              "method": "name"
-            }
-          },
-          {
-            "rank": 13,
-            "tierBucket": "almost-no-effect",
-            "name": "Blacksmith's Hammer",
-            "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/knight/blacksmithshammer.png",
-            "otzComment": "Blacksmith's Hammer : Inflicts Broken for 60 seconds if a guard gets a hit. A nice effect, but guards rarely get hits by themselves (especially if you're already dedicating one add-on slot to this add-on).",
-            "description": "In their hands, everything was a weapon. Causes Survivors damaged by a Guard during a Hunt to suffer from the Broken Status Effect for 60 seconds.",
-            "localMatch": {
-              "addonId": "8450712c-8b63-4370-b0d3-7734fda0bc42",
-              "internalId": "Addon_K30_15",
-              "localName": "Blacksmith’s Hammer",
-              "localImage": "dbd_images/addons/iconaddon_blacksmithshammer.png",
               "localRarity": "veryrare",
               "method": "name"
             }
@@ -14275,7 +14275,7 @@ var COMMUNITY_CONTENT = {
             "tierBucket": "almost-no-effect",
             "name": "Ironworker's Tongs",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/knight/ironworkerstongs.png",
-            "otzComment": "Ironworker's Tongs : Makes a Survivor Oblivious for 60 seconds when they escape a hunt, making things slightly more unpredictable for them. Keep in mind that hitting a Survivor that is being hunted does not trigger this add-on. They need to fully escape it themselves.",
+            "otzComment": "Ironworker's Tongs : Makes a Survivor Oblivious for 60 seconds when they escape a hunt, making things slightly more unpredictable for them. Keep in mind that hitting a Survivor that is being hunted does not trigger this add-on. They need to fully escape it themselves. This add-on shines a bit more if you pair it with the blue Town Watcher's Torch to double down on the idea of being stealthy.",
             "description": "Vital for repairs between battles and a horrifying, gauging, tearing improvisational weapon. Causes Survivors to suffer from the Oblivious Status Effect for 60 seconds, if a Guard fails to damage them during a Hunt.",
             "localMatch": {
               "addonId": "1cfad51c-e489-4777-872b-60c86296a208",
@@ -14362,19 +14362,6 @@ var COMMUNITY_CONTENT = {
             "addons": [
               {
                 "rank": 1,
-                "name": "Knight's Contract",
-                "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/knight/knightscontract.png",
-                "localMatch": {
-                  "addonId": "992faf7c-1269-42b9-aa46-dccee1e6485f",
-                  "internalId": "Addon_K30_19",
-                  "localName": "Knight’s Contract",
-                  "localImage": "dbd_images/addons/iconaddon_knightscontract.png",
-                  "localRarity": "visceral",
-                  "method": "name"
-                }
-              },
-              {
-                "rank": 3,
                 "name": "Call to Arms",
                 "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/knight/calltoarms.png",
                 "localMatch": {
@@ -14385,6 +14372,19 @@ var COMMUNITY_CONTENT = {
                   "localRarity": "uncommon",
                   "method": "name"
                 }
+              },
+              {
+                "rank": 3,
+                "name": "Town Watch's Torch",
+                "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/knight/townwatchstorch.png",
+                "localMatch": {
+                  "addonId": "14b51988-ad71-40ef-aecf-92639f25db83",
+                  "internalId": "Addon_K30_14",
+                  "localName": "Town Watch’s Torch",
+                  "localImage": "dbd_images/addons/iconaddon_townwatchstorch.png",
+                  "localRarity": "rare",
+                  "method": "name"
+                }
               }
             ]
           },
@@ -14392,25 +14392,12 @@ var COMMUNITY_CONTENT = {
             "tier": "solid",
             "label": "Solid Combo",
             "addonRanks": [
-              4,
+              2,
               5
             ],
             "addons": [
               {
-                "rank": 4,
-                "name": "Sharpened Mount",
-                "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/knight/sharpenedmount.png",
-                "localMatch": {
-                  "addonId": "1b0a0c7d-ccac-4aa2-b253-86785c5543e8",
-                  "internalId": "Addon_K30_10",
-                  "localName": "Sharpened Mount",
-                  "localImage": "dbd_images/addons/iconaddon_sharpenedmount.png",
-                  "localRarity": "rare",
-                  "method": "name"
-                }
-              },
-              {
-                "rank": 5,
+                "rank": 2,
                 "name": "Dried Horsemeat",
                 "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/knight/driedhorsemeat.png",
                 "localMatch": {
@@ -14421,6 +14408,19 @@ var COMMUNITY_CONTENT = {
                   "localRarity": "uncommon",
                   "method": "name"
                 }
+              },
+              {
+                "rank": 5,
+                "name": "Sharpened Mount",
+                "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/knight/sharpenedmount.png",
+                "localMatch": {
+                  "addonId": "1b0a0c7d-ccac-4aa2-b253-86785c5543e8",
+                  "internalId": "Addon_K30_10",
+                  "localName": "Sharpened Mount",
+                  "localImage": "dbd_images/addons/iconaddon_sharpenedmount.png",
+                  "localRarity": "rare",
+                  "method": "name"
+                }
               }
             ]
           },
@@ -14428,25 +14428,12 @@ var COMMUNITY_CONTENT = {
             "tier": "good",
             "label": "Good Combo",
             "addonRanks": [
-              6,
-              3
+              1,
+              4
             ],
             "addons": [
               {
-                "rank": 6,
-                "name": "Map of the Realm",
-                "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/knight/mapoftherealm.png",
-                "localMatch": {
-                  "addonId": "a8601459-5e35-4f1e-99c8-e2ee6a5b09c7",
-                  "internalId": "Addon_K30_02",
-                  "localName": "Map of the Realm",
-                  "localImage": "dbd_images/addons/iconaddon_mapoftherealm.png",
-                  "localRarity": "common",
-                  "method": "name"
-                }
-              },
-              {
-                "rank": 3,
+                "rank": 1,
                 "name": "Call to Arms",
                 "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/knight/calltoarms.png",
                 "localMatch": {
@@ -14457,6 +14444,19 @@ var COMMUNITY_CONTENT = {
                   "localRarity": "uncommon",
                   "method": "name"
                 }
+              },
+              {
+                "rank": 4,
+                "name": "Map of the Realm",
+                "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/knight/mapoftherealm.png",
+                "localMatch": {
+                  "addonId": "a8601459-5e35-4f1e-99c8-e2ee6a5b09c7",
+                  "internalId": "Addon_K30_02",
+                  "localName": "Map of the Realm",
+                  "localImage": "dbd_images/addons/iconaddon_mapoftherealm.png",
+                  "localRarity": "common",
+                  "method": "name"
+                }
               }
             ]
           },
@@ -14464,25 +14464,25 @@ var COMMUNITY_CONTENT = {
             "tier": "fun",
             "label": "Fun Combo",
             "addonRanks": [
-              7,
-              11
+              11,
+              12
             ],
             "addons": [
               {
-                "rank": 7,
-                "name": "Iridescent Company Banner",
-                "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/knight/iridescentcompanybanner.png",
+                "rank": 11,
+                "name": "Treated Blade",
+                "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/knight/treatedblade.png",
                 "localMatch": {
-                  "addonId": "68734779-0d8d-4295-952b-6f1f03fdbc74",
-                  "internalId": "Addon_K30_20",
-                  "localName": "Iridescent Company Banner",
-                  "localImage": "dbd_images/addons/iconaddon_iridescentcompanybanner.png",
-                  "localRarity": "visceral",
+                  "addonId": "0f5f5211-fd17-439b-8094-7977e7385420",
+                  "internalId": "Addon_K30_07",
+                  "localName": "Treated Blade",
+                  "localImage": "dbd_images/addons/iconaddon_treatedblade.png",
+                  "localRarity": "uncommon",
                   "method": "name"
                 }
               },
               {
-                "rank": 11,
+                "rank": 12,
                 "name": "Healing Poultice",
                 "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/knight/healingpoultice.png",
                 "localMatch": {
@@ -14511,32 +14511,32 @@ var COMMUNITY_CONTENT = {
           {
             "rank": 1,
             "tierBucket": "strongest",
-            "name": "Iridescent Unpublished Manuscript",
-            "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/skull%20merchant/iridescentunpublishedmanuscript.png",
-            "otzComment": "Iridescent Unpublished Manuscript : Produces a terror radius on any drone that becomes disabled, while also giving you the Undetectable status for the same duration (15 seconds). This is not extremely powerful on its own but it can work quite well with terror radius based perks that apply annoying effects. It also indirectly works as an early warning that someone is sabotaging your drones. The extended stealth effect is particularly useful in maps with low visibility.",
-            "description": "\"Before he disappeared, Adriana's father had started a newer, darker manga: Sonhadores Sombrios.\" Whenever any Drone enters its Disabled State, you benefit from the following effects: Grants the Undetectable Status Effect for 15 seconds. The disabled Drone emits a Terror Radius of 32 metres for 15 seconds. \"When evil is on the loose, it cannot escape from Adi Valente!\" — Quote on the cover of Adi Valente #1",
+            "name": "Ultrasonic Speaker",
+            "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/skull%20merchant/ultrasonicspeaker.png",
+            "otzComment": "Ultrasonic Speaker : Slightly reduces the invulnerability period when scanned by a drone, making it easier for Survivors to be scanned multiple times quickly. It's only a 0.25s reduction but it will come into play pretty often if you're using your drones in chase and it can make a huge difference if it manages to catch a Survivor that would otherwise get away.",
+            "description": "A high-frequency noise blaster that fills the sonic spectrum with disorienting sounds, making it impossible for observers to pick out more important noises. Reduces the duration of the immunity to consecutive Scan-Line Hits for Survivors to 90 % of its default value.",
             "localMatch": {
-              "addonId": "0425f5f3-3afb-49fb-b9e7-ebb3a2512974",
-              "internalId": "Addon_K31_20",
-              "localName": "Iridescent Unpublished Manuscript",
-              "localImage": "dbd_images/addons/iconaddon_iridescentunpublishedmanuscript.png",
-              "localRarity": "visceral",
+              "addonId": "f7b2bd1a-931f-46c8-b4c2-90e993abfe73",
+              "internalId": "Addon_K31_17",
+              "localName": "Ultrasonic Speaker",
+              "localImage": "dbd_images/addons/iconaddon_ultrasonicspeaker.png",
+              "localRarity": "common",
               "method": "name"
             }
           },
           {
             "rank": 2,
             "tierBucket": "good",
-            "name": "Geographical Readout",
-            "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/skull%20merchant/geographicalreadout.png",
-            "otzComment": "Geographical Readout : Gives a small but noticeable 20% boost to action speeds (breaking, vaulting...) for 8 seconds after placing a drone. A pretty universally useful effect that makes you even more efficient and saves quite a bit of time over the course of a full match. Needless to say, it can be stacked such as \"Brutal Strength\" or \"Bamboozle\" if you want an even faster action speed.",
-            "description": "The Drones generate and communicate a detailed three-dimensional map of the terrain, making traversal easier. Increases the Action speeds for breaking Breakable Walls and Pallets, damaging Generators, and vaulting Windows by +20 % for 8 seconds after deploying a Drone.",
+            "name": "Vital Targeting Processor",
+            "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/skull%20merchant/vitaltargetingprocessor.png",
+            "otzComment": "Vital Targeting Processor : Increases the slowdown that Survivors experience from 8% to 10%, improving your chances to catch them at certain loops. Keep in mind that Survivors are only slowed down after they get scanned at least 4 times, so this effect won't come up during chase immediately. When it does, however, it will make getting away from you even harder.",
+            "description": "An additional process in the Drone's programming more accurately predicts the weaknesses of potential prey. Increases the strength of the Hindered Status Effect for Claw-Trapped Survivors when detected by Drones by -2 %.",
             "localMatch": {
-              "addonId": "3dfc258b-15c8-4c01-98f0-3601b7888fca",
-              "internalId": "Addon_K31_03",
-              "localName": "Geographical Readout",
-              "localImage": "dbd_images/addons/iconaddon_geographicalreadout.png",
-              "localRarity": "veryrare",
+              "addonId": "ccb1b0ee-c532-49d4-917f-d5716cab00a3",
+              "internalId": "Addon_K31_11",
+              "localName": "Vital Targeting Processor",
+              "localImage": "dbd_images/addons/iconaddon_vitaltargetingprocessor.png",
+              "localRarity": "rare",
               "method": "name"
             }
           },
@@ -14545,7 +14545,7 @@ var COMMUNITY_CONTENT = {
             "tierBucket": "good",
             "name": "Prototype Rotor",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/skull%20merchant/prototyperotor.png",
-            "otzComment": "Prototype Rotor : Slightly increases the rotation speed of the drones scan lines by 10%. One of the only ways to improve the effectiveness of your drones. Can be used with the brown Ultrasonic Speaker to make the drone scans slightly more consistent or the blue Vital Targeting Processor to increase the chances that a slowdown occurs.",
+            "otzComment": "Prototype Rotor : Slightly increases the rotation speed of the drones' scan lines by 10%. One of the only ways to improve the effectiveness of your drones. Can be used with the brown Ultrasonic Speaker to make the drone scans slightly more consistent or the blue Vital Targeting Processor to increase the chances that a slowdown occurs.",
             "description": "The cutting-edge design allows the Drone to move with razor-sharp precision. Increases the Rotational speed of the Scan Lines of Drones by +10 %.",
             "localMatch": {
               "addonId": "5c612d70-1500-4a15-aeb7-24f97d8c74b8",
@@ -14559,25 +14559,41 @@ var COMMUNITY_CONTENT = {
           {
             "rank": 4,
             "tierBucket": "good",
-            "name": "Adaptive Lighting",
-            "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/skull%20merchant/adaptivelighting.png",
-            "otzComment": "Adaptive Lighting : Increases the duration of the Undetectable status that you normally get after recalling a drone (8 seconds by default), giving you an extra couple seconds before it ends. Simple and useful as long as you're remembering to cycle through your drones and routinely get rid of the ones that have already served their purpose.",
-            "description": "The Drone takes account of the surrounding area and casts lights in a bewildering manner that obscures movement. Increases the duration of the Undetectable Status Effect by +20 % to 9.6 seconds.",
+            "name": "Geographical Readout",
+            "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/skull%20merchant/geographicalreadout.png",
+            "otzComment": "Geographical Readout : Gives a small but noticeable 20% boost to action speeds (breaking, vaulting...) for 8 seconds after placing a drone. A pretty universally useful effect that makes you even more efficient and saves quite a bit of time over the course of a full match. Needless to say, it can be stacked with perks such as \"Brutal Strength\" or \"Bamboozle\" if you want an even faster action speed.",
+            "description": "The Drones generate and communicate a detailed three-dimensional map of the terrain, making traversal easier. Increases the Action speeds for breaking Breakable Walls and Pallets, damaging Generators, and vaulting Windows by +20 % for 8 seconds after deploying a Drone.",
             "localMatch": {
-              "addonId": "5c53d686-b12d-46a5-8fb2-be66776b9261",
-              "internalId": "Addon_K31_05",
-              "localName": "Adaptive Lighting",
-              "localImage": "dbd_images/addons/iconaddon_adaptivelighting.png",
-              "localRarity": "uncommon",
+              "addonId": "3dfc258b-15c8-4c01-98f0-3601b7888fca",
+              "internalId": "Addon_K31_03",
+              "localName": "Geographical Readout",
+              "localImage": "dbd_images/addons/iconaddon_geographicalreadout.png",
+              "localRarity": "veryrare",
               "method": "name"
             }
           },
           {
             "rank": 5,
             "tierBucket": "good",
+            "name": "Iridescent Unpublished Manuscript",
+            "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/skull%20merchant/iridescentunpublishedmanuscript.png",
+            "otzComment": "Iridescent Unpublished Manuscript : Produces a terror radius on any drone that becomes disabled, while also giving you the Undetectable status for the same duration (15 seconds). This is not extremely powerful on its own but it can work quite well with terror radius based perks that apply annoying effects. It also indirectly works as an early warning that someone is sabotaging your drones. The extended stealth effect is particularly useful in maps with low visibility if you don't want to micro-manage your own drones to achieve prolonged stealth.",
+            "description": "\"Before he disappeared, Adriana's father had started a newer, darker manga: Sonhadores Sombrios.\" Whenever any Drone enters its Disabled State, you benefit from the following effects: Grants the Undetectable Status Effect for 15 seconds. The disabled Drone emits a Terror Radius of 32 metres for 15 seconds. \"When evil is on the loose, it cannot escape from Adi Valente!\" — Quote on the cover of Adi Valente #1",
+            "localMatch": {
+              "addonId": "0425f5f3-3afb-49fb-b9e7-ebb3a2512974",
+              "internalId": "Addon_K31_20",
+              "localName": "Iridescent Unpublished Manuscript",
+              "localImage": "dbd_images/addons/iconaddon_iridescentunpublishedmanuscript.png",
+              "localRarity": "visceral",
+              "method": "name"
+            }
+          },
+          {
+            "rank": 6,
+            "tierBucket": "good",
             "name": "Expired Batteries",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/skull%20merchant/expiredbatteries.png",
-            "otzComment": "Expired Batteries : Makes all Survivors start claw-trapped, which immediately applies effects from other add-ons. More importantly, it reveals all Survivor locations in your radar and gives you a decent chance to ambush them. The secondary effect increases the duration of claw-traps, but this rarely makes a big difference.",
+            "otzComment": "Expired Batteries : Makes all Survivors start claw-trapped (with a one-time shorter duration than normal), which immediately applies effects from other add-ons. More importantly, it reveals all Survivor locations in your radar and gives you a decent chance to ambush them or at least disrupt several of them at once. The secondary effect increases the duration of claw-traps progressively each time Survivors get them, making them slightly more effective.",
             "description": "The batteries on these Claw Traps have been swapped out with old alkaline batteries.Recharging is not recommended. All Survivors start the Trial with a Claw Trap. The first Claw Trap has a reduced Battery Life of 50 %. The second Claw Trap has a restored Battery Life of 100 %. Increases the Battery Life by a stack-able +10 % for each successive Claw Trap a Survivor receives, up to a maximum duration of 150 %.",
             "localMatch": {
               "addonId": "800b4d98-33df-4193-bdb0-8409309e6ce5",
@@ -14589,39 +14605,7 @@ var COMMUNITY_CONTENT = {
             }
           },
           {
-            "rank": 6,
-            "tierBucket": "good",
-            "name": "Vital Targeting Processor",
-            "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/skull%20merchant/vitaltargetingprocessor.png",
-            "otzComment": "Vital Targeting Processor : Increases the slowdown that Survivors experience from 8% to 10%, improving your chances to catch them at certain loops. Keep in mind that Survivors are only slowed down after they get scanned at least 4 times, so this effect won't come up during chase immediately.",
-            "description": "An additional process in the Drone's programming more accurately predicts the weaknesses of potential prey. Increases the strength of the Hindered Status Effect for Claw-Trapped Survivors when detected by Drones by -2 %.",
-            "localMatch": {
-              "addonId": "ccb1b0ee-c532-49d4-917f-d5716cab00a3",
-              "internalId": "Addon_K31_11",
-              "localName": "Vital Targeting Processor",
-              "localImage": "dbd_images/addons/iconaddon_vitaltargetingprocessor.png",
-              "localRarity": "rare",
-              "method": "name"
-            }
-          },
-          {
             "rank": 7,
-            "tierBucket": "good",
-            "name": "Ultrasonic Speaker",
-            "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/skull%20merchant/ultrasonicspeaker.png",
-            "otzComment": "Ultrasonic Speaker : Slightly reduces the invulnerability period when scanned by a drone, making it easier for them to be scanned multiple times quickly. This makes mistakes a bit more punishing, but it's only a 0.25s reduction.",
-            "description": "A high-frequency noise blaster that fills the sonic spectrum with disorienting sounds, making it impossible for observers to pick out more important noises. Reduces the duration of the immunity to consecutive Scan-Line Hits for Survivors to 90 % of its default value.",
-            "localMatch": {
-              "addonId": "f7b2bd1a-931f-46c8-b4c2-90e993abfe73",
-              "internalId": "Addon_K31_17",
-              "localName": "Ultrasonic Speaker",
-              "localImage": "dbd_images/addons/iconaddon_ultrasonicspeaker.png",
-              "localRarity": "common",
-              "method": "name"
-            }
-          },
-          {
-            "rank": 8,
             "tierBucket": "decent",
             "name": "Brown Noise Generator",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/skull%20merchant/brownnoisegenerator.png",
@@ -14637,7 +14621,55 @@ var COMMUNITY_CONTENT = {
             }
           },
           {
+            "rank": 8,
+            "tierBucket": "decent",
+            "name": "Powdered Glass",
+            "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/skull%20merchant/powderedglass.png",
+            "otzComment": "Powdered Glass : Applies the Mangled and Haemorrhage effects for 70 seconds after landing a basic attack on a claw-trapped a Survivor. Unlike some other add-ons, this effect doesn't become redundant if you down the Survivor, as they'll need to deal with the slower healing when they become unhooked later. It can also be quite nasty if you find yourself slugging one or multiple Survivors on the ground for extended periods of time after a chaotic turn of events. Not a terrible effect, but it also doesn't help in chase directly.",
+            "description": "Once used on the strings used for battle kites, this powdered glass took on a much more nefarious purpose on her blade. Claw-Trapped Survivors suffer from the Haemorrhage and Mangled Status Effects for 70 seconds, when hit with a Basic Attack.",
+            "localMatch": {
+              "addonId": "c1709612-0aa8-4b7e-89d9-b2935e33361a",
+              "internalId": "Addon_K31_10",
+              "localName": "Powdered Glass",
+              "localImage": "dbd_images/addons/iconaddon_powderedglass.png",
+              "localRarity": "rare",
+              "method": "name"
+            }
+          },
+          {
             "rank": 9,
+            "tierBucket": "decent",
+            "name": "Adaptive Lighting",
+            "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/skull%20merchant/adaptivelighting.png",
+            "otzComment": "Adaptive Lighting : Increases the duration of the Undetectable status that you normally get after recalling a drone (8 seconds by default), giving you an extra couple seconds before it ends. Useless if you never cycle through your drones but can shine a bit if you use them intermittently to help you have less downtime on the Undetectable. That being said, if you're constantly cycling through your drones you can keep a very good level of stealth even without this add-on. This can be easily achieved by keeping one drone in hand that you're constantly placing and removing immediately (occasionally replacing redundant drones here and there to improve their location).",
+            "description": "The Drone takes account of the surrounding area and casts lights in a bewildering manner that obscures movement. Increases the duration of the Undetectable Status Effect by +20 % to 9.6 seconds.",
+            "localMatch": {
+              "addonId": "5c53d686-b12d-46a5-8fb2-be66776b9261",
+              "internalId": "Addon_K31_05",
+              "localName": "Adaptive Lighting",
+              "localImage": "dbd_images/addons/iconaddon_adaptivelighting.png",
+              "localRarity": "uncommon",
+              "method": "name"
+            }
+          },
+          {
+            "rank": 10,
+            "tierBucket": "decent",
+            "name": "Randomised Strobes",
+            "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/skull%20merchant/randomisedstrobes.png",
+            "otzComment": "Randomised Strobes : Adds an extra 1 second to the time that Survivors become hindered when tagged by a drone several times. Most of the times, this slightly longer duration simply does not make a difference in chase. The blue Vital Targeting Processor is more likely to give you noticeable results instead.",
+            "description": "Lights flash randomly on the ground, making it harder to find purchase on the uneven terrain. Extends the duration of the Hindered Status Effect for Claw-Trapped Survivors when detected by Drones by +1 second.",
+            "localMatch": {
+              "addonId": "c6fd8b2f-ee59-4aa0-acef-dc40d5889f91",
+              "internalId": "Addon_K31_15",
+              "localName": "Randomized Strobes",
+              "localImage": "dbd_images/addons/iconaddon_randomisedstrobes.png",
+              "localRarity": "veryrare",
+              "method": "image"
+            }
+          },
+          {
+            "rank": 11,
             "tierBucket": "decent",
             "name": "Stereo Remote Mic",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/skull%20merchant/stereoremotemic.png",
@@ -14653,8 +14685,8 @@ var COMMUNITY_CONTENT = {
             }
           },
           {
-            "rank": 10,
-            "tierBucket": "almost-no-effect",
+            "rank": 12,
+            "tierBucket": "decent",
             "name": "Loose Screw",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/skull%20merchant/loosescrew.png",
             "otzComment": "Loose Screw : Exhausts any Survivor that becomes claw-trapped. Despite the duration only being 6 seconds, you can obviously force it to last a much longer time if you keep chasing the Survivor and dont' give them a chance to recover from it. This add-on can occasionally prevent Survivors from using common exhaustion perks and simplify your chases, but it's quite unreliable since there's a chance that the Survivor might have already used their exhaustion perk before they're claw-trapped.",
@@ -14669,75 +14701,11 @@ var COMMUNITY_CONTENT = {
             }
           },
           {
-            "rank": 11,
-            "tierBucket": "almost-no-effect",
-            "name": "Powdered Glass",
-            "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/skull%20merchant/powderedglass.png",
-            "otzComment": "Powdered Glass : Applies the Mangled and Haemorrhage effects for 70 seconds after claw-trapping a Survivor. Unlike some other add-ons, this effect doesn't become redundant if you down the Survivor, as they'll need to deal with the slower healing when they become unhooked later. Not a terrible effect, but it also doesn't help in chase directly and can easily be replaced by other, more reliable add-ons.",
-            "description": "Once used on the strings used for battle kites, this powdered glass took on a much more nefarious purpose on her blade. Claw-Trapped Survivors suffer from the Haemorrhage and Mangled Status Effects for 70 seconds, when hit with a Basic Attack.",
-            "localMatch": {
-              "addonId": "c1709612-0aa8-4b7e-89d9-b2935e33361a",
-              "internalId": "Addon_K31_10",
-              "localName": "Powdered Glass",
-              "localImage": "dbd_images/addons/iconaddon_powderedglass.png",
-              "localRarity": "rare",
-              "method": "name"
-            }
-          },
-          {
-            "rank": 12,
-            "tierBucket": "almost-no-effect",
-            "name": "Advanced Movement Prediction",
-            "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/skull%20merchant/advancedmovementprediction.png",
-            "otzComment": "Advanced Movement Prediction : Reveals the aura of claw-trapped Survivors for 6 seconds. Sounds useful, until you remember that most claw-trapped Survivors are already in front of you and that they can easily be tracked with your radar evenif they're outside of your line of sight. For this reason, it's not terribly impactful.",
-            "description": "Even after they leave the zone of influenced, a refined AI programme predicts with high accuracy where a person will go next. The Auras of newly Claw-Trapped Survivors are revealed to you for 6 seconds.",
-            "localMatch": {
-              "addonId": "bc1a03af-690c-43cb-a6c5-0acfade70a58",
-              "internalId": "Addon_K31_16",
-              "localName": "Advanced Movement Prediction",
-              "localImage": "dbd_images/addons/iconaddon_advancedmovementprediction.png",
-              "localRarity": "veryrare",
-              "method": "name"
-            }
-          },
-          {
             "rank": 13,
-            "tierBucket": "almost-no-effect",
-            "name": "High-Power Floodlight",
-            "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/skull%20merchant/highpowerfloodlight.png",
-            "otzComment": "High-Power Floodlight : Inflicts the Blindness status effect to claw-trapped Survivors, which normally lasts for 45 seconds. This can occasionally confuse Survivors during chase or prevent them from gathering some critical information, but overall this effect is simply not reliable enough to be worth the add-on slot. Keep in mind that once you down Survivors, their claw trap is immediately removed so the blindness won't even affect them while they're on the hook.",
-            "description": "A sudden and overwhelming light that discombobulates anyone foolish enough to approach. Claw-Trapped Survivors suffer from the Blindness Status Effect.",
-            "localMatch": {
-              "addonId": "6819ebc9-d0a8-49b8-9efa-76d7a84185ca",
-              "internalId": "Addon_K31_02",
-              "localName": "High-Power Floodlight",
-              "localImage": "dbd_images/addons/iconaddon_high-powerfloodlight.png",
-              "localRarity": "common",
-              "method": "name"
-            }
-          },
-          {
-            "rank": 14,
-            "tierBucket": "almost-no-effect",
-            "name": "Randomised Strobes",
-            "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/skull%20merchant/randomisedstrobes.png",
-            "otzComment": "Randomised Strobes : Adds an extra 1 second to the time that Survivors become hindered when tagged by a drone several times. Most of the times, this slightly longer duration simply does not make a difference in chase. The blue Vital Targeting Processor is more likely to give you noticeable results instead.",
-            "description": "Lights flash randomly on the ground, making it harder to find purchase on the uneven terrain. Extends the duration of the Hindered Status Effect for Claw-Trapped Survivors when detected by Drones by +1 second.",
-            "localMatch": {
-              "addonId": "c6fd8b2f-ee59-4aa0-acef-dc40d5889f91",
-              "internalId": "Addon_K31_15",
-              "localName": "Randomized Strobes",
-              "localImage": "dbd_images/addons/iconaddon_randomisedstrobes.png",
-              "localRarity": "veryrare",
-              "method": "image"
-            }
-          },
-          {
-            "rank": 15,
             "tierBucket": "almost-no-effect",
             "name": "Supercharge",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/skull%20merchant/supercharge.png",
-            "otzComment": "Supercharge : Increases the lifespan of claw-traps, making them last ~52 seconds instead of the default 45 seconds. Not a terrible effect, and synergizes with other add-ons related to claw-traps, but the extra duration isn't always critical since many times you'll end up downing the claw-trapped Survivor before the duration expires anyway. In chase, the timer is reset each time a Survivor is scanned. Outside of chase, it's exceedingly rare that Survivors become claw-trapped anyway.",
+            "otzComment": "Supercharge : Increases the lifespan of claw-traps, making them last ~52 seconds instead of the default 45 seconds. Not a terrible effect since it delays a Survivor's ability to start healing again (and keeps them on your radar for longer). It synergizes with other add-ons related to claw-traps, but the extra duration isn't always critical since many times you'll end up downing the claw-trapped Survivor before the duration expires anyway. In chase, the timer is reset each time a Survivor is scanned. Outside of chase, it's exceedingly rare that Survivors become claw-trapped anyway.",
             "description": "The batteries may run a little hot, but removing the safety protocols from the cells makes them last a little longer. Extends the Battery life of Claw Traps by +15 %.",
             "localMatch": {
               "addonId": "f029a48e-7c7b-4ea1-944b-3f0b83883e17",
@@ -14749,7 +14717,7 @@ var COMMUNITY_CONTENT = {
             }
           },
           {
-            "rank": 16,
+            "rank": 14,
             "tierBucket": "almost-no-effect",
             "name": "Shotgun Speakers",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/skull%20merchant/shotgunspeakers.png",
@@ -14765,23 +14733,39 @@ var COMMUNITY_CONTENT = {
             }
           },
           {
-            "rank": 17,
+            "rank": 15,
             "tierBucket": "almost-no-effect",
-            "name": "High-Current Upgrade",
-            "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/skull%20merchant/highcurrentupgrade.png",
-            "otzComment": "High-Current Upgrade : Adds 1 extra second of scanned visibility to any Survivor tagged by a drone, making it last 13 seconds in total. Not a extremely impactful effect.",
-            "description": "A wider cable with low resistance that allows faster recharging of batteries. Increases the Tracking duration of the Radar by +1 second.",
+            "name": "High-Power Floodlight",
+            "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/skull%20merchant/highpowerfloodlight.png",
+            "otzComment": "High-Power Floodlight : Inflicts the Blindness status effect to claw-trapped Survivors, which normally lasts for 45 seconds. This can occasionally confuse Survivors during chase or prevent them from gathering some critical information, but overall this effect is simply not reliable enough to be worth the add-on slot. Keep in mind that once you down Survivors, their claw trap is immediately removed so the blindness won't even affect them while they're on the hook.",
+            "description": "A sudden and overwhelming light that discombobulates anyone foolish enough to approach. Claw-Trapped Survivors suffer from the Blindness Status Effect.",
             "localMatch": {
-              "addonId": "0cde0a75-c5a2-4ec2-a5ae-2b4e34578dff",
-              "internalId": "Addon_K31_04",
-              "localName": "High Current Upgrade",
-              "localImage": "dbd_images/addons/iconaddon_high-currentupgrade.png",
+              "addonId": "6819ebc9-d0a8-49b8-9efa-76d7a84185ca",
+              "internalId": "Addon_K31_02",
+              "localName": "High-Power Floodlight",
+              "localImage": "dbd_images/addons/iconaddon_high-powerfloodlight.png",
               "localRarity": "common",
               "method": "name"
             }
           },
           {
-            "rank": 18,
+            "rank": 16,
+            "tierBucket": "almost-no-effect",
+            "name": "Advanced Movement Prediction",
+            "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/skull%20merchant/advancedmovementprediction.png",
+            "otzComment": "Advanced Movement Prediction : Reveals the aura of claw-trapped Survivors for 6 seconds. Sounds useful, until you remember that most claw-trapped Survivors are already in front of you and that they can easily be tracked with your radar even if they're outside of your line of sight. For this reason, it's not terribly impactful.",
+            "description": "Even after they leave the zone of influenced, a refined AI programme predicts with high accuracy where a person will go next. The Auras of newly Claw-Trapped Survivors are revealed to you for 6 seconds.",
+            "localMatch": {
+              "addonId": "bc1a03af-690c-43cb-a6c5-0acfade70a58",
+              "internalId": "Addon_K31_16",
+              "localName": "Advanced Movement Prediction",
+              "localImage": "dbd_images/addons/iconaddon_advancedmovementprediction.png",
+              "localRarity": "veryrare",
+              "method": "name"
+            }
+          },
+          {
+            "rank": 17,
             "tierBucket": "almost-no-effect",
             "name": "Infrared Upgrade",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/skull%20merchant/infraredupgrade.png",
@@ -14797,11 +14781,11 @@ var COMMUNITY_CONTENT = {
             }
           },
           {
-            "rank": 19,
+            "rank": 18,
             "tierBucket": "almost-no-effect",
             "name": "Adi Valente Issue 1",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/skull%20merchant/adivalenteissue1.png",
-            "otzComment": "Adi Valente Issue 1 : Slightly reduces the skill check size for any Survivor claw-trapped, which typically lasts for 45 seconds. Might seem somewhat useful at first (especially with a skill check oriented build) but keep in mind that it's exceedingly rare to claw-trap Survivors outside of chase enough for this add-on to come into play often. Even when it does, the 20% reduction of size isn't even that big of a deal own its own.",
+            "otzComment": "Adi Valente Issue 1 : Slightly reduces the skill check size for any Survivor claw-trapped, which typically lasts for 45 seconds. Might seem somewhat useful at first (especially with a skill check oriented build) but keep in mind that it's exceedingly rare to claw-trap Survivors outside of chase enough for this add-on to come into play often. Even when it does, the 20% reduction of size isn't even that big of a deal on its own.",
             "description": "An original copy of the first issue of Adi Valente, the comic her father made while Adriana was a child. Reduces the Success Zone of Skill Checks for Claw-Trapped Survivors by -20 %.",
             "localMatch": {
               "addonId": "de43149d-ac2f-4e48-9290-811c80dc687a",
@@ -14813,11 +14797,27 @@ var COMMUNITY_CONTENT = {
             }
           },
           {
+            "rank": 19,
+            "tierBucket": "almost-no-effect",
+            "name": "High-Current Upgrade",
+            "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/skull%20merchant/highcurrentupgrade.png",
+            "otzComment": "High-Current Upgrade : Adds 1 extra second of scanned visibility to any Survivor tagged by a drone, making it last 13 seconds in total. Not an extremely impactful effect.",
+            "description": "A wider cable with low resistance that allows faster recharging of batteries. Increases the Tracking duration of the Radar by +1 second.",
+            "localMatch": {
+              "addonId": "0cde0a75-c5a2-4ec2-a5ae-2b4e34578dff",
+              "internalId": "Addon_K31_04",
+              "localName": "High Current Upgrade",
+              "localImage": "dbd_images/addons/iconaddon_high-currentupgrade.png",
+              "localRarity": "common",
+              "method": "name"
+            }
+          },
+          {
             "rank": 20,
             "tierBucket": "detrimental",
             "name": "Low-Power Mode",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/skull%20merchant/lowpowermode.png",
-            "otzComment": "Low-Power Mode : This add-on completely removes the rotation from the drone's scanning lasers. This makes them more consistent when it comes to covering certain areas but also much more predictable and easy to avoid overall. For most players, this makes the Skull Merchant's power worse. However, it's ultimately up to you to decide if this playstyle suits you.",
+            "otzComment": "Low-Power Mode : This add-on completely removes the rotation from the drone's scanning lasers. This makes them more consistent when it comes to covering certain choke points but also much more predictable and easy to avoid overall. For most players, this makes the Skull Merchant's power worse. However, it's ultimately up to you to decide if this playstyle suits you.",
             "description": "By intermittently powering on and off non-vital components, the Drone can stay on for longer. Reduces the Rotational speed of the Scan Lines of Drones by -100 %.",
             "localMatch": {
               "addonId": "f6956028-6335-4633-b4ed-47385d49ddf2",
@@ -14840,55 +14840,19 @@ var COMMUNITY_CONTENT = {
             "addons": [
               {
                 "rank": 1,
-                "name": "Iridescent Unpublished Manuscript",
-                "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/skull%20merchant/iridescentunpublishedmanuscript.png",
+                "name": "Ultrasonic Speaker",
+                "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/skull%20merchant/ultrasonicspeaker.png",
                 "localMatch": {
-                  "addonId": "0425f5f3-3afb-49fb-b9e7-ebb3a2512974",
-                  "internalId": "Addon_K31_20",
-                  "localName": "Iridescent Unpublished Manuscript",
-                  "localImage": "dbd_images/addons/iconaddon_iridescentunpublishedmanuscript.png",
-                  "localRarity": "visceral",
+                  "addonId": "f7b2bd1a-931f-46c8-b4c2-90e993abfe73",
+                  "internalId": "Addon_K31_17",
+                  "localName": "Ultrasonic Speaker",
+                  "localImage": "dbd_images/addons/iconaddon_ultrasonicspeaker.png",
+                  "localRarity": "common",
                   "method": "name"
                 }
               },
               {
                 "rank": 2,
-                "name": "Geographical Readout",
-                "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/skull%20merchant/geographicalreadout.png",
-                "localMatch": {
-                  "addonId": "3dfc258b-15c8-4c01-98f0-3601b7888fca",
-                  "internalId": "Addon_K31_03",
-                  "localName": "Geographical Readout",
-                  "localImage": "dbd_images/addons/iconaddon_geographicalreadout.png",
-                  "localRarity": "veryrare",
-                  "method": "name"
-                }
-              }
-            ]
-          },
-          {
-            "tier": "solid",
-            "label": "Solid Combo",
-            "addonRanks": [
-              3,
-              6
-            ],
-            "addons": [
-              {
-                "rank": 3,
-                "name": "Prototype Rotor",
-                "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/skull%20merchant/prototyperotor.png",
-                "localMatch": {
-                  "addonId": "5c612d70-1500-4a15-aeb7-24f97d8c74b8",
-                  "internalId": "Addon_K31_19",
-                  "localName": "Prototype Rotor",
-                  "localImage": "dbd_images/addons/iconaddon_prototyperotor.png",
-                  "localRarity": "veryrare",
-                  "method": "name"
-                }
-              },
-              {
-                "rank": 6,
                 "name": "Vital Targeting Processor",
                 "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/skull%20merchant/vitaltargetingprocessor.png",
                 "localMatch": {
@@ -14903,51 +14867,28 @@ var COMMUNITY_CONTENT = {
             ]
           },
           {
-            "tier": "good",
-            "label": "Good Combo",
+            "tier": "solid",
+            "label": "Solid Combo",
             "addonRanks": [
               4,
-              7
+              6
             ],
             "addons": [
               {
                 "rank": 4,
-                "name": "Adaptive Lighting",
-                "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/skull%20merchant/adaptivelighting.png",
+                "name": "Geographical Readout",
+                "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/skull%20merchant/geographicalreadout.png",
                 "localMatch": {
-                  "addonId": "5c53d686-b12d-46a5-8fb2-be66776b9261",
-                  "internalId": "Addon_K31_05",
-                  "localName": "Adaptive Lighting",
-                  "localImage": "dbd_images/addons/iconaddon_adaptivelighting.png",
-                  "localRarity": "uncommon",
+                  "addonId": "3dfc258b-15c8-4c01-98f0-3601b7888fca",
+                  "internalId": "Addon_K31_03",
+                  "localName": "Geographical Readout",
+                  "localImage": "dbd_images/addons/iconaddon_geographicalreadout.png",
+                  "localRarity": "veryrare",
                   "method": "name"
                 }
               },
               {
-                "rank": 7,
-                "name": "Ultrasonic Speaker",
-                "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/skull%20merchant/ultrasonicspeaker.png",
-                "localMatch": {
-                  "addonId": "f7b2bd1a-931f-46c8-b4c2-90e993abfe73",
-                  "internalId": "Addon_K31_17",
-                  "localName": "Ultrasonic Speaker",
-                  "localImage": "dbd_images/addons/iconaddon_ultrasonicspeaker.png",
-                  "localRarity": "common",
-                  "method": "name"
-                }
-              }
-            ]
-          },
-          {
-            "tier": "fun",
-            "label": "Fun Combo",
-            "addonRanks": [
-              5,
-              8
-            ],
-            "addons": [
-              {
-                "rank": 5,
+                "rank": 6,
                 "name": "Expired Batteries",
                 "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/skull%20merchant/expiredbatteries.png",
                 "localMatch": {
@@ -14958,17 +14899,76 @@ var COMMUNITY_CONTENT = {
                   "localRarity": "visceral",
                   "method": "name"
                 }
+              }
+            ]
+          },
+          {
+            "tier": "good",
+            "label": "Good Combo",
+            "addonRanks": [
+              1,
+              9
+            ],
+            "addons": [
+              {
+                "rank": 1,
+                "name": "Ultrasonic Speaker",
+                "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/skull%20merchant/ultrasonicspeaker.png",
+                "localMatch": {
+                  "addonId": "f7b2bd1a-931f-46c8-b4c2-90e993abfe73",
+                  "internalId": "Addon_K31_17",
+                  "localName": "Ultrasonic Speaker",
+                  "localImage": "dbd_images/addons/iconaddon_ultrasonicspeaker.png",
+                  "localRarity": "common",
+                  "method": "name"
+                }
               },
               {
-                "rank": 8,
-                "name": "Brown Noise Generator",
-                "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/skull%20merchant/brownnoisegenerator.png",
+                "rank": 9,
+                "name": "Adaptive Lighting",
+                "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/skull%20merchant/adaptivelighting.png",
                 "localMatch": {
-                  "addonId": "1e2b6da4-748a-477f-91f6-547063fca10b",
-                  "internalId": "Addon_K31_12",
-                  "localName": "Brown Noise Generator",
-                  "localImage": "dbd_images/addons/iconaddon_brownnoisegenerator.png",
-                  "localRarity": "rare",
+                  "addonId": "5c53d686-b12d-46a5-8fb2-be66776b9261",
+                  "internalId": "Addon_K31_05",
+                  "localName": "Adaptive Lighting",
+                  "localImage": "dbd_images/addons/iconaddon_adaptivelighting.png",
+                  "localRarity": "uncommon",
+                  "method": "name"
+                }
+              }
+            ]
+          },
+          {
+            "tier": "fun",
+            "label": "Fun Combo",
+            "addonRanks": [
+              11,
+              5
+            ],
+            "addons": [
+              {
+                "rank": 11,
+                "name": "Stereo Remote Mic",
+                "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/skull%20merchant/stereoremotemic.png",
+                "localMatch": {
+                  "addonId": "1628a4fe-017e-46ba-a52d-9db710c24c47",
+                  "internalId": "Addon_K31_06",
+                  "localName": "Stereo Remote Mic",
+                  "localImage": "dbd_images/addons/iconaddon_stereoremotemic.png",
+                  "localRarity": "uncommon",
+                  "method": "name"
+                }
+              },
+              {
+                "rank": 5,
+                "name": "Iridescent Unpublished Manuscript",
+                "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/skull%20merchant/iridescentunpublishedmanuscript.png",
+                "localMatch": {
+                  "addonId": "0425f5f3-3afb-49fb-b9e7-ebb3a2512974",
+                  "internalId": "Addon_K31_20",
+                  "localName": "Iridescent Unpublished Manuscript",
+                  "localImage": "dbd_images/addons/iconaddon_iridescentunpublishedmanuscript.png",
+                  "localRarity": "visceral",
                   "method": "name"
                 }
               }
@@ -15104,7 +15104,7 @@ var COMMUNITY_CONTENT = {
             "tierBucket": "decent",
             "name": "Iridescent Crystal Shard",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/singularity/iridescentcrystalshard.png",
-            "otzComment": "Iridescent Crystal Shard : Allows you to see the aura of Survivors near your biopods, allowing you to use them as chasing tools or even find stealthy Survivors randomly. Not a bad effect, but you won't be typically placing most of your biopods too close too Survivors anyway, since they're better off being placed in high areas with tons of visibility.",
+            "otzComment": "Iridescent Crystal Shard : Allows you to see the aura of Survivors near your biopods, allowing you to use them as chasing tools or even find stealthy Survivors randomly. Not a bad effect, but you won't be typically placing most of your biopods too close to Survivors anyway, since they're better off being placed in high areas with tons of visibility.",
             "description": "A crystal from the alien structure that gave it sentience. The Auras of Survivors within 10 metres of a newly placed Biopod are revealed to you for 6 seconds. \"HELLO WORLD.\" — HUX-A7-13",
             "localMatch": {
               "addonId": "23cd1e29-0aef-48de-b3cd-9a0c6d8a2e94",
@@ -15136,7 +15136,7 @@ var COMMUNITY_CONTENT = {
             "tierBucket": "decent",
             "name": "Ultrasonic Sensor",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/singularity/ultrasonicsensor.png",
-            "otzComment": "Ultrasonic Sensor : Reduces your terror radius by a significant amount (12 meters) after slipstreaming a Survivor with a biopod, making it more likel to catch them or someone else by surprise shortly after.",
+            "otzComment": "Ultrasonic Sensor : Reduces your terror radius by a significant amount (12 meters) after slipstreaming a Survivor with a biopod, making it more likely to catch them or someone else by surprise shortly after.",
             "description": "A limitation of organic hearing is a limited aural spectrum.Expanding that range is like gaining an entirely new sense. Exiting a Biopod within 2 seconds of afflicting a Survivor with Temporal Slipstream reduces your Terror Radius by -12 metres for 12 seconds.",
             "localMatch": {
               "addonId": "c990d5c5-4904-43ac-8ec3-f7d3819febcc",
@@ -15200,7 +15200,7 @@ var COMMUNITY_CONTENT = {
             "tierBucket": "almost-no-effect",
             "name": "Hyperawareness Spray",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/singularity/hyperawarenessspray.png",
-            "otzComment": "Hyperawareness Spray : Slipstreamed Survivors hear a constant fake terror radius (which does not apply any terror radius related effects). This faint terror radius makes it a bit harder to tell exactly how far the Killer but it might also have the effect of making Survivors even more likely to seek out EMPs. Not a terrible effect, but definitely quite gimmicky.",
+            "otzComment": "Hyperawareness Spray : Slipstreamed Survivors hear a constant fake terror radius (which does not apply any terror radius related effects). This faint terror radius makes it a bit harder to tell exactly how far the Killer is but it might also have the effect of making Survivors even more likely to seek out EMPs. Not a terrible effect, but definitely quite gimmicky.",
             "description": "Used by crew members during long shifts to avoid lapses in focus.Side effects of overuse include paranoia and, in extreme cases, hallucination. Causes all Slipstreamed Survivors to hear a fake nearby Terror Radius.",
             "localMatch": {
               "addonId": "2643c654-aafd-45c6-81b2-c4750c60ed94",
@@ -15216,7 +15216,7 @@ var COMMUNITY_CONTENT = {
             "tierBucket": "almost-no-effect",
             "name": "Broken Security Key",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/singularity/brokensecuritykey.png",
-            "otzComment": "Broken Security Key : Reduces the times that biopods become disabled by 15% when hit by an EMP. The default downtime is 45 seconds, so this add-on reduces is by roughly 5 seconds. Needless to say, waiting such a long time for a biopod to come back online is not something that you can afford to do. If nearby, disabled biopods should be removed and replaced by a new one to avoid this long wait. Distant biopods can also be remotely destroyed if you need them elsewhere. In some rare situations, the small effect of this add-on might come in clutch, but it's still not something that you should rely on.",
+            "otzComment": "Broken Security Key : Reduces the time that biopods become disabled for by 15% when hit by an EMP. The default downtime is 45 seconds, so this add-on reduces it by roughly 5 seconds. Needless to say, waiting such a long time for a biopod to come back online is not something that you can afford to do. If nearby, disabled biopods should be removed and replaced by a new one to avoid this long wait. Distant biopods can also be remotely destroyed if you need them elsewhere. In some rare situations, the small effect of this add-on might come in clutch, but it's still not something that you should rely on.",
             "description": "Dozens of security measures were applied across the ship's equipment, and many of them were in a state of disrepair. Reduces the Reboot timer of disabled Biopods by -15 %.",
             "localMatch": {
               "addonId": "af352f05-08c6-4ce1-85d5-a7808c23ce27",
@@ -15264,7 +15264,7 @@ var COMMUNITY_CONTENT = {
             "tierBucket": "almost-no-effect",
             "name": "Soma Family Photo",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/singularity/somafamilyphoto.png",
-            "otzComment": "Soma Family Photo : Provides a small movement speed hinder to Survivors when you slipstream them with a biopod. Slowing down Survivor movement is never a bad thing but this effect is really tiny and almost negligible, especially when you consider that using biopods brings you to a full stop yourself. At best, this add-on could be paired with the blue Nanomachine Gel and hope that it helps you catch a Survivor right before they make it to a corner in some very specific scenarios.",
+            "otzComment": "Soma Family Photo : Provides a small movement speed hinder to Survivors when you slipstream them with a biopod. Slowing down Survivor movement is never a bad thing but this effect is really tiny and almost negligible, especially when you consider that using biopods brings you to a full stop yourself. At best, you can pair this add-on with the blue Nanomachine Gel and hope that it helps you catch a Survivor right before they make it to a corner in some very specific scenarios.",
             "description": "\"A sentimental object that grounds someone to an imagined past.\" Survivors afflicted with Temporal Slipstream from a Biopod suffer from the following effect: Inflicts a -3 % Hindered Status Effect for 6 seconds. \"YOUR ATTACHMENT TO ILLUSIONS IS WEAKNESS.\" — HUX-A7-13",
             "localMatch": {
               "addonId": "d77336c9-5515-41dd-bbef-5226e56aea1d",
@@ -15280,7 +15280,7 @@ var COMMUNITY_CONTENT = {
             "tierBucket": "almost-no-effect",
             "name": "Android Arm",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/singularity/androidarm.png",
-            "otzComment": "Android Arm : Increases the \"infection\" distance by 2 meters, making it easier for Survivors to accidentally spread their slipstream to other Survivors. Might seem useful at first, but this add-on makes very little difference in most cases and doesn't change the fact that Survivors need a clear line of sight between them for the infection to occur. Even with this add--on, two Survivors can work on opposite ends of a generator without spreading the slipstream.",
+            "otzComment": "Android Arm : Increases the \"infection\" distance by 2 meters, making it easier for Survivors to accidentally spread their slipstream to other Survivors. Might seem useful at first, but this add-on makes very little difference in most cases and doesn't change the fact that Survivors need a clear line of sight between them for the infection to occur. Even with this add-on, two Survivors can work on opposite ends of a generator without spreading the slipstream.",
             "description": "Destroying the other HUX units not only made its extermination of humans easier, it also gave it more parts to work with. Increases the Spreading distance of Temporal Slipstream between Survivors by +2 metres. Increases the Spreading speed of Temporal Slipstream between Survivors by +25 %.",
             "localMatch": {
               "addonId": "de5ef260-9267-4af7-b85e-94772acedd08",
@@ -15471,7 +15471,7 @@ var COMMUNITY_CONTENT = {
             "tierBucket": "strongest",
             "name": "Harpoon Gun",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/xenomorph/harpoongun.png",
-            "otzComment": "Harpoon Gun : Screaming interrupts certain actions and can have good synergy with certain builds while providing consistent information throughout the match. Fun fact: if you manage to hit Survivors quickly enough, you can trigger the effects of this add-on more than once.",
+            "otzComment": "Harpoon Gun : Screaming interrupts certain actions and can have good synergy with certain builds while providing consistent information throughout the match. Fun fact: if you manage to hit Survivors quickly enough, you can trigger the effect of this add-on more than once.",
             "description": "Barely a weapon, its use is only viable in a situation of last resort. Hitting a Survivor within 30 seconds of exiting the Tunnels triggers the following effect: Causes all other Survivors farther than 16 metres from your location to scream and reveal their location to you.",
             "localMatch": {
               "addonId": "232321f1-44f0-4a1a-a87c-a63eafb35118",
@@ -15517,22 +15517,6 @@ var COMMUNITY_CONTENT = {
           {
             "rank": 4,
             "tierBucket": "good",
-            "name": "Kane's Helmet",
-            "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/xenomorph/kaneshelmet.png",
-            "otzComment": "Kane's Helmet : This add-on makes all of your tail attacks inflict Mangled for a set amount of time. Useful and pretty simple to use, but the limited duration of the effect makes it slightly less appealing.",
-            "description": "A thin layer of glass was the difference between a minor inconvenience and the tragic destruction of the Nostromo's crew. Survivors hit with a successful Tail Attack suffer from the Mangled Status Effect for 70 seconds.",
-            "localMatch": {
-              "addonId": "f0ea1956-1f60-4b49-a785-05a4ed1cb7fa",
-              "internalId": "Addon_K33_10",
-              "localName": "Kane’s Helmet",
-              "localImage": "dbd_images/addons/iconaddon_kaneshelmet.png",
-              "localRarity": "rare",
-              "method": "name"
-            }
-          },
-          {
-            "rank": 5,
-            "tierBucket": "good",
             "name": "Semiotic Keyboard",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/xenomorph/semiotickeyboard.png",
             "otzComment": "Semiotic Keyboard : This add-on turns turrets into sources of information, and will often reveal which generators need your attention multiple times during a match. This add-on provides a really nice boost to the Xenomorph's ability to gather information with his power without using any perk slots.",
@@ -15547,56 +15531,8 @@ var COMMUNITY_CONTENT = {
             }
           },
           {
-            "rank": 6,
+            "rank": 5,
             "tierBucket": "good",
-            "name": "Improvised Cattle Prod",
-            "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/xenomorph/improvisedcattleprod.png",
-            "otzComment": "Improvised Cattle Prod : Provides aura reading on Survivors around key areas when generators get completed. It's typically quite helpful, but don't forget that several Survivor perks can prevent their aura from being revealed.",
-            "description": "A brutal and noisy weapon, which might have been more effective against a cow. Whenever a Generator is completed, the following effect applies for 15 seconds: While the effect is active, the Aura of any Survivor coming within 10 metres of a Control Station are revealed to you for 15 seconds.",
-            "localMatch": {
-              "addonId": "0b219170-eb7a-4392-8c20-fd9640dc622f",
-              "internalId": "Addon_K33_19",
-              "localName": "Improvised Cattle Prod",
-              "localImage": "dbd_images/addons/iconaddon_improvisedcattleprod.png",
-              "localRarity": "visceral",
-              "method": "name"
-            }
-          },
-          {
-            "rank": 7,
-            "tierBucket": "good",
-            "name": "Cereal Rations",
-            "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/xenomorph/cerealrations.png",
-            "otzComment": "Cereal Rations : Shows you the auras of all deployed turrets when you're travelling through tunnels. This gives indirect information about Survivor locations and makes it less likely that a turret will catch you by surprise. However, be sure not to rely too much on this add-on to find Survivors. Sometimes it's best to be proactive and look for vulnerable targets with your ability to detect footsteps above you.",
-            "description": "Contains 100 % of the recommended daily intake of Vitamin A.Tastes awful. While inside the Tunnels, you benefit from the following effect: The Auras of deployed Remote Flame Turrets are revealed to you. This effect lingers for 3 seconds.",
-            "localMatch": {
-              "addonId": "b73e0f09-5761-4054-8465-aa492ced273a",
-              "internalId": "Addon_K33_02",
-              "localName": "Cereal Rations",
-              "localImage": "dbd_images/addons/iconaddon_cerealrations.png",
-              "localRarity": "common",
-              "method": "name"
-            }
-          },
-          {
-            "rank": 8,
-            "tierBucket": "decent",
-            "name": "Crew Headset",
-            "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/xenomorph/crewheadset.png",
-            "otzComment": "Crew Headset : Increases the radius at which you can detect Survivor footsteps above when travelling through tunnels, making it even more likely that you'll find someone. Particularly useful at the start of the game and when used on builds that don't have any information perks.",
-            "description": "While they facilitated team communication, the constant chatter made the crew easier to track. Increases the Detection range of Survivor Footsteps when inside the Tunnels by +6 metres.",
-            "localMatch": {
-              "addonId": "f8137109-1398-44cb-8dee-a163d37ccece",
-              "internalId": "Addon_K33_06",
-              "localName": "Crew Headset",
-              "localImage": "dbd_images/addons/iconaddon_crewheadset.png",
-              "localRarity": "uncommon",
-              "method": "name"
-            }
-          },
-          {
-            "rank": 9,
-            "tierBucket": "decent",
             "name": "Emergency Helmet",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/xenomorph/emergencyhelmet.png",
             "otzComment": "Emergency Helmet : Increases your resistance to the turret fire, which makes it harder for them to burn you out of your power. This increased resistance makes it less likely to lose your power if you come across an unexpected turret during chase, but your default resistance should be enough in most situations. In instances where you come across two turrets in close proximity, even this add-on won't be enough to make a difference.",
@@ -15611,7 +15547,39 @@ var COMMUNITY_CONTENT = {
             }
           },
           {
-            "rank": 10,
+            "rank": 6,
+            "tierBucket": "good",
+            "name": "Moulted Skin",
+            "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/xenomorph/moultedskin.png",
+            "otzComment": "Moulted Skin : Applies a huge 30 seconds of Exhaustion to a Survivor after they deploy a turret. This effect can come into play very early and happen a decent amount of times throughout the match. It's often hard to know exactly when this add-on is preventing a perk from being used, but on average it should be quite helpful since exhaustion perks are always popular. Needless to say, this add-on will do basically nothing if your Survivors are not using turrets or have have no exhaustion perks, but that should be a pretty ideal scenario anyway. You can pair this add-on with the perk Mindbreaker to keep repairing Survivors constantly at a 30 second Exhaustion timer.",
+            "description": "The Xenomorph moulted many times as it rapidly grew on the Nostromo.Its shed skin was a constant reminder of its presence. After deploying a Remote Flame Turret, Survivors suffer from the Exhausted Status Effect for 30 seconds.",
+            "localMatch": {
+              "addonId": "d52586bc-8970-44f8-80e0-ec57e0cc37a4",
+              "internalId": "Addon_K33_13",
+              "localName": "Molted Skin",
+              "localImage": "dbd_images/addons/iconaddon_moultedskin.png",
+              "localRarity": "rare",
+              "method": "image"
+            }
+          },
+          {
+            "rank": 7,
+            "tierBucket": "good",
+            "name": "Crew Headset",
+            "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/xenomorph/crewheadset.png",
+            "otzComment": "Crew Headset : Increases the radius at which you can detect Survivor footsteps above when travelling through tunnels, making it even more likely that you'll find someone. Particularly useful at the start of the game and when used on builds that don't have any information perks.",
+            "description": "While they facilitated team communication, the constant chatter made the crew easier to track. Increases the Detection range of Survivor Footsteps when inside the Tunnels by +6 metres.",
+            "localMatch": {
+              "addonId": "f8137109-1398-44cb-8dee-a163d37ccece",
+              "internalId": "Addon_K33_06",
+              "localName": "Crew Headset",
+              "localImage": "dbd_images/addons/iconaddon_crewheadset.png",
+              "localRarity": "uncommon",
+              "method": "name"
+            }
+          },
+          {
+            "rank": 8,
             "tierBucket": "decent",
             "name": "Ovomorph",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/xenomorph/ovomorph.png",
@@ -15627,7 +15595,87 @@ var COMMUNITY_CONTENT = {
             }
           },
           {
+            "rank": 9,
+            "tierBucket": "decent",
+            "name": "Cereal Rations",
+            "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/xenomorph/cerealrations.png",
+            "otzComment": "Cereal Rations : Shows you the auras of all deployed turrets when you're travelling through tunnels. This gives indirect information about Survivor locations and makes it less likely that a turret will catch you by surprise. However, be sure not to rely too much on this add-on to find Survivors. Sometimes it's best to be proactive and look for vulnerable targets with your ability to detect footsteps above you.",
+            "description": "Contains 100 % of the recommended daily intake of Vitamin A.Tastes awful. While inside the Tunnels, you benefit from the following effect: The Auras of deployed Remote Flame Turrets are revealed to you. This effect lingers for 3 seconds.",
+            "localMatch": {
+              "addonId": "b73e0f09-5761-4054-8465-aa492ced273a",
+              "internalId": "Addon_K33_02",
+              "localName": "Cereal Rations",
+              "localImage": "dbd_images/addons/iconaddon_cerealrations.png",
+              "localRarity": "common",
+              "method": "name"
+            }
+          },
+          {
+            "rank": 10,
+            "tierBucket": "decent",
+            "name": "Kane's Helmet",
+            "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/xenomorph/kaneshelmet.png",
+            "otzComment": "Kane's Helmet : This add-on makes all of your tail attacks inflict Mangled for a set amount of time. Useful and pretty simple to use, but the limited duration of the effect makes it slightly less appealing.",
+            "description": "A thin layer of glass was the difference between a minor inconvenience and the tragic destruction of the Nostromo's crew. Survivors hit with a successful Tail Attack suffer from the Mangled Status Effect for 70 seconds.",
+            "localMatch": {
+              "addonId": "f0ea1956-1f60-4b49-a785-05a4ed1cb7fa",
+              "internalId": "Addon_K33_10",
+              "localName": "Kane’s Helmet",
+              "localImage": "dbd_images/addons/iconaddon_kaneshelmet.png",
+              "localRarity": "rare",
+              "method": "name"
+            }
+          },
+          {
             "rank": 11,
+            "tierBucket": "decent",
+            "name": "Multipurpose Hatchet",
+            "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/xenomorph/multipurposehatchet.png",
+            "otzComment": "Multipurpose Hatchet : Applies the Haemorrhage status effect with each tail attack. This effect only gives value if you interrupt Survivors during a heal. Unlike many other add-ons, however, this one has unlimited duration. Pairs well with the blue Kane's Helment to make healing take longer as well.",
+            "description": "Equally useful for destruction and repair. Survivors hit with a successful Tail Strike attack suffer from the Haemorrhage Status Effect until fully healed.",
+            "localMatch": {
+              "addonId": "4a07797c-c852-49ad-9765-2c2d77432a9e",
+              "internalId": "Addon_K33_11",
+              "localName": "Multipurpose Hatchet",
+              "localImage": "dbd_images/addons/iconaddon_multipurposehatchet.png",
+              "localRarity": "rare",
+              "method": "name"
+            }
+          },
+          {
+            "rank": 12,
+            "tierBucket": "decent",
+            "name": "Improvised Cattle Prod",
+            "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/xenomorph/improvisedcattleprod.png",
+            "otzComment": "Improvised Cattle Prod : Provides aura reading on Survivors around key areas when generators get completed. It's typically quite helpful, but don't forget that several Survivor perks can prevent their aura from being revealed.",
+            "description": "A brutal and noisy weapon, which might have been more effective against a cow. Whenever a Generator is completed, the following effect applies for 15 seconds: While the effect is active, the Aura of any Survivor coming within 10 metres of a Control Station are revealed to you for 15 seconds.",
+            "localMatch": {
+              "addonId": "0b219170-eb7a-4392-8c20-fd9640dc622f",
+              "internalId": "Addon_K33_19",
+              "localName": "Improvised Cattle Prod",
+              "localImage": "dbd_images/addons/iconaddon_improvisedcattleprod.png",
+              "localRarity": "visceral",
+              "method": "name"
+            }
+          },
+          {
+            "rank": 13,
+            "tierBucket": "decent",
+            "name": "Light Wand",
+            "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/xenomorph/lightwand.png",
+            "otzComment": "Light Wand : When emerging from a tunnel, you have a natural immunity period where turrets are disabled. This add-on extends that period by 3 second. Not the most impactful, but it does allow you to sometimes completely ignore a turret and chase a Survivor immediately instead.",
+            "description": "A portable light source used by Ash and Dallas while looking for the invasive creature.Mostly ineffective for lighting larger spaces. Increases the temporary downtime of Remote Flame Turrets whenever you exit the Tunnels by +3 seconds.",
+            "localMatch": {
+              "addonId": "43e7b4b5-1ef3-455d-aaab-5185794d15e2",
+              "internalId": "Addon_K33_09",
+              "localName": "Light Wand",
+              "localImage": "dbd_images/addons/iconaddon_lightwand.png",
+              "localRarity": "uncommon",
+              "method": "name"
+            }
+          },
+          {
+            "rank": 14,
             "tierBucket": "decent",
             "name": "Acidic Blood",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/xenomorph/acidicblood.png",
@@ -15643,27 +15691,11 @@ var COMMUNITY_CONTENT = {
             }
           },
           {
-            "rank": 12,
-            "tierBucket": "decent",
-            "name": "Multipurpose Hatchet",
-            "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/xenomorph/multipurposehatchet.png",
-            "otzComment": "Multipurpose Hatchet : Applies the Haemorrhage status effect with each tail attack. This effect only gives value if you interrupt Survivors during a heal and unfortunately has a limited duration, making it quite situational overall.",
-            "description": "Equally useful for destruction and repair. Survivors hit with a successful Tail Strike attack suffer from the Haemorrhage Status Effect until fully healed.",
-            "localMatch": {
-              "addonId": "4a07797c-c852-49ad-9765-2c2d77432a9e",
-              "internalId": "Addon_K33_11",
-              "localName": "Multipurpose Hatchet",
-              "localImage": "dbd_images/addons/iconaddon_multipurposehatchet.png",
-              "localRarity": "rare",
-              "method": "name"
-            }
-          },
-          {
-            "rank": 13,
+            "rank": 15,
             "tierBucket": "decent",
             "name": "Ripley's Watch",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/xenomorph/ripleyswatch.png",
-            "otzComment": "Ripley's Watch : Automatically destroys a turret that has knocked you out of your power, saving you a little bit of time. This is quite helpful for beginners that are still learning how to deal with them, but veteran players should avoid this situation in the first place.",
+            "otzComment": "Ripley's Watch : Automatically destroys a turret that has knocked you out of your power, saving you a little bit of time. This is quite helpful for beginners that are still learning how to deal with them, but veteran players should avoid this situation in the first place. It can also save a bit of time if you need to deal with two stacked turrets that managed to burn you.",
             "description": "On a ship as massive as the Nostromo, synchronising watches was important to keep track of work shifts. Causes Remote Flame Turrets to self-destruct after knocking you out of Crawler Mode.",
             "localMatch": {
               "addonId": "794b7463-b99a-4aa4-8414-8494da5edb45",
@@ -15675,27 +15707,11 @@ var COMMUNITY_CONTENT = {
             }
           },
           {
-            "rank": 14,
-            "tierBucket": "decent",
-            "name": "Moulted Skin",
-            "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/xenomorph/moultedskin.png",
-            "otzComment": "Moulted Skin : Applies a huge 30 seconds of Exhaustion to a Survivor after they deploy a turret. This effect can come into play very early and happen a decent amount of times throughout the match. It's often hard to know exactly when this add-on is preventing a perk from being used, but on average it should be quite helpful since exhaustion perks are always popular. Needless to say, this add-on will do nothing if your Survivors are not using turrets, but that should be a pretty ideal scenario anyway.",
-            "description": "The Xenomorph moulted many times as it rapidly grew on the Nostromo.Its shed skin was a constant reminder of its presence. After deploying a Remote Flame Turret, Survivors suffer from the Exhausted Status Effect for 30 seconds.",
-            "localMatch": {
-              "addonId": "d52586bc-8970-44f8-80e0-ec57e0cc37a4",
-              "internalId": "Addon_K33_13",
-              "localName": "Molted Skin",
-              "localImage": "dbd_images/addons/iconaddon_moultedskin.png",
-              "localRarity": "rare",
-              "method": "image"
-            }
-          },
-          {
-            "rank": 15,
+            "rank": 16,
             "tierBucket": "almost-no-effect",
             "name": "Cat Carrier",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/xenomorph/catcarrier.png",
-            "otzComment": "Cat Carrier : Gives you a decently long period of stealth after losing your power to a turret. However, keep in mind that even with the Undetectable status effects, the Xenomorph is never 100% stealthy. Survivors can still predict your approach by listening to the proximity sensor of the turrets. This add-on can help you bounce back from a mistake but it's ultimately not too reliable. Ideally, you should try to avoid being knocked out your power in the first place.",
+            "otzComment": "Cat Carrier : Gives you a decently long period of stealth after losing your power to a turret. However, keep in mind that even with the Undetectable status effect, the Xenomorph is never 100% stealthy. Survivors can still predict your approach by listening to the proximity sensor of the turrets. This add-on can help you bounce back from a mistake but it's ultimately not too reliable. Ideally, you should try to avoid being knocked out your power in the first place.",
             "description": "Saving the cat is a noble goal.It's also very distracting. Whenever a Remote Flame Turret knocks you out of Crawler Mode, you benefit from the following effect: Grants the Undetectable Status Effect for 30 seconds.",
             "localMatch": {
               "addonId": "6c7dd32d-b9c7-4d71-9027-b7eaf720a5fa",
@@ -15707,7 +15723,7 @@ var COMMUNITY_CONTENT = {
             }
           },
           {
-            "rank": 16,
+            "rank": 17,
             "tierBucket": "almost-no-effect",
             "name": "Drinking Bird",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/xenomorph/drinkingbird.png",
@@ -15719,22 +15735,6 @@ var COMMUNITY_CONTENT = {
               "localName": "Drinking Bird",
               "localImage": "dbd_images/addons/iconaddon_drinkingbird.png",
               "localRarity": "common",
-              "method": "name"
-            }
-          },
-          {
-            "rank": 17,
-            "tierBucket": "almost-no-effect",
-            "name": "Light Wand",
-            "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/xenomorph/lightwand.png",
-            "otzComment": "Light Wand : When emerging from a tunnel, you have a natural immunity period where turrets are disabled. This add-on extends that period by 3 second. Not the most impactful, but it does allow you to sometimes completely ignore a turret and chase a Survivor immediately instead.",
-            "description": "A portable light source used by Ash and Dallas while looking for the invasive creature.Mostly ineffective for lighting larger spaces. Increases the temporary downtime of Remote Flame Turrets whenever you exit the Tunnels by +3 seconds.",
-            "localMatch": {
-              "addonId": "43e7b4b5-1ef3-455d-aaab-5185794d15e2",
-              "internalId": "Addon_K33_09",
-              "localName": "Light Wand",
-              "localImage": "dbd_images/addons/iconaddon_lightwand.png",
-              "localRarity": "uncommon",
               "method": "name"
             }
           },
@@ -15775,7 +15775,7 @@ var COMMUNITY_CONTENT = {
             "tierBucket": "almost-no-effect",
             "name": "Ash's Innards",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/xenomorph/ashsinnards.png",
-            "otzComment": "Ash's Innards : This add-on delays the time a turret becomes available to be deployed again after being destroyed. However, since there's multiple turrets available, this add-on only really comes into play if Survivors are constantly trying to reset turrets, which rarely happens. Even if Survivors are using turrets a lot, there are other add-ons that are much better at helping you deal with them.",
+            "otzComment": "Ash's Innards : This add-on delays the time a turret becomes available to be deployed again after being destroyed. However, since there are multiple turrets available, this add-on only really comes into play if Survivors are constantly trying to reset turrets, which rarely happens. Even if Survivors are using turrets a lot, there are other add-ons that are much better at helping you deal with them.",
             "description": "While hardier, mechanical beings break too when enough force is applied. Increases the Respawn timer of Remote Flame Turrets by +15 seconds.",
             "localMatch": {
               "addonId": "7072cb6b-2442-4880-b479-f7fac8f83ee7",
@@ -15828,12 +15828,12 @@ var COMMUNITY_CONTENT = {
             "tier": "solid",
             "label": "Solid Combo",
             "addonRanks": [
-              4,
-              12
+              10,
+              11
             ],
             "addons": [
               {
-                "rank": 4,
+                "rank": 10,
                 "name": "Kane's Helmet",
                 "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/xenomorph/kaneshelmet.png",
                 "localMatch": {
@@ -15846,7 +15846,7 @@ var COMMUNITY_CONTENT = {
                 }
               },
               {
-                "rank": 12,
+                "rank": 11,
                 "name": "Multipurpose Hatchet",
                 "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/xenomorph/multipurposehatchet.png",
                 "localMatch": {
@@ -15883,14 +15883,14 @@ var COMMUNITY_CONTENT = {
               },
               {
                 "rank": 7,
-                "name": "Cereal Rations",
-                "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/xenomorph/cerealrations.png",
+                "name": "Crew Headset",
+                "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/xenomorph/crewheadset.png",
                 "localMatch": {
-                  "addonId": "b73e0f09-5761-4054-8465-aa492ced273a",
-                  "internalId": "Addon_K33_02",
-                  "localName": "Cereal Rations",
-                  "localImage": "dbd_images/addons/iconaddon_cerealrations.png",
-                  "localRarity": "common",
+                  "addonId": "f8137109-1398-44cb-8dee-a163d37ccece",
+                  "internalId": "Addon_K33_06",
+                  "localName": "Crew Headset",
+                  "localImage": "dbd_images/addons/iconaddon_crewheadset.png",
+                  "localRarity": "uncommon",
                   "method": "name"
                 }
               }
@@ -15900,12 +15900,12 @@ var COMMUNITY_CONTENT = {
             "tier": "fun",
             "label": "Fun Combo",
             "addonRanks": [
-              15,
-              16
+              16,
+              15
             ],
             "addons": [
               {
-                "rank": 15,
+                "rank": 16,
                 "name": "Cat Carrier",
                 "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/xenomorph/catcarrier.png",
                 "localMatch": {
@@ -15918,14 +15918,14 @@ var COMMUNITY_CONTENT = {
                 }
               },
               {
-                "rank": 16,
-                "name": "Drinking Bird",
-                "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/xenomorph/drinkingbird.png",
+                "rank": 15,
+                "name": "Ripley's Watch",
+                "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/xenomorph/ripleyswatch.png",
                 "localMatch": {
-                  "addonId": "4c053c01-7961-466e-a87d-1befdf9970ba",
-                  "internalId": "Addon_K33_05",
-                  "localName": "Drinking Bird",
-                  "localImage": "dbd_images/addons/iconaddon_drinkingbird.png",
+                  "addonId": "794b7463-b99a-4aa4-8414-8494da5edb45",
+                  "internalId": "Addon_K33_03",
+                  "localName": "Ripley's Watch",
+                  "localImage": "dbd_images/addons/iconaddon_ripleyswatch.png",
                   "localRarity": "common",
                   "method": "name"
                 }
@@ -15998,7 +15998,7 @@ var COMMUNITY_CONTENT = {
             "tierBucket": "good",
             "name": "Yardstick",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/chucky/yardstick.png",
-            "otzComment": "Yardstick : The aura read can sometimes reveal hidden Survivors and make it easier to track the ones that you're after. It doesn't always come into play, but the effect is quite decent still, especially if you're adept at using chaining his scamper to occasionally cover large distances quickly. Pairs well with other scamper-related add-ons.",
+            "otzComment": "Yardstick : The aura read can sometimes reveal hidden Survivors and make it easier to track the ones that you're after. It doesn't always come into play, but the effect is quite decent still, especially if you're adept at chaining his scamper to occasionally cover large distances quickly. Pairs well with other scamper-related add-ons.",
             "description": "Good for measuring distance.Even better for laying down a beating. Performing a Scamper reveals the Auras of all Survivors within 16 metres of you for 3 seconds.",
             "localMatch": {
               "addonId": "103d9a81-183d-4f28-8409-55e6501d49cf",
@@ -16014,7 +16014,7 @@ var COMMUNITY_CONTENT = {
             "tierBucket": "good",
             "name": "Iridescent Amulet",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/chucky/iridescentamulet.png",
-            "otzComment": "Iridescent Amulet : Has a small downside but makes your power last much longer. Since going into stealth mode makes Survivors see illusory footprints, you don't necessarily want to always be using your power if you don't know where you're going. This add-on pairs best with information perks so that you can approach undetected and keep every Survivor in the map guessing where you might be. It's definitely at its strongest when playing against newer Survivors or indoor maps where even experienced Survivors don't have much visibility.",
+            "otzComment": "Iridescent Amulet : Has a small downside but makes your power last much longer. Since going into stealth mode makes Survivors see illusory footprints, you don't necessarily want to always be using your power if you don't know where you're going. This add-on pairs best with information perks so that you can approach undetected and keep every Survivor on the map guessing where you might be. It's definitely at its strongest when playing against newer Survivors or on indoor maps where even experienced Survivors don't have much visibility.",
             "description": "A pendant of great power, recreated within the Realm. Extends the duration of Hidey-Ho Mode by +50 %. Basic Attacks immediately end Hidey-Ho Mode. \"If I don't get out of this body soon, I'm screwed.\" — Chucky",
             "localMatch": {
               "addonId": "d5cc0aa4-89e7-432d-82f5-e80b409f9725",
@@ -16046,7 +16046,7 @@ var COMMUNITY_CONTENT = {
             "tierBucket": "good",
             "name": "Hair Spray & Candle",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/chucky/hairspraycandle.png",
-            "otzComment": "Hair Spray & Candle : This add-on reduces the amount of power gauge that you lose if you use a basic attack on a Survivor. This can sometimes allow you to retain enough power to be able to follow up a basic attack with a special dash attack, which could easily happen if a healthy Survivors comes to take a hit to protect a vulnerable team mates. Even if it only triggers a few times per match, it can still be quite decent.",
+            "otzComment": "Hair Spray & Candle : This add-on reduces the amount of power gauge that you lose if you use a basic attack on a Survivor. This can sometimes allow you to retain enough power to be able to follow up a basic attack with a special dash attack, which could easily happen if a healthy Survivor comes to take a hit to protect a vulnerable teammate. Even if it only triggers a few times per match, it can still be quite decent.",
             "description": "An aerosolised inferno that will ensure a bad hair day is the least of your worries. Reduces the Power-Gauge penalty of Basic Attacks when in Hidey-Ho Mode by -20 %.",
             "localMatch": {
               "addonId": "711f9ed5-cb02-415c-a619-a2788e227b8d",
@@ -16062,7 +16062,7 @@ var COMMUNITY_CONTENT = {
             "tierBucket": "decent",
             "name": "Portable TV",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/chucky/portabletv.png",
-            "otzComment": "Portable TV : Only works during endgame, but the effects are ridiculously strong. You can catch up to Survivors very quickly or cut them off before they reach an exit gate. Keep in mind that if you perform a long dash and then vault a window or pallet, you will get another long rush immediately after.",
+            "otzComment": "Portable TV : Only works during endgame, but the effect is ridiculously strong. You can catch up to Survivors very quickly or cut them off before they reach an exit gate. Keep in mind that if you perform a long dash and then vault a window or pallet, you will get another long rush immediately after.",
             "description": "Small enough for any room.Just keep it out of the bath. Extends the duration of Slice & Dice to 170 % of its default duration once the Exit Gates have been powered.",
             "localMatch": {
               "addonId": "225926c8-1663-4010-9ba3-ca81551307fe",
@@ -16078,7 +16078,7 @@ var COMMUNITY_CONTENT = {
             "tierBucket": "decent",
             "name": "Running Shoes",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/chucky/runningshoes.png",
-            "otzComment": "Running Shoes : This add-on provides a small 2% haste speed boost after a scamper, but since you're not able to transition into normal movement afterwards, this boost is not particularly usable in small loops. However, this increased speed does allow you to reach further and possibly even chain multiple scampers together to cover large distances quickly. Chaining multiple scampers also makes the 2% boost stack on top of itself briefly, possibly giving you 4% or 6% for a brief moment, which can make your miss cooldown feel a bit less punishing. If you want to have a longer scamper consistently even without scamper, using the green Jump Rope is probably a better idea, although you can also pair them together. Don't bother running this add-on if you're not confident in your ability to scamper correctly and consistently.",
+            "otzComment": "Running Shoes : This add-on provides a small 2% haste speed boost after a scamper, but since you're not able to transition into normal movement afterwards, this boost is not particularly usable in small loops. However, this increased speed does allow you to reach further and possibly even chain multiple scampers together to cover large distances quickly. Chaining multiple scampers also makes the 2% boost stack on top of itself briefly, possibly giving you 4% or 6% for a brief moment, which can make your miss cooldown feel a bit less punishing. If you want to have a longer dash consistently even without scamper, using the green Jump Rope is probably a better idea, although you can also pair them together. Don't bother running this add-on if you're not confident in your ability to scamper correctly and consistently.",
             "description": "The latest in high-performance killer doll athletic technology. Performing a Scamper grants a +2 % Haste Status Effect for 5 seconds.",
             "localMatch": {
               "addonId": "27e54645-3f54-4ed5-94f0-8dde360ea75e",
@@ -16110,7 +16110,7 @@ var COMMUNITY_CONTENT = {
             "tierBucket": "decent",
             "name": "Hard Hat",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/chucky/hardhat.png",
-            "otzComment": "Hard Hat : This add-on allows you to break a pallet when you scamper underneath it. This does not have a downside itself, but scampering under pallets during chase isn't always the best idea since you have very little control of where your dash can go afterwards. Keep in mind that Chucky used to be able to scamper pallets without starting a Slice & Dice dash, but that this ability was taken out of his kit at one point. This add-on is best used to clean up dropped pallets after a chase has ended and while you're chaining scampers together to traverse the map.",
+            "otzComment": "Hard Hat : This add-on allows you to break a pallet when you scamper underneath it. This does not have a downside itself, but scampering under pallets during chase isn't always the best idea since you have very little control of where your dash can go afterwards. Keep in mind that Chucky used to be able to scamper pallets without starting a Slice & Dice dash, but then this ability was taken out of his kit at one point. This add-on is best used to clean up dropped pallets after a chase has ended and while you're chaining scampers together to traverse the map.",
             "description": "Keeps the dome intact while performing high-impact activities Instantly breaksPallets, when performing a Scamper under them. \"A true classic never goes out of style.\" — Chucky",
             "localMatch": {
               "addonId": "d5fb16ea-eaec-4569-b0a3-cfc3a0cc7564",
@@ -16492,7 +16492,7 @@ var COMMUNITY_CONTENT = {
             "tierBucket": "good",
             "name": "Blurry Photo",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/unknown/blurryphoto.png",
-            "otzComment": "Blurry Photo : On top of slightly reducing the slowdown that occurs after a teleport, it also allows you to hit a Survivor or perform an action sooner. Not a bad effect all considering its rarity.",
+            "otzComment": "Blurry Photo : On top of slightly reducing the slowdown that occurs after a teleport, it also allows you to hit a Survivor or perform an action sooner. Not a bad effect at all considering its rarity.",
             "description": "\"The photo was found at an abandoned campsite.The campers were never seen again.\" Modifies the Teleport ability with the following effect: Increases the Recovery rate back to full Movement speed after Teleportation by +7 %.",
             "localMatch": {
               "addonId": "e32e68ae-9faf-40fb-b37a-d4fccbeedda4",
@@ -16508,7 +16508,7 @@ var COMMUNITY_CONTENT = {
             "tierBucket": "good",
             "name": "Vanishing Box",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/unknown/vanishingbox.png",
-            "otzComment": "Vanishing Box : Weakens any Survivors that finish repairing a generator. Can also apply to multiple Survivors if they finish the generator together. This is overall a fantastic effect that can punish Survivors that finish a generator in front of you or lead to an easy injury later on. Additionally, Survivors that become weakened by this add-on count also speed up your next hallucination spawn (just as if you had weakened them yourself directly). However, this add-on comes with a massive nerf to your hallucination spawn timer which will be very noticeable throughout the game. It's recommended that you try to use another add-on to make up for this, such as the blue Front-Page Article.",
+            "otzComment": "Vanishing Box : Weakens any Survivors that finish repairing a generator. Can also apply to multiple Survivors if they finish the generator together. This is overall a fantastic effect that can punish Survivors that finish a generator in front of you or lead to an easy injury later on. Additionally, Survivors that become weakened by this add-on also speed up your next hallucination spawn (just as if you had weakened them yourself directly). However, this add-on comes with a massive nerf to your hallucination spawn timer which will be very noticeable throughout the game. It's recommended that you try to use another add-on to make up for this, such as the blue Front-Page Article.",
             "description": "\"The magician was popular at children's parties, and quickly became the top suspect.\" Modifies UVX with the following primary effect: Increases the default value of the Spawn timer of Hallucinations by +120 %. Whenever one or multiple Survivors complete a Generator, Vanishing Box triggers its secondary effect: Causes all participating Survivors to enter the Weakened State.",
             "localMatch": {
               "addonId": "35c1c4c4-c598-4fed-a545-f45d9e5ebe1d",
@@ -16540,7 +16540,7 @@ var COMMUNITY_CONTENT = {
             "tierBucket": "good",
             "name": "Front-Page Article",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/unknown/frontpagearticle.png",
-            "otzComment": "Front-Page Article : Helps quite a bit, especially in early chases if you break a pallet or wall, to ensure that you're leaving at least one clone behind. One of the better options to improve your hallucination spawn timer if you're planning to use the blue Vanishing Box, which comes comes with a heavy downside.",
+            "otzComment": "Front-Page Article : Helps quite a bit, especially in early chases if you break a pallet or wall, to ensure that you're leaving at least one clone behind. One of the better options to improve your hallucination spawn timer if you're planning to use the blue Vanishing Box, which comes with a heavy downside.",
             "description": "\"The assailant had torn gaping holes in the walls of the cabin, and drove the family into the woods.\" Whenever you break a Breakable Wall or a dropped Pallet, Front-Page Article triggers its effect: Reduces the Spawn timer of the next Hallucination by -50 %.",
             "localMatch": {
               "addonId": "f9ddb534-443e-4e05-b73f-b2a229c76181",
@@ -16556,7 +16556,7 @@ var COMMUNITY_CONTENT = {
             "tierBucket": "good",
             "name": "Slashed Backpack",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/unknown/slashedbackpack.png",
-            "otzComment": "Slashed Backpack : The main utility of this add-on is to help you remove unnecessary Hallucinations from afar and reset them in better spots very quickly. The abilityu to detonate your UVX projectile on a clone is sometimes useful but definitely won't come into play very often. A nice add-on to pair with the blue Vanishing Box to counter its downside.",
+            "otzComment": "Slashed Backpack : The main utility of this add-on is to help you remove unnecessary Hallucinations from afar and reset them in better spots very quickly. The ability to detonate your UVX projectile on a clone is sometimes useful but definitely won't come into play very often. A nice add-on to pair with the blue Vanishing Box to counter its downside.",
             "description": "\"When the hiker was rescued from the mountain pass, she insisted her companion would never wander off alone.\" Hitting a Hallucination with the UVX Projectile triggers the following effects: Causes the Hallucination to disintegrate, creating a Blast Area. Reduces the Spawn timer of your next Hallucination by -65 %.",
             "localMatch": {
               "addonId": "401bbf51-823e-4abb-98eb-5604175657ca",
@@ -16668,7 +16668,7 @@ var COMMUNITY_CONTENT = {
             "tierBucket": "almost-no-effect",
             "name": "Serum Vial",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/unknown/serumvial.png",
-            "otzComment": "Serum Vial : Exhaustion is useful, but it's hard to tell when this add-on has applied its effects, making it inferior to its blue counterpart.",
+            "otzComment": "Serum Vial : Exhaustion is useful, but it's hard to tell when this add-on has applied its effect, making it inferior to its blue counterpart.",
             "description": "\"The molecular structure of the substance was synthesised in the lab, but its effects could never be replicated.\" Upon entering the range of seeing the Aura of a Hallucination, Survivors suffer from the following effect: Inflicts the Exhausted Status Effect for 15 seconds.",
             "localMatch": {
               "addonId": "0556ede4-3526-4368-a66e-c7906d882526",
@@ -16684,7 +16684,7 @@ var COMMUNITY_CONTENT = {
             "tierBucket": "almost-no-effect",
             "name": "Punctured Eyeball",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/unknown/puncturedeyeball.png",
-            "otzComment": "Punctured Eyeball : Inflicts the Deep Wound status effect on injured Survivors that dispel an hallucination while weakened. The effect itself is quite powerful, but it's quite situational.",
+            "otzComment": "Punctured Eyeball : Inflicts the Deep Wound status effect on injured Survivors that dispel a hallucination while weakened. The effect itself is quite powerful, but it's a bit situational.",
             "description": "\"The station was a scene of madness.The officers had seemingly turned on each other.\" Survivors performing the Dispelling action successfully while both injured and in the Weakened State suffer from the following effect: Inflicts the Deep Wound Status Effect.",
             "localMatch": {
               "addonId": "e3e7958b-b753-4efc-a4bb-9385d85f4c10",
@@ -16907,7 +16907,7 @@ var COMMUNITY_CONTENT = {
             "tierBucket": "strongest",
             "name": "Iridescent Book of Vile Darkness",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/vecna/iridescentbookofviledarkness.png",
-            "otzComment": "Iridescent Book of Vile Darkness : Reduces the amount of skulls in your projectile attack, but also lowers it to ground level to make it impossible to dodge by crouching. Also makes your flight capable of blocking windows for an extended period of time if you fly over them, which is particularly helpful in structures like shack or certain main buildings. Despite the initial downside, this add-on brings a lot of utility and holds great value for anyone that wants to specialize in learning how to play with it. Keep in mind that you can increase the skulls from 2 to 3 if you pair with the blue Ornate Horn add-on. While powerful, this add-on fundamentally changes how Vecna's power works and it might be a bad idea to get used to it while you learn this Killer, as you may grow to depend on it.",
+            "otzComment": "Iridescent Book of Vile Darkness : Reduces the amount of skulls in your projectile attack, but also lowers it to ground level to make it impossible to dodge by crouching. Also makes your flight capable of blocking windows for an extended period of time if you fly over them, which is particularly helpful in structures like shack or certain main buildings. Despite the initial downside, this add-on brings a lot of utility and holds great value for anyone who wants to specialize in learning how to play with it. Keep in mind that you can increase the skulls from 2 to 3 if you pair with the blue Ornate Horn add-on. While powerful, this add-on fundamentally changes how Vecna's power works and it might be a bad idea to get used to it while you learn this Killer, as you may grow dependent on it.",
             "description": "\"The ultimate compilation of cruelty, wickedness and depravity.\" Whenever you use the Fly Spell to pass through a Window, the following effects apply: Blocks the Window for all Survivors for 45 seconds. Modifies the Flight of the Damned Spell with the following effects: Reduces the Flight height of the Flying Entites by -0.7 metres, allowing them to also damage Survivors who are crouching. Reduces the number of Flying Entities summoned by the Spell by 3. \"What chance do you have against my centuries of preparation?\" — Vecna",
             "localMatch": {
               "addonId": "395cb7c9-dea8-46d8-acc7-06d8e27bde90",
@@ -16939,7 +16939,7 @@ var COMMUNITY_CONTENT = {
             "tierBucket": "good",
             "name": "Robe of Eyes",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/vecna/robeofeyes.png",
-            "otzComment": "Robe of Eyes : Occasionally reveals the aura of Survivors anywhere on the map if they happen to be near one of the six magical item chests when you use a spell. Since using spells often is already a good idea in general, the effects of this add-on will often trigger throughout the match, giving you information about Survivors both near and far. Pairs particularly well with the perk Lethal Pursuer which will extend the duration of each aura read by two seconds. If you use this add-on, consider pairing it with other add-ons that allow you to cycle through spells more quickly such as the blue Pearl of Power. Sometimes, it might be worth to even use a spell randomly just for the chance to find a Survivor with it.",
+            "otzComment": "Robe of Eyes : Occasionally reveals the auras of Survivors anywhere on the map if they happen to be near one of the six magical item chests when you use a spell. Since using spells often is already a good idea in general, the effects of this add-on will often trigger throughout the match, giving you information about Survivors both near and far. Pairs particularly well with the perk Lethal Pursuer which will extend the duration of each aura read by two seconds. If you use this add-on, consider pairing it with other add-ons that allow you to cycle through spells more quickly such as the blue Pearl of Power. Sometimes, it might be worth to even use a spell randomly just for the chance to find a Survivor with it.",
             "description": "\"When worn, none can escape its bearer's unyielding gaze.\" Whenever you cast any Spell, all Survivors within 6 metres of a Treasure Chest suffer from the following effect: Their Auras are revealed to you for 4 seconds.",
             "localMatch": {
               "addonId": "7bef24ef-fcb7-4754-8b14-66bf378a24ae",
@@ -16971,7 +16971,7 @@ var COMMUNITY_CONTENT = {
             "tierBucket": "good",
             "name": "Pearl of Power",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/vecna/pearlofpower.png",
-            "otzComment": "Pearl of Power : Reduces your spell cooldowns by 2 seconds whenever you land a basic attack. More situational than the green Ring of Spell storing, but still very useful since it can almost guarantee that you'll be able to use your spells sooner in prolonged encounters or right after a down, even though your normal spell cooldown is already pretty short. It's a safe add-on to use if you're looking for a simple but dependable effect.",
+            "otzComment": "Pearl of Power : Reduces your spell cooldowns by 2 seconds whenever you land a basic attack. More situational than the green Ring of Spell Storing, but still very useful since it can almost guarantee that you'll be able to use your spells sooner in prolonged encounters or right after a down, even though your normal spell cooldown is already pretty short. It's a safe add-on to use if you're looking for a simple but dependable effect.",
             "description": "\"Its shimmering face energises mages who hold it, allowing them to cast more spells.\" Successfully hitting a Survivor with a Basic Attack triggers the following effect: Reduces the remaining Recharge time of all Spells currently on cool-down by -2 seconds.",
             "localMatch": {
               "addonId": "8ee3269c-d0b7-4aea-8c76-bda91c993674",
@@ -17003,7 +17003,7 @@ var COMMUNITY_CONTENT = {
             "tierBucket": "good",
             "name": "Staff of Withering",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/vecna/staffofwithering.png",
-            "otzComment": "Staff of Withering : Inflicts Exhaustion on any survivor detected by the Dispelling Sphere. Can be used preemptively as you approach a Survivor or aggressively during chase if you want to deny a Survivor from using their exhaustion perk. However, not every Survivor runs exhaustion perks so the effects of this add-on can be highly situational.",
+            "otzComment": "Staff of Withering : Inflicts Exhaustion on any survivor detected by the Dispelling Sphere. Can be used preemptively as you approach a Survivor or aggressively during chase if you want to deny a Survivor from using their exhaustion perk. However, not every Survivor runs exhaustion perks so the effect of this add-on can be highly situational.",
             "description": "\"Its necrotic power brings its targets closer to death.\" Whenever a Survivor enters radius of the Dispelling Sphere, they suffer from the following effect: Inflicts the Exhausted Status Effect for 30 seconds.",
             "localMatch": {
               "addonId": "bce53b4c-a554-4111-b290-bc6ce1467b21",
@@ -17035,7 +17035,7 @@ var COMMUNITY_CONTENT = {
             "tierBucket": "good",
             "name": "Lantern of Revealing",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/vecna/lanternofrevealing.png",
-            "otzComment": "Lantern of Revealing : A very simple and useful add-on that reveals the aura of Survivors that narrowly dodge your projectile attack. On top of being a solid effect that will trigger often, it also allows you to understand why exactly your attack missed so that you can be more accurate the next time. It benefits from being used together with the perk Lethal Pursuer since it will extend the aura duration by 2 seconds.",
+            "otzComment": "Lantern of Revealing : A very simple and useful add-on that reveals the auras of Survivors that narrowly dodge your projectile attack. On top of being a solid effect that will trigger often, it also allows you to understand why exactly your attack missed so that you can be more accurate the next time. It benefits from being used together with the perk Lethal Pursuer since it will extend the aura duration by 2 seconds.",
             "description": "\"Even those who evade your attacks cannot evade your gaze.\" Survivors narrowly missed by the Flying Entities summoned by the Flight of the Damned Spell suffer from the following effect: Their Auras are revealed to you for 3 seconds.",
             "localMatch": {
               "addonId": "3cbc9063-e509-4592-adcb-f826fe73daa1",
@@ -17131,7 +17131,7 @@ var COMMUNITY_CONTENT = {
             "tierBucket": "decent",
             "name": "Trickster's Glove",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/vecna/trickstersglove.png",
-            "otzComment": "Trickster's Glove : With this add-on, the Mage Hand prevents a pallet from being dropped for an extra 0.3 seconds. This can sometimes give you a bit more margin for error in chase and in some lucky scenarios, it could possibly make it harder for Survivors to rescue a team mate if you pick them up under a pallet that is being held by the Mage Hand. If the Survivor that you pick up is at the center of the pallet, however, even this add-on is not enough to prevent a well-timed pallet rescue. So even for this purpose, this add-on is not 100% consistent either. That being said, if you run the perks Fire Up or Forever Entwined (both of which increase your pick up speed), this add-on can basically guarantee that pallet saves become impossible.",
+            "otzComment": "Trickster's Glove : With this add-on, the Mage Hand prevents a pallet from being dropped for an extra 0.3 seconds. This can sometimes give you a bit more margin for error in chase and in some lucky scenarios, it could possibly make it harder for Survivors to rescue a teammate if you pick them up under a pallet that is being held by the Mage Hand. If the Survivor that you pick up is at the center of the pallet, however, even this add-on is not enough to prevent a well-timed pallet rescue. So even for this purpose, this add-on is not 100% consistent either. That being said, if you run the perks Fire Up or Forever Entwined (both of which increase your pick up speed), this add-on can basically guarantee that pallet saves become impossible.",
             "description": "\"A glove once belonging to an archane trickster whose mastery of Mage Hand clings to its fibers.\" While casting the Mage Hand Spell to block an upright Pallet, you benefit from the following effect: Increases its Hold time by +0.3 seconds.",
             "localMatch": {
               "addonId": "f8ae80c0-73d0-47c2-88f0-07a3cc4d6d6c",
@@ -17384,6 +17384,22 @@ var COMMUNITY_CONTENT = {
           {
             "rank": 1,
             "tierBucket": "strongest",
+            "name": "Warg's Fang",
+            "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/dracula/wargsfang.png",
+            "otzComment": "Warg's Fang : Briefly reveals the auras of Survivors whose scent orbs you have collected when your pounce attack is ready in Wolf form. This effect starts out slow but it becomes very oppressive later since it allows you to track basically the entire team once the match has progressed enough and you've collected everyone's orbs at least once. This effect can be further enhanced with the passive ability of the perk Lethal Pursuer.",
+            "description": "\"A mighty tool of destruction taken from one of Dracula's most dangerous allies.\" While in Wolf Form , whenever the Pounce attack becomes available, you benefit from the following effect: The Auras of all Survivors whose Scent Orbs you have collected are revealed to you for 5 seconds.",
+            "localMatch": {
+              "addonId": "36db781b-ea30-4e71-96d9-33b28ed21549",
+              "internalId": "Addon_K37_16",
+              "localName": "Warg’s Fang",
+              "localImage": "dbd_images/addons/iconaddon_wargsfang.png",
+              "localRarity": "veryrare",
+              "method": "name"
+            }
+          },
+          {
+            "rank": 2,
+            "tierBucket": "strongest",
             "name": "Lapis Lazuli",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/dracula/lapislazuli.png",
             "otzComment": "Lapis Lazuli : Blocks window vaults when you teleport to them during Bat form. A very decent way to deal with strong windows or preemptively disable them when starting a chase in places like the shack. If you have sharp ears, you can immediately determine the direction of the Survivor and make sure that you fly through the window into the appropiate side. Not extremely impactful in certain maps like Gideon that revolve mostly around pallets, but it can single-handedly deny certain windows that would otherwise give you some trouble.",
@@ -17398,7 +17414,7 @@ var COMMUNITY_CONTENT = {
             }
           },
           {
-            "rank": 2,
+            "rank": 3,
             "tierBucket": "good",
             "name": "Killer Doll",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/dracula/killerdoll.png",
@@ -17414,7 +17430,7 @@ var COMMUNITY_CONTENT = {
             }
           },
           {
-            "rank": 3,
+            "rank": 4,
             "tierBucket": "good",
             "name": "Force of Echo",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/dracula/forceofecho.png",
@@ -17430,11 +17446,11 @@ var COMMUNITY_CONTENT = {
             }
           },
           {
-            "rank": 4,
+            "rank": 5,
             "tierBucket": "good",
             "name": "Iridescent Ring of Vlad",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/dracula/iridescentringofvlad.png",
-            "otzComment": "Iridescent Ring of Vlad : Changes the behaviour of your Hellfire pillars by introducing a slight tracking, making Hellfire sometimes land a hit that would otherwise miss. This effect is most noticeable towards the furthest pillars, but the curving can help you land hits around obstacle even from relatively close distances. It's best to try it once you already have a solid understanding of the hellfire mechanic so it doesn't mess with your muscle memory while you're still learning.",
+            "otzComment": "Iridescent Ring of Vlad : Changes the behaviour of your Hellfire pillars by introducing a slight tracking, making Hellfire sometimes land a hit that would otherwise miss. This effect is most noticeable towards the furthest pillars, but the curving can help you land hits around obstacles even from relatively close distances. It's best to try it once you already have a solid understanding of the hellfire mechanic so it doesn't mess with your muscle memory while you're still learning.",
             "description": "\"A unique relic belonging to Dracula. It is said none can approach the Dark Lord without it.\" Modifies the Hellfire attack with the following effect: Causes the Pillars of Flame to home-in on nearby Survivors. \"Enough talk... have at you!\" — Dracula",
             "localMatch": {
               "addonId": "2461a6a2-bbcb-40d4-b7ca-42767929bc7d",
@@ -17446,27 +17462,11 @@ var COMMUNITY_CONTENT = {
             }
           },
           {
-            "rank": 5,
-            "tierBucket": "good",
-            "name": "Warg's Fang",
-            "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/dracula/wargsfang.png",
-            "otzComment": "Warg's Fang : Briefly reveals the auras of Survivors whose scent orbs you have collected when your pounce attack is ready in Wolf form. A simple but useful effect that can be further enhanced with the passive ability of the perk Lethal Pursuer.",
-            "description": "\"A mighty tool of destruction taken from one of Dracula's most dangerous allies.\" While in Wolf Form , whenever the Pounce attack becomes available, you benefit from the following effect: The Auras of all Survivors whose Scent Orbs you have collected are revealed to you for 5 seconds.",
-            "localMatch": {
-              "addonId": "36db781b-ea30-4e71-96d9-33b28ed21549",
-              "internalId": "Addon_K37_16",
-              "localName": "Warg’s Fang",
-              "localImage": "dbd_images/addons/iconaddon_wargsfang.png",
-              "localRarity": "veryrare",
-              "method": "name"
-            }
-          },
-          {
             "rank": 6,
             "tierBucket": "good",
             "name": "Cerberus Talon",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/dracula/cerberustalon.png",
-            "otzComment": "Cerberus Talon : Doubles the range at which you can see the auras of scent orbs. A fairly noticeable effect that can allow you to detect orbs from much further, which is a great way to gather information. Do keep in mind that going out of your way to pick up orbs might not be always be worth it however, especially if you aren't using other add-ons (such as the purple Warg's Fang). Survivors only leave orbs when sprinting, so teams that move around the map carefully will definitely be harder to track even with this add-on.",
+            "otzComment": "Cerberus Talon : Doubles the range at which you can see the auras of scent orbs. A fairly noticeable effect that can allow you to detect orbs from much further, which is a great way to gather information. Do keep in mind that going out of your way to pick up orbs might not be always worth it however, especially if you aren't using other add-ons (such as the purple Warg's Fang). Survivors only leave orbs when sprinting, so teams that move around the map carefully will definitely be harder to track even with this add-on.",
             "description": "\"A sharp memento from one of Dracula's most terrifying guards.\" Modifies the Scent Orbs with the following effect: Increases their Aura-Reveal distance by +100 %.",
             "localMatch": {
               "addonId": "019e02fb-fc45-421c-a18c-471f28822beb",
@@ -17482,7 +17482,7 @@ var COMMUNITY_CONTENT = {
             "tierBucket": "good",
             "name": "Medusa's Hair",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/dracula/medusashair.png",
-            "otzComment": "Medusa's Hair : Inflicts a brief Hindered effect on Survivors near spots that you've teleported to as a Bat. Due to its limited range, this effect is not very useful if you're just generally moving around the map or if you're not using the ability much in the first plac. However, it can make a significant difference when using it aggressively in chase and teleporting right on top of a dropped pallet/window that they're using, since their reduced movement speed will let you catch up a bit easier. Lapis Lazuli and Medusa's Hair can work great when paired together.",
+            "otzComment": "Medusa's Hair : Inflicts a brief Hindered effect on Survivors near spots that you've teleported to as a Bat. Due to its limited range, this effect is not very useful if you're just generally moving around the map or if you're not using the ability much in the first place. However, it can make a significant difference when using it aggressively in chase and teleporting right on top of a dropped pallet/window that Survivors are using, since their reduced movement speed will let you catch up a bit easier. Lapis Lazuli and Medusa's Hair can work great when paired together.",
             "description": "\"A snakelike memento from one of Dracula's most ancient and fearsome minions.\" Causes all Survivors within 8 metres of your Teleport destination to suffer from the following effect: Inflicts a -8 % Hindered Status Effect for 4 seconds.",
             "localMatch": {
               "addonId": "7017c984-5131-4f92-8660-86a3ef6ff256",
@@ -17514,7 +17514,7 @@ var COMMUNITY_CONTENT = {
             "tierBucket": "good",
             "name": "Winged Boots",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/dracula/wingedboots.png",
-            "otzComment": "Winged Boots : Increases the maximum Bat teleportation distance by 20%, bringing it from 32 meters to 38.4 meters, also allowing you to see them from further. Increases your overall awareness of vaults around the map and can save some time, but not extremely impactful, especially if you're not using the ability much in the first place. Keep in mind that Survivors see your bat as it teleports to a vault point, so they'll often start running away from it.",
+            "otzComment": "Winged Boots : Increases the maximum Bat teleportation distance by 20%, bringing it from 32 meters to 38.4 meters, also allowing you to see vaults from further. Increases your overall awareness of vaults around the map and can save some time, but not extremely impactful, especially if you're not using the ability much in the first place. Keep in mind that Survivors see your bat as it teleports to a vault point, so they'll often start running away from it.",
             "description": "\"Long used by their wearers to move quickly.\" Modifies the Teleport ability with the following effect: Increases its Teleportation range by +20 %.",
             "localMatch": {
               "addonId": "a66ce9a9-0abb-41cf-949e-b419a8d12ac3",
@@ -17562,7 +17562,7 @@ var COMMUNITY_CONTENT = {
             "tierBucket": "decent",
             "name": "Blood-Filled Goblet",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/dracula/bloodfilledgoblet.png",
-            "otzComment": "Blood-Filled Goblet : Makes scent orbs, which are visible during Wolf form, last an extra 6 seconds (bringing it from 10 to 16s). Not a terrible effect, since it might allow you to find more of them when you transform and makes it harder for Survivors to stay in one location without feeding several orbs that boost your movement speed. Keep in mind that the boost from these orbs does not stack multiple times, however. The only unfortunate downside of this add-on is that it indirectly makes it harder to guess where the Survivor who left the orb will be (since they could literally by across the map by the time 16 seconds have passed).",
+            "otzComment": "Blood-Filled Goblet : Makes scent orbs, which are visible during Wolf form, last an extra 6 seconds (bringing it from 10 to 16s). Not a terrible effect, since it might allow you to find more of them when you transform and makes it harder for Survivors to stay in one location without feeding several orbs that boost your movement speed. Keep in mind that the boost from these orbs does not stack multiple times, however. The only unfortunate downside of this add-on is that it indirectly makes it harder to guess where the Survivor who left the orb will be (since they could literally be across the map by the time 16 seconds have passed).",
             "description": "\"The blood of his victims sustains him and makes him an even greater hunter.\" Modifies the Scent Orbs with the following effect: Extends their Lifetime by +60 %.",
             "localMatch": {
               "addonId": "8731b749-b026-4427-865f-441eb6f192b7",
@@ -17578,7 +17578,7 @@ var COMMUNITY_CONTENT = {
             "tierBucket": "decent",
             "name": "Sylph Feather",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/dracula/sylphfeather.png",
-            "otzComment": "Sylph Feather : Decreases the cooldown of Hellfire for each pallet broken by -5%, resulting is a noticeable shorter cooldown after you've broken several pallets which stacks until it's approximately two seconds shorter. Not a terrible option if you're very good at using Hellfire and you expect a match to last a while, but Dracula is so good at playing around dropped pallets that you don't always want to break them mindlessly. As explained in the description of the brown Ruby Circlet, Dracula is not a Killer that necessarily wants to focus on the same ability repeatedly anyway.",
+            "otzComment": "Sylph Feather : Decreases the cooldown of Hellfire for each pallet broken by -5%, resulting in a noticeably shorter cooldown after you've broken several pallets which stacks until it's approximately two seconds shorter. Not a terrible option if you're very good at using Hellfire and you expect a match to last a while, but Dracula is so good at playing around dropped pallets that you don't always want to break them mindlessly. As explained in the description of the brown Ruby Circlet, Dracula is not a Killer that necessarily wants to focus on the same ability repeatedly anyway.",
             "description": "\"An enchanted feather that grants its holder great agility.\" Whenever you break a Pallet, Sylph Feather gains +1 Token, up to a maximum of 5 Tokens: Reduces the Cool-down duration of the Hellfire attack by a stack-able -5 % per Token, up to a limit of -25 %.",
             "localMatch": {
               "addonId": "3323bfad-adfc-42f3-ae3c-0fff3dfe783a",
@@ -17610,7 +17610,7 @@ var COMMUNITY_CONTENT = {
             "tierBucket": "almost-no-effect",
             "name": "Ruby Circlet",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/dracula/rubycirclet.png",
-            "otzComment": "Ruby Circlet : Decreases the cooldown of Hellfire (normally 9.5 seconds) by 5%, saving you about half a second of recovery time until you can use it again. This is a small effect and not incredibly impactful, as Hellfire requires precise timing and is not typically an ability that you want to use as soon as possible anyway. Generally speaking, it's best to time your abilities carefully and cycle through them during your cooldowns instead of focusing entirely on just one of them. You can combine it with the blue Sylph Feather if you you want to have an even shorter recovery period.",
+            "otzComment": "Ruby Circlet : Decreases the cooldown of Hellfire (normally 9.5 seconds) by 5%, saving you about half a second of recovery time until you can use it again. This is a small effect and not incredibly impactful, as Hellfire requires precise timing and is not typically an ability that you want to use as soon as possible anyway. Generally speaking, it's best to time your abilities carefully and cycle through them during your cooldowns instead of focusing entirely on just one of them. You can combine it with the blue Sylph Feather if you want to have an even shorter recovery period.",
             "description": "\"An enchanted headpiece that brings even the mightiest of flames to heel.\" Modifies the Hellfire attack with the following effect: Reduces its Cool-down duration by -5 %.",
             "localMatch": {
               "addonId": "dd9e1764-faad-4055-a284-44fd66f383ee",
@@ -17626,7 +17626,7 @@ var COMMUNITY_CONTENT = {
             "tierBucket": "almost-no-effect",
             "name": "Cube of Zoe",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/dracula/cubeofzoe.png",
-            "otzComment": "Cube of Zoe : Creates random fire pillars around you for a brief duration each time a generator gets completed. Their location is random and generally not much of a threat unless several Survivors are currently swarming you, but they can occasionally give you a hit here and there. It's certainly a fun and chaotic effect, but it's extremely unreliable and generally not worth the add-on slot, especially compared to other add-ons of this rarity and below.",
+            "otzComment": "Cube of Zoe : Creates random fire pillars around you for a brief duration each time a generator gets completed. Their location is random and they are generally not much of a threat unless several Survivors are currently swarming you, but they can occasionally give you a hit here and there. It's certainly a fun and chaotic effect, but it's extremely unreliable and generally not worth the add-on slot, especially compared to other add-ons of this rarity and below.",
             "description": "\"A strange box whose presence creates something from nothing.\" Whenever a Generator is completed, Cube of Zoe triggers its effect for 10 seconds: Causes the immediate area around The Dark Lord to continuously spawn Pillars of Flame.",
             "localMatch": {
               "addonId": "4dc03cdb-344c-4b66-99af-47e2cb3fe4f2",
@@ -17658,7 +17658,7 @@ var COMMUNITY_CONTENT = {
             "tierBucket": "almost-no-effect",
             "name": "Traveller's Hat",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/dracula/travellershat.png",
-            "otzComment": "Traveller's Hat : Makes the transitions from one form to another very slightly faster. This transition is usually 1 second (or 1.5 if switching from Bat form) so the 5% is almost practically unnoticeable. The effect itself isn't bad, but it's too small to justify the add-on slot in almost every scenario.",
+            "otzComment": "Traveller's Hat : Makes the transitions from one form to another very slightly faster. This transition is usually 1 second (or 1.5 if switching from Bat form) so the 5% is practically almost unnoticeable. The effect itself isn't bad, but it's too small to justify the add-on slot in almost every scenario.",
             "description": "\"A wide-brimmed hat that once belonged to a well-travelled man.\" Modifies the Shapeshift ability with the following effect: Reduces the Transition time between Forms by -5 %.",
             "localMatch": {
               "addonId": "668d740e-e9a0-4b2a-b4f6-513d4b5a3e24",
@@ -17713,6 +17713,19 @@ var COMMUNITY_CONTENT = {
             "addons": [
               {
                 "rank": 1,
+                "name": "Warg's Fang",
+                "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/dracula/wargsfang.png",
+                "localMatch": {
+                  "addonId": "36db781b-ea30-4e71-96d9-33b28ed21549",
+                  "internalId": "Addon_K37_16",
+                  "localName": "Warg’s Fang",
+                  "localImage": "dbd_images/addons/iconaddon_wargsfang.png",
+                  "localRarity": "veryrare",
+                  "method": "name"
+                }
+              },
+              {
+                "rank": 2,
                 "name": "Lapis Lazuli",
                 "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/dracula/lapislazuli.png",
                 "localMatch": {
@@ -17721,19 +17734,6 @@ var COMMUNITY_CONTENT = {
                   "localName": "Lapis Lazuli",
                   "localImage": "dbd_images/addons/iconaddon_lapislazuli.png",
                   "localRarity": "veryrare",
-                  "method": "name"
-                }
-              },
-              {
-                "rank": 2,
-                "name": "Killer Doll",
-                "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/dracula/killerdoll.png",
-                "localMatch": {
-                  "addonId": "2f841628-3d78-46f7-bf21-50f34a64d32b",
-                  "internalId": "Addon_K37_11",
-                  "localName": "Killer Doll",
-                  "localImage": "dbd_images/addons/iconaddon_killerdoll.png",
-                  "localRarity": "rare",
                   "method": "name"
                 }
               }
@@ -17749,6 +17749,19 @@ var COMMUNITY_CONTENT = {
             "addons": [
               {
                 "rank": 2,
+                "name": "Lapis Lazuli",
+                "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/dracula/lapislazuli.png",
+                "localMatch": {
+                  "addonId": "4a5514aa-9552-4b95-9d2d-905db68c6520",
+                  "internalId": "Addon_K37_18",
+                  "localName": "Lapis Lazuli",
+                  "localImage": "dbd_images/addons/iconaddon_lapislazuli.png",
+                  "localRarity": "veryrare",
+                  "method": "name"
+                }
+              },
+              {
+                "rank": 3,
                 "name": "Killer Doll",
                 "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/dracula/killerdoll.png",
                 "localMatch": {
@@ -17756,19 +17769,6 @@ var COMMUNITY_CONTENT = {
                   "internalId": "Addon_K37_11",
                   "localName": "Killer Doll",
                   "localImage": "dbd_images/addons/iconaddon_killerdoll.png",
-                  "localRarity": "rare",
-                  "method": "name"
-                }
-              },
-              {
-                "rank": 3,
-                "name": "Force of Echo",
-                "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/dracula/forceofecho.png",
-                "localMatch": {
-                  "addonId": "fb37b6a1-b05e-4b4e-afb5-a35bcd7c267e",
-                  "internalId": "Addon_K37_13",
-                  "localName": "Force of Echo",
-                  "localImage": "dbd_images/addons/iconaddon_forceofecho.png",
                   "localRarity": "rare",
                   "method": "name"
                 }
@@ -17877,7 +17877,7 @@ var COMMUNITY_CONTENT = {
           },
           {
             "rank": 2,
-            "tierBucket": "strongest",
+            "tierBucket": "good",
             "name": "Barley Meal",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/houndmaster/barleymeal.png",
             "otzComment": "Barley Meal : Increasing the dog's initial chase range is unnecessary in most chase scenarios, but it can occasionally become useful when you're trying to interrupt a distant Survivor or send the dog around a distant corner. It also allows you to place the dog further in order to take control of it briefly and check if anyone is nearby with the built-in Killer Instinct detection, although this is something that can also be done without this add-on, albeit with reduced range. Do not underestimate how useful it is to use the dog this way.",
@@ -17910,22 +17910,6 @@ var COMMUNITY_CONTENT = {
           {
             "rank": 4,
             "tierBucket": "good",
-            "name": "Young Coconut",
-            "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/houndmaster/youngcoconut.png",
-            "otzComment": "Young Coconut : Slightly increases the dog's speed when chasing, making have an easier time catching up to Survivors before they reach safety. Not a bad effect at all for an add-on of this rarity.",
-            "description": "Her first meal as a castaway, she shared it with her loyal companion. Increases the Chase speed of The Dog by +5 %.",
-            "localMatch": {
-              "addonId": "4c39bbcc-1006-4585-b0fb-8f345c34008a",
-              "internalId": "Addon_K38_01",
-              "localName": "Young Coconut",
-              "localImage": "dbd_images/addons/iconaddon_youngcoconut.png",
-              "localRarity": "common",
-              "method": "name"
-            }
-          },
-          {
-            "rank": 5,
-            "tierBucket": "good",
             "name": "Iridescent Wheel Handle",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/houndmaster/iridescentwheelhandle.png",
             "otzComment": "Iridescent Wheel Handle : Become undetectable whenever you send the dog out to search, making it possible to ambush Survivors throughout the match. Not a bad effect, especially if you have information perks to know where to strike. Keep in mind that it also makes the dog linger for longer at its target destination, which will slightly delay his return and availability.",
@@ -17940,11 +17924,11 @@ var COMMUNITY_CONTENT = {
             }
           },
           {
-            "rank": 6,
+            "rank": 5,
             "tierBucket": "good",
             "name": "Fatty Meat",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/houndmaster/fattymeat.png",
-            "otzComment": "Fatty Meat : Forces Survivors to scream, then scream again for a while. Extremely useful to trigger perks like Dead Man's Switch or interrupt Survivors from doing totems. Keep in mind that this screams do not reveal their location like usual.",
+            "otzComment": "Fatty Meat : Forces Survivors to scream, then scream again for a while. Extremely useful to trigger perks like Dead Man's Switch or interrupt Survivors from doing totems. Keep in mind that these screams do not reveal their location like usual.",
             "description": "A strange and irresistible treat for a canine friend. Survivors affected by Houndsense periodically scream every 15 seconds, but without revealing their location to The Houndmaster.",
             "localMatch": {
               "addonId": "19143bcb-d0e9-4cc6-9cf1-10b6539e724a",
@@ -17956,7 +17940,7 @@ var COMMUNITY_CONTENT = {
             }
           },
           {
-            "rank": 7,
+            "rank": 6,
             "tierBucket": "decent",
             "name": "Unfinished Map",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/houndmaster/unfinishedmap.png",
@@ -17972,7 +17956,7 @@ var COMMUNITY_CONTENT = {
             }
           },
           {
-            "rank": 8,
+            "rank": 7,
             "tierBucket": "decent",
             "name": "Smoked Snapper",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/houndmaster/smokedsnapper.png",
@@ -17988,7 +17972,7 @@ var COMMUNITY_CONTENT = {
             }
           },
           {
-            "rank": 9,
+            "rank": 8,
             "tierBucket": "decent",
             "name": "Belaying Pins",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/houndmaster/belayingpins.png",
@@ -18004,7 +17988,7 @@ var COMMUNITY_CONTENT = {
             }
           },
           {
-            "rank": 10,
+            "rank": 9,
             "tierBucket": "decent",
             "name": "Ship Figurehead",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/houndmaster/shipfigurehead.png",
@@ -18020,7 +18004,7 @@ var COMMUNITY_CONTENT = {
             }
           },
           {
-            "rank": 11,
+            "rank": 10,
             "tierBucket": "decent",
             "name": "Gunpowder Tin",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/houndmaster/gunpowdertin.png",
@@ -18036,23 +18020,7 @@ var COMMUNITY_CONTENT = {
             }
           },
           {
-            "rank": 12,
-            "tierBucket": "decent",
-            "name": "Leather Harness",
-            "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/houndmaster/leatherharness.png",
-            "otzComment": "Leather Harness : Gives a large boost to the dog's speed after a gen is completed (for a short time) and after all gens are completed (permanently). Best used on endgame builds that can extend the duration of this part of the match.",
-            "description": "Allows greater control over a dog's every movement. Whenever a Generator is completed, Leather Harness triggers its effect for 30 seconds: Increases the Chase speed of The Dog by +20 %. Leather Harness applies its effect permanently after all Generators are completed.",
-            "localMatch": {
-              "addonId": "05e66dd4-3d7d-44a5-8d1f-2680c09653d4",
-              "internalId": "Addon_K38_15",
-              "localName": "Leather Harness",
-              "localImage": "dbd_images/addons/iconaddon_leatherharness.png",
-              "localRarity": "veryrare",
-              "method": "name"
-            }
-          },
-          {
-            "rank": 13,
+            "rank": 11,
             "tierBucket": "decent",
             "name": "Marlinspike",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/houndmaster/marlinspike.png",
@@ -18068,7 +18036,7 @@ var COMMUNITY_CONTENT = {
             }
           },
           {
-            "rank": 14,
+            "rank": 12,
             "tierBucket": "decent",
             "name": "Sticky Pitch",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/houndmaster/stickypitch.png",
@@ -18084,11 +18052,11 @@ var COMMUNITY_CONTENT = {
             }
           },
           {
-            "rank": 15,
+            "rank": 13,
             "tierBucket": "almost-no-effect",
             "name": "Spyglass",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/houndmaster/spyglass.png",
-            "otzComment": "Spyglass : Shows you aura of Survivors when their Houndsense timer expires (but not if you make it go away by hitting them). Attentive players can use this to keep track of the team's general location or track down an elusive target. However, it's not a very proactive strategy and many times the Survivor with Houndsense will lose by getting hit anyway.",
+            "otzComment": "Spyglass : Shows you the auras of Survivors when their Houndsense timer expires (but not if you make it go away by hitting them). Attentive players can use this to keep track of the team's general location or track down an elusive target. However, it's not a very proactive strategy and many times the Survivor with Houndsense will lose it by getting hit anyway.",
             "description": "Used to spot what one is looking for, no matter how far away. The Auras of Survivors affected by Houndsense are revealed for 3 seconds after it ends.",
             "localMatch": {
               "addonId": "e6edd5e3-1c75-4ee8-a175-ae3869b85fd2",
@@ -18100,7 +18068,7 @@ var COMMUNITY_CONTENT = {
             }
           },
           {
-            "rank": 16,
+            "rank": 14,
             "tierBucket": "almost-no-effect",
             "name": "Trainer's Book",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/houndmaster/trainersbook.png",
@@ -18116,11 +18084,11 @@ var COMMUNITY_CONTENT = {
             }
           },
           {
-            "rank": 17,
+            "rank": 15,
             "tierBucket": "almost-no-effect",
             "name": "Training Bell",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/houndmaster/trainingbell.png",
-            "otzComment": "Training Bell : Revealing a Survivor's aura for 5 seconds is a sweet effect, which could be enhanced further with Lethal Pursuer. However, you will rarely have match where the dog gets stunned often enough to justify bringing this add-on.",
+            "otzComment": "Training Bell : Revealing a Survivor's aura for 5 seconds is a sweet effect, which could be enhanced further with Lethal Pursuer. However, you will rarely have a match where the dog gets stunned often enough to justify bringing this add-on.",
             "description": "Even over great distances, it will notify a dog exactly where their owner is. The Aura of the Survivor responsible for stunning The Dog is revealed to you for 8 seconds.",
             "localMatch": {
               "addonId": "a9e5c81d-eb06-4ca3-9f84-5ba7526ac5e0",
@@ -18132,7 +18100,7 @@ var COMMUNITY_CONTENT = {
             }
           },
           {
-            "rank": 18,
+            "rank": 16,
             "tierBucket": "almost-no-effect",
             "name": "Creature's Bone",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/houndmaster/creaturesbone.png",
@@ -18148,11 +18116,11 @@ var COMMUNITY_CONTENT = {
             }
           },
           {
-            "rank": 19,
+            "rank": 17,
             "tierBucket": "almost-no-effect",
             "name": "Knotted Rope",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/houndmaster/knottedrope.png",
-            "otzComment": "Knotted Rope : The reduction in your main attack's cooldown is a universally useful effect, however this add-on was nerfed very severely until a future rework. Right now it only has a 2% effect which is completely negligible. Do not bother using it.",
+            "otzComment": "Knotted Rope : The reduction of your main attack's cooldown is a universally useful effect, however this add-on was nerfed very severely until a future rework. Right now it only has a 2% effect which is completely negligible. Do not bother using it.",
             "description": "The dog's jaws tightened around the makeshift toy, and he thrashed it back and forth. Reduces the Attack cool-down of successful Basic Attacks on Survivors caught in the grasp of The Dog by -2 %.",
             "localMatch": {
               "addonId": "8e8456de-f5a7-41d0-8956-3419390458d5",
@@ -18160,6 +18128,38 @@ var COMMUNITY_CONTENT = {
               "localName": "Knotted Rope",
               "localImage": "dbd_images/addons/iconaddon_knottedrope.png",
               "localRarity": "uncommon",
+              "method": "name"
+            }
+          },
+          {
+            "rank": 18,
+            "tierBucket": "detrimental",
+            "name": "Young Coconut",
+            "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/houndmaster/youngcoconut.png",
+            "otzComment": "Young Coconut : THIS ADD-ON IS CURRENTLY BUGGED and doesn't seem to work at all. Slightly increases the dog's speed when chasing, making you have an easier time catching up to Survivors before they reach safety. Not a bad effect at all for an add-on of this rarity.",
+            "description": "Her first meal as a castaway, she shared it with her loyal companion. Increases the Chase speed of The Dog by +5 %.",
+            "localMatch": {
+              "addonId": "4c39bbcc-1006-4585-b0fb-8f345c34008a",
+              "internalId": "Addon_K38_01",
+              "localName": "Young Coconut",
+              "localImage": "dbd_images/addons/iconaddon_youngcoconut.png",
+              "localRarity": "common",
+              "method": "name"
+            }
+          },
+          {
+            "rank": 19,
+            "tierBucket": "detrimental",
+            "name": "Leather Harness",
+            "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/houndmaster/leatherharness.png",
+            "otzComment": "Leather Harness : THIS ADD-ON IS CURRENTLY BUGGED and doesn't seem to work at all. Gives a large boost to the dog's speed after a gen is completed (for a short time) and after all gens are completed (permanently). Best used on endgame builds that can extend the duration of this part of the match.",
+            "description": "Allows greater control over a dog's every movement. Whenever a Generator is completed, Leather Harness triggers its effect for 30 seconds: Increases the Chase speed of The Dog by +20 %. Leather Harness applies its effect permanently after all Generators are completed.",
+            "localMatch": {
+              "addonId": "05e66dd4-3d7d-44a5-8d1f-2680c09653d4",
+              "internalId": "Addon_K38_15",
+              "localName": "Leather Harness",
+              "localImage": "dbd_images/addons/iconaddon_leatherharness.png",
+              "localRarity": "veryrare",
               "method": "name"
             }
           },
@@ -18221,20 +18221,20 @@ var COMMUNITY_CONTENT = {
             "tier": "solid",
             "label": "Solid Combo",
             "addonRanks": [
-              2,
+              4,
               3
             ],
             "addons": [
               {
-                "rank": 2,
-                "name": "Barley Meal",
-                "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/houndmaster/barleymeal.png",
+                "rank": 4,
+                "name": "Iridescent Wheel Handle",
+                "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/houndmaster/iridescentwheelhandle.png",
                 "localMatch": {
-                  "addonId": "9b3a7c03-8f5f-4f87-ac54-c27a224d7645",
-                  "internalId": "Addon_K38_05",
-                  "localName": "Barley Meal",
-                  "localImage": "dbd_images/addons/iconaddon_barleymeal.png",
-                  "localRarity": "uncommon",
+                  "addonId": "2d20c155-37a7-4b10-a579-f1edeb8ab715",
+                  "internalId": "Addon_K38_20",
+                  "localName": "Iridescent Wheel Handle",
+                  "localImage": "dbd_images/addons/iconaddon_iridescentwheelhandle.png",
+                  "localRarity": "visceral",
                   "method": "name"
                 }
               },
@@ -18257,25 +18257,25 @@ var COMMUNITY_CONTENT = {
             "tier": "good",
             "label": "Good Combo",
             "addonRanks": [
-              4,
-              9
+              2,
+              8
             ],
             "addons": [
               {
-                "rank": 4,
-                "name": "Young Coconut",
-                "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/houndmaster/youngcoconut.png",
+                "rank": 2,
+                "name": "Barley Meal",
+                "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/houndmaster/barleymeal.png",
                 "localMatch": {
-                  "addonId": "4c39bbcc-1006-4585-b0fb-8f345c34008a",
-                  "internalId": "Addon_K38_01",
-                  "localName": "Young Coconut",
-                  "localImage": "dbd_images/addons/iconaddon_youngcoconut.png",
-                  "localRarity": "common",
+                  "addonId": "9b3a7c03-8f5f-4f87-ac54-c27a224d7645",
+                  "internalId": "Addon_K38_05",
+                  "localName": "Barley Meal",
+                  "localImage": "dbd_images/addons/iconaddon_barleymeal.png",
+                  "localRarity": "uncommon",
                   "method": "name"
                 }
               },
               {
-                "rank": 9,
+                "rank": 8,
                 "name": "Belaying Pins",
                 "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/houndmaster/belayingpins.png",
                 "localMatch": {
@@ -18293,33 +18293,33 @@ var COMMUNITY_CONTENT = {
             "tier": "fun",
             "label": "Fun Combo",
             "addonRanks": [
-              5,
-              14
+              10,
+              11
             ],
             "addons": [
               {
-                "rank": 5,
-                "name": "Iridescent Wheel Handle",
-                "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/houndmaster/iridescentwheelhandle.png",
+                "rank": 10,
+                "name": "Gunpowder Tin",
+                "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/houndmaster/gunpowdertin.png",
                 "localMatch": {
-                  "addonId": "2d20c155-37a7-4b10-a579-f1edeb8ab715",
-                  "internalId": "Addon_K38_20",
-                  "localName": "Iridescent Wheel Handle",
-                  "localImage": "dbd_images/addons/iconaddon_iridescentwheelhandle.png",
-                  "localRarity": "visceral",
+                  "addonId": "1651fdbc-ffd5-4a41-ae13-045cb4b386b7",
+                  "internalId": "Addon_K38_16",
+                  "localName": "Gunpowder Tin",
+                  "localImage": "dbd_images/addons/iconaddon_gunpowdertin.png",
+                  "localRarity": "veryrare",
                   "method": "name"
                 }
               },
               {
-                "rank": 14,
-                "name": "Sticky Pitch",
-                "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/houndmaster/stickypitch.png",
+                "rank": 11,
+                "name": "Marlinspike",
+                "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/houndmaster/marlinspike.png",
                 "localMatch": {
-                  "addonId": "bc4dbcba-0dbc-4281-afbe-ce4015e5cd82",
-                  "internalId": "Addon_K38_02",
-                  "localName": "Sticky Pitch",
-                  "localImage": "dbd_images/addons/iconaddon_stickypitch.png",
-                  "localRarity": "common",
+                  "addonId": "fa2bf0bf-7f29-4a73-a89a-f5ce8337e0fa",
+                  "internalId": "Addon_K38_17",
+                  "localName": "Marlinspike",
+                  "localImage": "dbd_images/addons/iconaddon_marlinspike.png",
+                  "localRarity": "veryrare",
                   "method": "name"
                 }
               }
@@ -18407,7 +18407,7 @@ var COMMUNITY_CONTENT = {
             "tierBucket": "good",
             "name": "Blood-Stained Handkerchief",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/ghoul/bloodstainedhandkerchief.png",
-            "otzComment": "Blood-Stained Handkerchief : Extends the maximum reach that you can reach with your kagune tentacles, effectively making it easier to travel longer distances a bit more consistently. The effect is not huge, however, as it's only one extra meter.",
+            "otzComment": "Blood-Stained Handkerchief : Extends the maximum distance that you can reach with your kagune tentacles, effectively making it easier to travel longer distances a bit more consistently. The effect is not huge, however, as it's only one extra meter.",
             "description": "Even a single drop of blood can excite the senses of any gourmet. Increases the maximum reach of Kagune Leaps by +1 metre.",
             "localMatch": {
               "addonId": "968bcb35-7997-4f7b-9fea-4ce725c443b3",
@@ -18455,7 +18455,7 @@ var COMMUNITY_CONTENT = {
             "tierBucket": "decent",
             "name": "Broken Chain",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/ghoul/brokenchain.png",
-            "otzComment": "Broken Chain : This add-on noticeably shortens the power recovery after you use your leap, allowing you to use them again much sooner, but only when you're not enraged. Since it's very easy to keep the enraged status going, this add-on will often be inactive. That being said, it's still quite helpful and can help you ensure that you put pressure on Survivors with minimal downtime at key times, such as the start of the game. Not a bad effect for an add-on of this rarity.",
+            "otzComment": "Broken Chain : This add-on noticeably shortens the power recovery after you use your leap, allowing you to use it again much sooner, but only when you're not enraged. Since it's very easy to keep the enraged status going, this add-on will often be inactive. That being said, it's still quite helpful and can help you ensure that you put pressure on Survivors with minimal downtime at key times, such as the start of the game. Not a bad effect for an add-on of this rarity.",
             "description": "Nothing could restrain him once he finally embraced his full potential. Reduces the Cool-down duration of Kagune Leap by -1.4 seconds per Token when outside of Enraged Mode.",
             "localMatch": {
               "addonId": "2837089a-b090-4a2e-927a-1fd262a8489a",
@@ -18487,7 +18487,7 @@ var COMMUNITY_CONTENT = {
             "tierBucket": "decent",
             "name": "Amon's Necktie",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/ghoul/amonsnecktie.png",
-            "otzComment": "Amon's Necktie : Highlights the aura of nearby points of safety similarly to Zanshin Tactics or Windows of Opportunity's effect, but only during the brief period between leaps instead of permanently. This effect isn't incredibly impactful but it can occasionally improve your awareness of your surroundings and help you in chase. Pairs well with the purple Red-Headed Centipede add-on to help you remember where you've left dropped pallets so you can break them with your vault.",
+            "otzComment": "Amon's Necktie : Highlights the auras of nearby points of safety similarly to Zanshin Tactics' or Windows of Opportunity's effect, but only during the brief period between leaps instead of permanently. This effect isn't incredibly impactful but it can occasionally improve your awareness of your surroundings and help you in chase. Pairs well with the purple Red-Headed Centipede add-on to help you remember where you've left dropped pallets so you can break them with your vault.",
             "description": "Cold, calculated, precise.He had a firm grasp of every situation. While aiming Mid-Leap, you benefit from the following effect: The Auras of Pallets and Windows are revealed to you within 32 metres.",
             "localMatch": {
               "addonId": "87acdeb5-a733-4894-bed1-c70ed5e4f939",
@@ -18519,7 +18519,7 @@ var COMMUNITY_CONTENT = {
             "tierBucket": "decent",
             "name": "Hinami's Umbrella",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/ghoul/hinamisumbrella.png",
-            "otzComment": "Hinami's Umbrella : This add-on provides a 10 second increase to your enraged mode timer, provided that you hit the \"perfect timing\" prompt that occurs when you initially injure someone with your power. If you press the attack button at the perfect time, you'll hear a sound effect and see a score bonus confirming that you did it correctly. This effect helps you to stay in this mode more consistently, but it's not extremely necessary.",
+            "otzComment": "Hinami's Umbrella : This add-on provides a 10 second increase to your enraged mode timer, but only if you hit the \"perfect timing\" prompt that occurs when you initially injure someone with your power. If you press the attack button at the perfect time, you'll hear a sound effect and see a score bonus confirming that you did it correctly. This effect helps you to stay in this mode more consistently, but it's not extremely necessary.",
             "description": "It was raining the day her mother was viciously taken from her. Increases the amount of time added to the Countdown for each perfectly timed Grab-Attack by +10 seconds.",
             "localMatch": {
               "addonId": "ff0d891b-636b-4afe-9043-9ef1f0fb5f27",
@@ -18535,7 +18535,7 @@ var COMMUNITY_CONTENT = {
             "tierBucket": "decent",
             "name": "Red Spider Lily",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/ghoul/redspiderlily.png",
-            "otzComment": "Red Spider Lily : Makes your basic attacks apply the Hemorrhage status effect for 60 seconds while enraged, which is typically pretty often. This can occasionally waste their healing progress when interrupted, but this is simply not that terribly necessary for a Killer that already has such an easy time injuring Survivors repeatedly anyway.",
+            "otzComment": "Red Spider Lily : Makes your basic attacks apply the Haemorrhage status effect for 60 seconds while enraged, which is typically pretty often. This can occasionally waste their healing progress when interrupted, but this is simply not that terribly necessary for a Killer that already has such an easy time injuring Survivors repeatedly anyway.",
             "description": "The white flowers turned red as blood. Survivors hit with a Basic Attack while in Enraged Mode inflicts the following effect: Causes them to suffer from the Haemorrhage Status Effect for 60 seconds.",
             "localMatch": {
               "addonId": "6fcd9762-c332-46d1-9722-5f42445df6c7",
@@ -18583,7 +18583,7 @@ var COMMUNITY_CONTENT = {
             "tierBucket": "almost-no-effect",
             "name": "Taiyaki",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/ghoul/taiyaki.png",
-            "otzComment": "Taiyaki : Slightly extends the timer of your enraged status effect, giving you more time to keep it going before it disappears. This effect seems really useful, but the current timer is already quite generous and you can easily keep it going as long as don't lose track of Survivors for long. For that reason, this add-on will most likely feel redundant.",
+            "otzComment": "Taiyaki : Slightly extends the timer of your enraged status effect, giving you more time to keep it going before it disappears. This effect seems really useful, but the current timer is already quite generous and you can easily keep it going for as long as you don't lose track of Survivors for a while. For that reason, this add-on will most likely feel redundant.",
             "description": "Ghouls can never eat human food, but they can find ways to pretend. Extends the Countdown by +5 seconds.",
             "localMatch": {
               "addonId": "263df4e6-29ea-47c9-b4df-3d5a21e5fb72",
@@ -18599,7 +18599,7 @@ var COMMUNITY_CONTENT = {
             "tierBucket": "almost-no-effect",
             "name": "CCG ID Card",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/ghoul/ccgidcard.png",
-            "otzComment": "CCG ID Card : This add-on reveals the aura of Survivors when you perform a vault using your leap. Sounds useful in theory, but keep in mind that this aura reveal is extremely brief and it'll typically happen when the Survivor is already in front of you. It also only reveals Survivors that are marked by your power. This add-on might occasionally reveal someone hiding nearby or allow you to pull off some unusual mindgame, but it's extremely situational and generally not worth bringing.",
+            "otzComment": "CCG ID Card : This add-on reveals the auras of Survivors when you perform a vault using your leap. Sounds useful in theory, but keep in mind that this aura reveal is extremely brief and it'll typically happen when the Survivor is already in front of you. It also only reveals Survivors that are marked by your power. This add-on might occasionally reveal someone hiding nearby or allow you to pull off some unusual mindgame, but it's extremely situational and generally not worth bringing.",
             "description": "A card carried by every ghoul investigator. Performing a Kagune Leap Vault action triggers the following effect: The Auras of all Survivors affected by the Kagune Mark are revealed to you within 24 metres of your location for 3 seconds.",
             "localMatch": {
               "addonId": "929a5882-6848-4657-b807-cfae4270db24",
@@ -18822,8 +18822,8 @@ var COMMUNITY_CONTENT = {
             "tierBucket": "strongest",
             "name": "Restaurant Menu",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/springtrap/restaurantmenu.png",
-            "otzComment": "Restaurant Menu : Reduces the recall time of a missed axe that is left on the environment (normally 7 seconds), making it 1.4 seconds faster. An amazing effect for beginners that are still not too accurate with their axe but also for experienced players, since throwing your axe around is generally a good idea to make yourself 5% faster (until you need to recall it at a later point). Pairs very well with any add-on that gives you effects that trigger when walking into your axe's area of effect, such as the blue Foxy's Hook or the purple Endo CPU. It does not, however, reduce the recall time when the axe is lodged on a Survivor after hitting them.",
-            "description": "This description is based on the changes announced for or featured in the upcoming Patch 9.6.0\"The lamination is peeling and crusty.How appetising.\" While retrieving the Fire Axe whenever it is embedded in the environment, you benefit from the following effect: Reduces the minimum Retrieval time by -10 %.",
+            "otzComment": "Restaurant Menu : Reduces the recall time of a missed axe that is left in the environment (normally 7 seconds), making it 1.4 seconds faster. An amazing effect for beginners that are still not too accurate with their axe but also for experienced players, since throwing your axe around is generally a good idea to make yourself 5% faster (until you need to recall it at a later point). Pairs very well with any add-on that gives you effects that trigger when walking into your axe's area of effect, such as the blue Foxy's Hook or the purple Endo CPU. It does not, however, reduce the recall time when the axe is lodged in a Survivor after hitting them.",
+            "description": "\"The lamination is peeling and crusty.How appetising.\" While retrieving the Fire Axe whenever it is embedded in the environment, you benefit from the following effect: Reduces the minimum Retrieval time by -10 %.",
             "localMatch": {
               "addonId": "e3b0a01c-fde7-4d6e-a7c8-7f9420ae0ad8",
               "internalId": "Addon_K40_03",
@@ -18838,7 +18838,7 @@ var COMMUNITY_CONTENT = {
             "tierBucket": "good",
             "name": "Bonnie's Guitar Strings",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/springtrap/bonniesguitarstrings.png",
-            "otzComment": "Bonnie's Guitar Strings : Allows you to determine the repair progress of all generators by changing their color when you're in a security door. Non-repaired generators will appear white and will gradually turn into red as they are closer to completion. This effect is unbelievably strong, as it allows you to consistently find the most progressed generator after each chase to make sure that it's stopped on its tracks. Using strong slowdown perks such as Pop Goes the Weasel or Eruption makes it even easier to ensure that generators will never be done behind your back. Unfortunately, this add-on comes with the downside of completlely removing the stealth that you normally have when coming out of a security door. This downside is serious (and will likely result in smart Survivors noticing that you have this add-on) but the add-on is still worth running if you dedicate your entire build to slowdown perks and you keep your chases short.",
+            "otzComment": "Bonnie's Guitar Strings : Allows you to determine the repair progress of all generators by changing their color when you're in a security door. Non-repaired generators will appear white and will gradually turn into a deeper color as they are closer to completion. This effect is unbelievably strong, as it allows you to consistently find the most progressed generator after each chase to make sure that it's stopped in its tracks. Using strong slowdown perks such as Pop Goes the Weasel or Eruption makes it even easier to ensure that generators will never be done behind your back. Unfortunately, this add-on comes with the downside of completlely removing the stealth that you normally have when coming out of a security door. This downside is noticeable (and will likely result in smart Survivors noticing that you have this add-on) but the add-on is still worth running if you dedicate your entire build to slowdown perks and you keep your chases short. Just make sure that you don't obsessively use the security doors at times when it's best to focus on a chase.",
             "description": "\"Worn strings that are off-tune and liable to snap.\" Unlocks potential in your Aura-reading ability while moving between Security Doors: The intensity of the Generator Auras reveals their current Repair progress. Upon exiting a Security Door after teleporting to it, the following effect applies: Reduces the duration of the Undetectable Status Effect by -100 % to 0 seconds. This causes the Status Effect to be removed instantly.",
             "localMatch": {
               "addonId": "5b4e2c3e-053e-446e-98cf-4c6ce2e1e1fe",
@@ -18851,38 +18851,6 @@ var COMMUNITY_CONTENT = {
           },
           {
             "rank": 3,
-            "tierBucket": "good",
-            "name": "Endo CPU",
-            "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/springtrap/endocpu.png",
-            "otzComment": "Endo CPU : When walking inside of your axe's area of effect, you gain a noticeable 40% boost to your kick speed (which applies to kicking generators, pallets and breakable walls). This can be used during chase to minimize the amount of distance a Survivor can create after dropping a pallet. This effect stacks nicely with perks such as Fire Up or Brutal Strength. Since it lingers for a few seconds, it's even possible to traverse through the security door and still benefit from it when you kick a generator after coming out of it (if you're quick enough).",
-            "description": "\"Greater computing power, for greater efficacy.\" While inside the Area of Effect of the embedded Fire Axe, you benefit from the following effect: Increases the Action speeds for Breaking and Damaging by +40 %. This effect lingers for 5 seconds after leaving the Area of Effect.",
-            "localMatch": {
-              "addonId": "b36163c9-4f30-41d7-8eeb-9cc934bc542b",
-              "internalId": "Addon_K40_19",
-              "localName": "Endo CPU",
-              "localImage": "dbd_images/addons/iconaddon_endocpu.png",
-              "localRarity": "veryrare",
-              "method": "name"
-            }
-          },
-          {
-            "rank": 4,
-            "tierBucket": "good",
-            "name": "Ripped Curtain",
-            "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/springtrap/rippedcurtain.png",
-            "otzComment": "Ripped Curtain : Applies Mangled and Hemorrhage for 60 seconds after an axe hit. Delaying and possibly regressing the healing progress of Survivors is useful on any Killer, but particularly so on stealthy ones. Will likely provide consistent value since it's easy to apply.",
-            "description": "\"Taken from Pirates Cove, caught on the animatronic that lived there.\" Survivors hit with the Fire Axe suffer from the following effects: Inflicts the Haemorrhage and Mangled Status Effects for 60 seconds.",
-            "localMatch": {
-              "addonId": "6ccc2617-205f-4b28-aca9-66227e5b3fb7",
-              "internalId": "Addon_K40_05",
-              "localName": "Ripped Curtain",
-              "localImage": "dbd_images/addons/iconaddon_rippedcurtain.png",
-              "localRarity": "uncommon",
-              "method": "name"
-            }
-          },
-          {
-            "rank": 5,
             "tierBucket": "good",
             "name": "Foxy's Hook",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/springtrap/foxyshook.png",
@@ -18898,7 +18866,7 @@ var COMMUNITY_CONTENT = {
             }
           },
           {
-            "rank": 6,
+            "rank": 4,
             "tierBucket": "good",
             "name": "Celebrate! Poster",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/springtrap/celebrateposter.png",
@@ -18914,7 +18882,55 @@ var COMMUNITY_CONTENT = {
             }
           },
           {
+            "rank": 5,
+            "tierBucket": "good",
+            "name": "Ripped Curtain",
+            "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/springtrap/rippedcurtain.png",
+            "otzComment": "Ripped Curtain : Applies Mangled and Haemorrhage for 60 seconds after an axe hit. Delaying and possibly regressing the healing progress of Survivors is useful on any Killer, but particularly so on stealthy ones. Will likely provide consistent value since it's easy to apply.",
+            "description": "\"Taken from Pirates Cove, caught on the animatronic that lived there.\" Survivors hit with the Fire Axe suffer from the following effects: Inflicts the Haemorrhage and Mangled Status Effects for 60 seconds.",
+            "localMatch": {
+              "addonId": "6ccc2617-205f-4b28-aca9-66227e5b3fb7",
+              "internalId": "Addon_K40_05",
+              "localName": "Ripped Curtain",
+              "localImage": "dbd_images/addons/iconaddon_rippedcurtain.png",
+              "localRarity": "uncommon",
+              "method": "name"
+            }
+          },
+          {
+            "rank": 6,
+            "tierBucket": "good",
+            "name": "Streamers",
+            "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/springtrap/streamers.png",
+            "otzComment": "Streamers : Slightly increases the speed at which you perform the animation of exiting the security doors when you teleport by about half a second. Not a huge effect, but it can help give Survivors slightly less reaction time if they're nearby when this happens since it also speeds up the animation of emerging from the door. This effect is more useful if you have perks or other add-ons that tell you exactly where to go (such as the blue Bonnie's Guitar Strings). Don't bother running it if you're not using the security doors often.",
+            "description": "\"Employees would throw them over the rafters for a quick decoration.\" While travelling through the Security Doors, you benefit from the following effect: Increases your Movement Speed by +15 %.",
+            "localMatch": {
+              "addonId": "26534e69-2477-4a2b-99d4-77265594836d",
+              "internalId": "Addon_K40_07",
+              "localName": "Streamers",
+              "localImage": "dbd_images/addons/iconaddon_streamers.png",
+              "localRarity": "uncommon",
+              "method": "name"
+            }
+          },
+          {
             "rank": 7,
+            "tierBucket": "good",
+            "name": "Endo CPU",
+            "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/springtrap/endocpu.png",
+            "otzComment": "Endo CPU : When walking inside of your axe's area of effect, you gain a noticeable 40% boost to your kick speed (which applies to kicking generators, pallets and breakable walls). This can be used during chase to minimize the amount of distance a Survivor can create after dropping a pallet. This effect stacks nicely with perks such as Fire Up or Brutal Strength. Since it lingers for a few seconds, it's even possible to traverse through the security door and still benefit from it when you kick a generator after coming out of it (if you're quick enough).",
+            "description": "\"Greater computing power, for greater efficacy.\" While inside the Area of Effect of the embedded Fire Axe, you benefit from the following effect: Increases the Action speeds for Breaking and Damaging by +40 %. This effect lingers for 5 seconds after leaving the Area of Effect.",
+            "localMatch": {
+              "addonId": "b36163c9-4f30-41d7-8eeb-9cc934bc542b",
+              "internalId": "Addon_K40_19",
+              "localName": "Endo CPU",
+              "localImage": "dbd_images/addons/iconaddon_endocpu.png",
+              "localRarity": "veryrare",
+              "method": "name"
+            }
+          },
+          {
+            "rank": 8,
             "tierBucket": "good",
             "name": "Purple Guy Drawing",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/springtrap/purpleguydrawing.png",
@@ -18930,7 +18946,23 @@ var COMMUNITY_CONTENT = {
             }
           },
           {
-            "rank": 8,
+            "rank": 9,
+            "tierBucket": "good",
+            "name": "Chica's Bib",
+            "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/springtrap/chicasbib.png",
+            "otzComment": "Chica's Bib : Applies a brief 5 seconds of Exhaustion status effect to any Survivor inside the axe's area of effect. Sounds like a very small amount, but it's actually more than enough since Survivors cannot recover from exhaustion while they're running anyway. This effect can help you counter many Survivor perks before they have a chance to be used. Like any other add-on that works only in the \"area of effect\", this add-on only triggers once the axe lands on something and not before. Keep in mind that it's possible for a Survivor to be detected while the axe is mid-air and give off Killer Instinct without technically being inside its area of effect yet. One trick to check if a Survivor entered the area of effect is to look at the top right side of your screen and check for the score events. If you get two of them, that means the Survivor entered the area of effect after the axe landed. If you only get one, that means that they only got detected by the axe mid-air.",
+            "description": "\"A good way to keep Mr Cupcake from making a mess.\" While inside the Area of Effect of the Fire Axe, Survivors suffer from the following effect: Inflicts the Exhausted Status Effect. This effect lingers for 5 seconds after leaving the Area of Effect.",
+            "localMatch": {
+              "addonId": "a6dee70a-3ae7-4956-9cd5-6be98e0fa554",
+              "internalId": "Addon_K40_10",
+              "localName": "Chica’s Bib",
+              "localImage": "dbd_images/addons/iconaddon_chicasbib.png",
+              "localRarity": "rare",
+              "method": "name"
+            }
+          },
+          {
+            "rank": 10,
             "tierBucket": "good",
             "name": "Faz-Coin",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/springtrap/fazcoin.png",
@@ -18946,39 +18978,23 @@ var COMMUNITY_CONTENT = {
             }
           },
           {
-            "rank": 9,
-            "tierBucket": "good",
-            "name": "Security Guard's Badge",
-            "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/springtrap/securityguardsbadge.png",
-            "otzComment": "Security Guard's Badge : Extends the duration of the Undetectable status effect that you get from coming out of a security door by 5 seconds, bringing it to a total of 25 seconds. This is particularly useful if you fail to find someone right away or need to ambush a second survivor after the first one gets away. Not very useful if you ignore the use of security doors, but it's an okay effect considering its rarity.",
-            "description": "\"The badge comes with certain privileges for whoever carries it.\" Upon exiting a Security Door after teleporting to it, the following effect applies: Extends the duration of the Undetectable Status Effect by +25 % to 25 seconds.",
-            "localMatch": {
-              "addonId": "a8e31359-c54b-4bc3-91c4-b7ccf2f6caeb",
-              "internalId": "Addon_K40_02",
-              "localName": "Security Guard’s Badge",
-              "localImage": "dbd_images/addons/iconaddon_securityguardsbadge.png",
-              "localRarity": "uncommon",
-              "method": "name"
-            }
-          },
-          {
-            "rank": 10,
-            "tierBucket": "decent",
-            "name": "Iridescent Remnant",
-            "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/springtrap/iridescentremnant.png",
-            "otzComment": "Iridescent Remnant : Blocks all non-dropped pallets within 32 meters when you come out of a security door. This effect isn't always extremely impactful, but it can provide a lot of value if you're teleporting often and you know exactly where Survivors are (thanks to your perks or other add-ons such as the blue Bonnie's Guitar Strings). Unfortunately, the blocking effect happens slightly before you emerge from the security doors which can give an indirect warning to the nearby Survivors that you're coming. Don't bother running this add-on if you don't plan on using your security doors much.",
-            "description": "\"Molten metal — in the right hands, it is the key to immortality.\" Upon travelling to a Security Door, the following effect is applied to it: Blocks all upright Pallets within 32 metres of that Security Door for 12 seconds.",
-            "localMatch": {
-              "addonId": "06e57cb1-3c8b-4cd4-9462-b74f3f736276",
-              "internalId": "Addon_K40_20",
-              "localName": "Iridescent Remnant",
-              "localImage": "dbd_images/addons/iconaddon_iridescentremnant.png",
-              "localRarity": "visceral",
-              "method": "name"
-            }
-          },
-          {
             "rank": 11,
+            "tierBucket": "decent",
+            "name": "Access Panel",
+            "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/springtrap/accesspanel.png",
+            "otzComment": "Access Panel : When holding your axe, reveals any Survivor within 4 meters of a security door. On top of being able to reliably find people using security doors, it can occasionally reveal Survivors working on generators near them. While most generators are too far away from them, some maps may have 1 or 2 generators close enough to a gate to make detection with this add-on unavoidable. Being able to briefly tap your power button to get immediate information on Survivor locations is very powerful and pairs well with several other add-ons, such as the iridescent Faz-Coin. If you use the Faz-Coin and detect a Survivor near a door, you can get rid of your axe and begin to approach them while stealthy. This add-on also unlocks the ability to throw your axe through security doors, making it come out of whatever other door is linked to it. This ability is not generally very useful, but you can pair it with the Faz-Coin to immediately create a fake terror radius across the map.",
+            "description": "\"Gaining control over the security doors is key to getting the job done.\" Unlocks a special ability for the Fire Axe: The Fire Axe can travel through Security Doors and will exit straight through the connected Security Door. While aiming the Fire Axe, you benefit from the following effect: Survivors within 6 metres of any Security Door trigger Killer Instinct.",
+            "localMatch": {
+              "addonId": "0a1f6cf5-d410-46ac-b374-9a1ac69b6726",
+              "internalId": "Addon_K40_16",
+              "localName": "Access Panel",
+              "localImage": "dbd_images/addons/iconaddon_accesspanel.png",
+              "localRarity": "veryrare",
+              "method": "name"
+            }
+          },
+          {
+            "rank": 12,
             "tierBucket": "decent",
             "name": "Loot Bag",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/springtrap/lootbag.png",
@@ -18994,23 +19010,23 @@ var COMMUNITY_CONTENT = {
             }
           },
           {
-            "rank": 12,
+            "rank": 13,
             "tierBucket": "decent",
-            "name": "Access Panel",
-            "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/springtrap/accesspanel.png",
-            "otzComment": "Access Panel : When holding your axe, reveals any Survivor within 4 meters of a security door. On top of being able to reliably find people using security doors, it can occasionally reveal Survivors working on generators near them. While most generators are too far away from them, some maps may have 1 or 2 generators close enough to a gate to make detection with this add-on unavoidable. Being able to briefly tap your power button to get immediate information on Survivor locations is very powerful and pairs well with several other add-ons, such as the iridescent Faz-Coin. If you use the Faz-Coin and detect a Survivor near a door, you can get rid of your axe and begin to approach them while stealthy. This add-on also unlocks the ability to throw your axe through security doors, making it come out of whatever other door is linked to it. This ability is not generally very useful, but you can pair it with the Faz-Coin to immediately create a fake terror radius across the map.",
-            "description": "This description is based on the changes announced for or featured in the upcoming Patch 9.6.0\"Gaining control over the security doors is key to getting the job done.\" Unlocks a special ability for the Fire Axe: The Fire Axe can travel through Security Doors and will exit straight through the connected Security Door. While aiming the Fire Axe, you benefit from the following effect: Survivors within 6 metres of any Security Door trigger Killer Instinct.",
+            "name": "Security Guard's Badge",
+            "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/springtrap/securityguardsbadge.png",
+            "otzComment": "Security Guard's Badge : Extends the duration of the Undetectable status effect that you get from coming out of a security door by 5 seconds, bringing it to a total of 25 seconds. This is particularly useful if you fail to find someone right away or need to ambush a second survivor after the first one gets away. Not very useful if you ignore the use of security doors, but it's an okay effect considering its rarity.",
+            "description": "\"The badge comes with certain privileges for whoever carries it.\" Upon exiting a Security Door after teleporting to it, the following effect applies: Extends the duration of the Undetectable Status Effect by +25 % to 25 seconds.",
             "localMatch": {
-              "addonId": "0a1f6cf5-d410-46ac-b374-9a1ac69b6726",
-              "internalId": "Addon_K40_16",
-              "localName": "Access Panel",
-              "localImage": "dbd_images/addons/iconaddon_accesspanel.png",
-              "localRarity": "veryrare",
+              "addonId": "a8e31359-c54b-4bc3-91c4-b7ccf2f6caeb",
+              "internalId": "Addon_K40_02",
+              "localName": "Security Guard’s Badge",
+              "localImage": "dbd_images/addons/iconaddon_securityguardsbadge.png",
+              "localRarity": "uncommon",
               "method": "name"
             }
           },
           {
-            "rank": 13,
+            "rank": 14,
             "tierBucket": "decent",
             "name": "Party Hat",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/springtrap/partyhat.png",
@@ -19026,39 +19042,7 @@ var COMMUNITY_CONTENT = {
             }
           },
           {
-            "rank": 14,
-            "tierBucket": "decent",
-            "name": "Chica's Bib",
-            "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/springtrap/chicasbib.png",
-            "otzComment": "Chica's Bib : Applies a brief 5 seconds of Exhaustion status effect to any Survivor inside the axe's area of effect. Sounds like a very small amount, but it's actually more than enough since Survivors cannot recover from exhaustion while they're running anyway. This effect can help you counter many Survivor perks before they have a chance to be used. Like any other add-on that works only in the \"area of effect\", this add-on only triggers once the axe lands on something and not before. Keep in mind that it's possible for a Survivor to be detected while the axe is mid-air and give off Killer Instinct without technically being inside its area of effect yet. One trick to check if a Survivor entered the area of effect is to look at the top right side of your screen and check for the score events. If you get two of them, that means the Survivor entered the area of effect after the axe landed. If you only get one, that means that they only got detected by the axe mid-air.",
-            "description": "\"A good way to keep Mr Cupcake from making a mess.\" While inside the Area of Effect of the Fire Axe, Survivors suffer from the following effect: Inflicts the Exhausted Status Effect. This effect lingers for 5 seconds after leaving the Area of Effect.",
-            "localMatch": {
-              "addonId": "a6dee70a-3ae7-4956-9cd5-6be98e0fa554",
-              "internalId": "Addon_K40_10",
-              "localName": "Chica’s Bib",
-              "localImage": "dbd_images/addons/iconaddon_chicasbib.png",
-              "localRarity": "rare",
-              "method": "name"
-            }
-          },
-          {
             "rank": 15,
-            "tierBucket": "decent",
-            "name": "Streamers",
-            "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/springtrap/streamers.png",
-            "otzComment": "Streamers : Slightly increases the speed at which you perform the animation of exiting the security doors when you teleport by about half a second. Not a huge effect, but it can help give Survivors slightly less reaction time if they're nearby when this happens. This effect is more useful if you have perks or other add-ons that tell you exactly where to go (such as the blue Bonnie's Guitar Strings). Don't bother running it if you're not using the security doors often.",
-            "description": "\"Employees would throw them over the rafters for a quick decoration.\" While travelling through the Security Doors, you benefit from the following effect: Increases your Movement Speed by +15 %.",
-            "localMatch": {
-              "addonId": "26534e69-2477-4a2b-99d4-77265594836d",
-              "internalId": "Addon_K40_07",
-              "localName": "Streamers",
-              "localImage": "dbd_images/addons/iconaddon_streamers.png",
-              "localRarity": "uncommon",
-              "method": "name"
-            }
-          },
-          {
-            "rank": 16,
             "tierBucket": "almost-no-effect",
             "name": "Rotten Pizza",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/springtrap/rottenpizza.png",
@@ -19074,7 +19058,7 @@ var COMMUNITY_CONTENT = {
             }
           },
           {
-            "rank": 17,
+            "rank": 16,
             "tierBucket": "almost-no-effect",
             "name": "Greasy Paper Plate",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/springtrap/greasypaperplate.png",
@@ -19090,7 +19074,7 @@ var COMMUNITY_CONTENT = {
             }
           },
           {
-            "rank": 18,
+            "rank": 17,
             "tierBucket": "almost-no-effect",
             "name": "Office Phone",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/springtrap/officephone.png",
@@ -19106,7 +19090,7 @@ var COMMUNITY_CONTENT = {
             }
           },
           {
-            "rank": 19,
+            "rank": 18,
             "tierBucket": "almost-no-effect",
             "name": "Help Wanted Ad",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/springtrap/helpwantedad.png",
@@ -19118,6 +19102,22 @@ var COMMUNITY_CONTENT = {
               "localName": "Help Wanted Ad",
               "localImage": "dbd_images/addons/iconaddon_helpwantedad.png",
               "localRarity": "common",
+              "method": "name"
+            }
+          },
+          {
+            "rank": 19,
+            "tierBucket": "almost-no-effect",
+            "name": "Iridescent Remnant",
+            "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/springtrap/iridescentremnant.png",
+            "otzComment": "Iridescent Remnant : Blocks all non-dropped pallets within 32 meters when you come out of a security door. This effect isn't always extremely impactful, but it can provide a lot of value if you're teleporting often and you know exactly where Survivors are (thanks to your perks or other add-ons such as the blue Bonnie's Guitar Strings). Unfortunately, the blocking effect happens slightly before you emerge from the security doors which can give an indirect warning to the nearby Survivors that you're coming. Don't bother running this add-on if you don't plan on using your security doors much.",
+            "description": "\"Molten metal — in the right hands, it is the key to immortality.\" Upon travelling to a Security Door, the following effect is applied to it: Blocks all upright Pallets within 32 metres of that Security Door for 12 seconds.",
+            "localMatch": {
+              "addonId": "06e57cb1-3c8b-4cd4-9462-b74f3f736276",
+              "internalId": "Addon_K40_20",
+              "localName": "Iridescent Remnant",
+              "localImage": "dbd_images/addons/iconaddon_iridescentremnant.png",
+              "localRarity": "visceral",
               "method": "name"
             }
           },
@@ -19162,14 +19162,14 @@ var COMMUNITY_CONTENT = {
               },
               {
                 "rank": 3,
-                "name": "Endo CPU",
-                "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/springtrap/endocpu.png",
+                "name": "Foxy's Hook",
+                "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/springtrap/foxyshook.png",
                 "localMatch": {
-                  "addonId": "b36163c9-4f30-41d7-8eeb-9cc934bc542b",
-                  "internalId": "Addon_K40_19",
-                  "localName": "Endo CPU",
-                  "localImage": "dbd_images/addons/iconaddon_endocpu.png",
-                  "localRarity": "veryrare",
+                  "addonId": "009ba501-12f6-4384-93bf-f6feb9cebc62",
+                  "internalId": "Addon_K40_12",
+                  "localName": "Foxy’s Hook",
+                  "localImage": "dbd_images/addons/iconaddon_foxyhook.png",
+                  "localRarity": "rare",
                   "method": "name"
                 }
               }
@@ -19180,7 +19180,7 @@ var COMMUNITY_CONTENT = {
             "label": "Solid Combo",
             "addonRanks": [
               2,
-              4
+              6
             ],
             "addons": [
               {
@@ -19197,14 +19197,14 @@ var COMMUNITY_CONTENT = {
                 }
               },
               {
-                "rank": 4,
-                "name": "Ripped Curtain",
-                "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/springtrap/rippedcurtain.png",
+                "rank": 6,
+                "name": "Streamers",
+                "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/springtrap/streamers.png",
                 "localMatch": {
-                  "addonId": "6ccc2617-205f-4b28-aca9-66227e5b3fb7",
-                  "internalId": "Addon_K40_05",
-                  "localName": "Ripped Curtain",
-                  "localImage": "dbd_images/addons/iconaddon_rippedcurtain.png",
+                  "addonId": "26534e69-2477-4a2b-99d4-77265594836d",
+                  "internalId": "Addon_K40_07",
+                  "localName": "Streamers",
+                  "localImage": "dbd_images/addons/iconaddon_streamers.png",
                   "localRarity": "uncommon",
                   "method": "name"
                 }
@@ -19216,7 +19216,7 @@ var COMMUNITY_CONTENT = {
             "label": "Good Combo",
             "addonRanks": [
               1,
-              4
+              5
             ],
             "addons": [
               {
@@ -19233,7 +19233,7 @@ var COMMUNITY_CONTENT = {
                 }
               },
               {
-                "rank": 4,
+                "rank": 5,
                 "name": "Ripped Curtain",
                 "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/springtrap/rippedcurtain.png",
                 "localMatch": {
@@ -19251,12 +19251,25 @@ var COMMUNITY_CONTENT = {
             "tier": "fun",
             "label": "Fun Combo",
             "addonRanks": [
-              5,
-              6
+              7,
+              3
             ],
             "addons": [
               {
-                "rank": 5,
+                "rank": 7,
+                "name": "Endo CPU",
+                "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/springtrap/endocpu.png",
+                "localMatch": {
+                  "addonId": "b36163c9-4f30-41d7-8eeb-9cc934bc542b",
+                  "internalId": "Addon_K40_19",
+                  "localName": "Endo CPU",
+                  "localImage": "dbd_images/addons/iconaddon_endocpu.png",
+                  "localRarity": "veryrare",
+                  "method": "name"
+                }
+              },
+              {
+                "rank": 3,
                 "name": "Foxy's Hook",
                 "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/springtrap/foxyshook.png",
                 "localMatch": {
@@ -19265,19 +19278,6 @@ var COMMUNITY_CONTENT = {
                   "localName": "Foxy’s Hook",
                   "localImage": "dbd_images/addons/iconaddon_foxyhook.png",
                   "localRarity": "rare",
-                  "method": "name"
-                }
-              },
-              {
-                "rank": 6,
-                "name": "Celebrate! Poster",
-                "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/springtrap/celebrateposter.png",
-                "localMatch": {
-                  "addonId": "78bc0fb7-cfbd-4778-a4bb-f65357b42cc5",
-                  "internalId": "Addon_K40_17",
-                  "localName": "Celebrate! Poster",
-                  "localImage": "dbd_images/addons/iconaddon_celebrateposter.png",
-                  "localRarity": "veryrare",
                   "method": "name"
                 }
               }
@@ -19316,7 +19316,7 @@ var COMMUNITY_CONTENT = {
             "tierBucket": "good",
             "name": "Framed Newspaper",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/krasue/framednewspaper.png",
-            "otzComment": "Framed Newspaper : This add-on essentially increases your flight form duration by 50% and also slightly increases its recharge rate. It has a small \"downside\" that prevents you from flying when the power gauge is under 50% charge (normally it must be above 25%) but it's not a big deal at all. This is definitely one of the better add-ons to increase your overall mobility.ç",
+            "otzComment": "Framed Newspaper : This add-on essentially increases your flight form duration by 50% and also slightly increases its recharge rate. It has a small \"downside\" that prevents you from flying when the power gauge is under 50% charge (normally it must be above 25%) but it's not a big deal at all. This is definitely one of the better add-ons to increase your overall mobility.",
             "description": "\"She had once made it onto the entertainment section of the city's newspaper, but she wanted more.\" Modifies Headlong Flight with the following effects: Increases its Charge capacity by +6 Charges. Increases its Recharge rate by +15 %. Raises its Activation threshold to 50 %.",
             "localMatch": {
               "addonId": "46389e68-fa31-4d08-94c2-0bc6d7d21aea",
@@ -19364,7 +19364,7 @@ var COMMUNITY_CONTENT = {
             "tierBucket": "good",
             "name": "Mysterious Elixir",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/krasue/mysteriouselixir.png",
-            "otzComment": "Mysterious Elixir : Spitting on a window with your leeching gland applies a mark on it. Vaulting that window blocks it for 10 seconds and removes the mark. Very similar to other Killer add-ons of this same type, and pretty useful. Make sure to occasionally apply it to certain strong windows such as the ones in the shack and you'll be able to occasionally deny them in chase later. Not a terrible effect at all but certainly situational. Similar to the other purple add-on of similar effect, players that are good at multi-tasking will benefit the most.",
+            "otzComment": "Mysterious Elixir : Spitting on a window with your leeching gland applies a mark on it. Vaulting that window blocks it for 10 seconds and removes the mark. Very similar to other Killer add-ons of this same type, and pretty useful. Make sure to occasionally apply it to certain strong windows such as the ones in the shack and you'll be able to occasionally deny them in chase later. Not a terrible effect at all but certainly situational. Similarly to the other purple add-on of similar effect, players that are good at multi-tasking will benefit the most.",
             "description": "\"A liquid moulded from The Fog itself.Though similar to the concotion she drank, there seem to be slight alterations.\" Modifies Regurgitate with the following effect: Hitting Windows with a Leeching Gland causes them to become Marked. This effect can affect multiple objects at a time. Vaulting a Marked Window by any means triggers the following effect: Blocks it for 10 seconds and removes its Mark.",
             "localMatch": {
               "addonId": "deda5e96-e340-4d59-98e5-f219b161f7e0",
@@ -19380,7 +19380,7 @@ var COMMUNITY_CONTENT = {
             "tierBucket": "good",
             "name": "Shredded Gown",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/krasue/shreddedgown.png",
-            "otzComment": "Shredded Gown : With this add-on, switching forms will reveal the auras of Survivors that are near mushrooms or that are holding them. This will generally result in lots of auras shown to you over the course of the game, but unlike the green Pig's Eye, you're not guaranteed to find specific Survivors at favorable times. Since this add-on has no downside, it's still perfectly safe to use it if can't think of anything else you'd rather bring. This effect can really help you find Survivors early only since many of them rush to find a mushrooms at the start. They can also make sure you don't lose someone in chase or even help you in some late-game scenario where Survivors are desperately trying to find some of the last mushrooms available.",
+            "otzComment": "Shredded Gown : With this add-on, switching forms will reveal the auras of Survivors that are near mushrooms or that are holding them. This will generally result in lots of auras shown to you over the course of the game, but unlike the green Pig's Eye, you're not guaranteed to find specific Survivors at favorable times. Since this add-on has no downside, it's still perfectly safe to use it if you can't think of anything else you'd rather bring. This effect can really help you find Survivors early on since many of them rush to find a mushroom at the start. It can also make sure you don't lose someone in chase or even help you in some late-game scenario where Survivors are desperately trying to find some of the last mushrooms available.",
             "description": "\"She tore at her clothes and into her flesh as her body burned.\" Unlocks potential in your Aura-reading ability while using Corporeal Weave: The Auras of all Survivors who are either within 8 metres of a Glowing Fungus or holding one are revealed to you for 5 seconds.",
             "localMatch": {
               "addonId": "4e2c852b-5a39-427c-b4ee-c1db1eaff38e",
@@ -19444,7 +19444,7 @@ var COMMUNITY_CONTENT = {
             "tierBucket": "decent",
             "name": "Queen's Sceptre",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/krasue/queenssceptre.png",
-            "otzComment": "Queen's Sceptre : Provides the unique effect of creating leeching gland splatters any time you hit a Survivor with the head form's whip attack. These splatters do not seemingly affect the Survivor you hit, but they can leech a nearby team mate and save you the trouble of having to switch forms to infect them, which can really help you keep the pressure up. Not a bad effect if you're expecting bodyblocks, but there's more consistent add-ons that you might prefer instead. Similar to the other purple add-on of similar effect, players that are good at multi-tasking will benefit the most.",
+            "otzComment": "Queen's Sceptre : Provides the unique effect of creating leeching gland splatters any time you hit a Survivor with the head form's whip attack. These splatters do not seemingly affect the Survivor you hit, but they can leech a nearby teammate and save you the trouble of having to switch forms to infect them, which can really help you keep the pressure up. Not a bad effect if you're expecting bodyblocks, but there's more consistent add-ons that you might prefer instead. Similar to the other purple add-on of similar effect, players that are good at multi-tasking will benefit the most.",
             "description": "\"The stage prop of a vengeful queen who demands blood.\" Successfully hitting a Survivor with an Intestinal Whip attack triggers the following effect: Causes a Leeching Gland to spatter from their location.",
             "localMatch": {
               "addonId": "7cfdfef4-4655-4782-8821-5f2cd53faf05",
@@ -19492,7 +19492,7 @@ var COMMUNITY_CONTENT = {
             "tierBucket": "decent",
             "name": "Dulled Knife",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/krasue/dulledknife.png",
-            "otzComment": "Dulled Knife : Provides a significant boost to the recharge speed of your flying ability but at the cost of giving Survivors several buffs when consuming mushrooms (small haste and stealth effects). This downside makes this add-on slightly dangerous and not particularly attractive considering that there's already several other add-ons that do similar things without any downside, but you can still decide to run it if you want to take advantage of the extra duration it will provide. Make sure not to pair this add-on with the green Pig's Eye as the stealth effect that Survivors gain when using a mushroom completely negates its effect. Keep in mind that since this add-on gives a visible boost to Survivors, they will know that you're running it.",
+            "otzComment": "Dulled Knife : Provides a significant boost to the recharge speed of your flying ability but at the cost of giving Survivors several buffs when consuming mushrooms (small haste and stealth effects). This downside makes this add-on slightly dangerous and not particularly attractive considering that there are already several other add-ons that do similar things without any downside, but you can still decide to run it if you want to take advantage of the extra duration it will provide. Make sure not to pair this add-on with the green Pig's Eye as the stealth effect that Survivors gain when using a mushroom completely negates its effect. Keep in mind that since this add-on gives a visible boost to Survivors, they will know that you're running it.",
             "description": "\"A stage prop, symbolic of a woman's gambit in an attempt to save her lover on death's row.\" Modifies Headlong Flight with the following effect: Reduces its Consumption rate by -25 %. Modifies the Glowing Fungus with the following effects: Causes Survivors eating it to benefit from the following additional effects for 5 seconds: Grants a +5 % Haste Status Effect and the Elusive Status Effect.",
             "localMatch": {
               "addonId": "164c0735-184b-40b6-9a4f-b91f0d7b017a",
@@ -19922,7 +19922,7 @@ var COMMUNITY_CONTENT = {
             "tierBucket": "decent",
             "name": "Neck Tendril",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/first/necktendril.png",
-            "otzComment": "Neck Tendril : Applies the usual combination of Mangled and Hemorrhage for 70 seconds when landing a Vine attack in Worldbreaker Mode. A decent effect similar to many other Killers' add-ons. Doesn't have a lot of inherent synergies with other add-ons, so be sure to have a build that takes advantage of the slower healing time this applies.",
+            "otzComment": "Neck Tendril : Applies the usual combination of Mangled and Haemorrhage for 70 seconds when landing a Vine attack in Worldbreaker Mode. A decent effect similar to many other Killers' add-ons. Doesn't have a lot of inherent synergies with other add-ons, so be sure to have a build that takes advantage of the slower healing time this applies.",
             "description": "\"He was furious when the tendril was torn from his neck as Max escaped his mind realm.\" Modifies Vine Attack with the following effect: While in Worldbreaker mode, Survivors hit by Vine Attack gain the Haemorrhage and Mangled Status Effects for 70 seconds.",
             "localMatch": {
               "addonId": "000c7c76-4479-4581-bb69-b4e117b54f7f",
@@ -19938,7 +19938,7 @@ var COMMUNITY_CONTENT = {
             "tierBucket": "decent",
             "name": "Black Widow Spider",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/first/blackwidowspider.png",
-            "otzComment": "Black Widow Spider : Reveals the location of a distant Survivor (the furthest one that's at least 36 meters away) the first time you go underground during Worldbreaker mode. Notably, this effect cannot be countered by stealth perks since it reveals both their aura and location simultaneously. Seeing someone's aura from afar can sometimes trick you into chasing a very distant Survivor and possibly waste too much time, but it's still a very welcome source of information if everyone is hiding or if you're looking for a specific Survivor. This add-on also often highlights a Survivor that might be busy using the Grandfather clock to reduce your timer. At best, this add-on can give you critical information when the match is already pretty advanced situation, like for example using it to deduce the location of the most vulnerable Survivor who is dead on hook. This is one of those add-ons that greatly benefits from using the blue Pizza Googles for increased mobility.",
+            "otzComment": "Black Widow Spider : Reveals the location of a distant Survivor (the furthest one that's at least 36 meters away) the first time you go underground during Worldbreaker mode. Notably, this effect cannot be countered by stealth perks since it reveals both their aura and location simultaneously. Seeing someone's aura from afar can sometimes trick you into chasing a very distant Survivor and possibly waste too much time, but it's still a very welcome source of information if everyone is hiding or if you're looking for a specific Survivor. This add-on also often highlights a Survivor that might be busy using the Grandfather clock to reduce your timer. At best, this add-on can give you critical information when the match is already pretty advanced, like for example using it to deduce the location of the most vulnerable Survivor who is dead on hook. This is one of those add-ons that greatly benefit from using the blue Pizza Googles for increased mobility.",
             "description": "\"A terrifying spider that is no longer a mere hallucination.\" Unlocks potential in your Aura-reading ability while using The Upside Down: The Aura of the furthest survivor more than 36 meters is revealed to you for 3 seconds.",
             "localMatch": {
               "addonId": "c51a0b72-6f6f-4aff-bd20-506946cc357b",
@@ -19954,7 +19954,7 @@ var COMMUNITY_CONTENT = {
             "tierBucket": "decent",
             "name": "Electroshock Collar",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/first/electroshockcollar.png",
-            "otzComment": "Electroshock Collar : Has the simple effect of blocking all vault locations within 32 meters for 12 seconds when you emerge with your Undergate attack. This effect triggers right after you emerge, so you cannot use it to preemptively block a window. Vaulting in chase against this Killer is extremely dangerous, so many Survivors will instead look to create as much distance as possible while you're emerging from underground and. That being said, this add-on suddenly becomes a lot more usable when paired with the blue Pizza Goggles since you'll be emerging faster and more often.",
+            "otzComment": "Electroshock Collar : Has the simple effect of blocking all vault locations within 32 meters for 12 seconds when you emerge with your Undergate attack. This effect triggers right after you emerge, so you cannot use it to preemptively block a window. Vaulting in chase against this Killer is extremely dangerous, so many Survivors will instead look to create as much distance as possible while you're emerging from underground. That being said, this add-on suddenly becomes a lot more usable when paired with the blue Pizza Goggles since you'll be emerging faster and more often.",
             "description": "\"A cruelly efficient way of training and punishing the facility's prisoners.\" Modifies The Upside Down with the following effect: When exiting, all Vault locations within 32 meters are blocked for 12 seconds.",
             "localMatch": {
               "addonId": "9c79809d-3299-485c-a660-800fb80534e9",
@@ -20066,7 +20066,7 @@ var COMMUNITY_CONTENT = {
             "tierBucket": "almost-no-effect",
             "name": "Stained Glass Mural",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/first/stainedglassmural.png",
-            "otzComment": "Stained Glass Mural : Shortens the cooldown time of using your Undergate power (normally 35 seconds) by a flat -12 seconds each time you break a pallet or breakable wall. This isn't a terrible effect, but unfortunately too many conditions are necessary for this add-on to shine. Since the Vine attacks allow you to play around dropped pallets, you don't always need to break them in chase. And even when you do, you won't always need to transition into the Undergate mode anyway. Still, a decent effect for a low rarity add-on. Keep in mind that breaking a pallet or wall with the brown Shattered Wrist Rocket add-on does not trigger the effect of this one, unfortunately. Keep in mind that this Killer can traverse through breakable walls when he is underground, so you sometimes have even less of a reason to break them compared to others.",
+            "otzComment": "Stained Glass Mural : Shortens the cooldown time of using your Undergate power (normally 35 seconds) by a flat -12 seconds each time you break a pallet or breakable wall. This isn't a terrible effect, but unfortunately too many conditions are necessary for this add-on to shine. Since the Vine attacks allow you to play around dropped pallets, you don't always need to break them in chase. And even when you do, you won't always need to transition into the Undergate mode anyway. Still, a decent effect for a low rarity add-on. Keep in mind that breaking a pallet or wall with the green Shattered Wrist Rocket add-on does not trigger the effect of this one, unfortunately. Keep in mind that this Killer can traverse through breakable walls when he is underground, so you sometimes have even less of a reason to break them compared to others.",
             "description": "\"A design once found on the Creel family door. Now it darkens the door of another dimension.\" Modifies The Upside Down with the following effect: While on cooldown, breaking Pallets and Breakable Wallsdecreases that cooldown by 12 seconds.",
             "localMatch": {
               "addonId": "04d6a6d5-04a7-4d38-a0bf-71dfe38d1a7d",
@@ -20240,13 +20240,492 @@ var COMMUNITY_CONTENT = {
             ]
           }
         ]
+      },
+      {
+        "order": 43,
+        "killerName": "Jason",
+        "killerAliases": [
+          "Jason",
+          "Slasher"
+        ],
+        "killerSlug": "jason",
+        "killerImageUrl": "https://otz-addon-tierlist.pages.dev/public/killers/jason.png",
+        "localKillerName": "The Slasher",
+        "addons": [
+          {
+            "rank": 1,
+            "tierBucket": "strongest",
+            "name": "Deputy's Badge",
+            "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/jason/deputysbadge.png",
+            "otzComment": "Deputy's Badge : Allows you to passively damage generators while in Omnipresent Evil mode by getting close to them. If a Survivor is working on it, they'll get a special skill-check instead. This effect is simple but saves a ton of time while synergizing with certain perks such as Surveillance.",
+            "description": "\"The badge of an officer who discovered that some things aren't worth investigating.\" While in Omnipresent Evil, passing within 2 metres of a Generator causes the Generator to explode, lose -5 % progress and begin regressing. If a Survivor is repairing the Generator, all Survivors repairing it will instead get a special Skill Check. If the Skill Check is failed, the Generator loses -10 % additional progress on top of the base Skill Check penalty.",
+            "localMatch": {
+              "addonId": "6891cbbc-1370-4ac9-875b-e150cc65be43",
+              "internalId": "Addon_K43_18",
+              "localName": "Deputy's Badge",
+              "localImage": "dbd_images/addons/iconaddon_deputysbadge.png",
+              "localRarity": "veryrare",
+              "method": "name"
+            }
+          },
+          {
+            "rank": 2,
+            "tierBucket": "strongest",
+            "name": "Sauna Rock",
+            "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/jason/saunarock.png",
+            "otzComment": "Sauna Rock : Has the simple (but annoying) effect of inflicting a small duration of Exhausted to any Survivor that you jumpscare with your power. If you see them highlighted with Killer Instinct when ending Omnipresent Evil, then you can be sure that this add-on has worked. Exhaustion perks are one of the very few ways that Survivors can create distance against you and disabling them right before a chase starts (or resumes) is incredibly valuable. Considering how common exhaustion perks are, this add-on is simply a top choice for almost any player.",
+            "description": "\"Nicely weighted, could be used to crush a rib cage.\" After performing a Jump Scare, inflict all detected Survivors with Exhausted Status Effect for 13 seconds.",
+            "localMatch": {
+              "addonId": "268cd66a-d661-469d-b38d-74985380accc",
+              "internalId": "Addon_K43_10",
+              "localName": "Sauna Rock",
+              "localImage": "dbd_images/addons/iconaddon_saunarock.png",
+              "localRarity": "rare",
+              "method": "name"
+            }
+          },
+          {
+            "rank": 3,
+            "tierBucket": "good",
+            "name": "Sleeping Bag",
+            "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/jason/sleepingbag.png",
+            "otzComment": "Sleeping Bag : Reveals the outline (not aura) of Survivors near hooks whenever you reload during Omnipresent Evil. You won't get a lot of value if you never reload during this mode (or if you keep reloading while hooking Survivors). However, if you slightly out of your way you can sometimes waste spears and reload more than you normally would to trigger this add-on's effect. Sometimes, none of the Survivors will be near hooks and this add-on will do nothing. At its best, it can give you critical information when Survivors are trying to stay undetected. Overall a very solid choice if you make sure to trigger it often. Keep in mind that Survivors can avoid detection by crouching around while you're in Omnipresent Evil mode and that this add-on is one of the very few ways that you can outplay this.",
+            "description": "\"An absolutely awful place to hide from a killer.\" After grabbing a Hook Spike while in Omnipresent Evil, Survivors who are within 8 metres of any Hook have their location revealed for 5 seconds.",
+            "localMatch": {
+              "addonId": "0dba8df8-5c71-4d82-b758-48eef0436448",
+              "internalId": "Addon_K43_05",
+              "localName": "Sleeping Bag",
+              "localImage": "dbd_images/addons/iconaddon_sleepingbag.png",
+              "localRarity": "uncommon",
+              "method": "name"
+            }
+          },
+          {
+            "rank": 4,
+            "tierBucket": "good",
+            "name": "Eye Goop",
+            "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/jason/eyegoop.png",
+            "otzComment": "Eye Goop : Provides 13 seconds of stealth every time you reload a spike, including when you hook someone and automatically refill it. Might not seem like much, but this effect can be triggered dozens of times per match and can help avoid detection quite frequently. If your Survivors are consistently hiding whenever you go into Omnipresent Evil, this might be a great way to find them when they're not expecting you to be stealthy.",
+            "description": "\"What remains when a harpoon is shoved into one's eye.\" Gain Undetectable Status Effect after grabbing a Hook Spike for 13 seconds.",
+            "localMatch": {
+              "addonId": "5887078b-5566-482d-af05-f1a14e475033",
+              "internalId": "Addon_K43_14",
+              "localName": "Eye Goop",
+              "localImage": "dbd_images/addons/iconaddon_eyegoop.png",
+              "localRarity": "rare",
+              "method": "name"
+            }
+          },
+          {
+            "rank": 5,
+            "tierBucket": "good",
+            "name": "Imprinted Aluminum",
+            "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/jason/imprintedaluminum.png",
+            "otzComment": "Imprinted Aluminum : Applies the typical combination of Mangled and Haemorrhage for 70 seconds. Nice and simple effect that will make Survivors struggle even more to keep up with the pace of the game if you're accurate with your spear throws.",
+            "description": "\"It's either avant-garde artwork, or the horrified imprint of a woman whose face was slammed into it.\" Injuring a healthy Survivor with a Throwing Spike inflicts them with Mangled Status Effect and Haemorrhage Status Effect for 70 seconds.",
+            "localMatch": {
+              "addonId": "a55a4574-fabe-4559-89ee-05a2d952b60b",
+              "internalId": "Addon_K43_12",
+              "localName": "Imprinted Aluminum",
+              "localImage": "dbd_images/addons/iconaddon_imprintedaluminum.png",
+              "localRarity": "rare",
+              "method": "name"
+            }
+          },
+          {
+            "rank": 6,
+            "tierBucket": "good",
+            "name": "Missing Corkscrew",
+            "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/jason/missingcorkscrew.png",
+            "otzComment": "Missing Corkscrew : Creates a fake terror radius and grants you Undetectable when a Survivor becomes impaled, which remains and lingers for 13 seconds after it has been removed. This is a really useful and easy to trigger effect no matter what. The temporary stealth prevents your aura from being read, hides your red stain and allows you to catch other Survivors by surprise if you switch targets.",
+            "description": "\"It seems to always be missing when you need it on-hand.\" When a Survivor is impaled by a Hook Spike, they emit a 32 metres Terror Radius until the Hook Spike is removed. Gain Undetectable Status Effect when impaling a Survivor with a Hook Spike. This effects persists for 13 seconds after the Surivvor is no longer impaled..",
+            "localMatch": {
+              "addonId": "a6aa4665-20b2-4a05-b0b1-27269efd70db",
+              "internalId": "Addon_K43_17",
+              "localName": "Missing Corkscrew",
+              "localImage": "dbd_images/addons/iconaddon_missingcorkscrew.png",
+              "localRarity": "veryrare",
+              "method": "name"
+            }
+          },
+          {
+            "rank": 7,
+            "tierBucket": "good",
+            "name": "Coroner's Coffee",
+            "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/jason/coronerscoffee.png",
+            "otzComment": "Coroner's Coffee : Your spikes push Survivors even further than normal (assuming that they don't collide with the environment or go down), and when this happens you also gain a +13% movement speed boost for a brief moment. This sounds like a nice effect and in many cases it's exactly that, especially if your spear pushes a Survivor away from safety. However, the effectiveness of this add-on can also be reduced if the opposite happens and you actually make a Survivor harder to catch by pushing them further away from you.",
+            "description": "\"A cup of coffee that went unfinished.\" Increases the duration of Throwing Spike's push by +25 %. Gain +13 % Haste Status Effect for 3 seconds after injuring a Survivor with a Throwing Spike if they do not collide with the environment during the push.",
+            "localMatch": {
+              "addonId": "09ab4d5f-b9d4-4753-a068-171b8ff3e083",
+              "internalId": "Addon_K43_09",
+              "localName": "Coroner's Coffee",
+              "localImage": "dbd_images/addons/iconaddon_coronerscoffee.png",
+              "localRarity": "uncommon",
+              "method": "name"
+            }
+          },
+          {
+            "rank": 8,
+            "tierBucket": "good",
+            "name": "Two Nails",
+            "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/jason/twonails.png",
+            "otzComment": "Two Nails : Reveals the aura of a Survivor for a few seconds if your thrown spear flies near them (whether it's a hit or miss). This information can sometimes be a little redundant but it will definitely shine in a lot of tiles where you can easily mindgame a Survivor if you know their exact location. A very safe choice for beginners and experienced players alike.",
+            "description": "\"A reliable way to hold a corpse's wrist in place.\" Survivors that come within 1 metre of a Throwing Spike have their aura revealed for 6 seconds.",
+            "localMatch": {
+              "addonId": "6d6993b4-f864-44e0-b284-8dd25f834828",
+              "internalId": "Addon_K43_13",
+              "localName": "Two Nails",
+              "localImage": "dbd_images/addons/iconaddon_twonails.png",
+              "localRarity": "rare",
+              "method": "name"
+            }
+          },
+          {
+            "rank": 9,
+            "tierBucket": "good",
+            "name": "Dirty Money",
+            "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/jason/dirtymoney.png",
+            "otzComment": "Dirty Money : This add-on grants you the ability to automatically reload your missing spear by vaulting or breaking a pallet/wall. This also works if you do one of these actions when reappearing from the Omnipresent Evil mode. Each automatic reload requires a token, and these tokens are granted whenever a generator is completed. This is a really useful effect for beginners that still struggle to multi-task and reload during difficult chases. For intermediate players, the automatic reload is still a nice feature that might help occasionally if they find themselves in an area without any easy spots to reload from. Experienced Jason players will likely want to stay away from this add-on, since they can probably manage to reload very frequently without losing much time at all.",
+            "description": "\"No amount of money can save you from him.\" When a Generator is repaired, gain 2 tokens. When you vault a Window or break a Pallet, consume 1 token and gain a regular Spike if you don't have one already.",
+            "localMatch": {
+              "addonId": "e181f484-817e-426c-9ada-b1d1b0c5ecfc",
+              "internalId": "Addon_K43_19",
+              "localName": "Dirty Money",
+              "localImage": "dbd_images/addons/iconaddon_dirtymoney.png",
+              "localRarity": "visceral",
+              "method": "name"
+            }
+          },
+          {
+            "rank": 10,
+            "tierBucket": "decent",
+            "name": "Bloody Smile",
+            "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/jason/bloodysmile.png",
+            "otzComment": "Bloody Smile : Extends the distance that your power can \"sense\" Survivors in Omnipresent Evil and the distance that they'll be detected and highlighted by Killer Instinct when you exit it from 16 to 20 meters. Not a bad effect at all, although you might struggle to get any value if you forget to use Omnipresent Evil or if Survivors really commit to crouching while you're doing it (which makes them immune to detection).",
+            "description": "\"He wasn't happy after his face was smashed into a tree.\" Increase the detection ranges of Jump Scare and Omnipresent Evil by +4 metres.",
+            "localMatch": {
+              "addonId": "d1aa7e0d-ce41-4fca-919c-bfd2dd4665ea",
+              "internalId": "Addon_K43_06",
+              "localName": "Bloody Smile",
+              "localImage": "dbd_images/addons/iconaddon_bloodysmile.png",
+              "localRarity": "uncommon",
+              "method": "name"
+            }
+          },
+          {
+            "rank": 11,
+            "tierBucket": "decent",
+            "name": "Bloody Magazine",
+            "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/jason/bloodymagazine.png",
+            "otzComment": "Bloody Magazine : Missed spears make Survivors scream and reveal their auras for a short period of 3 seconds. This effect is nice and can help you keep track of a Survivor behind cover after you barely missed them, especially if you extend it by running the perk Lethal Pursuer with it. If you're a bit creative, you could even purposefully miss a spear to check if someone is hiding in a certain spot or to mindgame a Survivor from behind a tall obstacle. However, this add-on does absolutely nothing if you hit your target or if you miss by a lot. Keep in mind that it also ONLY triggers with spears that you retrieve from Sacrificial Hooks specifically. It will not work on spears that you collect from the various reload scrap piles that spawn around the map, unfortunately.",
+            "description": "\"The spattering of blood told the story of a brutal massacre.\" When a Hook Spike misses, all Survivor within 8 metres of the Hook Spike's impact zone scream and reveal their auras for 3 seconds.",
+            "localMatch": {
+              "addonId": "0d03fae6-015f-47a0-85a9-5185751c7517",
+              "internalId": "Addon_K43_15",
+              "localName": "Bloody Magazine",
+              "localImage": "dbd_images/addons/iconaddon_bloodymagazine.png",
+              "localRarity": "veryrare",
+              "method": "name"
+            }
+          },
+          {
+            "rank": 12,
+            "tierBucket": "decent",
+            "name": "Knitting Needle",
+            "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/jason/knittingneedle.png",
+            "otzComment": "Knitting Needle : Extends the time that a Survivor needs to remove the spike lodged into their body by 20%, bringing it to 6 seconds total. This can sometimes be completely redundant, but that extra second has some positive implications. Survivors removing the spike have a slight penalty to their movement speed. This can also extend the duration of the fake terror radius created by the purple Missing Corkscrew add-on. Remember that if someone refuses or forgets to remove their spike, you will see its aura which can be quite helpful.",
+            "description": "\"You won't believe what—and who—this thing has been through.\" Increases the time it takes for Survivors to remove an impaled Hook Spike from themselves by +20 %.",
+            "localMatch": {
+              "addonId": "f7b2ed90-b01e-4943-be91-5422146594e1",
+              "internalId": "Addon_K43_03",
+              "localName": "Knitting Needle",
+              "localImage": "dbd_images/addons/iconaddon_knittingneedle.png",
+              "localRarity": "common",
+              "method": "name"
+            }
+          },
+          {
+            "rank": 13,
+            "tierBucket": "almost-no-effect",
+            "name": "Iridescent Boat Motor",
+            "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/jason/iridescentboatmotor.png",
+            "otzComment": "Iridescent Boat Motor : Enables the ability to block windows briefly if you pass through them right before reappearing from Omnipresent Evil. If you do it quickly, this can be a somewhat effective way to block vaults such as the shack's window to reduce the options that Survivors have and force them to try their luck with pallets instead. Sounds powerful, but sometimes it's best to simply reappear as quickly as possible instead of wasting time setting up the effect of this add-on, since Survivors could use this time to create distance away from you. You can theoretically block multiple windows and make a small area very unsafe if Survivors are somehow trapped in it, but in practice you'll realize that this effect is very rarely necessary.",
+            "description": "\"The blades are chipped and cracked, as if having cut through something solid.\" Passing through Windows while in Omnipresent Evil marks them for 13 seconds. Performing a Jump Scare blocks all marked Windows for 13 seconds",
+            "localMatch": {
+              "addonId": "ec87ea6c-d5a3-4e3f-9450-096b6f57cc15",
+              "internalId": "Addon_K43_20",
+              "localName": "Iridescent Boat Motor",
+              "localImage": "dbd_images/addons/iconaddon_iridescentboatmotor.png",
+              "localRarity": "visceral",
+              "method": "name"
+            }
+          },
+          {
+            "rank": 14,
+            "tierBucket": "almost-no-effect",
+            "name": "Burnt Fuse",
+            "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/jason/burntfuse.png",
+            "otzComment": "Burnt Fuse : An endgame add-on that allows you to trap one or multiple Survivors by the exit gate. Can result in some extra kills if you use it well. You could pair it with the brown Knitting Needle if you want to delay the removal of the spike for even longer. It's a really fun effect but not one that will help you outside of some very specific endgame scenario.",
+            "description": "\"The surge of electricity was overwhelming. It left the man's flesh charred and smelling of cooked meat.\" When a Survivor is impaled by a Hook Spike, the Exit Gates are blocked for them and any Survivor within 13 metres. This effect persists for 5 seconds after the Survivor is no longer imapled.",
+            "localMatch": {
+              "addonId": "2025ff6e-2bd7-4c93-8e37-8293aad46722",
+              "internalId": "Addon_K43_16",
+              "localName": "Burnt Fuse",
+              "localImage": "dbd_images/addons/iconaddon_burntfuse.png",
+              "localRarity": "veryrare",
+              "method": "name"
+            }
+          },
+          {
+            "rank": 15,
+            "tierBucket": "almost-no-effect",
+            "name": "Orderly's Shoe",
+            "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/jason/orderlysshoe.png",
+            "otzComment": "Orderly's Shoe : The haste that you get from using your power is great but it does not benefit that much from a tiny extra 5 seconds. Keep in mind that by default, you already have 25 seconds to use it. Either way it's not a terrible effect and a perfectly safe choice for beginners that might not be able to end a chase quickly enough.",
+            "description": "\"It hung from her twitching foot as the knife plunged into her belly.\" Increases the duration of the Haste Status Effect after a Jump Scare by +5 seconds.",
+            "localMatch": {
+              "addonId": "ebbff0b7-432b-4d8a-8e76-d44f39e27ae1",
+              "internalId": "Addon_K43_04",
+              "localName": "Orderly's Shoe",
+              "localImage": "dbd_images/addons/iconaddon_orderlysshoe.png",
+              "localRarity": "common",
+              "method": "name"
+            }
+          },
+          {
+            "rank": 16,
+            "tierBucket": "almost-no-effect",
+            "name": "Mirror Shards",
+            "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/jason/mirrorshards.png",
+            "otzComment": "Mirror Shards : Inflicts Survivors with a 30 second Broken status effect after they remove their spike, making them unable to heal normally and possibly keeping them injured for a bit longer than they'd like. This effect isn't really that powerful, especially if you're focusing on chasing Survivors one at a time. Delaying their healing can occasionally be useful, but it rarely feels worthy of an add-on slot.",
+            "description": "\"A weapon that dealt more than bad luck.\" Survivors are inflicted with Broken Status Effect after extracting a Hook Spike from themselves for 30 seconds.",
+            "localMatch": {
+              "addonId": "4d331709-57f6-40c4-9f37-f48ca9ad3d31",
+              "internalId": "Addon_K43_11",
+              "localName": "Mirror Shards",
+              "localImage": "dbd_images/addons/iconaddon_mirrorshards.png",
+              "localRarity": "rare",
+              "method": "name"
+            }
+          },
+          {
+            "rank": 17,
+            "tierBucket": "almost-no-effect",
+            "name": "Bent Wheel",
+            "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/jason/bentwheel.png",
+            "otzComment": "Bent Wheel : Increases the distance from which you can select a spot to reappear from Omnipresent Evil. This might save you a fraction of a second if you're trying to teleport to a specific point as quickly as possible. It might also allow you to actually teleport outside of basement towards a point that would otherwise be slightly out of reach. A safe choice considering its rarity, but the effect is not extremely noticeable for most players.",
+            "description": "\"All that remained of the victim's wheelchair after the fatal blow.\" Increases the Jump Scare targetting range by +4 metres.",
+            "localMatch": {
+              "addonId": "4a412e16-5bdf-49f5-bf86-6fddeb332102",
+              "internalId": "Addon_K43_02",
+              "localName": "Bent Wheel",
+              "localImage": "dbd_images/addons/iconaddon_bentwheel.png",
+              "localRarity": "common",
+              "method": "name"
+            }
+          },
+          {
+            "rank": 18,
+            "tierBucket": "almost-no-effect",
+            "name": "Toxic Waste",
+            "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/jason/toxicwaste.png",
+            "otzComment": "Toxic Waste : Makes Survivors Oblivious for 13 seconds if they're close to a hook when you exit Omnipresent Evil. This effect happens somewhat randomly and is very short (which means that Survivors will likely be on high alert during it). Not particularly useful on its own unless you play in an indoor map. However, you could consider running it if your build has perks that work better outside of your terror radius such as Hex: Face the Darkness.",
+            "description": "\"No one could survive being submerged in this poison.\" After performing a Jump Scare, Survivors within 8 metres of a Hook or a Scrap Pile are inflicted with Oblivious Status Effect for 13 seconds.",
+            "localMatch": {
+              "addonId": "8d10797d-0b72-4a44-8a60-befd7ead1898",
+              "internalId": "Addon_K43_07",
+              "localName": "Toxic Waste",
+              "localImage": "dbd_images/addons/iconaddon_toxicwaste.png",
+              "localRarity": "uncommon",
+              "method": "name"
+            }
+          },
+          {
+            "rank": 19,
+            "tierBucket": "almost-no-effect",
+            "name": "Party Noisemaker",
+            "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/jason/partynoisemaker.png",
+            "otzComment": "Party Noisemaker : Reveals the aura of very distant Survivors if you exit Omnipresent Evil by breaking a downed pallet or breakable wall. This is a great way to find the 4th Survivor at the end of the game and can also be used if you're desperately looking for anyone at a time when Survivors are all hiding. In some maps with many breakable walls, you could also consider using it at the start of the game to find all Survivors quickly. Other than that, this add-on very rarely gives any real information during normal gameplay. Since using your Omnipresent Evil to trigger this power puts your mobility into a cooldown, the information that it gives is simply not that easy to act upon. If you want a better information-gathering add-on, try the Sleeping Bag instead.",
+            "description": "\"A party instument that tore through a woman's eyeball and gouged her brain.\" Breaking a Pallet or a Breakable Wall with Jump Scare reveals all Survivors further than 32 metres for 6 seconds.",
+            "localMatch": {
+              "addonId": "06dc31fe-5b20-4073-82f0-2ca4cf880738",
+              "internalId": "Addon_K43_08",
+              "localName": "Party Noisemaker",
+              "localImage": "dbd_images/addons/iconaddon_partynoisemaker.png",
+              "localRarity": "uncommon",
+              "method": "name"
+            }
+          },
+          {
+            "rank": 20,
+            "tierBucket": "almost-no-effect",
+            "name": "Garden Claw",
+            "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/jason/gardenclaw.png",
+            "otzComment": "Garden Claw : Much like other Killer Instinct duration-extending add-ons, this one is pretty useless. However, it might occasionally help you keep track of a Survivor if you detect multiple of them at once or if they were outside of your point of view when you initially detected them.",
+            "description": "\"Good for digging up weeds and digging into human flesh.\" Increases the duration of Killer Instinct after a Jump Scare by +2 seconds.",
+            "localMatch": {
+              "addonId": "843b08df-9fb3-4032-a6ce-0ae4664061e5",
+              "internalId": "Addon_K43_01",
+              "localName": "Garden Claw",
+              "localImage": "dbd_images/addons/iconaddon_gardenclaw.png",
+              "localRarity": "common",
+              "method": "name"
+            }
+          }
+        ],
+        "combos": [
+          {
+            "tier": "best",
+            "label": "Best Combo",
+            "addonRanks": [
+              1,
+              2
+            ],
+            "addons": [
+              {
+                "rank": 1,
+                "name": "Deputy's Badge",
+                "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/jason/deputysbadge.png",
+                "localMatch": {
+                  "addonId": "6891cbbc-1370-4ac9-875b-e150cc65be43",
+                  "internalId": "Addon_K43_18",
+                  "localName": "Deputy's Badge",
+                  "localImage": "dbd_images/addons/iconaddon_deputysbadge.png",
+                  "localRarity": "veryrare",
+                  "method": "name"
+                }
+              },
+              {
+                "rank": 2,
+                "name": "Sauna Rock",
+                "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/jason/saunarock.png",
+                "localMatch": {
+                  "addonId": "268cd66a-d661-469d-b38d-74985380accc",
+                  "internalId": "Addon_K43_10",
+                  "localName": "Sauna Rock",
+                  "localImage": "dbd_images/addons/iconaddon_saunarock.png",
+                  "localRarity": "rare",
+                  "method": "name"
+                }
+              }
+            ]
+          },
+          {
+            "tier": "solid",
+            "label": "Solid Combo",
+            "addonRanks": [
+              4,
+              5
+            ],
+            "addons": [
+              {
+                "rank": 4,
+                "name": "Eye Goop",
+                "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/jason/eyegoop.png",
+                "localMatch": {
+                  "addonId": "5887078b-5566-482d-af05-f1a14e475033",
+                  "internalId": "Addon_K43_14",
+                  "localName": "Eye Goop",
+                  "localImage": "dbd_images/addons/iconaddon_eyegoop.png",
+                  "localRarity": "rare",
+                  "method": "name"
+                }
+              },
+              {
+                "rank": 5,
+                "name": "Imprinted Aluminum",
+                "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/jason/imprintedaluminum.png",
+                "localMatch": {
+                  "addonId": "a55a4574-fabe-4559-89ee-05a2d952b60b",
+                  "internalId": "Addon_K43_12",
+                  "localName": "Imprinted Aluminum",
+                  "localImage": "dbd_images/addons/iconaddon_imprintedaluminum.png",
+                  "localRarity": "rare",
+                  "method": "name"
+                }
+              }
+            ]
+          },
+          {
+            "tier": "good",
+            "label": "Good Combo",
+            "addonRanks": [
+              3,
+              7
+            ],
+            "addons": [
+              {
+                "rank": 3,
+                "name": "Sleeping Bag",
+                "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/jason/sleepingbag.png",
+                "localMatch": {
+                  "addonId": "0dba8df8-5c71-4d82-b758-48eef0436448",
+                  "internalId": "Addon_K43_05",
+                  "localName": "Sleeping Bag",
+                  "localImage": "dbd_images/addons/iconaddon_sleepingbag.png",
+                  "localRarity": "uncommon",
+                  "method": "name"
+                }
+              },
+              {
+                "rank": 7,
+                "name": "Coroner's Coffee",
+                "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/jason/coronerscoffee.png",
+                "localMatch": {
+                  "addonId": "09ab4d5f-b9d4-4753-a068-171b8ff3e083",
+                  "internalId": "Addon_K43_09",
+                  "localName": "Coroner's Coffee",
+                  "localImage": "dbd_images/addons/iconaddon_coronerscoffee.png",
+                  "localRarity": "uncommon",
+                  "method": "name"
+                }
+              }
+            ]
+          },
+          {
+            "tier": "fun",
+            "label": "Fun Combo",
+            "addonRanks": [
+              12,
+              6
+            ],
+            "addons": [
+              {
+                "rank": 12,
+                "name": "Knitting Needle",
+                "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/jason/knittingneedle.png",
+                "localMatch": {
+                  "addonId": "f7b2ed90-b01e-4943-be91-5422146594e1",
+                  "internalId": "Addon_K43_03",
+                  "localName": "Knitting Needle",
+                  "localImage": "dbd_images/addons/iconaddon_knittingneedle.png",
+                  "localRarity": "common",
+                  "method": "name"
+                }
+              },
+              {
+                "rank": 6,
+                "name": "Missing Corkscrew",
+                "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/jason/missingcorkscrew.png",
+                "localMatch": {
+                  "addonId": "a6aa4665-20b2-4a05-b0b1-27269efd70db",
+                  "internalId": "Addon_K43_17",
+                  "localName": "Missing Corkscrew",
+                  "localImage": "dbd_images/addons/iconaddon_missingcorkscrew.png",
+                  "localRarity": "veryrare",
+                  "method": "name"
+                }
+              }
+            ]
+          }
+        ]
       }
     ],
     "stats": {
-      "killerCount": 42,
-      "addonCount": 840,
-      "comboCount": 168,
-      "matchedAddonCount": 840,
+      "killerCount": 43,
+      "addonCount": 860,
+      "comboCount": 172,
+      "matchedAddonCount": 860,
       "unmatchedAddonCount": 0,
       "unmatchedAddonSample": []
     }
@@ -21002,7 +21481,7 @@ var COMMUNITY_CONTENT = {
         "difficulty": "High Difficulty",
         "cost": "250 AC / 4,500 IS",
         "availableIn": "\"Macabre Tales\" DLC Pack",
-        "speed": "4.6 m/s (115%)",
+        "speed": "4.4 m/s (110%)",
         "terrorRadius": "40m",
         "stealth": "",
         "loudnessHealthy": "",
@@ -21123,7 +21602,7 @@ var COMMUNITY_CONTENT = {
         "role": "killer",
         "name": "The Animatronic",
         "iconUrl": "https://deadbydaylight.wiki.gg/images/0/02/K40_TheAnimatronic_Portrait.png",
-        "unlockPriority": 537,
+        "unlockPriority": 440,
         "licensed": true,
         "difficulty": "Intermediate Difficulty",
         "cost": "500 AC",
@@ -22041,6 +22520,48 @@ var COMMUNITY_CONTENT = {
             "iconUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/d/dd/IconPerks_eruption.png"
           }
         ]
+      },
+      {
+        "id": "f92cf23b-b7d0-48e9-b1b1-393ce52c82cf",
+        "role": "killer",
+        "name": "The Slasher",
+        "iconUrl": "https://deadbydaylight.wiki.gg/images/K43_TheSlasher_Portrait.png",
+        "unlockPriority": 537,
+        "licensed": true,
+        "difficulty": "Beginner Friendly",
+        "cost": "500 AC",
+        "availableIn": "\"Jason\" DLC",
+        "speed": "4.4 m/s (110%)",
+        "terrorRadius": "32m",
+        "stealth": "",
+        "loudnessHealthy": "",
+        "loudnessInjured": "",
+        "mostRecentGuideUrl": "",
+        "addOnBreakdownUrl": "https://otz-addon-tierlist.pages.dev",
+        "otzComment": "The Slasher is a fairly accessible ranged Killer that can throw spears from afar and use his Omnipresent Evil form to move around the map quickly before reemerging. These two powers provide a lot of small advantages, such as the ability to quickly mori Survivors that have been impaled.\n---\nThe Slasher is a slower than average Killer (4.4m/s speed) and as such he will be less effective than a regular Killer if you don't use his power at all. Luckily, his abilities are fairly simple to learn and provide ample opportunities to outplay Survivors in a wide variety of situations. Two of his perk revolve around pallets and have too much complex trigger conditions to be worth running. His final perk Silent Shadow, however, is a very decent stealth perk that works throughout the match and becomes permanent in the endgame.",
+        "perks": [
+          {
+            "id": "338dc9c2-8204-4095-9729-66c9be8aa158",
+            "name": "Hex: Scared to Death",
+            "belongsTo": "Killer",
+            "value": 222,
+            "iconUrl": "https://deadbydaylight.wiki.gg/images/T_UI_iconsPerks_ScaredToDeath.png"
+          },
+          {
+            "id": "1e6f2e3d-bfee-4945-8c69-7e74a96a05cb",
+            "name": "Rampage",
+            "belongsTo": "Killer",
+            "value": 222,
+            "iconUrl": "https://deadbydaylight.wiki.gg/images/T_UI_iconsPerks_Rampage.png"
+          },
+          {
+            "id": "18c9cbbf-75ab-478c-87f5-292bb21c6e47",
+            "name": "Silent Shadow",
+            "belongsTo": "Killer",
+            "value": 555,
+            "iconUrl": "https://deadbydaylight.wiki.gg/images/T_UI_iconsPerks_SilentShadow.png"
+          }
+        ]
       }
     ],
     "survivors": [
@@ -22595,7 +23116,7 @@ var COMMUNITY_CONTENT = {
         "role": "survivor",
         "name": "Jane Romero",
         "iconUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/8/80/S16_JaneRomero_Portrait.png",
-        "unlockPriority": 571,
+        "unlockPriority": 604,
         "licensed": null,
         "difficulty": "",
         "cost": "250 AC / 4,500 IS",
@@ -23099,7 +23620,7 @@ var COMMUNITY_CONTENT = {
         "role": "survivor",
         "name": "Sable Ward",
         "iconUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/9/9c/S41_SableWard_Portrait.png",
-        "unlockPriority": 600,
+        "unlockPriority": 571,
         "licensed": null,
         "difficulty": "",
         "cost": "500 AC / 9,000 IS",
@@ -23111,7 +23632,7 @@ var COMMUNITY_CONTENT = {
         "loudnessInjured": "Medium",
         "mostRecentGuideUrl": "",
         "addOnBreakdownUrl": "",
-        "otzComment": "Sable is a decent pick for beginners as long as they understand the risk of playing around the basement (and are able to consistently find it). Being able to heal yourself is a huge deal (Strength in Shadows) and you will almost always benefit from seeing the Killer's aura and being able to escape a basement hook (Wicked).",
+        "otzComment": "Sable is a decent pick for beginners as long as they understand the risk of playing around the basement (and are able to consistently find it). Being able to heal yourself is a huge deal (Strength in Shadows) and you will almost always benefit from seeing the Killer's aura and being able to escape a basement hook (Wicked). Stay away from her invocation perk unless you know what you're doing.",
         "perks": [
           {
             "id": "e607f1cd-a46e-48f7-b332-ea77191b83d5",
@@ -23977,6 +24498,48 @@ var COMMUNITY_CONTENT = {
         ]
       },
       {
+        "id": "e4d15a99-b141-4a41-b6d6-99c929ee4a17",
+        "role": "survivor",
+        "name": "Shane Wiigwaas",
+        "iconUrl": "https://deadbydaylight.wiki.gg/images/S53_ShaneWiigwaas_Portrait.png",
+        "unlockPriority": 600,
+        "licensed": null,
+        "difficulty": "",
+        "cost": "500 AC / 9,000 IS",
+        "availableIn": "\"The Life Road\" DLC",
+        "speed": "",
+        "terrorRadius": "",
+        "stealth": "Medium",
+        "loudnessHealthy": "Medium",
+        "loudnessInjured": "Medium",
+        "mostRecentGuideUrl": "",
+        "addOnBreakdownUrl": "",
+        "otzComment": "Shane is a very decent pick for players of any level due to the general usefulness of his perks. Cross-Examination allows you to gain bursts of the Elusive status effect you walk behind a Killer's trail. Lend a Hand permanently reduces a team mate's healing progress, making all healing faster which is very useful in prolonged matches. Wide Open Throttle allows you to reset a pallet quickly if you're willing to deal with the risks.",
+        "perks": [
+          {
+            "id": "c2f678bf-f94c-4b78-8e87-c24d0cc03c65",
+            "name": "Cross-Examination",
+            "belongsTo": "Survivor",
+            "value": 444,
+            "iconUrl": "https://deadbydaylight.wiki.gg/images/T_UI_iconsPerks_CrossExamination.png"
+          },
+          {
+            "id": "e9b7a834-325b-4dca-85f0-83a3443309e3",
+            "name": "Lend a Hand",
+            "belongsTo": "Survivor",
+            "value": 555,
+            "iconUrl": "https://deadbydaylight.wiki.gg/images/T_UI_iconsPerks_LendaHand.png"
+          },
+          {
+            "id": "4a2f4b15-2ad1-4642-b839-1937915fd95a",
+            "name": "Wide Open Throttle",
+            "belongsTo": "Survivor",
+            "value": 555,
+            "iconUrl": "https://deadbydaylight.wiki.gg/images/T_UI_iconsPerks_WideOpenThrottle.png"
+          }
+        ]
+      },
+      {
         "id": "e5234114-cceb-4a89-80bb-4a34b89d7979",
         "role": "survivor",
         "name": "Élodie Rakoto",
@@ -24399,6 +24962,13 @@ var COMMUNITY_CONTENT = {
         "iconUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/4/4c/IconPerks_friendlyCompetition.png"
       },
       {
+        "id": "18c9cbbf-75ab-478c-87f5-292bb21c6e47",
+        "name": "Silent Shadow",
+        "belongsTo": "Killer",
+        "value": 555,
+        "iconUrl": "https://deadbydaylight.wiki.gg/images/T_UI_iconsPerks_SilentShadow.png"
+      },
+      {
         "id": "19b49694-867d-440a-85a4-3466c2cfe3ec",
         "name": "Dragon's Grip",
         "belongsTo": "Killer",
@@ -24446,6 +25016,13 @@ var COMMUNITY_CONTENT = {
         "belongsTo": "Killer",
         "value": 950,
         "iconUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/a/af/IconPerks_hexNoOneEscapesDeath.png"
+      },
+      {
+        "id": "1e6f2e3d-bfee-4945-8c69-7e74a96a05cb",
+        "name": "Rampage",
+        "belongsTo": "Killer",
+        "value": 222,
+        "iconUrl": "https://deadbydaylight.wiki.gg/images/T_UI_iconsPerks_Rampage.png"
       },
       {
         "id": "204ec308-e342-414d-840a-01069bd5ceae",
@@ -24651,6 +25228,13 @@ var COMMUNITY_CONTENT = {
         "iconUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/b/bb/IconPerks_whispers.png"
       },
       {
+        "id": "338dc9c2-8204-4095-9729-66c9be8aa158",
+        "name": "Hex: Scared to Death",
+        "belongsTo": "Killer",
+        "value": 222,
+        "iconUrl": "https://deadbydaylight.wiki.gg/images/T_UI_iconsPerks_ScaredToDeath.png"
+      },
+      {
         "id": "34c7704b-74e5-46bb-814c-4e1a2b8eb773",
         "name": "Mad Grit",
         "belongsTo": "Killer",
@@ -24810,6 +25394,13 @@ var COMMUNITY_CONTENT = {
         "belongsTo": "Killer",
         "value": 777,
         "iconUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/f/fe/IconPerks_hexUndying.png"
+      },
+      {
+        "id": "4a2f4b15-2ad1-4642-b839-1937915fd95a",
+        "name": "Wide Open Throttle",
+        "belongsTo": "Survivor",
+        "value": 555,
+        "iconUrl": "https://deadbydaylight.wiki.gg/images/T_UI_iconsPerks_WideOpenThrottle.png"
       },
       {
         "id": "4b095c14-3de6-48fa-a5aa-2a96b101303b",
@@ -25757,6 +26348,13 @@ var COMMUNITY_CONTENT = {
         "iconUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/0/01/IconPerks_machineLearning.png"
       },
       {
+        "id": "c2f678bf-f94c-4b78-8e87-c24d0cc03c65",
+        "name": "Cross-Examination",
+        "belongsTo": "Survivor",
+        "value": 444,
+        "iconUrl": "https://deadbydaylight.wiki.gg/images/T_UI_iconsPerks_CrossExamination.png"
+      },
+      {
         "id": "c3898c46-ba29-446f-a756-c1830b483b14",
         "name": "Bamboozle",
         "belongsTo": "Killer",
@@ -26170,6 +26768,13 @@ var COMMUNITY_CONTENT = {
         "iconUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/9/9e/IconPerks_solidarity.png"
       },
       {
+        "id": "e9b7a834-325b-4dca-85f0-83a3443309e3",
+        "name": "Lend a Hand",
+        "belongsTo": "Survivor",
+        "value": 555,
+        "iconUrl": "https://deadbydaylight.wiki.gg/images/T_UI_iconsPerks_LendaHand.png"
+      },
+      {
         "id": "ed0c292a-d647-4258-85ee-c83bd1c022d2",
         "name": "Awakened Awareness",
         "belongsTo": "Killer",
@@ -26367,9 +26972,9 @@ var COMMUNITY_CONTENT = {
       }
     ],
     "stats": {
-      "killerCount": 42,
-      "survivorCount": 52,
-      "perkCount": 305,
+      "killerCount": 43,
+      "survivorCount": 53,
+      "perkCount": 311,
       "killerPriorityRange": {
         "min": 1,
         "max": 999
@@ -26553,7 +27158,7 @@ var COMMUNITY_CONTENT = {
   },
   "guideVault": {
     "title": "Killer-specific Tips & Guides",
-    "description": "TIPS FOR ALL KILLERS\nPart 1 (Trapper to Blight)\nPart 2 (Twins to Krasue)\nTRAPPER\nOtz’s Quick Killer Guide\nWRAITH\n-\nHILLBILLY\nGuide by UncleStanBana\nGuide by Hens\nGuide by MrSleepyHead32\nNURSE\nGuide by SupaAlf\nHUNTRESS\nGuide by ScottJund\nSHAPE\n-\nHAG\nGuide by Michi\nDOCTOR\nShock Guide by Drey\nCANNIBAL\nGuide by Mathiiis\nImportant: In-depth Guide by Lucass & Ays\nNIGHTMARE\nGuide by Kuhssir\nPIG\nGuide by Scorpionz\nImportant: When to save traps\nCLOWN\nGuide by Arinad\nSPIRIT\nGuide by Remylea\nGuide by Rayoxium\nLEGION\nGuide by Tatariu\nPLAGUE\nOtz’s Quick Killer Guide\nGHOSTFACE\nGuide by King Pin\nGuide by Kotzwurst\nGuide by mousemallow\nImportant: Stalking Spots\nDEMOGORGON\nGuide by Bronx\nGuide by Monsterkill\nGuide by Pyrus\nONI\nGuide by Jugglet\nGuide by SkrightGames\nGuide by ScottJund\nDEATHSLINGER\nGuide by G. Chill Cast\nGuide by Akeeno\nEXECUTIONER\nGuide by Ohmals\nsplit\nBLIGHT\nGuide by LilithOmen\nGuide by ScottJund\nTWINS\nGuide by Pixel Bush\nTRICKSTER\n-\nNEMESIS\nGuide by horceror\nCENOBITE\nGuide by FieldAgentReaper\nGuide by Lino\nARTIST\nGuide by Carniveris\nGuide by Pixel Bush\nGuide (text) by Lichmere\nONRYO\nGuide by Turbo Ligma\nDREDGE\nGuide by kmd\nMASTERMIND\nGuide by W3skuh\nImportant: Rebound Tech\nImportant: Wesker Techs\nKNIGHT\nGuide by Choy\nGuide by Mate8\nSKULL MERCH.\n-\nSINGULARITY\nGuide by jera\nXENOMORPH\nGuide by TheMrHeadache\nGOOD GUY\n-\nUNKNOWN\nGuide by HonestPanda Tips by u/Rehltar\nLICH\nGuide by RefinedKillz\nDARK LORD\nGuide by Bleak\nHOUNDMASTER\n-\nGHOUL\n-\nSPRINGTRAP\nGuide by TabaFaba\nKRASUE\nGuide by Szon77\nFIRST\n-",
+    "description": "TIPS FOR ALL KILLERS\nPart 1 (Trapper to Blight)\nPart 2 (Twins to Krasue)\nTRAPPER\nOtz’s Quick Killer Guide\nWRAITH\n-\nHILLBILLY\nGuide by UncleStanBana\nGuide by Hens\nGuide by MrSleepyHead32\nNURSE\nGuide by SupaAlf\nHUNTRESS\nGuide by ScottJund\nSHAPE\nGuide by chunkykong89\nHAG\nGuide by Michi\nDOCTOR\nShock Guide by Drey\nCANNIBAL\nGuide by Mathiiis\nImportant: In-depth Guide by Lucass & Ays\nNIGHTMARE\nGuide by Kuhssir\nPIG\nGuide by Scorpionz\nImportant: When to save traps\nCLOWN\nGuide by Arinad\nSPIRIT\nGuide by Remylea\nGuide by Rayoxium\nLEGION\nGuide by Tatariu\nPLAGUE\nOtz’s Quick Killer Guide\nGHOSTFACE\nGuide by King Pin\nGuide by Kotzwurst\nGuide by mousemallow\nImportant: Stalking Spots\nDEMOGORGON\nGuide by Bronx\nGuide by Monsterkill\nGuide by Pyrus\nONI\nGuide by Jugglet\nGuide by SkrightGames\nGuide by ScottJund\nDEATHSLINGER\nGuide by ShinyCatMae\nGuide by G. Chill Cast\nGuide by Akeeno\nEXECUTIONER\nGuide by Ohmals\nsplit\nBLIGHT\nGuide by LilithOmen\nGuide by ScottJund\nTWINS\nGuide by Pixel Bush\nTRICKSTER\n-\nNEMESIS\nGuide by horceror\nCENOBITE\nGuide by FieldAgentReaper\nGuide by Lino\nARTIST\nGuide by FreshPearspective\nGuide by Carniveris\nGuide by Pixel Bush\nGuide (text) by Lichmere\nONRYO\nGuide by Turbo Ligma\nDREDGE\nGuide by kmd\nImportant: Remnant video guide by kmd\nMASTERMIND\nGuide by W3skuh\nImportant: Rebound Tech\nImportant: Wesker Techs\nKNIGHT\nGuide by Choy\nGuide by Mate8\nSKULL MERCH.\n-\nSINGULARITY\nGuide by jera\nXENOMORPH\nGuide by TheMrHeadache\nGOOD GUY\n-\nUNKNOWN\nGuide by HonestPanda Tips by u/Rehltar\nLICH\nGuide by RefinedKillz\nDARK LORD\nGuide by Bleak\nHOUNDMASTER\n-\nGHOUL\n-\nSPRINGTRAP\nGuide by TabaFaba\nKRASUE\nGuide by BlueDream47\nGuide by Szon77\nFIRST\n-",
     "entries": [
       {
         "id": "pt-2-1-part-1-1",
@@ -26620,7 +27225,15 @@ var COMMUNITY_CONTENT = {
         "sourceType": "video"
       },
       {
-        "id": "pt-23-1-guide-by-michi-9",
+        "id": "pt-20-1-guide-by-chunkykong89-9",
+        "label": "Guide by chunkykong89",
+        "context": "Guide by chunkykong89",
+        "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3712449059",
+        "host": "steamcommunity.com",
+        "sourceType": "community"
+      },
+      {
+        "id": "pt-23-1-guide-by-michi-10",
         "label": "Guide by Michi",
         "context": "Guide by Michi",
         "url": "https://youtu.be/AX5AGQiNKg0",
@@ -26628,7 +27241,7 @@ var COMMUNITY_CONTENT = {
         "sourceType": "video"
       },
       {
-        "id": "pt-26-1-shock-guide-by-drey-10",
+        "id": "pt-26-1-shock-guide-by-drey-11",
         "label": "Shock Guide by Drey",
         "context": "Shock Guide by Drey",
         "url": "https://www.youtube.com/watch?v=v9nuFCWBD_o",
@@ -26636,7 +27249,7 @@ var COMMUNITY_CONTENT = {
         "sourceType": "video"
       },
       {
-        "id": "pt-29-1-guide-by-mathiiis-11",
+        "id": "pt-29-1-guide-by-mathiiis-12",
         "label": "Guide by Mathiiis",
         "context": "Guide by Mathiiis",
         "url": "https://youtu.be/qgjvKM9QlHM",
@@ -26644,7 +27257,7 @@ var COMMUNITY_CONTENT = {
         "sourceType": "video"
       },
       {
-        "id": "pt-30-1-important-in-depth-guide-12",
+        "id": "pt-30-1-important-in-depth-guide-13",
         "label": "Important: In-depth Guide",
         "context": "Important: In-depth Guide by Lucass & Ays",
         "url": "https://docs.google.com/document/d/1rpadxYbdjf7MDsu0Ug-Ogkuejj6HwQ04D8-cgB9pcWw/edit",
@@ -26652,7 +27265,7 @@ var COMMUNITY_CONTENT = {
         "sourceType": "document"
       },
       {
-        "id": "pt-32-1-guide-by-kuhssir-13",
+        "id": "pt-32-1-guide-by-kuhssir-14",
         "label": "Guide by Kuhssir",
         "context": "Guide by Kuhssir",
         "url": "https://docs.google.com/document/d/1kY9wbd0MSZ6c5y7mXsT_Xw5BbLRJXbWCE12n0YbOigA/edit?usp=sharing",
@@ -26660,7 +27273,7 @@ var COMMUNITY_CONTENT = {
         "sourceType": "document"
       },
       {
-        "id": "pt-34-1-guide-by-scorpionz-14",
+        "id": "pt-34-1-guide-by-scorpionz-15",
         "label": "Guide by Scorpionz",
         "context": "Guide by Scorpionz",
         "url": "https://youtu.be/-ZLb3wbc-EQ",
@@ -26668,7 +27281,7 @@ var COMMUNITY_CONTENT = {
         "sourceType": "video"
       },
       {
-        "id": "pt-35-1-important-when-to-save-traps-15",
+        "id": "pt-35-1-important-when-to-save-traps-16",
         "label": "Important: When to save traps",
         "context": "Important: When to save traps",
         "url": "https://youtu.be/6Q0siJ1P3Vs",
@@ -26676,7 +27289,7 @@ var COMMUNITY_CONTENT = {
         "sourceType": "video"
       },
       {
-        "id": "pt-38-1-guide-by-arinad-16",
+        "id": "pt-38-1-guide-by-arinad-17",
         "label": "Guide by Arinad",
         "context": "Guide by Arinad",
         "url": "https://docs.google.com/document/d/1umXUJy-If1bzdN-Mw3LIr12YYzVFkRv10R-6akE1v5o/edit?tab=t.0",
@@ -26684,7 +27297,7 @@ var COMMUNITY_CONTENT = {
         "sourceType": "document"
       },
       {
-        "id": "pt-40-1-guide-by-remylea-17",
+        "id": "pt-40-1-guide-by-remylea-18",
         "label": "Guide by Remylea",
         "context": "Guide by Remylea",
         "url": "https://bit.ly/4iAiDHE",
@@ -26692,7 +27305,7 @@ var COMMUNITY_CONTENT = {
         "sourceType": "link"
       },
       {
-        "id": "pt-41-1-guide-by-rayoxium-18",
+        "id": "pt-41-1-guide-by-rayoxium-19",
         "label": "Guide by Rayoxium",
         "context": "Guide by Rayoxium",
         "url": "https://www.youtube.com/watch?v=FHEX92wqSgA",
@@ -26700,7 +27313,7 @@ var COMMUNITY_CONTENT = {
         "sourceType": "video"
       },
       {
-        "id": "pt-43-1-guide-by-tatariu-19",
+        "id": "pt-43-1-guide-by-tatariu-20",
         "label": "Guide by Tatariu",
         "context": "Guide by Tatariu",
         "url": "https://youtu.be/TapiizxKvyk?t=57",
@@ -26708,7 +27321,7 @@ var COMMUNITY_CONTENT = {
         "sourceType": "video"
       },
       {
-        "id": "pt-45-1-otz-s-quick-killer-guide-20",
+        "id": "pt-45-1-otz-s-quick-killer-guide-21",
         "label": "Otz’s Quick Killer Guide",
         "context": "Otz’s Quick Killer Guide",
         "url": "https://youtu.be/Bmx6Cb_4Gmc",
@@ -26716,7 +27329,7 @@ var COMMUNITY_CONTENT = {
         "sourceType": "video"
       },
       {
-        "id": "pt-47-1-guide-by-king-pin-21",
+        "id": "pt-47-1-guide-by-king-pin-22",
         "label": "Guide by King Pin",
         "context": "Guide by King Pin",
         "url": "https://youtu.be/LIrc4Tn5KHU",
@@ -26724,7 +27337,7 @@ var COMMUNITY_CONTENT = {
         "sourceType": "video"
       },
       {
-        "id": "pt-48-1-guide-by-kotzwurst-22",
+        "id": "pt-48-1-guide-by-kotzwurst-23",
         "label": "Guide by Kotzwurst",
         "context": "Guide by Kotzwurst",
         "url": "https://www.youtube.com/watch?v=InIcMrbeqys",
@@ -26732,7 +27345,7 @@ var COMMUNITY_CONTENT = {
         "sourceType": "video"
       },
       {
-        "id": "pt-49-1-guide-by-mousemallow-23",
+        "id": "pt-49-1-guide-by-mousemallow-24",
         "label": "Guide by mousemallow",
         "context": "Guide by mousemallow",
         "url": "https://youtu.be/p3XnXqadwVI?si=5YoiN86OI99Pb_PN",
@@ -26740,7 +27353,7 @@ var COMMUNITY_CONTENT = {
         "sourceType": "video"
       },
       {
-        "id": "pt-50-1-important-stalking-spots-24",
+        "id": "pt-50-1-important-stalking-spots-25",
         "label": "Important: Stalking Spots",
         "context": "Important: Stalking Spots",
         "url": "https://imgur.com/a/Zmc6cTB",
@@ -26748,7 +27361,7 @@ var COMMUNITY_CONTENT = {
         "sourceType": "image"
       },
       {
-        "id": "pt-53-1-guide-by-bronx-25",
+        "id": "pt-53-1-guide-by-bronx-26",
         "label": "Guide by Bronx",
         "context": "Guide by Bronx",
         "url": "https://www.youtube.com/watch?v=8RfEmtu9hIU",
@@ -26756,7 +27369,7 @@ var COMMUNITY_CONTENT = {
         "sourceType": "video"
       },
       {
-        "id": "pt-54-1-guide-by-monsterkill-26",
+        "id": "pt-54-1-guide-by-monsterkill-27",
         "label": "Guide by Monsterkill",
         "context": "Guide by Monsterkill",
         "url": "https://youtu.be/fAf6Edlss4s?si=pPajs-PR3evlLUzv",
@@ -26764,7 +27377,7 @@ var COMMUNITY_CONTENT = {
         "sourceType": "video"
       },
       {
-        "id": "pt-55-1-guide-by-pyrus-27",
+        "id": "pt-55-1-guide-by-pyrus-28",
         "label": "Guide by Pyrus",
         "context": "Guide by Pyrus",
         "url": "https://youtu.be/-WoemxN7B18",
@@ -26772,7 +27385,7 @@ var COMMUNITY_CONTENT = {
         "sourceType": "video"
       },
       {
-        "id": "pt-58-1-guide-by-jugglet-28",
+        "id": "pt-58-1-guide-by-jugglet-29",
         "label": "Guide by Jugglet",
         "context": "Guide by Jugglet",
         "url": "https://youtu.be/5FTHQnFWeSE",
@@ -26780,7 +27393,7 @@ var COMMUNITY_CONTENT = {
         "sourceType": "video"
       },
       {
-        "id": "pt-59-1-guide-by-skrightgames-29",
+        "id": "pt-59-1-guide-by-skrightgames-30",
         "label": "Guide by SkrightGames",
         "context": "Guide by SkrightGames",
         "url": "https://www.youtube.com/watch?v=EOQdmN_ScVo",
@@ -26788,7 +27401,7 @@ var COMMUNITY_CONTENT = {
         "sourceType": "video"
       },
       {
-        "id": "pt-60-1-guide-by-scottjund-30",
+        "id": "pt-60-1-guide-by-scottjund-31",
         "label": "Guide by ScottJund",
         "context": "Guide by ScottJund",
         "url": "https://youtu.be/KfvciT6nnB8",
@@ -26796,7 +27409,15 @@ var COMMUNITY_CONTENT = {
         "sourceType": "video"
       },
       {
-        "id": "pt-63-1-guide-by-g-chill-cast-31",
+        "id": "pt-63-1-guide-by-shinycatmae-32",
+        "label": "Guide by ShinyCatMae",
+        "context": "Guide by ShinyCatMae",
+        "url": "https://www.youtube.com/watch?v=mrLrVNDli5E",
+        "host": "youtube.com",
+        "sourceType": "video"
+      },
+      {
+        "id": "pt-64-1-guide-by-g-chill-cast-33",
         "label": "Guide by G. Chill Cast",
         "context": "Guide by G. Chill Cast",
         "url": "https://youtu.be/WX_3Yowf53c",
@@ -26804,7 +27425,7 @@ var COMMUNITY_CONTENT = {
         "sourceType": "video"
       },
       {
-        "id": "pt-64-1-guide-by-akeeno-32",
+        "id": "pt-65-1-guide-by-akeeno-34",
         "label": "Guide by Akeeno",
         "context": "Guide by Akeeno",
         "url": "https://www.youtube.com/watch?v=EmTdNE5OlRk",
@@ -26812,7 +27433,7 @@ var COMMUNITY_CONTENT = {
         "sourceType": "video"
       },
       {
-        "id": "pt-67-1-guide-by-ohmals-33",
+        "id": "pt-68-1-guide-by-ohmals-35",
         "label": "Guide by Ohmals",
         "context": "Guide by Ohmals",
         "url": "https://www.youtube.com/watch?v=4i-OW9lT9yE",
@@ -26820,7 +27441,7 @@ var COMMUNITY_CONTENT = {
         "sourceType": "video"
       },
       {
-        "id": "pt-71-1-guide-by-lilithomen-34",
+        "id": "pt-72-1-guide-by-lilithomen-36",
         "label": "Guide by LilithOmen",
         "context": "Guide by LilithOmen",
         "url": "https://youtu.be/9sp_0PCdSOo",
@@ -26828,7 +27449,7 @@ var COMMUNITY_CONTENT = {
         "sourceType": "video"
       },
       {
-        "id": "pt-72-1-guide-by-scottjund-35",
+        "id": "pt-73-1-guide-by-scottjund-37",
         "label": "Guide by ScottJund",
         "context": "Guide by ScottJund",
         "url": "https://youtu.be/vyuTmnd825A",
@@ -26836,7 +27457,7 @@ var COMMUNITY_CONTENT = {
         "sourceType": "video"
       },
       {
-        "id": "pt-75-1-guide-by-pixel-bush-36",
+        "id": "pt-76-1-guide-by-pixel-bush-38",
         "label": "Guide by Pixel Bush",
         "context": "Guide by Pixel Bush",
         "url": "https://youtu.be/ZE3CuWn5LeU",
@@ -26844,7 +27465,7 @@ var COMMUNITY_CONTENT = {
         "sourceType": "video"
       },
       {
-        "id": "pt-81-1-guide-by-horceror-37",
+        "id": "pt-82-1-guide-by-horceror-39",
         "label": "Guide by horceror",
         "context": "Guide by horceror",
         "url": "https://youtu.be/-GxLEtbGPns?si=bx8ZQHcNG81wO74L",
@@ -26852,7 +27473,7 @@ var COMMUNITY_CONTENT = {
         "sourceType": "video"
       },
       {
-        "id": "pt-84-1-guide-by-fieldagentreaper-38",
+        "id": "pt-85-1-guide-by-fieldagentreaper-40",
         "label": "Guide by FieldAgentReaper",
         "context": "Guide by FieldAgentReaper",
         "url": "https://www.youtube.com/watch?v=dv4gC6PIRXM",
@@ -26860,7 +27481,7 @@ var COMMUNITY_CONTENT = {
         "sourceType": "video"
       },
       {
-        "id": "pt-85-1-guide-by-lino-39",
+        "id": "pt-86-1-guide-by-lino-41",
         "label": "Guide by Lino",
         "context": "Guide by Lino",
         "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3016471787",
@@ -26868,7 +27489,15 @@ var COMMUNITY_CONTENT = {
         "sourceType": "community"
       },
       {
-        "id": "pt-88-1-guide-by-carniveris-40",
+        "id": "pt-89-1-guide-by-freshpearspective-42",
+        "label": "Guide by FreshPearspective",
+        "context": "Guide by FreshPearspective",
+        "url": "https://docs.google.com/document/d/10aziFuVjxMJWsvLRExGQYzojmYeivEHkSBEwGiuXNEs/edit?tab=t.0#heading=h.6za27odvyn5j",
+        "host": "docs.google.com",
+        "sourceType": "document"
+      },
+      {
+        "id": "pt-90-1-guide-by-carniveris-43",
         "label": "Guide by Carniveris",
         "context": "Guide by Carniveris",
         "url": "https://youtu.be/u24RF10J-ao",
@@ -26876,7 +27505,7 @@ var COMMUNITY_CONTENT = {
         "sourceType": "video"
       },
       {
-        "id": "pt-89-1-guide-by-pixel-bush-41",
+        "id": "pt-91-1-guide-by-pixel-bush-44",
         "label": "Guide by Pixel Bush",
         "context": "Guide by Pixel Bush",
         "url": "https://youtu.be/UOsJavP70pc?t=129",
@@ -26884,7 +27513,7 @@ var COMMUNITY_CONTENT = {
         "sourceType": "video"
       },
       {
-        "id": "pt-90-1-guide-text-by-lichmere-42",
+        "id": "pt-92-1-guide-text-by-lichmere-45",
         "label": "Guide (text) by Lichmere",
         "context": "Guide (text) by Lichmere",
         "url": "https://docs.google.com/document/d/1RCzX3DxraaaonYxdp5ZnrKGyNah2q-Omq3rFE2iDxvc/edit",
@@ -26892,7 +27521,7 @@ var COMMUNITY_CONTENT = {
         "sourceType": "document"
       },
       {
-        "id": "pt-93-1-guide-by-turbo-ligma-43",
+        "id": "pt-95-1-guide-by-turbo-ligma-46",
         "label": "Guide by Turbo Ligma",
         "context": "Guide by Turbo Ligma",
         "url": "https://docs.google.com/document/d/1odRx2ge-ix5yZkb8yZuMeb3Ax3Vgm4StPYL_HtR0zRs/edit?usp=sharing",
@@ -26900,7 +27529,7 @@ var COMMUNITY_CONTENT = {
         "sourceType": "document"
       },
       {
-        "id": "pt-96-1-guide-by-kmd-44",
+        "id": "pt-98-1-guide-by-kmd-47",
         "label": "Guide by kmd",
         "context": "Guide by kmd",
         "url": "https://docs.google.com/document/d/1oVp9Rz-7Vi_252ufpAaTPFy-5YcvCkSi9l5rMZNJ82k/edit?usp=sharing",
@@ -26908,7 +27537,15 @@ var COMMUNITY_CONTENT = {
         "sourceType": "document"
       },
       {
-        "id": "pt-99-1-guide-by-w3skuh-45",
+        "id": "pt-99-1-important-remnant-video-guide-by-kmd-48",
+        "label": "Important: Remnant video guide by kmd",
+        "context": "Important: Remnant video guide by kmd",
+        "url": "https://youtu.be/EL91DbGEekE",
+        "host": "youtu.be",
+        "sourceType": "video"
+      },
+      {
+        "id": "pt-102-1-guide-by-w3skuh-49",
         "label": "Guide by W3skuh",
         "context": "Guide by W3skuh",
         "url": "https://www.youtube.com/watch?v=YH4OpnhGtIE",
@@ -26916,7 +27553,7 @@ var COMMUNITY_CONTENT = {
         "sourceType": "video"
       },
       {
-        "id": "pt-100-1-important-rebound-tech-46",
+        "id": "pt-103-1-important-rebound-tech-50",
         "label": "Important: Rebound Tech",
         "context": "Important: Rebound Tech",
         "url": "https://youtu.be/6_iP_fE7HPw",
@@ -26924,7 +27561,7 @@ var COMMUNITY_CONTENT = {
         "sourceType": "video"
       },
       {
-        "id": "pt-101-1-important-wesker-techs-47",
+        "id": "pt-104-1-important-wesker-techs-51",
         "label": "Important: Wesker Techs",
         "context": "Important: Wesker Techs",
         "url": "https://www.youtube.com/watch?v=yNZzG_mgSjg",
@@ -26932,7 +27569,7 @@ var COMMUNITY_CONTENT = {
         "sourceType": "video"
       },
       {
-        "id": "pt-104-1-guide-by-choy-48",
+        "id": "pt-107-1-guide-by-choy-52",
         "label": "Guide by Choy",
         "context": "Guide by Choy",
         "url": "https://www.youtube.com/watch?v=kS9LNIQLFeo",
@@ -26940,7 +27577,7 @@ var COMMUNITY_CONTENT = {
         "sourceType": "video"
       },
       {
-        "id": "pt-105-1-guide-by-mate8-49",
+        "id": "pt-108-1-guide-by-mate8-53",
         "label": "Guide by Mate8",
         "context": "Guide by Mate8",
         "url": "https://www.youtube.com/watch?v=xYrmThARPuo",
@@ -26948,7 +27585,7 @@ var COMMUNITY_CONTENT = {
         "sourceType": "video"
       },
       {
-        "id": "pt-111-1-guide-by-jera-50",
+        "id": "pt-114-1-guide-by-jera-54",
         "label": "Guide by jera",
         "context": "Guide by jera",
         "url": "https://youtu.be/zJkVPZMTj5w",
@@ -26956,7 +27593,7 @@ var COMMUNITY_CONTENT = {
         "sourceType": "video"
       },
       {
-        "id": "pt-114-1-guide-by-themrheadache-51",
+        "id": "pt-117-1-guide-by-themrheadache-55",
         "label": "Guide by TheMrHeadache",
         "context": "Guide by TheMrHeadache",
         "url": "https://docs.google.com/document/d/1-lG_Ow-OAE6kavsj-HEhh489_e-rIkrB4A43oHJL2wI/edit?usp=sharing",
@@ -26964,7 +27601,7 @@ var COMMUNITY_CONTENT = {
         "sourceType": "document"
       },
       {
-        "id": "pt-120-1-guide-by-honestpanda-52",
+        "id": "pt-123-1-guide-by-honestpanda-56",
         "label": "Guide by HonestPanda",
         "context": "Guide by HonestPanda Tips by u/Rehltar",
         "url": "https://youtu.be/Mr9crO-Y9-c",
@@ -26972,7 +27609,7 @@ var COMMUNITY_CONTENT = {
         "sourceType": "video"
       },
       {
-        "id": "pt-120-3-tips-by-u-rehltar-53",
+        "id": "pt-123-3-tips-by-u-rehltar-57",
         "label": "Tips by u/Rehltar",
         "context": "Guide by HonestPanda Tips by u/Rehltar",
         "url": "https://www.reddit.com/r/deadbydaylight/comments/1omizk7/unknown_guide_become_the_harmful_and_unlock_the/",
@@ -26980,7 +27617,7 @@ var COMMUNITY_CONTENT = {
         "sourceType": "community"
       },
       {
-        "id": "pt-123-1-guide-by-refinedkillz-54",
+        "id": "pt-126-1-guide-by-refinedkillz-58",
         "label": "Guide by RefinedKillz",
         "context": "Guide by RefinedKillz",
         "url": "https://youtu.be/SPSt0t5MoQE",
@@ -26988,7 +27625,7 @@ var COMMUNITY_CONTENT = {
         "sourceType": "video"
       },
       {
-        "id": "pt-126-1-guide-by-bleak-55",
+        "id": "pt-129-1-guide-by-bleak-59",
         "label": "Guide by Bleak",
         "context": "Guide by Bleak",
         "url": "https://www.youtube.com/watch?v=nVBuYlwbpFc",
@@ -26996,7 +27633,7 @@ var COMMUNITY_CONTENT = {
         "sourceType": "video"
       },
       {
-        "id": "pt-134-1-guide-by-tabafaba-56",
+        "id": "pt-137-1-guide-by-tabafaba-60",
         "label": "Guide by TabaFaba",
         "context": "Guide by TabaFaba",
         "url": "https://docs.google.com/document/d/1XcUusQV2QIsQowEAWRTZIaF-AUQxhKYNeRIZd4tT0EY/edit?tab=t.0#heading=h.mhplike4a81o",
@@ -27004,7 +27641,15 @@ var COMMUNITY_CONTENT = {
         "sourceType": "document"
       },
       {
-        "id": "pt-137-1-guide-by-szon77-57",
+        "id": "pt-140-1-guide-by-bluedream47-61",
+        "label": "Guide by BlueDream47",
+        "context": "Guide by BlueDream47",
+        "url": "https://docs.google.com/document/d/1Y6TUZvT56Sxgme8MgxKn8frnmcXm3RHe_kIQqOZnydc/edit?tab=t.0",
+        "host": "docs.google.com",
+        "sourceType": "document"
+      },
+      {
+        "id": "pt-141-1-guide-by-szon77-62",
         "label": "Guide by Szon77",
         "context": "Guide by Szon77",
         "url": "https://docs.google.com/document/d/1Covn0kPf4XJ-kRTJs4Jyd1SAXF0sM1iLdvc8vEsAovc/edit?usp=sharing",
@@ -27013,13 +27658,13 @@ var COMMUNITY_CONTENT = {
       }
     ],
     "stats": {
-      "linkCount": 57,
+      "linkCount": 62,
       "sourceTypeCounts": {
-        "video": 44,
-        "document": 9,
+        "video": 46,
+        "community": 3,
+        "document": 11,
         "link": 1,
-        "image": 1,
-        "community": 2
+        "image": 1
       }
     }
   }

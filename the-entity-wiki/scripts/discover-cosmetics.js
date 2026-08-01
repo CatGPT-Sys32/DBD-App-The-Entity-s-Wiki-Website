@@ -1,5 +1,11 @@
 #!/usr/bin/env node
 
+const { File } = require('buffer');
+
+if (typeof globalThis.File === 'undefined') {
+  globalThis.File = File;
+}
+
 const cheerio = require('cheerio');
 
 const {

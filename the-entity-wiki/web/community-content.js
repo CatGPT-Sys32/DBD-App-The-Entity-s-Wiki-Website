@@ -1,5 +1,5 @@
 var COMMUNITY_CONTENT = {
-  "generatedAt": "2026-09-06T06:46:46.556Z",
+  "generatedAt": "2026-09-06T10:41:25.577Z",
   "metadata": {
     "scraperVersion": 2,
     "attribution": "Data sourced from Otzdarva web properties. Keep attribution when redistributing.",
@@ -7,47 +7,47 @@ var COMMUNITY_CONTENT = {
       {
         "id": "home",
         "url": "https://otzdarva.com/",
-        "fetchedAt": "2026-09-06T06:46:46.556Z"
+        "fetchedAt": "2026-09-06T10:41:25.577Z"
       },
       {
         "id": "addonTierlist",
         "url": "https://otz-addon-tierlist.pages.dev/",
-        "fetchedAt": "2026-09-06T06:46:46.556Z"
+        "fetchedAt": "2026-09-06T10:41:25.577Z"
       },
       {
         "id": "buildsHome",
         "url": "https://otzdarva-builds.com/",
-        "fetchedAt": "2026-09-06T06:46:46.556Z"
+        "fetchedAt": "2026-09-06T10:41:25.577Z"
       },
       {
         "id": "buildsPanels",
         "url": "https://otzdarva-builds.com/assets/modules/XMLHttpRequest/returnCharacterPanels.php",
-        "fetchedAt": "2026-09-06T06:46:46.556Z"
+        "fetchedAt": "2026-09-06T10:41:25.577Z"
       },
       {
         "id": "buildsPerkDetails",
         "url": "https://otzdarva-builds.com/assets/modules/XMLHttpRequest/showPerkDetails.php",
-        "fetchedAt": "2026-09-06T06:46:46.556Z"
+        "fetchedAt": "2026-09-06T10:41:25.577Z"
       },
       {
         "id": "characterInfo",
         "url": "https://otzdarva.com/dbd/character-info",
-        "fetchedAt": "2026-09-06T06:46:46.556Z"
+        "fetchedAt": "2026-09-06T10:41:25.577Z"
       },
       {
         "id": "beginnerGuides",
         "url": "https://otzdarva.com/dbd/beginner-guides",
-        "fetchedAt": "2026-09-06T06:46:46.556Z"
+        "fetchedAt": "2026-09-06T10:41:25.577Z"
       },
       {
         "id": "tierlists",
         "url": "https://otzdarva.com/dbd/tierlists",
-        "fetchedAt": "2026-09-06T06:46:46.556Z"
+        "fetchedAt": "2026-09-06T10:41:25.577Z"
       },
       {
         "id": "killerGuides",
         "url": "https://otzdarva.com/dbd/killer-guides",
-        "fetchedAt": "2026-09-06T06:46:46.556Z"
+        "fetchedAt": "2026-09-06T10:41:25.577Z"
       }
     ],
     "stats": {

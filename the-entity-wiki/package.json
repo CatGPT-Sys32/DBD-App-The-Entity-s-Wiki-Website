@@ -16,7 +16,6 @@
     "sync:descriptions": "node scripts/sync-descriptions.js",
     "sync:catalog-updates": "node scripts/sync-catalog-updates.js",
     "sync:sources:health": "node scripts/sync-community-content.js --health-check && node scripts/sync-map-layouts.js --health-check && node scripts/sync-descriptions.js --health-check",
-    "sync:perk-descriptions": "python3 scripts/sync-perk-descriptions.py",
     "sync:all-updates": "node scripts/sync-all-updates.js",
     "sync:all-updates:fast": "node scripts/sync-all-updates.js --skip-assets",
     "sync:all-updates:full": "node scripts/sync-all-updates.js --include-assets",

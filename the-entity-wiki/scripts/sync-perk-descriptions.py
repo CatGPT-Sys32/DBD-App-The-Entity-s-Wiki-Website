@@ -1,4 +1,10 @@
 #!/usr/bin/env python3
+"""DEPRECATED (2026-09-06): retired in favor of scripts/sync-descriptions.js.
+
+The orchestrator (sync-all-updates.js) only ever ran the .js writer, and both
+writers target content/database.json + content/perk-description-report.json
+with different schemas. Kept on disk for reference only — do not run.
+"""
 
 import json
 import re

@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-06-18T03:07:05.937Z",
+  "generatedAt": "2026-09-06T11:09:44.772Z",
   "options": {
     "dryRun": false,
     "refresh": false,
-    "checkMode": false,
-    "upgradeLegacy": true
+    "checkMode": true,
+    "upgradeLegacy": false
   },
   "source": {
     "calloutsPage": "https://hens333.com/callouts",
@@ -18,7 +18,7 @@
     "missingMapLayoutKeyCount": 0,
     "missingSourceCount": 0,
     "downloadedCount": 0,
-    "reusedCount": 1,
+    "reusedCount": 0,
     "skippedCount": 0,
     "failedCount": 0,
     "upgradeCandidateCount": 1
@@ -30,14 +30,7 @@
   ],
   "suggestions": {
     "missingKeys": {},
-    "legacyUpgrades": {
-      "Midwich Elementary School": [
-        {
-          "path": "map_layouts_hens/midwich_elementary_school.gif",
-          "label": ""
-        }
-      ]
-    }
+    "legacyUpgrades": {}
   },
   "rows": [
     {
@@ -1087,10 +1080,10 @@
       ],
       "matchedSourceLabel": "Midwich Elementary School",
       "matchedSourcePath": "Other/Midwich.gif",
-      "matchedSourceUrl": "https://hens333.com/img/dbd/callouts/Other/Midwich.gif",
+      "matchedSourceUrl": "",
       "generatedRelPath": "map_layouts_hens/midwich_elementary_school.gif",
-      "targetRelPath": "map_layouts_hens/midwich_elementary_school.gif",
-      "status": "ready-upgrade-alias",
+      "targetRelPath": "map_layouts/midwichelementaryschooloutlinelowerfloor.png",
+      "status": "covered",
       "downloaded": false,
       "error": ""
     },

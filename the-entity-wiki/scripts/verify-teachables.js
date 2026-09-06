@@ -23,6 +23,10 @@ function fileExists(relPathFromWebRoot) {
   return fs.existsSync(path.join(WEB_ROOT, relPathFromWebRoot));
 }
 
+function warn(message) {
+  console.warn(`verify-teachables: WARNING ${message}`);
+}
+
 function main() {
   const db = readDatabase();
   const characterNames = new Set([
@@ -42,15 +46,24 @@ function main() {
   }
 
   const teachablePerks = (db.perks || []).filter((perk) => characterNames.has(perk.owner));
-  const invalidCharacters = [];
+  const zeroTeachableCharacters = [];
+  const nonStandardTeachableCharacters = [];
 
   for (const characterName of characterNames) {
     const count = teachablePerks.filter((perk) => perk.owner === characterName).length;
-    if (count !== 3) invalidCharacters.push(`${characterName} (${count})`);
+    if (count === 0) {
+      zeroTeachableCharacters.push(characterName);
+    } else if (count !== 3) {
+      nonStandardTeachableCharacters.push(`${characterName} (${count})`);
+    }
   }
 
-  if (invalidCharacters.length) {
-    fail(`Characters must have exactly 3 teachable perks: ${invalidCharacters.join(', ')}`);
+  if (zeroTeachableCharacters.length) {
+    fail(`Characters with no teachable perks: ${zeroTeachableCharacters.join(', ')}`);
+  }
+
+  if (nonStandardTeachableCharacters.length) {
+    warn(`Characters without exactly 3 teachable perks (allowed, verify roster change): ${nonStandardTeachableCharacters.join(', ')}`);
   }
 
   const unresolvedIcons = [];

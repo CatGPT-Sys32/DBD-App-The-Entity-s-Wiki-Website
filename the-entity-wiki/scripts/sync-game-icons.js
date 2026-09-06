@@ -7,7 +7,8 @@ const { spawnSync } = require('child_process');
 
 const ROOT = path.resolve(__dirname, '..');
 const ICON_ROOT = path.join(ROOT, 'web', 'dbd_images', 'game_icons');
-const API_URL = 'https://deadbydaylight.fandom.com/api.php';
+const API_URL = 'https://deadbydaylight.wiki.gg/api.php';
+const REQUEST_TIMEOUT_MS = 15000;
 
 const ICON_SOURCES = [
   { local: 'healthy.png', titles: ['IconHelp_healthy.png'] },
@@ -82,29 +83,51 @@ const ICON_SOURCES = [
   { local: 'activity_invocation.png', titles: ['T_survivorActivity_Invocation.png'] },
 ];
 
-function request(url) {
+function request(url, timeoutMs = REQUEST_TIMEOUT_MS) {
   return new Promise((resolve, reject) => {
-    https.get(url, {
-      headers: {
-        'User-Agent': 'Mozilla/5.0 (compatible; Codex sync-game-icons)',
-      },
-    }, (response) => {
-      if (response.statusCode >= 300 && response.statusCode < 400 && response.headers.location) {
-        resolve(request(response.headers.location));
-        response.resume();
-        return;
-      }
+    let settled = false;
+    const fail = (error) => {
+      if (settled) return;
+      settled = true;
+      reject(error);
+    };
+    const succeed = (value) => {
+      if (settled) return;
+      settled = true;
+      resolve(value);
+    };
+    let req;
+    try {
+      req = https.get(url, {
+        headers: {
+          'User-Agent': 'Mozilla/5.0 (compatible; Codex sync-game-icons)',
+        },
+      }, (response) => {
+        if (response.statusCode >= 300 && response.statusCode < 400 && response.headers.location) {
+          request(response.headers.location, timeoutMs).then(succeed, fail);
+          response.resume();
+          return;
+        }
 
-      if (response.statusCode !== 200) {
-        reject(new Error(`Request failed with status ${response.statusCode} for ${url}`));
-        response.resume();
-        return;
-      }
+        if (response.statusCode !== 200) {
+          response.resume();
+          fail(new Error(`Request failed with status ${response.statusCode} for ${url}`));
+          return;
+        }
 
-      const chunks = [];
-      response.on('data', (chunk) => chunks.push(chunk));
-      response.on('end', () => resolve(Buffer.concat(chunks)));
-    }).on('error', reject);
+        const chunks = [];
+        response.on('data', (chunk) => chunks.push(chunk));
+        response.on('end', () => succeed(Buffer.concat(chunks)));
+        response.on('error', fail);
+      });
+    } catch (error) {
+      fail(error);
+      return;
+    }
+    req.on('error', fail);
+    req.setTimeout(timeoutMs, () => {
+      req.destroy(new Error(`Request timed out after ${timeoutMs}ms for ${url}`));
+    });
   });
 }
 
@@ -180,12 +203,31 @@ async function resolveFromTitles(titles) {
 async function main() {
   fs.mkdirSync(ICON_ROOT, { recursive: true });
 
+  let synced = 0;
+  let skipped = 0;
+  const failures = [];
   for (const icon of ICON_SOURCES) {
-    const { imageUrl, title } = await resolveFromTitles(icon.titles);
-    const rawBuffer = await request(imageUrl);
-    const pngBuffer = normalizeToPng(rawBuffer);
-    fs.writeFileSync(path.join(ICON_ROOT, icon.local), pngBuffer);
-    console.log(`synced ${icon.local} <- ${title}${icon.note ? ` (${icon.note})` : ''}`);
+    const localPath = path.join(ICON_ROOT, icon.local);
+    try {
+      if (fs.existsSync(localPath) && fs.statSync(localPath).size > 100) {
+        skipped += 1;
+        continue;
+      }
+      const { imageUrl, title } = await resolveFromTitles(icon.titles);
+      const rawBuffer = await request(imageUrl);
+      const pngBuffer = normalizeToPng(rawBuffer);
+      fs.writeFileSync(localPath, pngBuffer);
+      synced += 1;
+      console.log(`synced ${icon.local} <- ${title}${icon.note ? ` (${icon.note})` : ''}`);
+    } catch (error) {
+      failures.push(`${icon.local}: ${error.message}`);
+    }
+  }
+
+  console.log(`sync-game-icons: synced=${synced} skipped=${skipped} failed=${failures.length}`);
+  if (failures.length > 0) {
+    for (const failure of failures) console.error(`sync-game-icons: FAILED ${failure}`);
+    process.exit(1);
   }
 }
 

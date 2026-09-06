@@ -13,7 +13,10 @@ android {
     namespace "com.theentity.wiki"
     compileSdkVersion rootProject.ext.compileSdkVersion
     defaultConfig {
-        applicationId "com.theentity.wiki"
+        // GUARD: this deploy repo must never publish under the real Play listing.
+        // The production applicationId lives in the Android repo (versionCode 46+).
+        // The suffix below makes any accidental upload from this repo reject as a different app.
+        applicationId "com.theentity.wiki.sitebuild"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 28

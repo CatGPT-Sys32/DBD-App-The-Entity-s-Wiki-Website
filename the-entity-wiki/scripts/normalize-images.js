@@ -359,6 +359,8 @@ const KILLER_POWER_ITEM_TO_KILLER = {
   Item_Slasher_K40Power: 'The Animatronic',
   Item_Slasher_K41Power: 'The Krasue',
   Item_Slasher_K42Power: 'The First',
+  Item_K43Power: 'The Slasher',
+  Item_K44Power: 'The Judgment',
   Item_Slasher_Kanobo: 'The Oni',
   Item_Slasher_Killer07Item: 'The Doctor',
   Item_Slasher_LFChainsaw: 'The Cannibal',

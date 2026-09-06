@@ -99,15 +99,15 @@ def register_identifier(identifier, name):
         ID_TO_NAME[int(str_id)] = name
 
 def clean_description(text):
-    """Convert HTML in perk text to readable plain text."""
+    """Convert HTML in perk text to readable plain text (mirrors the Node stripHtml cleaner)."""
     if not text:
         return ""
-    text = re.sub(r'<br\s*/?>', '\n', text, flags=re.IGNORECASE)
-    text = text.replace('<li>', '\n- ').replace('</li>', '')
-    text = text.replace('<b>', '').replace('</b>', '')
-    text = text.replace('<i>', '').replace('</i>', '')
-    text = text.replace('<span class="flavor">', '').replace('</span>', '')
+    text = re.sub(r'<br\s*/?>\s*', '\n', text, flags=re.IGNORECASE)
+    text = re.sub(r'<li[^>]*>', '\n- ', text, flags=re.IGNORECASE)
+    text = re.sub(r'</li>', '', text, flags=re.IGNORECASE)
+    text = re.sub(r'<[^>]+>', ' ', text)
     text = text.replace('\xa0', ' ').replace('\ufffd', '')
+    text = re.sub(r'[ \t]+', ' ', text)
     text = re.sub(r'\n{3,}', '\n\n', text)
     return text.strip()
 
@@ -151,16 +151,18 @@ def fix_image_url(path):
 # =============================================================================
 
 def fetch_api_data(endpoint):
-    """Fetch data from the DBD API."""
+    """Fetch data from the DBD API. Raises on failure -- callers must not write partial data."""
     url = f"{DATA_API_BASE}/{endpoint}"
     print(f"    Fetching {url}...")
     try:
         response = std_requests.get(url, headers=HEADERS, timeout=API_TIMEOUT)
         response.raise_for_status()
-        return response.json()
+        payload = response.json()
     except Exception as e:
-        print(f"    [!] Error fetching {endpoint}: {e}")
-        return {}
+        raise RuntimeError(f"fetch_api_data: {endpoint} failed: {e}")
+    if not payload:
+        raise RuntimeError(f"fetch_api_data: {endpoint} returned empty payload (aborting, refusing to write partial data)")
+    return payload
 
 def process_characters():
     """Fetches all characters and separates them into Killers and Survivors."""
@@ -510,8 +512,14 @@ def scrape_data():
         "addons": addons
     }
     
-    with open(DATA_OUTPUT_FILE, 'w', encoding='utf-8') as f:
+    for category, entries in data.items():
+        if not entries:
+            raise RuntimeError(f"scrape_data: '{category}' came back empty (aborting, refusing to write partial data)")
+
+    tmp_output_file = DATA_OUTPUT_FILE + ".tmp"
+    with open(tmp_output_file, 'w', encoding='utf-8') as f:
         json.dump(data, f, indent=2, ensure_ascii=False)
+    os.replace(tmp_output_file, DATA_OUTPUT_FILE)
     
     print(f"\n[✓] Data saved to '{DATA_OUTPUT_FILE}'")
     print(f"    Stats: {len(killers)} Killers, {len(survivors)} Survivors, {len(perks)} Perks, {len(maps)} Maps, {len(realms)} Realms")

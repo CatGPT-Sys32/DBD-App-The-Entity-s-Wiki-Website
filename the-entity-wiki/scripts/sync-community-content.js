@@ -26,7 +26,6 @@ const SOURCES = {
   beginnerGuides: 'https://otzdarva.com/dbd/beginner-guides',
   killerGuides: 'https://otzdarva.com/dbd/killer-guides',
   tierlists: 'https://otzdarva.com/dbd/tierlists',
-  opinions: 'https://otz-opinions.pages.dev/'
 };
 
 const COMBO_LABELS = {
@@ -179,7 +178,7 @@ function portableTextToPlain(blocks) {
 }
 
 function resolveUrl(base, href) {
-  if (!href) return '';
+  if (!href || typeof href !== 'string') return '';
   try {
     return new URL(href, base).toString();
   } catch (error) {
@@ -1034,54 +1033,6 @@ function parseTierlists(html) {
   };
 }
 
-function parseFaq(html) {
-  const payload = extractSvelteRoutePayload(html, 'faq');
-  const rawCategories = Array.isArray(payload.faqCategories) ? payload.faqCategories : [];
-
-  const categories = rawCategories.map((category, index) => {
-    const questions = Array.isArray(category.faq) ? category.faq : [];
-    return {
-      id: category._id || `faq-category-${index + 1}`,
-      categoryCode: normalizeText(category.category || String(index + 1)),
-      title: normalizeText(category.title || `Category ${index + 1}`),
-      questionCount: questions.length
-    };
-  });
-
-  const entries = rawCategories.flatMap((category, categoryIndex) => {
-    const categoryTitle = normalizeText(category.title || `Category ${categoryIndex + 1}`);
-    const categoryCode = normalizeText(category.category || String(categoryIndex + 1));
-    const questions = Array.isArray(category.faq) ? category.faq : [];
-
-    return questions
-      .map((questionEntry, questionIndex) => {
-        const answerBlocks = Array.isArray(questionEntry.answer) ? questionEntry.answer : [];
-        return {
-          id: `${categoryCode}-${questionIndex + 1}-${slugify(questionEntry.question || '')}`,
-          category: categoryTitle,
-          categoryCode,
-          question: normalizeText(questionEntry.question || ''),
-          answer: portableTextToPlain(answerBlocks),
-          links: extractPortableTextLinks(answerBlocks, SOURCES.home),
-          tags: Array.isArray(questionEntry.tags) ? questionEntry.tags.map((tag) => normalizeText(tag)).filter(Boolean) : []
-        };
-      })
-      .filter((entry) => entry.question && entry.answer);
-  });
-
-  return {
-    title: normalizeText(payload.section?.title || payload.section?.sectionName || 'FAQ'),
-    description: portableTextToPlain(payload.section?.description),
-    categories,
-    entries,
-    stats: {
-      categoryCount: categories.length,
-      questionCount: entries.length,
-      dbdQuestionCount: entries.filter((entry) => entry.categoryCode === '1').length
-    }
-  };
-}
-
 function parseGuideVault(html) {
   const payload = extractSvelteRoutePayload(html, 'killer-guides');
   const section = payload.section?.killerGuideSection || {};
@@ -1106,72 +1057,6 @@ function parseGuideVault(html) {
         accumulator[entry.sourceType] = (accumulator[entry.sourceType] || 0) + 1;
         return accumulator;
       }, {})
-    }
-  };
-}
-
-function parseOpinions(html) {
-  const $ = cheerio.load(html);
-  const entries = [];
-
-  $('.opinion').each((index, node) => {
-    const opinionNode = $(node);
-    const fullText = normalizeText(opinionNode.text());
-    if (!fullText) return;
-
-    const strongTitle = normalizeText(opinionNode.find('p strong').first().text()) || normalizeText(opinionNode.find('strong').first().text());
-    const title = strongTitle || (fullText.length > 90 ? `${fullText.slice(0, 87)}...` : fullText);
-
-    const patchLabel = extractPatchLabel(`${title} ${fullText}`);
-    const dateLabel = extractOpinionDateLabel(`${title} ${fullText}`);
-    const dateIso = dateLabel ? toDateIso(dateLabel) : null;
-
-    const links = uniqBy(
-      opinionNode
-        .find('a[href]')
-        .map((_, anchor) => {
-          const href = $(anchor).attr('href');
-          const label = normalizeText($(anchor).text());
-          const url = resolveUrl(SOURCES.opinions, href);
-          return { label: label || url, url };
-        })
-        .get()
-        .filter((entry) => entry.url),
-      (entry) => entry.url
-    );
-
-    const tags = detectOpinionTags(`${title} ${fullText}`);
-    const summary = fullText.length > 320 ? `${fullText.slice(0, 317)}...` : fullText;
-
-    entries.push({
-      id: `${slugify(title)}-${index + 1}`,
-      order: index + 1,
-      title,
-      patchLabel: patchLabel || '',
-      dateLabel: dateLabel || '',
-      dateIso,
-      summary,
-      text: fullText,
-      tags,
-      links
-    });
-  });
-
-  const dedupedEntries = uniqBy(entries, (entry) => `${entry.title}|${entry.patchLabel}|${entry.dateLabel}|${entry.summary}`)
-    .sort((a, b) => {
-      if (a.dateIso && b.dateIso) return b.dateIso.localeCompare(a.dateIso);
-      if (a.dateIso) return -1;
-      if (b.dateIso) return 1;
-      return a.order - b.order;
-    });
-
-  return {
-    title: 'Otz Opinions',
-    entries: dedupedEntries,
-    stats: {
-      entryCount: dedupedEntries.length,
-      withPatchLabelCount: dedupedEntries.filter((entry) => entry.patchLabel).length,
-      withDateCount: dedupedEntries.filter((entry) => entry.dateIso).length
     }
   };
 }

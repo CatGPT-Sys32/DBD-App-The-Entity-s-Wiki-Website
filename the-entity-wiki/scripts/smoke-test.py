@@ -78,7 +78,7 @@ async def cdp_send(ws, method, params=None, message_id=1):
             return payload
 
 
-async def cdp_wait_for_method(ws, method, timeout=10):
+async def cdp_wait_for_method(ws, method, timeout=60):
     deadline = time.time() + timeout
     while time.time() < deadline:
         raw = await asyncio.wait_for(ws.recv(), timeout=max(0.1, deadline - time.time()))

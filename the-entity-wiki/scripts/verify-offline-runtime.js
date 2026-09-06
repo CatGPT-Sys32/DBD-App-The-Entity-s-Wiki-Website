@@ -87,7 +87,7 @@ function normalizeEmojiClueSets(rawSets) {
 function auditHtml(indexHtml) {
   const externalTagPatterns = [
     { pattern: /<script\b[^>]*\bsrc=["']https?:\/\//i, message: 'External <script> src found in web/index.html.' },
-    { pattern: /<link\b[^>]*\bhref=["']https?:\/\//i, message: 'External <link> href found in web/index.html.' },
+    { pattern: /<link\b(?![^>]*\brel=["']canonical["'])[^>]*\bhref=["']https?:\/\//i, message: 'External <link> href found in web/index.html.' },
     { pattern: /<img\b[^>]*\bsrc=["']https?:\/\//i, message: 'External <img> src found in web/index.html.' },
     { pattern: /url\(["']?https?:\/\//i, message: 'External CSS url(...) found in web/index.html.' },
   ];

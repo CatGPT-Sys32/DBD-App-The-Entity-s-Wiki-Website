@@ -14729,26 +14729,36 @@
         setComparePerks([]);
         setShowCompareModal(false);
       }, [killers, survivors, perks, maps]);
-      const [touchStart, setTouchStart] = useState(null);
+      const touchStartRef = useRef(null);
       const activeMobileNavItems = useMemo(
         () => ensureOrderedSubset(settings.navItems, ALL_NAV_OPTIONS.map(option => option.id), DEFAULT_SETTINGS.navItems),
         [settings.navItems]
       );
       const navOrder = ['home', ...activeMobileNavItems, 'settings'];
+      const isAnyOverlayOpen = !!(layoutMap || profileCharacter || powerKiller || loreCharacter || selectedPerk || showCompareModal);
       const handleTouchStart = (e) => {
-        setTouchStart({
+        if (!e.touches || e.touches.length !== 1) {
+          touchStartRef.current = null;
+          return;
+        }
+        touchStartRef.current = {
           x: e.touches[0].clientX,
           y: e.touches[0].clientY
-        });
+        };
       };
       const handleTouchEnd = (e) => {
-        if (touchStart === null) return;
+        const start = touchStartRef.current;
+        touchStartRef.current = null;
+        if (!start) return;
+        if (isAnyOverlayOpen) return;
+        const target = e.target;
+        if (target && target.closest && target.closest('input, textarea, select, [data-no-swipe], .overflow-x-auto, .nav-scroll')) return;
         const touchEnd = {
           x: e.changedTouches[0].clientX,
           y: e.changedTouches[0].clientY
         };
-        const diffX = touchStart.x - touchEnd.x;
-        const diffY = touchStart.y - touchEnd.y;
+        const diffX = start.x - touchEnd.x;
+        const diffY = start.y - touchEnd.y;
         const minSwipe = 100;
         const isHorizontalSwipe = Math.abs(diffX) > minSwipe && Math.abs(diffX) > Math.abs(diffY) * 1.5;
         if (isHorizontalSwipe) {
@@ -14762,7 +14772,6 @@
             triggerHaptic('Light');
           }
         }
-        setTouchStart(null);
       };
       const renderContent = () => {
         switch (currentView) {

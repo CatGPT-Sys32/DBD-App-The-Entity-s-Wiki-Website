@@ -3,6 +3,12 @@
 const fs = require('fs');
 const path = require('path');
 const vm = require('vm');
+const { File } = require('buffer');
+
+if (typeof globalThis.File === 'undefined') {
+  globalThis.File = File;
+}
+
 const cheerio = require('cheerio');
 const { fetchTextWithRetry, fetchBinaryWithRetry, formatFetchError } = require('./network-resilience');
 

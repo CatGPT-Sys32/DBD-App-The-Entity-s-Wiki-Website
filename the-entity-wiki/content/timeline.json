@@ -1504,6 +1504,33 @@
         }
       ],
       "maps": []
+    },
+    {
+      "id": "chorus-of-sin",
+      "name": "Chorus of Sin",
+      "type": "chapter",
+      "chapterNumber": 41,
+      "date": "2026-08-25",
+      "displayDate": "August 25, 2026",
+      "description": "The first community-created chapter, born from The Grimoire initiative. It introduced The Judgment, a divine killer who brands heretics and exiles them to a realm of punishment, and Aurora Stardotter, a star-reading survivor who leads her people out of the ashes. Released without a map alongside the 10.1.0 patch.",
+      "killers": [
+        {
+          "id": "the-judgment",
+          "name": "The Judgment",
+          "realName": "Member of the Celestial Echelon",
+          "fogEntry": "A divine executioner of the Celestial Echelon, The Judgment metes out punishment throughout the cosmos. When the people of Terra Primus aspired to godhood, it answered their sins with pillars of holy fire that razed their shining cities, beginning a decades-long apocalypse. No plea for mercy stayed its verdict—and when the last survivors fled into the fog, its judgment followed them in.",
+          "licensed": false
+        }
+      ],
+      "survivors": [
+        {
+          "id": "aurora",
+          "name": "Aurora Stardotter",
+          "fogEntry": "A star-reader of the Searchers, Aurora was meant to be executed with her brethren in Ultracapitalis. When The Judgment unleashed its fury on Terra Primus, she escaped into the chaos and used her gift of star-reading to lead others out of the ashes. She faced the divine tribunal to plead for her people—only to be cast into the Exile, until the fog itself set her free.",
+          "licensed": false
+        }
+      ],
+      "maps": []
     }
   ]
 }

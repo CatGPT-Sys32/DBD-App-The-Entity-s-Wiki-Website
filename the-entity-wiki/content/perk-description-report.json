@@ -1,8 +1,8 @@
 {
-  "totalPerks": 315,
+  "totalPerks": 321,
   "counts": {
-    "different": 310,
-    "same_as_legacy": 5
+    "different": 311,
+    "same_as_legacy": 10
   },
   "entries": [
     {
@@ -2480,7 +2480,7 @@
     {
       "id": "k43p01-hex-scared-to-death",
       "name": "Hex: Scared to Death",
-      "status": "same_as_legacy",
+      "status": "different",
       "sourceUrl": "https://dbd.tricky.lol/api/perks#K43P01",
       "sourceKey": "K43P01",
       "matchType": "name"
@@ -2523,6 +2523,54 @@
       "status": "different",
       "sourceUrl": "https://dbd.tricky.lol/api/perks#S53P03",
       "sourceKey": "S53P03",
+      "matchType": "name"
+    },
+    {
+      "id": "k44p01-celestial-witness",
+      "name": "Celestial Witness",
+      "status": "same_as_legacy",
+      "sourceUrl": "https://dbd.tricky.lol/api/perks#K44P01",
+      "sourceKey": "K44P01",
+      "matchType": "name"
+    },
+    {
+      "id": "k44p02-hex-under-your-thumb",
+      "name": "Hex: Under Your Thumb",
+      "status": "same_as_legacy",
+      "sourceUrl": "https://dbd.tricky.lol/api/perks#K44P02",
+      "sourceKey": "K44P02",
+      "matchType": "name"
+    },
+    {
+      "id": "k44p03-lay-waste",
+      "name": "Lay Waste",
+      "status": "same_as_legacy",
+      "sourceUrl": "https://dbd.tricky.lol/api/perks#K44P03",
+      "sourceKey": "K44P03",
+      "matchType": "name"
+    },
+    {
+      "id": "s54p01-fruits-of-your-labor",
+      "name": "Fruits of Your Labor",
+      "status": "same_as_legacy",
+      "sourceUrl": "https://dbd.tricky.lol/api/perks#S54P01",
+      "sourceKey": "S54P01",
+      "matchType": "name"
+    },
+    {
+      "id": "s54p02-salvation-s-cry",
+      "name": "Salvation's Cry",
+      "status": "same_as_legacy",
+      "sourceUrl": "https://dbd.tricky.lol/api/perks#S54P02",
+      "sourceKey": "S54P02",
+      "matchType": "name"
+    },
+    {
+      "id": "s54p03-boon-steadfast",
+      "name": "Boon: Steadfast",
+      "status": "same_as_legacy",
+      "sourceUrl": "https://dbd.tricky.lol/api/perks#S54P03",
+      "sourceKey": "S54P03",
       "matchType": "name"
     }
   ]

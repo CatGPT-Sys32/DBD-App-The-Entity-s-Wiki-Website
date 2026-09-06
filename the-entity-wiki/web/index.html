@@ -4,7 +4,21 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-  <title>The Entity's Wiki</title>
+  <title>The Entity's Wiki — Dead by Daylight Database</title>
+  <meta name="description" content="Free fan-made Dead by Daylight database: killers, survivors, perks, add-ons, items, offerings, maps, cosmetics, builds, tier lists and lore — always up to date with the latest chapter.">
+  <link rel="canonical" href="https://entity-wiki.pages.dev/">
+  <meta name="theme-color" content="#090b11">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="The Entity's Wiki">
+  <meta property="og:title" content="The Entity's Wiki — Dead by Daylight Database">
+  <meta property="og:description" content="Killers, survivors, perks, add-ons, cosmetics, builds, tier lists and lore for Dead by Daylight — a free fan-made companion.">
+  <meta property="og:url" content="https://entity-wiki.pages.dev/">
+  <meta property="og:image" content="https://entity-wiki.pages.dev/assets/og-cover.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="The Entity's Wiki — Dead by Daylight Database">
+  <meta name="twitter:description" content="Killers, survivors, perks, add-ons, cosmetics, builds, tier lists and lore for Dead by Daylight — a free fan-made companion.">
+  <meta name="twitter:image" content="https://entity-wiki.pages.dev/assets/og-cover.png">
+  <link rel="icon" type="image/png" href="./assets/favicon.png">
   <script src="./vendor/react.production.min.js"></script>
   <script src="./vendor/react-dom.production.min.js"></script>
   <script src="./vendor/babel.min.js"></script>
@@ -1340,7 +1354,7 @@
 <body>
   <div id="launch-overlay" class="launch-overlay" aria-live="polite">
     <div class="launch-stage">
-      <img class="launch-logo" src="./assets/loading/dbd-logo-loading.gif" alt="Dead by Daylight logo loading animation">
+      <img class="launch-logo" src="./assets/loading/dbd-logo-static.png" alt="Dead by Daylight logo">
       <p class="launch-status">Loading</p>
       <div class="launch-progress-wrap" aria-hidden="true">
         <div class="launch-progress">
@@ -1371,7 +1385,7 @@
         'Do not stack on generators, optimum is 2 per generator.',
         'Doing gens? You?',
         'Try not to get gens done too quickly and end up in a 3 gen',
-        'You have a 1 in 14 chance of seeing this loading screen tip.',
+        'You have a 1 in 17 chance of seeing this loading screen tip.',
         'Healing is strongest way to relieve pressure, but it is not the only way.',
         'Nerf Trapper.',
         'DBD is so killer sided.',
@@ -1384,7 +1398,7 @@
       const overlay = document.getElementById('launch-overlay');
       const tipEl = document.getElementById('launch-overlay-tip');
       const startedAt = Date.now();
-      const LAUNCH_OVERLAY_MIN_MS = 2000;
+      const LAUNCH_OVERLAY_MIN_MS = 400;
       if (tipEl) {
         tipEl.textContent = LAUNCH_TIPS[Math.floor(Math.random() * LAUNCH_TIPS.length)];
       }
@@ -1706,9 +1720,9 @@
       }
     };
     const META = {
-      siteVersion: "5.31.0",
-      gameVersion: "9.6.0",
-      lastSynced: "April 30, 2026",
+      siteVersion: "5.34.0",
+      gameVersion: "10.1.0",
+      lastSynced: "September 6, 2026",
       contact: {
         email: "hexplosions.happen@gmail.com",
         discord: "hexplosions_happen"
@@ -4280,7 +4294,7 @@
         survivorTips: "The dog is a projectile threat plus a tracking tool. Watch for straight-line \"Chase\" angles and dodge off the path instead of trying to tank it at the last second. If the dog is searching, assume you can be found even without obvious info and reposition early. Do not take greedy vaults when the dog can grip you mid-commit.",
         killerTips: "Use the dog to start chases and to deny safe exits. Fire Chase down lanes that force a dodge, then punish the dodge with your own movement. Redirect to correct survivor jukes and to clip tight tiles. Mix search pressure with chase pressure so survivors never feel \"off the radar.\""
       },
-      "The Executioner (Tokyo Ghoul)": {
+      "The Ghoul": {
         powerName: "One-Eyed Terror",
         survivorTips: "He lunges with Kagune to vertical surfaces and can chain leaps. The second leap can become a grab-attack that injures, causes Deep Wound, and leaves a mark. Once he is enraged, expect more chaining and faster vault pressure. Your counter is forcing bad leap angles, using cluttered structures, and not giving him clean vertical targets.",
         killerTips: "Use Kagune Leap for burst positioning, then chain into a second leap when the survivor commits to a route. Aim your grab-attack when it will land cleanly, because it triggers marks and enables Enraged Mode pressure. While enraged, chain leaps to keep survivors locked in bad tiles and convert the mark pressure into downs. Do not waste leaps into wide-open air. Use surfaces and timing."
@@ -4299,6 +4313,16 @@
         powerName: "Test Subject #001",
         survivorTips: "He threatens space in layers: a direct strike, spreading vines, and fast traversal through the Upside Down. Break line of sight before he commits, avoid lingering in narrow choke points, and rotate early when he cuts off the obvious lane. If he disappears into the Upside Down, assume he is pathing to your generator or rescue and reposition before he reappears on top of you.",
         killerTips: "Use Test Subject #001 to make survivors choose between your attack and the map. Seed pressure with vines, then traverse through the Upside Down to arrive where survivors think they have time. Force movement first, then cash out on committed vaults, rescues, and generator greed. You win when survivors feel unsafe standing still anywhere."
+      },
+      "The Slasher": {
+        powerName: "Omnipresent Evil",
+        survivorTips: "When he vanishes, standing still is dangerous because Mist Clouds can reveal you, but obvious running paths leave Footprints. Break line of sight, vary your route, and be ready for Jump Scare pressure at pallets, windows, and breakable walls. If he picks up a Hook Spike, do not give him a straight lane into a wall or tight choke point.",
+        killerTips: "Use Omnipresent Evil to reposition and read survivor movement before committing. Jump Scare is strongest when it converts a tile interaction into immediate pressure, so aim for pallets, windows, and walls survivors are already planning around. Hook Spikes punish predictable lanes and can snowball when survivors are forced toward walls, hooks, or clutter."
+      },
+      "The Judgment": {
+        powerName: "Will of the Gods",
+        survivorTips: "Do not taunt The Judgment: crouching or gesturing near it, or lingering at the exit threshold, inflicts Heresy, and Heretics who go down can be sent to the Exile instead of a hook. When hit by Divine Light you gain Heresy, so pre-heal and repent at an active Shrine of Judgment before committing to a generator - Heretic good skill checks regress the generator. If a teammate is Exiled, collect Exiled Souls with the Searcher's Pendant to extend their unhook protections, and pray at one of the two activated Shrines to rescue them early.",
+        killerTips: "Charge Divine Light as long as the lane allows - longer control means a shorter cast delay and a longer column. Cast down straight, long corridors and around jungle gyms where dodging is hard, and remember a near-miss reveals Killer Instinct. Exiling a Heretic in the dying state triggers Zealous for 60 seconds, empowering Divine Light, so plan downs near your power rather than tunneling hooks. Watch for survivors repenting at Shrines and threaten them with casts; Heretic pressure plus exit-gate blocking makes endgames very winnable."
       }
     };
     const KILLER_STATS = {
@@ -4343,7 +4367,9 @@
       "The Ghoul": { terrorRadius: "32m", speed: "4.6 m/s", height: "Average" },
       "The Animatronic": { terrorRadius: "32m", speed: "4.6 m/s", height: "Tall" },
       "The Krasue": { terrorRadius: "32m", speed: "4.6 m/s", height: "Average" },
-      "The First": { terrorRadius: "32m", speed: "4.6 m/s", height: "Average" }
+      "The First": { terrorRadius: "32m", speed: "4.6 m/s", height: "Average" },
+      "The Slasher": { terrorRadius: "32m", speed: "4.6 m/s", height: "Tall" },
+      "The Judgment": { terrorRadius: "32m", speed: "4.4 m/s", height: "Tall" }
     };
     const COSMETICS_FULL_SET_ASSET_PACK_NAME = 'cosmeticsfullsetpack';
     const isNativeAndroidPlatform = () => {
@@ -4705,6 +4731,14 @@
       );
     };
 
+    const SiteLegalFooter = ({ className = '' }) => (
+      <div className={`flex flex-wrap items-center gap-x-4 gap-y-1 text-[11px] text-zinc-500 ${className}`}>
+        <a href="./privacy-policy.html" className="hover:text-zinc-300 transition-colors">Privacy Policy</a>
+        <a href="./privacy-policy.html#disclaimer" className="hover:text-zinc-300 transition-colors">Legal &amp; Disclaimer</a>
+        <span>Community data &copy; Otzdarva</span>
+      </div>
+    );
+
     const Navigation = ({ currentView, setView, theme, isMobile = false, onPerksReset, customNavItems = [], hideAppCta = false, onHideAppCta = null }) => {
       const navItems = useMemo(() => {
         const items = [{ id: 'home', label: 'Search' }];
@@ -4763,6 +4797,7 @@
               ))}
             </nav>
             <PlayStoreFooter />
+            <SiteLegalFooter className="px-5 pb-4" />
           </aside>
         );
       }
@@ -12520,6 +12555,7 @@
               <h3 className="text-lg font-bold text-white mb-2">Website Info</h3>
               <p className="text-sm text-zinc-400">Website Version: <span className="text-white font-semibold">{META.siteVersion}</span></p>
               <p className="text-sm text-zinc-400">Game Update / Data Updated: <span className="text-white font-semibold">{META.gameVersion} / {META.lastSynced}</span></p>
+              <SiteLegalFooter className="mt-3" />
             </div>
             <div className="p-4 rounded-3xl bg-zinc-900/40 border border-white/5 space-y-3">
               <h3 className="text-lg font-bold text-white">Theme</h3>

@@ -432,6 +432,9 @@ def process_addons():
         "Item_Slasher_K39Power": "The Ghoul",
         "Item_Slasher_K40Power": "The Animatronic",
         "Item_Slasher_K41Power": "The Krasue",
+        "Item_Slasher_K42Power": "The First",
+        "Item_K43Power": "The Slasher",
+        "Item_K44Power": "The Judgment",
     }
     
     items = raw_data.values() if isinstance(raw_data, dict) else raw_data
@@ -718,7 +721,9 @@ def download_perks():
     print("    Scanning for perk images...")
     
     all_perks = get_allimages_by_prefix('IconPerks')
-    
+    all_perks += get_allimages_by_prefix('T_UI_iconPerks')
+    all_perks += get_allimages_by_prefix('T_UI_iconsPerks')
+
     # Filter to .png files only
     all_perks = [p for p in all_perks if p['name'].endswith('.png')]
     all_perks.sort(key=lambda x: x['name'])
@@ -784,7 +789,8 @@ def download_items():
     print("    Scanning for item icons...")
     
     item_files = get_allimages_by_prefix('IconItems')
-    
+    item_files += get_allimages_by_prefix('T_UI_iconItems')
+
     # Filter to .png files only
     item_files = [i for i in item_files if i['name'].endswith('.png')]
     item_files.sort(key=lambda x: x['name'])
@@ -850,7 +856,8 @@ def download_addons():
     print("    Scanning for addon icons...")
     
     addon_files = get_allimages_by_prefix('IconAddon')
-    
+    addon_files += get_allimages_by_prefix('T_UI_iconAddon')
+
     # Filter to .png files only
     addon_files = [a for a in addon_files if a['name'].endswith('.png')]
     addon_files.sort(key=lambda x: x['name'])

@@ -1,5 +1,5 @@
 var COMMUNITY_CONTENT = {
-  "generatedAt": "2026-08-01T17:37:45.340Z",
+  "generatedAt": "2026-09-06T06:46:46.556Z",
   "metadata": {
     "scraperVersion": 2,
     "attribution": "Data sourced from Otzdarva web properties. Keep attribution when redistributing.",
@@ -7,57 +7,138 @@ var COMMUNITY_CONTENT = {
       {
         "id": "home",
         "url": "https://otzdarva.com/",
-        "fetchedAt": "2026-08-01T17:37:45.340Z"
+        "fetchedAt": "2026-09-06T06:46:46.556Z"
       },
       {
         "id": "addonTierlist",
         "url": "https://otz-addon-tierlist.pages.dev/",
-        "fetchedAt": "2026-08-01T17:37:45.340Z"
+        "fetchedAt": "2026-09-06T06:46:46.556Z"
       },
       {
         "id": "buildsHome",
         "url": "https://otzdarva-builds.com/",
-        "fetchedAt": "2026-08-01T17:37:45.340Z"
+        "fetchedAt": "2026-09-06T06:46:46.556Z"
       },
       {
         "id": "buildsPanels",
         "url": "https://otzdarva-builds.com/assets/modules/XMLHttpRequest/returnCharacterPanels.php",
-        "fetchedAt": "2026-08-01T17:37:45.340Z"
+        "fetchedAt": "2026-09-06T06:46:46.556Z"
       },
       {
         "id": "buildsPerkDetails",
         "url": "https://otzdarva-builds.com/assets/modules/XMLHttpRequest/showPerkDetails.php",
-        "fetchedAt": "2026-08-01T17:37:45.340Z"
+        "fetchedAt": "2026-09-06T06:46:46.556Z"
       },
       {
         "id": "characterInfo",
         "url": "https://otzdarva.com/dbd/character-info",
-        "fetchedAt": "2026-08-01T17:37:45.340Z"
+        "fetchedAt": "2026-09-06T06:46:46.556Z"
       },
       {
         "id": "beginnerGuides",
         "url": "https://otzdarva.com/dbd/beginner-guides",
-        "fetchedAt": "2026-08-01T17:37:45.340Z"
+        "fetchedAt": "2026-09-06T06:46:46.556Z"
       },
       {
         "id": "tierlists",
         "url": "https://otzdarva.com/dbd/tierlists",
-        "fetchedAt": "2026-08-01T17:37:45.340Z"
+        "fetchedAt": "2026-09-06T06:46:46.556Z"
       },
       {
         "id": "killerGuides",
         "url": "https://otzdarva.com/dbd/killer-guides",
-        "fetchedAt": "2026-08-01T17:37:45.340Z"
+        "fetchedAt": "2026-09-06T06:46:46.556Z"
       }
     ],
     "stats": {
       "addonTierlist": {
-        "killerCount": 43,
-        "addonCount": 860,
-        "comboCount": 172,
+        "killerCount": 44,
+        "addonCount": 880,
+        "comboCount": 176,
         "matchedAddonCount": 860,
-        "unmatchedAddonCount": 0,
-        "unmatchedAddonSample": []
+        "unmatchedAddonCount": 20,
+        "unmatchedAddonSample": [
+          {
+            "name": "Blindfold of the Devoted",
+            "tierBucket": "strongest"
+          },
+          {
+            "name": "Aurora's Telereceptor",
+            "tierBucket": "good"
+          },
+          {
+            "name": "Magnetised Manacles",
+            "tierBucket": "good"
+          },
+          {
+            "name": "Mark of the Adherent",
+            "tierBucket": "good"
+          },
+          {
+            "name": "Prayer Kneeler",
+            "tierBucket": "good"
+          },
+          {
+            "name": "Crown of the Destroyer",
+            "tierBucket": "good"
+          },
+          {
+            "name": "Electric Torch",
+            "tierBucket": "good"
+          },
+          {
+            "name": "Confessor's War Horn",
+            "tierBucket": "decent"
+          },
+          {
+            "name": "Improvised Detonators",
+            "tierBucket": "decent"
+          },
+          {
+            "name": "Holy Winged Icon",
+            "tierBucket": "decent"
+          },
+          {
+            "name": "Superheated Glass",
+            "tierBucket": "decent"
+          },
+          {
+            "name": "Order of Inquisition",
+            "tierBucket": "decent"
+          },
+          {
+            "name": "Koenrad's Gauntlet",
+            "tierBucket": "almost-no-effect"
+          },
+          {
+            "name": "Eyes of Gerhardt",
+            "tierBucket": "almost-no-effect"
+          },
+          {
+            "name": "Heretic's Mark",
+            "tierBucket": "almost-no-effect"
+          },
+          {
+            "name": "Searcher's Skull",
+            "tierBucket": "almost-no-effect"
+          },
+          {
+            "name": "Obsidian Feather",
+            "tierBucket": "detrimental"
+          },
+          {
+            "name": "Undying Flame",
+            "tierBucket": "detrimental"
+          },
+          {
+            "name": "Mirror of the Creators",
+            "tierBucket": "detrimental"
+          },
+          {
+            "name": "Chains of the Heretic",
+            "tierBucket": "detrimental"
+          }
+        ]
       },
       "builds": {
         "killerProfileCount": 0,
@@ -71,9 +152,9 @@ var COMMUNITY_CONTENT = {
         "perkDetailsMissingTotal": 0
       },
       "characterInfo": {
-        "killerCount": 43,
-        "survivorCount": 53,
-        "perkCount": 311,
+        "killerCount": 44,
+        "survivorCount": 54,
+        "perkCount": 317,
         "killerPriorityRange": {
           "min": 1,
           "max": 999
@@ -3061,7 +3142,7 @@ var COMMUNITY_CONTENT = {
           },
           {
             "rank": 3,
-            "tierBucket": "strongest",
+            "tierBucket": "good",
             "name": "\"Discipline\" - Class III",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/doctor/disciplineclassiii.png",
             "otzComment": "\"Discipline\" - Class III : Discipline's main effect makes your shock hit Survivors significantly sooner. This helps massively in chase, making your shock much more consistent and allowing you to deny the use of pallets or windows with much more success than usual. The secondary passive effect of this add-on is also quite powerful, since it removes the red stain during chase and can be quite disorienting while in Madness Tier 3. Keep in mind that all passive effects do not stack with other instances of themselves.",
@@ -3126,22 +3207,6 @@ var COMMUNITY_CONTENT = {
           {
             "rank": 7,
             "tierBucket": "good",
-            "name": "Polished Electrode",
-            "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/doctor/polishedelectrode.png",
-            "otzComment": "Polished Electrode : Increases the maximum range of your shock. This extra range isn't always necessary in chase but it's still helpful to interrupt Survivors performing critical actions such as finishing generators or attempting an unhook. Can be stacked with other range add-ons, but it's typically best to run it with some other add-on that brings more utility.",
-            "description": "A like-new standard electrode equipment to conduct electro-convulsive treatments. Extends the Area of Effect of the Shock Therapy Attack by +3 metres.",
-            "localMatch": {
-              "addonId": "281bfb04-21e0-46dd-a4ef-24f3e661e0e8",
-              "internalId": "Addon_Spark_PolishedElectrode",
-              "localName": "Polished Electrode",
-              "localImage": "dbd_images/addons/iconaddon_polishedelectrode.png",
-              "localRarity": "uncommon",
-              "method": "name"
-            }
-          },
-          {
-            "rank": 8,
-            "tierBucket": "good",
             "name": "\"Restraint\" - Carter's Notes",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/doctor/restraintcartersnotes.png",
             "otzComment": "\"Restraint\" - Carter's Notes : Restraint's main effect is to briefly show you the auras of Survivors that gain a madness level. This can help when trying to track a distant Survivor or even during chase. Restraint's passive effect makes Doctor hallucinations last longer and makes them visible at all levels of madness, which can sometimes help track specific Survivors across the map. Keep in mind that the aura reading effect of this family of add-ons can be extended with the perk \"Lethal Pursuer\" but does not stack with other instances of itself. For that reason, there's no point in running two Restraint add-ons together. As usual, the passive effect doesn't stack either.",
@@ -3156,7 +3221,7 @@ var COMMUNITY_CONTENT = {
             }
           },
           {
-            "rank": 9,
+            "rank": 8,
             "tierBucket": "good",
             "name": "\"Restraint\" - Class III",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/doctor/restraintclassiii.png",
@@ -3168,6 +3233,22 @@ var COMMUNITY_CONTENT = {
               "localName": "\"Restraint\" - Class III",
               "localImage": "dbd_images/addons/iconaddon_restraintclassiii.png",
               "localRarity": "rare",
+              "method": "name"
+            }
+          },
+          {
+            "rank": 9,
+            "tierBucket": "good",
+            "name": "Polished Electrode",
+            "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/doctor/polishedelectrode.png",
+            "otzComment": "Polished Electrode : Increases the maximum range of your shock. This extra range isn't always necessary in chase but it's still helpful to interrupt Survivors performing critical actions such as finishing generators or attempting an unhook. Can be stacked with other range add-ons, but it's typically best to run it with some other add-on that brings more utility.",
+            "description": "A like-new standard electrode equipment to conduct electro-convulsive treatments. Extends the Area of Effect of the Shock Therapy Attack by +3 metres.",
+            "localMatch": {
+              "addonId": "281bfb04-21e0-46dd-a4ef-24f3e661e0e8",
+              "internalId": "Addon_Spark_PolishedElectrode",
+              "localName": "Polished Electrode",
+              "localImage": "dbd_images/addons/iconaddon_polishedelectrode.png",
+              "localRarity": "uncommon",
               "method": "name"
             }
           },
@@ -3390,7 +3471,7 @@ var COMMUNITY_CONTENT = {
             "label": "Solid Combo",
             "addonRanks": [
               2,
-              3
+              8
             ],
             "addons": [
               {
@@ -3407,14 +3488,14 @@ var COMMUNITY_CONTENT = {
                 }
               },
               {
-                "rank": 3,
-                "name": "\"Discipline\" - Class III",
-                "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/doctor/disciplineclassiii.png",
+                "rank": 8,
+                "name": "\"Restraint\" - Class III",
+                "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/doctor/restraintclassiii.png",
                 "localMatch": {
-                  "addonId": "78b3dcd5-6d44-4ea8-b55a-432ddbbe9dce",
-                  "internalId": "Addon_Spark_DisciplineClassIII",
-                  "localName": "\"Discipline\" - Class III",
-                  "localImage": "dbd_images/addons/iconaddon_disciplineclassiii.png",
+                  "addonId": "bfc8a72b-cc39-463b-b0ae-c6915b376a34",
+                  "internalId": "Addon_Spark_RestraintClassIII",
+                  "localName": "\"Restraint\" - Class III",
+                  "localImage": "dbd_images/addons/iconaddon_restraintclassiii.png",
                   "localRarity": "rare",
                   "method": "name"
                 }
@@ -3425,12 +3506,12 @@ var COMMUNITY_CONTENT = {
             "tier": "good",
             "label": "Good Combo",
             "addonRanks": [
-              7,
+              9,
               6
             ],
             "addons": [
               {
-                "rank": 7,
+                "rank": 9,
                 "name": "Polished Electrode",
                 "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/doctor/polishedelectrode.png",
                 "localMatch": {
@@ -18391,7 +18472,7 @@ var COMMUNITY_CONTENT = {
             "tierBucket": "good",
             "name": "Rize's Glasses",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/ghoul/rizesglasses.png",
-            "otzComment": "Rize's Glasses : Contrary to what its description suggests, this add-on shows auras of Survivors not just when you enter enraged mode, but also every single time you use your ability to damage a Survivor. Being occasionally aware of Survivor locations is really helpful due to the Ghoul's immense mobility.",
+            "otzComment": "Rize's Glasses : Shows auras of Survivors when you enter enraged mode. You should ideally not be losing enraged mode very frequently but being occasionally aware of Survivor locations is really helpful due to the Ghoul's immense mobility.",
             "description": "They made her look innocent enough, which was exactly what she wanted. Upon entering Enraged Mode, you benefit from the following effect: The Auras of healthy Survivors currently repairing a Generator are revealed to you for 8 seconds.",
             "localMatch": {
               "addonId": "4242d8b2-825e-4291-89e7-6b01e778d6e0",
@@ -18615,7 +18696,7 @@ var COMMUNITY_CONTENT = {
             "tierBucket": "almost-no-effect",
             "name": "Torture Apparatus",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/ghoul/tortureapparatus.png",
-            "otzComment": "Torture Apparatus : This add-on gives a very tiny haste effect that boosts your movement speed for a few seconds. This effect is supposed to help you bounce back after you've lost your enraged status, but if you play the Ghould properly you will not lose it very often. You could quite literally play through an entire match and only trigger this add-on a few times, typically outside of chase. It's most definitely not worth running.",
+            "otzComment": "Torture Apparatus : This add-on gives a very tiny haste effect that boosts your movement speed for a few seconds. This effect is supposed to help you bounce back after you've lost your enraged status, but if you play the Ghoul properly you will not lose it very often. You could quite literally play through an entire match and only trigger this add-on a few times, typically outside of chase. It's most definitely not worth running.",
             "description": "A cutting tool used every time his extremities grew back. Whenever Enraged Mode ends, you benefit from the following effect: Grants a +5 % Haste Status Effect for 6 seconds.",
             "localMatch": {
               "addonId": "ca97e62f-4162-46e2-a61c-060555529e29",
@@ -19875,7 +19956,7 @@ var COMMUNITY_CONTENT = {
             "name": "Smashed Cassette Deck",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/first/smashedcassettedeck.png",
             "otzComment": "Smashed Cassette Deck : Removes one of the Grandfather Clocks that spawn around the map, making it slightly harder for Survivors to find one and start shortening your Worldbreaker mode's duration with it. Additionally, it also makes all four Survivors begin with a single temporary token that will make your very first Vine attack immediately trigger Worldbreaker mode. This effect can drastically speed up the pace of the match and allow you to start damaging Survivors sooner, which is great if your build benefits from a strong start. However, keep in mind that this add-on will make it harder to stack tokens on one or multiple Survivors early on. Normally you would enter Worldbreaker for the first time when at least one Survivor has two tokens, but this add-on will leave all Survivors at zero tokens by the time this happens. For that reason, use this add-on carefully.",
-            "description": "\"They once used music to escape Henry's grasp. Without it, they do not stand a chance.\" Modifies Worldbreaker with the following effect: All Survivors start with one Worldbreaker token. When Worldbreaker is activated for the first time, all Survivors lose their Worldbreaker token. 1 less Grandfather Clock appears on the map.",
+            "description": "\"They once used music to escape Henry's grasp. Without it, they do not stand a chance.\" At the start of the match, all Survivors scream. All Survivors start with one Worldbreaker token. When Worldbreaker is activated for the first time, all Survivors lose their Worldbreaker token. 1 less Grandfather Clock appears on the map.",
             "localMatch": {
               "addonId": "ff496073-f22b-4a02-a746-156c2b2c6bcf",
               "internalId": "Addon_K42_05",
@@ -19891,7 +19972,7 @@ var COMMUNITY_CONTENT = {
             "name": "Gutted Supercom",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/first/guttedsupercom.png",
             "otzComment": "Gutted Supercom : Briefly shows you the aura of a Survivor who you've hit with a Vine attack (outside of Worldbreaker mode), making it easy to determine which direction they're headed into if they break your line of sight. The duration of only 1.5 seconds can greatly be enhanced by pairing with the perk \"Lethal Pursuer\", but it's still good even by itself.",
-            "description": "\"A broken communication device that now crackles to life at the most terrifying times.\" Unlocks potential in your Aura-reading ability while using Vine Attack: The Aura of a Survivor hit by Vine Attack is revealed to you for 1.5 seconds.",
+            "description": "\"A broken communication device that now crackles to life at the most terrifying times.\" Unlocks potential in your Aura-reading ability while using Vine Attack: While not in Worldbreaker Mode hitting a Survivor with a Vine Attack reveals their Aura to you for 1.5 seconds.",
             "localMatch": {
               "addonId": "1bab13d7-ca88-424a-b336-26795d2f0db6",
               "internalId": "Addon_K42_07",
@@ -19923,7 +20004,7 @@ var COMMUNITY_CONTENT = {
             "name": "Neck Tendril",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/first/necktendril.png",
             "otzComment": "Neck Tendril : Applies the usual combination of Mangled and Haemorrhage for 70 seconds when landing a Vine attack in Worldbreaker Mode. A decent effect similar to many other Killers' add-ons. Doesn't have a lot of inherent synergies with other add-ons, so be sure to have a build that takes advantage of the slower healing time this applies.",
-            "description": "\"He was furious when the tendril was torn from his neck as Max escaped his mind realm.\" Modifies Vine Attack with the following effect: While in Worldbreaker mode, Survivors hit by Vine Attack gain the Haemorrhage and Mangled Status Effects for 70 seconds.",
+            "description": "\"He was furious when the tendril was torn from his neck as Max escaped his mind realm.\" Modifies Vine Attack with the following effect: While in Worldbreaker Mode, Survivors hit by Vine Attack gain the Haemorrhage and Mangled Status Effects for 70 seconds.",
             "localMatch": {
               "addonId": "000c7c76-4479-4581-bb69-b4e117b54f7f",
               "internalId": "Addon_K42_13",
@@ -19939,7 +20020,7 @@ var COMMUNITY_CONTENT = {
             "name": "Black Widow Spider",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/first/blackwidowspider.png",
             "otzComment": "Black Widow Spider : Reveals the location of a distant Survivor (the furthest one that's at least 36 meters away) the first time you go underground during Worldbreaker mode. Notably, this effect cannot be countered by stealth perks since it reveals both their aura and location simultaneously. Seeing someone's aura from afar can sometimes trick you into chasing a very distant Survivor and possibly waste too much time, but it's still a very welcome source of information if everyone is hiding or if you're looking for a specific Survivor. This add-on also often highlights a Survivor that might be busy using the Grandfather clock to reduce your timer. At best, this add-on can give you critical information when the match is already pretty advanced, like for example using it to deduce the location of the most vulnerable Survivor who is dead on hook. This is one of those add-ons that greatly benefit from using the blue Pizza Googles for increased mobility.",
-            "description": "\"A terrifying spider that is no longer a mere hallucination.\" Unlocks potential in your Aura-reading ability while using The Upside Down: The Aura of the furthest survivor more than 36 meters is revealed to you for 3 seconds.",
+            "description": "\"A terrifying spider that is no longer a mere hallucination.\" Unlocks potential in your Aura-reading ability while using The Upside Down in Worldbreaker Mode: The Aura of the furthest survivor more than 36 meters is revealed to you for 3 seconds.",
             "localMatch": {
               "addonId": "c51a0b72-6f6f-4aff-bd20-506946cc357b",
               "internalId": "Addon_K42_16",
@@ -19971,7 +20052,7 @@ var COMMUNITY_CONTENT = {
             "name": "Broken Skateboard",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/first/brokenskateboard.png",
             "otzComment": "Broken Skateboard : Activates for 65 seconds when Worldbreaker mode begins. During this time, your vault speed is increased by 30% (which is basically useless as The First is the type of Killer that very rarely vaults windows in chase anyway). The other effect is a lot nicer, however, since it also highlights the location of pallets and windows which can be a decent way to increase your awareness of the map or even help you line up a nasty Vine attack on a Survivor that leaves your line of sight. Keep in mind that, just like any other add-on that activates at the start of Worldbreaker mode, this one can really do very little if you're already having a difficult match where you struggle to reach it.",
-            "description": "\"A cool way to get around, smashed by a furious brother as a means of control.\" Modifies Worldbreaker with the following effect:When Worldbreaker activates the following effects trigger for 65 seconds Increases vaulting speed by 30 %. Pallet and Window auras are revealed within 32 metres",
+            "description": "\"A cool way to get around, smashed by a furious brother as a means of control.\" Modifies Worldbreaker with the following effect:When Worldbreaker Mode activates, the following effects trigger for 65 seconds Increases vaulting speed by 30 %. Pallet and Window auras are revealed within 32 metres",
             "localMatch": {
               "addonId": "c25ea578-8e27-4d72-bda9-dbaa25733a05",
               "internalId": "Addon_K42_15",
@@ -20019,7 +20100,7 @@ var COMMUNITY_CONTENT = {
             "name": "Orderly ID",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/first/orderlyid.png",
             "otzComment": "Orderly ID : Slightly increases your Vine attack reach by 2 meters, but only when outside of Worldbreaker mode. This can help you land nasty hits from surprising distances, especially if you're reading the aura of an unaware Survivor. However, it has no effect during Worldbreaker mode and the two different maximum distances could mess with your muscle memory and learning process. This add-on is best used by experienced players who are already quite familiar with the default Vine attack range. Constantly going for crazy long distance hits can be really fun but it can also backfire very quickly if you keep missing. For that reason, this add-on is unfortunately rarely worth the add-on slot.",
-            "description": "\"Bears the face of Henry Creel as he appeared before he was changed by another dimension.\" Modifies Vine Attack with the following effect: While not in Worldbreaker mode, the aiming range is increased by 2 meters.",
+            "description": "\"Bears the face of Henry Creel as he appeared before he was changed by another dimension.\" Modifies Vine Attack with the following effect: While not in Worldbreaker Mode, the aiming range is increased by 2 meters.",
             "localMatch": {
               "addonId": "ac317ceb-3fcb-4807-8c43-beb14f6a530e",
               "internalId": "Addon_K42_01",
@@ -20270,11 +20351,11 @@ var COMMUNITY_CONTENT = {
           },
           {
             "rank": 2,
-            "tierBucket": "strongest",
+            "tierBucket": "good",
             "name": "Sauna Rock",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/jason/saunarock.png",
-            "otzComment": "Sauna Rock : Has the simple (but annoying) effect of inflicting a small duration of Exhausted to any Survivor that you jumpscare with your power. If you see them highlighted with Killer Instinct when ending Omnipresent Evil, then you can be sure that this add-on has worked. Exhaustion perks are one of the very few ways that Survivors can create distance against you and disabling them right before a chase starts (or resumes) is incredibly valuable. Considering how common exhaustion perks are, this add-on is simply a top choice for almost any player.",
-            "description": "\"Nicely weighted, could be used to crush a rib cage.\" After performing a Jump Scare, inflict all detected Survivors with Exhausted Status Effect for 13 seconds.",
+            "otzComment": "Sauna Rock : Has the simple (but annoying) effect of inflicting a small duration of Exhausted to any Survivor that you jumpscare with your power. If you see them highlighted with Killer Instinct when ending Omnipresent Evil, then you can be sure that this add-on has worked. Exhaustion perks are one of the very few ways that Survivors can create distance against you and disabling them right before a chase starts (or resumes) is incredibly valuable. Considering how common exhaustion perks are, this add-on is simply a safe choice for anyone.",
+            "description": "\"Nicely weighted, could be used to crush a rib cage.\" After performing a Jump Scare, inflict all detected Survivors with Exhausted Status Effect for 3 seconds.",
             "localMatch": {
               "addonId": "268cd66a-d661-469d-b38d-74985380accc",
               "internalId": "Addon_K43_10",
@@ -20290,7 +20371,7 @@ var COMMUNITY_CONTENT = {
             "name": "Sleeping Bag",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/jason/sleepingbag.png",
             "otzComment": "Sleeping Bag : Reveals the outline (not aura) of Survivors near hooks whenever you reload during Omnipresent Evil. You won't get a lot of value if you never reload during this mode (or if you keep reloading while hooking Survivors). However, if you slightly out of your way you can sometimes waste spears and reload more than you normally would to trigger this add-on's effect. Sometimes, none of the Survivors will be near hooks and this add-on will do nothing. At its best, it can give you critical information when Survivors are trying to stay undetected. Overall a very solid choice if you make sure to trigger it often. Keep in mind that Survivors can avoid detection by crouching around while you're in Omnipresent Evil mode and that this add-on is one of the very few ways that you can outplay this.",
-            "description": "\"An absolutely awful place to hide from a killer.\" After grabbing a Hook Spike while in Omnipresent Evil, Survivors who are within 8 metres of any Hook have their location revealed for 5 seconds.",
+            "description": "\"An absolutely awful place to hide from a killer.\" After grabbing a Hook Spike while in Omnipresent Evil, Survivors who are within 10 metres of any Hook have their location revealed for 5 seconds.",
             "localMatch": {
               "addonId": "0dba8df8-5c71-4d82-b758-48eef0436448",
               "internalId": "Addon_K43_05",
@@ -20338,7 +20419,7 @@ var COMMUNITY_CONTENT = {
             "name": "Missing Corkscrew",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/jason/missingcorkscrew.png",
             "otzComment": "Missing Corkscrew : Creates a fake terror radius and grants you Undetectable when a Survivor becomes impaled, which remains and lingers for 13 seconds after it has been removed. This is a really useful and easy to trigger effect no matter what. The temporary stealth prevents your aura from being read, hides your red stain and allows you to catch other Survivors by surprise if you switch targets.",
-            "description": "\"It seems to always be missing when you need it on-hand.\" When a Survivor is impaled by a Hook Spike, they emit a 32 metres Terror Radius until the Hook Spike is removed. Gain Undetectable Status Effect when impaling a Survivor with a Hook Spike. This effects persists for 13 seconds after the Surivvor is no longer impaled..",
+            "description": "\"It seems to always be missing when you need it on-hand.\" When a Survivor is impaled by a Hook Spike, they emit a 32 metres Terror Radius until the Hook Spike is removed. Gain Undetectable Status Effect when impaling a Survivor with a Hook Spike. This effect persists for 13 seconds after the Surivvor is no longer impaled.",
             "localMatch": {
               "addonId": "a6aa4665-20b2-4a05-b0b1-27269efd70db",
               "internalId": "Addon_K43_17",
@@ -20370,7 +20451,7 @@ var COMMUNITY_CONTENT = {
             "name": "Two Nails",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/jason/twonails.png",
             "otzComment": "Two Nails : Reveals the aura of a Survivor for a few seconds if your thrown spear flies near them (whether it's a hit or miss). This information can sometimes be a little redundant but it will definitely shine in a lot of tiles where you can easily mindgame a Survivor if you know their exact location. A very safe choice for beginners and experienced players alike.",
-            "description": "\"A reliable way to hold a corpse's wrist in place.\" Survivors that come within 1 metre of a Throwing Spike have their aura revealed for 6 seconds.",
+            "description": "\"A reliable way to hold a corpse's wrist in place.\" Survivors that come within 1 metre of a Throwing Spike have their aura revealed for 5 seconds.",
             "localMatch": {
               "addonId": "6d6993b4-f864-44e0-b284-8dd25f834828",
               "internalId": "Addon_K43_13",
@@ -20386,7 +20467,7 @@ var COMMUNITY_CONTENT = {
             "name": "Dirty Money",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/jason/dirtymoney.png",
             "otzComment": "Dirty Money : This add-on grants you the ability to automatically reload your missing spear by vaulting or breaking a pallet/wall. This also works if you do one of these actions when reappearing from the Omnipresent Evil mode. Each automatic reload requires a token, and these tokens are granted whenever a generator is completed. This is a really useful effect for beginners that still struggle to multi-task and reload during difficult chases. For intermediate players, the automatic reload is still a nice feature that might help occasionally if they find themselves in an area without any easy spots to reload from. Experienced Jason players will likely want to stay away from this add-on, since they can probably manage to reload very frequently without losing much time at all.",
-            "description": "\"No amount of money can save you from him.\" When a Generator is repaired, gain 2 tokens. When you vault a Window or break a Pallet, consume 1 token and gain a regular Spike if you don't have one already.",
+            "description": "\"No amount of money can save you from him.\" When a Generator is repaired, gain 2 tokens. When you vault a Window or break a Pallet or a Breakable Wall, consume 1 token and gain a regular Spike if you don't have one already.",
             "localMatch": {
               "addonId": "e181f484-817e-426c-9ada-b1d1b0c5ecfc",
               "internalId": "Addon_K43_19",
@@ -20498,7 +20579,7 @@ var COMMUNITY_CONTENT = {
             "name": "Mirror Shards",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/jason/mirrorshards.png",
             "otzComment": "Mirror Shards : Inflicts Survivors with a 30 second Broken status effect after they remove their spike, making them unable to heal normally and possibly keeping them injured for a bit longer than they'd like. This effect isn't really that powerful, especially if you're focusing on chasing Survivors one at a time. Delaying their healing can occasionally be useful, but it rarely feels worthy of an add-on slot.",
-            "description": "\"A weapon that dealt more than bad luck.\" Survivors are inflicted with Broken Status Effect after extracting a Hook Spike from themselves for 30 seconds.",
+            "description": "\"A weapon that dealt more than bad luck.\" Survivors are inflicted with Broken Status Effect after extracting a Hook Spike from themselves for 40 seconds.",
             "localMatch": {
               "addonId": "4d331709-57f6-40c4-9f37-f48ca9ad3d31",
               "internalId": "Addon_K43_11",
@@ -20530,7 +20611,7 @@ var COMMUNITY_CONTENT = {
             "name": "Toxic Waste",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/jason/toxicwaste.png",
             "otzComment": "Toxic Waste : Makes Survivors Oblivious for 13 seconds if they're close to a hook when you exit Omnipresent Evil. This effect happens somewhat randomly and is very short (which means that Survivors will likely be on high alert during it). Not particularly useful on its own unless you play in an indoor map. However, you could consider running it if your build has perks that work better outside of your terror radius such as Hex: Face the Darkness.",
-            "description": "\"No one could survive being submerged in this poison.\" After performing a Jump Scare, Survivors within 8 metres of a Hook or a Scrap Pile are inflicted with Oblivious Status Effect for 13 seconds.",
+            "description": "\"No one could survive being submerged in this poison.\" After performing a Jump Scare, Survivors within 10 metres of a Hook or a Scrap Pile are inflicted with Oblivious Status Effect for 13 seconds.",
             "localMatch": {
               "addonId": "8d10797d-0b72-4a44-8a60-befd7ead1898",
               "internalId": "Addon_K43_07",
@@ -20546,7 +20627,7 @@ var COMMUNITY_CONTENT = {
             "name": "Party Noisemaker",
             "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/jason/partynoisemaker.png",
             "otzComment": "Party Noisemaker : Reveals the aura of very distant Survivors if you exit Omnipresent Evil by breaking a downed pallet or breakable wall. This is a great way to find the 4th Survivor at the end of the game and can also be used if you're desperately looking for anyone at a time when Survivors are all hiding. In some maps with many breakable walls, you could also consider using it at the start of the game to find all Survivors quickly. Other than that, this add-on very rarely gives any real information during normal gameplay. Since using your Omnipresent Evil to trigger this power puts your mobility into a cooldown, the information that it gives is simply not that easy to act upon. If you want a better information-gathering add-on, try the Sleeping Bag instead.",
-            "description": "\"A party instument that tore through a woman's eyeball and gouged her brain.\" Breaking a Pallet or a Breakable Wall with Jump Scare reveals all Survivors further than 32 metres for 6 seconds.",
+            "description": "\"A party instument that tore through a woman's eyeball and gouged her brain.\" Breaking a Pallet or a Breakable Wall with Jump Scare reveals all Survivors further than 28 metres for 6 seconds.",
             "localMatch": {
               "addonId": "06dc31fe-5b20-4073-82f0-2ca4cf880738",
               "internalId": "Addon_K43_08",
@@ -20719,15 +20800,378 @@ var COMMUNITY_CONTENT = {
             ]
           }
         ]
+      },
+      {
+        "order": 44,
+        "killerName": "Judgement",
+        "killerAliases": [
+          "Judgement"
+        ],
+        "killerSlug": "judgement",
+        "killerImageUrl": "https://otz-addon-tierlist.pages.dev/public/killers/judgement.png",
+        "localKillerName": null,
+        "addons": [
+          {
+            "rank": 1,
+            "tierBucket": "strongest",
+            "name": "Blindfold of the Devoted",
+            "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/judgement/blindfoldofthedevoted.png",
+            "otzComment": "Blindfold of the Devoted : When activated, shows you the auras of distant Survivors (specifically the ones with the fewest hook stages among those that are currently beyond 32 meters). This can reveal multiple Survivors if they're tied on hook stages (for example, they both have zero hook stages). On most other Killers this effect would be very mediocre, but the Judgment's insane ability to injure Survivors from afar makes this aura reading extremely powerful and a constant threat throughout the entire match. Survivors revealed will often be working on generators or doing other actions (like healing someone else) which leave them vulnerable and might often result in multiple hits at once. Keep in mind that this effect triggers when you exile a Survivor that has the fewest hook stages in the team (you can see their hook stages next to their portrait in the HUD). If multiple Survivors are tied, any of them will count towards activating this add-on. It's important to understand that when triggered, this add-on will ignore any Survivors within 32 meters of you. That means that it can actually reveal Survivors that have more hook stages than their team mates if they're unlucky enough to he be only ones far away from you.",
+            "description": "\"Those who follow Gerhardt's path shall wear blindfolds, to remember the sacrifice he made for his prophecy.\" — (III On Heresy, ch. 61) Sending a Survivor to the Exile with the lowest amount of Hook States reveals the auras of all other Survivors with the lowest amount of Hook States outside 32 metres for 5 seconds.",
+            "localMatch": null
+          },
+          {
+            "rank": 2,
+            "tierBucket": "good",
+            "name": "Aurora's Telereceptor",
+            "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/judgement/aurorastelereceptor.png",
+            "otzComment": "Aurora's Telereceptor : Any Survivor that gains Heresy has their aura revealed to you for a brief duration (and vice-versa too). This typically happens when you hit them with a Divine Light pillar but can also trigger from other sources. The add-on also has a downside that allows heretic Survivors to see your aura for +2 seconds longer (which you can turn into a disadvantage with the perk Deerstalker). Overall, it's a nice and easy-to-trigger way to gain some information during normal gameplay but not the absolute best information add-on available, especially when compared to the blue Blindfold of the Devoted. Running it with Deerstalker is quite a powerful idea, since you can often see a Survivor for long enough to snipe them with a follow-up pillar (this is particularly useful when you're in Zealous mode which provides a shorter cooldown and more control over your pillar so it's harder to dodge). Try this combo if you're an advanced player that's good at micro-adjusting the path of the Divine Light pillar already. If you're really good at perfectly placing your pillar on top of them, the fact that Survivors can see your aura too will not be such a huge deal anyway.",
+            "description": "\"None should stare into the abyss with the wretched devices made by the heretics.\" — (III On Heresy, ch. 12) Survivors who gain Heresy have their aura revealed for 4 seconds. They also see your aura for 4 seconds. Heretics see your aura for +2 seconds longer.",
+            "localMatch": null
+          },
+          {
+            "rank": 3,
+            "tierBucket": "good",
+            "name": "Magnetised Manacles",
+            "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/judgement/magnetisedmanacles.png",
+            "otzComment": "Magnetised Manacles : Extends the duration of Zealous mode, which carries several benefits that make your power deadlier (and that can enhance certain other add-ons). This add-on works when you exile a Survivor that has the fewest hook stages in the team (you can see their hook stages next to their portrait in the HUD). If multiple Survivors are tied, any of them will count towards activating this add-on. Each trigger will give you a permanent +10% duration to your Zealous mode, making it last an extra 30 seconds if you trigger it the maximum amount of 5 times. Even with some bad luck, you'll still likely get at least a couple stracks which is still great value. Experienced Judgment players will appreciate how valuable it is to constantly remain in Zealous mode. If you're constantly sending people to exile this add-on can feel slightly redundant, but at that point you'll likely already be winning the game anyway.",
+            "description": "\"Those who do not go into hiding will be locked deep underground, far from the guiding light of the stars.\" — (Visions of Gerhardt, ch. 6) Gain +1 Token when you send a Survivor with the lowest amount of Hook States to the Exile, up to 5 Tokens. For each token, increase the duration of Zealous when activated by +10 %",
+            "localMatch": null
+          },
+          {
+            "rank": 4,
+            "tierBucket": "good",
+            "name": "Mark of the Adherent",
+            "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/judgement/markoftheadherent.png",
+            "otzComment": "Mark of the Adherent : Increases the radius of your Divine Light pillars by +10% when not in Zealous mode, which is the same bonus as you get when you're in Zealous mode normally. This makes your pillars consistently the same size in both modes and is an overall very safe choice for a player of any level.",
+            "description": "\"Wear your faith proudly and permanently. Let it be a reminder to others that It is always present.\" — (II On Heresy, ch. 1) While not Zealous, Divine Light's radius is +10 % larger.",
+            "localMatch": null
+          },
+          {
+            "rank": 5,
+            "tierBucket": "good",
+            "name": "Prayer Kneeler",
+            "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/judgement/prayerkneeler.png",
+            "otzComment": "Prayer Kneeler : A great choice for people struggling to learn this Killer and that want an easier method of using its power. This add-on simplifies this Killer's power at the cost of removing certain depth from it. Instead of constantly moving away from you, your Divine Light will get stuck and stay in place if it hits an obstacle during the casting animation. This makes it significantly easier to control this power and cast it at a nearby Survivor.",
+            "description": "\"Suffer the pain of prayer, for the suffering of unbelievers is far worse.\" — (II On Heresy, ch. 8) While controlling an obstructed Divine Light: Decrease its maximum speed by -99 %.",
+            "localMatch": null
+          },
+          {
+            "rank": 6,
+            "tierBucket": "good",
+            "name": "Crown of the Destroyer",
+            "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/judgement/crownofthedestroyer.png",
+            "otzComment": "Crown of the Destroyer : NOTE: MORE TESTING ON MY PART IS NEEDED TO ACCURATELY PLACE THIS ADD-ON. THIS IS PROVISIONAL RANKING. Whenever you send a Survivor into exile, you become Undetectable and project a smaller version of your terror radius to all the shrine statues that are scattered across the map. It's a fun effect that can help you confuse Survivors and find your next chase a bit sooner.",
+            "description": "\"The Creators saw this and bestowed upon It a crown and said, use this to bring light to the darkness.\" — (I Barbarians, ch. 6) When a Survivor is rescued from the Exile, for 20 seconds: Your Terror Radius is reduced by -70 %. Your Terror Radius is copied to all Shrines of Judgment. Grants the Undetectable Status Effect.",
+            "localMatch": null
+          },
+          {
+            "rank": 7,
+            "tierBucket": "good",
+            "name": "Electric Torch",
+            "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/judgement/electrictorch.png",
+            "otzComment": "Electric Torch : Increases the speed at which you place the Divine Light before casting it and also your own movement speed while doing so by a little bit. This effect is powerful in theory (and makes it far easier and faster to reach distant targets at a moment's notice) but it also indirectly makes your power slightly harder to control, since the Divine Light will move away from you noticeably quicker. Not recommended for beginners due to its risky nature but feel free to use it if you know what you're doing. Builds with tons of aura-revealing perks will benefit the most from using this add-on. You can also pair it with the Prayer Kneeler if you don't want to deal with the main downside.",
+            "description": "\"The faithful shall go out in great numbers at night, searching for the heretics who hide in the dark.\" — (Witness to Koenrad, ch. 40) Increases the maximum speed of the controlled Divine Light by +25 %. Increases movement speed while controlling Divine Light by +10 %.",
+            "localMatch": null
+          },
+          {
+            "rank": 8,
+            "tierBucket": "decent",
+            "name": "Confessor's War Horn",
+            "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/judgement/confessorswarhorn.png",
+            "otzComment": "Confessor's War Horn : Applies a decent 10 seconds of Exhaustion to any Survivor that gains Heresy by any means, including being hit by your power, taunting you with repeated crouching or even the effects of other add-ons. It's not a terrible effect but with experience you will notice that the Judgment is not as bothered by exhaustion perks as some other Killers that lack range. You might want to use another add-on that helps you land your pillars more consistently instead.",
+            "description": "\"The sound of the horn shall strike fear into the hearts of unbelievers and muster the will of the faithful.\" — (Witness to Koenrad, ch. 33) Survivors who gain Heresy are inflicted Exhausted Status Effect for 10 seconds.",
+            "localMatch": null
+          },
+          {
+            "rank": 9,
+            "tierBucket": "decent",
+            "name": "Improvised Detonators",
+            "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/judgement/improviseddetonators.png",
+            "otzComment": "Improvised Detonators : This add-on gains a token when you exile a Survivor that has the fewest hook stages in the team (you can see their hook stages next to their portrait in the HUD). If multiple Survivors are tied, any of them will count towards activating this add-on. As an example, sending a Survivor to exile at the start of the game will grant a token (since everyone is tied for zero hook stages at that point). This add-on will begin to trigger on your 4th token (and 5th, 6th, etc...) but only if all Survivors are still alive. Each activation will make the most progressed generator explode, losing 20% of progress and starting to regress afterwards (although this explosion sadly does not create a notification for you). This is a really nice effect, and if you notice it happening nearby it can provide indirect information since you'll know that there's no other gens that had higher progress than that one. The main issue comes from the fact that while your first few tokens are easy to get, the last one can be really difficult to obtain unless you're already in a very comfortable winning position. For that reason, this add-on can sometimes feel like a \"win more\" that only helps when you're already doing well.",
+            "description": "\"Like cowards, they strike with bombs in the night, afraid to let the light of day illuminate their blackened souls.\" — (Witness to Koenrad, ch. 35) If no Survivors are dead, sending a Survivor with the lowest amount of Hook States to the Exile grants +1 Token. Reaching 4 Tokens or more causes the Generator with the highest progress to explode, lose -20 % progress and start regressing.",
+            "localMatch": null
+          },
+          {
+            "rank": 10,
+            "tierBucket": "decent",
+            "name": "Holy Winged Icon",
+            "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/judgement/holywingedicon.png",
+            "otzComment": "Holy Winged Icon : Enables an alternative way of controlling your Divine Light by making it return back to you when you press the active ability button. Unfortunately, the minimum distance required to damage someone with this alternative type of pillar is very demanding and requires you to line it up very carefully. This add-on also doesn't damage non-heretic Survivors and only gives them Heresy instead if it hits them (which could trigger things such as Exhaustion from the green Confessor's Warn Horn). Your general idea with this add-on is to play normally until you apply Heresy with a pillar on someone and then continue to play normally unless you see a great opportunity to utilize it (for example if you notice a Survivor locking themselves in the animation of dropping a pallet while you're holding your pillar behind them). Perhaps not the absolute best add-on, but it adds some interesting depth to your gameplay and it's overall quite fun without having any downside. Just make sure that you're not using it mindlessly and save it for the right situations.",
+            "description": "\"Clutch it to your chest and pray, lest your heart appear untrue to It.\" — (II On Heresy, ch. 14) While casting Divine Light, press the Secondary Power button to cast it back towards your location. When cast this way: Minimum delay before it deals damage and inflicts Heresy is set to 0.4 seconds. Increase its maximum speed by +10 %. It only damages Heretics",
+            "localMatch": null
+          },
+          {
+            "rank": 11,
+            "tierBucket": "decent",
+            "name": "Superheated Glass",
+            "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/judgement/superheatedglass.png",
+            "otzComment": "Superheated Glass : During Zealous mode, your pillars can now destroy pallets and breakable walls on their path. Doing this also makes nearby Survivors scream and gain Heresy. This is a nice effect that lets you clean up the map and enables some fun strategies in chase. However, it does come with the unfortunate downside of reducing the Zealous mode timer by about 12 seconds.",
+            "description": "\"The planet of Aleide was unrepentant; after their leader was Exiled, Its Divine Light turned the surface to glass.\" — (II Barbarians, ch. 12) Decreases the duration of Zealous by -20 %. While Zealous, a cast Divine Light breaks all Breakable Walls and Pallets it passes through. Breaking an object this way causes Survivors within 12 metres to scream and gain Heresy.",
+            "localMatch": null
+          },
+          {
+            "rank": 12,
+            "tierBucket": "decent",
+            "name": "Order of Inquisition",
+            "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/judgement/orderofinquisition.png",
+            "otzComment": "Order of Inquisition : Your Divine Light radius becomes dynamic; it starts out -25% smaller but quickly grows over time to become +50% larger than usual. This effect is not noticeable at medium range but becomes really powerful towards the end of your pillar's path, making it much easier to hit Survivors at a distance. However, the smaller initial radius makes your power very unreliable at close distances and when casting a pillar near a Survivor, which is something that you'll be forced to do from time to time. This downside makes this add-on quite a dangerous choice, but feel free to use it if you know what you're doing and want to focus entirely on long-distance casts.",
+            "description": "\"All those who believe in Its glory are deputized to search for heretics. Trust not even your own neighbor.\" — (Witness to Koenrad, ch. 16) When Divine Light is cast, its radius starts -25 % smaller, but grows +50 % larger over a period of 1 second.",
+            "localMatch": null
+          },
+          {
+            "rank": 13,
+            "tierBucket": "almost-no-effect",
+            "name": "Koenrad's Gauntlet",
+            "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/judgement/koenradsgauntlet.png",
+            "otzComment": "Koenrad's Gauntlet : Makes your power easier to handle by giving you extra time to control your cast and lowering its speed. It's a small but helpful effect when you're still learning how to use this Killer's power. However, the lower speed makes it harder to cast a distant pillar quickly and essentially slows down your ability to hit distant targets at a moment's notice. For that reason, you'll probably want to stop using this add-on as you become more experienced. If you pair it with the brown Prayer Kneeler you can benefit from the longer control time and have a bit more time to line up the pillar, if you want.",
+            "description": "\"When darkness threatened to swallow his flock, he led them towards the light.\" — (Witness to Koenrad, ch. 1) Increases the maximum control duration of Divine Light by +25 %. Decreases the maximum speed of controlled Divine Light by -10 %",
+            "localMatch": null
+          },
+          {
+            "rank": 14,
+            "tierBucket": "almost-no-effect",
+            "name": "Eyes of Gerhardt",
+            "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/judgement/eyesofgerhardt.png",
+            "otzComment": "Eyes of Gerhardt : Reveals the aura of all Survivors with Heresy anytime one of them does one of several actions (completing a generator, opening an exit gate or coming out of a locker). Unfortunately, these specific actions are too rare and limited for this add-on to trigger frequently. Even when it does trigger, there's a good chance that you won't have enough Survivors with Heresy to truly benefit from the information that it provides. Since it's not very common to have multiple Survivors with Heresy lost around the map, you can sometimes go entire matches where this add-on gives you useless information or no information at all. If you want more consistent aura reading, try the blue Blindfold of the Devoted or the green Aurora's Telereceptor.",
+            "description": "\"He rapturously tore the eyes from his face after seeing such brilliant visions of the future.\" — (II Barbarians, ch. 60) When a Heretic completes a Generator, opens an Exit Gate or exits a Locker, all Heretics have their aura revealed for 5 seconds.",
+            "localMatch": null
+          },
+          {
+            "rank": 15,
+            "tierBucket": "almost-no-effect",
+            "name": "Heretic's Mark",
+            "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/judgement/hereticsmark.png",
+            "otzComment": "Heretic's Mark : Increases the distance at which you'll detect Survivors if your Divine Light nearly misses them. The description seems to suggest that this add-on also increases the Killer Instinct reveal time, but it actually doesn't. This is a safe add-on choice for a beginner if they have nothing else, but it is otherwise really not that useful.",
+            "description": "\"Those who stray from the path shall never escape ostracization once they received the mark.\" — (III On Heresy, ch. 3) When a cast Divine Light passes a Survivor within 1 metre without hitting them, they are revealed by Killer Instinct for 2 seconds.",
+            "localMatch": null
+          },
+          {
+            "rank": 16,
+            "tierBucket": "almost-no-effect",
+            "name": "Searcher's Skull",
+            "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/judgement/searchersskull.png",
+            "otzComment": "Searcher's Skull : Survivors blinding you with a flashlight (or other methods) will gain Heresy (and get blinded themselves if they were already heretic). Gaining Heresy allows you to immediately send them to exile and has some other minor downsides but it's generally not a very impactful thing when triggered by this add-on, since you're already gonna be applying Heresy to them with your main power. Most of the times, this add-on will do absolutely nothing but you can try running it for fun if you notice several flashlights in the lobby.",
+            "description": "\"The skulls of the heretics shall be cleaned and displayed as a warning to others who might stray from the light.\" — (Witness to Koenrad, ch. 33) When a Survivor blinds you: The Survivor gains Heresy. If the Survivor is a Heretic, they become blinded themselves for 2.5 seconds.",
+            "localMatch": null
+          },
+          {
+            "rank": 17,
+            "tierBucket": "detrimental",
+            "name": "Obsidian Feather",
+            "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/judgement/obsidianfeather.png",
+            "otzComment": "Obsidian Feather : Massively increases your movement speed when holding your Divine Light, making you move much faster than normal and quickly gain distance. However, this add-on has several small downsides and a very noticeable big one; you cannot cancel or choose when to cast your pillar, instead it will cast automatically at the end of your holding animation. The speed from this add-on is genuinely very useful and it can somewhat work in your favor if you are very adept at controlling it. You can pair it with the brown Prayer Kneeler if you want to make your automatic pillar of light a bit easier to manage.",
+            "description": "\"Some villagers will carve feathers from rocks, hoping that their faith might protect them.\" — (Visions of Gerhardt, ch. 3) You can no longer cancel nor manually cast the controlled Divine Light and it is automatically cast when it would instead time out. Increases movement speed while controlling Divine Light by +100 %. Decreases the maximum amount of time you can control Divine Light for by -25 %. Increases the recovery time after casting Divine Light by +10 %. Decreases the movement speed while recovering after casting Divine Light by -30 %.",
+            "localMatch": null
+          },
+          {
+            "rank": 18,
+            "tierBucket": "detrimental",
+            "name": "Undying Flame",
+            "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/judgement/undyingflame.png",
+            "otzComment": "Undying Flame : During Zealous mode, this add-on increases the maximum travel time of your Divine Light when you cast it, making it go pretty much across the entire map. This might seem attractive but Survivors can also see the outline of the pillar from much further than usual. On top of that, this add-on makes your pillar -20% narrower which is an absolutely atrocious downside (even if it only happens when Zealous). There's almost no reason to ever run this add-on, especially when you consider that you can you easily hit distant targets by placing the pillar far away from you first. Consider using add-ons to extend your Zealous mode or the blue Electric Torch if you want to focus on long range casts. Remember that outside of Zealous mode (when your range is naturally more limited) this add-on does nothing.",
+            "description": "\"The village of Dend was repentant in its last moments, but its remnants still burn to this day as a warning.\" — (II Barbarians, ch. 4) While Zealous: Increase the duration of the cast Divine Light by +200 %. Decrease the radius of Divine Light by -20 %. Increase Survivor Divine Light aura reading range by +200 %.",
+            "localMatch": null
+          },
+          {
+            "rank": 19,
+            "tierBucket": "detrimental",
+            "name": "Mirror of the Creators",
+            "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/judgement/mirrorofthecreators.png",
+            "otzComment": "Mirror of the Creators : Changes the behaviour of your cast pillars, making them bounce off surfaces (with a small delay) instead of going through walls. This is a really chaotic and fun effect, since the bouncing of the pillars feels very random and it can hit Survivors in unexpected ways. However, this is generally a massive downside to the regular pillars and their ability to ignore obstacles. When using this add-on, you'll need to be careful and not cast the Divine Light right in front of an obstacle. If you want something to help you spawn it further easily, try pairing with the blue Electric Torch.",
+            "description": "\"And They said unto It, take this mirror, and show them the error of their ways.\" — (I Barbarians, ch. 6) Cast Divine Light reflects off the first 2 obstructions it would otherwise pass through. When reflecting, it pauses for 0.4 seconds before reflecting again.",
+            "localMatch": null
+          },
+          {
+            "rank": 20,
+            "tierBucket": "detrimental",
+            "name": "Chains of the Heretic",
+            "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/judgement/chainsoftheheretic.png",
+            "otzComment": "Chains of the Heretic : This add-on transforms your power completely when entering Zealous mode, turning your Divine Light into a reverse slingshot during its entire duration. This new type of Divine Light can be occasionally useful in chase but being completely forced into it removes a lot of this Killer's potential to damage Survivors from afar. Since the pillar always comes at you no matter what, you also cannot curve it by moving your camera (which is normally possible to do when you're in Zealous mode). If you want a similar effect without this awful downside, consider using the blue Holy Winged Icon instead.",
+            "description": "\"Examples shall be made of the loudest apostates. They shall be dragged through the streets in chains.\" — (Witness to Koenrad, ch. 41) While Zealous: Cast Divine Light will always be directed towards you. Minimum delay before cast Divine Light deals damage and inflicts Heresy is set to 0.35 seconds. Increases the maximum speed of controlled Divine Light by +100 %. Increases the maximum speed of cast Divine Light by +50 %.",
+            "localMatch": null
+          }
+        ],
+        "combos": [
+          {
+            "tier": "best",
+            "label": "Best Combo",
+            "addonRanks": [
+              1,
+              2
+            ],
+            "addons": [
+              {
+                "rank": 1,
+                "name": "Blindfold of the Devoted",
+                "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/judgement/blindfoldofthedevoted.png",
+                "localMatch": null
+              },
+              {
+                "rank": 2,
+                "name": "Aurora's Telereceptor",
+                "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/judgement/aurorastelereceptor.png",
+                "localMatch": null
+              }
+            ]
+          },
+          {
+            "tier": "solid",
+            "label": "Solid Combo",
+            "addonRanks": [
+              1,
+              3
+            ],
+            "addons": [
+              {
+                "rank": 1,
+                "name": "Blindfold of the Devoted",
+                "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/judgement/blindfoldofthedevoted.png",
+                "localMatch": null
+              },
+              {
+                "rank": 3,
+                "name": "Magnetised Manacles",
+                "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/judgement/magnetisedmanacles.png",
+                "localMatch": null
+              }
+            ]
+          },
+          {
+            "tier": "good",
+            "label": "Good Combo",
+            "addonRanks": [
+              4,
+              5
+            ],
+            "addons": [
+              {
+                "rank": 4,
+                "name": "Mark of the Adherent",
+                "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/judgement/markoftheadherent.png",
+                "localMatch": null
+              },
+              {
+                "rank": 5,
+                "name": "Prayer Kneeler",
+                "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/judgement/prayerkneeler.png",
+                "localMatch": null
+              }
+            ]
+          },
+          {
+            "tier": "fun",
+            "label": "Fun Combo",
+            "addonRanks": [
+              17,
+              5
+            ],
+            "addons": [
+              {
+                "rank": 17,
+                "name": "Obsidian Feather",
+                "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/judgement/obsidianfeather.png",
+                "localMatch": null
+              },
+              {
+                "rank": 5,
+                "name": "Prayer Kneeler",
+                "imageUrl": "https://otz-addon-tierlist.pages.dev/public/addons/judgement/prayerkneeler.png",
+                "localMatch": null
+              }
+            ]
+          }
+        ]
       }
     ],
     "stats": {
-      "killerCount": 43,
-      "addonCount": 860,
-      "comboCount": 172,
+      "killerCount": 44,
+      "addonCount": 880,
+      "comboCount": 176,
       "matchedAddonCount": 860,
-      "unmatchedAddonCount": 0,
-      "unmatchedAddonSample": []
+      "unmatchedAddonCount": 20,
+      "unmatchedAddonSample": [
+        {
+          "name": "Blindfold of the Devoted",
+          "tierBucket": "strongest"
+        },
+        {
+          "name": "Aurora's Telereceptor",
+          "tierBucket": "good"
+        },
+        {
+          "name": "Magnetised Manacles",
+          "tierBucket": "good"
+        },
+        {
+          "name": "Mark of the Adherent",
+          "tierBucket": "good"
+        },
+        {
+          "name": "Prayer Kneeler",
+          "tierBucket": "good"
+        },
+        {
+          "name": "Crown of the Destroyer",
+          "tierBucket": "good"
+        },
+        {
+          "name": "Electric Torch",
+          "tierBucket": "good"
+        },
+        {
+          "name": "Confessor's War Horn",
+          "tierBucket": "decent"
+        },
+        {
+          "name": "Improvised Detonators",
+          "tierBucket": "decent"
+        },
+        {
+          "name": "Holy Winged Icon",
+          "tierBucket": "decent"
+        },
+        {
+          "name": "Superheated Glass",
+          "tierBucket": "decent"
+        },
+        {
+          "name": "Order of Inquisition",
+          "tierBucket": "decent"
+        },
+        {
+          "name": "Koenrad's Gauntlet",
+          "tierBucket": "almost-no-effect"
+        },
+        {
+          "name": "Eyes of Gerhardt",
+          "tierBucket": "almost-no-effect"
+        },
+        {
+          "name": "Heretic's Mark",
+          "tierBucket": "almost-no-effect"
+        },
+        {
+          "name": "Searcher's Skull",
+          "tierBucket": "almost-no-effect"
+        },
+        {
+          "name": "Obsidian Feather",
+          "tierBucket": "detrimental"
+        },
+        {
+          "name": "Undying Flame",
+          "tierBucket": "detrimental"
+        },
+        {
+          "name": "Mirror of the Creators",
+          "tierBucket": "detrimental"
+        },
+        {
+          "name": "Chains of the Heretic",
+          "tierBucket": "detrimental"
+        }
+      ]
     }
   },
   "builds": {
@@ -21434,7 +21878,7 @@ var COMMUNITY_CONTENT = {
         "role": "killer",
         "name": "The Unknown",
         "iconUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/5/51/K35_TheUnknown_Portrait.png",
-        "unlockPriority": 280,
+        "unlockPriority": 308,
         "licensed": false,
         "difficulty": "High Difficulty",
         "cost": "500 AC / 9,000 IS",
@@ -21930,6 +22374,48 @@ var COMMUNITY_CONTENT = {
             "belongsTo": "Killer",
             "value": 56,
             "iconUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/4/4c/IconPerks_terminus.png"
+          }
+        ]
+      },
+      {
+        "id": "7d6687bb-1a83-449b-8d24-d8b9d77a7fca",
+        "role": "killer",
+        "name": "The Judgment",
+        "iconUrl": "https://deadbydaylight.wiki.gg/images/K44_TheJudgment_Portrait.png",
+        "unlockPriority": 280,
+        "licensed": false,
+        "difficulty": "High Difficulty",
+        "cost": "500 AC / 9,000 IS",
+        "availableIn": "\"Chorus of Sin\" DLC",
+        "speed": "4.4 m/s (110%)",
+        "terrorRadius": "32m",
+        "stealth": "",
+        "loudnessHealthy": "",
+        "loudnessInjured": "",
+        "mostRecentGuideUrl": "",
+        "addOnBreakdownUrl": "https://otz-addon-tierlist.pages.dev",
+        "otzComment": "The Judgment is a low-mobility Killer that can still pressure Survivors from afar with its projected pillars of light. Launching these pillars towards distant Survivors is simple enough (especially if their aura is being revealed) but using the power from up close is significantly more challenging. Keep in mind that its ability to banish Survivors into the exile (instead of hooking) provides many advantages but also makes it harder to use some common hook-related perks.\n---\nThe Judgment is easily one of the absolute hardest Killers in the game to master for beginners and even intermediate players. Its perks are also not a very high priority for beginners since they can be somewhat replaced by other similar perks that you might've already unlocked on other Killers. That being said, the perks themselves aren't too bad. Celestial Witness provides a consistent source of aura reading and Obsession-switching. Hex: Under Your Thumb can help mitigate the effect of haste perks, which are very common. Lay Waste provides a nasty little extra bit of gen regression and can be useful as part of a gen-kicking build.",
+        "perks": [
+          {
+            "id": "49d6b8bc-776a-49dd-93c8-69fd7dcb99f1",
+            "name": "Celestial Witness",
+            "belongsTo": "Killer",
+            "value": 444,
+            "iconUrl": "https://deadbydaylight.wiki.gg/images/T_UI_iconsPerks_CelestialWitness.png"
+          },
+          {
+            "id": "4e951195-476d-4011-8e9b-0b749ab991a4",
+            "name": "Hex: Under Your Thumb",
+            "belongsTo": "Killer",
+            "value": 444,
+            "iconUrl": "https://deadbydaylight.wiki.gg/images/T_UI_iconsPerks_HexUnderYourThumb.png"
+          },
+          {
+            "id": "c30c01f4-3e0c-4d69-9900-d24ad7a979af",
+            "name": "Lay Waste",
+            "belongsTo": "Killer",
+            "value": 444,
+            "iconUrl": "https://deadbydaylight.wiki.gg/images/T_UI_iconsPerks_LayWaste.png"
           }
         ]
       },
@@ -22496,7 +22982,7 @@ var COMMUNITY_CONTENT = {
         "loudnessInjured": "",
         "mostRecentGuideUrl": "https://youtu.be/6XVtz1SL7HM?si=pPKwW31HykEKaPme&t=3468",
         "addOnBreakdownUrl": "https://otz-addon-tierlist.pages.dev",
-        "otzComment": "The Nemesis has a powerful short-range attack that grows stronger and more oppressive as the match goes on. Players that can manage a lot of information at once and adapt quickly will make the most out of his abilities.\n---\nNemesis has a fairly complex tentacle attack that isn't always intuitive for beginners, but his zombies provide a nice passive slowdown that can still help even when you're still learning him. However, you might want to unlock him for his perk Lethal Pursuer (which gives amazing tracking at the start of the match that ensures that you'll find and disrupt multiple Survivors at once. You might also find some value in Eruption, which can help you damage generators multiple times.",
+        "otzComment": "The Nemesis has a powerful short-range attack that grows stronger and more oppressive as the match goes on. Players that can manage a lot of information at once and adapt quickly will make the most out of his abilities.\n---\nNemesis has a fairly complex tentacle attack that isn't always intuitive for beginners, but his zombies provide a nice passive slowdown that can still help even when you're still learning him. However, you might want to unlock him for his perk Lethal Pursuer which gives amazing tracking at the start of the match and makes it easier to disrupt multiple Survivors at once You might also find some value in Eruption, which can help you damage generators multiple times.",
         "perks": [
           {
             "id": "71881240-c7df-4a24-9f5d-407338399d61",
@@ -23826,6 +24312,48 @@ var COMMUNITY_CONTENT = {
         ]
       },
       {
+        "id": "76117054-659c-4ebe-9dc6-562d26136277",
+        "role": "survivor",
+        "name": "Aurora Stardotter",
+        "iconUrl": "https://deadbydaylight.wiki.gg/images/S54_AuroraStardotter_Portrait.png",
+        "unlockPriority": 319,
+        "licensed": null,
+        "difficulty": "",
+        "cost": "500 AC / 9,000 IS",
+        "availableIn": "\"Chorus of Sin\" DLC",
+        "speed": "",
+        "terrorRadius": "",
+        "stealth": "Medium",
+        "loudnessHealthy": "Medium",
+        "loudnessInjured": "Medium",
+        "mostRecentGuideUrl": "",
+        "addOnBreakdownUrl": "",
+        "otzComment": "Aurora is not a very high priority for beginners since her perks hold more value for advanced players that are comfortable taking chase and being close to the action. Fruits of your Labor allows you to have multiple bursts of speed and healing progress if you finish a generator yourself. Boon: Steadfast can diminish the effects of Ruin and other forms of regression. Salvation's Cry gives nice info to your team when you're in chase.",
+        "perks": [
+          {
+            "id": "5d6d9f9f-fda7-42e8-96aa-1d62a3a71914",
+            "name": "Boon: Steadfast",
+            "belongsTo": "Survivor",
+            "value": 222,
+            "iconUrl": "https://deadbydaylight.wiki.gg/images/T_UI_iconsPerks_BoonSteadfast.png"
+          },
+          {
+            "id": "018a5f14-a008-418d-8aeb-d16daaf96812",
+            "name": "Fruits of Your Labor",
+            "belongsTo": "Survivor",
+            "value": 444,
+            "iconUrl": "https://deadbydaylight.wiki.gg/images/T_UI_iconsPerks_FruitsOfYourLabor.png"
+          },
+          {
+            "id": "f8a02036-9f1e-4b5c-a19a-e757fc76995f",
+            "name": "Salvation's Cry",
+            "belongsTo": "Survivor",
+            "value": 444,
+            "iconUrl": "https://deadbydaylight.wiki.gg/images/T_UI_iconsPerks_SalvationsCry.png"
+          }
+        ]
+      },
+      {
         "id": "815839d0-d937-4363-bf3a-9e4535dd703e",
         "role": "survivor",
         "name": "Adam Francis",
@@ -24801,6 +25329,13 @@ var COMMUNITY_CONTENT = {
         "iconUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/d/d9/IconPerks_tinkerer.png"
       },
       {
+        "id": "018a5f14-a008-418d-8aeb-d16daaf96812",
+        "name": "Fruits of Your Labor",
+        "belongsTo": "Survivor",
+        "value": 444,
+        "iconUrl": "https://deadbydaylight.wiki.gg/images/T_UI_iconsPerks_FruitsOfYourLabor.png"
+      },
+      {
         "id": "02597743-06f8-4240-9fc9-044daf6380a5",
         "name": "Overcome",
         "belongsTo": "Survivor",
@@ -25389,6 +25924,13 @@ var COMMUNITY_CONTENT = {
         "iconUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/a/aa/IconPerks_hubris.png"
       },
       {
+        "id": "49d6b8bc-776a-49dd-93c8-69fd7dcb99f1",
+        "name": "Celestial Witness",
+        "belongsTo": "Killer",
+        "value": 444,
+        "iconUrl": "https://deadbydaylight.wiki.gg/images/T_UI_iconsPerks_CelestialWitness.png"
+      },
+      {
         "id": "49eac31e-b5ec-4d96-94a0-bf0dc92b4b81",
         "name": "Hex: Undying",
         "belongsTo": "Killer",
@@ -25422,6 +25964,13 @@ var COMMUNITY_CONTENT = {
         "belongsTo": "Survivor",
         "value": 444,
         "iconUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/9/97/IconPerks_secondWind.png"
+      },
+      {
+        "id": "4e951195-476d-4011-8e9b-0b749ab991a4",
+        "name": "Hex: Under Your Thumb",
+        "belongsTo": "Killer",
+        "value": 444,
+        "iconUrl": "https://deadbydaylight.wiki.gg/images/T_UI_iconsPerks_HexUnderYourThumb.png"
       },
       {
         "id": "4ec5b0a3-6dca-47cc-8c1c-b42fac8f3823",
@@ -25604,6 +26153,13 @@ var COMMUNITY_CONTENT = {
         "belongsTo": "Killer",
         "value": 688,
         "iconUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/b/b3/IconPerks_friendsTilTheEnd.png"
+      },
+      {
+        "id": "5d6d9f9f-fda7-42e8-96aa-1d62a3a71914",
+        "name": "Boon: Steadfast",
+        "belongsTo": "Survivor",
+        "value": 222,
+        "iconUrl": "https://deadbydaylight.wiki.gg/images/T_UI_iconsPerks_BoonSteadfast.png"
       },
       {
         "id": "5db55b8b-126e-4a9e-b97e-12771176fed9",
@@ -26355,6 +26911,13 @@ var COMMUNITY_CONTENT = {
         "iconUrl": "https://deadbydaylight.wiki.gg/images/T_UI_iconsPerks_CrossExamination.png"
       },
       {
+        "id": "c30c01f4-3e0c-4d69-9900-d24ad7a979af",
+        "name": "Lay Waste",
+        "belongsTo": "Killer",
+        "value": 444,
+        "iconUrl": "https://deadbydaylight.wiki.gg/images/T_UI_iconsPerks_LayWaste.png"
+      },
+      {
         "id": "c3898c46-ba29-446f-a756-c1830b483b14",
         "name": "Bamboozle",
         "belongsTo": "Killer",
@@ -26908,6 +27471,13 @@ var COMMUNITY_CONTENT = {
         "iconUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/4/46/IconPerks_vigil.png"
       },
       {
+        "id": "f8a02036-9f1e-4b5c-a19a-e757fc76995f",
+        "name": "Salvation's Cry",
+        "belongsTo": "Survivor",
+        "value": 444,
+        "iconUrl": "https://deadbydaylight.wiki.gg/images/T_UI_iconsPerks_SalvationsCry.png"
+      },
+      {
         "id": "f935cec3-6415-438a-970e-bb86c4a00f46",
         "name": "Corrupt Intervention",
         "belongsTo": "Killer",
@@ -26972,9 +27542,9 @@ var COMMUNITY_CONTENT = {
       }
     ],
     "stats": {
-      "killerCount": 43,
-      "survivorCount": 53,
-      "perkCount": 311,
+      "killerCount": 44,
+      "survivorCount": 54,
+      "perkCount": 317,
       "killerPriorityRange": {
         "min": 1,
         "max": 999
@@ -26993,7 +27563,7 @@ var COMMUNITY_CONTENT = {
         "id": "19e2c37e-823a-4bd7-89b5-e9c37fbf5eeb",
         "title": "All Tiles Explained Guide",
         "description": "All common tiles & map structures explained, useful for both sides.",
-        "imageUrl": "https://otzdarva.com/[object%20Object]",
+        "imageUrl": "",
         "url": "https://www.youtube.com/watch?v=E5QWNS14MS0",
         "sourceType": "video"
       },
@@ -27001,7 +27571,7 @@ var COMMUNITY_CONTENT = {
         "id": "3ed619f4-08b2-468c-84ec-3f35ed56f3d0",
         "title": "Survivor Beginner Guide",
         "description": "Survivor basics for every Killer & situation",
-        "imageUrl": "https://otzdarva.com/[object%20Object]",
+        "imageUrl": "",
         "url": "https://youtu.be/zbX0b8S9njQ",
         "sourceType": "video"
       },
@@ -27009,7 +27579,7 @@ var COMMUNITY_CONTENT = {
         "id": "c0752e71-2e41-4656-9625-bae7afd6a98a",
         "title": "Survivor Beginner Perks",
         "description": "Learn how to use the basic Survivor perks",
-        "imageUrl": "https://otzdarva.com/[object%20Object]",
+        "imageUrl": "",
         "url": "https://youtu.be/9dOJbQeN14w",
         "sourceType": "video"
       },
@@ -27017,7 +27587,7 @@ var COMMUNITY_CONTENT = {
         "id": "c2957d32-1413-4884-bfea-314d8a505ab8",
         "title": "Beginner Killer Guide",
         "description": "Learn the basics of playing Killer.",
-        "imageUrl": "https://otzdarva.com/[object%20Object]",
+        "imageUrl": "",
         "url": "https://www.youtube.com/watch?v=4RekOHmFzb4&t=1s",
         "sourceType": "video"
       },
@@ -27025,7 +27595,7 @@ var COMMUNITY_CONTENT = {
         "id": "c4b418f0-1fb0-47a8-ba46-10c2f7954c40",
         "title": "Intermediate Killer Guide",
         "description": "Guide with advice for intermediate or returning Killers.",
-        "imageUrl": "https://otzdarva.com/[object%20Object]",
+        "imageUrl": "",
         "url": "https://www.youtube.com/watch?v=dKQXO7yFbLA",
         "sourceType": "video"
       }
@@ -27076,7 +27646,7 @@ var COMMUNITY_CONTENT = {
         "dateIso": "2025-10-14T22:00:00.000Z",
         "category": "1",
         "categoryLabel": "Killer Focus",
-        "imageUrl": "https://otzdarva.com/[object%20Object]",
+        "imageUrl": "",
         "url": "https://youtu.be/22GLsHL1hGU",
         "sourceType": "video"
       },
@@ -27089,7 +27659,7 @@ var COMMUNITY_CONTENT = {
         "dateIso": "2024-01-18T23:00:00.000Z",
         "category": "3",
         "categoryLabel": "General",
-        "imageUrl": "https://otzdarva.com/[object%20Object]",
+        "imageUrl": "",
         "url": "https://sp-cdn.streamlabs.com/img/03b6b1234c40a1f6d76b01415ba68836/G2yyEjmIYTHhyZxukrbFg4VUkfsunBPHO0JSdpWf.jpg",
         "sourceType": "image"
       },
@@ -27102,7 +27672,7 @@ var COMMUNITY_CONTENT = {
         "dateIso": "2024-01-18T23:00:00.000Z",
         "category": "2",
         "categoryLabel": "Survivor Focus",
-        "imageUrl": "https://otzdarva.com/[object%20Object]",
+        "imageUrl": "",
         "url": "https://www.youtube.com/watch?v=NLd8oHiTfXc",
         "sourceType": "video"
       },
@@ -27115,7 +27685,7 @@ var COMMUNITY_CONTENT = {
         "dateIso": "2024-01-18T23:00:00.000Z",
         "category": "2",
         "categoryLabel": "Survivor Focus",
-        "imageUrl": "https://otzdarva.com/[object%20Object]",
+        "imageUrl": "",
         "url": "https://www.youtube.com/watch?v=NLd8oHiTfXc",
         "sourceType": "video"
       },
@@ -27128,7 +27698,7 @@ var COMMUNITY_CONTENT = {
         "dateIso": "2023-12-10T23:00:00.000Z",
         "category": "3",
         "categoryLabel": "General",
-        "imageUrl": "https://otzdarva.com/[object%20Object]",
+        "imageUrl": "",
         "url": "https://imgur.com/yZimdhM",
         "sourceType": "image"
       },
@@ -27141,7 +27711,7 @@ var COMMUNITY_CONTENT = {
         "dateIso": null,
         "category": "1",
         "categoryLabel": "Killer Focus",
-        "imageUrl": "https://otzdarva.com/[object%20Object]",
+        "imageUrl": "",
         "url": "https://otz-addon-tierlist.pages.dev/",
         "sourceType": "interactive"
       }

@@ -13,4 +13,4 @@ if ! command -v npx >/dev/null 2>&1; then
   exit 1
 fi
 
-npx wrangler pages deploy web --project-name "$PROJECT_NAME"
+npx wrangler@4 pages deploy web --project-name "$PROJECT_NAME"

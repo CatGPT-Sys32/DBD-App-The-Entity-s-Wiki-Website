@@ -1,19 +1,19 @@
 {
-  "generatedAt": "2026-08-01T17:46:07.276Z",
+  "generatedAt": "2026-09-06T00:31:00.783Z",
   "metadata": {
-    "sourceDiscoveryGeneratedAt": "2026-08-01T17:46:06.835Z",
-    "characterSwapCount": 111,
-    "fullSetCount": 4223,
-    "cosmeticCount": 4223,
+    "sourceDiscoveryGeneratedAt": "2026-09-06T00:31:00.377Z",
+    "characterSwapCount": 112,
+    "fullSetCount": 4235,
+    "cosmeticCount": 4235,
     "linkedFullSetCount": 57,
     "linkedCosmeticCount": 57,
     "fullSetLinkModeCounts": {
-      "unlinked": 4166,
+      "unlinked": 4178,
       "partially_linked": 7,
       "linked": 50
     },
     "cosmeticLinkModeCounts": {
-      "unlinked": 4166,
+      "unlinked": 4178,
       "partially_linked": 7,
       "linked": 50
     }
@@ -158,7 +158,7 @@
       "pieceType": "Outfit",
       "sourceBucket": "Character swaps",
       "assetFileTitleCandidates": [
-        "File:CC107 charSelect portrait.png"
+        "File:CC108 charSelect portrait.png"
       ],
       "description": "Character swaps outfit for The Artist"
     },
@@ -845,9 +845,7 @@
         "File:CategoryIcon_outfits.png",
         "File:CC105 charSelect portrait.png"
       ],
-      "description": "Character swaps outfit for The Huntress",
-      "assetIsPlaceholder": true,
-      "assetPlaceholderSource": "File:CategoryIcon_outfits.png"
+      "description": "Character swaps outfit for The Huntress"
     },
     {
       "id": "the-huntress--facemelter-eddie",
@@ -1425,7 +1423,7 @@
       "pieceType": "Outfit",
       "sourceBucket": "Character swaps",
       "assetFileTitleCandidates": [
-        "File:CC110 charSelect portrait.png"
+        "File:CC111 charSelect portrait.png"
       ],
       "description": "Character swaps outfit for The Spirit"
     },
@@ -1824,6 +1822,42 @@
       "assetFileTitleCandidates": [
         "File:K33 Head006.png",
         "File:CC026 charSelect portrait.png"
+      ],
+      "description": "Character swaps outfit for The Xenomorph"
+    },
+    {
+      "id": "the-xenomorph--xenomorph-king",
+      "name": "Xenomorph King",
+      "baseCharacterId": "c991df44-f218-40ab-ab99-60cefb3c161f",
+      "baseCharacterName": "The Xenomorph",
+      "baseCharacterType": "Killer",
+      "groupKey": "legendary",
+      "groupLabel": "Legendary",
+      "collectionName": "Character swaps",
+      "image": "./dbd_images/cosmetics/character_swaps/the-xenomorph--xenomorph-king.png",
+      "aliases": [
+        "xenomorph king",
+        "legendary",
+        "character swap",
+        "character swaps",
+        "hud swap",
+        "the xenomorph"
+      ],
+      "sourceKind": "wiki-category",
+      "sourcePage": "The Xenomorph/Xenomorph King",
+      "assetProvenance": "official-portrait-exception",
+      "status": "ready",
+      "rarity": "Legendary",
+      "outfitLinkMode": "character_swap",
+      "boundSlots": [],
+      "bindSummary": "",
+      "isLinkedSet": false,
+      "isCharacterSwap": true,
+      "pieceType": "Outfit",
+      "sourceBucket": "Character swaps",
+      "assetFileTitleCandidates": [
+        "File:Alien Theme Music.ogg",
+        "File:CC107 charSelect portrait.png"
       ],
       "description": "Character swaps outfit for The Xenomorph"
     },
@@ -2399,7 +2433,7 @@
       "pieceType": "Outfit",
       "sourceBucket": "Character swaps",
       "assetFileTitleCandidates": [
-        "File:CC108 charSelect portrait.png"
+        "File:CC109 charSelect portrait.png"
       ],
       "description": "Character swaps outfit for Dwight Fairfield"
     },
@@ -3372,7 +3406,7 @@
       "pieceType": "Outfit",
       "sourceBucket": "Character swaps",
       "assetFileTitleCandidates": [
-        "File:CC109 charSelect portrait.png"
+        "File:CC110 charSelect portrait.png"
       ],
       "description": "Character swaps outfit for Rick Grimes"
     },
@@ -34415,6 +34449,216 @@
         "File:BE W019.png"
       ],
       "description": "An axe with a serrated blade for maximum damage."
+    },
+    {
+      "id": "the-judgment--wings-of-justice--body--k044-body01",
+      "name": "Wings of Justice",
+      "baseCharacterId": "064a9628-9056-4b0c-9fe5-72e6fce7f56e",
+      "baseCharacterName": "The Judgment",
+      "baseCharacterType": "Killer",
+      "groupKey": "cosmetic",
+      "groupLabel": "Default",
+      "collectionName": "Default",
+      "image": "./dbd_images/cosmetics/full_sets/the-judgment--wings-of-justice--body--k044-body01.png",
+      "aliases": [
+        "wings of justice",
+        "default",
+        "body",
+        "the judgment",
+        "unlinked",
+        "unlinked outfit"
+      ],
+      "sourceKind": "wiki-template",
+      "sourcePage": "Template:Judgment's Default Cosmetics",
+      "assetProvenance": "official-piece-icon",
+      "status": "ready",
+      "rarity": "Common",
+      "outfitLinkMode": "unlinked",
+      "boundSlots": [],
+      "bindSummary": "",
+      "isLinkedSet": false,
+      "isCharacterSwap": false,
+      "pieceType": "Body",
+      "sourceBucket": "Default",
+      "assetFileTitleCandidates": [
+        "File:K044 Body01.png"
+      ],
+      "description": "\"While the righteous worship Judgment, none anger It more than those who look to the night sky for answers.\" (Witness to Koenrad, ch. 12)"
+    },
+    {
+      "id": "the-judgment--guiding-light--head--k044-head01",
+      "name": "Guiding Light",
+      "baseCharacterId": "064a9628-9056-4b0c-9fe5-72e6fce7f56e",
+      "baseCharacterName": "The Judgment",
+      "baseCharacterType": "Killer",
+      "groupKey": "cosmetic",
+      "groupLabel": "Default",
+      "collectionName": "Default",
+      "image": "./dbd_images/cosmetics/full_sets/the-judgment--guiding-light--head--k044-head01.png",
+      "aliases": [
+        "guiding light",
+        "default",
+        "head",
+        "the judgment",
+        "unlinked",
+        "unlinked outfit"
+      ],
+      "sourceKind": "wiki-template",
+      "sourcePage": "Template:Judgment's Default Cosmetics",
+      "assetProvenance": "official-piece-icon",
+      "status": "ready",
+      "rarity": "Common",
+      "outfitLinkMode": "unlinked",
+      "boundSlots": [],
+      "bindSummary": "",
+      "isLinkedSet": false,
+      "isCharacterSwap": false,
+      "pieceType": "Head",
+      "sourceBucket": "Default",
+      "assetFileTitleCandidates": [
+        "File:K044 Head01.png"
+      ],
+      "description": "\"It sets forth across the universe to bring heretics to justice, be it through Exile or Divine Light.\" (I Barbarians, ch. 10)"
+    },
+    {
+      "id": "the-judgment--staff-of-absolution--weapon--k044-weapon01",
+      "name": "Staff of Absolution",
+      "baseCharacterId": "064a9628-9056-4b0c-9fe5-72e6fce7f56e",
+      "baseCharacterName": "The Judgment",
+      "baseCharacterType": "Killer",
+      "groupKey": "cosmetic",
+      "groupLabel": "Default",
+      "collectionName": "Default",
+      "image": "./dbd_images/cosmetics/full_sets/the-judgment--staff-of-absolution--weapon--k044-weapon01.png",
+      "aliases": [
+        "staff of absolution",
+        "default",
+        "weapon",
+        "the judgment",
+        "unlinked",
+        "unlinked outfit"
+      ],
+      "sourceKind": "wiki-template",
+      "sourcePage": "Template:Judgment's Default Cosmetics",
+      "assetProvenance": "official-piece-icon",
+      "status": "ready",
+      "rarity": "Common",
+      "outfitLinkMode": "unlinked",
+      "boundSlots": [],
+      "bindSummary": "",
+      "isLinkedSet": false,
+      "isCharacterSwap": false,
+      "pieceType": "Weapon",
+      "sourceBucket": "Default",
+      "assetFileTitleCandidates": [
+        "File:K044 Weapon01.png"
+      ],
+      "description": "\"Those who gaze upon Its mighty staff and heavenly form cannot help but fall to their knees and worship.\" (Visions of Gerhardt, ch. 2)"
+    },
+    {
+      "id": "the-judgment--wings-of-punishment--body--k044-body01-p01",
+      "name": "Wings of Punishment",
+      "baseCharacterId": "064a9628-9056-4b0c-9fe5-72e6fce7f56e",
+      "baseCharacterName": "The Judgment",
+      "baseCharacterType": "Killer",
+      "groupKey": "cosmetic",
+      "groupLabel": "Prestige",
+      "collectionName": "Prestige",
+      "image": "./dbd_images/cosmetics/full_sets/the-judgment--wings-of-punishment--body--k044-body01-p01.png",
+      "aliases": [
+        "wings of punishment",
+        "prestige",
+        "body",
+        "the judgment",
+        "unlinked",
+        "unlinked outfit"
+      ],
+      "sourceKind": "wiki-template",
+      "sourcePage": "Template:Judgment's Prestige Cosmetics",
+      "assetProvenance": "official-piece-icon",
+      "status": "ready",
+      "rarity": "Rare",
+      "outfitLinkMode": "unlinked",
+      "boundSlots": [],
+      "bindSummary": "",
+      "isLinkedSet": false,
+      "isCharacterSwap": false,
+      "pieceType": "Body",
+      "sourceBucket": "Prestige",
+      "assetFileTitleCandidates": [
+        "File:K044 Body01_P01.png"
+      ],
+      "description": "\"Those who seek truth in the darkness of night receive the worst of Judgment's zealous fury and flame.\" (Truths Revealed, ch. 3)"
+    },
+    {
+      "id": "the-judgment--blinding-light--head--k044-head01-p01",
+      "name": "Blinding Light",
+      "baseCharacterId": "064a9628-9056-4b0c-9fe5-72e6fce7f56e",
+      "baseCharacterName": "The Judgment",
+      "baseCharacterType": "Killer",
+      "groupKey": "cosmetic",
+      "groupLabel": "Prestige",
+      "collectionName": "Prestige",
+      "image": "./dbd_images/cosmetics/full_sets/the-judgment--blinding-light--head--k044-head01-p01.png",
+      "aliases": [
+        "blinding light",
+        "prestige",
+        "head",
+        "the judgment",
+        "unlinked",
+        "unlinked outfit"
+      ],
+      "sourceKind": "wiki-template",
+      "sourcePage": "Template:Judgment's Prestige Cosmetics",
+      "assetProvenance": "official-piece-icon",
+      "status": "ready",
+      "rarity": "Rare",
+      "outfitLinkMode": "unlinked",
+      "boundSlots": [],
+      "bindSummary": "",
+      "isLinkedSet": false,
+      "isCharacterSwap": false,
+      "pieceType": "Head",
+      "sourceBucket": "Prestige",
+      "assetFileTitleCandidates": [
+        "File:K044 Head01_P01.png"
+      ],
+      "description": "\"It sets forth across the universe, setting villages, cities and even entire planets to ruin.\" (Truths Revealed, ch. 3)"
+    },
+    {
+      "id": "the-judgment--staff-of-obliteration--weapon--k044-w01-p01",
+      "name": "Staff of Obliteration",
+      "baseCharacterId": "064a9628-9056-4b0c-9fe5-72e6fce7f56e",
+      "baseCharacterName": "The Judgment",
+      "baseCharacterType": "Killer",
+      "groupKey": "cosmetic",
+      "groupLabel": "Prestige",
+      "collectionName": "Prestige",
+      "image": "./dbd_images/cosmetics/full_sets/the-judgment--staff-of-obliteration--weapon--k044-w01-p01.png",
+      "aliases": [
+        "staff of obliteration",
+        "prestige",
+        "weapon",
+        "the judgment",
+        "unlinked",
+        "unlinked outfit"
+      ],
+      "sourceKind": "wiki-template",
+      "sourcePage": "Template:Judgment's Prestige Cosmetics",
+      "assetProvenance": "official-piece-icon",
+      "status": "ready",
+      "rarity": "Rare",
+      "outfitLinkMode": "unlinked",
+      "boundSlots": [],
+      "bindSummary": "",
+      "isLinkedSet": false,
+      "isCharacterSwap": false,
+      "pieceType": "Weapon",
+      "sourceBucket": "Prestige",
+      "assetFileTitleCandidates": [
+        "File:K044 W01_P01.png"
+      ],
+      "description": "\"Those who see Its blinding staff and terrifying form are doomed to an end in vociferous light.\" (Truths Revealed, ch. 3)"
     },
     {
       "id": "the-knight--funeral-march--outfit--k30-outfit-019",
@@ -79041,6 +79285,216 @@
         "File:ML outfit 008.png"
       ],
       "description": "Outfit cosmetic for Ashley J. Williams"
+    },
+    {
+      "id": "aurora-stardotter--searcher-s-vest--body--s054-torso01",
+      "name": "Searcher's Vest",
+      "baseCharacterId": "b08621c0-95ba-421f-b1bb-10ee78a1695f",
+      "baseCharacterName": "Aurora Stardotter",
+      "baseCharacterType": "Survivor",
+      "groupKey": "cosmetic",
+      "groupLabel": "Default",
+      "collectionName": "Default",
+      "image": "./dbd_images/cosmetics/full_sets/aurora-stardotter--searcher-s-vest--body--s054-torso01.png",
+      "aliases": [
+        "searcher's vest",
+        "default",
+        "body",
+        "aurora stardotter",
+        "unlinked",
+        "unlinked outfit"
+      ],
+      "sourceKind": "wiki-template",
+      "sourcePage": "Template:Aurora's Default Cosmetics",
+      "assetProvenance": "official-piece-icon",
+      "status": "ready",
+      "rarity": "Common",
+      "outfitLinkMode": "unlinked",
+      "boundSlots": [],
+      "bindSummary": "",
+      "isLinkedSet": false,
+      "isCharacterSwap": false,
+      "pieceType": "Body",
+      "sourceBucket": "Default",
+      "assetFileTitleCandidates": [
+        "File:S054 Torso01.png"
+      ],
+      "description": "\"They concealed themselves from the eyes of strangers, for the people of the wastes had become as hungering beasts.\" (Kelgien's Declaration, 6:25)"
+    },
+    {
+      "id": "aurora-stardotter--visions-of-light--head--s054-head01",
+      "name": "Visions of Light",
+      "baseCharacterId": "b08621c0-95ba-421f-b1bb-10ee78a1695f",
+      "baseCharacterName": "Aurora Stardotter",
+      "baseCharacterType": "Survivor",
+      "groupKey": "cosmetic",
+      "groupLabel": "Default",
+      "collectionName": "Default",
+      "image": "./dbd_images/cosmetics/full_sets/aurora-stardotter--visions-of-light--head--s054-head01.png",
+      "aliases": [
+        "visions of light",
+        "default",
+        "head",
+        "aurora stardotter",
+        "unlinked",
+        "unlinked outfit"
+      ],
+      "sourceKind": "wiki-template",
+      "sourcePage": "Template:Aurora's Default Cosmetics",
+      "assetProvenance": "official-piece-icon",
+      "status": "ready",
+      "rarity": "Common",
+      "outfitLinkMode": "unlinked",
+      "boundSlots": [],
+      "bindSummary": "",
+      "isLinkedSet": false,
+      "isCharacterSwap": false,
+      "pieceType": "Head",
+      "sourceBucket": "Default",
+      "assetFileTitleCandidates": [
+        "File:S054 Head01.png"
+      ],
+      "description": "\"The journey was long and arduous, for the lands had been madde barren beneath Judgment's wrath.\" (Marika's Declaration, 12:15)"
+    },
+    {
+      "id": "aurora-stardotter--wasteland-wrap--legs--s054-legs01",
+      "name": "Wasteland Wrap",
+      "baseCharacterId": "b08621c0-95ba-421f-b1bb-10ee78a1695f",
+      "baseCharacterName": "Aurora Stardotter",
+      "baseCharacterType": "Survivor",
+      "groupKey": "cosmetic",
+      "groupLabel": "Default",
+      "collectionName": "Default",
+      "image": "./dbd_images/cosmetics/full_sets/aurora-stardotter--wasteland-wrap--legs--s054-legs01.png",
+      "aliases": [
+        "wasteland wrap",
+        "default",
+        "legs",
+        "aurora stardotter",
+        "unlinked",
+        "unlinked outfit"
+      ],
+      "sourceKind": "wiki-template",
+      "sourcePage": "Template:Aurora's Default Cosmetics",
+      "assetProvenance": "official-piece-icon",
+      "status": "ready",
+      "rarity": "Common",
+      "outfitLinkMode": "unlinked",
+      "boundSlots": [],
+      "bindSummary": "",
+      "isLinkedSet": false,
+      "isCharacterSwap": false,
+      "pieceType": "Legs",
+      "sourceBucket": "Default",
+      "assetFileTitleCandidates": [
+        "File:S054 Legs01.png"
+      ],
+      "description": "\"At last they came upon a place of rest, and in that place the Aurorans would be born.\" (Sang Legat, 6:5)"
+    },
+    {
+      "id": "aurora-stardotter--searcher-s-bloodstains--body--s054-torso01-p01",
+      "name": "Searcher's Bloodstains",
+      "baseCharacterId": "b08621c0-95ba-421f-b1bb-10ee78a1695f",
+      "baseCharacterName": "Aurora Stardotter",
+      "baseCharacterType": "Survivor",
+      "groupKey": "cosmetic",
+      "groupLabel": "Prestige",
+      "collectionName": "Prestige",
+      "image": "./dbd_images/cosmetics/full_sets/aurora-stardotter--searcher-s-bloodstains--body--s054-torso01-p01.png",
+      "aliases": [
+        "searcher's bloodstains",
+        "prestige",
+        "body",
+        "aurora stardotter",
+        "unlinked",
+        "unlinked outfit"
+      ],
+      "sourceKind": "wiki-template",
+      "sourcePage": "Template:Aurora's Prestige Cosmetics",
+      "assetProvenance": "official-piece-icon",
+      "status": "ready",
+      "rarity": "Rare",
+      "outfitLinkMode": "unlinked",
+      "boundSlots": [],
+      "bindSummary": "",
+      "isLinkedSet": false,
+      "isCharacterSwap": false,
+      "pieceType": "Body",
+      "sourceBucket": "Prestige",
+      "assetFileTitleCandidates": [
+        "File:S054 Torso01 P01.png"
+      ],
+      "description": "\"They hid themselves from the eyes of strangers, for the people of the wastes would kill for the bread in one's belly.\" (Collations, 7:5)"
+    },
+    {
+      "id": "aurora-stardotter--visions-of-red--head--s054-head01-p01",
+      "name": "Visions of Red",
+      "baseCharacterId": "b08621c0-95ba-421f-b1bb-10ee78a1695f",
+      "baseCharacterName": "Aurora Stardotter",
+      "baseCharacterType": "Survivor",
+      "groupKey": "cosmetic",
+      "groupLabel": "Prestige",
+      "collectionName": "Prestige",
+      "image": "./dbd_images/cosmetics/full_sets/aurora-stardotter--visions-of-red--head--s054-head01-p01.png",
+      "aliases": [
+        "visions of red",
+        "prestige",
+        "head",
+        "aurora stardotter",
+        "unlinked",
+        "unlinked outfit"
+      ],
+      "sourceKind": "wiki-template",
+      "sourcePage": "Template:Aurora's Prestige Cosmetics",
+      "assetProvenance": "official-piece-icon",
+      "status": "ready",
+      "rarity": "Rare",
+      "outfitLinkMode": "unlinked",
+      "boundSlots": [],
+      "bindSummary": "",
+      "isLinkedSet": false,
+      "isCharacterSwap": false,
+      "pieceType": "Head",
+      "sourceBucket": "Prestige",
+      "assetFileTitleCandidates": [
+        "File:S054 Head01 P01.png"
+      ],
+      "description": "\"The journey was long and arduous, for the lands were awash beneath a sea of blood.\" (Collations, 7:2)"
+    },
+    {
+      "id": "aurora-stardotter--wanderer-s-wrap--legs--s054-legs01-p01",
+      "name": "Wanderer's Wrap",
+      "baseCharacterId": "b08621c0-95ba-421f-b1bb-10ee78a1695f",
+      "baseCharacterName": "Aurora Stardotter",
+      "baseCharacterType": "Survivor",
+      "groupKey": "cosmetic",
+      "groupLabel": "Prestige",
+      "collectionName": "Prestige",
+      "image": "./dbd_images/cosmetics/full_sets/aurora-stardotter--wanderer-s-wrap--legs--s054-legs01-p01.png",
+      "aliases": [
+        "wanderer's wrap",
+        "prestige",
+        "legs",
+        "aurora stardotter",
+        "unlinked",
+        "unlinked outfit"
+      ],
+      "sourceKind": "wiki-template",
+      "sourcePage": "Template:Aurora's Prestige Cosmetics",
+      "assetProvenance": "official-piece-icon",
+      "status": "ready",
+      "rarity": "Rare",
+      "outfitLinkMode": "unlinked",
+      "boundSlots": [],
+      "bindSummary": "",
+      "isLinkedSet": false,
+      "isCharacterSwap": false,
+      "pieceType": "Legs",
+      "sourceBucket": "Prestige",
+      "assetFileTitleCandidates": [
+        "File:S054 Legs01 P01.png"
+      ],
+      "description": "\"At last they came upon a place of rest, and in that place they would stand defiant against Judgment.\" (Collations, 8:1)"
     },
     {
       "id": "cheryl-mason--hinako-shimizu--outfit--s22-outfit-014",

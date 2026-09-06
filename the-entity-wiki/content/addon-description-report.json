@@ -1,8 +1,8 @@
 {
-  "totalAddons": 926,
+  "totalAddons": 946,
   "counts": {
-    "updated": 2,
-    "unchanged": 924,
+    "updated": 7,
+    "unchanged": 939,
     "unresolved": 0
   },
   "entries": [
@@ -948,7 +948,7 @@
       "id": "c707980b-f26f-4c8c-b295-dc8ac596faf9",
       "internalId": "ADDON_Frenzy_MischiefList",
       "name": "Mischief List",
-      "status": "unchanged",
+      "status": "updated",
       "sourceUrl": "https://dbd.tricky.lol/api/addons#ADDON_Frenzy_MischiefList"
     },
     {
@@ -6380,7 +6380,7 @@
       "id": "0dba8df8-5c71-4d82-b758-48eef0436448",
       "internalId": "Addon_K43_05",
       "name": "Sleeping Bag",
-      "status": "unchanged",
+      "status": "updated",
       "sourceUrl": "https://dbd.tricky.lol/api/addons#Addon_K43_05"
     },
     {
@@ -6394,35 +6394,35 @@
       "id": "8d10797d-0b72-4a44-8a60-befd7ead1898",
       "internalId": "Addon_K43_07",
       "name": "Toxic Waste",
-      "status": "unchanged",
+      "status": "updated",
       "sourceUrl": "https://dbd.tricky.lol/api/addons#Addon_K43_07"
     },
     {
       "id": "06dc31fe-5b20-4073-82f0-2ca4cf880738",
       "internalId": "Addon_K43_08",
       "name": "Party Noisemaker",
-      "status": "unchanged",
+      "status": "updated",
       "sourceUrl": "https://dbd.tricky.lol/api/addons#Addon_K43_08"
     },
     {
       "id": "09ab4d5f-b9d4-4753-a068-171b8ff3e083",
       "internalId": "Addon_K43_09",
       "name": "Coroner's Coffee",
-      "status": "updated",
+      "status": "unchanged",
       "sourceUrl": "https://dbd.tricky.lol/api/addons#Addon_K43_09"
     },
     {
       "id": "268cd66a-d661-469d-b38d-74985380accc",
       "internalId": "Addon_K43_10",
       "name": "Sauna Rock",
-      "status": "unchanged",
+      "status": "updated",
       "sourceUrl": "https://dbd.tricky.lol/api/addons#Addon_K43_10"
     },
     {
       "id": "4d331709-57f6-40c4-9f37-f48ca9ad3d31",
       "internalId": "Addon_K43_11",
       "name": "Mirror Shards",
-      "status": "unchanged",
+      "status": "updated",
       "sourceUrl": "https://dbd.tricky.lol/api/addons#Addon_K43_11"
     },
     {
@@ -6436,7 +6436,7 @@
       "id": "6d6993b4-f864-44e0-b284-8dd25f834828",
       "internalId": "Addon_K43_13",
       "name": "Two Nails",
-      "status": "unchanged",
+      "status": "updated",
       "sourceUrl": "https://dbd.tricky.lol/api/addons#Addon_K43_13"
     },
     {
@@ -6471,7 +6471,7 @@
       "id": "6891cbbc-1370-4ac9-875b-e150cc65be43",
       "internalId": "Addon_K43_18",
       "name": "Deputy's Badge",
-      "status": "updated",
+      "status": "unchanged",
       "sourceUrl": "https://dbd.tricky.lol/api/addons#Addon_K43_18"
     },
     {
@@ -6487,6 +6487,146 @@
       "name": "Iridescent Boat Motor",
       "status": "unchanged",
       "sourceUrl": "https://dbd.tricky.lol/api/addons#Addon_K43_20"
+    },
+    {
+      "id": "03cddc23-231a-493e-b417-c97013d511b2",
+      "internalId": "Addon_K44_01",
+      "name": "Koenrad's Gauntlet",
+      "status": "unchanged",
+      "sourceUrl": "https://dbd.tricky.lol/api/addons#Addon_K44_01"
+    },
+    {
+      "id": "246a32b2-ab1d-4280-808f-ac0129af9cf6",
+      "internalId": "Addon_K44_02",
+      "name": "Heretic's Mark",
+      "status": "unchanged",
+      "sourceUrl": "https://dbd.tricky.lol/api/addons#Addon_K44_02"
+    },
+    {
+      "id": "06835f03-299c-4e4c-8d76-70c96165e819",
+      "internalId": "Addon_K44_03",
+      "name": "Holy Winged Icon",
+      "status": "unchanged",
+      "sourceUrl": "https://dbd.tricky.lol/api/addons#Addon_K44_03"
+    },
+    {
+      "id": "395e8080-4bb4-44cc-ba02-4ef524cc5212",
+      "internalId": "Addon_K44_04",
+      "name": "Prayer Kneeler",
+      "status": "unchanged",
+      "sourceUrl": "https://dbd.tricky.lol/api/addons#Addon_K44_04"
+    },
+    {
+      "id": "ab167495-2585-46e8-a109-315ad593c21b",
+      "internalId": "Addon_K44_05",
+      "name": "Electric Torch",
+      "status": "unchanged",
+      "sourceUrl": "https://dbd.tricky.lol/api/addons#Addon_K44_05"
+    },
+    {
+      "id": "6452c918-4c13-41d2-b429-d957bde63371",
+      "internalId": "Addon_K44_06",
+      "name": "Undying Flame",
+      "status": "unchanged",
+      "sourceUrl": "https://dbd.tricky.lol/api/addons#Addon_K44_06"
+    },
+    {
+      "id": "ce2bec8c-0f92-45e8-a83e-3e3c431aba20",
+      "internalId": "Addon_K44_07",
+      "name": "Aurora's Telereceptor",
+      "status": "unchanged",
+      "sourceUrl": "https://dbd.tricky.lol/api/addons#Addon_K44_07"
+    },
+    {
+      "id": "ecee13a6-99d5-4496-8904-b4e2dc84cd55",
+      "internalId": "Addon_K44_08",
+      "name": "Magnetized Manacles",
+      "status": "unchanged",
+      "sourceUrl": "https://dbd.tricky.lol/api/addons#Addon_K44_08"
+    },
+    {
+      "id": "9700622f-792f-411b-a680-8b23693ecd1c",
+      "internalId": "Addon_K44_09",
+      "name": "Order of Inquisition",
+      "status": "unchanged",
+      "sourceUrl": "https://dbd.tricky.lol/api/addons#Addon_K44_09"
+    },
+    {
+      "id": "966f4ac2-0277-498f-8c72-e484b4ecee9b",
+      "internalId": "Addon_K44_10",
+      "name": "Blindfold of the Devoted",
+      "status": "unchanged",
+      "sourceUrl": "https://dbd.tricky.lol/api/addons#Addon_K44_10"
+    },
+    {
+      "id": "63e7dd04-7dc0-4351-a814-569190bbeab5",
+      "internalId": "Addon_K44_11",
+      "name": "Superheated Glass",
+      "status": "unchanged",
+      "sourceUrl": "https://dbd.tricky.lol/api/addons#Addon_K44_11"
+    },
+    {
+      "id": "09788976-d99d-4c9a-88ea-84d0ffc4e172",
+      "internalId": "Addon_K44_12",
+      "name": "Mark of the Adherent",
+      "status": "unchanged",
+      "sourceUrl": "https://dbd.tricky.lol/api/addons#Addon_K44_12"
+    },
+    {
+      "id": "271d1426-5275-41e8-abf2-da1d40bfd800",
+      "internalId": "Addon_K44_13",
+      "name": "Confessor's War Horn",
+      "status": "unchanged",
+      "sourceUrl": "https://dbd.tricky.lol/api/addons#Addon_K44_13"
+    },
+    {
+      "id": "3b6f8ae8-7157-413c-b91e-f73802f2b1fe",
+      "internalId": "Addon_K44_14",
+      "name": "Searcher's Skull",
+      "status": "unchanged",
+      "sourceUrl": "https://dbd.tricky.lol/api/addons#Addon_K44_14"
+    },
+    {
+      "id": "4da5bba0-6333-4801-a39d-03dd304b12d1",
+      "internalId": "Addon_K44_15",
+      "name": "Chains of the Heretic",
+      "status": "unchanged",
+      "sourceUrl": "https://dbd.tricky.lol/api/addons#Addon_K44_15"
+    },
+    {
+      "id": "c97f6a27-4612-42ac-9c62-24b6a968ff48",
+      "internalId": "Addon_K44_16",
+      "name": "Improvised Detonators",
+      "status": "unchanged",
+      "sourceUrl": "https://dbd.tricky.lol/api/addons#Addon_K44_16"
+    },
+    {
+      "id": "8f82bfd2-1698-477d-991b-4e44d5f59f11",
+      "internalId": "Addon_K44_17",
+      "name": "Eyes of Gerhardt",
+      "status": "unchanged",
+      "sourceUrl": "https://dbd.tricky.lol/api/addons#Addon_K44_17"
+    },
+    {
+      "id": "a5bbfc62-c29b-4f06-8c42-be0c138f5c73",
+      "internalId": "Addon_K44_18",
+      "name": "Obsidian Feather",
+      "status": "unchanged",
+      "sourceUrl": "https://dbd.tricky.lol/api/addons#Addon_K44_18"
+    },
+    {
+      "id": "4bb38a4c-27e6-4618-8b8b-43c50d50da7d",
+      "internalId": "Addon_K44_19",
+      "name": "Crown of the Destroyer",
+      "status": "unchanged",
+      "sourceUrl": "https://dbd.tricky.lol/api/addons#Addon_K44_19"
+    },
+    {
+      "id": "867340cf-f9ff-4f9f-8e0d-ca5f8211c3fe",
+      "internalId": "Addon_K44_20",
+      "name": "Mirror of the Creators",
+      "status": "unchanged",
+      "sourceUrl": "https://dbd.tricky.lol/api/addons#Addon_K44_20"
     }
   ]
 }

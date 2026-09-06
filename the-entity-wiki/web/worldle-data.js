@@ -224,6 +224,12 @@ var WORLDLE_DATA = {
       "slasher",
       "jason",
       "jason voorhees"
+    ],
+    "The Judgment": [
+      "judgment",
+      "judgement",
+      "divine light",
+      "celestial echelon"
     ]
   },
   "genders": {
@@ -269,7 +275,8 @@ var WORLDLE_DATA = {
     "The Animatronic": "Male",
     "The Krasue": "Female",
     "The First": "Male",
-    "The Slasher": "Male"
+    "The Slasher": "Male",
+    "The Judgment": "Other"
   },
   "emojiClues": {
     "The Trapper": [
@@ -1387,6 +1394,32 @@ var WORLDLE_DATA = {
           "🌫️",
           "🪝",
           "⚰️"
+        ]
+      }
+    ],
+    "The Judgment": [
+      {
+        "id": "set-1",
+        "emojis": [
+          "⚖️",
+          "🔥",
+          "😇"
+        ]
+      },
+      {
+        "id": "set-2",
+        "emojis": [
+          "🌩️",
+          "👁️",
+          "🔒"
+        ]
+      },
+      {
+        "id": "set-3",
+        "emojis": [
+          "🌟",
+          "⛓️",
+          "🕯️"
         ]
       }
     ]

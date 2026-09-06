@@ -1,6 +1,7 @@
 const fs = require('fs');
 const https = require('https');
 const path = require('path');
+const { writeFileAtomic, writeJsonAtomic } = require('./atomic-write');
 
 const ROOT = path.resolve(__dirname, '..');
 const CONTENT_PATH = path.join(ROOT, 'content', 'cosmetics.json');
@@ -46,7 +47,7 @@ function readJson(filePath) {
 }
 
 function writeJson(filePath, value) {
-  fs.writeFileSync(filePath, `${JSON.stringify(value, null, 2)}\n`);
+  writeJsonAtomic(filePath, value, { backup: true });
 }
 
 function ensureDir(dirPath) {
@@ -274,7 +275,7 @@ async function getImageInfo(fileTitle) {
 async function downloadToFile(url, filePath) {
   ensureDir(path.dirname(filePath));
   const buffer = await request(url, 'buffer');
-  fs.writeFileSync(filePath, buffer);
+  writeFileAtomic(filePath, buffer);
 }
 
 function buildCharacterLookup(database) {

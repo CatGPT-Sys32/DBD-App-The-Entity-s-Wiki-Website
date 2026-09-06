@@ -2,6 +2,7 @@
 
 const fs = require('fs');
 const path = require('path');
+const { writeFileAtomic } = require('./atomic-write');
 const {
   CONTENT_PATH,
   DATABASE_PATH,
@@ -80,7 +81,7 @@ function main() {
   lines.push(`Portrait exceptions: ${portraitExceptions.length}`);
   portraitExceptions.forEach((entry) => lines.push(`- ${entry.baseCharacterName} -> ${entry.name} | ${entry.assetProvenance}`));
 
-  fs.writeFileSync(AUDIT_PATH, `${lines.join('\n')}\n`);
+  writeFileAtomic(AUDIT_PATH, `${lines.join('\n')}\n`, 'utf8');
   console.log(`audit-cosmetics: wrote ${AUDIT_PATH}`);
   console.log(`audit-cosmetics: ready=${readyCount} blocked=${blockedCount}`);
 }

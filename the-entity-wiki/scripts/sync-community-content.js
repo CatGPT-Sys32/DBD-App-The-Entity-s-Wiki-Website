@@ -11,6 +11,7 @@ if (typeof globalThis.File === 'undefined') {
 
 const cheerio = require('cheerio');
 const { fetchTextWithRetry, formatFetchError } = require('./network-resilience');
+const { writeJsonAtomic } = require('./atomic-write');
 
 const ROOT = path.resolve(__dirname, '..');
 const CONTENT_PATH = path.join(ROOT, 'content', 'community-content.json');
@@ -84,7 +85,7 @@ function readJson(filePath) {
 }
 
 function writeJson(filePath, value) {
-  fs.writeFileSync(filePath, `${JSON.stringify(value, null, 2)}\n`, 'utf8');
+  writeJsonAtomic(filePath, value, { backup: true });
 }
 
 function normalizeText(value) {

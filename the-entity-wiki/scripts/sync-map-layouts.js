@@ -2,6 +2,7 @@
 
 const fs = require('fs');
 const path = require('path');
+const { writeFileAtomic, writeJsonAtomic } = require('./atomic-write');
 const vm = require('vm');
 const { File } = require('buffer');
 
@@ -352,7 +353,7 @@ async function main() {
         try {
           ensureDir(path.dirname(targetAbsPath));
           const bytes = await fetchBinary(sourceUrl);
-          fs.writeFileSync(targetAbsPath, bytes);
+          writeFileAtomic(targetAbsPath, bytes);
           downloadedCount += 1;
           downloaded = true;
           status = needsSyncBecauseUpgrade ? 'downloaded-upgrade-alias' : 'downloaded';
@@ -435,7 +436,7 @@ async function main() {
     rows: reportRows
   };
 
-  fs.writeFileSync(REPORT_PATH, `${JSON.stringify(report, null, 2)}\n`, 'utf8');
+  writeJsonAtomic(REPORT_PATH, report, { backup: false });
 
   console.log(`sync-map-layouts: callout entries=${hensEntries.length}`);
   console.log(`sync-map-layouts: maps(unique)=${uniqueMaps.length} missingSource=${missingSourceMaps.length} missingMapLayoutKeys=${unresolvedMaps.length}`);

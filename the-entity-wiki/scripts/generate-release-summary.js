@@ -2,6 +2,7 @@
 
 const fs = require('fs');
 const path = require('path');
+const { writeFileAtomic } = require('./atomic-write');
 
 const ROOT = path.resolve(__dirname, '..');
 const DEFAULT_REPORT_PATH = path.join(ROOT, 'review', 'sync-all-updates-report.json');
@@ -168,7 +169,7 @@ function main() {
   const output = buildSummaryMarkdown(report);
 
   fs.mkdirSync(path.dirname(options.outputPath), { recursive: true });
-  fs.writeFileSync(options.outputPath, output, 'utf8');
+  writeFileAtomic(options.outputPath, output, 'utf8');
 
   console.log(`generate-release-summary: report=${path.relative(ROOT, options.reportPath)}`);
   console.log(`generate-release-summary: wrote ${path.relative(ROOT, options.outputPath)}`);

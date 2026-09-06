@@ -3,6 +3,7 @@
 const fs = require('fs');
 const path = require('path');
 const { fetchJsonWithRetry, formatFetchError } = require('./network-resilience');
+const { writeJsonAtomic } = require('./atomic-write');
 
 const ROOT = path.resolve(__dirname, '..');
 const DATABASE_PATH = path.join(ROOT, 'content', 'database.json');
@@ -72,8 +73,7 @@ function readJson(filePath) {
 }
 
 function writeJson(filePath, value) {
-  fs.mkdirSync(path.dirname(filePath), { recursive: true });
-  fs.writeFileSync(filePath, `${JSON.stringify(value, null, 2)}\n`, 'utf8');
+  writeJsonAtomic(filePath, value, { backup: true });
 }
 
 async function requestJson(url) {

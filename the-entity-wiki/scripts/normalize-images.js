@@ -2,6 +2,7 @@
 
 const fs = require('fs');
 const path = require('path');
+const { writeFileAtomic } = require('./atomic-write');
 
 const ROOT = path.resolve(__dirname, '..');
 const CONTENT_ROOT = path.join(ROOT, 'content');
@@ -694,7 +695,7 @@ function main() {
     return;
   }
 
-  fs.writeFileSync(DATABASE_PATH, nextText);
+  writeFileAtomic(DATABASE_PATH, nextText, 'utf8');
   console.log('normalize-images: wrote content/database.json');
 }
 

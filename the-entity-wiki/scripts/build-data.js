@@ -2,6 +2,7 @@
 
 const fs = require('fs');
 const path = require('path');
+const { writeFileAtomic } = require('./atomic-write');
 
 const ROOT = path.resolve(__dirname, '..');
 const CONTENT_ROOT = path.join(ROOT, 'content');
@@ -283,7 +284,7 @@ function compareOutput(filePath, nextContent) {
 }
 
 function writeOutput(filePath, content) {
-  fs.writeFileSync(filePath, content);
+  writeFileAtomic(filePath, content, 'utf8');
   console.log(`build-data: wrote ${path.relative(ROOT, filePath)}`);
 }
 

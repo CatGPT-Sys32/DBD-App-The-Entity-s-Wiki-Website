@@ -1369,11 +1369,18 @@
     </div>
   </div>
   <div id="root"></div>
-  <script src="data.js"></script>
-  <script src="lore.js"></script>
-  <script src="cosmetics.js"></script>
-  <script src="community-content.js"></script>
-  <script src="worldle-data.js"></script>
+  <script>
+    window.__dbdMissingDataScripts = [];
+    window.__dbdDataScriptError = function (name) {
+      window.__dbdMissingDataScripts.push(name);
+      console.error('[data-script-error]', name, 'failed to load');
+    };
+  </script>
+  <script src="data.js" onerror="window.__dbdDataScriptError('data.js')"></script>
+  <script src="lore.js" onerror="window.__dbdDataScriptError('lore.js')"></script>
+  <script src="cosmetics.js" onerror="window.__dbdDataScriptError('cosmetics.js')"></script>
+  <script src="community-content.js" onerror="window.__dbdDataScriptError('community-content.js')"></script>
+  <script src="worldle-data.js" onerror="window.__dbdDataScriptError('worldle-data.js')"></script>
   <script>
     (() => {
       const LAUNCH_TIPS = [
@@ -1536,8 +1543,15 @@
         }
 
         let jsonStr;
+        const compactCode = String(code || '').replace(/\s+/g, '');
+        if (!compactCode) {
+          return { success: false, error: 'Invalid code format. Please check the code and try again.' };
+        }
+        if (compactCode.length > 65536) {
+          return { success: false, error: 'This code is too large to import. Please check the code and try again.' };
+        }
         try {
-          jsonStr = decodeURIComponent(escape(atob(code)));
+          jsonStr = decodeURIComponent(escape(atob(compactCode)));
         } catch (e) {
           return { success: false, error: 'Invalid code format. Please check the code and try again.' };
         }
@@ -2796,6 +2810,10 @@
       if (!payload.data || typeof payload.data !== 'object' || Array.isArray(payload.data)) {
         throw new Error('Backup file is missing required data.');
       }
+      const backupSchemaVersion = Number(payload?.schemaVersion) || 0;
+      if (backupSchemaVersion > APP_BACKUP_SCHEMA_VERSION) {
+        throw new Error(`This backup was created by a newer version (format v${backupSchemaVersion}). Please reload the page to get the latest version, then restore again.`);
+      }
       return {
         payload,
         summary: summarizeWebsiteBackupPayload(payload)
@@ -3589,7 +3607,7 @@
         const diff = (currentY - startY.current) / resistance;
         if (diff > 0) {
           setPullDistance(Math.min(diff, threshold * 1.5));
-          if (diff > 10) e.preventDefault();
+          if (diff > 10 && e.cancelable) e.preventDefault();
         }
       };
 
@@ -4638,12 +4656,12 @@
       }, [imageUrl, type, assetRevision]);
       const isDiamond = type === 'Perk';
       const handleError = () => {
-        setSourceIndex((idx) => {
-          const next = idx + 1;
-          if (next < sources.length) return next;
+        const next = sourceIndex + 1;
+        if (next < sources.length) {
+          setSourceIndex(next);
+        } else {
           setBroken(true);
-          return idx;
-        });
+        }
       };
       const handleLoad = () => {
         setLoaded(true);
@@ -13896,10 +13914,15 @@
           }
         };
         const timer = setTimeout(tryAttach, 100);
-        const observer = new MutationObserver(() => setTimeout(tryAttach, 50));
-        if (mainRef.current) observer.observe(mainRef.current, { childList: true, subtree: true });
+        let debounceTimer = null;
+        const observer = new MutationObserver(() => {
+          if (debounceTimer) clearTimeout(debounceTimer);
+          debounceTimer = setTimeout(tryAttach, 150);
+        });
+        if (mainRef.current) observer.observe(mainRef.current, { childList: true, subtree: false });
         return () => {
           clearTimeout(timer);
+          if (debounceTimer) clearTimeout(debounceTimer);
           if (rafId) cancelAnimationFrame(rafId);
           if (scrollEl) scrollEl.removeEventListener('scroll', onScroll);
           observer.disconnect();
@@ -14993,14 +15016,44 @@
               >
                 Try Again
               </button>
+              <button
+                onClick={() => window.location.reload()}
+                style={{ padding: '10px 24px', borderRadius: 12, background: 'rgba(255,255,255,0.08)', border: '1px solid rgba(255,255,255,0.15)', color: '#e5e7eb', cursor: 'pointer', fontSize: 14 }}
+              >
+                Reload App
+              </button>
+              <button
+                onClick={() => {
+                  try {
+                    Object.keys(localStorage)
+                      .filter((key) => key.startsWith('dbd_'))
+                      .forEach((key) => localStorage.removeItem(key));
+                  } catch (e) { }
+                  window.location.reload();
+                }}
+                style={{ padding: '10px 24px', borderRadius: 12, background: 'rgba(225,29,72,0.15)', border: '1px solid rgba(225,29,72,0.4)', color: '#fda4af', cursor: 'pointer', fontSize: 14 }}
+              >
+                Clear Saved Data &amp; Reload
+              </button>
             </div>
           );
         }
         return this.props.children;
       }
     }
+    window.addEventListener('error', (event) => {
+      console.error('[window.onerror]', event?.message, event?.filename, event?.lineno);
+    });
+    window.addEventListener('unhandledrejection', (event) => {
+      console.error('[unhandledrejection]', event?.reason);
+    });
+    if (typeof DATABASE === 'undefined') {
+      document.getElementById('root').innerHTML = '<div style="padding:40px;text-align:center;color:#e5e7eb;background:#090b11;min-height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:16px;font-family:sans-serif"><h2 style="font-size:22px;font-weight:700">Game data failed to load</h2><p style="color:#71717a;font-size:14px">The offline database did not load. Reload the page or clear your browser data, then try again.</p></div>';
+      window.__hideLaunchOverlay?.(true);
+    } else {
     const root = ReactDOM.createRoot(document.getElementById("root"));
     root.render(<ErrorBoundary><App /></ErrorBoundary>);
+    }
   </script>
 </body>
 

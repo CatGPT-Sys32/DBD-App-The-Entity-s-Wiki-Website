@@ -450,6 +450,10 @@ async function main() {
   if (checkMode && (missingSourceMaps.length > 0 || failedCount > 0)) {
     fail(`check mode failed (missingSource=${missingSourceMaps.length}, failedDownloads=${failedCount})`);
   }
+
+  if (checkMode && unresolvedMaps.length > 0) {
+    fail(`check mode failed (unresolvedMaps=${unresolvedMaps.length}, missing index.html MAP_LAYOUTS keys: ${unresolvedMaps.join(', ')})`);
+  }
 }
 
 main().catch((error) => {

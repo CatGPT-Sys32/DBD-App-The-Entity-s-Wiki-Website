@@ -173,11 +173,11 @@ function auditRequiredFiles(indexHtml) {
     if (!fileExists(relPath)) warn(`Missing map layout asset referenced in web/index.html: ${relPath}`);
   });
 
-  if (!/<script\s+src=["']cosmetics\.js["']><\/script>/.test(indexHtml)) {
+  if (!/<script\s+src=["']cosmetics\.js["'][^>]*><\/script>/.test(indexHtml)) {
     fail('web/index.html does not load web/cosmetics.js.');
   }
 
-  if (!/<script\s+src=["']community-content\.js["']><\/script>/.test(indexHtml)) {
+  if (!/<script\s+src=["']community-content\.js["'][^>]*><\/script>/.test(indexHtml)) {
     fail('web/index.html does not load web/community-content.js.');
   }
 }

@@ -2,6 +2,7 @@
 
 const fs = require('fs');
 const path = require('path');
+const { writeJsonAtomic } = require('./atomic-write');
 const crypto = require('crypto');
 const { spawnSync } = require('child_process');
 
@@ -59,7 +60,8 @@ function runStep(step) {
   const result = spawnSync(step.command, step.args, {
     cwd: ROOT,
     stdio: 'inherit',
-    shell: false
+    shell: false,
+    timeout: 30 * 60 * 1000
   });
 
   return {
@@ -370,7 +372,7 @@ function main() {
   };
 
   fs.mkdirSync(path.dirname(REPORT_PATH), { recursive: true });
-  fs.writeFileSync(REPORT_PATH, `${JSON.stringify(report, null, 2)}\n`, 'utf8');
+  writeJsonAtomic(REPORT_PATH, report, { backup: false });
 
   const releaseSummaryResult = spawnSync(
     'node',
@@ -384,7 +386,8 @@ function main() {
     {
       cwd: ROOT,
       stdio: 'inherit',
-      shell: false
+      shell: false,
+      timeout: 10 * 60 * 1000
     }
   );
 

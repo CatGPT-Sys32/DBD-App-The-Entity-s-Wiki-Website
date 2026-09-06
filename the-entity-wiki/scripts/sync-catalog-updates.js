@@ -3,9 +3,9 @@
 const fs = require('fs');
 const path = require('path');
 const https = require('https');
-const crypto = require('crypto');
 const { spawnSync } = require('child_process');
 const { fetchJsonWithRetry, formatFetchError } = require('./network-resilience');
+const { writeJsonAtomic } = require('./atomic-write');
 
 const ROOT = path.resolve(__dirname, '..');
 const DATABASE_PATH = path.join(ROOT, 'content', 'database.json');
@@ -30,7 +30,7 @@ function readJson(filePath) {
 }
 
 function writeJson(filePath, value) {
-  fs.writeFileSync(filePath, `${JSON.stringify(value, null, 2)}\n`, 'utf8');
+  writeJsonAtomic(filePath, value, { backup: true });
 }
 
 async function requestJson(url) {
@@ -47,30 +47,52 @@ async function requestJson(url) {
   }
 }
 
-function requestBuffer(url) {
+function requestBuffer(url, timeoutMs = 15000) {
   return new Promise((resolve, reject) => {
-    https.get(url, {
-      headers: {
-        'User-Agent': 'Mozilla/5.0 (compatible; sync-catalog-updates/1.0)',
-        Accept: 'image/webp,image/png,image/*,*/*;q=0.8'
-      }
-    }, (response) => {
-      if (response.statusCode >= 300 && response.statusCode < 400 && response.headers.location) {
-        resolve(requestBuffer(response.headers.location));
-        response.resume();
-        return;
-      }
+    let settled = false;
+    const fail = (error) => {
+      if (settled) return;
+      settled = true;
+      reject(error);
+    };
+    const succeed = (value) => {
+      if (settled) return;
+      settled = true;
+      resolve(value);
+    };
+    let req;
+    try {
+      req = https.get(url, {
+        headers: {
+          'User-Agent': 'Mozilla/5.0 (compatible; sync-catalog-updates/1.0)',
+          Accept: 'image/webp,image/png,image/*,*/*;q=0.8'
+        }
+      }, (response) => {
+        if (response.statusCode >= 300 && response.statusCode < 400 && response.headers.location) {
+          requestBuffer(response.headers.location, timeoutMs).then(succeed, fail);
+          response.resume();
+          return;
+        }
 
-      if (response.statusCode !== 200) {
-        reject(new Error(`request failed with status ${response.statusCode} for ${url}`));
-        response.resume();
-        return;
-      }
+        if (response.statusCode !== 200) {
+          response.resume();
+          fail(new Error(`request failed with status ${response.statusCode} for ${url}`));
+          return;
+        }
 
-      const chunks = [];
-      response.on('data', (chunk) => chunks.push(chunk));
-      response.on('end', () => resolve(Buffer.concat(chunks)));
-    }).on('error', reject);
+        const chunks = [];
+        response.on('data', (chunk) => chunks.push(chunk));
+        response.on('end', () => succeed(Buffer.concat(chunks)));
+        response.on('error', fail);
+      });
+    } catch (error) {
+      fail(error);
+      return;
+    }
+    req.on('error', fail);
+    req.setTimeout(timeoutMs, () => {
+      req.destroy(new Error(`request timed out after ${timeoutMs}ms for ${url}`));
+    });
   });
 }
 
@@ -291,10 +313,14 @@ function buildKillerPowerText(character) {
   return normalizeMultilineText(stripHtml(character.bio || character.power || character.description || ''));
 }
 
+function stableEntryId(prefix, key) {
+  return `${prefix}-${slugName(String(key || 'unknown')) || 'unknown'}`;
+}
+
 function toCharacterEntry(character) {
   if (character.role === 'killer') {
     return {
-      id: crypto.randomUUID(),
+      id: stableEntryId('character', character.id),
       name: character.name,
       realName: character.real_name || character.name,
       power: buildKillerPowerText(character),
@@ -305,7 +331,7 @@ function toCharacterEntry(character) {
   }
 
   return {
-    id: crypto.randomUUID(),
+    id: stableEntryId('character', character.id),
     name: character.name,
     role: 'Survivor',
     difficulty: character.difficulty || 'intermediate',
@@ -329,7 +355,7 @@ function toPerkEntry(sourceKey, perk, ownerName) {
 
 function toPowerItemEntry(sourceKey, item, character) {
   return {
-    id: crypto.randomUUID(),
+    id: stableEntryId('poweritem', sourceKey),
     internalId: sourceKey,
     name: item.name,
     type: item.type || 'power',
@@ -345,7 +371,7 @@ function toPowerItemEntry(sourceKey, item, character) {
 
 function toAddonEntry(sourceKey, addon, killerName) {
   return {
-    id: crypto.randomUUID(),
+    id: stableEntryId('addon', sourceKey),
     internalId: sourceKey,
     name: addon.name,
     type: addon.type || 'poweraddon',

@@ -1417,7 +1417,7 @@
     })();
   </script>
   <script type="text/babel">
-    const { useState, useEffect, useMemo, useRef, useCallback } = React;
+    const { useState, useEffect, useMemo, useRef, useCallback, useDeferredValue } = React;
     const triggerHaptic = async (style = 'Medium') => {
       try {
         const stored = localStorage.getItem('dbd_settings_v1');
@@ -2332,6 +2332,7 @@
       solved: 0,
       currentStreak: 0,
       bestStreak: 0,
+      lastDailyDateKey: null,
       totalSolvedGuesses: 0,
       averageGuesses: 0,
       histogram: createWorldleHistogram()
@@ -2568,7 +2569,7 @@
       const normalizedNavItems = rest.navItemsCustomized === true
         ? ensureOrderedSubset(rest.navItems, navOptionIds, DEFAULT_SETTINGS.navItems)
         : [...DEFAULT_SETTINGS.navItems];
-      const normalizedHomeTiles = ensureOrderedSubset(rest.homeTiles, homeTileIds, DEFAULT_SETTINGS.homeTiles);
+      const normalizedHomeTiles = ensureOrderedFullSet(rest.homeTiles, homeTileIds, DEFAULT_SETTINGS.homeTiles);
       const needsDefaultMigration = rest.settingsVersion !== DEFAULT_SETTINGS.settingsVersion;
       const hadLegacyDefaultHomeTiles = Array.isArray(rest.homeTiles)
         && rest.homeTiles.length === LEGACY_DEFAULT_HOME_TILES.length
@@ -2672,6 +2673,7 @@
         solved,
         currentStreak: Number(next.currentStreak) || 0,
         bestStreak: Number(next.bestStreak) || 0,
+        lastDailyDateKey: typeof next.lastDailyDateKey === 'string' ? next.lastDailyDateKey : null,
         totalSolvedGuesses,
         averageGuesses: solved > 0 ? Number((totalSolvedGuesses / solved).toFixed(2)) : 0,
         histogram: normalizeWorldleHistogram(next.histogram)
@@ -2904,6 +2906,13 @@
       const d = String(date.getDate()).padStart(2, '0');
       return `${y}-${m}-${d}`;
     };
+    const shiftWorldleDateKey = (dateKey, deltaDays) => {
+      const parts = String(dateKey || '').split('-').map(Number);
+      if (parts.length !== 3 || parts.some((part) => !Number.isFinite(part))) return null;
+      const shifted = new Date(parts[0], parts[1] - 1, parts[2]);
+      shifted.setDate(shifted.getDate() + deltaDays);
+      return getWorldleDateKey(shifted);
+    };
     const hashString = (value = '') => {
       let hash = 2166136261;
       for (let i = 0; i < value.length; i += 1) {
@@ -3101,8 +3110,14 @@
         bucket.histogram[histogramBucketKey(result.guessCount)] += 1;
       }
       if (queue === 'daily') {
+        const todayKey = getWorldleDateKey();
+        const lastKey = bucket.lastDailyDateKey || null;
+        if (result.solved && lastKey && lastKey !== todayKey && lastKey !== shiftWorldleDateKey(todayKey, -1)) {
+          bucket.currentStreak = 0;
+        }
         bucket.currentStreak = result.solved ? bucket.currentStreak + 1 : 0;
         bucket.bestStreak = Math.max(bucket.bestStreak, bucket.currentStreak);
+        bucket.lastDailyDateKey = todayKey;
       }
       next.stats[mode][queue] = bucket;
       const history = Array.isArray(next.history[mode]?.[queue]) ? next.history[mode][queue] : [];
@@ -5491,6 +5506,7 @@
     const HomeView = ({ setView, data, theme, builds = [], maps = [], challenges = [], setBuildSeed, perks = [], setBuilds, customHomeTiles = [], items = [], addons = [], offerings = [], cosmeticsCatalog = { characterSwaps: [], fullSets: [] }, allCharacters = [], onOpenCharacterProfile, settings = {} }) => {
       const { killers = [], survivors = [] } = data || {};
       const [searchTerm, setSearchTerm] = useState('');
+      const deferredSearchTerm = useDeferredValue(searchTerm);
       const [results, setResults] = useState([]);
       const [randomResult, setRandomResult] = useState(null);
       const [showImportModal, setShowImportModal] = useState(false);
@@ -6006,7 +6022,7 @@
       };
 
       useEffect(() => {
-        if (!searchTerm.trim()) {
+        if (!deferredSearchTerm.trim()) {
           setResults([]);
           return;
         }
@@ -6022,7 +6038,7 @@
           return { filter: null, term: input.toLowerCase() };
         };
 
-        const { filter, term } = parseSearch(searchTerm);
+        const { filter, term } = parseSearch(deferredSearchTerm);
         const shouldSearch = (category) => !filter || filter === category.toLowerCase();
 
         // ── Build flat list of all searchable items ──
@@ -6091,7 +6107,7 @@
         }
 
         // ── Smart score every item ──
-        const { tokens, context } = parseSmartQuery(filter ? term : searchTerm);
+        const { tokens, context } = parseSmartQuery(filter ? term : deferredSearchTerm);
         const scored = allItems
           .map(item => {
             const s = scoreItem(item, tokens, context);
@@ -6103,7 +6119,7 @@
         scored.sort((a, b) => b._score - a._score || (a.name || '').localeCompare(b.name || ''));
 
         setResults(scored.slice(0, 50));
-      }, [searchTerm, data, builds, maps, challenges, items, addons, offerings, searchableCosmetics]);
+      }, [deferredSearchTerm, data, builds, maps, challenges, items, addons, offerings, searchableCosmetics]);
       const visiblePerks = data?.perks || perks || [];
       const readyCosmeticCount = searchableCosmetics.length;
       const favoriteEntries = useMemo(() => {
@@ -11522,6 +11538,11 @@
       const [search, setSearch] = useState('');
       const [roleFilter, setRoleFilter] = useState('Killer');
       const [characterFilter, setCharacterFilter] = useState('__all__');
+      const COSMETICS_PAGE_SIZE = 120;
+      const [visibleCosmeticCount, setVisibleCosmeticCount] = useState(COSMETICS_PAGE_SIZE);
+      useEffect(() => {
+        setVisibleCosmeticCount(COSMETICS_PAGE_SIZE);
+      }, [roleFilter, characterFilter, search]);
 
       const readyCharacterSwaps = useMemo(
         () => (Array.isArray(cosmeticsCatalog.characterSwaps)
@@ -11597,6 +11618,18 @@
           .map(([label, entries]) => ({ label, entries: sortCosmeticsByRarity(entries) }))
           .sort((left, right) => raritySortRank(left.label) - raritySortRank(right.label) || compareUiText(left.label, right.label));
       }, [filteredCosmetics]);
+      const windowedGroups = useMemo(() => {
+        let remaining = visibleCosmeticCount;
+        const out = [];
+        for (const group of groupedByRarity) {
+          if (remaining <= 0) break;
+          const slice = group.entries.slice(0, remaining);
+          out.push({ ...group, entries: slice });
+          remaining -= slice.length;
+        }
+        return out;
+      }, [groupedByRarity, visibleCosmeticCount]);
+      const shownCosmeticCount = windowedGroups.reduce((total, group) => total + group.entries.length, 0);
       const characterSwapCount = readyCosmetics.filter((entry) => entry.isCharacterSwap).length;
       const fullSetPackStatusLabel = (() => {
         switch (fullSetPackState.status) {
@@ -11688,14 +11721,14 @@
           <div className="max-w-5xl mx-auto pb-32 space-y-6">
             {(() => {
               let renderedCount = 0;
-              return groupedByRarity.map((group) => (
+              return windowedGroups.map((group) => (
               <section key={group.label} className="space-y-3">
                 <div className="flex items-center justify-between gap-3">
                   <div>
                     <p className="text-[10px] uppercase tracking-widest font-bold text-zinc-500">{group.label}</p>
                     <p className="text-xs text-zinc-500 mt-1">{roleFilter} cosmetics sorted by rarity.</p>
                   </div>
-                  <span className="px-2 py-1 rounded-lg bg-white/5 border border-white/10 text-[10px] uppercase tracking-wider text-zinc-400">{group.entries.length}</span>
+                  <span className="px-2 py-1 rounded-lg bg-white/5 border border-white/10 text-[10px] uppercase tracking-wider text-zinc-400">{(groupedByRarity.find((full) => full.label === group.label)?.entries.length ?? group.entries.length)}</span>
                 </div>
                 <div className="grid grid-cols-2 sm:grid-cols-3 xl:grid-cols-4 gap-3">
                   {group.entries.map((entry) => {
@@ -11707,6 +11740,17 @@
               </section>
               ));
             })()}
+
+            {filteredCosmetics.length > shownCosmeticCount && (
+              <div className="flex justify-center pt-2">
+                <button
+                  onClick={() => setVisibleCosmeticCount((count) => count + COSMETICS_PAGE_SIZE)}
+                  className="px-5 py-2.5 rounded-2xl bg-white/5 border border-white/10 text-sm font-semibold text-zinc-200 hover:text-white hover:bg-white/10 transition-colors"
+                >
+                  Show more ({filteredCosmetics.length - shownCosmeticCount} remaining)
+                </button>
+              </div>
+            )}
 
             {groupedByRarity.length === 0 && (
               <div className="text-center py-12">

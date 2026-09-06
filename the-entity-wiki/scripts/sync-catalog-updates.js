@@ -261,13 +261,25 @@ function maxApiNumberFromImages(entries, prefix) {
   return max;
 }
 
+function splitCharacterId(value) {
+  const match = String(value || '').match(/^([KS])(\d+)$/i);
+  if (!match) return null;
+  return { prefix: match[1].toUpperCase(), number: Number(match[2]) };
+}
+
 function hasCharacter(database, sourceCharacter) {
   const expectedImage = localCharacterImage(sourceCharacter).toLowerCase();
-  return [...database.killers, ...database.survivors].some((character) => (
-    String(character.name || '').toLowerCase() === String(sourceCharacter.name || '').toLowerCase() ||
-    String(character.image || '').toLowerCase() === expectedImage ||
-    String(character.image || '').toLowerCase().includes(String(sourceCharacter.id || '').toLowerCase())
-  ));
+  const sourceId = splitCharacterId(sourceCharacter.id);
+  return [...database.killers, ...database.survivors].some((character) => {
+    if (String(character.name || '').toLowerCase() === String(sourceCharacter.name || '').toLowerCase()) return true;
+    if (String(character.image || '').toLowerCase() === expectedImage) return true;
+    if (!sourceId) return false;
+    const localBase = String(character.image || '').split('/').pop().toLowerCase();
+    const localMatch = localBase.match(/^([ks])(\d+)[-_]/);
+    return !!localMatch &&
+      localMatch[1].toUpperCase() === sourceId.prefix &&
+      Number(localMatch[2]) === sourceId.number;
+  });
 }
 
 function resolveOwnerName(ownerId, charactersPayload) {

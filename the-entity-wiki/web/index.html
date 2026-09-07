@@ -24,31 +24,48 @@
   <script src="./vendor/babel.min.js"></script>
   <script src="./vendor/tailwindcss.min.js"></script>
   <style>
+    /* Codex redesign: vendored display serif (Bitter, variable 400-700) */
+    @font-face {
+      font-family: 'Bitter';
+      font-style: normal;
+      font-weight: 400 700;
+      font-display: swap;
+      src: url('./assets/fonts/bitter-var.woff2') format('woff2');
+    }
+    @font-face {
+      font-family: 'Bitter';
+      font-style: italic;
+      font-weight: 400 700;
+      font-display: swap;
+      src: url('./assets/fonts/bitter-italic-var.woff2') format('woff2');
+    }
+
     :root {
-      --bg-01: #090b11;
-      --bg-02: #0c111b;
-      --panel: rgba(255, 255, 255, 0.04);
-      --stroke: #1f2433;
-      --chip: rgba(255, 255, 255, 0.06);
-      --text: #e5e7eb;
-      --muted: #94a3b8;
+      --font-display: 'Bitter', Georgia, serif;
+      --bg-01: #000000;
+      --bg-02: #000000;
+      --panel: rgba(233, 225, 210, 0.03);
+      --stroke: rgba(233, 225, 210, 0.14);
+      --chip: rgba(233, 225, 210, 0.045);
+      --text: #eae8e2;
+      --muted: #8f8a80;
       --text-soft: color-mix(in srgb, var(--text) 78%, var(--muted));
       --text-faint: color-mix(in srgb, var(--muted) 74%, var(--bg-02));
-      --nav-bg: rgba(12, 16, 26, 0.9);
-      --glass-bg: #141a28;
-      --ghost-surface: rgba(255, 255, 255, 0.05);
-      --ghost-strong: rgba(255, 255, 255, 0.16);
+      --nav-bg: rgba(0, 0, 0, 0.95);
+      --glass-bg: #0a0a0a;
+      --ghost-surface: rgba(233, 225, 210, 0.04);
+      --ghost-strong: rgba(233, 225, 210, 0.14);
       --surface-subtle: color-mix(in srgb, var(--panel) 72%, var(--ghost-surface));
       --surface-raised: color-mix(in srgb, var(--glass-bg) 82%, var(--panel));
       --surface-hover: color-mix(in srgb, var(--ghost-surface) 72%, var(--accent-soft));
       --shadow-soft: 0 8px 30px rgba(0, 0, 0, 0.35);
       --shadow-strong: 0 16px 60px rgba(0, 0, 0, 0.45);
-      --accent: #ffffff;
-      --accent-soft: #1a1a1a;
-      --site-shell-bg: linear-gradient(180deg, var(--bg-01), var(--bg-02));
-      --ambient-glow: radial-gradient(120% 120% at 20% 20%, rgba(56, 189, 248, 0.08), transparent 55%);
-      --ambient-opacity: 0.35;
-      --selection-bg: rgba(56, 189, 248, 0.2);
+      --accent: #ff3b30;
+      --accent-soft: rgba(255, 59, 48, 0.14);
+      --site-shell-bg: #000000;
+      --ambient-glow: radial-gradient(120% 120% at 20% 0%, rgba(255, 59, 48, 0.05), transparent 55%);
+      --ambient-opacity: 0.3;
+      --selection-bg: rgba(255, 59, 48, 0.22);
       --selection-text: #ffffff;
       --full-panel-bg: var(--panel);
       --full-panel-border: var(--stroke);
@@ -60,7 +77,7 @@
       --full-select-border: var(--stroke);
       --full-select-text: var(--text);
       --full-select-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.03), 0 10px 28px rgba(0, 0, 0, 0.35);
-      --full-select-focus-ring: rgba(56, 189, 248, 0.25);
+      --full-select-focus-ring: rgba(255, 59, 48, 0.25);
     }
 
     body {
@@ -176,8 +193,8 @@
     .launch-progress-fill {
       inset: 2px auto 2px 2px;
       width: 42%;
-      background: linear-gradient(90deg, rgba(255, 255, 255, 0.08), rgba(255, 255, 255, 0.9) 62%, #ffffff 100%);
-      box-shadow: 0 0 18px rgba(255, 255, 255, 0.25);
+      background: rgba(255, 59, 48, 0.85);
+      box-shadow: none;
       animation: launchBarSweep 1.9s cubic-bezier(0.4, 0.05, 0.6, 0.95) infinite;
     }
 
@@ -439,11 +456,9 @@
     .website-sidebar {
       width: 286px;
       border-right: 1px solid var(--stroke);
-      background:
-        linear-gradient(180deg, var(--ghost-surface), transparent),
-        var(--nav-bg);
-      backdrop-filter: blur(20px);
-      box-shadow: var(--shadow-soft);
+      background: var(--black, #000000);
+      backdrop-filter: none;
+      box-shadow: none;
     }
 
     .website-sidebar-scroll {
@@ -452,11 +467,13 @@
     }
 
     .website-nav-section-title {
-      color: var(--muted);
-      font-size: 10px;
-      font-weight: 800;
-      text-transform: uppercase;
-      letter-spacing: 0.18em;
+      color: var(--faint, var(--muted));
+      font-family: var(--font-display);
+      font-size: 11px;
+      font-weight: 500;
+      font-style: italic;
+      text-transform: none;
+      letter-spacing: 0.08em;
     }
 
     .website-nav-link {
@@ -1801,8 +1818,8 @@
       },
       ghost: {
         name: "Ghost White",
-        accent: "#ffffff",
-        accentSoft: "#1a1a1a",
+        accent: "#ff3b30",
+        accentSoft: "rgba(255,59,48,0.14)",
         tileGradient: "linear-gradient(145deg, #0a0a0a, #121212)",
         tileBorder: "rgba(255,255,255,0.3)",
         tileShadow: "0 0 25px rgba(255,255,255,0.15)"
@@ -2037,15 +2054,15 @@
       oled: {
         bg01: '#000000',
         bg02: '#000000',
-        panel: 'rgba(255, 255, 255, 0.03)',
-        stroke: '#1a1a1a',
-        chip: 'rgba(255, 255, 255, 0.04)',
-        text: '#e5e7eb',
-        muted: '#94a3b8',
+        panel: 'rgba(233, 225, 210, 0.03)',
+        stroke: 'rgba(233, 225, 210, 0.14)',
+        chip: 'rgba(233, 225, 210, 0.045)',
+        text: '#eae8e2',
+        muted: '#8f8a80',
         nav: 'rgba(0, 0, 0, 0.95)',
         glass: '#0a0a0a',
-        ghost: 'rgba(255, 255, 255, 0.04)',
-        ghostStrong: 'rgba(255, 255, 255, 0.12)',
+        ghost: 'rgba(233, 225, 210, 0.04)',
+        ghostStrong: 'rgba(233, 225, 210, 0.14)',
         shadowSoft: '0 8px 30px rgba(0, 0, 0, 0.5)',
         shadowStrong: '0 16px 60px rgba(0, 0, 0, 0.6)'
       }
@@ -4704,27 +4721,30 @@
       );
     };
     const WebsiteHeader = ({ currentView, setView }) => {
-      const headerTitle = currentView === 'home' ? 'Home' : getNavDisplayLabel(currentView);
+      const headerTitle = currentView === 'home' ? 'Search' : getNavDisplayLabel(currentView);
       return (
         <header className="website-topbar shrink-0 px-4 sm:px-6 lg:px-8 flex items-center justify-between gap-4">
           <button onClick={() => setView('home')} className="group flex items-center gap-3 min-w-0 text-left" aria-label="Open search">
-            <div className="website-brand-mark w-10 h-10 shrink-0 flex items-center justify-center">
-              <Icons.DbdLogo width={40} height={40} />
+            <div className="website-brand-mark w-9 h-9 shrink-0 flex items-center justify-center border border-white/15">
+              <Icons.DbdLogo width={36} height={36} />
             </div>
             <div className="min-w-0">
-              <p className="text-[10px] font-black uppercase tracking-[0.28em] text-zinc-500">The Entity's Wiki</p>
-              <h1 className="text-lg sm:text-xl font-black text-white truncate">{headerTitle}</h1>
+              <p className="text-[9px] font-bold uppercase tracking-[0.32em] text-zinc-500">The Entity's Wiki</p>
+              <h1 className="text-lg text-[var(--text)] truncate" style={{ fontFamily: 'var(--font-display)', fontWeight: 600, letterSpacing: '0.01em' }}>{headerTitle}</h1>
             </div>
           </button>
-          <div className="flex items-center gap-2 sm:gap-3">
-            <button
-              onClick={() => setView('settings')}
-              className="shrink-0 w-10 h-10 border border-white/10 bg-white/[0.035] text-zinc-400 hover:text-white hover:bg-white/10 transition-colors flex items-center justify-center"
-              aria-label="Open settings"
-            >
-              <Icons.Gear width={18} height={18} />
-            </button>
+          <div className="hidden md:flex items-center gap-5">
+            <span style={{ fontFamily: 'var(--mono-fallback, ui-monospace, monospace)', fontSize: '10px', letterSpacing: '0.14em', textTransform: 'uppercase', color: 'var(--faint, var(--muted))' }}>
+              Patch {META.gameVersion} · synced {META.lastSynced}
+            </span>
           </div>
+          <button
+            onClick={() => setView('settings')}
+            className="shrink-0 w-10 h-10 border border-white/10 bg-white/[0.035] text-zinc-400 hover:text-white hover:bg-white/10 transition-colors flex items-center justify-center"
+            aria-label="Open settings"
+          >
+            <Icons.Gear width={18} height={18} />
+          </button>
         </header>
       );
     };
@@ -4782,6 +4802,33 @@
         items.push({ id: 'settings', label: 'Settings' });
         return items;
       }, [customNavItems]);
+      const navCounts = useMemo(() => {
+        const storageCount = (key) => { try { return (JSON.parse(localStorage.getItem(key)) || []).length; } catch { return 0; } };
+        const favCount = () => {
+          try {
+            const s = JSON.parse(localStorage.getItem('dbd_settings_v1')) || {};
+            return ['favoritePerks', 'favoriteKillers', 'favoriteSurvivors', 'favoriteItems', 'favoriteAddons', 'favoriteOfferings'].reduce((n, k) => n + ((s[k] || []).length), 0);
+          } catch { return 0; }
+        };
+        return {
+          killers: DATABASE.killers.length,
+          survivors: DATABASE.survivors.length,
+          perks: DATABASE.perks.length,
+          addons: DATABASE.addons.length,
+          items: DATABASE.items.length,
+          offerings: DATABASE.offerings.length,
+          realms: DATABASE.realms.length,
+          maps: DATABASE.maps.length,
+          cosmetics: (COSMETICS_CATALOG.fullSets || []).length + (COSMETICS_CATALOG.characterSwaps || []).length,
+          buildLab: storageCount('dbd_builds_v1'),
+          matches: storageCount('dbd_matches_v1'),
+          favorites: favCount(),
+          timeline: (typeof TIMELINE_DATA !== 'undefined' && TIMELINE_DATA.releases) ? TIMELINE_DATA.releases.length : 0,
+          glossary: GLOSSARY.reduce((n, s) => n + s.items.length, 0),
+          communityContent: (typeof COMMUNITY_CONTENT !== 'undefined' && COMMUNITY_CONTENT.guideVault && COMMUNITY_CONTENT.guideVault.entries) ? COMMUNITY_CONTENT.guideVault.entries.length : 0,
+          gameIcons: (typeof GAME_ICONS !== 'undefined') ? GAME_ICONS.length : 0
+        };
+      }, []);
       const hasMany = navItems.length > 6;
       const containerClasses = isMobile
         ? 'nav-shell nav-scroll rounded-2xl px-3 py-2 border border-white/5 max-w-3xl w-full mx-auto'
@@ -4792,9 +4839,15 @@
       if (!isMobile) {
         return (
           <aside className="website-sidebar relative z-10 hidden md:flex h-full shrink-0 flex-col">
-            <div className="px-5 py-4 border-b border-white/10">
-              <p className="text-[10px] font-black uppercase tracking-[0.28em] text-zinc-500">Navigation</p>
-              <button onClick={() => setView('home')} className="website-sidebar-search mt-3 w-full rounded-3xl p-2 text-left transition-colors flex items-center gap-3">
+            <div className="px-5 pt-5 pb-4 border-b border-white/10">
+              <div className="flex items-center gap-3">
+                <img src="./assets/favicon.png" alt="" width={30} height={30} />
+                <div className="min-w-0">
+                  <p className="text-[15px] leading-tight text-[var(--text)] truncate" style={{ fontFamily: 'var(--font-display)', fontWeight: 600 }}>The Entity's Wiki</p>
+                  <p className="text-[9px] uppercase tracking-[0.3em] text-zinc-500" style={{ fontFamily: 'var(--mono-fallback, ui-monospace, monospace)' }}>Dead by Daylight</p>
+                </div>
+              </div>
+              <button onClick={() => setView('home')} className="website-sidebar-search mt-4 w-full rounded-3xl p-2 text-left transition-colors flex items-center gap-3">
                 <span className="pl-2 text-zinc-400"><Icons.Search width={18} height={18} /></span>
                 <span className="min-w-0">
                   <span className="block text-sm text-white font-bold truncate">Global search</span>
@@ -4810,6 +4863,7 @@
                     {section.ids.map((id) => {
                       const IconComponent = Icons[NAV_ICON_MAP[id]] || Icons.Zap;
                       const isActive = currentView === id;
+                      const count = navCounts[id];
                       return (
                         <button
                           key={id}
@@ -4817,11 +4871,14 @@
                           onDoubleClick={() => id === 'perks' && onPerksReset?.()}
                           className={`website-nav-link ${isActive ? 'website-nav-link--active' : ''} w-full rounded-xl px-3 py-2.5 text-left transition-all duration-200 flex items-center gap-3`}
                         >
-                          <IconComponent width={18} height={18} strokeWidth={isActive ? 2.4 : 2} style={isActive ? { color: theme.accent } : {}} />
+                          <IconComponent width={17} height={17} strokeWidth={isActive ? 2.4 : 2} style={isActive ? { color: theme.accent } : {}} />
                           <span className="min-w-0 flex-1">
                             <span className="block text-sm font-bold truncate">{getNavDisplayLabel(id)}</span>
                             <span className="block text-[11px] text-zinc-500 truncate">{getNavDescription(id)}</span>
                           </span>
+                          {typeof count === 'number' && count > 0 && (
+                            <span className="shrink-0 text-[10px] text-zinc-600" style={{ fontFamily: 'var(--mono-fallback, ui-monospace, monospace)' }}>{count}</span>
+                          )}
                         </button>
                       );
                     })}
@@ -4829,6 +4886,11 @@
                 </div>
               ))}
             </nav>
+            <div className="px-5 py-3 border-t border-white/10">
+              <p className="text-[9.5px] text-zinc-600" style={{ fontFamily: 'var(--mono-fallback, ui-monospace, monospace)', letterSpacing: '0.12em', textTransform: 'uppercase' }}>
+                Patch {META.gameVersion} · synced {META.lastSynced}
+              </p>
+            </div>
             <PlayStoreFooter />
             <SiteLegalFooter className="px-5 pb-4" />
           </aside>

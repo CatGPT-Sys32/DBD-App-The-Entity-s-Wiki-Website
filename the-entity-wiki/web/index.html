@@ -29,6 +29,9 @@
     tailwind.config = {
       theme: {
         extend: {
+          borderRadius: {
+            lg: '7px', xl: '9px', '2xl': '11px', '3xl': '13px'
+          },
           fontFamily: {
             serif: ['Bitter', 'Georgia', 'serif'],
           },
@@ -5331,7 +5334,7 @@
         <div className="space-y-6">
           {/* Character Result */}
           {result.character && (
-            <div className="p-4 rounded-2xl bg-gradient-to-br from-zinc-900/80 to-zinc-900/40 border border-white/10 backdrop-blur-md">
+            <div className="p-4 rounded-2xl bg-zinc-900/60 border border-white/10 backdrop-blur-md">
               <div className="flex items-center gap-4">
                 <div className={`w-1 h-16 rounded-full ${role === 'Killer' ? 'bg-red-500 shadow-[0_0_10px_rgba(255,59,48,0.5)]' : 'bg-blue-500 shadow-[0_0_10px_rgba(59,130,246,0.5)]'}`} />
                 <AssetFrame type={role} imageUrl={result.character.image} />
@@ -5414,13 +5417,13 @@
           <div className="flex gap-1 bg-zinc-900/40 p-0.5 rounded-xl border border-white/5 backdrop-blur-md shrink-0">
             <button
               onClick={() => setRole('Survivor')}
-              className={`flex-1 py-2.5 rounded-lg text-xs font-bold uppercase tracking-wider transition-all ${role === 'Survivor' ? 'bg-gradient-to-r from-blue-700 to-blue-500 text-white shadow-lg shadow-blue-500/20' : 'text-zinc-500 hover:text-zinc-300'}`}
+              className={`flex-1 py-2.5 rounded-lg text-xs font-bold uppercase tracking-wider transition-all ${role === 'Survivor' ? 'bg-sky-600 text-white' : 'text-zinc-500 hover:text-zinc-300'}`}
             >
               Survivor
             </button>
             <button
               onClick={() => setRole('Killer')}
-              className={`flex-1 py-2.5 rounded-lg text-xs font-bold uppercase tracking-wider transition-all ${role === 'Killer' ? 'bg-gradient-to-r from-red-700 to-red-500 text-white shadow-lg shadow-red-500/20' : 'text-zinc-500 hover:text-zinc-300'}`}
+              className={`flex-1 py-2.5 rounded-lg text-xs font-bold uppercase tracking-wider transition-all ${role === 'Killer' ? 'bg-red-600 text-white' : 'text-zinc-500 hover:text-zinc-300'}`}
             >
               Killer
             </button>
@@ -5588,7 +5591,7 @@
             <button
               onClick={rollDice}
               disabled={isSpinning || (ownedCharacters.size === 0 && !lockedCharacterId)}
-              className={`w-full py-3 bg-gradient-to-r ${role === 'Survivor' ? 'from-blue-800 to-blue-500' : 'from-red-800 to-red-500'} rounded-xl font-bold uppercase tracking-widest text-sm text-white hover:scale-[1.01] active:scale-[0.99] transition-all disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center gap-2`}
+              className={`w-full py-3 ${role === 'Survivor' ? 'bg-sky-700' : 'bg-red-700'} rounded-xl font-bold uppercase tracking-widest text-sm text-white hover:scale-[1.01] active:scale-[0.99] transition-all disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center gap-2`}
             >
               <Icons.Dices width={18} height={18} className={isSpinning ? 'animate-spin' : ''} />
               {isSpinning ? 'Consulting Entity...' : lockedCharacterId ? `Randomize as ${characters.find(c => c.id === lockedCharacterId)?.name || role}` : 'Randomize'}
@@ -6334,7 +6337,7 @@
             {randomResult && (
               <div className="space-y-4 animate-in fade-in slide-in-from-bottom-4 duration-500">
                 {randomResult.type === 'help' && (
-                  <div className="p-6 rounded-3xl bg-gradient-to-br from-purple-900/40 to-zinc-900/60 border border-purple-500/20">
+                  <div className="p-6 rounded-3xl bg-purple-900/25 border border-purple-500/20">
                     <div className="flex items-center gap-3 mb-4">
                       <div className="p-2 rounded-xl bg-purple-500/20">
                         <Icons.Dices width={24} height={24} className="text-purple-400" />
@@ -6354,7 +6357,7 @@
                 )}
 
                 {randomResult.type === 'killer' && (
-                  <div className="p-5 rounded-3xl bg-gradient-to-br from-red-900/30 to-zinc-900/60 border border-red-500/20 shadow-lg shadow-red-500/5">
+                  <div className="p-5 rounded-3xl bg-red-900/25 border border-red-500/20 shadow-lg shadow-red-500/5">
                     <div className="flex items-center gap-4 mb-4">
                       <AssetFrame type="Killer" imageUrl={randomResult.killer.image} fallbackIcon={<Icons.User width={28} height={28} className="text-zinc-500" />} />
                       <div>
@@ -6393,7 +6396,7 @@
                 )}
 
                 {randomResult.type === 'item' && (
-                  <div className="p-5 rounded-3xl bg-gradient-to-br from-blue-900/30 to-zinc-900/60 border border-blue-500/20 shadow-lg shadow-blue-500/5">
+                  <div className="p-5 rounded-3xl bg-blue-900/25 border border-blue-500/20 shadow-lg shadow-blue-500/5">
                     <div className="flex items-center gap-4 mb-4">
                       <div className="w-14 h-14 rounded-xl overflow-hidden flex-shrink-0">
                         <AssetFrame type="Item" imageUrl={randomResult.item?.image} size="fill" fallbackIcon={<Icons.Package width={24} height={24} className="text-zinc-500" />} />
@@ -6434,7 +6437,7 @@
                 )}
 
                 {randomResult.type === 'offering' && (
-                  <div className="p-5 rounded-3xl bg-gradient-to-br from-amber-900/30 to-zinc-900/60 border border-amber-500/20 shadow-lg shadow-amber-500/5">
+                  <div className="p-5 rounded-3xl bg-amber-900/25 border border-amber-500/20 shadow-lg shadow-amber-500/5">
                     <div className="flex flex-col items-center text-center">
                       <p className="text-[10px] font-bold uppercase tracking-widest text-amber-400 mb-3">Random Offering</p>
                       <div
@@ -7293,7 +7296,7 @@
         setPerkSearch('');
       };
       return (
-        <div className="p-5 rounded-3xl bg-gradient-to-br from-zinc-900/90 to-zinc-900/60 border border-white/10 backdrop-blur-md space-y-5">
+        <div className="p-5 rounded-3xl bg-zinc-900/70 border border-white/10 backdrop-blur-md space-y-5">
           {/* Header: Name + Role */}
           <div className="flex flex-col sm:flex-row gap-3">
             <div className="flex-1">
@@ -7525,7 +7528,7 @@
             </button>
             <button
               onClick={handleSave}
-              className={`px-5 py-2.5 rounded-xl text-sm font-bold text-white shadow-lg transition-all hover:scale-105 ${form.role === 'Killer' ? 'bg-gradient-to-r from-red-700 to-red-500' : 'bg-gradient-to-r from-blue-700 to-blue-500'}`}
+              className={`px-5 py-2.5 rounded-xl text-sm font-bold text-white shadow-lg transition-all hover:scale-105 ${form.role === 'Killer' ? 'bg-red-700' : 'bg-sky-700'}`}
             >
               Save Build
             </button>
@@ -7637,7 +7640,7 @@
             'Edit or duplicate builds to iterate quickly; marking favorites stars them for Lobby and Match Log linking.'
           ]} />
           <div className="mb-4 flex flex-wrap gap-2 items-center">
-            <button onClick={() => { setEditing(null); setShowForm(true); }} className="px-4 py-2 rounded-xl bg-gradient-to-r from-red-700 to-red-500 text-white font-bold text-sm shadow-lg">New Build</button>
+            <button onClick={() => { setEditing(null); setShowForm(true); }} className="px-4 py-2 rounded-xl bg-red-700 text-white font-bold text-sm shadow-lg">New Build</button>
             <GlassButton active={filters.role === 'Killer'} onClick={() => setFilters(f => ({ ...f, role: filters.role === 'Killer' ? 'All' : 'Killer' }))} className="text-xs py-2 px-3">Killer</GlassButton>
             <GlassButton active={filters.role === 'Survivor'} onClick={() => setFilters(f => ({ ...f, role: filters.role === 'Survivor' ? 'All' : 'Survivor' }))} className="text-xs py-2 px-3">Survivor</GlassButton>
             <GlassButton onClick={() => setFilters({ role: 'All', character: 'All', tag: 'All', search: '', include: '', exclude: '' })} className="text-xs py-2 px-3">Reset</GlassButton>
@@ -8748,7 +8751,7 @@
               </div>
               <div className="flex justify-end gap-2 mt-3">
                 <button onClick={() => { setForm(blankForm(form.role)); setEditingId(null); }} className="px-4 py-2 rounded-xl text-sm font-bold bg-white/5 text-zinc-300 border border-white/10">Reset</button>
-                <button onClick={handleSubmit} className="px-4 py-2 rounded-xl text-sm font-bold bg-gradient-to-r from-red-700 to-red-500 text-white shadow-lg">{editingId ? 'Update Match' : 'Save Match'}</button>
+                <button onClick={handleSubmit} className="px-4 py-2 rounded-xl text-sm font-bold bg-red-700 text-white shadow-lg">{editingId ? 'Update Match' : 'Save Match'}</button>
               </div>
             </div>
             <div className="p-4 rounded-3xl bg-zinc-900/60 border border-white/10 space-y-3">
@@ -9034,7 +9037,7 @@
               { label: 'Killer Win Rate', value: `${killerWinRate}%`, color: '#ff3b30' },
               { label: 'Perk Coverage', value: `${perkSnapshotMatches}/${filteredMatches.length || 0}`, color: '#facc15' }
             ].map((card) => (
-              <div key={card.label} className="p-4 rounded-2xl bg-gradient-to-br from-zinc-900/80 to-zinc-800/40 border border-white/10 text-center">
+              <div key={card.label} className="p-4 rounded-2xl bg-zinc-900/60 border border-white/10 text-center">
                 <p className="text-2xl font-bold" style={{ color: card.color }}>{card.value}</p>
                 <p className="text-[10px] uppercase tracking-wider text-zinc-500 font-bold mt-1">{card.label}</p>
               </div>
@@ -9596,7 +9599,7 @@
                       onMouseDown={e => e.preventDefault()}
                       onClick={() => handleGuessSubmit()}
                       disabled={!guessInput.trim() || isFinished}
-                      className="px-5 py-3 rounded-2xl bg-gradient-to-r from-red-700 to-red-500 text-white font-bold text-sm disabled:opacity-40 disabled:cursor-not-allowed"
+                      className="px-5 py-3 rounded-2xl bg-red-700 text-white font-bold text-sm disabled:opacity-40 disabled:cursor-not-allowed"
                     >
                       Submit
                     </button>
@@ -9681,7 +9684,7 @@
                       <div key={bucket} className="grid grid-cols-[40px,1fr,28px] items-center gap-2">
                         <span className="text-xs text-zinc-500 font-semibold">{bucket}</span>
                         <div className="h-2 rounded-full bg-zinc-800 overflow-hidden">
-                          <div className="h-full rounded-full bg-gradient-to-r from-cyan-400 to-red-500" style={{ width: `${((Number(value) || 0) / histogramMax) * 100}%` }} />
+                          <div className="h-full rounded-full bg-red-500" style={{ width: `${((Number(value) || 0) / histogramMax) * 100}%` }} />
                         </div>
                         <span className="text-xs text-zinc-400 text-right">{value}</span>
                       </div>
@@ -10051,7 +10054,7 @@
                     {builds.map(build => <option key={build.id} value={build.id}>{build.name}</option>)}
                   </select>
                 </div>
-                <button onClick={addChallenge} className="px-4 py-2 rounded-xl bg-gradient-to-r from-red-700 to-red-500 text-white font-bold text-sm">Add Challenge</button>
+                <button onClick={addChallenge} className="px-4 py-2 rounded-xl bg-red-700 text-white font-bold text-sm">Add Challenge</button>
               </div>
               <div className="space-y-2">
                 {(progression.challenges || []).map((challenge) => (

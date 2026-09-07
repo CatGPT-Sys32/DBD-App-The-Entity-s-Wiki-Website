@@ -23,6 +23,41 @@
   <script src="./vendor/react-dom.production.min.js"></script>
   <script src="./vendor/babel.min.js"></script>
   <script src="./vendor/tailwindcss.min.js"></script>
+  <script>
+    /* Codex palette remap: warm bone-gray zinc/slate scales + Codex red.
+       Utilities keep their roles (900 = panel, 500 = dim, 300 = faint text). */
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            serif: ['Bitter', 'Georgia', 'serif'],
+          },
+          colors: {
+            zinc: {
+              50: '#f4f2ee', 100: '#e8e5df', 200: '#d8d4ca', 300: '#b5afa4',
+              400: '#8f8a80', 500: '#6e6a63', 600: '#4a4741', 700: '#332f2c',
+              800: '#191715', 900: '#0e0d0c', 950: '#050505'
+            },
+            slate: {
+              50: '#f4f2ee', 100: '#e8e5df', 200: '#d8d4ca', 300: '#b5afa4',
+              400: '#8f8a80', 500: '#6e6a63', 600: '#4a4741', 700: '#332f2c',
+              800: '#191715', 900: '#0e0d0c', 950: '#050505'
+            },
+            neutral: {
+              50: '#f4f2ee', 100: '#e8e5df', 200: '#d8d4ca', 300: '#b5afa4',
+              400: '#8f8a80', 500: '#6e6a63', 600: '#4a4741', 700: '#332f2c',
+              800: '#191715', 900: '#0e0d0c', 950: '#050505'
+            },
+            red: {
+              50: '#fff1f0', 100: '#ffdfdd', 200: '#ffc4c1', 300: '#ff9a95',
+              400: '#ff6b63', 500: '#ff3b30', 600: '#e02d23', 700: '#b81f17',
+              800: '#7a130e', 900: '#4a0e0a', 950: '#2a0806'
+            }
+          }
+        }
+      }
+    };
+  </script>
   <style>
     /* Codex redesign: vendored display serif (Bitter, variable 400-700) */
     @font-face {
@@ -87,6 +122,13 @@
       overflow: hidden;
       letter-spacing: 0;
       position: relative;
+    }
+
+    /* Codex typography: serif display headings */
+    h1, h2 {
+      font-family: var(--font-display);
+      font-weight: 600;
+      letter-spacing: -0.01em;
     }
 
     body::before {
@@ -1774,7 +1816,7 @@
         accentSoft: "#7f1d1d",
         tileGradient: "linear-gradient(145deg, #0f0f10, #190c0e)",
         tileBorder: "rgba(127,29,29,0.6)",
-        tileShadow: "0 0 25px rgba(239,68,68,0.25)"
+        tileShadow: "0 0 25px rgba(255,59,48,0.25)"
       },
       abyss: {
         name: "Abyss Blue",
@@ -2929,10 +2971,10 @@
     };
     const WORLDLE_METADATA = typeof WORLDLE_DATA === 'undefined' ? { aliases: {}, genders: {}, emojiClues: {} } : WORLDLE_DATA;
     const WORLDLE_MODE_META = {
-      classic: { label: 'Classic', queue: 'flex', accent: '#ef4444', description: 'Guess the killer from stats, release clues, and comparisons.' },
+      classic: { label: 'Classic', queue: 'flex', accent: '#ff3b30', description: 'Guess the killer from stats, release clues, and comparisons.' },
       emoji: { label: 'Emoji', queue: 'flex', accent: '#f59e0b', description: 'Decode the clues to identify the killer.' },
       survivorPerk: { label: 'Survivor Perk', queue: 'flex', accent: '#38bdf8', description: 'Identify a survivor perk from its icon.' },
-      killerPerk: { label: 'Killer Perk', queue: 'flex', accent: '#ef4444', description: 'Identify a killer perk from its icon.' },
+      killerPerk: { label: 'Killer Perk', queue: 'flex', accent: '#ff3b30', description: 'Identify a killer perk from its icon.' },
       teachables: { label: 'Teachables', queue: 'flex', accent: '#a855f7', description: 'Guess the three killer teachable perks for the featured killer.' }
     };
     const getWorldleDateKey = (date = new Date()) => {
@@ -3701,7 +3743,7 @@
         }
         setDragY(0);
       };
-      const accentColor = perk.type === 'Killer' ? '#ef4444' : '#38bdf8';
+      const accentColor = perk.type === 'Killer' ? '#ff3b30' : '#38bdf8';
       return (
         <div
           className="fixed inset-0 z-50 flex items-end justify-center bottom-sheet-backdrop"
@@ -4979,7 +5021,7 @@
       };
       if (category === 'Killer') {
         subtext = item.realName || item.name;
-        accentTone = '#ef4444';
+        accentTone = '#ff3b30';
         fallbackIcon = <Icons.Sword width={24} height={24} className="opacity-20" />;
       } else if (category === 'Survivor') {
         subtext = item.role;
@@ -4987,7 +5029,7 @@
         fallbackIcon = <Icons.Heart width={24} height={24} className="opacity-20" />;
       } else if (isPerk) {
         subtext = item.owner || 'Universal';
-        accentTone = item.type === 'Killer' ? '#ef4444' : '#38bdf8';
+        accentTone = item.type === 'Killer' ? '#ff3b30' : '#38bdf8';
         fallbackIcon = <Icons.BookOpen width={20} height={20} className="opacity-20" />;
       }
       return (
@@ -5291,7 +5333,7 @@
           {result.character && (
             <div className="p-4 rounded-2xl bg-gradient-to-br from-zinc-900/80 to-zinc-900/40 border border-white/10 backdrop-blur-md">
               <div className="flex items-center gap-4">
-                <div className={`w-1 h-16 rounded-full ${role === 'Killer' ? 'bg-red-500 shadow-[0_0_10px_rgba(239,68,68,0.5)]' : 'bg-blue-500 shadow-[0_0_10px_rgba(59,130,246,0.5)]'}`} />
+                <div className={`w-1 h-16 rounded-full ${role === 'Killer' ? 'bg-red-500 shadow-[0_0_10px_rgba(255,59,48,0.5)]' : 'bg-blue-500 shadow-[0_0_10px_rgba(59,130,246,0.5)]'}`} />
                 <AssetFrame type={role} imageUrl={result.character.image} />
                 <div className="flex-1">
                   <p className="text-[10px] font-bold uppercase tracking-widest text-zinc-500 mb-1">{role}</p>
@@ -6555,7 +6597,7 @@
                     );
                   }
                   if (item.category === 'GameIcon') {
-                    const categoryColors = { health: '#22c55e', buff: '#38bdf8', debuff: '#ef4444', killer: '#a855f7', activity: '#fbbf24' };
+                    const categoryColors = { health: '#22c55e', buff: '#38bdf8', debuff: '#ff3b30', killer: '#a855f7', activity: '#fbbf24' };
                     const color = categoryColors[item.category] || '#a1a1aa';
                     return wrapBest(
                       <div key={item.id || item.name} className="p-3 rounded-2xl bg-zinc-900/60 border border-white/10 flex items-center gap-3">
@@ -7273,7 +7315,7 @@
               <button
                 onClick={() => changeRole('Killer')}
                 className="flex-1 sm:flex-none px-4 py-3 rounded-xl text-xs font-bold uppercase tracking-wider transition-all"
-                style={form.role === 'Killer' ? { background: '#0a0a0a', border: '2px solid #ef4444', color: '#ef4444', boxShadow: '0 4px 15px rgba(239,68,68,0.2)' } : { background: '#0a0a0a', border: '1px solid rgba(255,255,255,0.1)', color: '#a1a1aa' }}
+                style={form.role === 'Killer' ? { background: '#0a0a0a', border: '2px solid #ef4444', color: '#ff3b30', boxShadow: '0 4px 15px rgba(255,59,48,0.2)' } : { background: '#0a0a0a', border: '1px solid rgba(255,255,255,0.1)', color: '#a1a1aa' }}
               >
                 Killer
               </button>
@@ -7318,7 +7360,7 @@
                   <button
                     key={char.id}
                     onClick={() => pickCharacter(char)}
-                    className={`aspect-square rounded-xl border-2 transition-all overflow-hidden ${form.characterId === char.id ? (form.role === 'Killer' ? 'border-red-500 shadow-[0_0_10px_rgba(239,68,68,0.3)]' : 'border-blue-500 shadow-[0_0_10px_rgba(59,130,246,0.3)]') : 'border-white/10 hover:border-white/30'}`}
+                    className={`aspect-square rounded-xl border-2 transition-all overflow-hidden ${form.characterId === char.id ? (form.role === 'Killer' ? 'border-red-500 shadow-[0_0_10px_rgba(255,59,48,0.3)]' : 'border-blue-500 shadow-[0_0_10px_rgba(59,130,246,0.3)]') : 'border-white/10 hover:border-white/30'}`}
                     title={char.name}
                   >
                     <div className="w-full h-full bg-zinc-900">
@@ -8636,7 +8678,7 @@
                 <button
                   onClick={() => changeRole('Killer')}
                   className="px-3 py-2 rounded-xl text-xs font-bold uppercase tracking-wider transition-all"
-                  style={form.role === 'Killer' ? { background: '#0a0a0a', border: '2px solid #ef4444', color: '#ef4444' } : { background: '#0a0a0a', border: '1px solid rgba(255,255,255,0.1)', color: '#a1a1aa' }}
+                  style={form.role === 'Killer' ? { background: '#0a0a0a', border: '2px solid #ef4444', color: '#ff3b30' } : { background: '#0a0a0a', border: '1px solid rgba(255,255,255,0.1)', color: '#a1a1aa' }}
                 >Killer</button>
                 {editingId && <span className="text-[11px] text-yellow-300 font-bold">Editing existing match</span>}
               </div>
@@ -8944,7 +8986,7 @@
                   <span style={{ color: row.rate >= 50 ? '#4ade80' : '#f87171' }}>{row.rate}%</span>
                 </div>
                 <div className="h-1.5 rounded-full bg-zinc-800 overflow-hidden mb-1">
-                  <div className="h-full rounded-full transition-all" style={{ width: `${row.rate}%`, background: row.rate >= 50 ? '#22c55e' : '#ef4444' }} />
+                  <div className="h-full rounded-full transition-all" style={{ width: `${row.rate}%`, background: row.rate >= 50 ? '#22c55e' : '#ff3b30' }} />
                 </div>
                 <p className="text-[10px] text-zinc-500">{row.total} matches · Avg self score {row.avgPerf}</p>
                 {(row.owner || row.type) && <p className="text-[10px] text-zinc-600 mt-1">{[row.type, row.owner].filter(Boolean).join(' · ')}</p>}
@@ -8987,9 +9029,9 @@
           <div className="grid grid-cols-2 md:grid-cols-5 gap-3">
             {[
               { label: 'Filtered Matches', value: filteredMatches.length, color: '#f4f4f5' },
-              { label: 'Overall Win Rate', value: `${overallWinRate}%`, color: overallWinRate >= 50 ? '#22c55e' : '#ef4444' },
+              { label: 'Overall Win Rate', value: `${overallWinRate}%`, color: overallWinRate >= 50 ? '#22c55e' : '#ff3b30' },
               { label: 'Survivor Win Rate', value: `${survivorWinRate}%`, color: '#38bdf8' },
-              { label: 'Killer Win Rate', value: `${killerWinRate}%`, color: '#ef4444' },
+              { label: 'Killer Win Rate', value: `${killerWinRate}%`, color: '#ff3b30' },
               { label: 'Perk Coverage', value: `${perkSnapshotMatches}/${filteredMatches.length || 0}`, color: '#facc15' }
             ].map((card) => (
               <div key={card.label} className="p-4 rounded-2xl bg-gradient-to-br from-zinc-900/80 to-zinc-800/40 border border-white/10 text-center">
@@ -11354,7 +11396,7 @@
       };
       const getRoleColor = (role) => {
         if (!role || role === 'universal') return '#a1a1aa';
-        return role === 'killer' ? '#ef4444' : '#38bdf8';
+        return role === 'killer' ? '#ff3b30' : '#38bdf8';
       };
       const formatRole = (role) => {
         if (!role) return 'Universal';
@@ -12079,7 +12121,7 @@
         if (bucket === 'good') return { color: '#f97316', borderColor: 'rgba(249,115,22,0.35)' };
         if (bucket === 'decent') return { color: '#22c55e', borderColor: 'rgba(34,197,94,0.35)' };
         if (bucket === 'almost-no-effect') return { color: '#64748b', borderColor: 'rgba(100,116,139,0.35)' };
-        if (bucket === 'detrimental') return { color: '#ef4444', borderColor: 'rgba(239,68,68,0.35)' };
+        if (bucket === 'detrimental') return { color: '#ff3b30', borderColor: 'rgba(255,59,48,0.35)' };
         return { color: '#94a3b8', borderColor: 'rgba(148,163,184,0.35)' };
       };
 
@@ -13342,7 +13384,7 @@
         if (!icon) return null;
         const isBuff = icon.type === 'buff';
         const isDebuff = icon.type === 'debuff';
-        const borderColor = isBuff ? '#22c55e' : isDebuff ? '#ef4444' : accentColor;
+        const borderColor = isBuff ? '#22c55e' : isDebuff ? '#ff3b30' : accentColor;
         return (
           <div className="fixed inset-0 z-[100] flex items-center justify-center p-4" onClick={onClose}>
             <div className="absolute inset-0 bg-black/85 backdrop-blur-sm" />
@@ -13455,7 +13497,7 @@
                 {filteredIcons.map(icon => {
                   const isBuff = icon.type === 'buff';
                   const isDebuff = icon.type === 'debuff';
-                  const ringColor = isBuff ? '#22c55e' : isDebuff ? '#ef4444' : `${accentColor}60`;
+                  const ringColor = isBuff ? '#22c55e' : isDebuff ? '#ff3b30' : `${accentColor}60`;
                   return (
                     <button
                       key={icon.id}
@@ -13506,7 +13548,7 @@
                 const isExpanded = expandedId === icon.id;
                 const isBuff = icon.type === 'buff';
                 const isDebuff = icon.type === 'debuff';
-                const underlineColor = isBuff ? '#22c55e' : isDebuff ? '#ef4444' : 'transparent';
+                const underlineColor = isBuff ? '#22c55e' : isDebuff ? '#ff3b30' : 'transparent';
                 return (
                   <div
                     key={icon.id}
@@ -13596,8 +13638,8 @@
             style={{
               background: '#0a0a0a',
               border: '2px solid #ef4444',
-              color: '#ef4444',
-              boxShadow: '0 4px 20px rgba(239,68,68,0.3)'
+              color: '#ff3b30',
+              boxShadow: '0 4px 20px rgba(255,59,48,0.3)'
             }}
             title="Clear comparison"
           >
@@ -13623,7 +13665,7 @@
     const LoreModal = ({ character, onClose }) => {
       if (!character) return null;
       const isKiller = character.type === 'Killer' || character.power;
-      const accentColor = isKiller ? '#ef4444' : '#38bdf8';
+      const accentColor = isKiller ? '#ff3b30' : '#38bdf8';
       return (
         <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/80 backdrop-blur-sm" onClick={onClose}>
           <div
@@ -13788,7 +13830,7 @@
             <div className="flex-shrink-0 flex items-center justify-between p-4 bg-zinc-900/95 backdrop-blur border-b border-white/10 rounded-t-3xl">
               <div>
                 <p className="text-[10px] font-bold uppercase tracking-widest text-zinc-500 mb-1">Map Details</p>
-                <h2 className="text-lg font-bold text-white pb-1" style={{ borderBottom: '2px solid #ef4444', display: 'inline-block' }}>{map.name}</h2>
+                <h2 className="text-lg font-bold text-white pb-1" style={{ borderBottom: '2px solid #ff3b30', display: 'inline-block' }}>{map.name}</h2>
                 {map.realm && <p className="text-xs text-zinc-500 mt-1">{map.realm}</p>}
                 {hasMultiple && layouts[currentIndex].label && (
                   <p className="text-xs text-zinc-400 mt-1">{layouts[currentIndex].label}</p>
@@ -14017,7 +14059,7 @@
     const CharacterProfileModal = ({ character, onClose, allPerks = [], onPerkTap, theme, settings = {}, noteValue = '', onNoteChange, cosmeticsByBaseId = {} }) => {
       if (!character) return null;
       const isKiller = character.type === 'Killer' || character.power;
-      const accentColor = isKiller ? '#ef4444' : '#38bdf8';
+      const accentColor = isKiller ? '#ff3b30' : '#38bdf8';
       const stats = isKiller ? KILLER_STATS[character.name] : null;
       const guide = isKiller ? KILLER_GUIDES[character.name] : null;
       const teachables = allPerks.filter(p => p.owner === character.name);
@@ -14091,18 +14133,18 @@
       return (
         <div className="fixed inset-0 z-50 bg-black/95 backdrop-blur-sm" onClick={onClose}>
           <div className="h-full overflow-y-auto custom-scrollbar" data-smoke-profile={character.id} onClick={e => e.stopPropagation()}>
-            <div className="max-w-lg mx-auto min-h-full">
+            <div className="max-w-2xl mx-auto min-h-full">
               {/* Hero Section */}
               <div className="relative px-6 pb-4" style={{ paddingTop: 'max(1.5rem, calc(env(safe-area-inset-top, 0px) + 0.75rem))' }}>
                 <button onClick={onClose} className="absolute right-4 z-10 p-2.5 rounded-full bg-white/10 hover:bg-white/20 transition-colors" style={{ top: 'max(1rem, calc(env(safe-area-inset-top, 0px) + 0.5rem))' }}>
                   <Icons.X width={20} height={20} className="text-white" />
                 </button>
                 <div className="flex items-center gap-5">
-                  <div className="w-28 h-28 rounded-2xl overflow-hidden border-2 flex-shrink-0 shadow-2xl" style={{ borderColor: accentColor, boxShadow: `0 0 30px ${accentColor}30` }}>
+                  <div className="w-28 h-28 rounded-2xl overflow-hidden border flex-shrink-0" style={{ borderColor: `${accentColor}55` }}>
                     <AssetFrame type={isKiller ? 'Killer' : 'Survivor'} size="fill" imageUrl={character.image} fallbackIcon={<Icons.User width={40} height={40} className="text-zinc-500" />} />
                   </div>
                   <div className="flex-1 min-w-0">
-                    <h1 className="text-2xl font-black text-white tracking-tight">{character.name}</h1>
+                    <h1 className="text-3xl text-white tracking-tight" style={{ fontFamily: 'var(--font-display)', fontWeight: 600, lineHeight: 1.05 }}>{character.name}</h1>
                     {character.realName && character.realName !== character.name && (
                       <p className="text-zinc-400 text-sm mt-0.5">{character.realName}</p>
                     )}
